@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* The body, h1, and welcome styles are mainly the defaults created by Middleman */
+body {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: 1em;
+}
+
+h1 {
+  color: rgba(0,0,0,0.5);
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* The gallery-container-div div wraps all gallery content (not the overlay), and thus can be safely moved to any location on the pgae, and galley content can be expected to follow it. */
+div#gallery-container-div {
+  width: 100%;
+  overflow: auto;
+}
+
+/* The gallery div renders at the width set for the gallery in config.rb, and ensures that it is centered with in the gallery-container-div div. */ 
+div#gallery {
+  width: <%= config[:GALLERY_WIDTH] %>px;
+  position: relative;
+  left: 50%;
+  margin-left: -<%= config[:GALLERY_WIDTH] / 2 %>px;
+}
+
+/* The gallery-overlay-div div fills the entire window but starts behind all other elements and with an opacity of 0. These change later in its animation. */
+div#gallery-overlay-div {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  background-color: rgba(0,0,0,.9);
+}
+
+/* All gallery overlay images are given a top margin equal to the image margins specified in config.rb */
+div#gallery-overlay-div img {
+  margin-top: <%= config[:IMAGE_MARGINS] %>px;
+  cursor: pointer;
+}
+
+/* The overlay-thumb-div is rendered above the bottom of the window by the number of pixels given as image margins in config.rb. It is set to overflow horizontally such that the list of thumbnails can be scrolled through. */
+div#overlay-thumb-div {
+  position: fixed;
+  top: 100vh;
+  margin-top: -<%= config[:IMAGE_MARGINS] * 2 + config[:OVERLAY_THUMB_HEIGHT] %>px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Each overlay thumbnail image is given a right margin equal to the image margins specified in config.rb. */
+div#overlay-thumb-div img {
+  display: inline;
+  margin-right: <%= config[:IMAGE_MARGINS] %>px;
+}
+
+/* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. */
+div.gallery-row img {
+  margin-bottom: <%= config[:IMAGE_MARGINS] %>px;
+}
+
+/* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. */
+div.gallery-row:last-child img {
+  margin-bottom: 0px;
+}
+
+/* Each image in each row makes the cursor a pointer (to appear as a link), displays as block and floats left (to fill the row in a well-behaved manner), and has a margin right equal to the image margins specified in config.rb. */
+div.gallery-row img {
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin-right: <%= config[:IMAGE_MARGINS] %>px;
+}
+
+/* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. */
+div.gallery-row img:last-child {
+  margin-right: 0px;
+}
+
+/* The gallery-overlay-div fades in (when called by the JavaScript). */
+@keyframes overlay-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* The gallery-overlay-div fades out (when called by the JavaScript). */
+@keyframes overlay-fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

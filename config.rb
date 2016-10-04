@@ -37,15 +37,15 @@ overlay_thumb_height = 100 #This is the height of the list of thumbnails used in
 galleries.each do |gallery_info|
   filename_matrix = []
   filenames = []
-  puts data.galleries[gallery_info["shortname"]]
-  data.galleries[gallery_info["shortname"]].each do |image|
-    filenames.append(image["filename"])
-  end
+  #puts data.galleries[gallery_info["shortname"]]
+  #data.galleries[gallery_info["shortname"]].each do |image|
+  #  filenames.append(image["filename"])
+  #end
 
-  puts "hey #{filenames}"
+  #puts "hey #{filenames}"
   gallery_folder = "galleries/#{gallery_info["shortname"]}"
   thumbs_folder = "thumbs"
-  curtiss_init(filename_matrix, filenames, gallery_folder, thumbs_folder, total_width, images_per_row, image_margins, width_adjustment)
+  #curtiss_init(filename_matrix, filenames, gallery_folder, thumbs_folder, total_width, images_per_row, image_margins, width_adjustment)
 	proxy "/galleries/#{gallery_info['shortname']}/index.html", "/templates/gallery.html", :locals => { :gallery_info => gallery_info, :filename_matrix => filename_matrix, :gallery_folder => gallery_folder, :thumbs_folder => thumbs_folder, :total_width => total_width, :images_per_row => images_per_row, :image_margins => image_margins, :width_adjustment => width_adjustment, :overlay_thumb_height => overlay_thumb_height}, :ignore => true
 end
 

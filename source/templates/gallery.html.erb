@@ -1,3 +1,4 @@
+<% puts "#{gallery_info["name"]} is being built." %>
 <div>
 	<p>I'm a gallery! Yay!</p>
 	<p><%= gallery_info["name"] %></p>
@@ -6,11 +7,13 @@
 		#THUMBS_FOLDER = "thumbs"
 
 		#filename_matrix = []
-		#filenames = []
-		#data.galleries[gallery_info["shortname"]].each do |image|
-		#	filenames.append(image["filename"])
-		#end
-		#curtiss_init(filename_matrix, filenames, GALLERY_FOLDER, THUMBS_FOLDER, total_width, images_per_row, image_margins, width_adjustment)
+		filenames = []
+		
+		data.galleries[gallery_info["shortname"]].each do |image|
+			filenames.append(image["filename"])
+		end
+		curtiss_init(filename_matrix, filenames, gallery_folder, thumbs_folder, total_width, images_per_row, image_margins, width_adjustment)
+		
 		imageLabel = 1
 		data.galleries[gallery_info["shortname"]].each do |image| %>
 			<p>
@@ -30,7 +33,6 @@
 			<div id="gallery">
 			<% galleryIndex = 0
 
-			puts gallery_info["name"]
 			puts filename_matrix
 
 			filename_matrix.each do |row| %>
