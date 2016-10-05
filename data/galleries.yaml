@@ -1,0 +1,10 @@
+---
+-
+  name: "Ecuador - Chimborazo"
+  shortname: "ecuador"
+  data-file: "data/galleries/ecuador.yaml"
+-
+  name: "Bolivia - Illimani"
+  shortname: "bolivia"
+  data-file: "data/galleries/bolivia.yaml"
+
