@@ -30,7 +30,7 @@
 
       window.onload = function () { //Wait for window to load
         galleryOverlayDiv = document.getElementById("gallery-overlay-div"); //The galleryOverlayDiv variable is set once, here.
-        galleryOverlayDiv.addEventListener("click", function () { closeOverlay() }); 
+        galleryOverlayDiv.addEventListener("click", function () { closeOverlay() });
         window.document.body.onload = loadGalleryImages(galleryFilenames); //Wait for body to load, then call function to load gallery images
       }
 
@@ -100,7 +100,7 @@
         setOverlayImage(event);
       }
 
-      //setOverlayImage scales the image passed to it such that it fills either the width of the galleryOverlayDiv or the height of the window minus the height of the thumbnail list minus three times the image margins used in the gallery (one for above the overlay image, one for between it and the thumbnail list, and one for below the thumbnail list), and then appends it to the gallery-overlay-image-div div. 
+      //setOverlayImage scales the image passed to it such that it fills either the width of the galleryOverlayDiv or the height of the window minus the height of the thumbnail list minus three times the image margins used in the gallery (one for above the overlay image, one for between it and the thumbnail list, and one for below the thumbnail list), and then appends it to the gallery-overlay-image-div div.
       function setOverlayImage(event) {
         var overlayImage = event.target.cloneNode();
         var widthRatio;
@@ -123,7 +123,7 @@
         if (scaleRatio > 1) {
           scaleRatio = 1;
         }
-        
+
         var imageWidth;
         var imageHeight;
         if (!!window.sidebar) { //Case for Firefox
@@ -159,9 +159,9 @@
         galleryOverlayDiv.style.animationFillMode = "forwards";
         galleryOverlayDiv.style.animationDuration = galleryOverlayFadeDuration.toString() + "s";
         galleryOverlayDiv.style.animationName = "overlay-fadeout";
-        setTimeout( function () { 
+        setTimeout( function () {
           galleryOverlayDiv.style.zIndex = "-1";
-          document.getElementById("gallery-overlay-image-div").innerHTML = ""; 
+          document.getElementById("gallery-overlay-image-div").innerHTML = "";
         }, galleryOverlayFadeDuration * 1000);
       }
 

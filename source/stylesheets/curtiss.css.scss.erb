@@ -2,7 +2,7 @@
 /* The body, h1, and welcome styles are mainly the defaults created by Middleman */
 body {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif; 
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
@@ -19,12 +19,12 @@ div#gallery-container-div {
   overflow: auto;
 }
 
-/* The gallery div renders at the width set for the gallery in config.rb, and ensures that it is centered with in the gallery-container-div div. */ 
+/* The gallery div renders at the width set for the gallery in config.rb, and ensures that it is centered with in the gallery-container-div div. */
 div#gallery {
-  width: <%= config[:GALLERY_WIDTH] %>px;
+  width: <%= total_width %>px;
   position: relative;
   left: 50%;
-  margin-left: -<%= config[:GALLERY_WIDTH] / 2 %>px;
+  margin-left: -<%= total_width / 2 %>px;
 }
 
 /* The gallery-overlay-div div fills the entire window but starts behind all other elements and with an opacity of 0. These change later in its animation. */
@@ -40,7 +40,7 @@ div#gallery-overlay-div {
 
 /* All gallery overlay images are given a top margin equal to the image margins specified in config.rb */
 div#gallery-overlay-div img {
-  margin-top: <%= config[:IMAGE_MARGINS] %>px;
+  margin-top: <%= image_margins %>px;
   cursor: pointer;
 }
 
@@ -48,7 +48,7 @@ div#gallery-overlay-div img {
 div#overlay-thumb-div {
   position: fixed;
   top: 100vh;
-  margin-top: -<%= config[:IMAGE_MARGINS] * 2 + config[:OVERLAY_THUMB_HEIGHT] %>px;
+  margin-top: -<%= image_margins * 2 + overlay_thumb_height %>px;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
@@ -57,12 +57,12 @@ div#overlay-thumb-div {
 /* Each overlay thumbnail image is given a right margin equal to the image margins specified in config.rb. */
 div#overlay-thumb-div img {
   display: inline;
-  margin-right: <%= config[:IMAGE_MARGINS] %>px;
+  margin-right: <%= image_margins %>px;
 }
 
 /* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. */
 div.gallery-row img {
-  margin-bottom: <%= config[:IMAGE_MARGINS] %>px;
+  margin-bottom: <%= image_margins %>px;
 }
 
 /* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. */
@@ -75,7 +75,7 @@ div.gallery-row img {
   cursor: pointer;
   display: block;
   float: left;
-  margin-right: <%= config[:IMAGE_MARGINS] %>px;
+  margin-right: <%= image_margins %>px;
 }
 
 /* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. */

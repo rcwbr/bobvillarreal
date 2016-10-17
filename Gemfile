@@ -10,5 +10,6 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
-
+gem 'middleman-livereload'
+gem 'middleman-compass', '>= 4.0.0'
 gem 'rmagick' #This must be added for the purpose of Curtiss's image processing script. 
