@@ -1,0 +1,20 @@
+Install Ruby: sudo apt-get install ruby-full
+Install RubyGems: 
+	1: https://rubygems.org/pages/download > TGZ
+	2: Extract into Downloads
+	3: cd ~/Downloads/rubygems-2.6.8/
+	4: sudo ruby setup.rb
+	5: cd [back to bobvillarreal]
+Ensure ImageMagick is installed: identify -version (should give result like: "Version: ImageMagick 6... etc. If not, follow instructions here: http://www.imagemagick.org/script/install-source.php)
+Install bundler: sudo gem install bundler
+-Install gems: bundle install (likely will throw an error for rmagick)
+-Update gems: sudo gem update
+Install libmagickwand-dev: sudo apt-get install libmagickwand-dev
+Reinstall gems including rmagick: bundle install (should be without errors)
+Update gems again: sudo gem update
+-Install v3.0 of uglifier: sudo gem install uglifier -v 3.0
+-Install v0.9.4 of rb-fsevent: sudo gem install rb-fsevent -v 0.9.4
+-Update bundle gems again: bundle update
+Clean up uglifier gem: sudo gem cleanup uglifier
+Clean up rb-fsevent gem: sudo gem cleanup rb-fsevent
+Install node.js: sudo apt-get install nodejs
