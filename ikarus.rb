@@ -1,6 +1,8 @@
 require "yaml"
 require "./curtiss_image_process.rb"
 
+IKARUS_VERBOSE = false
+
 IKARUS_DATA_PATH = "ikarus_data"
 GALLERIES_DATA_FILE = "galleries.yaml"
 GALLERIES_DATA_PATH = "galleries"
@@ -57,7 +59,7 @@ for gallery_counter in 0...galleries_info.length
     gallery_overlay_thumb_height = galleries_info[gallery_counter]["overlay_thumb_height"]
   end
 
-  puts "GALLERY: #{gallery_name} | #{gallery_shortname} | #{gallery_image_path} | #{gallery_thumb_folder_path} | #{gallery_total_width} | #{gallery_images_per_row} | #{gallery_image_margins} | #{gallery_width_adjustment} | #{gallery_overlay_thumb_height}"
+  puts "IKARUS: #{gallery_name} | #{gallery_shortname} | #{gallery_image_path} | #{gallery_thumb_folder_path} | #{gallery_total_width} | #{gallery_images_per_row} | #{gallery_image_margins} | #{gallery_width_adjustment} | #{gallery_overlay_thumb_height}" if IKARUS_VERBOSE
 
   gallery_image_filename_matrix = []
   gallery_image_filenames = []
@@ -66,6 +68,16 @@ for gallery_counter in 0...galleries_info.length
     image_caption = gallery_images_info[gallery_image_count]["caption"]
     gallery_image_filenames[gallery_image_count] = gallery_images_info[gallery_image_count]["filename"]
   end
-  
+
   curtiss_init(gallery_image_filename_matrix, gallery_image_filenames, gallery_image_path, gallery_thumb_folder_path, gallery_total_width, gallery_images_per_row, gallery_image_margins, gallery_width_adjustment)
+
+  if IKARUS_VERBOSE
+    for i in 0...gallery_image_filename_matrix.length
+      print "IKARUS: "
+      for j in 0...gallery_image_filename_matrix[i].length
+        print "#{gallery_image_filename_matrix[i][j]} "
+      end
+      puts ""
+    end
+  end
 end
