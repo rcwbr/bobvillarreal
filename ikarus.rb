@@ -4,6 +4,7 @@ require "./curtiss_image_process.rb"
 IKARUS_VERBOSE = false
 
 IKARUS_DATA_PATH = "ikarus_data"
+IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
 GALLERIES_DATA_FILE = "galleries.yaml"
 GALLERIES_DATA_PATH = "galleries"
 DEFAULT_GALLERY_IMAGE_PATH = "source/images/galleries"
@@ -21,6 +22,9 @@ galleries_info = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_FILE}")
 # image_margins = 10 #This is the number of pixels Curtiss will leave for margins BETWEEN images. It accounts for no margins around the gallery as a whole. It subtracts the number of pixels for margins times the ACTUAL number of images in the row (can be different than IMAGES_PER_ROW, as discussed above) from the TOTAL_WIDTH, and scales images in each row to fit that calculated width.
 # width_adjustment = 2.0 #This is a number of pixels left blank on each row by default. Try adjusting this if images are wrapping before the end of their rows. The reason for this wiggle room is because pixel counts must be integers, and when rounding from the calculations used to scale images, there is a possibility of more pixels in a row than the TOTAL_WIDTH.
 #overlay_thumb_height = 100 #This is the height of the list of thumbnails used in the overlay. This is not actually used by the image processing script, but it is the only other cofigurable variable used by the front end.
+
+galleries_json_file = File.open(IKARUS_OUTPUT_FILENAME, "w")
+galleries_json_file.write('{"galleries":[')
 
 for gallery_counter in 0...galleries_info.length
   gallery_name = galleries_info[gallery_counter]["name"]
@@ -60,6 +64,7 @@ for gallery_counter in 0...galleries_info.length
   end
 
   puts "IKARUS: #{gallery_name} | #{gallery_shortname} | #{gallery_image_path} | #{gallery_thumb_folder_path} | #{gallery_total_width} | #{gallery_images_per_row} | #{gallery_image_margins} | #{gallery_width_adjustment} | #{gallery_overlay_thumb_height}" if IKARUS_VERBOSE
+  galleries_json_file.write("{\"name\":\"#{gallery_name}\",\"shortname\":\"#{gallery_shortname}\",\"image_path\":\"#{gallery_image_path}\",\"thumb_folder_path\":\"#{gallery_thumb_folder_path}\",\"total_width\":\"#{gallery_total_width}\",\"images_per_row\":\"#{gallery_images_per_row}\",\"image_margins\":\"#{gallery_image_margins}\",\"width_adjustment\":\"#{gallery_width_adjustment}\",\"overlay_thumb_height\":\"#{gallery_overlay_thumb_height}\"")
 
   gallery_image_filename_matrix = []
   gallery_image_filenames = []
@@ -75,7 +80,17 @@ for gallery_counter in 0...galleries_info.length
     print "IKARUS: " if IKARUS_VERBOSE
     for j in 0...gallery_image_filename_matrix[i].length
       print "#{gallery_image_filename_matrix[i][j]} " if IKARUS_VERBOSE
+
     end
     puts "" if IKARUS_VERBOSE
   end
+
+  if gallery_counter + 1 < galleries_info.length
+    galleries_json_file.write("},")
+  else
+    galleries_json_file.write("}")
+  end
 end
+
+galleries_json_file.write("]}")
+galleries_json_file.close
