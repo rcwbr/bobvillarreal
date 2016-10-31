@@ -2,8 +2,8 @@
 -
   name: "Ecuador - Chimborazo"
   shortname: "ecuador"
-  data-file: "ecuador.yaml"
+  data_file: "ecuador.yaml"
 -
   name: "Bolivia - Illimani"
   shortname: "bolivia"
-  data-file: "bolivia.yaml"
+  data_file: "bolivia.yaml"
