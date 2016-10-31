@@ -4,6 +4,13 @@ require "./curtiss_image_process.rb"
 IKARUS_DATA_PATH = "ikarus_data"
 GALLERIES_DATA_FILE = "galleries.yaml"
 GALLERIES_DATA_PATH = "galleries"
+DEFAULT_GALLERY_IMAGE_PATH = "source/galleries"
+DEFAULT_GALLERY_THUMB_FOLDER_PATH = "thumbs"
+DEFAULT_GALLERY_TOTAL_WIDTH = 960
+DEFAULT_GALLERY_IMAGES_PER_ROW = 4
+DEFAULT_GALLERY_IMAGE_MARGINS = 10
+DEFAULT_GALLERY_WIDTH_ADJUSTMENT = 2
+DEFAULT_GALLERY_OVERLAY_THUMB_HEIGHT = 100
 
 galleries_data = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_FILE}")
 
@@ -14,12 +21,49 @@ galleries_data = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_FILE}")
 #overlay_thumb_height = 100 #This is the height of the list of thumbnails used in the overlay. This is not actually used by the image processing script, but it is the only other cofigurable variable used by the front end.
 
 for i in 0...galleries_data.length
-  gallery_shortname = galleries_data[i]["shortname"]
+  gallery_name = galleries_data[i]["name"]
   gallery_filename = galleries_data[i]["data-file"]
+
+  gallery_shortname = gallery_name
+  if galleries_data[i]["shortname"] != nil
+    gallery_shortname = galleries_data[i]["shortname"]
+  end
+  gallery_image_path = DEFAULT_GALLERY_IMAGE_PATH
+  if galleries_data[i]["image_path"] != nil
+    gallery_image_path = galleries_data[i]["image_path"]
+  end
+  gallery_thumb_folder_path = DEFAULT_GALLERY_THUMB_FOLDER_PATH
+  if galleries_data[i]["thumb_folder_path"] != nil
+    gallery_thumb_folder_path = galleries_data[i]["thumb_folder_path"]
+  end
+  gallery_total_width = DEFAULT_GALLERY_TOTAL_WIDTH
+  if galleries_data[i]["total_width"] != nil
+    gallery_total_width = galleries_data[i]["total_width"]
+  end
+  gallery_images_per_row = DEFAULT_GALLERY_IMAGES_PER_ROW
+  if galleries_data[i]["images_per_row"] != nil
+    gallery_images_per_row = galleries_data[i]["images_per_row"]
+  end
+  gallery_image_margins = DEFAULT_GALLERY_IMAGE_MARGINS
+  if galleries_data[i]["image_margins"] != nil
+    gallery_image_margins = galleries_data[i]["image_margins"]
+  end
+  gallery_width_adjustment = DEFAULT_GALLERY_WIDTH_ADJUSTMENT
+  if galleries_data[i]["width_adjustment"] != nil
+    gallery_width_adjustment = galleries_data[i]["width_adjustment"]
+  end
+  gallery_overlay_thumb_height = DEFAULT_GALLERY_OVERLAY_THUMB_HEIGHT
+  if galleries_data[i]["overlay_thumb_height"] != nil
+    gallery_overlay_thumb_height = galleries_data[i]["overlay_thumb_height"]
+  end
+
+  puts "GALLERY: #{gallery_name} | #{gallery_shortname} | #{gallery_image_path} | #{gallery_thumb_folder_path}"
+
+  gallery_filename_matrix = []
+
   gallery_data = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_PATH}/#{gallery_filename}")
-  puts "GALLERY: #{gallery_shortname}"
   for j in 0...gallery_data.length
     image_caption = gallery_data[j]["caption"]
-    puts "Caption: #{image_caption}"
   end
+  #curtiss_init(gallery, filenames, gallery_folder, thumbs_folder, total_width, images_per_row, image_margins, width_adjustment)
 end
