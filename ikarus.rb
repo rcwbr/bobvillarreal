@@ -71,13 +71,11 @@ for gallery_counter in 0...galleries_info.length
 
   curtiss_init(gallery_image_filename_matrix, gallery_image_filenames, gallery_image_path, gallery_thumb_folder_path, gallery_total_width, gallery_images_per_row, gallery_image_margins, gallery_width_adjustment)
 
-  if IKARUS_VERBOSE
-    for i in 0...gallery_image_filename_matrix.length
-      print "IKARUS: "
-      for j in 0...gallery_image_filename_matrix[i].length
-        print "#{gallery_image_filename_matrix[i][j]} "
-      end
-      puts ""
+  for i in 0...gallery_image_filename_matrix.length
+    print "IKARUS: " if IKARUS_VERBOSE
+    for j in 0...gallery_image_filename_matrix[i].length
+      print "#{gallery_image_filename_matrix[i][j]} " if IKARUS_VERBOSE
     end
+    puts "" if IKARUS_VERBOSE
   end
 end
