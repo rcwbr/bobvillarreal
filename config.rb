@@ -1,3 +1,4 @@
+require "json"
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -21,6 +22,7 @@ page "/galleries/*", :layout => "gallery"
 # General configuration
 
 activate :directory_indexes
+set :relative_links, true
 
 galleries = [
 	{ "name" => "Ecuador - Chimborazo", "shortname" => "ecuador", "data-file" => "data/galleries/ecuador.yaml" },
@@ -28,7 +30,7 @@ galleries = [
 ]
 galleries.each do |gallery_info|
 	#, :locals => { , :filename_matrix => filename_matrix, :gallery_folder => gallery_folder, :thumbs_folder => thumbs_folder, :total_width => total_width, :images_per_row => images_per_row, :image_margins => image_margins, :width_adjustment => width_adjustment, :overlay_thumb_height => overlay_thumb_height}
-	filename_matrix = [["image1.jpg", "image2.jpg"]]
+	filename_matrix = [["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"]]
 	gallery_folder = "galleries/ecuador"
 	thumbs_folder	= "thumbs"
 	total_width = 960
