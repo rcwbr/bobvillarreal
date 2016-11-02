@@ -8,8 +8,8 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= gallery_info["name"] || "Gallery" %><%= " | Bob Villarreal"%></title>
 
-    <%= javascript_include_tag :all, :relative => true %>
-    <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js", :relative => true %> <!-- This imports the dragscroll.js file to every page using this layout. -->
+    <%= javascript_include_tag :all %>
+    <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
     <style>
       @charset "utf-8";
       /* The body, h1, and welcome styles are mainly the defaults created by Middleman */
@@ -144,7 +144,8 @@
           for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
             var filename = galleryFilenames[rowIndex][colIndex];
             var imageObject = document.createElement("IMG");
-            imageObject.setAttribute("src", "../../images/<%= gallery_folder %>/" + filename);
+            alert("<%= gallery_folder %>/");
+            imageObject.setAttribute("src", "<%= gallery_folder %>/" + filename);
             imageObject.setAttribute("galleryIndex", galleryIndex);
 
             var thumb = document.getElementById("galleryIndex" + galleryIndex);

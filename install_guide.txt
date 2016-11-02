@@ -1,5 +1,5 @@
 Install Ruby: sudo apt-get install ruby-full
-Install RubyGems: 
+Install RubyGems:
 	1: https://rubygems.org/pages/download > TGZ
 	2: Extract into Downloads
 	3: cd ~/Downloads/rubygems-2.6.8/
@@ -18,3 +18,10 @@ Update gems again: sudo gem update
 Clean up uglifier gem: sudo gem cleanup uglifier
 Clean up rb-fsevent gem: sudo gem cleanup rb-fsevent
 Install node.js: sudo apt-get install nodejs
+
+Node server:
+cd [bobvillarreal]
+npm init
+npm install connect serve-static
+Run:
+node local_serve.js

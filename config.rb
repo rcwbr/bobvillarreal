@@ -22,16 +22,18 @@ page "/galleries/*", :layout => "gallery"
 # General configuration
 
 activate :directory_indexes
-set :relative_links, true
 
-galleries = [
-	{ "name" => "Ecuador - Chimborazo", "shortname" => "ecuador", "data-file" => "data/galleries/ecuador.yaml" },
-	{ "name" => "Bolivia - Illimani", "shortname" => "bolivia", "data-file" => "data/galleries/bolivia.yaml" }
-]
+galleries = JSON.parse(File.read("ikarus_galleries.json"));
+
+#galleries = [
+#	{ "name" => "Ecuador - Chimborazo", "shortname" => "ecuador", "data-file" => "data/galleries/ecuador.yaml" },
+#	{ "name" => "Bolivia - Illimani", "shortname" => "bolivia", "data-file" => "data/galleries/bolivia.yaml" }
+#]
 galleries.each do |gallery_info|
+	puts "GALLERY: #{gallery_info["name"]} | #{gallery_info["shortname"]} | #{gallery_info["images_path"]}"
 	#, :locals => { , :filename_matrix => filename_matrix, :gallery_folder => gallery_folder, :thumbs_folder => thumbs_folder, :total_width => total_width, :images_per_row => images_per_row, :image_margins => image_margins, :width_adjustment => width_adjustment, :overlay_thumb_height => overlay_thumb_height}
-	filename_matrix = [["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"]]
-	gallery_folder = "galleries/ecuador"
+	filename_matrix = [["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],["image5.jpg"]]
+	gallery_folder =  gallery_info["images_path"] #"galleries/ecuador"
 	thumbs_folder	= "thumbs"
 	total_width = 960
 	images_per_row = 4

@@ -10,8 +10,9 @@ GALLERIES_DATA_FILE = "galleries.yaml"
 GALLERIES_DATA_PATH = "galleries"
 
 GALLERY_DEFAULTS = {
-  "image_path" => "source/images/galleries",
-  "thumb_folder_path" => "thumbs",
+  "images_path" => "images/galleries",
+  "source_path" => "source",
+  "thumbs_folder_path" => "thumbs",
   "total_width" => 960,  #This is the width (in pixel) which Curtiss will make each row fit within. It also sets a number of style attributes from elsewhere in Middleman, where it is accessed by the config[:TOTAL_WIDTH] variable (see below).
   "images_per_row" => 4, #This is the number of images Curtiss will attempt to place on each row. If the imagesprocessed are not wide enough, it will add to this number until it fills the row. This is also accessed elsewhere in Middleman.
   "image_margins" => 10, #This is the number of pixels Curtiss will leave for margins BETWEEN images. It accounts for no margins around the gallery as a whole. It subtracts the number of pixels for margins times the ACTUAL number of images in the row (can be different than IMAGES_PER_ROW, as discussed above) from the TOTAL_WIDTH, and scales images in each row to fit that calculated width.
@@ -27,8 +28,8 @@ for gallery_counter in 0...galleries_info.length
   if galleries_info[gallery_counter]["shortname"] == nil
     galleries_info[gallery_counter]["shortname"] = galleries_info[gallery_counter]["name"]
   end
-  if galleries_info[gallery_counter]["image_path"] == nil
-    galleries_info[gallery_counter]["image_path"] = "#{GALLERY_DEFAULTS["image_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
+  if galleries_info[gallery_counter]["images_path"] == nil
+    galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
   end
 
   for defaults_counter in 1...GALLERY_DEFAULTS.keys.length
@@ -37,7 +38,7 @@ for gallery_counter in 0...galleries_info.length
     end
   end
 
-  puts "IKARUS: #{galleries_info[gallery_counter]["name"]} | #{galleries_info[gallery_counter]["shortname"]} | #{galleries_info[gallery_counter]["thumb_folder_path"]} | #{galleries_info[gallery_counter]["total_width"]} | #{galleries_info[gallery_counter]["images_per_row"]} | #{galleries_info[gallery_counter]["image_margins"]} | #{galleries_info[gallery_counter]["width_adjustment"]}" if IKARUS_VERBOSE
+  puts "IKARUS: #{galleries_info[gallery_counter]["name"]} | #{galleries_info[gallery_counter]["shortname"]} | #{galleries_info[gallery_counter]["source_path"]} | #{galleries_info[gallery_counter]["images_path"]} | #{galleries_info[gallery_counter]["thumbs_folder_path"]} | #{galleries_info[gallery_counter]["total_width"]} | #{galleries_info[gallery_counter]["images_per_row"]} | #{galleries_info[gallery_counter]["image_margins"]} | #{galleries_info[gallery_counter]["width_adjustment"]}" if IKARUS_VERBOSE
 
   galleries_info[gallery_counter]["image_filename_matrix"] = []
   gallery_image_filenames = []
@@ -47,7 +48,7 @@ for gallery_counter in 0...galleries_info.length
     gallery_image_filenames[gallery_image_count] = gallery_images_info[gallery_image_count]["filename"]
   end
 
-  curtiss_init(galleries_info[gallery_counter]["image_filename_matrix"], gallery_image_filenames, galleries_info[gallery_counter]["image_path"], galleries_info[gallery_counter]["thumb_folder_path"], galleries_info[gallery_counter]["total_width"], galleries_info[gallery_counter]["images_per_row"], galleries_info[gallery_counter]["image_margins"], galleries_info[gallery_counter]["width_adjustment"])
+  curtiss_init(galleries_info[gallery_counter]["image_filename_matrix"], gallery_image_filenames, "#{galleries_info[gallery_counter]["source_path"]}/#{galleries_info[gallery_counter]["images_path"]}", galleries_info[gallery_counter]["thumbs_folder_path"], galleries_info[gallery_counter]["total_width"], galleries_info[gallery_counter]["images_per_row"], galleries_info[gallery_counter]["image_margins"], galleries_info[gallery_counter]["width_adjustment"])
 
   for i in 0...galleries_info[gallery_counter]["image_filename_matrix"].length
     print "IKARUS: " if IKARUS_VERBOSE
