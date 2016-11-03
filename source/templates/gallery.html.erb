@@ -7,10 +7,10 @@
 		<div id="gallery-container-div">
 			<div id="gallery">
 			<% galleryIndex = 0
-			filename_matrix.each do |row| %>
+			gallery_info["image_filename_matrix"].each do |row| %>
 	    	<div class="gallery-row">
 	    	<% row.each do |filename| %>
-					<%= image_tag gallery_folder + "/" + thumbs_folder + "/" + filename, options = {"id" => "galleryIndex" + galleryIndex.to_s} %>
+					<%= image_tag gallery_info["images_path"] + "/" + gallery_info["thumbs_folder_path"] + "/" + filename, options = {"id" => "galleryIndex" + galleryIndex.to_s} %>
 		  		<% galleryIndex += 1
 		  	end %>
 		  	</div>

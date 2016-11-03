@@ -34,10 +34,10 @@
 
       /* The gallery div renders at the width set for the gallery in config.rb, and ensures that it is centered with in the gallery-container-div div. */
       div#gallery {
-        width: <%= total_width %>px;
+        width: <%= gallery_info["total_width"] %>px;
         position: relative;
         left: 50%;
-        margin-left: -<%= total_width / 2 %>px;
+        margin-left: -<%= gallery_info["total_width"] / 2 %>px;
       }
 
       /* The gallery-overlay-div div fills the entire window but starts behind all other elements and with an opacity of 0. These change later in its animation. */
@@ -53,7 +53,7 @@
 
       /* All gallery overlay images are given a top margin equal to the image margins specified in config.rb */
       div#gallery-overlay-div img {
-        margin-top: <%= image_margins %>px;
+        margin-top: <%= gallery_info["image_margins"] %>px;
         cursor: pointer;
       }
 
@@ -61,7 +61,7 @@
       div#overlay-thumb-div {
         position: fixed;
         top: 100vh;
-        margin-top: -<%= image_margins * 2 + overlay_thumb_height %>px;
+        margin-top: -<%= gallery_info["image_margins"] * 2 + gallery_info["overlay_thumb_height"] %>px;
         width: 100%;
         overflow-x: auto;
         white-space: nowrap;
@@ -70,12 +70,12 @@
       /* Each overlay thumbnail image is given a right margin equal to the image margins specified in config.rb. */
       div#overlay-thumb-div img {
         display: inline;
-        margin-right: <%= image_margins %>px;
+        margin-right: <%= gallery_info["image_margins"] %>px;
       }
 
       /* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. */
       div.gallery-row img {
-        margin-bottom: <%= image_margins %>px;
+        margin-bottom: <%= gallery_info["image_margins"] %>px;
       }
 
       /* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. */
@@ -88,7 +88,7 @@
         cursor: pointer;
         display: block;
         float: left;
-        margin-right: <%= image_margins %>px;
+        margin-right: <%= gallery_info["image_margins"] %>px;
       }
 
       /* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. */
@@ -118,11 +118,11 @@
     <script>
       gallery = []; //Not to be confused with the config[:gallery] variable; this global variable stores the image objects in a linear manner.
       galleryOverlayDiv = null; //This is a global variable to store the gallery-overlay-div element to avoid excessive calls to the document.getElementById() function. It is assigned in the window.onload function.
-      navBarHeight = <%= overlay_thumb_height %>; //This is a global variable for the height of the list of thumbnails in the overlay.
+      navBarHeight = <%= gallery_info["overlay_thumb_height"] %>; //This is a global variable for the height of the list of thumbnails in the overlay.
       galleryOverlayFadeDuration = .5; //This is a global variable for the duration of the fade animations for the gallery overlay.
 
       var galleryFilenames = [ //assemble matrix of filenames from Middleman config variable.
-        <% filename_matrix.each do |row| %>
+        <% gallery_info["image_filename_matrix"].each do |row| %>
         [
           <% row.each do |filename| %>
             "<%= filename %>",
@@ -144,7 +144,7 @@
           for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
             var filename = galleryFilenames[rowIndex][colIndex];
             var imageObject = document.createElement("IMG");
-            imageObject.setAttribute("src", "<%= gallery_folder %>/" + filename);
+            imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
             imageObject.setAttribute("galleryIndex", galleryIndex);
 
             var thumb = document.getElementById("galleryIndex" + galleryIndex);
@@ -237,7 +237,7 @@
           imageWidth = overlayImage.naturalWidth * scaleRatio;
           imageHeight = overlayImage.naturalHeight * scaleRatio;
         }
-        var marginTop = ((window.innerHeight - navBarHeight) - imageHeight) / 2 - <%= image_margins %>;
+        var marginTop = ((window.innerHeight - navBarHeight) - imageHeight) / 2 - <%= gallery_info["image_margins"] %>;
 
         overlayImage.setAttribute("width", imageWidth);
         overlayImage.setAttribute("height", imageHeight);
