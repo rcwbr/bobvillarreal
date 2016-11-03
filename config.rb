@@ -23,6 +23,8 @@ page "/galleries/*", :layout => "gallery"
 
 activate :directory_indexes
 
+SITE_ROOT_PATH = "../"
+CONFIG_VERBOSE = true
 galleries = JSON.parse(File.read("ikarus_galleries.json"));
 
 #galleries = [
@@ -30,20 +32,19 @@ galleries = JSON.parse(File.read("ikarus_galleries.json"));
 #	{ "name" => "Bolivia - Illimani", "shortname" => "bolivia", "data-file" => "data/galleries/bolivia.yaml" }
 #]
 galleries.each do |gallery_info|
-	puts "GALLERY: #{gallery_info["name"]} | #{gallery_info["shortname"]} | #{gallery_info["images_path"]}"
+	puts "GALLERY: Name: #{gallery_info["name"]} | Short Name: #{gallery_info["shortname"]} | Images Path: #{gallery_info["images_path"]} | Thumbs Folder Path: #{gallery_info["thumbs_folder_path"]} | Total Width: #{gallery_info["total_width"]} | Images Per Row: #{gallery_info["images_per_row"]} | Image Margins: #{gallery_info["image_margins"]} | Width Adjustment: #{gallery_info["width_adjustment"]} | Overlay Thumbnail Height: #{gallery_info["overlay_thumb_height"]}" if CONFIG_VERBOSE
+	puts "GALLERY: Image Filename Matrix: #{gallery_info["image_filename_matrix"]}" if CONFIG_VERBOSE
 	#, :locals => { , :filename_matrix => filename_matrix, :gallery_folder => gallery_folder, :thumbs_folder => thumbs_folder, :total_width => total_width, :images_per_row => images_per_row, :image_margins => image_margins, :width_adjustment => width_adjustment, :overlay_thumb_height => overlay_thumb_height}
-	filename_matrix = [["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],["image5.jpg"]]
-	gallery_folder =  gallery_info["images_path"] #"galleries/ecuador"
-	thumbs_folder	= "thumbs"
-	total_width = 960
-	images_per_row = 4
-	image_margins = 10
-	width_adjustment = 10
-	overlay_thumb_height = 100
-	proxy "/galleries/#{gallery_info['shortname']}/index.html", "/templates/gallery.html", :locals => { :gallery_info => gallery_info, :filename_matrix => filename_matrix, :gallery_folder => gallery_folder, :thumbs_folder => thumbs_folder, :total_width => total_width, :images_per_row => images_per_row, :image_margins => image_margins, :width_adjustment => width_adjustment, :overlay_thumb_height => overlay_thumb_height }, :ignore => true
+	filename_matrix = gallery_info["image_filename_matrix"]
+	gallery_folder = "#{SITE_ROOT_PATH}#{gallery_info["images_path"]}" #"galleries/ecuador"
+	thumbs_folder	= gallery_info["thumbs_folder_path"]
+	total_width = gallery_info["total_width"]
+	images_per_row = gallery_info["images_per_row"]
+	image_margins = gallery_info["image_margins"]
+	width_adjustment = gallery_info["width_adjustment"]
+	overlay_thumb_height = gallery_info["overlay_thumb_height"]
+	proxy "/galleries/#{gallery_info["shortname"]}/index.html", "/templates/gallery.html", :locals => { :gallery_info => gallery_info, :filename_matrix => filename_matrix, :gallery_folder => gallery_folder, :thumbs_folder => thumbs_folder, :total_width => total_width, :images_per_row => images_per_row, :image_margins => image_margins, :width_adjustment => width_adjustment, :overlay_thumb_height => overlay_thumb_height }, :ignore => true
 end
-
-
 
 ###
 # Helpers

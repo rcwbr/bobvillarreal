@@ -144,7 +144,6 @@
           for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
             var filename = galleryFilenames[rowIndex][colIndex];
             var imageObject = document.createElement("IMG");
-            alert("<%= gallery_folder %>/");
             imageObject.setAttribute("src", "<%= gallery_folder %>/" + filename);
             imageObject.setAttribute("galleryIndex", galleryIndex);
 
