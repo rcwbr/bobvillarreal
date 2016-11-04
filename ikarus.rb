@@ -67,5 +67,5 @@ for gallery_counter in 0...galleries_info.length
 
 end
 
-galleries_json_file.write(galleries_info.to_json())
+galleries_json_file.write(JSON.pretty_generate(galleries_info))
 galleries_json_file.close

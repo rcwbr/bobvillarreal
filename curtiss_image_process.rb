@@ -9,16 +9,16 @@ def curtiss_init(gallery, images_info, gallery_folder, thumbs_folder, total_widt
   while index + images_per_row <= images_info.length do
     minHeight = nil
     for i in index..index + images_per_row - 1
-      filename = images_info[i]["filename"]
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[i]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentHeight = currentImage.first.rows
       minHeight = currentHeight if (minHeight == nil or currentHeight < minHeight)
     end
 
     width = 0.0
     for i in index..index + images_per_row - 1
-      filename = images_info[i]["filename"]
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[i]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentWidth = currentImage.first.columns
       currentHeight = currentImage.first.rows
       width += currentWidth * minHeight/currentHeight
@@ -27,8 +27,8 @@ def curtiss_init(gallery, images_info, gallery_folder, thumbs_folder, total_widt
     imagesToAdd = 0
     while width < total_width
       imagesToAdd += 1
-      filename = images_info[index + images_per_row + imagesToAdd]["filename"]
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[index + images_per_row + imagesToAdd]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentWidth = currentImage.first.columns
       currentHeight = currentImage.first.rows
       width += currentWidth * minHeight/currentHeight
@@ -38,15 +38,12 @@ def curtiss_init(gallery, images_info, gallery_folder, thumbs_folder, total_widt
 
     row = []
     for i in index..index + images_per_row + imagesToAdd - 1
-      filename = images_info[i]["filename"]
-      image = {}
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[i]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentHeight = currentImage.first.rows
       scaleRatio = widthRatio * minHeight/currentHeight
       thumbnail = currentImage.scale(scaleRatio)
-      thumbnail.write(gallery_folder + "/" + thumbs_folder + "/" + filename)
-      image["filename"] = filename
-      image["caption"] = images_info[i]["caption"]
+      thumbnail.write(gallery_folder + "/" + thumbs_folder + "/" + image["filename"])
       row.push(image)
     end
     gallery.push(row)
@@ -56,16 +53,16 @@ def curtiss_init(gallery, images_info, gallery_folder, thumbs_folder, total_widt
 
   if index < images_info.length
     for i in index..images_info.length - 1
-      filename = images_info[i]["filename"]
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[i]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentHeight = currentImage.first.rows
       minHeight = currentHeight if (minHeight == nil or currentHeight < minHeight)
     end
 
     width = 0.0
     for i in index..images_info.length - 1
-      filename = images_info[i]["filename"]
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[i]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentWidth = currentImage.first.columns
       currentHeight = currentImage.first.rows
       width += currentWidth * minHeight/currentHeight
@@ -75,15 +72,12 @@ def curtiss_init(gallery, images_info, gallery_folder, thumbs_folder, total_widt
 
     row = []
     for i in index..images_info.length - 1
-      filename = images_info[i]["filename"]
-      image = {}
-      currentImage = Magick::ImageList.new(gallery_folder + "/" + filename)
+      image = images_info[i]
+      currentImage = Magick::ImageList.new(gallery_folder + "/" + image["filename"])
       currentHeight = currentImage.first.rows
       scaleRatio = widthRatio * minHeight/currentHeight
       thumbnail = currentImage.scale(scaleRatio)
-      thumbnail.write(gallery_folder + "/" + thumbs_folder + "/" + filename)
-      image["filename"] = filename
-      image["caption"] = images_info[i]["caption"]
+      thumbnail.write(gallery_folder + "/" + thumbs_folder + "/" + image["filename"])
       row.push(image)
     end
     gallery.push(row)
@@ -91,8 +85,8 @@ def curtiss_init(gallery, images_info, gallery_folder, thumbs_folder, total_widt
 
   if CURTISS_VERBOSE
     gallery.each do |row|
-      row.each do |filename|
-        puts "CURTISS: #{filename}"
+      row.each do |image|
+        puts "CURTISS: #{image}"
       end
     end
   end
