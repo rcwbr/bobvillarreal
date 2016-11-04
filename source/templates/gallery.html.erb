@@ -10,7 +10,9 @@
 			gallery_info["image_matrix"].each do |row| %>
 	    	<div class="gallery-row">
 	    	<% row.each do |image| %>
-					<%= image_tag gallery_info["images_path"] + "/" + gallery_info["thumbs_folder_path"] + "/" + image["filename"], options = {"id" => "galleryIndex" + galleryIndex.to_s, "caption" => image["caption"] } %>
+					<div class="gallery-thumb-div">
+						<%= image_tag gallery_info["images_path"] + "/" + gallery_info["thumbs_folder_path"] + "/" + image["filename"], options = {"id" => "galleryIndex" + galleryIndex.to_s, "caption" => image["caption"] } %>
+					</div>
 					<% galleryIndex += 1
 		  	end %>
 		  	</div>

@@ -73,13 +73,23 @@
         margin-right: <%= gallery_info["image_margins"] %>px;
       }
 
-      /* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. */
+      div.gallery-thumb-div {
+        display: inline-block;
+        float: left;
+      }
+      /* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. *
       div.gallery-row img {
+        margin-bottom: <%= gallery_info["image_margins"] %>px;
+      }*/
+      div.gallery-row div.gallery-thumb-div {
         margin-bottom: <%= gallery_info["image_margins"] %>px;
       }
 
-      /* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. */
+      /* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. *
       div.gallery-row:last-child img {
+        margin-bottom: 0px;
+      }*/
+      div.gallery-row:last-child div.gallery-thumb-div {
         margin-bottom: 0px;
       }
 
@@ -87,12 +97,17 @@
       div.gallery-row img {
         cursor: pointer;
         display: block;
-        float: left;
+        /*margin-right: <%= gallery_info["image_margins"] %>px;*/
+      }
+      div.gallery-row div.gallery-thumb-div {
         margin-right: <%= gallery_info["image_margins"] %>px;
       }
 
-      /* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. */
+      /* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. *
       div.gallery-row img:last-child {
+        margin-right: 0px;
+      }*/
+      div.gallery-row div.gallery-thumb-div:last-child {
         margin-right: 0px;
       }
 
@@ -154,7 +169,7 @@
           for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
             var filename = galleryFilenames[rowIndex][colIndex];
             var caption = galleryCaptions[rowIndex][colIndex];
-            alert(caption);
+            //alert(caption);
             var imageObject = document.createElement("IMG");
             imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
             imageObject.setAttribute("caption", caption);
