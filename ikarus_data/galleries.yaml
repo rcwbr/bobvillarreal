@@ -3,6 +3,7 @@
   name: "Ecuador - Chimborazo"
   shortname: "ecuador"
   filename: "ecuador.yaml"
+  label-prefix: "E"
 -
   name: "Bolivia - Illimani"
   shortname: "bolivia"
