@@ -74,21 +74,17 @@
       }
 
       div.gallery-thumb-div {
-        display: inline-block;
+        position: relative; /*for absolute positioning of thumb-label-divs*/
+        display: inline-block; /*sets dimensions of div to cleanly wrap contents*/
         float: left;
+        text-align: left; /*align thumb-label-divs left*/
       }
-      /* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. *
-      div.gallery-row img {
-        margin-bottom: <%= gallery_info["image_margins"] %>px;
-      }*/
+      /* Each image in the gallery is given a bottom margin equal to the image margins specified in config.rb. */
       div.gallery-row div.gallery-thumb-div {
         margin-bottom: <%= gallery_info["image_margins"] %>px;
       }
 
-      /* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. *
-      div.gallery-row:last-child img {
-        margin-bottom: 0px;
-      }*/
+      /* The last row of images in the gallery are given no bottom margin. This is in accordance with the gallery div having no margins around it. */
       div.gallery-row:last-child div.gallery-thumb-div {
         margin-bottom: 0px;
       }
@@ -97,18 +93,25 @@
       div.gallery-row img {
         cursor: pointer;
         display: block;
-        /*margin-right: <%= gallery_info["image_margins"] %>px;*/
       }
       div.gallery-row div.gallery-thumb-div {
         margin-right: <%= gallery_info["image_margins"] %>px;
       }
 
-      /* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. *
-      div.gallery-row img:last-child {
-        margin-right: 0px;
-      }*/
+      /* The last image in each row is given no right margin. This is in accordance with the gallery div having no margins around it. */
       div.gallery-row div.gallery-thumb-div:last-child {
         margin-right: 0px;
+      }
+
+      div.thumb-label-div {
+        position: absolute; /*sets label divs to remain within existing gallery-thumb-div dimensions. Relies on gallery-thumb-divs' relative positioning.*/
+        bottom: 0px; /*align thumb-label-divs to bottom*/
+        display: inline-block; /*wrap contents (p) cleanly*/
+        background-color: black;
+        color: white;
+      }
+      p.thumb-label {
+        margin: 0px;
       }
 
       /* The gallery-overlay-div fades in (when called by the JavaScript). */

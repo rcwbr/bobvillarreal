@@ -12,6 +12,7 @@
 	    	<% row.each do |image| %>
 					<div class="gallery-thumb-div">
 						<%= image_tag gallery_info["images_path"] + "/" + gallery_info["thumbs_folder_path"] + "/" + image["filename"], options = {"id" => "galleryIndex" + galleryIndex.to_s, "caption" => image["caption"] } %>
+						<div class="thumb-label-div"><p class="thumb-label"><%= "#{gallery_info["label-prefix"]}.#{image["label"]}"%></p></div>
 					</div>
 					<% galleryIndex += 1
 		  	end %>
