@@ -29,7 +29,7 @@ galleries = JSON.parse(File.read("ikarus_galleries.json"));
 
 galleries.each do |gallery_info|
 	puts "GALLERY: Name: #{gallery_info["name"]} | Short Name: #{gallery_info["shortname"]} | Images Path: #{gallery_info["images_path"]} | Thumbs Folder Path: #{gallery_info["thumbs_folder_path"]} | Total Width: #{gallery_info["total_width"]} | Images Per Row: #{gallery_info["images_per_row"]} | Image Margins: #{gallery_info["image_margins"]} | Width Adjustment: #{gallery_info["width_adjustment"]} | Overlay Thumbnail Height: #{gallery_info["overlay_thumb_height"]}" if CONFIG_VERBOSE
-	puts "GALLERY: Image Filename Matrix: #{gallery_info["image_filename_matrix"]}" if CONFIG_VERBOSE
+	puts "GALLERY: Image Filename Matrix: #{gallery_info["image_matrix"]}" if CONFIG_VERBOSE
 	gallery_info["images_path"] = "#{SITE_ROOT_PATH}#{gallery_info["images_path"]}"
 	proxy "/galleries/#{gallery_info["shortname"]}/index.html", "/templates/gallery.html", :locals => { :gallery_info => gallery_info }, :ignore => true
 end

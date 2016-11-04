@@ -1,2 +1,4 @@
+ruby ikarus.rb
+echo "Completed Ikarus script"
 middleman build
-echo "I AM IKARUS"
+echo "Completed Middleman build"

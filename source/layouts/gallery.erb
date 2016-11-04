@@ -122,10 +122,20 @@
       galleryOverlayFadeDuration = .5; //This is a global variable for the duration of the fade animations for the gallery overlay.
 
       var galleryFilenames = [ //assemble matrix of filenames from Middleman config variable.
-        <% gallery_info["image_filename_matrix"].each do |row| %>
+        <% gallery_info["image_matrix"].each do |row| %>
         [
-          <% row.each do |filename| %>
-            "<%= filename %>",
+          <% row.each do |image| %>
+            "<%= image['filename'] %>",
+          <% end %>
+        ],
+        <% end %>
+      ];
+
+      var galleryCaptions = [ //assemble matrix of captions from Middleman config variable.
+        <% gallery_info["image_matrix"].each do |row| %>
+        [
+          <% row.each do |image| %>
+            "<%= image['caption'] %>",
           <% end %>
         ],
         <% end %>
@@ -143,8 +153,11 @@
         for (var rowIndex = 0; rowIndex < galleryFilenames.length; rowIndex ++) {
           for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
             var filename = galleryFilenames[rowIndex][colIndex];
+            var caption = galleryCaptions[rowIndex][colIndex];
+            alert(caption);
             var imageObject = document.createElement("IMG");
             imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
+            imageObject.setAttribute("caption", caption);
             imageObject.setAttribute("galleryIndex", galleryIndex);
 
             var thumb = document.getElementById("galleryIndex" + galleryIndex);
