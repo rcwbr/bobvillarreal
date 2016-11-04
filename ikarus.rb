@@ -47,11 +47,16 @@ for gallery_counter in 0...galleries_info.length
   galleries_info[gallery_counter]["image_matrix"] = []
 
   gallery_images_info = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_PATH}/#{galleries_info[gallery_counter]["filename"]}")
+  label_counter = 1
   for image_counter in 0...gallery_images_info.length
     for images_defaults_counter in 0...IMAGE_DEFAULTS.length
       if gallery_images_info[image_counter][IMAGE_DEFAULTS.keys[images_defaults_counter]] == nil
         gallery_images_info[image_counter][IMAGE_DEFAULTS.keys[images_defaults_counter]] = IMAGE_DEFAULTS[IMAGE_DEFAULTS.keys[images_defaults_counter]]
       end
+    end
+    if gallery_images_info[image_counter]["label"] == nil
+      gallery_images_info[image_counter]["label"] = label_counter.to_s
+      label_counter += 1
     end
   end
 
