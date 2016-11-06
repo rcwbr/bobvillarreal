@@ -57,6 +57,19 @@
         cursor: pointer;
       }
 
+      div#caption-container-div {
+        width: <%= gallery_info["total_width"] %>px;
+        position: relative;
+        left: 50%;
+        margin-left: -<%= gallery_info["total_width"] / 2 %>px;
+      }
+      p#caption {
+        text-align: left;
+        color: white;
+        margin-top: <%= gallery_info["image_margins"] %>px;
+        margin-bottom: <%= gallery_info["image_margins"] %>px;
+      }
+
       /* The overlay-thumb-div is rendered above the bottom of the window by the number of pixels given as image margins in config.rb. It is set to overflow horizontally such that the list of thumbnails can be scrolled through. */
       div#overlay-thumb-div {
         position: fixed;
@@ -137,7 +150,7 @@
       gallery = []; //Not to be confused with the config[:gallery] variable; this global variable stores the image objects in a linear manner.
       galleryOverlayDiv = null; //This is a global variable to store the gallery-overlay-div element to avoid excessive calls to the document.getElementById() function. It is assigned in the window.onload function.
       navBarHeight = <%= gallery_info["overlay_thumb_height"] %>; //This is a global variable for the height of the list of thumbnails in the overlay.
-      galleryOverlayFadeDuration = .5; //This is a global variable for the duration of the fade animations for the gallery overlay.
+      galleryOverlayFadeDuration = .3; //This is a global variable for the duration of the fade animations for the gallery overlay.
 
       var galleryFilenames = [ //assemble matrix of filenames from Middleman config variable.
         <% gallery_info["image_matrix"].each do |row| %>
@@ -237,15 +250,27 @@
       //setOverlayImage scales the image passed to it such that it fills either the width of the galleryOverlayDiv or the height of the window minus the height of the thumbnail list minus three times the image margins used in the gallery (one for above the overlay image, one for between it and the thumbnail list, and one for below the thumbnail list), and then appends it to the gallery-overlay-image-div div.
       function setOverlayImage(event) {
         var overlayImage = event.target.cloneNode();
+
+        var caption = document.createElement("p");
+        caption.id = "caption";
+        caption.innerHTML = overlayImage.getAttribute("caption");
+        var captionDiv = document.createElement("div");
+        captionDiv.id = "caption-container-div";
+        captionDiv.appendChild(caption);
+
+        document.getElementById("gallery-overlay-image-div").appendChild(captionDiv);
+        //alert(captionDiv.offsetHeight);
+
         var widthRatio;
         var heightRatio;
         if (!!window.sidebar) { //Case for Firefox
           widthRatio = event.target.naturalWidth / galleryOverlayDiv.offsetWidth;
-          heightRatio = event.target.naturalHeight / (window.innerHeight - navBarHeight - 3 * 10);
+          heightRatio = event.target.naturalHeight / (window.innerHeight - navBarHeight - 3 * 10 - captionDiv.offsetHeight);
         }
         else {
           widthRatio = overlayImage.naturalWidth / galleryOverlayDiv.offsetWidth;
-          heightRatio = overlayImage.naturalHeight / (window.innerHeight - navBarHeight - 3 * 10);
+          alert(window.innerHeight - navBarHeight - 3 * 10 - captionDiv.offsetHeight);
+          heightRatio = overlayImage.naturalHeight / (window.innerHeight - navBarHeight - 3 * 10 - captionDiv.offsetHeight);
         }
         var scaleRatio = 1;
         if (widthRatio > heightRatio) {
@@ -277,7 +302,7 @@
         overlayImage.addEventListener("click", function () { closeOverlay() });
         overlayImage.addEventListener("touchstart", function (event) { detectSwipe(event) });
 
-        document.getElementById("gallery-overlay-image-div").appendChild(overlayImage);
+        document.getElementById("gallery-overlay-image-div").insertBefore(overlayImage, captionDiv);
       }
 
       //swapOverlayImage clones the target of the click event, clears the gallery-overlay-image-div div, and then sets the overlay image by passing the cloned image to setOverlayImage().
