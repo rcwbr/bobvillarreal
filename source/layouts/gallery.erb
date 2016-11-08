@@ -259,18 +259,16 @@
         captionDiv.appendChild(caption);
 
         document.getElementById("gallery-overlay-image-div").appendChild(captionDiv);
-        //alert(captionDiv.offsetHeight);
 
         var widthRatio;
         var heightRatio;
         if (!!window.sidebar) { //Case for Firefox
           widthRatio = event.target.naturalWidth / galleryOverlayDiv.offsetWidth;
-          heightRatio = event.target.naturalHeight / (window.innerHeight - navBarHeight - 3 * 10 - captionDiv.offsetHeight);
+          heightRatio = event.target.naturalHeight / (window.innerHeight - navBarHeight - 4 * <%= gallery_info["image_margins"] %> - captionDiv.offsetHeight);
         }
         else {
           widthRatio = overlayImage.naturalWidth / galleryOverlayDiv.offsetWidth;
-          alert(window.innerHeight - navBarHeight - 3 * 10 - captionDiv.offsetHeight);
-          heightRatio = overlayImage.naturalHeight / (window.innerHeight - navBarHeight - 3 * 10 - captionDiv.offsetHeight);
+          heightRatio = overlayImage.naturalHeight / (window.innerHeight - navBarHeight - 4 * <%= gallery_info["image_margins"] %> - captionDiv.offsetHeight);
         }
         var scaleRatio = 1;
         if (widthRatio > heightRatio) {
@@ -293,7 +291,7 @@
           imageWidth = overlayImage.naturalWidth * scaleRatio;
           imageHeight = overlayImage.naturalHeight * scaleRatio;
         }
-        var marginTop = ((window.innerHeight - navBarHeight) - imageHeight) / 2 - <%= gallery_info["image_margins"] %>;
+        var marginTop = ((window.innerHeight - navBarHeight - captionDiv.offsetHeight) - imageHeight) / 2 - <%= gallery_info["image_margins"] %>;
 
         overlayImage.setAttribute("width", imageWidth);
         overlayImage.setAttribute("height", imageHeight);
