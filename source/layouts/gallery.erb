@@ -118,10 +118,11 @@
 
       div.thumb-label-div {
         position: absolute; /*sets label divs to remain within existing gallery-thumb-div dimensions. Relies on gallery-thumb-divs' relative positioning.*/
-        bottom: 0px; /*align thumb-label-divs to bottom*/
+        top: 0px; /*align thumb-label-divs to bottom*/
         display: inline-block; /*wrap contents (p) cleanly*/
-        background-color: black;
-        color: white;
+        padding: 3px;
+        background-color: white;
+        color: black;
       }
       p.thumb-label {
         margin: 0px;
@@ -172,6 +173,16 @@
         <% end %>
       ];
 
+      var galleryLabels = [ //assemble matrix of labels from Middleman config variable.
+        <% gallery_info["image_matrix"].each do |row| %>
+        [
+          <% row.each do |image| %>
+            "<%= gallery_info['label-prefix'] %>.<%= image['label'] %>",
+          <% end %>
+        ],
+        <% end %>
+      ];
+
       window.onload = function () { //Wait for window to load
         galleryOverlayDiv = document.getElementById("gallery-overlay-div"); //The galleryOverlayDiv variable is set once, here.
         galleryOverlayDiv.addEventListener("click", function () { closeOverlay() });
@@ -190,11 +201,13 @@
           for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
             var filename = galleryFilenames[rowIndex][colIndex];
             var caption = galleryCaptions[rowIndex][colIndex];
-            //alert(caption);
+            var label = galleryLabels[rowIndex][colIndex];
+
             var imageObject = document.createElement("IMG");
             imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
             imageObject.setAttribute("caption", caption);
             imageObject.setAttribute("galleryIndex", galleryIndex);
+            imageObject.setAttribute("label", label);
 
             var thumb = document.getElementById("galleryIndex" + galleryIndex);
             imageObject.setAttribute("width", thumb.width);
@@ -289,7 +302,7 @@
 
         var caption = document.createElement("p");
         caption.id = "caption";
-        caption.innerHTML = overlayImage.getAttribute("caption");
+        caption.innerHTML = overlayImage.getAttribute("label") + "<br />" + overlayImage.getAttribute("caption");
         var captionDiv = document.createElement("div");
         captionDiv.id = "caption-container-div";
         captionDiv.appendChild(caption);
