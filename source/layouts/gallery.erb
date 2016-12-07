@@ -1,5 +1,4 @@
 <!doctype html>
-<html>
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
@@ -10,6 +9,7 @@
 
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
+    <%= stylesheet_link_tag "site" %>
     <style>
       @charset "utf-8";
       /* The body, h1, and welcome styles are mainly the defaults created by Middleman */
@@ -120,6 +120,7 @@
         position: absolute; /*sets label divs to remain within existing gallery-thumb-div dimensions. Relies on gallery-thumb-divs' relative positioning.*/
         top: 0px; /*align thumb-label-divs to bottom*/
         display: inline-block; /*wrap contents (p) cleanly*/
+
         padding: 3px;
         background-color: white;
         color: black;
@@ -375,6 +376,11 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div id="content">
+      <div id="center-section">
+        <%= partial "partials/menu" %>
+      </div>
+      <%= yield %>
+    </div>
   </body>
 </html>

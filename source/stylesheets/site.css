@@ -1,0 +1,36 @@
+body {
+  background-color: #759ddd;
+  font-family: "Helvetica Nueue", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+div#center-section {
+  position: relative;
+  left: 50%;
+  margin-left: -480px;
+  width: 960px;
+
+  text-align: left;
+}
+div#menubar-div {
+  margin-top: 20px;
+}
+div.menu-link-div {
+  display: inline-block;
+}
+div#menubar-div div.menu-link-div {
+  margin-left: 40px;
+}
+div#menubar-div div.menu-link-div:first-child {
+  margin-left: 0px;
+}
+a.menu-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14pt;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.menu-link:first-child {
+  margin-left: 0px;
+}
