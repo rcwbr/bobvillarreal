@@ -34,7 +34,21 @@ galleries.each do |gallery_info|
 	proxy "/galleries/#{gallery_info["shortname"]}/index.html", "/templates/gallery.html", :locals => { :gallery_info => gallery_info }, :ignore => true
 end
 
-proxy "/chapters/index.html", "/templates/chapters.html", :locals => { :chapters =>  JSON.parse(File.read("chapters.json")) }, :ignore => true
+passages = JSON.parse(File.read("burgess_passages.json"))
+
+passages.each do |passages_info|
+	puts "PASSAGES: Name: #{passages_info["name"]} | Short Name: #{passages_info["shortname"]}" if CONFIG_VERBOSE
+	puts "PASSAGES: Passages Array: #{passages_info["passage_array"]}" if CONFIG_VERBOSE
+	proxy "/passages/#{passages_info["shortname"]}/index.html", "/templates/passages.html", :locals => { :passages_info => passages_info }, :ignore => true
+end
+
+chapters = JSON.parse(File.read("chapters.json"))
+
+chapters.each do |chapter|
+	puts "CHAPTER: Name: #{chapter["name"]}" if CONFIG_VERBOSE
+end
+
+proxy "/chapters/index.html", "/templates/chapters.html", :locals => { :chapters => chapters }, :ignore => true
 
 ###
 # Helpers

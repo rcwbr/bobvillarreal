@@ -1,0 +1,9 @@
+---
+-
+  name: "Chapter One"
+  shortname: "one"
+  filename: "chapter1.yaml"
+-
+  name: "Chapter Two"
+  shortname: "two"
+  filename: "chapter2.yaml"
