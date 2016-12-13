@@ -7,3 +7,7 @@
   name: "Chapter Two"
   shortname: "two"
   filename: "chapter2.yaml"
+-
+  name: "Chapter Timophoon"
+  filename: "tim.yaml"
+  shortname: "tim"

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Ecuador - Chimborazo",
+    "shortname": "ecuador",
+    "filename": "ecuador.yaml",
+    "label-prefix": "E",
+    "images_path": "images/galleries/ecuador",
+    "source_path": "source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 2,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "My new little friend in Quito (1989).",
+          "filename": "image1.jpg",
+          "label": "1.A",
+          "attribution": ""
+        },
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "Pichincha is an active volcano outside Quito, Ecuador. This Edward Whymper woodcut of 1892 shows three of Whymper's guides near the summit. Whymper was a famous naturalist, climber, and artist who climbed extensively in the Alps and the Andes. In 1880, he was the first climber to ascend a high altitude peak, in this case Chimborazo (20,400'). His signature appears in the lower left corner. See the delightful accounts of his climbs and travels in Travels Amongst the Great Andes of the Equator.",
+          "filename": "image2.jpg",
+          "label": "1"
+        },
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "hello",
+          "filename": "image3.jpg",
+          "label": "2"
+        },
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "hello",
+          "filename": "image4.jpg",
+          "label": "3"
+        }
+      ],
+      [
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "hello",
+          "filename": "image5.jpg",
+          "label": "4"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Bolivia - Illimani",
+    "shortname": "bolivia",
+    "filename": "bolivia.yaml",
+    "images_path": "images/galleries/bolivia",
+    "source_path": "source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 2,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "La Paz, with Illimani in the distance (1991).",
+          "filename": "image1.jpg",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "1931 original photogravure by Atlantis-Verlag of La Paz, with Illimani in the distance.",
+          "filename": "image2.jpg",
+          "label": "2"
+        },
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "hello",
+          "filename": "image3.jpg",
+          "label": "3"
+        },
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "hello",
+          "filename": "image4.jpg",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "attribution": "R. Villarreal Collection.",
+          "caption": "hello",
+          "filename": "image5.jpg",
+          "label": "5"
+        }
+      ]
+    ]
+  }
+]

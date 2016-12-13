@@ -1,3 +1,5 @@
 ---
 -
-  passage: "This is a passage from the book. It is long and perhaps requires paragraph breaks, such as this one: <br /> Not sure how to render this in the HTML... maybe just copying as the text of a p will work."
+  "This is a passage from the book. It is long and perhaps requires paragraph breaks, such as these: <br /><br /><br /> Not sure how to render this in the HTML... maybe just copying as the text of a p will work."
+-
+  "Second passage"

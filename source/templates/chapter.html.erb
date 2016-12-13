@@ -1,30 +1,3 @@
-<% puts "#{gallery_info["name"]} chapter is being built." %>
 <div>
-	<p><%= gallery_info["name"] %></p>
-	<div>
-		<!-- The Ruby below does two important things. Firstly, it reads the filename matrix (gallery) declared in config.rb and defined in curtiss_image_process.rb, creates a <div> of class row for each row in the matrix, and then generates an <img> tag for each filename in the row. Secondly, it increments a counter (galleryIndex) for each operation, which it then passes to the <img> as part of its id. This becomes very important in the JavaScript. -->
-		<div id="gallery-container-div">
-			<div id="gallery">
-			<% galleryIndex = 0
-			gallery_info["image_matrix"].each do |row| %>
-	    	<div class="gallery-row">
-	    	<% row.each do |image| %>
-					<div class="gallery-thumb-div">
-						<%= image_tag gallery_info["images_path"] + "/" + gallery_info["thumbs_folder_path"] + "/" + image["filename"], options = {"id" => "galleryIndex" + galleryIndex.to_s, "caption" => image["caption"], "imagelabel" => "#{gallery_info["label-prefix"]}.#{image["label"]}"} %>
-						<div class="thumb-label-div">
-							<p class="thumb-label"><%= "#{gallery_info["label-prefix"]}.#{image["label"]}"%></p>
-						</div>
-					</div>
-					<% galleryIndex += 1
-		  	end %>
-		  	</div>
-			<% end %>
-			</div>
-		</div>
-		<div id="gallery-overlay-div">
-			<div id="gallery-overlay-image-div"> </div>
-			<div id="overlay-thumb-div" class="dragscroll"> <!-- The dragscroll class is used by the dragscroll plugin, which (rather nicely) has no further interaction with any of the source, nor does any of the source need to contribute anything to making the this <div> draggable. -->
-			</div>
-		</div>
-	</div>
+  <%= chapter_info["name"] %>
 </div>

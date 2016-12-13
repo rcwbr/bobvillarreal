@@ -5,9 +5,36 @@
 require "yaml"
 require "json"
 
-GALLAUDET_VERBOSE = true
+GALLAUDET_VERBOSE = false
 
+OUTPUT_DATA_PATH = "data"
 IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
 BURGESS_OUTPUT_FILENAME = "burgess_passages.json"
 
+GALLAUDET_DATA_PATH = "."
+GALLAUDET_DATA_FILENAME = "gallaudet_chapters.yaml"
 GALLAUDET_OUTPUT_FILENAME = "gallaudet_chapters.json"
+
+def add_media_to_chapter(media, media_manager_name, chapters)
+  puts "Adding media to chapter" if GALLAUDET_VERBOSE
+  chapters.each do |chapter|
+    media.each do |media_entry|
+      if chapter["name"] == media_entry["name"]
+        chapter[media_manager_name + "_data"] = media_entry
+      end
+    end
+  end
+end
+
+ikarus_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + IKARUS_OUTPUT_FILENAME))
+puts ikarus_output if GALLAUDET_VERBOSE
+burgess_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + BURGESS_OUTPUT_FILENAME))
+puts burgess_output if GALLAUDET_VERBOSE
+
+gallaudet_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_OUTPUT_FILENAME, "w")
+gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_DATA_FILENAME}")
+
+add_media_to_chapter(ikarus_output, "ikarus", gallaudet_chapters)
+add_media_to_chapter(burgess_output, "burgess", gallaudet_chapters)
+puts JSON.pretty_generate(gallaudet_chapters) if GALLAUDET_VERBOSE
+gallaudet_output_file.write(JSON.pretty_generate(gallaudet_chapters))

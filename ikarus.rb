@@ -5,7 +5,7 @@ require "./curtiss_image_process.rb"
 IKARUS_VERBOSE = false
 
 IKARUS_DATA_PATH = "ikarus_data"
-IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
+IKARUS_OUTPUT_FILENAME = "data/ikarus_galleries.json"
 GALLERIES_DATA_FILE = "galleries.yaml"
 GALLERIES_DATA_PATH = "galleries"
 
