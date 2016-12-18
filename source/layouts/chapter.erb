@@ -1,4 +1,5 @@
 <!doctype html>
+<html>
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
@@ -9,18 +10,21 @@
 
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
-    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag :site %>
+    <%= stylesheet_link_tag :chapter %>
 
-    <%= partial "partials/chapter_style" %>
-    <%= partial "partials/chapter_script" %>
+    <% if chapter_info["ikarus_data"] %>
+      <%= partial "partials/gallery_style" %>
+      <%= partial "partials/gallery_script" %>
+    <% end %>
   </head>
 
   <body class="<%= page_classes %>">
     <div id="content">
       <div id="center-section">
         <%= partial "partials/menu" %>
+        <%= yield %>
       </div>
-      <%= yield %>
     </div>
   </body>
 </html>

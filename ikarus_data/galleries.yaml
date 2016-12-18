@@ -8,3 +8,8 @@
   name: "Bolivia - Illimani"
   shortname: "bolivia"
   filename: "bolivia.yaml"
+-
+  name: "Chapter 1 - Ojos del Salado"
+  shortname: "one"
+  filename: "chapter1.yaml"
+  label-prefix: "1"

@@ -1,16 +1,13 @@
 ---
 -
-  name: "Chapter One"
-  shortname: "1"
--
   name: "Ecuador - Chimborazo"
-  shortname: "e-c"
--
-  name: "Chapter Two"
-  shortname: "2"
+  shortname: "ecuador"
 -
   name: "Bolivia - Illimani"
-  shortname: "b-i"
+  shortname: "bolivia"
 -
-  name: "Chapter Timophoon"
-  shortname: "3"
+  name: "Chapter 1 - Ojos del Salado"
+  shortname: "one"
+-
+  name: "Chapter 2 - Ojos del Salado"
+  shortname: "two"

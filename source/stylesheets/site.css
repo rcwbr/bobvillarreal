@@ -14,6 +14,7 @@ div#center-section {
 }
 div#menubar-div {
   margin-top: 20px;
+  font-size: 18pt;
 }
 div.menu-link-div {
   display: inline-block;
@@ -27,7 +28,7 @@ div#menubar-div div.menu-link-div:first-child {
 a.menu-link {
   margin-right: 10px;
   margin-left: 10px;
-  font-size: 14pt;
+
   text-decoration: none;
   cursor: pointer;
 }

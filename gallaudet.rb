@@ -19,6 +19,7 @@ def add_media_to_chapter(media, media_manager_name, chapters)
   puts "Adding media to chapter" if GALLAUDET_VERBOSE
   chapters.each do |chapter|
     media.each do |media_entry|
+      puts "#{media_manager_name} \"#{chapter["name"]}\" \"#{media_entry["name"]}\"" if GALLAUDET_VERBOSE
       if chapter["name"] == media_entry["name"]
         chapter[media_manager_name + "_data"] = media_entry
       end

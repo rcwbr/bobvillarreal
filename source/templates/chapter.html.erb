@@ -1,3 +1,26 @@
+<% puts "#{chapter_info["name"]} chapter is being built." %>
 <div>
-  <%= chapter_info["name"] %>
+	<h1 id="chapter-header"><%= chapter_info["name"] %></h1>
+	<div id="chapter-menu-div">
+		<% if passages_info && gallery_info %>
+			<% if passages_info %>
+				<a class="menu-link" href="#passages-header">Passages</a>
+			<% end %>
+			<% if gallery_info %>
+				<% if passages_info %>
+				 |
+				<% end %>
+				<a class="menu-link" href="#gallery-header">Gallery</a>
+			<% end %>
+		<% end %>
+	</div>
+	<div>
+    <% if passages_info %>
+			<h2 id="passages-header" class="chapter-section-header">Passages</h2>
+      <%= partial "partials/passages" %>
+    <% end %>
+    <% if gallery_info %>
+			<h2 id="gallery-header" class="chapter-section-header">Gallery</h2>
+  		<%= partial "partials/gallery" %>
+  <% end %>
 </div>

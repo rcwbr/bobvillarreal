@@ -1,0 +1,14 @@
+body {
+  white;
+}
+h1#chapter-header {
+  font-size: 30pt;
+  color: blue;
+  margin-top: 20px;
+}
+div#chapter-menu-div {
+  font-size: 16pt;
+}
+div#chapter-menu-div a.menu-link {
+  color: white;
+}
