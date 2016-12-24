@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
+
 body {
-  background-color: #759ddd;
-  font-family: "Helvetica Nueue", sans-serif;
-  font-weight: lighter;
+  background: url("resources/villarreal-background.png");
+  background-size: 72.6px 51px;
+  background-attachment: fixed;
+  font-family: "Raleway", "Helvetica Nueue", sans-serif;
   color: white;
 }
 div#center-section {

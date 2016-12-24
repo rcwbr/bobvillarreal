@@ -1,15 +1,15 @@
 ---
 -
   name: "Ecuador - Chimborazo"
-  shortname: "ecuador"
+  shortname: "E"
   filename: "ecuador.yaml"
   label-prefix: "E"
 -
   name: "Bolivia - Illimani"
-  shortname: "bolivia"
+  shortname: "B"
   filename: "bolivia.yaml"
 -
   name: "Chapter 1 - Ojos del Salado"
-  shortname: "one"
+  shortname: "1"
   filename: "chapter1.yaml"
   label-prefix: "1"

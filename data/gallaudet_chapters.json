@@ -1,13 +1,13 @@
 [
   {
     "name": "Ecuador - Chimborazo",
-    "shortname": "ecuador",
+    "shortname": "E",
     "ikarus_data": {
       "name": "Ecuador - Chimborazo",
-      "shortname": "ecuador",
+      "shortname": "E",
       "filename": "ecuador.yaml",
       "label-prefix": "E",
-      "images_path": "images/galleries/ecuador",
+      "images_path": "images/galleries/E",
       "source_path": "source",
       "thumbs_folder_path": "thumbs",
       "total_width": 960,
@@ -55,12 +55,12 @@
   },
   {
     "name": "Bolivia - Illimani",
-    "shortname": "bolivia",
+    "shortname": "B",
     "ikarus_data": {
       "name": "Bolivia - Illimani",
-      "shortname": "bolivia",
+      "shortname": "B",
       "filename": "bolivia.yaml",
-      "images_path": "images/galleries/bolivia",
+      "images_path": "images/galleries/B",
       "source_path": "source",
       "thumbs_folder_path": "thumbs",
       "total_width": 960,
@@ -108,20 +108,244 @@
   },
   {
     "name": "Chapter 1 - Ojos del Salado",
-    "shortname": "one",
+    "shortname": "1",
+    "ikarus_data": {
+      "name": "Chapter 1 - Ojos del Salado",
+      "shortname": "1",
+      "filename": "chapter1.yaml",
+      "label-prefix": "1",
+      "images_path": "images/galleries/1",
+      "source_path": "source",
+      "thumbs_folder_path": "thumbs",
+      "total_width": 960,
+      "images_per_row": 4,
+      "image_margins": 10,
+      "width_adjustment": 2,
+      "overlay_thumb_height": 100,
+      "image_matrix": [
+        [
+          {
+            "caption": "General Orientation map showing peaks chronicled in Clawing for the Stars: A Solo Climber in the Highest Andes.",
+            "filename": "image1.png",
+            "attribution": "",
+            "label": "1"
+          },
+          {
+            "caption": "This map shows many of the peaks and other places of interest mentioned in the chapters. Ojos del Salado is south of the Great Plateau on the border with Argentina.",
+            "filename": "image2.png",
+            "attribution": "",
+            "label": "2"
+          },
+          {
+            "caption": "Giancarlo at the rear of his truck with James on the roof.",
+            "filename": "image3.jpg",
+            "attribution": "",
+            "label": "3"
+          },
+          {
+            "caption": "The scene from the Pass, with Laguna Santa Rosa below and Tres Cruces in the distance.",
+            "filename": "image4.jpg",
+            "attribution": "",
+            "label": "4"
+          }
+        ],
+        [
+          {
+            "caption": "The Santa Rosa Refugio with Giancarlo's Land Cruiser alongside.",
+            "filename": "image5.jpg",
+            "attribution": "",
+            "label": "5"
+          },
+          {
+            "caption": "Giancarlo on the way into the old Carabinero Station, which has been relocated to the shores of Laguna Verde since this photo was taken in 1992.",
+            "filename": "image6.jpg",
+            "attribution": "",
+            "label": "6"
+          },
+          {
+            "caption": "Our Base Camp at <span class=\\\"height\\\">14,800' (4510 m)</span>; in the distance, El Muerto (<span class=\\\"height\\\">21,286', 6488 m</span>) is on the left and Ojos on the right.",
+            "filename": "image7.jpg",
+            "attribution": "",
+            "label": "7"
+          },
+          {
+            "caption": "A storm buries Ojos. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+            "filename": "imageA1.jpg",
+            "label": "A1",
+            "attribution": ""
+          }
+        ],
+        [
+          {
+            "caption": "Early morning scene with the moon still visible.",
+            "filename": "image8.jpg",
+            "attribution": "",
+            "label": "8"
+          },
+          {
+            "caption": "On the road to the Atacama Refugio.",
+            "filename": "image9.jpg",
+            "attribution": "",
+            "label": "9"
+          },
+          {
+            "caption": "Refugio Atacama (<span class=\\\"height\\\">16,730', 5100 m</span>). Although it looks quite spartan, it's actually quite comfortable.",
+            "filename": "image10.jpg",
+            "attribution": "",
+            "label": "10"
+          },
+          {
+            "caption": "A stream fed by snowfields higher on the mountain flows by Atacama.",
+            "filename": "image11.jpg",
+            "attribution": "",
+            "label": "11"
+          }
+        ],
+        [
+          {
+            "caption": "The road leading to Refugio Tejos (<span class=\\\"height\\\">18,860', 5750 m</span>). It's hard to believe a road exists this high.",
+            "filename": "image12.jpg",
+            "attribution": "",
+            "label": "12"
+          },
+          {
+            "caption": "Another shot of the road.",
+            "filename": "image13.jpg",
+            "attribution": "",
+            "label": "13"
+          },
+          {
+            "caption": "On the way to the Tejos Refugio with the Atacama far below. A road this high is unheard of! <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+            "filename": "imageA2.jpg",
+            "label": "A2",
+            "attribution": ""
+          },
+          {
+            "caption": "The Refugio is right behind me. The imposing northern face of Ojos del Salado (<span class=\\\"height\\\">22,609', 6891 m</span>).",
+            "filename": "image14.jpg",
+            "attribution": "",
+            "label": "14"
+          }
+        ],
+        [
+          {
+            "caption": "Another view from Tejos.",
+            "filename": "image15.jpg",
+            "attribution": "",
+            "label": "15"
+          },
+          {
+            "caption": "Another view. The sphinx-like paw of the First Step is partially in view. One may discern the other four steps above proceeding towards the summit. I placed my camp above Tejos on the First Step.",
+            "filename": "image16.jpg",
+            "attribution": "",
+            "label": "16"
+          },
+          {
+            "caption": "My First Step camp.",
+            "filename": "image17.jpg",
+            "attribution": "",
+            "label": "17"
+          },
+          {
+            "caption": "Another shot; El Muerto in the distance.",
+            "filename": "image18.jpg",
+            "attribution": "",
+            "label": "18"
+          }
+        ],
+        [
+          {
+            "caption": "View of El Muerto from the Third Step.",
+            "filename": "image19.jpg",
+            "attribution": "",
+            "label": "19"
+          },
+          {
+            "caption": "Looking back down the Steps.",
+            "filename": "image20.jpg",
+            "attribution": "",
+            "label": "20"
+          },
+          {
+            "caption": "Another view: the First Step quite a ways down.",
+            "filename": "image21.jpg",
+            "attribution": "",
+            "label": "21"
+          },
+          {
+            "caption": "On top of the Fifth Step looking over at El Muerto (<span class=\\\"height\\\">21,247', 6476 m</span>). El Fraile (<span class=\\\"height\\\">19,614', 5978 m</span>) is in the mid-distance with Incahuasi (<span class=\\\"height\\\">21,651', 6599 m</span>) farther on. Summit is behind me and a little higher.",
+            "filename": "image22.jpg",
+            "attribution": "",
+            "label": "22"
+          }
+        ],
+        [
+          {
+            "caption": "View from the summit looking south/southwest. In the near distance on the right is Cazadero (aka Walter Penck). At <span class=\\\"height\\\">21,838' (6656 m)</span> it is the ninth highest peak. Farther on to the left is the darkened mass of Nacimiento (<span class=\\\"height\\\">21,126', 6439 m</span>). In the far distance is Pissis (<span class=\\\"height\\\">22,287', 6793 m</span>), the third highest peak.",
+            "filename": "image23.jpg",
+            "attribution": "",
+            "label": "23"
+          },
+          {
+            "caption": "From the summit: Tres Cruces rises in the west, with Central on the left and Sur on the right.",
+            "filename": "image24.jpg",
+            "attribution": "",
+            "label": "24"
+          },
+          {
+            "caption": "James signs the summit register. This wasn't exactly his best side!",
+            "filename": "image25.jpg",
+            "attribution": "",
+            "label": "25"
+          },
+          {
+            "caption": "Looking into the mouth of the summit crater.",
+            "filename": "image26.jpg",
+            "attribution": "",
+            "label": "26"
+          }
+        ],
+        [
+          {
+            "caption": "Self photo after James leaves.",
+            "filename": "image27.jpg",
+            "attribution": "",
+            "label": "27"
+          },
+          {
+            "caption": "We descend by way of the massive north face; the Tejos refugio is barely visible far below.",
+            "filename": "image28.jpg",
+            "attribution": "",
+            "label": "28"
+          },
+          {
+            "caption": "A magnificent sunset from our Base Camp.",
+            "filename": "image29.png",
+            "attribution": "",
+            "label": "29"
+          },
+          {
+            "caption": "We depart the Ojos region on the return to Copiapo. Barrancas Blancas on the right, Ojos del Salado in the center, and El Muerto to the left. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+            "filename": "image30.jpg",
+            "attribution": "",
+            "label": "30"
+          }
+        ]
+      ]
+    },
     "burgess_data": {
       "name": "Chapter 1 - Ojos del Salado",
       "shortname": "one",
       "filename": "chapter1.yaml",
       "passages": [
         "When James crosses the top of a rock the size of a small car, the monster shudders ever so slightly but remains in place. I know this because I stand directly underneath him, some twenty feet below, and for seconds I freeze to the spot not knowing what I should do, pee or flee.",
-        "I see the summit now and know we are almost there.<br/>\"Judy, what are you doing here?\"<br/>I halt in puzzlement. Judy? What? I turn to confront what must be a new addition to our climbing team. \"What'd you say?\"<br/>James points to a nearby boulder. \"That's my sister sitting on that rock. What's she doing here?\"My altitude haze disappears in an instant. James is hallucinating!"
+        "I see the summit now and know we are almost there.<br/>\"Judy, what are you doing here?\"<br/>I halt in puzzlement. Judy? What? I turn to confront what must be a new addition to our climbing team. \"What'd you say?\"<br/>James points to a nearby boulder. \"That's my sister sitting on that rock. What's she doing here?\"\nMy altitude haze disappears in an instant. James is hallucinating!"
       ]
     }
   },
   {
     "name": "Chapter 2 - Ojos del Salado",
-    "shortname": "two",
+    "shortname": "2",
     "burgess_data": {
       "name": "Chapter 2 - Ojos del Salado",
       "shortname": "two",
