@@ -3,11 +3,12 @@ body {
 }
 h1#chapter-header {
   font-size: 30pt;
-  color: blue;
+  color: #D3E2FA;
   margin-top: 20px;
 }
 div#chapter-menu-div {
   font-size: 16pt;
+  color: white;
 }
 div#chapter-menu-div a.menu-link {
   color: white;
