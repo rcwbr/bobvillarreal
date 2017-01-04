@@ -1,14 +1,17 @@
 div#title-div {
-  width: 500px;
-  position: relative;
-  left: 50%;
-  margin-left: -250px;
-  text-align: left;
+  width: 100%;
 }
 p#title-image-caption-p {
-  font-size: 10pt;
+  font-size: 12pt;
 }
-pre#title-pre {
-  font-family: Raleway, Helvetica;
-  font-size: 23pt
+h1#title-header {
+  text-align: center;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 200;
+  font-size: 33pt;
+  color: #D3E2FA;
+}
+p {
+  font-size: 14pt;
+
 }

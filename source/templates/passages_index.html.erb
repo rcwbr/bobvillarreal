@@ -1,0 +1,9 @@
+---
+title: Bob Villarreal - Clawing
+---
+
+<div id="main">
+  <% passages.each do |passages_info| %>
+    <p><a href="/passages/<%= passages_info["shortname"] %>"><%= passages_info["name"] %></a></p>
+  <% end %>
+</div>
