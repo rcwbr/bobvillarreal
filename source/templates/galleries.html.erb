@@ -1,0 +1,9 @@
+---
+title: Bob Villarreal - Clawing
+---
+
+<div id="main">
+  <% galleries.each do |gallery| %>
+    <p><a href="/gallery/<%= gallery["shortname"] %>"><%= gallery["name"] %></a></p>
+  <% end %>
+</div>

@@ -1,6 +1,7 @@
 <% puts "#{chapter_info["name"]} chapter is being built." %>
 <div>
 	<h1 id="chapter-header"><%= chapter_info["name"] %></h1>
+	<a id="chapters-link" href="/chapters/">All Chapters</a>
 	<div id="chapter-menu-div">
 		<% if passages_info && gallery_info %>
 			<% if passages_info %>

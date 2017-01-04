@@ -279,7 +279,7 @@
             "label": "22"
           }
         ],
-        [
+          [
           {
             "caption": "View from the summit looking south/southwest. In the near distance on the right is Cazadero (aka Walter Penck). At <span class=\\\"height\\\">21,838' (6656 m)</span> it is the ninth highest peak. Farther on to the left is the darkened mass of Nacimiento (<span class=\\\"height\\\">21,126', 6439 m</span>). In the far distance is Pissis (<span class=\\\"height\\\">22,287', 6793 m</span>), the third highest peak.",
             "filename": "image23.jpg",
@@ -344,10 +344,10 @@
     }
   },
   {
-    "name": "Chapter 2 - Ojos del Salado",
+    "name": "Chapter 2 - Pissis",
     "shortname": "2",
     "burgess_data": {
-      "name": "Chapter 2 - Ojos del Salado",
+      "name": "Chapter 2 - Pissis",
       "shortname": "two",
       "filename": "chapter2.yaml",
       "passages": [

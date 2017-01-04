@@ -35,6 +35,8 @@ galleries.each do |gallery_info|
 	proxy "/gallery/#{gallery_info["shortname"]}/index.html", "/templates/gallery.html", :locals => { :gallery_info => gallery_info }, :ignore => true
 end
 
+proxy "/galleries/index.html", "/templates/galleries.html", :locals => { :galleries => galleries }, :ignore => true
+
 passages = JSON.parse(File.read("data/burgess_passages.json"))
 
 passages.each do |passages_info|
@@ -50,7 +52,7 @@ chapters.each do |chapter_info|
 	if chapter_info["ikarus_data"]
 		chapter_info["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["ikarus_data"]["images_path"]}"
 	end
-		proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"] }, :ignore => true
+	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"] }, :ignore => true
 	#else
 	#	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info }, :ignore => true
 	#end

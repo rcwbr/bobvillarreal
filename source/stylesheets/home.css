@@ -1,0 +1,14 @@
+div#title-div {
+  width: 500px;
+  position: relative;
+  left: 50%;
+  margin-left: -250px;
+  text-align: left;
+}
+p#title-image-caption-p {
+  font-size: 10pt;
+}
+pre#title-pre {
+  font-family: Raleway, Helvetica;
+  font-size: 23pt
+}

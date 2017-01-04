@@ -7,6 +7,10 @@ body {
   font-family: "Raleway", "Helvetica Nueue", sans-serif;
   color: white;
 }
+a {
+  text-decoration: none;
+  color: #3363AE;
+}
 div#center-section {
   position: relative;
   left: 50%;
@@ -17,7 +21,11 @@ div#center-section {
 }
 div#menubar-div {
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 18pt;
+  color: #3363AE;
+}
+div#menubar-div a {
   color: #3363AE;
 }
 div.menu-link-div {

@@ -9,6 +9,9 @@
     <title><%= current_page.data.title || "Bob Villarreal" %></title>
 
     <%= stylesheet_link_tag :site %>
+    <% if current_page.data.page == "clawing home" %>
+      <%= stylesheet_link_tag :home %>
+    <% end %>
     <%= javascript_include_tag :all %>
   </head>
 

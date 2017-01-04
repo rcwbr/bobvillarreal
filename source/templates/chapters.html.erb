@@ -4,6 +4,6 @@ title: Bob Villarreal - Clawing
 
 <div id="main">
   <% chapters.each do |chapter| %>
-    <p><%= chapter["name"] %></p>
+    <p><a href="/chapter/<%= chapter["shortname"] %>"><%= chapter["name"] %></a></p>
   <% end %>
 </div>
