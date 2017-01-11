@@ -647,6 +647,21 @@
         "When James crosses the top of a rock the size of a small car, the monster shudders ever so slightly but remains in place. I know this because I stand directly underneath him, some twenty feet below, and for seconds I freeze to the spot not knowing what I should do, pee or flee.",
         "I see the summit now and know we are almost there.<br/>\"Judy, what are you doing here?\"<br/>I halt in puzzlement. Judy? What? I turn to confront what must be a new addition to our climbing team. \"What'd you say?\"<br/>James points to a nearby boulder. \"That's my sister sitting on that rock. What's she doing here?\"\nMy altitude haze disappears in an instant. James is hallucinating!"
       ]
+    },
+    "macchi_data": {
+      "name": "Chapter 1 - Ojos del Salado",
+      "shortname": "one",
+      "filename": "chapter1.yaml",
+      "movies": [
+        {
+          "url": "http://player.vimeo.com/video/85967126",
+          "title": "not same as chapter"
+        },
+        {
+          "url": "http://youtube.com/altitudeclimber/chapter/",
+          "title": "Chapter 1 - Ojos del Salado"
+        }
+      ]
     }
   },
   {
