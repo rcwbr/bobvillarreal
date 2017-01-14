@@ -5,12 +5,25 @@
     "filename": "chapter1.yaml",
     "movies": [
       {
+        "filename": "/Videos/0499.m4v",
         "url": "http://player.vimeo.com/video/85967126",
         "title": "not same as chapter"
       },
       {
         "url": "http://youtube.com/altitudeclimber/chapter/",
         "title": "Chapter 1 - Ojos del Salado"
+      }
+    ]
+  },
+  {
+    "name": "Chapter 2 - Pissis",
+    "shortname": "two",
+    "filename": "chapter2.yaml",
+    "movies": [
+      {
+        "filename": "/Videos/0499.m4v",
+        "url": "http://player.vimeo.com/video/85967126",
+        "title": "not same as chapter"
       }
     ]
   }

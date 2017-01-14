@@ -49,7 +49,7 @@ chapters.each do |chapter_info|
 	if chapter_info["ikarus_data"]
 		chapter_info["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["ikarus_data"]["images_path"]}"
 	end
-	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"] }, :ignore => true
+	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"], :movies_info => chapter_info["macchi_data"] }, :ignore => true
 end
 proxy "/chapters/index.html", "/templates/chapters.html", :locals => { :chapters => chapters }, :ignore => true
 

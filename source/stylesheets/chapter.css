@@ -1,10 +1,4 @@
-body {
-  white;
-}
 div#chapter-menu-div {
   font-size: 16pt;
-  color: white;
-}
-div#chapter-menu-div a.menu-link {
-  color: white;
+  color: #99CCFF;
 }

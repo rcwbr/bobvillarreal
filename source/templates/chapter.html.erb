@@ -3,25 +3,45 @@
 	<h1 class="media-header" id="chapter-header"><%= chapter_info["name"] %></h1>
 	<a id="chapters-link" href="/chapters/">All Chapters</a>
 	<div id="chapter-menu-div">
-		<% if passages_info && gallery_info %>
-			<% if passages_info %>
-				<a class="menu-link" href="#passages-header">Passages</a>
-			<% end %>
-			<% if gallery_info %>
-				<% if passages_info %>
-				 |
-				<% end %>
-				<a class="menu-link" href="#gallery-header">Gallery</a>
-			<% end %>
-		<% end %>
+		<% menu_items = []
+		if passages_info
+			if passages_info["passages"].length > 1
+				menu_items.push({"href" => "#passages-header", "text" => "Passages"})
+			else
+			  menu_items.push({"href" => "#passages-header", "text" => "Passage"})
+			end
+		end
+		if movies_info
+			if movies_info["movies"].length > 1
+				menu_items.push({"href" => "#movies-header", "text" => "Movies"})
+			else
+			  menu_items.push({"href" => "#movies-header", "text" => "Movie"})
+			end
+		end
+		if gallery_info
+			menu_items.push({"href" => "#gallery-header", "text" => "Gallery"})
+		end
+
+		if menu_items.length > 1
+		 	menu_items.each_with_index do |menu_item, index| %>
+				<a class="menu-link" href="<%=menu_item["href"]%>"><%=menu_item["text"]%></a>
+				<% if index < menu_items.length - 1 %>
+					|
+				<% end
+			end
+		end %>
 	</div>
 	<div>
-    <% if passages_info %>
-			<h2 id="passages-header" class="chapter-section-header">Passages</h2>
-      <%= partial "partials/passages" %>
-    <% end %>
-    <% if gallery_info %>
-			<h2 id="gallery-header" class="chapter-section-header">Gallery</h2>
-  		<%= partial "partials/gallery" %>
+  <% if passages_info %>
+		<h2 id="passages-header" class="chapter-section-header">Passages</h2>
+    <%= partial "partials/passages" %>
+  <% end %>
+  <% if movies_info %>
+		<h2 id="movies-header" class="chapter-section-header">Movies</h2>
+		<%= partial "partials/movies" %>
+  <% end %>
+	<% if gallery_info %>
+		<h2 id="gallery-header" class="chapter-section-header">Gallery</h2>
+		<%= partial "partials/gallery" %>
   <% end %>
 </div>
