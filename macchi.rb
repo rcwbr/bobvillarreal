@@ -15,12 +15,11 @@ movies_info.each do |movie_info|
   puts movie_info if MACCHI_VERBOSE
   movies = YAML.load_file("#{MACCHI_DATA_PATH}/#{MACCHI_MOVIES_DATA_PATH}/#{movie_info["filename"]}")
   puts movies if MACCHI_VERBOSE
-  movie_info["movies"] = []#movies if movies
+  movie_info["movies"] = []
   movies.each do |movie|
     if movie["title"] == nil
       movie["title"] = movie_info["name"]
-      #movie_info["movies"] = movie_info["movies"]
-      puts "Using chapter name as default movie title"
+      puts "Using chapter name as default movie title" if MACCHI_VERBOSE
     end
   end
   movie_info["movies"] = movies

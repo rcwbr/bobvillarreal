@@ -9,8 +9,17 @@ body {
 }
 a {
   text-decoration: none;
-  color: #3363AE;
+  color: #99CCFF;
 }
+h1.media-header {
+  font-family: "Playfair Display";
+  font-weight: 200;
+  font-size: 30pt;
+  color: #D3E2FA;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
 div#center-section {
   position: relative;
   left: 50%;
@@ -23,10 +32,11 @@ div#menubar-div {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 18pt;
-  color: #3363AE;
+  font-weight: bold;
+  color: #99CCFF;
 }
 div#menubar-div a {
-  color: #3363AE;
+  color: #99CCFF;
 }
 div.menu-link-div {
   display: inline-block;

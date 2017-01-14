@@ -51,8 +51,15 @@ chapters.each do |chapter_info|
 	end
 	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"] }, :ignore => true
 end
-
 proxy "/chapters/index.html", "/templates/chapters.html", :locals => { :chapters => chapters }, :ignore => true
+
+movies = JSON.parse(File.read("data/macchi_movies.json"))
+movies.each do |movies_info|
+	puts "MOVIES: Name: #{movies_info["name"]} | Short Name: #{movies_info["shortname"]}" if CONFIG_VERBOSE
+	puts "MOVIES: Movies Array: #{movies_info["movies"]}" if CONFIG_VERBOSE
+	proxy "/movies/#{movies_info["shortname"]}/index.html", "/templates/movies.html", :locals => { :movies_info => movies_info }, :ignore => true
+end
+proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
 
 ###
 # Helpers

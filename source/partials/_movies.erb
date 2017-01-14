@@ -1,0 +1,11 @@
+<div id="movies-container-div">
+	<% movies_info["movies"].each do |movie| %>
+  	<div class="movie-div">
+			<video class="movie-html-video" width="640" height="480" controls="">
+				<source src="<%= movie["filename"] %>" type="video/mp4; codecs='avc1.42E01E,mp4a.40.2'" />
+			</video>
+			<iframe class="movie-vimeo-iframe" src="<%= movie["url"] %>" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  	</div>
+	<% end %>
+	</div>
+</div>

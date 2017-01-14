@@ -1,14 +1,6 @@
 body {
   white;
 }
-h1#chapter-header {
-  font-family: "Playfair Display";
-  font-weight: 200;
-  font-size: 30pt;
-  color: #D3E2FA;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
 div#chapter-menu-div {
   font-size: 16pt;
   color: white;

@@ -1,0 +1,11 @@
+---
+title: Bob Villarreal - Clawing
+---
+
+<div id="main">
+  <% movies.each do |movies_info|
+    puts movies_info["shortname"]
+    puts movies_info["name"] %>
+    <p><a href="/movies/<%= movies_info["shortname"] %>"><%= movies_info["name"] %></a></p>
+  <% end %>
+</div>
