@@ -3,11 +3,12 @@
     "name": "Chapter 1 - Ojos del Salado",
     "shortname": "one",
     "title": "Chapter 1 Tour",
-    "url": "chapter1.yaml"
+    "url": "youtube.com/chapter1tour"
   },
   {
     "name": "Chapter 2 - Pissis",
     "shortname": "two",
-    "filename": "chapter2.yaml"
+    "title": "Chapter 2 Tour",
+    "url": "youtube.com/chapter2tour"
   }
 ]

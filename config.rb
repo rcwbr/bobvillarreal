@@ -43,6 +43,21 @@ passages.each do |passages_info|
 end
 proxy "/passages/index.html", "/templates/passages_index.html", :locals => { :passages => passages }, :ignore => true
 
+movies = JSON.parse(File.read("data/macchi_movies.json"))
+movies.each do |movies_info|
+	puts "MOVIES: Name: #{movies_info["name"]} | Short Name: #{movies_info["shortname"]}" if CONFIG_VERBOSE
+	puts "MOVIES: Movies Array: #{movies_info["movies"]}" if CONFIG_VERBOSE
+	proxy "/movies/#{movies_info["shortname"]}/index.html", "/templates/movies.html", :locals => { :movies_info => movies_info }, :ignore => true
+end
+proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
+
+tours = JSON.parse(File.read("data/hawker_tours.json"))
+tours.each do |tour_info|
+	puts "TOURS: Name: #{tour_info["name"]} | Short Name: #{tour_info["shortname"]}" if CONFIG_VERBOSE
+	proxy "/tours/#{tour_info["shortname"]}/index.html", "/templates/tour.html", :locals => { :tour_info => tour_info }, :ignore => true
+end
+proxy "/tours/index.html", "/templates/tours_index.html", :locals => { :tours => tours }, :ignore => true
+
 chapters = JSON.parse(File.read("data/gallaudet_chapters.json"))
 chapters.each do |chapter_info|
 	puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
@@ -52,14 +67,6 @@ chapters.each do |chapter_info|
 	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"], :movies_info => chapter_info["macchi_data"] }, :ignore => true
 end
 proxy "/chapters/index.html", "/templates/chapters.html", :locals => { :chapters => chapters }, :ignore => true
-
-movies = JSON.parse(File.read("data/macchi_movies.json"))
-movies.each do |movies_info|
-	puts "MOVIES: Name: #{movies_info["name"]} | Short Name: #{movies_info["shortname"]}" if CONFIG_VERBOSE
-	puts "MOVIES: Movies Array: #{movies_info["movies"]}" if CONFIG_VERBOSE
-	proxy "/movies/#{movies_info["shortname"]}/index.html", "/templates/movies.html", :locals => { :movies_info => movies_info }, :ignore => true
-end
-proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
 
 ###
 # Helpers

@@ -1,0 +1,11 @@
+---
+title: Bob Villarreal - Clawing
+---
+
+<div id="main">
+  <% tours.each do |tour_info|
+    puts tour_info["shortname"]
+    puts tour_info["name"] %>
+    <p><a href="/tours/<%= tour_info["shortname"] %>"><%= tour_info["name"] %></a></p>
+  <% end %>
+</div>
