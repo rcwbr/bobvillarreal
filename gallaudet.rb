@@ -11,6 +11,7 @@ OUTPUT_DATA_PATH = "data"
 IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
 BURGESS_OUTPUT_FILENAME = "burgess_passages.json"
 MACCHI_OUTPUT_FILENAME = "macchi_movies.json"
+HAWKER_OUTPUT_FILENAME = "hawker_tours.json"
 
 GALLAUDET_DATA_PATH = "."
 GALLAUDET_DATA_FILENAME = "gallaudet_chapters.yaml"
@@ -34,6 +35,8 @@ burgess_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + BURGESS_OUTPUT_FI
 puts burgess_output if GALLAUDET_VERBOSE
 macchi_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + MACCHI_OUTPUT_FILENAME))
 puts macchi_output if GALLAUDET_VERBOSE
+hawker_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + HAWKER_OUTPUT_FILENAME))
+puts macchi_output if GALLAUDET_VERBOSE
 
 gallaudet_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_OUTPUT_FILENAME, "w")
 gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_DATA_FILENAME}")
@@ -41,5 +44,6 @@ gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_DATA_FIL
 add_media_to_chapter(ikarus_output, "ikarus", gallaudet_chapters)
 add_media_to_chapter(burgess_output, "burgess", gallaudet_chapters)
 add_media_to_chapter(macchi_output, "macchi", gallaudet_chapters)
+add_media_to_chapter(hawker_output, "hawker", gallaudet_chapters)
 puts JSON.pretty_generate(gallaudet_chapters) if GALLAUDET_VERBOSE
 gallaudet_output_file.write(JSON.pretty_generate(gallaudet_chapters))
