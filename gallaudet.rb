@@ -36,7 +36,7 @@ puts burgess_output if GALLAUDET_VERBOSE
 macchi_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + MACCHI_OUTPUT_FILENAME))
 puts macchi_output if GALLAUDET_VERBOSE
 hawker_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + HAWKER_OUTPUT_FILENAME))
-puts macchi_output if GALLAUDET_VERBOSE
+puts hawker_output if GALLAUDET_VERBOSE
 
 gallaudet_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_OUTPUT_FILENAME, "w")
 gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_DATA_FILENAME}")
