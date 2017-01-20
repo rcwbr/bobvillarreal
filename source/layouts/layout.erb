@@ -12,6 +12,9 @@
     <% if current_page.data.page == "clawing home" %>
       <%= stylesheet_link_tag :home %>
     <% end %>
+    <% if current_page.data.content_page %>
+      <%= stylesheet_link_tag :content_pages %>
+    <% end %>
     <%= javascript_include_tag :all %>
   </head>
 
@@ -19,6 +22,9 @@
     <div id="content">
       <div id="center-section">
         <%= partial "partials/menu" %>
+        <% if current_page.data.content_page %>
+          <%= partial "partials/content_menu" %>
+        <% end %>
         <%= yield %>
       </div>
     </div>

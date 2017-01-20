@@ -11,6 +11,7 @@
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
     <%= stylesheet_link_tag :site %>
+    <%= stylesheet_link_tag :content_pages %>
     <%= stylesheet_link_tag :chapter %>
 
     <% if chapter_info["ikarus_data"] %>
@@ -23,6 +24,7 @@
     <div id="content">
       <div id="center-section">
         <%= partial "partials/menu" %>
+        <%= partial "partials/content_menu" %>
         <%= yield %>
       </div>
     </div>

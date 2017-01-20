@@ -1,0 +1,28 @@
+div#content-menubar-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18pt;
+  color: #99CCFF;
+}
+div#content-menubar-div a {
+  color: #99CCFF;
+}
+a.content-menu-link {
+  margin-right: 10px;
+  margin-left: 10px;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+a.content-menu-link:first-child {
+  margin-left: 0px;
+}
+
+h1.media-header {
+  font-family: "Playfair Display";
+  font-weight: 200;
+  font-size: 30pt;
+  color: #D3E2FA;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
