@@ -1,11 +1,11 @@
 div#content-menubar-div {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 18pt;
-  color: #99CCFF;
+  font-size: 14pt;
+  color: white;
 }
 div#content-menubar-div a {
-  color: #99CCFF;
+  color: white;
 }
 a.content-menu-link {
   margin-right: 10px;
