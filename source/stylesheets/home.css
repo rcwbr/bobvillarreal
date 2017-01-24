@@ -1,17 +1,9 @@
-div#title-div {
+div#home-image-div {
   width: 100%;
 }
 p#title-image-caption-p {
   font-size: 12pt;
 }
-h1#title-header {
-  text-align: center;
-  font-family: "Playfair Display", Helvetica;
-  font-weight: 200;
-  font-size: 33pt;
-  color: #D3E2FA;
-}
 p {
   font-size: 14pt;
-
 }
