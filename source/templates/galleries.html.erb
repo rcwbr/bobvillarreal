@@ -5,6 +5,7 @@ content_page: true
 ---
 
 <div id="main">
+  <h1 class="media-header">Galleries</h1>
   <% galleries.each do |gallery| %>
     <p><a href="/gallery/<%= gallery["shortname"] %>"><%= gallery["name"] %></a></p>
   <% end %>
