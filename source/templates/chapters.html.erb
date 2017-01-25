@@ -5,8 +5,17 @@ content_page: true
 ---
 
 <div id="main">
+  <h1 class="media-header">Additional Galleries</h1>
+  <% book_chapters = []
+  chapters.each do |chapter|
+    if !chapter["book_chapter"] %>
+      <p><a href="/chapter/<%= chapter["shortname"] %>"><%= chapter["longname"] || chapter["name"] %></a></p>
+    <% else
+      book_chapters.push(chapter)
+    end
+  end %>
   <h1 class="media-header">Chapters</h1>
-  <% chapters.each do |chapter| %>
+  <% book_chapters.each do |chapter| %>
     <p><a href="/chapter/<%= chapter["shortname"] %>"><%= chapter["longname"] || chapter["name"] %></a></p>
   <% end %>
 </div>
