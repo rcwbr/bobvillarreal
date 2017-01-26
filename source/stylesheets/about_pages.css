@@ -1,0 +1,19 @@
+div#about-menubar-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14pt;
+  color: white;
+}
+div#about-menubar-div a {
+  color: white;
+}
+a.about-menu-link {
+  margin-right: 10px;
+  margin-left: 10px;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+a.about-menu-link:first-child {
+  margin-left: 0px;
+}
