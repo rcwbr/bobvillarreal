@@ -1,0 +1,9 @@
+div#chapters-index-div {
+  width: 530px;
+  float: left;
+}
+div#others-index-div {
+  width: 410px;
+  float: left;
+  margin-left: 20px;
+}
