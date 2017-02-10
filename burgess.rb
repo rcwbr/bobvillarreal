@@ -16,6 +16,8 @@ passages_info.each do |passage_info|
   passages = YAML.load_file("#{BURGESS_DATA_PATH}/#{BURGESS_PASSAGES_DATA_PATH}/#{passage_info["filename"]}")
   puts passages if BURGESS_VERBOSE
   passage_info["passages"] = passages if passages
+  passage_info["content_name"] = "Passages"
+  passage_info["content_path"] = "passages"
 end
 
 puts passages_info if BURGESS_VERBOSE

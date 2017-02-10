@@ -11,5 +11,10 @@ HAWKER_TOURS_DATA_PATH = "tours"
 tours_info = YAML.load_file("#{HAWKER_DATA_PATH}/#{HAWKER_TOURS_DATA_FILE}")
 tours_output_file = File.open(HAWKER_OUTPUT_FILENAME, "w")
 
+tours_info.each do |tour|
+  tour["content_name"] = "Tours"
+  tour["content_path"] = "tours"
+end
+
 tours_output_file.write(JSON.pretty_generate(tours_info))
 tours_output_file.close
