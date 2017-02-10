@@ -1,3 +1,10 @@
+span.index_content_links {
+  margin-left: 20px;
+}
+span.index_content_links a {
+  color: white;
+}
+
 div#chapters-index-div {
   width: 530px;
   float: left;

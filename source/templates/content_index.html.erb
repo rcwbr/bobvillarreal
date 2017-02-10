@@ -1,0 +1,48 @@
+---
+title: Bob Villarreal - Clawing Content
+page: clawing content index
+content_page: true
+---
+
+<div id="main">
+  <div id="chapters-index-div">
+    <h1 class="media-header">Chapters</h1>
+    <% chapters.each do |chapter| %>
+      <p>
+        <a href="/chapter/<%= chapter["shortname"] %>"><%= chapter["longname"] || chapter["name"] %></a>
+        <br />
+        <span class="index_content_links">
+          <% if chapter["media"] != nil
+            chapter["media"].each_with_index do |media_entry, index|
+              if index == 0 %>
+                <a href="/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+              <% else %>
+                - <a href="/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+              <% end %>
+            <% end
+          end %>
+        </span>
+      </p>
+    <% end %>
+  </div>
+  <div id="others-index-div">
+    <h1 class="media-header">Others</h1>
+    <% others.each do |other| %>
+      <p>
+        <a><%= other["longname"] || other["name"] %></a>
+        <br />
+        <span class="index_content_links">
+          <% if other["media"] != nil
+            other["media"].each_with_index do |media_entry, index|
+              if index == 0 %>
+                <a href="/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+              <% else %>
+                - <a href="/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+              <% end %>
+            <% end
+          end %>
+        </span>
+      </p>
+    <% end %>
+  </div>
+</div>

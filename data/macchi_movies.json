@@ -13,7 +13,9 @@
         "url": "http://youtube.com/altitudeclimber/chapter/",
         "title": "Chapter 1 - Ojos del Salado"
       }
-    ]
+    ],
+    "content_name": "Movies",
+    "content_path": "movies"
   },
   {
     "name": "Chapter 2 - Pissis",
@@ -25,6 +27,8 @@
         "url": "http://player.vimeo.com/video/85967126",
         "title": "not same as chapter"
       }
-    ]
+    ],
+    "content_name": "Movies",
+    "content_path": "movies"
   }
 ]
