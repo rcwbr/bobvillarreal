@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Chapter 1 - Ojos del Salado",
+    "shortname": "one",
+    "filename": "chapter1.yaml",
+    "slideshows": [
+      {
+        "filename": "/Videos/0499.m4v",
+        "url": "http://player.vimeo.com/video/85967126",
+        "title": "not same as chapter"
+      },
+      {
+        "url": "http://youtube.com/altitudeclimber/chapter/",
+        "title": "Chapter 1 - Ojos del Salado"
+      }
+    ],
+    "content_name": "Slide Shows",
+    "content_path": "slideshows"
+  },
+  {
+    "name": "Chapter 2 - Pissis",
+    "shortname": "two",
+    "filename": "chapter2.yaml",
+    "slideshows": [
+      {
+        "filename": "/Videos/0499.m4v",
+        "url": "http://player.vimeo.com/video/85967126",
+        "title": "not same as chapter"
+      }
+    ],
+    "content_name": "Slide Shows",
+    "content_path": "slideshows"
+  }
+]
