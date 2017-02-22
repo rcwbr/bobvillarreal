@@ -51,6 +51,14 @@ movies.each do |movies_info|
 end
 proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
 
+slideshows = JSON.parse(File.read("data/bloch_slideshows.json"))
+slideshows.each do |slideshows_info|
+	puts "SLIDESHOWS: Name: #{slideshows_info["name"]} | Short Name: #{slideshows_info["shortname"]}" if CONFIG_VERBOSE
+	puts "SLIDESHOWS: Movies Array: #{slideshows_info["slideshows"]}" if CONFIG_VERBOSE
+	proxy "/slideshows/#{slideshows_info["shortname"]}/index.html", "/templates/slideshows.html", :locals => { :slideshows_info => slideshows_info }, :ignore => true
+end
+#proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
+
 tours = JSON.parse(File.read("data/hawker_tours.json"))
 tours.each do |tour_info|
 	puts "TOURS: Name: #{tour_info["name"]} | Short Name: #{tour_info["shortname"]}" if CONFIG_VERBOSE
