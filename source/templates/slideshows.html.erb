@@ -1,0 +1,11 @@
+---
+title: Bob Villarreal - Clawing Slideshows
+page: clawing slideshows
+content_page: true
+---
+
+<% puts "#{slideshows_info["name"]} slideshows are being built." %>
+<div>
+	<h1 class="media-header" id="slideshows-header"><%= slideshows_info["name"] %></h1>
+  <%= partial "partials/slideshows" %>
+</div>
