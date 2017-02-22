@@ -1,0 +1,14 @@
+---
+title: Bob Villarreal - Clawing Slideshows
+page: clawing slideshows index
+content_page: true
+---
+
+<div id="main">
+  <h1 class="media-header">Slideshows</h1>
+  <% slideshows.each do |slideshows_info|
+    puts slideshows_info["shortname"]
+    puts slideshows_info["name"] %>
+    <p><a href="/slideshows/<%= slideshows_info["shortname"] %>"><%= slideshows_info["name"] %></a></p>
+  <% end %>
+</div>

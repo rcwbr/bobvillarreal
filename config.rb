@@ -57,7 +57,7 @@ slideshows.each do |slideshows_info|
 	puts "SLIDESHOWS: Movies Array: #{slideshows_info["slideshows"]}" if CONFIG_VERBOSE
 	proxy "/slideshows/#{slideshows_info["shortname"]}/index.html", "/templates/slideshows.html", :locals => { :slideshows_info => slideshows_info }, :ignore => true
 end
-#proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
+proxy "/slideshows/index.html", "/templates/slideshows_index.html", :locals => { :slideshows => slideshows }, :ignore => true
 
 tours = JSON.parse(File.read("data/hawker_tours.json"))
 tours.each do |tour_info|
