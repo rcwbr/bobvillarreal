@@ -7,5 +7,6 @@ content_page: true
 <% puts "#{tour_info["name"]} tour is being built." %>
 <div>
 	<h1 class="media-header" id="tour-header"><%= tour_info["name"] %></h1>
+	<a id="tours-link" href="/tours/">All Tours</a>
   <%= partial "partials/tour" %>
 </div>

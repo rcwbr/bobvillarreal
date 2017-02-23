@@ -7,5 +7,6 @@ content_page: true
 <% puts "#{slideshows_info["name"]} slideshows are being built." %>
 <div>
 	<h1 class="media-header" id="slideshows-header"><%= slideshows_info["name"] %></h1>
+	<a id="slideshows-link" href="/slideshows/">All Slide Shows</a>
   <%= partial "partials/slideshows" %>
 </div>
