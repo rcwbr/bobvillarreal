@@ -6,6 +6,7 @@ content_page: true
 
 <% puts "#{passages_info["name"]} passages are being built." %>
 <div>
-	<h1 class="media-header" id="passages-header"><%= passages_info["name"] %></h1>
+	<h1 class="media-header" id="passages-header"><%= passages_info["name"] %> | Passages</h1>
+	<a id="passages-link" href="/passages/">All Passages</a>
   <%= partial "partials/passages" %>
 </div>
