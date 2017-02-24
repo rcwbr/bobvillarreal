@@ -8,11 +8,11 @@ require "json"
 GALLAUDET_VERBOSE = false
 
 OUTPUT_DATA_PATH = "data"
-IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
 BURGESS_OUTPUT_FILENAME = "burgess_passages.json"
 MACCHI_OUTPUT_FILENAME = "macchi_movies.json"
-HAWKER_OUTPUT_FILENAME = "hawker_tours.json"
 BLOCH_OUTPUT_FILENAME = "bloch_slideshows.json"
+HAWKER_OUTPUT_FILENAME = "hawker_tours.json"
+IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
 
 GALLAUDET_DATA_PATH = "."
 GALLAUDET_CHAPTERS_FILENAME = "gallaudet_chapters.yaml"
@@ -55,27 +55,27 @@ def add_media_to_chapter(media, media_manager_name, chapters, others)
   end
 end
 
-ikarus_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + IKARUS_OUTPUT_FILENAME))
-puts ikarus_output if GALLAUDET_VERBOSE
 burgess_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + BURGESS_OUTPUT_FILENAME))
 puts burgess_output if GALLAUDET_VERBOSE
 macchi_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + MACCHI_OUTPUT_FILENAME))
 puts macchi_output if GALLAUDET_VERBOSE
-hawker_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + HAWKER_OUTPUT_FILENAME))
-puts hawker_output if GALLAUDET_VERBOSE
 bloch_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + BLOCH_OUTPUT_FILENAME))
 puts bloch_output if GALLAUDET_VERBOSE
+hawker_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + HAWKER_OUTPUT_FILENAME))
+puts hawker_output if GALLAUDET_VERBOSE
+ikarus_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + IKARUS_OUTPUT_FILENAME))
+puts ikarus_output if GALLAUDET_VERBOSE
 
 gallaudet_chapters_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_CHAPTERS_OUTPUT_FILENAME, "w")
 gallaudet_others_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_OTHERS_OUTPUT_FILENAME, "w")
 gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_CHAPTERS_FILENAME}")
 gallaudet_others = []
 
-add_media_to_chapter(ikarus_output, "ikarus", gallaudet_chapters, gallaudet_others)
 add_media_to_chapter(burgess_output, "burgess", gallaudet_chapters, gallaudet_others)
 add_media_to_chapter(macchi_output, "macchi", gallaudet_chapters, gallaudet_others)
-add_media_to_chapter(hawker_output, "hawker", gallaudet_chapters, gallaudet_others)
 add_media_to_chapter(bloch_output, "bloch", gallaudet_chapters, gallaudet_others)
+add_media_to_chapter(hawker_output, "hawker", gallaudet_chapters, gallaudet_others)
+add_media_to_chapter(ikarus_output, "ikarus", gallaudet_chapters, gallaudet_others)
 puts JSON.pretty_generate(gallaudet_chapters) if GALLAUDET_VERBOSE
 gallaudet_chapters_output_file.write(JSON.pretty_generate(gallaudet_chapters))
 gallaudet_others_output_file.write(JSON.pretty_generate(gallaudet_others))
