@@ -9,52 +9,20 @@ content_page: true
 	<h1 class="media-header" id="chapter-header"><%= chapter_info["name"] %></h1>
 	<a id="chapters-link" href="/content/">All Chapters</a>
 	<div id="chapter-menu-div">
-		<% menu_items = []
-		if passages_info
-			if passages_info["passages"].length > 1
-				menu_items.push({"href" => "#passages-header", "text" => "Passages"})
-			else
-			  menu_items.push({"href" => "#passages-header", "text" => "Passage"})
-			end
-		end
-		if movies_info
-			if movies_info["movies"].length > 1
-				menu_items.push({"href" => "#movies-header", "text" => "Movies"})
-			else
-			  menu_items.push({"href" => "#movies-header", "text" => "Movie"})
-			end
-		end
-		if tour_info
-			menu_items.push({"href" => "#tour-header", "text" => "Tour"})
-		end
-		if gallery_info
-			menu_items.push({"href" => "#gallery-header", "text" => "Gallery"})
-		end
-
-		if menu_items.length > 1
-		 	menu_items.each_with_index do |menu_item, index| %>
-				<a class="menu-link" href="<%=menu_item["href"]%>"><%=menu_item["text"]%></a>
-				<% if index < menu_items.length - 1 %>
+		<% if chapter_info["media"].length > 1
+		 	chapter_info["media"].each_with_index do |media_item, index| %>
+				<a class="menu-link" href="#<%=media_item[1]["content_path"]%>-header"><%=media_item[1]["content_name"]%></a>
+				<% if index < chapter_info["media"].length - 1 %>
 					|
 				<% end
 			end
 		end %>
 	</div>
 	<div>
-  <% if passages_info %>
-		<h2 id="passages-header" class="chapter-section-header">Passages</h2>
-    <%= partial "partials/passages" %>
-  <% end %>
-  <% if movies_info %>
-		<h2 id="movies-header" class="chapter-section-header">Movies</h2>
-		<%= partial "partials/movies" %>
-  <% end %>
-	<% if tour_info %>
-		<h2 id="tour-header" class="chapter-section-header">Tour</h2>
-		<%= partial "partials/tour" %>
-  <% end %>
-	<% if gallery_info %>
-		<h2 id="gallery-header" class="chapter-section-header">Gallery</h2>
-		<%= partial "partials/gallery" %>
-  <% end %>
+  <% if chapter_info["media"].length > 1
+		chapter_info["media"].each do |media_item| %>
+			<h2 id="<%=media_item[1]["content_path"]%>-header" class="chapter-section-header"><%=media_item[1]["content_name"]%></h2>
+			<%= partial "partials/#{media_item[1]["content_path"]}" %>
+		<% end
+	end %>
 </div>
