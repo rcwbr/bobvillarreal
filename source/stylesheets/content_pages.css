@@ -18,6 +18,10 @@ a.content-menu-link:first-child {
   margin-left: 0px;
 }
 
+div.content-container-div {
+  margin-top: 20px;
+}
+
 h1.media-header {
   font-family: "Playfair Display";
   font-weight: 200;
