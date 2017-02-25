@@ -69,8 +69,8 @@ proxy "/tours/index.html", "/templates/tours_index.html", :locals => { :tours =>
 chapters = JSON.parse(File.read("data/gallaudet_chapters.json"))
 chapters.each do |chapter_info|
 	puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
-	if chapter_info["ikarus_data"]
-		chapter_info["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["ikarus_data"]["images_path"]}"
+	if chapter_info["media"]["ikarus_data"]
+		chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
 	end
 	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
 end
