@@ -1,33 +1,27 @@
 [
   {
-    "name": "Chapter 1 - Ojos del Salado",
-    "shortname": "one",
-    "filename": "chapter1.yaml",
+    "name": "Ecuador - Chimborazo",
+    "shortname": "E",
     "slideshows": [
       {
         "url": "https://www.youtube.com/embed/zcld1M9JCiw",
         "title": "Ecuador (Chimborazo and other peaks)"
-      },
-      {
-        "url": "http://youtube.com/altitudeclimber/chapter/",
-        "title": "Chapter 1 - Ojos del Salado"
       }
-    ],
-    "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    ]
   },
   {
-    "name": "Chapter 2 - Pissis",
-    "shortname": "two",
-    "filename": "chapter2.yaml",
-    "slideshows": [
-      {
-        "filename": "/Videos/0499.m4v",
-        "url": "http://player.vimeo.com/video/85967126",
-        "title": "not same as chapter"
-      }
-    ],
-    "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "name": "Bolivia - Illimani",
+    "shortname": "B",
+    "filename": "bolivia.yaml"
+  },
+  {
+    "name": "Argentina - Aconcagua",
+    "shortname": "A",
+    "filename": "argentina.yaml"
+  },
+  {
+    "name": "Cerro Llullaillaco, Chile",
+    "shortname": "llullaillaco",
+    "filename": "llullaillaco.yaml"
   }
 ]

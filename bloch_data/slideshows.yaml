@@ -3,6 +3,10 @@
   name: "Ecuador - Chimborazo"
   shortname: "E"
   filename: "ecuador.yaml"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/zcld1M9JCiw"
+      title: "Ecuador (Chimborazo and other peaks)"
 -
   name: "Bolivia - Illimani"
   shortname: "B"
