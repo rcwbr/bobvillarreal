@@ -1,9 +1,17 @@
 ---
 -
-  name: "Chapter 1 - Ojos del Salado"
-  shortname: "one"
-  filename: "chapter1.yaml"
+  name: "Ecuador - Chimborazo"
+  shortname: "E"
+  filename: "ecuador.yaml"
 -
-  name: "Chapter 2 - Pissis"
-  shortname: "two"
-  filename: "chapter2.yaml"
+  name: "Bolivia - Illimani"
+  shortname: "B"
+  filename: "bolivia.yaml"
+-
+  name: "Argentina - Aconcagua"
+  shortname: "A"
+  filename: "argentina.yaml"
+-
+  name: "Cerro Llullaillaco, Chile"
+  shortname: "llullaillaco"
+  filename: "llullaillaco.yaml"
