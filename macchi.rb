@@ -23,6 +23,8 @@ movies_info.each do |movie_info|
     end
   end
   movie_info["movies"] = movies
+  movie_info["content_name"] = "Movies"
+  movie_info["content_path"] = "movies"
 end
 
 puts movies_info if MACCHI_VERBOSE

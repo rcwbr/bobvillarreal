@@ -6,7 +6,7 @@ content_page: true
 
 <% puts "#{gallery_info["name"]} gallery is being built." %>
 <div>
-	<h1 class="media-header" id="gallery-header"><%= gallery_info["name"] %> | Gallery</h1>
+	<h1 class="media-header" id="gallery-header">Galleries | <%= gallery_info["name"] %></h1>
 	<a id="gallery-link" href="/galleries/">All Galleries</a>
   <%= partial "partials/gallery" %>
 </div>

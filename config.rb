@@ -62,19 +62,20 @@ proxy "/slideshows/index.html", "/templates/slideshows_index.html", :locals => {
 tours = JSON.parse(File.read("data/hawker_tours.json"))
 tours.each do |tour_info|
 	puts "TOURS: Name: #{tour_info["name"]} | Short Name: #{tour_info["shortname"]}" if CONFIG_VERBOSE
-	proxy "/tours/#{tour_info["shortname"]}/index.html", "/templates/tour.html", :locals => { :tour_info => tour_info }, :ignore => true
+	proxy "/tours/#{tour_info["shortname"]}/index.html", "/templates/tours.html", :locals => { :tour_info => tour_info }, :ignore => true
 end
 proxy "/tours/index.html", "/templates/tours_index.html", :locals => { :tours => tours }, :ignore => true
 
 chapters = JSON.parse(File.read("data/gallaudet_chapters.json"))
 chapters.each do |chapter_info|
 	puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
-	if chapter_info["ikarus_data"]
-		chapter_info["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["ikarus_data"]["images_path"]}"
+	if chapter_info["media"]["ikarus_data"]
+		chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
 	end
-	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["ikarus_data"], :passages_info => chapter_info["burgess_data"], :movies_info => chapter_info["macchi_data"], :tour_info => chapter_info["hawker_data"] }, :ignore => true
+	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
 end
-proxy "/chapters/index.html", "/templates/chapters.html", :locals => { :chapters => chapters }, :ignore => true
+others = JSON.parse(File.read("data/gallaudet_others.json"))
+proxy "/content/index.html", "/templates/content_index.html", :locals => { :chapters => chapters, :others => others }, :ignore => true
 
 ###
 # Helpers

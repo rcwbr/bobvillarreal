@@ -3,12 +3,16 @@
     "name": "Chapter 1 - Ojos del Salado",
     "shortname": "one",
     "title": "Chapter 1 Tour",
-    "url": "youtube.com/chapter1tour"
+    "url": "https://www.youtube.com/embed/xilnQmwjNtk",
+    "content_name": "Tours",
+    "content_path": "tours"
   },
   {
     "name": "Chapter 2 - Pissis",
     "shortname": "two",
     "title": "Chapter 2 Tour",
-    "url": "youtube.com/chapter2tour"
+    "url": "youtube.com/chapter2tour",
+    "content_name": "Tours",
+    "content_path": "tours"
   }
 ]

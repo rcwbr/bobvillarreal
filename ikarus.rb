@@ -70,6 +70,8 @@ for gallery_counter in 0...galleries_info.length
     puts "" if IKARUS_VERBOSE
   end
 
+  galleries_info[gallery_counter]["content_name"] = "Gallery"
+  galleries_info[gallery_counter]["content_path"] = "gallery"
 end
 
 galleries_json_file.write(JSON.pretty_generate(galleries_info))

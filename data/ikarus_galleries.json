@@ -235,7 +235,9 @@
           "label": "34"
         }
       ]
-    ]
+    ],
+    "content_name": "Gallery",
+    "content_path": "gallery"
   },
   {
     "name": "Bolivia - Illimani",
@@ -401,7 +403,9 @@
           "label": "23"
         }
       ]
-    ]
+    ],
+    "content_name": "Gallery",
+    "content_path": "gallery"
   },
   {
     "name": "Chapter 1 - Ojos del Salado",
@@ -625,6 +629,8 @@
           "label": "30"
         }
       ]
-    ]
+    ],
+    "content_name": "Gallery",
+    "content_path": "gallery"
   }
 ]

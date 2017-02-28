@@ -1,10 +1,7 @@
-<div id="slideshows-container-div">
+<div class="content-container-div" id="slideshows-container-div">
 	<% slideshows_info["slideshows"].each do |slideshow| %>
   	<div class="slideshow-div">
-			<video class="slideshow-html-video" width="640" height="480" controls="">
-				<source src="<%= slideshow["filename"] %>" type="video/mp4; codecs='avc1.42E01E,mp4a.40.2'" />
-			</video>
-			<iframe class="slideshow-vimeo-iframe" src="<%= slideshow["url"] %>" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe width="560" height="315" src="<%=slideshow["url"]%>" frameborder="0" allowfullscreen></iframe>
   	</div>
 	<% end %>
 	</div>
