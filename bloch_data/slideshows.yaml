@@ -10,12 +10,42 @@
 -
   name: "Bolivia - Illimani"
   shortname: "B"
-  filename: "bolivia.yaml"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/TjcPWsAO4Y4"
+      title: "Bolivia (Illimani and other peaks)"
 -
   name: "Argentina - Aconcagua"
   shortname: "A"
-  filename: "argentina.yaml"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/NrZ5iao62Us"
+      title: "Argentina, Aconcagua (the Polish Glacier)"
 -
   name: "Cerro Llullaillaco, Chile"
   shortname: "llullaillaco"
-  filename: "llullaillaco.yaml"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/U4z5Nd-hOh4"
+      title: "Cerro Llullaillaco, Chile"
+-
+  name: "Cerro Ojos del Salado"
+  shortname: "ojos"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/IF5ryAnSl8I"
+      title: "Cerro Ojos del Salado"
+-
+  name: "Monte Pissis, Argentina"
+  shortname: "pissis"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/6xXJ612ArLk"
+      title: "Monte Pissis, Argentina"
+-
+  name: "Cerro Tres Cruces"
+  shortname: "trescruces"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/jAnqkCkETnE"
+      title: "Cerro Tres Cruces"
