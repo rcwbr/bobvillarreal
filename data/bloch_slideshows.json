@@ -2,26 +2,35 @@
   {
     "name": "Ecuador - Chimborazo",
     "shortname": "E",
+    "filename": "ecuador.yaml",
     "slideshows": [
       {
         "url": "https://www.youtube.com/embed/zcld1M9JCiw",
         "title": "Ecuador (Chimborazo and other peaks)"
       }
-    ]
+    ],
+    "content_name": "Slide Shows",
+    "content_path": "slideshows"
   },
   {
     "name": "Bolivia - Illimani",
     "shortname": "B",
-    "filename": "bolivia.yaml"
+    "filename": "bolivia.yaml",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows"
   },
   {
     "name": "Argentina - Aconcagua",
     "shortname": "A",
-    "filename": "argentina.yaml"
+    "filename": "argentina.yaml",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows"
   },
   {
     "name": "Cerro Llullaillaco, Chile",
     "shortname": "llullaillaco",
-    "filename": "llullaillaco.yaml"
+    "filename": "llullaillaco.yaml",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows"
   }
 ]

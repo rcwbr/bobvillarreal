@@ -12,17 +12,17 @@ movies_info = YAML.load_file("#{MACCHI_DATA_PATH}/#{MACCHI_MOVIES_DATA_FILE}")
 movies_output_file = File.open(MACCHI_OUTPUT_FILENAME, "w")
 
 movies_info.each do |movie_info|
-  puts movie_info if MACCHI_VERBOSE
-  movies = YAML.load_file("#{MACCHI_DATA_PATH}/#{MACCHI_MOVIES_DATA_PATH}/#{movie_info["filename"]}")
-  puts movies if MACCHI_VERBOSE
-  movie_info["movies"] = []
-  movies.each do |movie|
-    if movie["title"] == nil
-      movie["title"] = movie_info["name"]
-      puts "Using chapter name as default movie title" if MACCHI_VERBOSE
-    end
-  end
-  movie_info["movies"] = movies
+#   puts movie_info if MACCHI_VERBOSE
+#   movies = YAML.load_file("#{MACCHI_DATA_PATH}/#{MACCHI_MOVIES_DATA_PATH}/#{movie_info["filename"]}")
+#   puts movies if MACCHI_VERBOSE
+#   movie_info["movies"] = []
+#   movies.each do |movie|
+#     if movie["title"] == nil
+#       movie["title"] = movie_info["name"]
+#       puts "Using chapter name as default movie title" if MACCHI_VERBOSE
+#     end
+#   end
+#   movie_info["movies"] = movies
   movie_info["content_name"] = "Movies"
   movie_info["content_path"] = "movies"
 end
