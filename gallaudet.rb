@@ -43,7 +43,7 @@ def add_media_to_chapter(media, media_manager_name, chapters, others)
         end
       end
       if !found_other
-        entry = { :shortname => media_entry["shortname"], :name => media_entry["name"] }
+        entry = { "shortname" => media_entry["shortname"], "name" => media_entry["name"] }
         if media_entry["longname"] != nil
           entry["longname"] = media_entry["longname"]
         end
