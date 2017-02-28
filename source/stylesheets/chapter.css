@@ -1,4 +1,7 @@
 div#chapter-menu-div {
   font-size: 16pt;
-  color: #99CCFF;
+  /*color: #99CCFF;*/
+}
+div#chapter-menu-div a.menu-link {
+  color: white;
 }
