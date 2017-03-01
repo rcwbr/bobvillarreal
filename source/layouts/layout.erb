@@ -17,6 +17,9 @@
       <% if current_page.data.page == "clawing content index" %>
         <%= stylesheet_link_tag :content_index_page %>
       <% end %>
+      <% if current_page.data.page == "clawing slideshows index" %>
+        <%= stylesheet_link_tag :slideshows_index_page %>
+      <% end %>
     <% else %>
       <%= stylesheet_link_tag :no_content_pages %>
       <% if current_page.data.about_page %>
