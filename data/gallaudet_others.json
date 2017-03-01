@@ -558,5 +558,138 @@
         "content_path": "slideshows"
       }
     }
+  },
+  {
+    "shortname": "assortment2",
+    "name": "Assortment 2",
+    "media": {
+      "bloch_data": {
+        "name": "Assortment 2",
+        "shortname": "assortment2",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/25WOnpP_mcU",
+            "title": "Assortment 2"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "mycamps",
+    "name": "My Camps",
+    "media": {
+      "bloch_data": {
+        "name": "My Camps",
+        "shortname": "mycamps",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/RMOxLZQfbEc",
+            "title": "My Camps"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "onthetop",
+    "name": "On the Top",
+    "media": {
+      "bloch_data": {
+        "name": "On the Top",
+        "shortname": "onthetop",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/B0ldHrLiEyg",
+            "title": "On the Top"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "onlyauthor",
+    "name": "Only the Author",
+    "media": {
+      "bloch_data": {
+        "name": "Only the Author",
+        "shortname": "onlyauthor",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/QkuHc7Loru8",
+            "title": "Only the Author"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "giancarlo",
+    "name": "Giancarlo Fiocco, My First Driver",
+    "media": {
+      "bloch_data": {
+        "name": "Giancarlo Fiocco, My First Driver",
+        "shortname": "giancarlo",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/V87fyvy",
+            "title": "Giancarlo Fiocco, My First Driver"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "patricio",
+    "name": "Patricio Rios, My Second Driver",
+    "media": {
+      "bloch_data": {
+        "name": "Patricio Rios, My Second Driver",
+        "shortname": "patricio",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/N2HXSQI",
+            "title": "Patricio Rios, My Second Driver"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "woodcuts",
+    "name": "Original Woodcuts",
+    "media": {
+      "bloch_data": {
+        "name": "Original Woodcuts",
+        "shortname": "woodcuts",
+        "category": "Other Shows by Topic",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/9KELuOrlOi0",
+            "title": "Original Woodcuts"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
+      }
+    }
   }
 ]

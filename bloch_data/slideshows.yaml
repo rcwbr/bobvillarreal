@@ -63,3 +63,59 @@
     -
       url: "https://www.youtube.com/embed/M7EEQlrtlv8"
       title: "Assortment 1"
+-
+  name: "Assortment 2"
+  shortname: "assortment2"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/25WOnpP_mcU"
+      title: "Assortment 2"
+-
+  name: "My Camps"
+  shortname: "mycamps"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/RMOxLZQfbEc"
+      title: "My Camps"
+-
+  name: "On the Top"
+  shortname: "onthetop"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/B0ldHrLiEyg"
+      title: "On the Top"
+-
+  name: "Only the Author"
+  shortname: "onlyauthor"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/QkuHc7Loru8"
+      title: "Only the Author"
+-
+  name: "Giancarlo Fiocco, My First Driver"
+  shortname: "giancarlo"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/V87fyvy"
+      title: "Giancarlo Fiocco, My First Driver"
+-
+  name: "Patricio Rios, My Second Driver"
+  shortname: "patricio"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/N2HXSQI"
+      title: "Patricio Rios, My Second Driver"
+-
+  name: "Original Woodcuts"
+  shortname: "woodcuts"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/9KELuOrlOi0"
+      title: "Original Woodcuts"

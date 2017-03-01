@@ -22,9 +22,9 @@ content_page: true
       categorized_slideshows.push(new_category)
     end
   end
-  
+
   categorized_slideshows.each do |category| %>
-    <h1><%= category["category"] %></h1>
+    <h2><%= category["category"] %></h2>
     <% category["slideshows"].each do |slideshows_info| %>
       <p><a href="/slideshows/<%= slideshows_info["shortname"] %>"><%= slideshows_info["name"] %></a></p>
     <% end
