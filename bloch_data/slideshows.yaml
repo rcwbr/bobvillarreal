@@ -2,7 +2,7 @@
 -
   name: "Ecuador - Chimborazo"
   shortname: "E"
-  filename: "ecuador.yaml"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/zcld1M9JCiw"
@@ -10,6 +10,7 @@
 -
   name: "Bolivia - Illimani"
   shortname: "B"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/TjcPWsAO4Y4"
@@ -17,6 +18,7 @@
 -
   name: "Argentina - Aconcagua"
   shortname: "A"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/NrZ5iao62Us"
@@ -24,6 +26,7 @@
 -
   name: "Cerro Llullaillaco, Chile"
   shortname: "llullaillaco"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/U4z5Nd-hOh4"
@@ -31,6 +34,7 @@
 -
   name: "Cerro Ojos del Salado"
   shortname: "ojos"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/IF5ryAnSl8I"
@@ -38,6 +42,7 @@
 -
   name: "Monte Pissis, Argentina"
   shortname: "pissis"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/6xXJ612ArLk"
@@ -45,7 +50,16 @@
 -
   name: "Cerro Tres Cruces"
   shortname: "trescruces"
+  category: "Country/Peak"
   slideshows:
     -
       url: "https://www.youtube.com/embed/jAnqkCkETnE"
       title: "Cerro Tres Cruces"
+-
+  name: "Assortment 1"
+  shortname: "assortment1"
+  category: "Other Shows by Topic"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/M7EEQlrtlv8"
+      title: "Assortment 1"

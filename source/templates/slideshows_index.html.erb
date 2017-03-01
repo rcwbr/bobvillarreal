@@ -6,9 +6,27 @@ content_page: true
 
 <div id="main">
   <h1 class="media-header">Slide Shows</h1>
-  <% slideshows.each do |slideshows_info|
-    puts slideshows_info["shortname"]
-    puts slideshows_info["name"] %>
-    <p><a href="/slideshows/<%= slideshows_info["shortname"] %>"><%= slideshows_info["name"] %></a></p>
-  <% end %>
+  <% categorized_slideshows = []
+  slideshows.each do |slideshows_info|
+    found_category = false
+    categorized_slideshows.each do |category|
+      if category["category"] == slideshows_info["category"]
+        category["slideshows"].push(slideshows_info)
+        found_category = true
+      end
+    end
+
+    if !found_category
+      new_category = { "category" => slideshows_info["category"], "slideshows" => [] }
+      new_category["slideshows"].push(slideshows_info)
+      categorized_slideshows.push(new_category)
+    end
+  end
+  
+  categorized_slideshows.each do |category| %>
+    <h1><%= category["category"] %></h1>
+    <% category["slideshows"].each do |slideshows_info| %>
+      <p><a href="/slideshows/<%= slideshows_info["shortname"] %>"><%= slideshows_info["name"] %></a></p>
+    <% end
+  end %>
 </div>
