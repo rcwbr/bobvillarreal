@@ -30,3 +30,7 @@ h1.media-header {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+
+div.embedded-movie-container-div video.fallback-player {
+  display: none;
+}

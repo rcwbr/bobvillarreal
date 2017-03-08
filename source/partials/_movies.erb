@@ -4,8 +4,11 @@
 			<iframe class="movie-vimeo-iframe default-player" src="<%= movie["url"] %>" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			<video class="movie-html-video fallback-player" width="640" height="480" controls="">
 				<source src="<%= movie["filename"] %>" type="video/mp4; codecs='avc1.42E01E,mp4a.40.2'" />
-				</video>
-  	</div>
+			</video>
+			<p>
+				<a class="player-selector-a">If the movie is not playable, click here for an alternative player</a>
+			</p>
+		</div>
 	<% end %>
 	</div>
 </div>

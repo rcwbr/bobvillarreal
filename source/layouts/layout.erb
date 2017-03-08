@@ -20,6 +20,10 @@
       <% if current_page.data.page == "clawing slideshows index" %>
         <%= stylesheet_link_tag :slideshows_index_page %>
       <% end %>
+      <% if current_page.data.page == "clawing movies" %>
+        <%= javascript_include_tag :jquery %>
+        <%= javascript_include_tag :movies %>
+      <% end %>
     <% else %>
       <%= stylesheet_link_tag :no_content_pages %>
       <% if current_page.data.about_page %>
