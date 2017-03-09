@@ -13,6 +13,8 @@
     <%= stylesheet_link_tag :site %>
     <%= stylesheet_link_tag :content_pages %>
     <%= stylesheet_link_tag :chapter %>
+    <%= javascript_include_tag :jquery %>
+    <%= javascript_include_tag :movies %>
 
     <% if chapter_info["media"]["ikarus_data"] %>
       <%= partial "partials/gallery_style" %>
