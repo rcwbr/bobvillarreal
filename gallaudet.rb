@@ -7,7 +7,31 @@ require "json"
 
 GALLAUDET_VERBOSE = false
 
+def parse_plain_media(media_manager)
+  plain_info = YAML.load_file("#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
+  plain_output_file = File.open("#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}", "w")
+
+  plain_info.each do |plain_info|
+    plain_info["content_name"] = media_manager["content_name"]
+    plain_info["content_path"] = media_manager["content_path"]
+  end
+
+  puts plain_info if GALLAUDET_VERBOSE
+
+  plain_output_file.write(JSON.pretty_generate(plain_info))
+  plain_output_file.close
+end
+
 OUTPUT_DATA_PATH = "data"
+MEDIA_MANAGERS = [
+  {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "input_data_entries_path" => "passages", "output_filename" => "burgess_passages.json"}
+]
+puts MEDIA_MANAGERS
+
+MEDIA_MANAGERS.each do |media_manager|
+  parse_plain_media(media_manager) if media_manager["processing_type"] == "plain"
+end
+
 BURGESS_OUTPUT_FILENAME = "burgess_passages.json"
 MACCHI_OUTPUT_FILENAME = "macchi_movies.json"
 BLOCH_OUTPUT_FILENAME = "bloch_slideshows.json"
