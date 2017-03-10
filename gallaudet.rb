@@ -24,7 +24,8 @@ end
 
 OUTPUT_DATA_PATH = "data"
 MEDIA_MANAGERS = [
-  {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "input_data_entries_path" => "passages", "output_filename" => "burgess_passages.json"}
+  {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "input_data_entries_path" => "passages", "output_filename" => "burgess_passages.json"},
+  {"name" => "macchi", "processing_type" => "plain", "content_type" => "movies", "content_path" => "movies", "content_name" => "Movies", "input_data_path" => "macchi_data", "input_data_file" => "movies.yaml", "input_data_entries_path" => "movies", "output_filename" => "macchi_movies.json"}
 ]
 puts MEDIA_MANAGERS
 
