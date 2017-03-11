@@ -26,7 +26,8 @@ OUTPUT_DATA_PATH = "data"
 MEDIA_MANAGERS = [
   {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "output_filename" => "burgess_passages.json"},
   {"name" => "macchi", "processing_type" => "plain", "content_type" => "movies", "content_path" => "movies", "content_name" => "Movies", "input_data_path" => "macchi_data", "input_data_file" => "movies.yaml", "output_filename" => "macchi_movies.json"},
-  {"name" => "bloch", "processing_type" => "plain", "content_type" => "slideshows", "content_path" => "slideshows", "content_name" => "Slide Shows", "input_data_path" => "bloch_data", "input_data_file" => "slideshows.yaml", "output_filename" => "bloch_slideshows.json"}
+  {"name" => "bloch", "processing_type" => "plain", "content_type" => "slideshows", "content_path" => "slideshows", "content_name" => "Slide Shows", "input_data_path" => "bloch_data", "input_data_file" => "slideshows.yaml", "output_filename" => "bloch_slideshows.json"},
+  {"name" => "hawker", "processing_type" => "plain", "content_type" => "tours", "content_path" => "tours", "content_name" => "Tours", "input_data_path" => "hawker_data", "input_data_file" => "tours.yaml", "output_filename" => "hawker_tours.json"}
 ]
 puts MEDIA_MANAGERS
 
