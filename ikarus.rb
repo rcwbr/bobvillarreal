@@ -4,11 +4,6 @@ require "./curtiss_image_process.rb"
 
 IKARUS_VERBOSE = false
 
-IKARUS_DATA_PATH = "ikarus_data"
-IKARUS_OUTPUT_FILENAME = "data/ikarus_galleries.json"
-GALLERIES_DATA_FILE = "galleries.yaml"
-GALLERIES_DATA_PATH = "galleries"
-
 GALLERY_DEFAULTS = {
   "images_path" => "images/galleries",
   "source_path" => "source",
@@ -24,55 +19,58 @@ IMAGE_DEFAULTS = {
   "attribution" => ""
 }
 
-galleries_info = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_FILE}")
-galleries_json_file = File.open(IKARUS_OUTPUT_FILENAME, "w")
+def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path)
 
-for gallery_counter in 0...galleries_info.length
+  galleries_info = YAML.load_file("#{ikarus_data_path}/#{galleries_data_file}")
+  galleries_json_file = File.open(ikarus_output_filename, "w")
 
-  if galleries_info[gallery_counter]["shortname"] == nil
-    galleries_info[gallery_counter]["shortname"] = galleries_info[gallery_counter]["name"]
-  end
-  if galleries_info[gallery_counter]["images_path"] == nil
-    galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
-  end
+  for gallery_counter in 0...galleries_info.length
 
-  for gallery_defaults_counter in 1...GALLERY_DEFAULTS.keys.length
-    if galleries_info[gallery_counter][GALLERY_DEFAULTS.keys[gallery_defaults_counter]] == nil
-      galleries_info[gallery_counter][GALLERY_DEFAULTS.keys[gallery_defaults_counter]] = GALLERY_DEFAULTS[GALLERY_DEFAULTS.keys[gallery_defaults_counter]]
+    if galleries_info[gallery_counter]["shortname"] == nil
+      galleries_info[gallery_counter]["shortname"] = galleries_info[gallery_counter]["name"]
     end
-  end
+    if galleries_info[gallery_counter]["images_path"] == nil
+      galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
+    end
 
-  puts "IKARUS: #{galleries_info[gallery_counter]["name"]} | #{galleries_info[gallery_counter]["shortname"]} | #{galleries_info[gallery_counter]["source_path"]} | #{galleries_info[gallery_counter]["images_path"]} | #{galleries_info[gallery_counter]["thumbs_folder_path"]} | #{galleries_info[gallery_counter]["total_width"]} | #{galleries_info[gallery_counter]["images_per_row"]} | #{galleries_info[gallery_counter]["image_margins"]} | #{galleries_info[gallery_counter]["width_adjustment"]}" if IKARUS_VERBOSE
-
-  galleries_info[gallery_counter]["image_matrix"] = []
-
-  gallery_images_info = YAML.load_file("#{IKARUS_DATA_PATH}/#{GALLERIES_DATA_PATH}/#{galleries_info[gallery_counter]["filename"]}")
-  label_counter = 1
-  for image_counter in 0...gallery_images_info.length
-    for images_defaults_counter in 0...IMAGE_DEFAULTS.length
-      if gallery_images_info[image_counter][IMAGE_DEFAULTS.keys[images_defaults_counter]] == nil
-        gallery_images_info[image_counter][IMAGE_DEFAULTS.keys[images_defaults_counter]] = IMAGE_DEFAULTS[IMAGE_DEFAULTS.keys[images_defaults_counter]]
+    for gallery_defaults_counter in 1...GALLERY_DEFAULTS.keys.length
+      if galleries_info[gallery_counter][GALLERY_DEFAULTS.keys[gallery_defaults_counter]] == nil
+        galleries_info[gallery_counter][GALLERY_DEFAULTS.keys[gallery_defaults_counter]] = GALLERY_DEFAULTS[GALLERY_DEFAULTS.keys[gallery_defaults_counter]]
       end
     end
-    if gallery_images_info[image_counter]["label"] == nil
-      gallery_images_info[image_counter]["label"] = label_counter.to_s
-      label_counter += 1
+
+    puts "IKARUS: #{galleries_info[gallery_counter]["name"]} | #{galleries_info[gallery_counter]["shortname"]} | #{galleries_info[gallery_counter]["source_path"]} | #{galleries_info[gallery_counter]["images_path"]} | #{galleries_info[gallery_counter]["thumbs_folder_path"]} | #{galleries_info[gallery_counter]["total_width"]} | #{galleries_info[gallery_counter]["images_per_row"]} | #{galleries_info[gallery_counter]["image_margins"]} | #{galleries_info[gallery_counter]["width_adjustment"]}" if IKARUS_VERBOSE
+
+    galleries_info[gallery_counter]["image_matrix"] = []
+
+    gallery_images_info = YAML.load_file("#{ikarus_data_path}/#{galleries_data_path}/#{galleries_info[gallery_counter]["filename"]}")
+    label_counter = 1
+    for image_counter in 0...gallery_images_info.length
+      for images_defaults_counter in 0...IMAGE_DEFAULTS.length
+        if gallery_images_info[image_counter][IMAGE_DEFAULTS.keys[images_defaults_counter]] == nil
+          gallery_images_info[image_counter][IMAGE_DEFAULTS.keys[images_defaults_counter]] = IMAGE_DEFAULTS[IMAGE_DEFAULTS.keys[images_defaults_counter]]
+        end
+      end
+      if gallery_images_info[image_counter]["label"] == nil
+        gallery_images_info[image_counter]["label"] = label_counter.to_s
+        label_counter += 1
+      end
     end
+
+    curtiss_init(galleries_info[gallery_counter]["image_matrix"], gallery_images_info, "#{galleries_info[gallery_counter]["source_path"]}/#{galleries_info[gallery_counter]["images_path"]}", galleries_info[gallery_counter]["thumbs_folder_path"], galleries_info[gallery_counter]["total_width"], galleries_info[gallery_counter]["images_per_row"], galleries_info[gallery_counter]["image_margins"], galleries_info[gallery_counter]["width_adjustment"])
+
+    for i in 0...galleries_info[gallery_counter]["image_matrix"].length
+      print "IKARUS: " if IKARUS_VERBOSE
+      for j in 0...galleries_info[gallery_counter]["image_matrix"][i].length
+        print "#{galleries_info[gallery_counter]["image_matrix"][i][j]} " if IKARUS_VERBOSE
+      end
+      puts "" if IKARUS_VERBOSE
+    end
+
+    galleries_info[gallery_counter]["content_name"] = "Gallery"
+    galleries_info[gallery_counter]["content_path"] = "gallery"
   end
 
-  curtiss_init(galleries_info[gallery_counter]["image_matrix"], gallery_images_info, "#{galleries_info[gallery_counter]["source_path"]}/#{galleries_info[gallery_counter]["images_path"]}", galleries_info[gallery_counter]["thumbs_folder_path"], galleries_info[gallery_counter]["total_width"], galleries_info[gallery_counter]["images_per_row"], galleries_info[gallery_counter]["image_margins"], galleries_info[gallery_counter]["width_adjustment"])
-
-  for i in 0...galleries_info[gallery_counter]["image_matrix"].length
-    print "IKARUS: " if IKARUS_VERBOSE
-    for j in 0...galleries_info[gallery_counter]["image_matrix"][i].length
-      print "#{galleries_info[gallery_counter]["image_matrix"][i][j]} " if IKARUS_VERBOSE
-    end
-    puts "" if IKARUS_VERBOSE
-  end
-
-  galleries_info[gallery_counter]["content_name"] = "Gallery"
-  galleries_info[gallery_counter]["content_path"] = "gallery"
+  galleries_json_file.write(JSON.pretty_generate(galleries_info))
+  galleries_json_file.close
 end
-
-galleries_json_file.write(JSON.pretty_generate(galleries_info))
-galleries_json_file.close

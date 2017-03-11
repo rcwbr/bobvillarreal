@@ -4,10 +4,11 @@
 
 require "yaml"
 require "json"
+require "./ikarus.rb"
 
 GALLAUDET_VERBOSE = false
 
-def parse_plain_media(media_manager)
+def process_plain_media(media_manager)
   plain_info = YAML.load_file("#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
   plain_output_file = File.open("#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}", "w")
 
@@ -22,17 +23,23 @@ def parse_plain_media(media_manager)
   plain_output_file.close
 end
 
+def process_gallery_media(media_manager)
+  ikarus_init(media_manager["input_data_path"], "#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"])
+end
+
 OUTPUT_DATA_PATH = "data"
 MEDIA_MANAGERS = [
   {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "output_filename" => "burgess_passages.json"},
   {"name" => "macchi", "processing_type" => "plain", "content_type" => "movies", "content_path" => "movies", "content_name" => "Movies", "input_data_path" => "macchi_data", "input_data_file" => "movies.yaml", "output_filename" => "macchi_movies.json"},
   {"name" => "bloch", "processing_type" => "plain", "content_type" => "slideshows", "content_path" => "slideshows", "content_name" => "Slide Shows", "input_data_path" => "bloch_data", "input_data_file" => "slideshows.yaml", "output_filename" => "bloch_slideshows.json"},
-  {"name" => "hawker", "processing_type" => "plain", "content_type" => "tours", "content_path" => "tours", "content_name" => "Tours", "input_data_path" => "hawker_data", "input_data_file" => "tours.yaml", "output_filename" => "hawker_tours.json"}
+  {"name" => "hawker", "processing_type" => "plain", "content_type" => "tours", "content_path" => "tours", "content_name" => "Tours", "input_data_path" => "hawker_data", "input_data_file" => "tours.yaml", "output_filename" => "hawker_tours.json"},
+  {"name" => "ikarus", "processing_type" => "galleries", "content_type" => "galleries", "input_data_path" => "ikarus_data", "input_data_file" => "galleries.yaml", "input_data_entries_path" => "galleries", "output_filename" => "ikarus_galleries.json"}
 ]
 puts MEDIA_MANAGERS
 
 MEDIA_MANAGERS.each do |media_manager|
-  parse_plain_media(media_manager) if media_manager["processing_type"] == "plain"
+  process_plain_media(media_manager) if media_manager["processing_type"] == "plain"
+  process_gallery_media(media_manager) if media_manager["processing_type"] == "galleries"
 end
 
 BURGESS_OUTPUT_FILENAME = "burgess_passages.json"
