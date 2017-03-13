@@ -24,9 +24,14 @@ page "/chapter/*", :layout => "chapter"
 
 activate :directory_indexes
 
-GALLERY_SITE_ROOT_PATH = "../../"
 CONFIG_VERBOSE = false
-galleries = JSON.parse(File.read("data/ikarus_galleries.json"))
+
+DATA_PATH = "data"
+GALLERY_SITE_ROOT_PATH = "../../"
+
+chapter_data_path = "clawing"
+
+galleries = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/ikarus_galleries.json"))
 galleries.each do |gallery_info|
 	puts "GALLERY: Name: #{gallery_info["name"]} | Short Name: #{gallery_info["shortname"]} | Images Path: #{gallery_info["images_path"]} | Thumbs Folder Path: #{gallery_info["thumbs_folder_path"]} | Total Width: #{gallery_info["total_width"]} | Images Per Row: #{gallery_info["images_per_row"]} | Image Margins: #{gallery_info["image_margins"]} | Width Adjustment: #{gallery_info["width_adjustment"]} | Overlay Thumbnail Height: #{gallery_info["overlay_thumb_height"]}" if CONFIG_VERBOSE
 	puts "GALLERY: Image Filename Matrix: #{gallery_info["image_matrix"]}" if CONFIG_VERBOSE
@@ -35,7 +40,7 @@ galleries.each do |gallery_info|
 end
 proxy "/galleries/index.html", "/templates/galleries.html", :locals => { :galleries => galleries }, :ignore => true
 
-passages = JSON.parse(File.read("data/burgess_passages.json"))
+passages = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/burgess_passages.json"))
 passages.each do |passages_info|
 	puts "PASSAGES: Name: #{passages_info["name"]} | Short Name: #{passages_info["shortname"]}" if CONFIG_VERBOSE
 	puts "PASSAGES: Passages Array: #{passages_info["passages"]}" if CONFIG_VERBOSE
@@ -43,7 +48,7 @@ passages.each do |passages_info|
 end
 proxy "/passages/index.html", "/templates/passages_index.html", :locals => { :passages => passages }, :ignore => true
 
-movies = JSON.parse(File.read("data/macchi_movies.json"))
+movies = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/macchi_movies.json"))
 movies.each do |movies_info|
 	puts "MOVIES: Name: #{movies_info["name"]} | Short Name: #{movies_info["shortname"]}" if CONFIG_VERBOSE
 	puts "MOVIES: Movies Array: #{movies_info["movies"]}" if CONFIG_VERBOSE
@@ -51,7 +56,7 @@ movies.each do |movies_info|
 end
 proxy "/movies/index.html", "/templates/movies_index.html", :locals => { :movies => movies }, :ignore => true
 
-slideshows = JSON.parse(File.read("data/bloch_slideshows.json"))
+slideshows = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/bloch_slideshows.json"))
 slideshows.each do |slideshows_info|
 	puts "SLIDESHOWS: Name: #{slideshows_info["name"]} | Short Name: #{slideshows_info["shortname"]}" if CONFIG_VERBOSE
 	puts "SLIDESHOWS: Movies Array: #{slideshows_info["slideshows"]}" if CONFIG_VERBOSE
@@ -59,14 +64,14 @@ slideshows.each do |slideshows_info|
 end
 proxy "/slideshows/index.html", "/templates/slideshows_index.html", :locals => { :slideshows => slideshows }, :ignore => true
 
-tours = JSON.parse(File.read("data/hawker_tours.json"))
+tours = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/hawker_tours.json"))
 tours.each do |tour_info|
 	puts "TOURS: Name: #{tour_info["name"]} | Short Name: #{tour_info["shortname"]}" if CONFIG_VERBOSE
 	proxy "/tours/#{tour_info["shortname"]}/index.html", "/templates/tours.html", :locals => { :tour_info => tour_info }, :ignore => true
 end
 proxy "/tours/index.html", "/templates/tours_index.html", :locals => { :tours => tours }, :ignore => true
 
-chapters = JSON.parse(File.read("data/gallaudet_chapters.json"))
+chapters = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/gallaudet_chapters.json"))
 chapters.each do |chapter_info|
 	puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
 	if chapter_info["media"]["ikarus_data"]
@@ -74,7 +79,7 @@ chapters.each do |chapter_info|
 	end
 	proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
 end
-others = JSON.parse(File.read("data/gallaudet_others.json"))
+others = JSON.parse(File.read("#{DATA_PATH}/#{chapter_data_path}/gallaudet_others.json"))
 proxy "/content/index.html", "/templates/content_index.html", :locals => { :chapters => chapters, :others => others }, :ignore => true
 
 ###
