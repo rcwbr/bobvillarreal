@@ -27,33 +27,6 @@ def process_gallery_media(media_manager)
   ikarus_init(media_manager["input_data_path"], "#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"])
 end
 
-OUTPUT_DATA_PATH = "data"
-MEDIA_MANAGERS = [
-  {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "output_filename" => "burgess_passages.json"},
-  {"name" => "macchi", "processing_type" => "plain", "content_type" => "movies", "content_path" => "movies", "content_name" => "Movies", "input_data_path" => "macchi_data", "input_data_file" => "movies.yaml", "output_filename" => "macchi_movies.json"},
-  {"name" => "bloch", "processing_type" => "plain", "content_type" => "slideshows", "content_path" => "slideshows", "content_name" => "Slide Shows", "input_data_path" => "bloch_data", "input_data_file" => "slideshows.yaml", "output_filename" => "bloch_slideshows.json"},
-  {"name" => "hawker", "processing_type" => "plain", "content_type" => "tours", "content_path" => "tours", "content_name" => "Tours", "input_data_path" => "hawker_data", "input_data_file" => "tours.yaml", "output_filename" => "hawker_tours.json"},
-  {"name" => "ikarus", "processing_type" => "galleries", "content_type" => "galleries", "input_data_path" => "ikarus_data", "input_data_file" => "galleries.yaml", "input_data_entries_path" => "galleries", "output_filename" => "ikarus_galleries.json"}
-]
-puts MEDIA_MANAGERS
-
-MEDIA_MANAGERS.each do |media_manager|
-  process_plain_media(media_manager) if media_manager["processing_type"] == "plain"
-  process_gallery_media(media_manager) if media_manager["processing_type"] == "galleries"
-end
-
-BURGESS_OUTPUT_FILENAME = "burgess_passages.json"
-MACCHI_OUTPUT_FILENAME = "macchi_movies.json"
-BLOCH_OUTPUT_FILENAME = "bloch_slideshows.json"
-HAWKER_OUTPUT_FILENAME = "hawker_tours.json"
-IKARUS_OUTPUT_FILENAME = "ikarus_galleries.json"
-
-GALLAUDET_DATA_PATH = "."
-GALLAUDET_CHAPTERS_FILENAME = "gallaudet_chapters.yaml"
-GALLAUDET_OTHERS_FILENAME = "gallaudet_others.yaml"
-GALLAUDET_CHAPTERS_OUTPUT_FILENAME = "gallaudet_chapters.json"
-GALLAUDET_OTHERS_OUTPUT_FILENAME = "gallaudet_others.json"
-
 def add_media_to_chapter(media, media_manager_name, chapters, others)
   puts "Adding media to chapter" if GALLAUDET_VERBOSE
   media.each do |media_entry|
@@ -89,27 +62,34 @@ def add_media_to_chapter(media, media_manager_name, chapters, others)
   end
 end
 
-burgess_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + BURGESS_OUTPUT_FILENAME))
-puts burgess_output if GALLAUDET_VERBOSE
-macchi_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + MACCHI_OUTPUT_FILENAME))
-puts macchi_output if GALLAUDET_VERBOSE
-bloch_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + BLOCH_OUTPUT_FILENAME))
-puts bloch_output if GALLAUDET_VERBOSE
-hawker_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + HAWKER_OUTPUT_FILENAME))
-puts hawker_output if GALLAUDET_VERBOSE
-ikarus_output = JSON.parse(File.read(OUTPUT_DATA_PATH + "/" + IKARUS_OUTPUT_FILENAME))
-puts ikarus_output if GALLAUDET_VERBOSE
+OUTPUT_DATA_PATH = "data"
+MEDIA_MANAGERS = [
+  {"name" => "burgess", "processing_type" => "plain", "content_type" => "passages", "content_path" => "passages", "content_name" => "Passages", "input_data_path" => "burgess_data", "input_data_file" => "passages.yaml", "output_filename" => "burgess_passages.json"},
+  {"name" => "macchi", "processing_type" => "plain", "content_type" => "movies", "content_path" => "movies", "content_name" => "Movies", "input_data_path" => "macchi_data", "input_data_file" => "movies.yaml", "output_filename" => "macchi_movies.json"},
+  {"name" => "bloch", "processing_type" => "plain", "content_type" => "slideshows", "content_path" => "slideshows", "content_name" => "Slide Shows", "input_data_path" => "bloch_data", "input_data_file" => "slideshows.yaml", "output_filename" => "bloch_slideshows.json"},
+  {"name" => "hawker", "processing_type" => "plain", "content_type" => "tours", "content_path" => "tours", "content_name" => "Tours", "input_data_path" => "hawker_data", "input_data_file" => "tours.yaml", "output_filename" => "hawker_tours.json"},
+  {"name" => "ikarus", "processing_type" => "galleries", "content_type" => "galleries", "input_data_path" => "ikarus_data", "input_data_file" => "galleries.yaml", "input_data_entries_path" => "galleries", "output_filename" => "ikarus_galleries.json"}
+]
+
+GALLAUDET_DATA_PATH = "."
+GALLAUDET_CHAPTERS_FILENAME = "gallaudet_chapters.yaml"
+GALLAUDET_OTHERS_FILENAME = "gallaudet_others.yaml"
+GALLAUDET_CHAPTERS_OUTPUT_FILENAME = "gallaudet_chapters.json"
+GALLAUDET_OTHERS_OUTPUT_FILENAME = "gallaudet_others.json"
 
 gallaudet_chapters_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_CHAPTERS_OUTPUT_FILENAME, "w")
 gallaudet_others_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_OTHERS_OUTPUT_FILENAME, "w")
 gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_CHAPTERS_FILENAME}")
 gallaudet_others = []
 
-add_media_to_chapter(burgess_output, "burgess", gallaudet_chapters, gallaudet_others)
-add_media_to_chapter(macchi_output, "macchi", gallaudet_chapters, gallaudet_others)
-add_media_to_chapter(bloch_output, "bloch", gallaudet_chapters, gallaudet_others)
-add_media_to_chapter(hawker_output, "hawker", gallaudet_chapters, gallaudet_others)
-add_media_to_chapter(ikarus_output, "ikarus", gallaudet_chapters, gallaudet_others)
+MEDIA_MANAGERS.each do |media_manager|
+  process_plain_media(media_manager) if media_manager["processing_type"] == "plain"
+  process_gallery_media(media_manager) if media_manager["processing_type"] == "galleries"
+
+  processing_output_file = JSON.parse(File.read("#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}"))
+  add_media_to_chapter(processing_output_file, media_manager["name"], gallaudet_chapters, gallaudet_others)
+end
+
 puts JSON.pretty_generate(gallaudet_chapters) if GALLAUDET_VERBOSE
 gallaudet_chapters_output_file.write(JSON.pretty_generate(gallaudet_chapters))
 gallaudet_others_output_file.write(JSON.pretty_generate(gallaudet_others))
