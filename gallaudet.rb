@@ -8,9 +8,9 @@ require "./ikarus.rb"
 
 GALLAUDET_VERBOSE = false
 
-def process_plain_media(media_manager)
+def process_plain_media(media_manager, chapter_data_path)
   plain_info = YAML.load_file("#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
-  plain_output_file = File.open("#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}", "w")
+  plain_output_file = File.open("#{OUTPUT_DATA_PATH}/#{chapter_data_path}/#{media_manager["output_filename"]}", "w")
 
   plain_info.each do |plain_info|
     plain_info["content_name"] = media_manager["content_name"]
@@ -23,8 +23,8 @@ def process_plain_media(media_manager)
   plain_output_file.close
 end
 
-def process_gallery_media(media_manager)
-  ikarus_init(media_manager["input_data_path"], "#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"])
+def process_gallery_media(media_manager, chapter_data_path)
+  ikarus_init(media_manager["input_data_path"], "#{OUTPUT_DATA_PATH}/#{chapter_data_path}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"])
 end
 
 def add_media_to_chapter(media, media_manager_name, chapters, others)
@@ -77,16 +77,18 @@ GALLAUDET_OTHERS_FILENAME = "gallaudet_others.yaml"
 GALLAUDET_CHAPTERS_OUTPUT_FILENAME = "gallaudet_chapters.json"
 GALLAUDET_OTHERS_OUTPUT_FILENAME = "gallaudet_others.json"
 
-gallaudet_chapters_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_CHAPTERS_OUTPUT_FILENAME, "w")
-gallaudet_others_output_file = File.open(OUTPUT_DATA_PATH + "/" + GALLAUDET_OTHERS_OUTPUT_FILENAME, "w")
+
+chapter_data_path = "clawing"
+gallaudet_chapters_output_file = File.open("#{OUTPUT_DATA_PATH}/#{chapter_data_path}/#{GALLAUDET_CHAPTERS_OUTPUT_FILENAME}", "w")
+gallaudet_others_output_file = File.open("#{OUTPUT_DATA_PATH}/#{chapter_data_path}/#{GALLAUDET_OTHERS_OUTPUT_FILENAME}", "w")
 gallaudet_chapters = YAML.load_file("#{GALLAUDET_DATA_PATH}/#{GALLAUDET_CHAPTERS_FILENAME}")
 gallaudet_others = []
 
 MEDIA_MANAGERS.each do |media_manager|
-  process_plain_media(media_manager) if media_manager["processing_type"] == "plain"
-  process_gallery_media(media_manager) if media_manager["processing_type"] == "galleries"
+  process_plain_media(media_manager, chapter_data_path) if media_manager["processing_type"] == "plain"
+  process_gallery_media(media_manager, chapter_data_path) if media_manager["processing_type"] == "galleries"
 
-  processing_output_file = JSON.parse(File.read("#{OUTPUT_DATA_PATH}/#{media_manager["output_filename"]}"))
+  processing_output_file = JSON.parse(File.read("#{OUTPUT_DATA_PATH}/#{chapter_data_path}/#{media_manager["output_filename"]}"))
   add_media_to_chapter(processing_output_file, media_manager["name"], gallaudet_chapters, gallaudet_others)
 end
 
