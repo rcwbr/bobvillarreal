@@ -6,7 +6,7 @@ IKARUS_VERBOSE = false
 
 GALLERY_DEFAULTS = {
   "images_path" => "images/galleries",
-  "source_path" => "source",
+  "source_path" => "../source",
   "thumbs_folder_path" => "thumbs",
   "total_width" => 960,  #This is the width (in pixel) which Curtiss will make each row fit within. It also sets a number of style attributes from elsewhere in Middleman, where it is accessed by the config[:TOTAL_WIDTH] variable (see below).
   "images_per_row" => 4, #This is the number of images Curtiss will attempt to place on each row. If the imagesprocessed are not wide enough, it will add to this number until it fills the row. This is also accessed elsewhere in Middleman.

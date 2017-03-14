@@ -42,7 +42,7 @@
         "filename": "chapter1.yaml",
         "label-prefix": "1",
         "images_path": "images/galleries/1",
-        "source_path": "source",
+        "source_path": "../source",
         "thumbs_folder_path": "thumbs",
         "total_width": 960,
         "images_per_row": 4,
