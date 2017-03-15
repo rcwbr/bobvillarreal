@@ -64,6 +64,7 @@ end
 
 INPUT_DATA_PATH = "../input_data/"
 BOOKS_INPUT_FILE = "books.yaml"
+BOOKS_OUTPUT_FILE = "books.json"
 OUTPUT_DATA_PATH = "../data"
 
 GALLAUDET_DATA_PATH = "."
@@ -98,3 +99,6 @@ books.each do |book|
   gallaudet_chapters_output_file.write(JSON.pretty_generate(gallaudet_chapters))
   gallaudet_others_output_file.write(JSON.pretty_generate(gallaudet_others))
 end
+
+books_output_file = File.open("#{OUTPUT_DATA_PATH}/#{BOOKS_OUTPUT_FILE}", "w")
+books_output_file.write(JSON.pretty_generate(books))
