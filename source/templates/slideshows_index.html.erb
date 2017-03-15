@@ -7,7 +7,7 @@ content_page: true
 <div id="main">
   <h1 class="media-header">Slide Shows</h1>
   <% categorized_slideshows = []
-  slideshows.each do |slideshows_info|
+  media.each do |slideshows_info|
     found_category = false
     categorized_slideshows.each do |category|
       if category["category"] == slideshows_info["category"]
