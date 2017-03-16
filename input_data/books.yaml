@@ -2,6 +2,23 @@
   shortname: clawing
   title: Clawing for the Stars
   subtitle: A solo climber in the highest Andes
+  non_content_pages:
+    -
+      name: "Home"
+      location: "."
+      filename: "index.html"
+    -
+      name: "About the Book"
+      location: "aboutbook"
+      filename: "aboutbook.html"
+    -
+      name: "About the Author"
+      location: "aboutauthor"
+      filename: "aboutauthor.html"
+    -
+      name: "Acknowledgements and Reviews"
+      location: "acknowledgements_and_reviews"
+      filename: "acks_reviews.html"
   media_managers:
     -
       name: "burgess"

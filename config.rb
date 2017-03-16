@@ -13,8 +13,6 @@ page '/*.txt', layout: false
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
-page "/gallery/*", :layout => "gallery"
-page "/chapter/*", :layout => "chapter"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
@@ -34,25 +32,33 @@ books = JSON.parse(File.read("#{DATA_PATH}/books.json"))
 books.each do |book|
 	book_data_path = book["shortname"]
 
+	page "#{book_data_path}/galleries/*", :layout => "gallery"
+	page "#{book_data_path}/chapter/*", :layout => "chapter"
+
+	non_content_pages = book["non_content_pages"]
+	non_content_pages.each do |non_content_page|
+		proxy "/#{book_data_path}/#{non_content_page["location"]}/index.html", "#{book_data_path}/#{non_content_page["filename"]}", :locals => { :book => book }, :ignore => true
+	end
+
 	media_managers = book["media_managers"]
 	media_managers.each do |media_manager|
 		media = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/#{media_manager["output_filename"]}"))
 		media.each do |media_entry|
 			case media_manager["name"]
 			when "burgess"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/passages.html", :locals => { :book => book, :passages_info => media_entry }, :ignore => true
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/passages.html", :locals => { :book => book, :passages_info => media_entry }, :ignore => true
 			when "ikarus"
 				media_entry["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{media_entry["images_path"]}"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :gallery_info => media_entry }, :ignore => true
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :gallery_info => media_entry }, :ignore => true
 			when "bloch"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :slideshows_info => media_entry }, :ignore => true
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :slideshows_info => media_entry }, :ignore => true
 			when "hawker"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/tours.html", :locals => { :book => book, :tour_info => media_entry }, :ignore => true
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/tours.html", :locals => { :book => book, :tour_info => media_entry }, :ignore => true
 			when "macchi"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/movies.html", :locals => { :book => book, :movies_info => media_entry }, :ignore => true
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/movies.html", :locals => { :book => book, :movies_info => media_entry }, :ignore => true
 			end
 		end
-		proxy "/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_path"]}_index.html", :locals => { :book => book, :media => media }, :ignore => true
+		proxy "/#{book_data_path}/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_path"]}_index.html", :locals => { :book => book, :media => media }, :ignore => true
 	end
 
 	chapters = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_chapters.json"))
@@ -61,10 +67,10 @@ books.each do |book|
 		if chapter_info["media"]["ikarus_data"]
 			chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
 		end
-		proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :book => book, :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
+		proxy "/#{book_data_path}/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :book => book, :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
 	end
 	others = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_others.json"))
-	proxy "/content/index.html", "/templates/content_index.html", :locals => { :book => book, :chapters => chapters, :others => others }, :ignore => true
+	proxy "/#{book_data_path}/content/index.html", "/templates/content_index.html", :locals => { :book => book, :chapters => chapters, :others => others }, :ignore => true
 end
 
 ###

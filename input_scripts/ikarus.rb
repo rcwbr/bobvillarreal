@@ -67,8 +67,8 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
       puts "" if IKARUS_VERBOSE
     end
 
-    galleries_info[gallery_counter]["content_name"] = "Gallery"
-    galleries_info[gallery_counter]["content_path"] = "gallery"
+    galleries_info[gallery_counter]["content_name"] = "Galleries"
+    galleries_info[gallery_counter]["content_path"] = "galleries"
   end
 
   galleries_json_file.write(JSON.pretty_generate(galleries_info))

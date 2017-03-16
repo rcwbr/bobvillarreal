@@ -9,6 +9,6 @@ content_page: true
   <% media.each do |movies_info|
     puts movies_info["shortname"]
     puts movies_info["name"] %>
-    <p><a href="/movies/<%= movies_info["shortname"] %>"><%= movies_info["name"] %></a></p>
+    <p><a href="/<%= book["shortname"] %>/movies/<%= movies_info["shortname"] %>"><%= movies_info["name"] %></a></p>
   <% end %>
 </div>

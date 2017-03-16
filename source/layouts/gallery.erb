@@ -5,17 +5,23 @@
     <meta charset="utf-8">
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">-->
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= gallery_info["name"] || "Gallery" %><%= " | Bob Villarreal"%></title>
+    <% puts current_page.data.title
+    if current_page.data.page == "clawing galleries" %>
+      <title><%= "Galleries | Bob Villarreal"%></title>
+    <% else %>
+      <title><%= gallery_info["name"] || "Gallery" %><%= " | Bob Villarreal"%></title>
+    <% end %>
 
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
     <%= stylesheet_link_tag :site %>
     <%= stylesheet_link_tag :content_pages %>
-    <%= stylesheet_link_tag :gallery %>
+    <% if current_page.data.page != "clawing galleries" %>
+      <%= stylesheet_link_tag :gallery %>
+      <%= partial "partials/gallery_style" %>
+      <%= partial "partials/gallery_script" %>
+    <% end %>
 
-    <%= partial "partials/gallery_style" %>
-    <%= partial "partials/gallery_script" %>
   </head>
 
   <body class="<%= page_classes %>">
