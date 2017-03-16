@@ -39,20 +39,20 @@ books.each do |book|
 		media = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/#{media_manager["output_filename"]}"))
 		media.each do |media_entry|
 			case media_manager["name"]
+			when "burgess"
+				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/passages.html", :locals => { :book => book, :passages_info => media_entry }, :ignore => true
 			when "ikarus"
 				media_entry["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{media_entry["images_path"]}"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/gallery.html", :locals => { :gallery_info => media_entry }, :ignore => true
-			when "burgess"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/passages.html", :locals => { :passages_info => media_entry }, :ignore => true
-			when "macchi"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/movies.html", :locals => { :movies_info => media_entry }, :ignore => true
+				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :gallery_info => media_entry }, :ignore => true
 			when "bloch"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/slideshows.html", :locals => { :slideshows_info => media_entry }, :ignore => true
+				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :slideshows_info => media_entry }, :ignore => true
 			when "hawker"
-				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/tours.html", :locals => { :tour_info => media_entry }, :ignore => true
+				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/tours.html", :locals => { :book => book, :tour_info => media_entry }, :ignore => true
+			when "macchi"
+				proxy "/#{media_manager["content_path"]}/#{media_entry["shortname"]}/index.html", "/templates/movies.html", :locals => { :book => book, :movies_info => media_entry }, :ignore => true
 			end
 		end
-		proxy "/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_path"]}_index.html", :locals => { :media => media }, :ignore => true
+		proxy "/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_path"]}_index.html", :locals => { :book => book, :media => media }, :ignore => true
 	end
 
 	chapters = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_chapters.json"))
@@ -61,10 +61,10 @@ books.each do |book|
 		if chapter_info["media"]["ikarus_data"]
 			chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
 		end
-		proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
+		proxy "/chapter/#{chapter_info["shortname"]}/index.html", "/templates/chapter.html", :locals => { :book => book, :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tour_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
 	end
 	others = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_others.json"))
-	proxy "/content/index.html", "/templates/content_index.html", :locals => { :chapters => chapters, :others => others }, :ignore => true
+	proxy "/content/index.html", "/templates/content_index.html", :locals => { :book => book, :chapters => chapters, :others => others }, :ignore => true
 end
 
 ###
