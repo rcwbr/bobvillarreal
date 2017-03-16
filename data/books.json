@@ -6,54 +6,59 @@
     "media_managers": [
       {
         "name": "burgess",
-        "processing_type": "plain",
         "content_type": "passages",
-        "content_path": "passages",
-        "content_name": "Passages",
+        "processing_type": "plain",
         "input_data_path": "burgess_data",
         "input_data_file": "passages.yaml",
-        "output_filename": "burgess_passages.json"
-      },
-      {
-        "name": "macchi",
-        "processing_type": "plain",
-        "content_type": "movies",
-        "content_path": "movies",
-        "content_name": "Movies",
-        "input_data_path": "macchi_data",
-        "input_data_file": "movies.yaml",
-        "output_filename": "macchi_movies.json"
-      },
-      {
-        "name": "bloch",
-        "processing_type": "plain",
-        "content_type": "slideshows",
-        "content_path": "slideshows",
-        "content_name": "Slide Shows",
-        "input_data_path": "bloch_data",
-        "input_data_file": "slideshows.yaml",
-        "output_filename": "bloch_slideshows.json"
-      },
-      {
-        "name": "hawker",
-        "processing_type": "plain",
-        "content_type": "tours",
-        "content_path": "tours",
-        "content_name": "Tours",
-        "input_data_path": "hawker_data",
-        "input_data_file": "tours.yaml",
-        "output_filename": "hawker_tours.json"
+        "output_filename": "burgess_passages.json",
+        "content_path": "passages",
+        "content_name": "Passages",
+        "menu_text": "PASSAGES"
       },
       {
         "name": "ikarus",
-        "processing_type": "galleries",
         "content_type": "galleries",
-        "content_path": "galleries",
-        "content_name": "Galleries",
+        "processing_type": "galleries",
         "input_data_path": "ikarus_data",
         "input_data_file": "galleries.yaml",
         "input_data_entries_path": "galleries",
-        "output_filename": "ikarus_galleries.json"
+        "output_filename": "ikarus_galleries.json",
+        "content_path": "galleries",
+        "content_name": "Galleries",
+        "menu_text": "PHOTOS"
+      },
+      {
+        "name": "bloch",
+        "content_type": "slideshows",
+        "processing_type": "plain",
+        "input_data_path": "bloch_data",
+        "input_data_file": "slideshows.yaml",
+        "output_filename": "bloch_slideshows.json",
+        "content_path": "slideshows",
+        "content_name": "Slide Shows",
+        "menu_text": "SLIDESHOWS"
+      },
+      {
+        "name": "hawker",
+        "content_type": "tours",
+        "processing_type": "plain",
+        "input_data_path": "hawker_data",
+        "input_data_file": "tours.yaml",
+        "output_filename": "hawker_tours.json",
+        "content_path": "tours",
+        "content_name": "Tours",
+        "menu_text": "TOURS"
+      },
+      {
+        "name": "macchi",
+        "content_type": "movies",
+        "processing_type": "plain",
+        "input_data_path": "macchi_data",
+        "input_data_file": "movies.yaml",
+        "output_filename": "macchi_movies.json",
+        "content_path": "movies",
+        "content_name": "Movies",
+        "menu_text": "MOVIES"
       }
     ]
   }

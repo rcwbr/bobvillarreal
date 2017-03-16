@@ -3,19 +3,6 @@
     "shortname": "E",
     "name": "Ecuador - Chimborazo",
     "media": {
-      "bloch_data": {
-        "name": "Ecuador - Chimborazo",
-        "shortname": "E",
-        "category": "Country/Peak",
-        "slideshows": [
-          {
-            "url": "https://www.youtube.com/embed/zcld1M9JCiw",
-            "title": "Ecuador (Chimborazo and other peaks)"
-          }
-        ],
-        "content_name": "Slide Shows",
-        "content_path": "slideshows"
-      },
       "ikarus_data": {
         "name": "Ecuador - Chimborazo",
         "shortname": "E",
@@ -255,6 +242,19 @@
         ],
         "content_name": "Gallery",
         "content_path": "gallery"
+      },
+      "bloch_data": {
+        "name": "Ecuador - Chimborazo",
+        "shortname": "E",
+        "category": "Country/Peak",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/zcld1M9JCiw",
+            "title": "Ecuador (Chimborazo and other peaks)"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
       }
     }
   },
@@ -262,19 +262,6 @@
     "shortname": "B",
     "name": "Bolivia - Illimani",
     "media": {
-      "bloch_data": {
-        "name": "Bolivia - Illimani",
-        "shortname": "B",
-        "category": "Country/Peak",
-        "slideshows": [
-          {
-            "url": "https://www.youtube.com/embed/TjcPWsAO4Y4",
-            "title": "Bolivia (Illimani and other peaks)"
-          }
-        ],
-        "content_name": "Slide Shows",
-        "content_path": "slideshows"
-      },
       "ikarus_data": {
         "name": "Bolivia - Illimani",
         "shortname": "B",
@@ -442,6 +429,19 @@
         ],
         "content_name": "Gallery",
         "content_path": "gallery"
+      },
+      "bloch_data": {
+        "name": "Bolivia - Illimani",
+        "shortname": "B",
+        "category": "Country/Peak",
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/TjcPWsAO4Y4",
+            "title": "Bolivia (Illimani and other peaks)"
+          }
+        ],
+        "content_name": "Slide Shows",
+        "content_path": "slideshows"
       }
     }
   },
