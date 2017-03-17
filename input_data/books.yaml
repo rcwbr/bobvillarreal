@@ -4,21 +4,24 @@
   subtitle: A solo climber in the highest Andes
   non_content_pages:
     -
-      name: "Home"
-      location: "."
-      filename: "index.html"
-    -
       name: "About the Book"
       location: "aboutbook"
       filename: "aboutbook.html"
-    -
-      name: "About the Author"
-      location: "aboutauthor"
-      filename: "aboutauthor.html"
+      menu_text: "ABOUT THE BOOK"
     -
       name: "Acknowledgements and Reviews"
       location: "acknowledgements_and_reviews"
       filename: "acks_reviews.html"
+      menu_text: "ACKNOWLEDGEMENTS"
+    -
+      menu_only: "true"
+      location: "acknowledgements_and_reviews#reviews-header"
+      menu_text: "REVIEWS"
+    -
+      name: "About the Author"
+      location: "aboutauthor"
+      filename: "aboutauthor.html"
+      menu_text: "ABOUT THE AUTHOR"
   media_managers:
     -
       name: "burgess"

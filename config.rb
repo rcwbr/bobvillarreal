@@ -35,10 +35,15 @@ books.each do |book|
 	page "#{book_data_path}/galleries/*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
+
 	non_content_pages = book["non_content_pages"]
 	non_content_pages.each do |non_content_page|
-		proxy "/#{book_data_path}/#{non_content_page["location"]}/index.html", "#{book_data_path}/#{non_content_page["filename"]}", :locals => { :book => book }, :ignore => true
+		if !non_content_page["menu_only"]
+			proxy "/#{book_data_path}/#{non_content_page["location"]}/index.html", "#{book_data_path}/#{non_content_page["filename"]}", :locals => { :book => book, :non_content_pages => non_content_pages }, :ignore => true
+		end
 	end
+
+	proxy "/#{book_data_path}/index.html", "#{book_data_path}/home.html", :locals => { :book => book, :non_content_pages => non_content_pages }, :ignore => true
 
 	media_managers = book["media_managers"]
 	media_managers.each do |media_manager|
