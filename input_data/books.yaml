@@ -74,9 +74,11 @@
       content_path: "movies"
       content_name: "Movies"
       menu_text: "MOVIES"
+  other_book_menu_text: "The Next Book: Pedro de M&eacute;rida"
+  other_book_location: "chronicles"
 -
   shortname: chronicles
-  title: Chronicles of Pedro de Merida
+  title: Chronicles of Pedro de M&eacute;rida
   subtitle: The Adventure Chronicles of Conquistador Pedro de M&eacute;rida and the Spanish Conquest of Chile, 1535-1555
   non_content_pages:
     -
@@ -95,3 +97,5 @@
       content_path: "tours"
       content_name: "Tours"
       menu_text: "TOURS"
+  other_book_menu_text: "Previous Book: Clawing for the Stars"
+  other_book_location: "clawing"
