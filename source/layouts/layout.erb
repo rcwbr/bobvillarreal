@@ -10,7 +10,10 @@
 
     <%= stylesheet_link_tag :site %>
     <% if current_page.data.page == "clawing home" %>
-      <%= stylesheet_link_tag :home %>
+      <%= stylesheet_link_tag :clawing_home %>
+    <% end %>
+    <% if current_page.data.page == "chronicles home" %>
+      <%= stylesheet_link_tag :chronicles_home %>
     <% end %>
     <% if current_page.data.content_page %>
       <%= stylesheet_link_tag :content_pages %>

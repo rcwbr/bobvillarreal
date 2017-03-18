@@ -86,5 +86,31 @@
         "menu_text": "MOVIES"
       }
     ]
+  },
+  {
+    "shortname": "chronicles",
+    "title": "Chronicles of Pedro de Merida",
+    "subtitle": "The Adventure Chronicles of Conquistador Pedro de M&eacute;rida and the Spanish Conquest of Chile, 1535-1555",
+    "non_content_pages": [
+      {
+        "name": "About the Book",
+        "location": "aboutbook",
+        "filename": "aboutbook.html",
+        "menu_text": "ABOUT THE BOOK"
+      }
+    ],
+    "media_managers": [
+      {
+        "name": "hawker",
+        "content_type": "tours",
+        "processing_type": "plain",
+        "input_data_path": "hawker_data",
+        "input_data_file": "tours.yaml",
+        "output_filename": "hawker_tours.json",
+        "content_path": "tours",
+        "content_name": "Tours",
+        "menu_text": "TOURS"
+      }
+    ]
   }
 ]
