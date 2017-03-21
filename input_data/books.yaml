@@ -86,7 +86,7 @@
   shortname: chronicles
   title: Chronicles of Pedro de M&eacute;rida
   subtitle: The Adventure Chronicles of Conquistador Pedro de M&eacute;rida and the Spanish Conquest of Chile, 1535-1555
-  home_title_text: "THE ADVENTURE CHRONICLES"
+  home_title_text: "<span class=\"main-header-first-line-span\">THE ADVENTURE CHRONICLES</span><br/>of Conquistador Pedro de Mérida"
   styles:
     background-image: "chronicles/chronicles-background.png"
     color_one: "#925237"
@@ -98,6 +98,16 @@
       location: "aboutbook"
       filename: "aboutbook.html"
       menu_text: "ABOUT THE BOOK"
+    -
+      name: "Acknowledgements"
+      location: "acknowledgements"
+      filename: "acknowledgements.html"
+      menu_text: "ACKNOWLEDGEMENTS"
+    -
+      name: "About the Author"
+      location: "aboutauthor"
+      filename: "aboutauthor.html"
+      menu_text: "ABOUT THE AUTHOR"
   media_managers:
     -
       name: "hawker"
