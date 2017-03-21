@@ -5,7 +5,8 @@ require "./curtiss_image_process.rb"
 IKARUS_VERBOSE = false
 
 GALLERY_DEFAULTS = {
-  "images_path" => "images/galleries",
+  "images_path" => "images",
+  "galleries_path" => "galleries",
   "source_path" => "../source",
   "thumbs_folder_path" => "thumbs",
   "total_width" => 960,  #This is the width (in pixel) which Curtiss will make each row fit within. It also sets a number of style attributes from elsewhere in Middleman, where it is accessed by the config[:TOTAL_WIDTH] variable (see below).
@@ -19,7 +20,7 @@ IMAGE_DEFAULTS = {
   "attribution" => ""
 }
 
-def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path)
+def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path, book_image_path)
 
   galleries_info = YAML.load_file("#{ikarus_data_path}/#{galleries_data_file}")
   galleries_json_file = File.open(ikarus_output_filename, "w")
@@ -30,7 +31,7 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
       galleries_info[gallery_counter]["shortname"] = galleries_info[gallery_counter]["name"]
     end
     if galleries_info[gallery_counter]["images_path"] == nil
-      galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
+      galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{book_image_path}/#{GALLERY_DEFAULTS["galleries_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
     end
 
     for gallery_defaults_counter in 1...GALLERY_DEFAULTS.keys.length
