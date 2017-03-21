@@ -14,11 +14,11 @@
 
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
-    <%= stylesheet_link_tag :site %>
-    <%= stylesheet_link_tag :content_pages %>
+    <%= partial "partials/stylesheets/site" %>
+    <%= partial "partials/stylesheets/content_pages" %>
     <% if current_page.data.page != "clawing galleries" %>
       <%= stylesheet_link_tag :gallery %>
-      <%= partial "partials/gallery_style" %>
+      <%= partial "partials/stylesheets/gallery_style" %>
       <%= partial "partials/gallery_script" %>
     <% end %>
 
