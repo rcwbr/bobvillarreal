@@ -3,6 +3,13 @@
     "shortname": "clawing",
     "title": "Clawing for the Stars",
     "subtitle": "A solo climber in the highest Andes",
+    "home_title_text": "CLAWING FOR THE STARS:",
+    "styles": {
+      "background-image": "resources/villarreal-background-darkest.png",
+      "color_one": "#99CCFF",
+      "color_two": "white",
+      "color_three": "#D3E2FA"
+    },
     "non_content_pages": [
       {
         "name": "About the Book",
@@ -93,6 +100,13 @@
     "shortname": "chronicles",
     "title": "Chronicles of Pedro de M&eacute;rida",
     "subtitle": "The Adventure Chronicles of Conquistador Pedro de M&eacute;rida and the Spanish Conquest of Chile, 1535-1555",
+    "home_title_text": "THE ADVENTURE CHRONICLES",
+    "styles": {
+      "background-image": "resources/chronicles-background.png",
+      "color_one": "#925237",
+      "color_two": "#731811",
+      "color_three": "#D1724E"
+    },
     "non_content_pages": [
       {
         "name": "About the Book",
