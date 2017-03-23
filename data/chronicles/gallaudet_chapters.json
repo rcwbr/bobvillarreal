@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Chapter 1 - Ojos del Salado",
+    "longname": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
+    "shortname": "1",
+    "media": {
+      "hawker_data": {
+        "name": "Chapter 1 - Ojos del Salado",
+        "shortname": "one",
+        "title": "Chapter 1 Tour",
+        "url": "https://www.youtube.com/embed/xilnQmwjNtk",
+        "content_name": "Tours",
+        "content_path": "tours"
+      }
+    }
+  },
+  {
+    "name": "Chapter 2 - Pissis",
+    "longname": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
+    "shortname": "2",
+    "media": {
+      "hawker_data": {
+        "name": "Chapter 2 - Pissis",
+        "shortname": "two",
+        "title": "Chapter 2 Tour",
+        "url": "youtube.com/chapter2tour",
+        "content_name": "Tours",
+        "content_path": "tours"
+      }
+    }
+  }
+]

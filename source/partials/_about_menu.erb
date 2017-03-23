@@ -1,8 +1,10 @@
 <div id="header">
   <div id="about-menubar-div">
-    <a class="about-menu-link" href="/aboutbook">ABOUT THE BOOK</a> -
-    <a class="about-menu-link" href="/acknowledgements_and_reviews">ACKNOWLEDGEMENTS</a> -
-    <a class="about-menu-link" href="/acknowledgements_and_reviews#reviews-header">REVIEWS</a> -
-    <a class="about-menu-link" href="/aboutauthor">ABOUT THE AUTHOR</a>
+    <% book["non_content_pages"].each_with_index do |menu_item, index| %>
+      <% if index > 0 %>
+        -
+      <% end %>
+      <a class="about-menu-link" href="/<%= book["shortname"] %>/<%= menu_item["location"] %>"><%= menu_item["menu_text"] %></a>
+    <% end %>
   </div>
 </div>

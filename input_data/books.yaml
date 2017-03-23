@@ -1,0 +1,123 @@
+-
+  shortname: clawing
+  title: Clawing for the Stars
+  subtitle: A solo climber in the highest Andes
+  home_title_text: "CLAWING FOR THE STARS:"
+  styles:
+    background-image: "clawing/clawing-background-darkest.png"
+    color_one: "#99CCFF"
+    color_two: "white"
+    color_three: "#D3E2FA"
+  non_content_pages:
+    -
+      name: "About the Book"
+      location: "aboutbook"
+      filename: "aboutbook.html"
+      menu_text: "ABOUT THE BOOK"
+    -
+      name: "Acknowledgements and Reviews"
+      location: "acknowledgements_and_reviews"
+      filename: "acks_reviews.html"
+      menu_text: "ACKNOWLEDGEMENTS"
+    -
+      menu_only: "true"
+      location: "acknowledgements_and_reviews#reviews-header"
+      menu_text: "REVIEWS"
+    -
+      name: "About the Author"
+      location: "aboutauthor"
+      filename: "aboutauthor.html"
+      menu_text: "ABOUT THE AUTHOR"
+  media_managers:
+    -
+      name: "burgess"
+      content_type: "passages"
+      processing_type: "plain"
+      input_data_path: "burgess_data"
+      input_data_file: "passages.yaml"
+      output_filename: "burgess_passages.json"
+      content_path: "passages"
+      content_name: "Passages"
+      menu_text: "PASSAGES"
+    -
+      name: "ikarus"
+      content_type: "galleries"
+      processing_type: "galleries"
+      input_data_path: "ikarus_data"
+      input_data_file: "galleries.yaml"
+      input_data_entries_path: "galleries"
+      output_filename: "ikarus_galleries.json"
+      content_path: "galleries"
+      content_name: "Galleries"
+      menu_text: "PHOTOS"
+    -
+      name: "bloch"
+      content_type: "slideshows"
+      processing_type: "plain"
+      input_data_path: "bloch_data"
+      input_data_file: "slideshows.yaml"
+      output_filename: "bloch_slideshows.json"
+      content_path: "slideshows"
+      content_name: "Slide Shows"
+      menu_text: "SLIDESHOWS"
+    -
+      name: "hawker"
+      content_type: "tours"
+      processing_type: "plain"
+      input_data_path: "hawker_data"
+      input_data_file: "tours.yaml"
+      output_filename: "hawker_tours.json"
+      content_path: "tours"
+      content_name: "Tours"
+      menu_text: "TOURS"
+    -
+      name: "macchi"
+      content_type: "movies"
+      processing_type: "plain"
+      input_data_path: "macchi_data"
+      input_data_file: "movies.yaml"
+      output_filename: "macchi_movies.json"
+      content_path: "movies"
+      content_name: "Movies"
+      menu_text: "MOVIES"
+  other_book_menu_text: "The Next Book: Pedro de M&eacute;rida"
+  other_book_location: "chronicles"
+-
+  shortname: chronicles
+  title: Chronicles of Pedro de M&eacute;rida
+  subtitle: The Adventure Chronicles of Conquistador Pedro de M&eacute;rida and the Spanish Conquest of Chile, 1535-1555
+  home_title_text: "<span class=\"main-header-first-line-span\">THE ADVENTURE CHRONICLES</span><br/>of Conquistador Pedro de Mérida"
+  styles:
+    background-image: "chronicles/chronicles-background.png"
+    color_one: "#925237"
+    color_two: "#731811"
+    color_three: "#D1724E"
+  non_content_pages:
+    -
+      name: "About the Book"
+      location: "aboutbook"
+      filename: "aboutbook.html"
+      menu_text: "ABOUT THE BOOK"
+    -
+      name: "Acknowledgements"
+      location: "acknowledgements"
+      filename: "acknowledgements.html"
+      menu_text: "ACKNOWLEDGEMENTS"
+    -
+      name: "About the Author"
+      location: "aboutauthor"
+      filename: "aboutauthor.html"
+      menu_text: "ABOUT THE AUTHOR"
+  media_managers:
+    -
+      name: "hawker"
+      content_type: "tours"
+      processing_type: "plain"
+      input_data_path: "hawker_data"
+      input_data_file: "tours.yaml"
+      output_filename: "hawker_tours.json"
+      content_path: "tours"
+      content_name: "Tours"
+      menu_text: "TOURS"
+  other_book_menu_text: "Previous Book: Clawing for the Stars"
+  other_book_location: "clawing"

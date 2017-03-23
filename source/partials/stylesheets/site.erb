@@ -1,0 +1,49 @@
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
+
+  body {
+    background: url("../../images/<%= book["styles"]["background-image"] %>");
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+    font-family: "Raleway", "Helvetica Nueue", sans-serif;
+    color: <%= book["styles"]["color_two"] %>;
+  }
+  a {
+    text-decoration: none;
+    color: <%= book["styles"]["color_one"] %>;
+  }
+
+  div#center-section {
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+
+    text-align: left;
+  }
+  div#menubar-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+    color: <%= book["styles"]["color_one"] %>;
+  }
+  div#menubar-div a {
+    color: <%= book["styles"]["color_one"] %>;
+  }
+  a.menu-link {
+    margin-right: 10px;
+    margin-left: 10px;
+
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a.menu-link:first-child {
+    margin-left: 0px;
+  }
+
+  div.embedded-movie-container-div iframe, div.embedded-movie-container-div video {
+    display: block;
+    margin: 0 auto;
+  }
+</style>

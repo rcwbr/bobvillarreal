@@ -1,0 +1,12 @@
+---
+title: Bob Villarreal - Clawing Galleries
+page: clawing galleries
+content_page: true
+---
+
+<div id="main">
+  <h1 class="media-header">Galleries</h1>
+  <% media.each do |gallery| %>
+    <p><a href="/<%= book["shortname"] %>/galleries/<%= gallery["shortname"] %>"><%= gallery["name"] %></a></p>
+  <% end %>
+</div>
