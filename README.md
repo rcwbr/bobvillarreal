@@ -1,5 +1,5 @@
 # bobvillarreal
-Author Bob Villarreal's Middleman-generated site
+Author Bob Villarreal's Middleman-generated site -- http://testing.bobvillarreal.com/clawing/
 
 This project uses the Ikarus gallery management tool (https://github.com/rcieoktgieke/Ikarus -- see below the benefits of this gallery management), as well as some content-preprocessing concepts borrowed from it to generate pages for all online content belonging to author Bob Villarreal's books.
 
