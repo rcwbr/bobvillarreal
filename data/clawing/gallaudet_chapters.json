@@ -6,7 +6,7 @@
     "media": {
       "burgess_data": {
         "name": "Chapter 1 - Ojos del Salado",
-        "shortname": "one",
+        "shortname": "1",
         "filename": "chapter1.yaml",
         "passages": [
           "When James crosses the top of a rock the size of a small car, the monster shudders ever so slightly but remains in place. I know this because I stand directly underneath him, some twenty feet below, and for seconds I freeze to the spot not knowing what I should do, pee or flee.",
@@ -272,7 +272,7 @@
     "media": {
       "burgess_data": {
         "name": "Chapter 2 - Pissis",
-        "shortname": "two",
+        "shortname": "2",
         "filename": "chapter2.yaml",
         "passages": [
           "This part of the Andes is full of extraordinary facts, salars, shallow lakes, exquisite birds and animals, lofty, majestic mountains, high winds, shrieking storms--eloquent truths speaking to a climber a clear and distinct language. Everything is quiet now, composed. Still, it's a surety of the cruel laws of Nature that Heisenberg's Uncertainty Principle at the subatomic level is certainly true at the atomic, and anything untoward may happen at any second. So I remain wary. I know that one's light burns brightest just before it goes dark.",
