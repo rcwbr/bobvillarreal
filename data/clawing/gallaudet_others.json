@@ -20,10 +20,10 @@
   },
   {
     "shortname": "introduction",
-    "name": "Introduction - The Journey Begins",
+    "name": "Introduction | The Journey Begins",
     "media": {
       "burgess_data": {
-        "name": "Introduction - The Journey Begins",
+        "name": "Introduction | The Journey Begins",
         "shortname": "introduction",
         "passages": [
           "\"Grandpa, please write a book about your climbs in the Andes. I would like to read about your adventures.\"",
@@ -35,15 +35,205 @@
     }
   },
   {
-    "shortname": "3",
-    "name": "Chapter 3 - Llullaillaco",
+    "shortname": "1",
+    "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
     "media": {
       "burgess_data": {
-        "name": "Chapter 3 - Llullaillaco",
+        "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
+        "shortname": "1",
+        "passages": [
+          "When James crosses the top of a rock the size of a small car, the monster shudders ever so slightly but remains in place. I know this because I stand directly underneath him, some twenty feet below, and for seconds I freeze to the spot not knowing what I should do, pee or flee.",
+          "I see the summit now and know we are almost there.<br />\"Judy, what are you doing here?\"<br />I halt in puzzlement. Judy? What?I turn to confront what must be a new addition to our climbing team.\"What'd you say?\"<br />James points to a nearby boulder.\"That's my sister sitting on that rock. What's she doing here?\"<br />My altitude haze disappears in an instant. James is hallucinating!"
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "2",
+    "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
+        "shortname": "2",
+        "passages": [
+          "This part of the Andes is full of extraordinary facts, salars, shallow lakes, exquisite birds and animals, lofty, majestic mountains, high winds, shrieking storms--eloquent truths speaking to a climber a clear and distinct language. Everything is quiet now, composed. Still, it's a surety of the cruel laws of Nature that Heisenberg's Uncertainty Principle at the subatomic level is certainly true at the atomic, and anything untoward may happen at any second. So I remain wary. I know that one's light burns brightest just before it goes dark.",
+          "How might I have anticipated it, that one blow to unhinge Blue and me from the mountain? The truth is, there was no warning, what with the unremitting punches pounding our home. And all the while, out there in the inky depths a thousand miles to the south, one mighty Tartarean blow is sweeping across the obliging land, nothing to break its building force and speed as it rushes towards my tiny home. On it comes, like a 4000 hp GE Dash 8 diesel locomotive pulling a 200-car freight galloping across the great Mojave Desert rails seeking California ports to the west, gaining speed with every stride, until it smashes head on into our trembling abode with the crushing weight of half the South American continent as its cargo.",
+          "I am not afraid. I know this because I am certain not to see another sunrise, and this bestows a measure of stoic calm.<br /><br /> <hr /> <br />Our world is a vast manuscript, and those who do not travel read but a sheet."
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "3",
+    "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
         "shortname": "3",
         "passages": [
-          "The sky here is absent those silver needles that weave our world together.<br /><hr />Altitude has a perfidious way of robbing me of my mental abilities when I don't even know my pocket is being picked.",
+          "The sky here is absent those silver needles that weave our world together.<br /><br /> <hr /> <br />Altitude has a perfidious way of robbing me of my mental abilities when I don't even know my pocket is being picked.",
           "You can lose your path any number of ways on a journey to the top, sometimes thinking the mountain gods are playing whimsical tricks, negating all you know and understand about your climbing craft and thinking some place, far away, perhaps in a parallel universe, resides your real, knowing self."
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "4",
+    "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
+        "shortname": "4",
+        "passages": [
+          "At altitude, I lose myself in lethargic nothingness, a hypnotic state in which the advancing seconds and minutes are lost to meaning, lost to consciousness, like days and nights spent in the jungle, with heat so stifling and suffocating all one can do is stare languidly in a drunken state of inertia with hardly enough strength to move hand and arm to take desultory swats at mosquitoes in the Vietnamese bush.",
+          "Still, at times my actions come too close to being carelessly haphazard about it, as a drunk is careless, acting as though I have no regard for life, not understanding in an hour what any sane person knows in a minute.",
+          "The sense of a presence near me is so strong that there must be an image to confirm the feeling. But there is only emptiness wherever I look. I set off again and feel the strange thing catch up in minutes with new immediacy, an insistent something demanding recognition. Now the sensation comes from off to the right, near the edge of the plateau. I study every feature with an intense stare. But once more, only the cold, barren land is my reward. Is this place bewitched? By what, exactly? Stillness and silence are the lone replies from the indefatigable source of man or spirit shadowing me.",
+          "As for the missing miner, is his body still out there somewhere? Most likely. Perhaps he became lost and, at the end of his strength, sank to the earth and cloaked himself in dreams and snow. An entire, unknown world died with him. Who could know his failures, his fears, his loves, his deepest thoughts, his triumphs?"
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "5",
+    "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
+        "shortname": "5",
+        "passages": [
+          "I do not believe in miracles. Yet, my solo life in the mountains has been one extended miracle, for I have survived some dangerous moments among them. This is necessary bravado. I must believe frequently in myself or I shall perish among the high peaks.",
+          "I try again to make that first step forward. But my leg lacks life, and repeated attempts at movement meet repeated resistance. It is immovable, as a sturdy tree rooted in the earth is immovable. The summit is mine. The weather promises success. The moment is propitious. I try again. I order it to move! But my leg remains firmly in place. I'm unable to control the most basic of human functions."
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "6",
+    "name": "Chapter 6 | Interlude: Clients",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 6 | Interlude: Clients",
+        "shortname": "6",
+        "passages": [
+          "We whiled away the afternoon panning for gold flakes, until Richard stopped abruptly and stared towards Laguna Santa Rosa in the distance. I caught his movements out of the corner of my eye.<br />\"No one knows where we are.\"<br />\"What? What are you talking about?\"<br />\"No one knows where we are.\"<br />\"Patricio knows.\"<br />\"What if something happens to him?\" His raised voice alerted me to the tension he felt.<br />\"Don't worry. He'll come back.\"<br />\"What if he doesn't?\"<br />\"He has never failed me.\"<br />\"This may be the first time.\"<br />\"See the road over there? It's less than four miles away. We walk to it, wait for a vehicle, hitch a ride to the Customs Station, call him from there. Remember? We talked about escape.\"<br />He neither moved nor spoke for long moments and remained motionless the entire time. I watched him closely.<br />\"What's the matter?\"<br />\"I don't know. I just don't feel safe out here.\"<br />\"Why don't you feel safe?\"<br />\"There's no one within forty miles.\"<br />\"I made it clear all along we would be alone.\"<br />\"I guess I didn't understand what it meant.\"<br />\"And now you understand?\"<br />\"Yes.\"<br />\"And?\"<br />\"I want to leave. I don't want to stay here.\"<br />I moved over to where he sat and placed a hand on his shoulder.<br />\"Let's see what you feel in the morning.\"<br />\"I know what I'll feel.\"<br />\"What will you feel?\"<br />\"I won't want to stay here.\"<br />He raised his pan lid and flipped it the way one flips a Frisbee. The climb was over.",
+          "Today I believe he was the luckiest of men that day. This incident closed out my guiding career.<br />I found leading others on a big mountain too stressful. And who needs that kind of tension at 57 years of age?"
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "7",
+    "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
+        "shortname": "7",
+        "passages": [
+          "Pissis is more than a mountain to me. It's an emotion; one that pervades my entire being. It reminds me of Moby Dick, and I pray that it doesn't drag me under as the whale did Ahab. The first visit here seared its memory upon my soul like the holy chrism of a sacrament, imprinted there for all eternity. And when a mountain becomes like that, it's more than a high peak; it's an element of your very being, an integral part of your soul that never drifts out of sight or out of mind.",
+          "Perhaps this is not the place for me, a place where I shall have to pay for the things I've done as well as for the things I haven't done, a crazy kind of place turned upside down where they kill you as a criminal or they kill you as a saint.",
+          "It's a whiteout! The word itself is enough to strike sheer, unadulterated terror into the heart and soul of any high altitude climber. Of all the words in all the dictionaries in all the libraries in all the world, this is the most dreaded, the most feared, the most frightening for me, and I suppress a momentary urge to pass water.",
+          "Another premonition seizes my soul in its distressing grip. It may be my time soon; it may be my time now. Will my odyssey end on this frozen Elysian Field? Please, Lord, I pray, take me at Your mercy, just not yet.",
+          "It remains for me to marvel that I still breathe. And I reflect that we either live and die by accident or we live and die by plan. Some say that we shall never know and that we are like small bugs that children kill on a summer afternoon. But some say, to the contrary, that even the sparrow does not fly without a gentle push from the Hand of God."
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "8",
+    "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
+        "shortname": "8",
+        "passages": [
+          "I'm the only one to have ever seen these exact stones and probably the only one who ever will. The real proof of their existence is my viewing them, for this grants them life. If man is the measure of all things, then they do not exist to the rest of mankind.",
+          "My body slumps next to them, weary beyond the knowing, exulting as an explorer entranced by an unexpected discovery exults. I wonder, how did those guys do it, anyway? How could they do it, without stoves, warm clothes, sturdy tents, without plastic boots, warm socks, warm gloves, without freeze-dried meals, dark glasses, warm sleeping bags, and without. . . cigarettes?"
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "9",
+    "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
+        "shortname": "9",
+        "passages": [
+          "\"I saw the most amazing thing and have a photo to prove it!\"<br />\"Yeah, what's that?\"<br />\"A guanador. My first sighting.\"<br />I cannot disguise my enthusiasm and happiness at my incredible fortune.<br />\"A what?\"<br />\"A guanador. They're a cross between a guanaco and a condor. They're very shy, so to get a picture is quite a feat. They're akin to the jackalopes out in Arizona. You know, seldom seen, and then only on postcards.\"<br />Chuck looks at Dan for several seconds. It takes time until things sink in, since their headaches are a distraction; still, they eventually manage wan smiles.<br />\"Bob, if you have pictures of this creature in that camera of yours, you'd better protect it from me the rest of the trip. It's priceless!\"",
+          "In an existential way, I feel the mountain's pleasure at my return. My presence here lends a price to the sand, a value known only to the mountain and to me."
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "10",
+    "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
+    "media": {
+      "burgess_data": {
+        "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
+        "shortname": "10",
+        "passages": [
+          "The passersby know nothing of my coming climb or of my previous forays upon their sacred peaks and would have given them scant recognition if they had known. To move among these strangers with the wonderful knowledge of my Andean intent fills me with a vague pride. I seem a lonesome sentinel guarding a favored treasure, though the treasure seems valuable only to me.",
+          "They say that when one dreams it can last but seconds. But in those seconds one can live a lifetime. We can live and we can dream, and who is to say which is the greater reality, the one we know or the one we imagine?",
+          "Welcome to old age, macho man!",
+          "I sense the mountain staring back at me. \"You and your Andean sisters have remained comforts and mainstays these many years,\" I stammer. \"But there comes a time when life stops giving us things and begins to take them away. Such a time for me is now -- my strength is fading and my days are close to done. Yours are enduring for all eternity.\" In this seeming reversal of being and meaning, the mountain seems young, while I seem wizened; its expression seems fresh, while mine seems stale; its attitude seems light-hearted, while mine seems somber.",
+          "As night descends upon the land, I drift into a deep sleep. The following dream came to me, I believe, by the realization that this is to be my last climb, and our thoughts have an effect upon our sleep. In this case, my many climbs cause me endless memories, and Robert, my Guardian Angel, stands before me, the lifelong protector against threats to my wellbeing. At first, his appearance startles me, for this may be the moment of my final reckoning and atonement.<br />\"Do not worry, Bob, I am here so we might reminisce about our times together. We have been to the Andes' highest places and known their most enduring hardships. I wish to recall the adventures by taking you to where they happened.\"<br />He gestures me to accompany him.<br />\"But I am a mere mortal and cannot fly.\"<br />\"Touch my hand, Bob, and you will be raised up in more than this.\""
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "reflections",
+    "name": "Reflections | The Journey Ends",
+    "media": {
+      "burgess_data": {
+        "name": "Reflections | The Journey Ends",
+        "shortname": "reflections",
+        "passages": [
+          "My climbs made me interesting to myself. Solo mountaineering made me different from others and satisfied my desire for uniqueness from the ordinary living of the rest of my life. My understanding was that I needed this individuality more than I needed friends.",
+          "So for me, death holds no terror. And this knowledge, learned during my time amongst the great peaks, permitted me to see that it is better to attain the truth of self by not locating it while seeking it than by deciding not to seek it and never finding it.",
+          "Well, Alex, my mountain journeys, and this book, are at an end. Thank you for asking me to write about my climbs. I believe you now know something of why I kept returning to the mountains. Remember my adventures and me occasionally in your thoughts. That way I will be with you forever. Love always. Grandpa."
+        ],
+        "content_name": "Passages",
+        "content_path": "passages"
+      }
+    }
+  },
+  {
+    "shortname": "C",
+    "name": "Appendix C | Apani the Indian",
+    "media": {
+      "burgess_data": {
+        "name": "Appendix C | Apani the Indian",
+        "shortname": "C",
+        "passages": [
+          "<strong>Apani</strong>: In Peru, they made me join the army and placed me in one of the Inca's armies in central Chile, as a replacement. When I reported to the general in Angastu, he assigned me to a special project; its nature he did not say. A month later, a large caravan of llamas and Indians approached our base. Our general dressed himself in his finest uniform to welcome them. These men came from Cuzco, dispatched to Angastu for important work. Inca Yupanqui, a great ruler of Peru during many years, had died the year before. These men were here in regards to his death. The lead man of the entourage, an important official sent by the new Inca, Huayna Capac, carried the title of the Inca's \"master builder;\" he planned and coordinated the construction of worship sites on high mountains to honor the Inca and our Lord the Sun. His caravan of men and llamas took two days to arrive at our camp.<br /><br /><em>Introduction of the \"master builder.\"</em>",
+          "<strong>Anco</strong>: You had other reasons to respect the master builder?<br /><strong>Apani</strong>: Well, yes. Despite his position of royalty, he acted with and towards us without any airs or pretension.  Here is an example. As a man close to the Inca, he deserved a litter as conveyance, carried by bearers. Yet, when he arrived at our camp in Angastu, he walked, just like the others in his entourage. This remained his habit throughout, to walk as a common Indian, though lameness in his right leg caused a noticeable limp. Nevertheless, he did not make his health an excuse for soft living, but his constant activity a cure for his health, since by long journeys, simple diet, sleeping in the open air (except when we resided near or on the mountain), and enduring hardships with the rest of us common soldiers, he fought off his physical troubles and kept his body strong against his infirmity.<br /><br /><em>Description of Vitahuati, the \"master builder.\"</em>",
+          "<strong>Anco</strong>: Did Vita bring other men with him?<br /><strong>Apani</strong>: Yes, and these men proved important. He had with him four specialists at reaching high places in the mountains. Their name, <em>cuntur runas</em>, or \"condor men,\" they acquired because they go higher in the sky than the great bird of the mountains. The <em>cunturs</em>, as they told us to call them, were to find the best path up the mountain, locate camps on the route, guide the men hauling the rocks to the top, and then lead the builders there so we might complete our work. As I was one of those designated to assemble the huts, these men remained important to me as well as to all of us.<br /><br /><em>The \"condor men\" are the high-altitude climber-builders of the Inca.</em>",
+          "<strong>Pedro</strong>: And then what happened?<br /><strong>Apani</strong>: We went to the northeastern side so Vita could evaluate conditions there. We walked past the huge northern part of the mountain and much of the eastern side came to view. And there, as if put in place just to match our needs, rose a ramp like projection of the mountain leading from a height equal to where we stood to the top of the mountain with several angled plateaus along the way. Most of us, though knowing nothing of these things, nevertheless understood this was the route higher. One of my friends, on seeing it with me, said in amazement, \"That is the way! It must be. It looks perfect!\"<em>The way to the summit is identified.</em>",
+          "<strong>Anco</strong>: How many men hauled to the succeeding camp?<br /><strong>Apani</strong>: Well, four <em>cunturs</em>, eighty-five rock bearers, thirty carriers of food, dung, tents, and assorted other stores, and an extra twenty men in reserve composed the entire group. Each man carried, in addition to the weight of his load, a gourd of water, dried fruit, and charqui. They started from camp early, directed by the <em>cunturs</em>, one leading at the front, two at different positions within the file, and the fourth at the rear. They proceeded slowly, the <em>cunturs</em> keeping a steady pace, resting often. The course remained free of snow, but with the ground loose in places, as we builders found out when it came our turn, and this made it difficult. Fortunately, the weather cooperated, with no storms and but a slight breeze. They stayed within our sight until the long line finally disappeared behind a huge outcropping of rocks. It remains to my mind a grand and majestic scene, and I haven't forgotten it. In two hours, they reappeared from behind the rocks, in column, slowly wending their way back to us. Several of the men seemed unsteady as they came towards us, a sure sign of breathing or headache problems.<br /><br /><em>Apani describes the first carry up the mountain.</em>",
+          "<strong>Pedro</strong>: And your feelings?<br /><strong>Apani</strong>: Well, to arrive at the summit meant a great accomplishment. The <em>cunturs</em> hugged each of us and this made us feel important. And the views from there overwhelmed us with their beauty. It is special to see things from the top of a mountain, and especially gratifying to see all our stones there! They were stacked in four piles, according to their color codes.<br /><strong>Pedro</strong>: And so you began immediately at reassembly?<br /><strong>Apani</strong>: Exactly. Mayta had been part of my builder team, so three of us now composed our group. Our hut was the one with the lower stones marked in green, the upper ones in blue. Before beginning, we all looked over the site, to determine the best positioning of the structures. Finally, we decided a north/south arrangement the best, our hut's end wall separated by two feet from the other hut's end wall. Once this had been determined and settled, we went to work, with the <em>cunturs</em> helping when called on. We made quick work of it, with the lower half of each hut in place by early afternoon. The color-coding helped, of course. Also, we had chipped and shaped those rocks ourselves back at Angastu and we remembered their positions in the completed building.<br /><br /><em>Apani describes one of the great accomplishments of the Inca.</em>"
         ],
         "content_name": "Passages",
         "content_path": "passages"
