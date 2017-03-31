@@ -1,16 +1,17 @@
 ---
 -
   name: "Ecuador - Chimborazo"
-  shortname: "E"
+  path: "E"
   filename: "ecuador.yaml"
   label-prefix: "E"
 -
   name: "Bolivia - Illimani"
-  shortname: "B"
+  path: "B"
   filename: "bolivia.yaml"
   label-prefix: "B"
 -
-  name: "Chapter 1 - Ojos del Salado"
-  shortname: "1"
+  name: "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors"
+  shortname: "Chapter 1 - Ojos del Salado"
+  path: "1"
   filename: "chapter1.yaml"
   label-prefix: "1"

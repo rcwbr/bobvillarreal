@@ -6,7 +6,7 @@ content_page: true
 
 <% puts "#{movies_info["name"]} movies are being built." %>
 <div>
-	<h1 class="media-header" id="movie-header">Movies | <%= movies_info["name"] %></h1>
+	<h1 class="media-header" id="movie-header">Movies - <%= movies_info["name"] %></h1>
 	<a id="movies-link" href="/<%= book["shortname"] %>/movies/">All Movies</a>
   <%= partial "partials/movies" %>
 </div>

@@ -31,7 +31,7 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
       galleries_info[gallery_counter]["shortname"] = galleries_info[gallery_counter]["name"]
     end
     if galleries_info[gallery_counter]["images_path"] == nil
-      galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{book_image_path}/#{GALLERY_DEFAULTS["galleries_path"]}/#{galleries_info[gallery_counter]["shortname"]}"
+      galleries_info[gallery_counter]["images_path"] = "#{GALLERY_DEFAULTS["images_path"]}/#{book_image_path}/#{GALLERY_DEFAULTS["galleries_path"]}/#{galleries_info[gallery_counter]["path"]}"
     end
 
     for gallery_defaults_counter in 1...GALLERY_DEFAULTS.keys.length
@@ -57,7 +57,7 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
         label_counter += 1
       end
     end
-
+    
     curtiss_init(galleries_info[gallery_counter]["image_matrix"], gallery_images_info, "#{galleries_info[gallery_counter]["source_path"]}/#{galleries_info[gallery_counter]["images_path"]}", galleries_info[gallery_counter]["thumbs_folder_path"], galleries_info[gallery_counter]["total_width"], galleries_info[gallery_counter]["images_per_row"], galleries_info[gallery_counter]["image_margins"], galleries_info[gallery_counter]["width_adjustment"])
 
     for i in 0...galleries_info[gallery_counter]["image_matrix"].length

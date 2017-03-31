@@ -7,6 +7,6 @@ content_page: true
 <div id="main">
   <h1 class="media-header">Movies</h1>
   <% media.each do |movies_info| %>
-    <p><a href="/<%= book["shortname"] %>/movies/<%= movies_info["shortname"] %>"><%= movies_info["name"] %></a></p>
+    <p><a href="/<%= book["shortname"] %>/movies/<%= movies_info["path"] %>"><%= movies_info["name"] %></a></p>
   <% end %>
 </div>

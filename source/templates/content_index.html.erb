@@ -9,15 +9,15 @@ content_page: true
     <h1 class="media-header">Chapters</h1>
     <% chapters.each do |chapter| %>
       <p>
-        <a href="/<%= book["shortname"] %>/chapter/<%= chapter["shortname"] %>"><%= chapter["longname"] || chapter["name"] %></a>
+        <a href="/<%= book["shortname"] %>/chapter/<%= chapter["path"] %>"><%= chapter["name"] || chapter["shortname"] %></a>
         <br />
         <span class="index_content_links">
           <% if chapter["media"] != nil
             chapter["media"].each_with_index do |media_entry, index|
               if index == 0 %>
-                <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+                <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
               <% else %>
-                - <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+                - <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
               <% end %>
             <% end
           end %>
@@ -29,15 +29,15 @@ content_page: true
     <h1 class="media-header">Others</h1>
     <% others.each do |other| %>
       <p>
-        <a><%= other["longname"] || other["name"] %></a>
+        <a><%= other["name"] || other["shortname"] %></a>
         <br />
         <span class="index_content_links">
           <% if other["media"] != nil
             other["media"].each_with_index do |media_entry, index|
               if index == 0 %>
-                <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+                <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
               <% else %>
-                - <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["shortname"] %>"><%= media_entry[1]["content_name"] %></a>
+                - <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
               <% end %>
             <% end
           end %>

@@ -27,7 +27,7 @@ content_page: true
     <div class="slideshow-category-div">
       <h2><%= category["category"] %></h2>
       <% category["slideshows"].each do |slideshows_info| %>
-        <p><a href="/<%= book["shortname"] %>/slideshows/<%= slideshows_info["shortname"] %>"><%= slideshows_info["name"] %></a></p>
+        <p><a href="/<%= book["shortname"] %>/slideshows/<%= slideshows_info["path"] %>"><%= slideshows_info["name"] %></a></p>
       <% end %>
     </div>
   <% end %>

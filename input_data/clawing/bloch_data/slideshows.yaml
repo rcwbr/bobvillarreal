@@ -1,7 +1,7 @@
 ---
 -
   name: "Ecuador - Chimborazo"
-  shortname: "E"
+  path: "E"
   category: "Country/Peak"
   slideshows:
     -
@@ -9,7 +9,7 @@
       title: "Ecuador (Chimborazo and other peaks)"
 -
   name: "Bolivia - Illimani"
-  shortname: "B"
+  path: "B"
   category: "Country/Peak"
   slideshows:
     -
@@ -17,7 +17,7 @@
       title: "Bolivia (Illimani and other peaks)"
 -
   name: "Argentina - Aconcagua"
-  shortname: "A"
+  path: "A"
   category: "Country/Peak"
   slideshows:
     -
@@ -25,7 +25,7 @@
       title: "Argentina, Aconcagua (the Polish Glacier)"
 -
   name: "Cerro Llullaillaco, Chile"
-  shortname: "llullaillaco"
+  path: "llullaillaco"
   category: "Country/Peak"
   slideshows:
     -
@@ -33,7 +33,7 @@
       title: "Cerro Llullaillaco, Chile"
 -
   name: "Cerro Ojos del Salado"
-  shortname: "ojos"
+  path: "ojos"
   category: "Country/Peak"
   slideshows:
     -
@@ -41,7 +41,7 @@
       title: "Cerro Ojos del Salado"
 -
   name: "Monte Pissis, Argentina"
-  shortname: "pissis"
+  path: "pissis"
   category: "Country/Peak"
   slideshows:
     -
@@ -49,7 +49,7 @@
       title: "Monte Pissis, Argentina"
 -
   name: "Cerro Tres Cruces"
-  shortname: "trescruces"
+  path: "trescruces"
   category: "Country/Peak"
   slideshows:
     -
@@ -57,7 +57,7 @@
       title: "Cerro Tres Cruces"
 -
   name: "Assortment 1"
-  shortname: "assortment1"
+  path: "assortment1"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -65,7 +65,7 @@
       title: "Assortment 1"
 -
   name: "Assortment 2"
-  shortname: "assortment2"
+  path: "assortment2"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -73,7 +73,7 @@
       title: "Assortment 2"
 -
   name: "My Camps"
-  shortname: "mycamps"
+  path: "mycamps"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -81,7 +81,7 @@
       title: "My Camps"
 -
   name: "On the Top"
-  shortname: "onthetop"
+  path: "onthetop"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -89,7 +89,7 @@
       title: "On the Top"
 -
   name: "Only the Author"
-  shortname: "onlyauthor"
+  path: "onlyauthor"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -97,7 +97,7 @@
       title: "Only the Author"
 -
   name: "Giancarlo Fiocco, My First Driver"
-  shortname: "giancarlo"
+  path: "giancarlo"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -105,7 +105,7 @@
       title: "Giancarlo Fiocco, My First Driver"
 -
   name: "Patricio Rios, My Second Driver"
-  shortname: "patricio"
+  path: "patricio"
   category: "Other Shows by Topic"
   slideshows:
     -
@@ -113,7 +113,7 @@
       title: "Patricio Rios, My Second Driver"
 -
   name: "Original Woodcuts"
-  shortname: "woodcuts"
+  path: "woodcuts"
   category: "Other Shows by Topic"
   slideshows:
     -

@@ -1,9 +1,10 @@
 [
   {
     "name": "Ecuador - Chimborazo",
-    "shortname": "E",
+    "path": "E",
     "filename": "ecuador.yaml",
     "label-prefix": "E",
+    "shortname": "Ecuador - Chimborazo",
     "images_path": "images/clawing/galleries/E",
     "galleries_path": "galleries",
     "source_path": "../source",
@@ -242,9 +243,10 @@
   },
   {
     "name": "Bolivia - Illimani",
-    "shortname": "B",
+    "path": "B",
     "filename": "bolivia.yaml",
     "label-prefix": "B",
+    "shortname": "Bolivia - Illimani",
     "images_path": "images/clawing/galleries/B",
     "galleries_path": "galleries",
     "source_path": "../source",
@@ -410,8 +412,9 @@
     "content_path": "galleries"
   },
   {
-    "name": "Chapter 1 - Ojos del Salado",
-    "shortname": "1",
+    "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
+    "shortname": "Chapter 1 - Ojos del Salado",
+    "path": "1",
     "filename": "chapter1.yaml",
     "label-prefix": "1",
     "images_path": "images/clawing/galleries/1",

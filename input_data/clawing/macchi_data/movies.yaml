@@ -1,15 +1,17 @@
 ---
 -
-  name: "Chapter 1 - Ojos del Salado"
-  shortname: "one"
+  name: "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors"
+  shortname: "Chapter 1 - Ojos del Salado"
+  path: "1"
   movies:
     -
       filename: /Videos/0499.m4v
       url: http://player.vimeo.com/video/85967126
       title: "not same as chapter"
 -
-  name: "Chapter 2 - Pissis"
-  shortname: "two"
+  name: "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus"
+  shortname: "Chapter 2 - Pissis"
+  path: "2"
   movies:
     -
       filename: /Videos/0499.m4v

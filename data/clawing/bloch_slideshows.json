@@ -1,7 +1,7 @@
 [
   {
     "name": "Ecuador - Chimborazo",
-    "shortname": "E",
+    "path": "E",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -14,7 +14,7 @@
   },
   {
     "name": "Bolivia - Illimani",
-    "shortname": "B",
+    "path": "B",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -27,7 +27,7 @@
   },
   {
     "name": "Argentina - Aconcagua",
-    "shortname": "A",
+    "path": "A",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -40,7 +40,7 @@
   },
   {
     "name": "Cerro Llullaillaco, Chile",
-    "shortname": "llullaillaco",
+    "path": "llullaillaco",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -53,7 +53,7 @@
   },
   {
     "name": "Cerro Ojos del Salado",
-    "shortname": "ojos",
+    "path": "ojos",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -66,7 +66,7 @@
   },
   {
     "name": "Monte Pissis, Argentina",
-    "shortname": "pissis",
+    "path": "pissis",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -79,7 +79,7 @@
   },
   {
     "name": "Cerro Tres Cruces",
-    "shortname": "trescruces",
+    "path": "trescruces",
     "category": "Country/Peak",
     "slideshows": [
       {
@@ -92,7 +92,7 @@
   },
   {
     "name": "Assortment 1",
-    "shortname": "assortment1",
+    "path": "assortment1",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -105,7 +105,7 @@
   },
   {
     "name": "Assortment 2",
-    "shortname": "assortment2",
+    "path": "assortment2",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -118,7 +118,7 @@
   },
   {
     "name": "My Camps",
-    "shortname": "mycamps",
+    "path": "mycamps",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -131,7 +131,7 @@
   },
   {
     "name": "On the Top",
-    "shortname": "onthetop",
+    "path": "onthetop",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -144,7 +144,7 @@
   },
   {
     "name": "Only the Author",
-    "shortname": "onlyauthor",
+    "path": "onlyauthor",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -157,7 +157,7 @@
   },
   {
     "name": "Giancarlo Fiocco, My First Driver",
-    "shortname": "giancarlo",
+    "path": "giancarlo",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -170,7 +170,7 @@
   },
   {
     "name": "Patricio Rios, My Second Driver",
-    "shortname": "patricio",
+    "path": "patricio",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
@@ -183,7 +183,7 @@
   },
   {
     "name": "Original Woodcuts",
-    "shortname": "woodcuts",
+    "path": "woodcuts",
     "category": "Other Shows by Topic",
     "slideshows": [
       {
