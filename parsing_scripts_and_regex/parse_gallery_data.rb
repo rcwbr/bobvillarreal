@@ -7,11 +7,11 @@ replace: \"
 captions
 find:
 </li>
-<li id=\\"[^\s]+\\">
+						<li id=\\"[^\s]+\\">
 replace: ","
 
 filenames
-find: \>
+find: />
 
 replace: ","
 =end

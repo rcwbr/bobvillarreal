@@ -285,6 +285,234 @@
         "content_name": "Passages",
         "content_path": "passages"
       },
+      "ikarus_data": {
+        "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
+        "shortname": "Chapter 2 - Pissis",
+        "path": "2",
+        "filename": "chapter2.yaml",
+        "label-prefix": "2",
+        "images_path": "images/clawing/galleries/2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Map showing location of Pissis. The Great Plateau is approximately twenty-five miles north from Laguna Negro Francisco.",
+              "filename": "image1.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "March 1994: My first visit to Pissis (Chap. 2). We spend the first night here, the Refugio at Laguna Negro Francisco.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "A <em>bofedal</em> near Refugio Negro Francisco.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Giancarlo's friends plot out how to get to the peak.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Looking north from Laguna Negro Francisco to Cerro Copiapo as a storm moves in from the west (from the left in the photo).",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The pyramid marking Valle Ancho Pass.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Somewhere on the way. Giancarlo on right.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "My Base Camp at <span class=\\\"height\\\">15,900' (4850 m)</span>. This is high for Base. It snowed the morning after Giancarlo and his friends left.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "This is the view north. What if it snows near to my pick up day?",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Self photo in nieves penitentes field on the way to Camp I.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Another penitentes field.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Camp I at <span class=\\\"height\\\">17,600' (5360 m)</span>.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "More penitentes on way to Camp II.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Camp II at <span class=\\\"height\\\">17,900' (5460 m)</span>. In the east is Pissis; the broad ice field prevents access.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Another view of the western walls of Pissis.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Bonete Chico (<span class=\\\"height\\\">22,169', 6757 m</span>) is in the distance.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of the scene; the subsidiary peak on the right is where I placed Camp.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "More of the ice field.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "And here it is at <span class=\\\"height\\\">18,900' (5760 m)</span>, looking north. Literally minutes after I took the picture, the wind storm struck.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "On top of the subsidiary peak, a look down on the ice field and a look over at Pissis.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "And more.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "The western walls once more.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Alpenglow brightens the western walls of Pissis. Taken from atop the subsidiary summit.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "After Giancarlo and his friends picked me up on the western side, they took me around to the eastern side. This is the site of my Base Camp, at <span class=\\\"height\\\">16,000' (4900 m)</span>. The normal route on Pissis follows the left side of the glacier.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "More of the eastern side.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "My Base Camp on the eastern slopes.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "Looking north on pick-up morning. There's no snow out there!",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "I see flashes in the distance.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "Giancarlo's truck appears at the bottom of the slope.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "Here he comes. Dr. Saavedra's truck is behind, but out of sight due to a slight dip in the incline.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "Back in Copiapo, Giancarlo unpacks.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
+      },
       "hawker_data": {
         "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
         "shortname": "Chapter 2 - Pissis",
@@ -325,6 +553,196 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
+        "shortname": "Chapter 3 - Llullaillaco",
+        "path": "3",
+        "filename": "chapter3.yaml",
+        "label-prefix": "3",
+        "images_path": "images/clawing/galleries/3",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is the map we used to find our way to Llullaillaco.",
+              "filename": "image1.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Maria Ester and Giancarlo in sunnier times.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Giancarlo and I plan at the La Casona bar.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "On the way to Llullaillaco for my first visit - November, 1994. Pan-American highway gas station 100 miles south of Antofagasta. I hope we have enough spare tires!",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Llullaillaco is in the distance. Because of the landmine threat, we dare not leave the road.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "A beautiful mountain.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Laguna Aguas Calientes. The abandoned borax mine is just visible on the left shoreline.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Giancarlo checks one of the rooms.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Veils of steam on Lastarria to the south.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "The author has examined this photogravure closely and is convinced that it is the abandoned mine on the shores of Laguna Aguas Calientes that Giancarlo, Patricio, and he stayed at their first nights out to Llullaillaco. The Laguna is to the right. The mine buildings are somewhat indistinct. Still, their outlines suggest it is the Calientes mine. The overwhelming proof is that the peak to the right is surely Lastarria in its appearance and the mountain on the left is assuredly Llullaillaco. 1916 Original Photogravure of a Chilean Desert Borax Field. Publisher: The Mentor. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Alpenglow on my \\\"Flaming Mountain.\\\"",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Base Camp. Baby Blue is on the left. A tarp covers my gear, food, and water.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "The lava flow, as I approach Camp I.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Looking back down the way from Camp.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Camp I.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Looking up the route to Camp II, somewhere up there.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Inside Blue.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "My shadow on an ice bank.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Camp II.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Camp III on the fringe of the ice plateau. The peak I thought the principal summit is behind me.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "The ice plateau lies far below.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The peak I thought the main one.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "On the top, with Argentina stretching out before me.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "The true summit.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "More Argentina.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "As I gaze upon it, I wonder what went wrong.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -345,6 +763,150 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
+        "shortname": "Chapter 4 - Llullaillaco",
+        "path": "4",
+        "filename": "chapter4.yaml",
+        "label-prefix": "4",
+        "images_path": "images/clawing/galleries/4",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Patricio catches some winks at the mine.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Flamingoes on Laguna Aguas Calientes. The borax mine is in the distance.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Patricio casts a long shadow.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Sunset, with Lastarria to the south.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A flat tire right at Base Camp!",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Next morning, Pat has left for the long ride back to Copiapo.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Another golden moment on this peak.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Base Camp at <span class=\\\"height\\\">14,600' (4450 m)</span>.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "So far, it's nice and pleasant on this trip.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "The view higher.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Camp I, or Camp \\\"Apricot\\\". Were there other climbers on the mountain?",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "I've been at this spot before. The lava flow in the distance.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "My Camp II.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "At the ice plateau's edge. Within minutes of taking this picture, I began to feel a \\\"presence\\\" nearby.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "My Camp III site, looking up the ravine.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "My Camp III. The top of Blue is just visible. The \\\"presence\\\" remained on the plateau and did not follow me here. Next morning, summit day, the high winds were such that I had to abandon my summit attempt.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Preparing for summit day.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "What was it I felt on the ice plateau?",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Patricio is almost here!",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -363,6 +925,234 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
+        "shortname": "Chapter 5 - Tres Cruces",
+        "path": "5",
+        "filename": "chapter5.yaml",
+        "label-prefix": "5",
+        "images_path": "images/clawing/galleries/5",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "November, 1996. Patricio prepares to return to Copiapo after we have off-loaded all my gear. The B&amp;W photos are of the Chapter 5 climb.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A view of the couloir on the way to Camp I.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Another scene on the way to Camp I.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Camp I. The couloir is snow-free.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Looking west from the top of the couloir.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "At the col, gazing upon the flanks of Central.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Sur, from the col.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Climbing on the flanks of Central. The view is to the south.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of Sur.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "A view of Sur from below my Camp III.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "The retreat from Camp III and the return to the col. My legs had refused to take me higher.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "March, 1992. In Chapter 5, at Camp III on Central, I look across to Sur and reflect upon my first climb of Tres Cruces. The following are the pictures from that climb. Here Giancarlo, his friend, and I pack.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "My first close look at Tres Cruces. Central is on the left and Sur on the right.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Base Camp. It snowed during the first night.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "There is snow higher up also.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Camp I. Much of the snow has melted and evaporated from the storm two days ago.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "The day of the second carry to Camp II on the col at the top of the couloir.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "At the top of the gully, a look back down the route.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The moon right next to the Central summit.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "\\\"Greenie\\\". The green pond at the col where I captured several shrimp.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "Partial view of the blue pond.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Blue and I camp near another pond partially frozen over.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "A look up to the summit of Sur.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Another pond.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "On the way to the summit, I look down to the col.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "Underneath Sur's \\\"Crown of Thorns.\\\"",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "I do so again higher on the route.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "A view of Central from just over the \\\"Crown of Thorns\\\" on Sur. March 1995.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "From the top of Sur looking over at Central. The clouds are moving in. March 1992.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "I'm not sure which direction I'm facing. The clouds signal that I must leave this place quickly. Just as I reached Camp III, it began to snow.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "This shot is from my November, 1993 climb of Sur.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "Back at Base. A golden alpenglow on Sur.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -381,6 +1171,124 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 6 | Interlude: Clients",
+        "shortname": "Chapter 6 - Assorted",
+        "path": "6",
+        "filename": "chapter6.yaml",
+        "label-prefix": "6",
+        "images_path": "images/clawing/galleries/6",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Alpenglow on the western walls of Tres Cruces. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            },
+            {
+              "caption": "Frank and Bill at Tres Base Camp.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "The author and Bill take a break in the couloir.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "I don't remember who the client was on this trip, but he was around there somewhere.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "Tres Base Camp with a client whose name I can't remember. I do not tell the story in Chapter 6, but this fellow could not acclimatize and we had to leave the mountain.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "Richard arranging things at the Refugio Santa Rosa.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Richard at Base Camp waiting for Patricio.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "And here he is!",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            }
+          ],
+          [
+            {
+              "caption": "The author, Sam, and Patricio at Santa Rosa.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Don at Camp I gazing upon the couloir and Central (see Chapter 5).",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Don near nieves penitentes outside Camp I.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Don leaves Camp I on our second carry to Camp II. Within three hours we were caught in the wind storm (told in Chapter 5).",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "A look back down the couloir. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "Another alpenglow moment. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Another golden moment from Laguna Santa Rosa. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -402,6 +1310,254 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
+        "shortname": "Chapter 7 - Pissis",
+        "path": "7",
+        "filename": "chapter7.yaml",
+        "label-prefix": "7",
+        "images_path": "images/clawing/galleries/7",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Giancarlo's cross on Laguna Negro Francisco where his body was found.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "At La Casona, waiting for Patricio. Of course, I had no idea what was about to take place on Pissis. Maria Ester is behind the camera.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "March, 1997. Patricio stands by the Valle Ancho marker. Pissis is in the distance.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Of course, I have to stand next to it also.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A small stream from an ojo immediately below Ancho Pass.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The great peak rises in the south.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "A lone guanaco checks us out.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Another shot as we approach closer.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "There is a golden glow to the surrounding land.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "My Base Camp, at <span class=\\\"height\\\">15,500' (4720 m)</span>, on the northern slopes. The main summit is the one on the right. My route will proceed through the gully below the summit to a Camp I. Higher, I will traverse to the right, or west, to reach a Camp II.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Base Camp looking northeast.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Another ojo! This one is next to Base.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "A rest stop on the way to Camp I.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "This is the wonderful site of Camp II at <span class=\\\"height\\\">19,200' (5850 m)</span>.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Inside Blue at II.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "The whiteout has lifted as I seek a place for Camp III.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Camp III at <span class=\\\"height\\\">20,200' (6160 m)</span>. I'm looking up the gully that will take me higher. There is a steep dropoff right behind me.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Camp III. This is the site of the infamous stove \\\"incident.\\\"",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "On the way to the subsidiary summit. Early in the morning, the top of the main summit was cloaked in clouds, making it too risky to attempt.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Scenery along the way.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "Still climbing towards the subsidiary summit, as I look over at the main summit. The clouds have now lifted.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Still going.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "The view of the main summit as I approach the top of my peak.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "I'm finally on the top of Pissis West I, at <span class=\\\"height\\\">22,135' (6747 m)</span> (this peak was named several years after this climb). I'm positive this is a first solo ascent.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "West II , at <span class=\\\"height\\\">22,074' (6720 m)</span>, from West I. The view is south.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "More of West II.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "More views from the top of the sub summit.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "The \\\"Crater\\\" summit in the distance, looking south.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "Stunning views.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "More subsidiary summits to the east.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "It has been a satisfying climb.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "The southwestern shores of Laguna Negro Francisco. The Refugio is right behind me.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ],
+          [
+            {
+              "caption": "The look north at Cerro Copiapo (<span class=\\\"height\\\">19,836', 6046 m</span>) from the shores of Laguna Negro Francisco.",
+              "filename": "image33.jpg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "Another look north to Cerro Copiapo.",
+              "filename": "image34.jpg",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "caption": "The look north to Cerro Copiapo with the cross in the upper foreground that marked where Giancarlo passed away in the water and sand.",
+              "filename": "image35.jpg",
+              "attribution": "",
+              "label": "35"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -420,6 +1576,170 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
+        "shortname": "Chapter 8 - Llullaillaco",
+        "path": "8",
+        "filename": "chapter8.yaml",
+        "label-prefix": "8",
+        "images_path": "images/clawing/galleries/8",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "November 1999. Another trip to Llullaillaco. Will I finally see the Inca huts?",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Patricio checks everything before we leave.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Lastarria, looking south.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Laguna Aquas Calientes.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Base Camp.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "On the way to Camp I.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Camp I, Camp \\\"Apricot.\\\"",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "The way to Camp II.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "I'm almost off the ice plateau.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "I'll place Camp III at the top of the ravine. The lava flow is in the distance.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Camp III. The weather is holding.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Up the gully on summit day.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "The ice plateau, far below.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "A jutting promontory in the west.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "The subsidiary summit I climbed years before. About fifteen minutes after I took this picture, my camera slipped from my grasp and cracked open the back, exposing the film.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "And here they are, finally! <span class=\\\"attribution\\\">Chuck Huss Collection.</span>",
+              "filename": "image16.png",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Another view. <span class=\\\"attribution\\\">Johan Reinhard Collection.</span>",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "And another. <span class=\\\"attribution\\\">Johan Reinhard Collection.</span>",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Canned peaches back at Base. I finally saw the huts! What a thrill.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "It's pick-up day and here comes Patricio.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "I'm ready to get back home.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Patricio packing for the trip back to Copiapo.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -438,6 +1758,234 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
+        "shortname": "Chapter 9 - Tres Cruces",
+        "path": "9",
+        "filename": "chapter9.yaml",
+        "label-prefix": "9",
+        "images_path": "images/clawing/galleries/9",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "March 2009. I'm towing Tristan so he can attempt a jump start. It didn't work.<br />All the photos in this section except one are courtesy of <span class=\\\"attribution\\\">Chuck Huss</span>.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Neither does a battery jump start.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "My truck, in front of the Santa Rosa Refugio, twenty minutes before it rolled towards the Laguna, without me.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "John has returned the next day with Tristan, Lucy, and a new battery. But it doesn't work. Lucy is at the driver's side door; Tristan is in the middle; John is in the green sweater; John's oldest son is on the right. <span class=\\\"attribution\\\">Dan Smith Collection.</span>",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The author on the left, Chuck on the right.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Chuck on the balcony.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "A scruffy Andean fox.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Baby guanaco on the edge of the Laguna.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Guanaco herd.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Flamingo take-off.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Flamingo in flight.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "Another flamingo shot.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "View of the Refugio, with Tres Cruces in the distance.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Rio Lamas Falls, with guanaco.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Resting guanaco.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "A mother and baby.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Another scene at the Falls.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The author at Chuck and Dan's Base Camp. There is little snow on the peak. That changed during the night.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Where did Tres Cruces go?  This portends a rough time ahead, as we were soon to find out.  R. Villarreal Collection.",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            }
+          ],
+          [
+            {
+              "caption": "Dan at their Base Camp next morning.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "Another shot.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The Maricunga Customs Station. Over two separate stays here, I met Colonel Soto and Dr. de Silva.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "Both peaks are covered in snow. It snowed every afternoon and evening of our days on the mountain.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "caption": "A world of white.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "caption": "More of the same.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "More battery problems. I don't remember what I was doing under the hood. Whatever it was, it didn't work.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "Dan Smith in the couloir.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "caption": "Another storm has plastered Central in snow.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "Chuck near a penitentes field.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "Dan in the couloir.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "The climb's over.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   },
@@ -459,6 +2007,170 @@
         ],
         "content_name": "Passages",
         "content_path": "passages"
+      },
+      "ikarus_data": {
+        "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
+        "shortname": "Chapter 10 - Tres Cruces",
+        "path": "10",
+        "filename": "chapter10.yaml",
+        "label-prefix": "10",
+        "images_path": "images/clawing/galleries/10",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "One of several oases on the Mina Marte road leading to the pass overlooking Laguna Santa Rosa.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "November, 2009. At the pass, looking across to Tres Cruces.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Looking down upon Laguna Santa Rosa.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "And another.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The author on the shores of the Laguna.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "On Chile Highway 31, with Tres Cruces in the distance.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "My Base Camp, with the winds howling.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "A night at Advanced Base Camp.\tThe winds have yet to lessen in force.\tI slept inside the truck since it was impossible to set Blue up.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "I'm chased back down the mountain by the continual storms. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            },
+            {
+              "caption": "A last look back at Tres Cruces.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "After retreating from the mountain, I stop to visit the Carabinero Station at Laguna Verde. The wind was so strong it almost tore the door from my hands.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "I returned to Santa Rosa to spend the night at the Refugio.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "This and the following pictures are views of the Laguna's shores as I traveled north almost twelve miles.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "An hour after this photo of Tres Cruces, it was enveloped once more in clouds.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The sun sets and ends another Andean day. It also heralds the close of my wonderful Andean climbing career.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ],
+          [
+            {
+              "caption": "Next day, a last goodbye before returning to Copiapo.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "A last goodbye from the pass. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            }
+          ]
+        ],
+        "content_name": "Galleries",
+        "content_path": "galleries"
       }
     }
   }
