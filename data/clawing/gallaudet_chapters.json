@@ -245,10 +245,14 @@
       },
       "hawker_data": {
         "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
-        "shortname": "Chapter 1 - Ojos del Salado",
+        "shortname": "Chapter 1 Tour - Ojos del Salado",
         "path": "1",
-        "title": "Chapter 1 Tour",
-        "url": "https://www.youtube.com/embed/xilnQmwjNtk",
+        "tours": [
+          {
+            "title": "Chapter 1 Tour",
+            "url": "https://www.youtube.com/embed/xilnQmwjNtk"
+          }
+        ],
         "content_name": "Tours",
         "content_path": "tours"
       },
@@ -515,10 +519,14 @@
       },
       "hawker_data": {
         "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
-        "shortname": "Chapter 2 - Pissis",
+        "shortname": "Chapter 2 Tour - Pissis",
         "path": "2",
-        "title": "Chapter 2 Tour",
-        "url": "youtube.com/chapter2tour",
+        "tours": [
+          {
+            "title": "Chapter 2 Tour",
+            "url": "https://www.youtube.com/embed/j4fG3q8esa8"
+          }
+        ],
         "content_name": "Tours",
         "content_path": "tours"
       },
@@ -743,6 +751,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
+        "shortname": "Chapter 3 Tour - Llullaillaco",
+        "path": "3",
+        "tours": [
+          {
+            "title": "Chapter 3 Tour",
+            "url": "https://www.youtube.com/embed/jt_EtSY0OGQ"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -907,6 +928,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
+        "shortname": "Chapter 4 Tour - Llullaillaco",
+        "path": "4",
+        "tours": [
+          {
+            "title": "Chapter 4 Tour",
+            "url": "https://www.youtube.com/embed/trn0KDBGbTk"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -1153,6 +1187,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
+        "shortname": "Chapter 5 Tour - Tres Cruces",
+        "path": "5",
+        "tours": [
+          {
+            "title": "Chapter 5 Tour",
+            "url": "https://www.youtube.com/embed/PmUqegTE16I"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -1289,6 +1336,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 6 | Interlude: Clients",
+        "shortname": "Chapter 6 Tour - Assorted",
+        "path": "6",
+        "tours": [
+          {
+            "title": "Chapter 6 Tour",
+            "url": "https://www.youtube.com/embed/IqpTDNn-LvU"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -1558,6 +1618,23 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
+        "shortname": "Chapter 7 Tour - Pissis (Parts 1 and 2)",
+        "path": "7",
+        "tours": [
+          {
+            "title": "Chapter 7 Tour Part 1",
+            "url": "https://www.youtube.com/embed/ghxDAskH80w"
+          },
+          {
+            "title": "Chapter 7 Tour Part 2",
+            "url": "https://www.youtube.com/embed/IC0rffxIqmk"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -1740,6 +1817,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
+        "shortname": "Chapter 8 Tour - Llullaillaco",
+        "path": "8",
+        "tours": [
+          {
+            "title": "Chapter 8 Tour",
+            "url": "https://www.youtube.com/embed/8c4Vv_xyH_U"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -1986,6 +2076,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
+        "shortname": "Chapter 9 Tour - Tres Cruces",
+        "path": "9",
+        "tours": [
+          {
+            "title": "Chapter 8 Tour",
+            "url": "https://www.youtube.com/embed/t_omMq6STHg"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   },
@@ -2171,6 +2274,19 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      },
+      "hawker_data": {
+        "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
+        "shortname": "Chapter 10 Tour - Tres Cruces",
+        "path": "10",
+        "tours": [
+          {
+            "title": "Chapter 10 Tour",
+            "url": "https://www.youtube.com/embed/kps7L486xjs"
+          }
+        ],
+        "content_name": "Tours",
+        "content_path": "tours"
       }
     }
   }

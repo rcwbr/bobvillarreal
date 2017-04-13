@@ -4,9 +4,9 @@ page: clawing tours
 content_page: true
 ---
 
-<% puts "#{tour_info["name"]} tours is being built." %>
+<% puts "#{tours_info["name"]} tours is being built." %>
 <div>
-	<h1 class="media-header" id="tours-header">Tours - <%= tour_info["name"] %></h1>
+	<h1 class="media-header" id="tours-header">Tours - <%= tours_info["name"] %></h1>
 	<a id="tours-link" href="/<%= book["shortname"] %>/tours/">All Tours</a>
   <%= partial "partials/tours" %>
 </div>
