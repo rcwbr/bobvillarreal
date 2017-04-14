@@ -1,16 +1,19 @@
 ---
 -
-  name: "Ecuador - Chimborazo"
+  name: "Ecuador | Chimborazo"
+  shortname: "Ecuador - Chimborazo"
   path: "E"
   filename: "ecuador.yaml"
   label-prefix: "E"
 -
-  name: "Bolivia - Illimani"
+  name: "Bolivia | Illimani"
+  shortname: "Bolivia - Illimani"
   path: "B"
   filename: "bolivia.yaml"
   label-prefix: "B"
 -
-  name: "Argentina - Aconcagua"
+  name: "Argentina | Aconcagua"
+  shortname: "Argentina - Aconcagua"
   path: "A"
   filename: "argentina.yaml"
   label-prefix: "A"
@@ -74,3 +77,9 @@
   path: "10"
   filename: "chapter10.yaml"
   label-prefix: "10"
+-
+  name: "Appendix C | Apani the Indian"
+  shortname: "Appendix C"
+  path: "C"
+  filename: "../../../chronicles/ikarus_data/galleries/3V.yaml"
+  label-prefix: "3V"
