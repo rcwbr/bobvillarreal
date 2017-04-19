@@ -1334,5 +1334,113 @@
         "content_path": "tours"
       }
     }
+  },
+  {
+    "shortname": "November 1998",
+    "name": "November 1998",
+    "path": "11-98",
+    "media": {
+      "macchi_data": {
+        "name": "November 1998",
+        "shortname": "November 1998",
+        "path": "11-98",
+        "movies": [
+          {
+            "filename": "clawing/1198.m4v",
+            "url": "http://player.vimeo.com/video/85967126",
+            "title": "November 1998 Movie",
+            "note": "An unsuccessful climb of Llullaillaco with my friend, Sverre Aarseth (footnoted in Ch. 9). Film opens with a discussion with Maria Ester and Sverre at the La Casona Hotel."
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
+      }
+    }
+  },
+  {
+    "shortname": "April 1999",
+    "name": "April 1999",
+    "path": "4-99",
+    "media": {
+      "macchi_data": {
+        "name": "April 1999",
+        "shortname": "April 1999",
+        "path": "4-99",
+        "movies": [
+          {
+            "filename": "clawing/0499.m4v",
+            "url": "http://player.vimeo.com/video/84256938",
+            "title": "April 1999 Movie",
+            "note": "An unsuccessful attempt on Tres Cruces with Gary, a client. (Not mentioned in the book.)"
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
+      }
+    }
+  },
+  {
+    "shortname": "March 2000",
+    "name": "March 2000",
+    "path": "03-00",
+    "media": {
+      "macchi_data": {
+        "name": "March 2000",
+        "shortname": "March 2000",
+        "path": "03-00",
+        "movies": [
+          {
+            "filename": "clawing/0300.m4v",
+            "url": "http://player.vimeo.com/video/83714590",
+            "title": "March 2000 Movie",
+            "note": "Attempts of Pissis and Tres Cruces, but there was too much snow. I found my ice axe on Tres (Ch. 6)."
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
+      }
+    }
+  },
+  {
+    "shortname": "April 2001",
+    "name": "April 2001",
+    "path": "04-01",
+    "media": {
+      "macchi_data": {
+        "name": "April 2001",
+        "shortname": "April 2001",
+        "path": "04-01",
+        "movies": [
+          {
+            "filename": "clawing/0401.m4v",
+            "url": "http://player.vimeo.com/video/83714589",
+            "title": "April 2001 Movie"
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
+      }
+    }
+  },
+  {
+    "shortname": "Guillaume Ceyrac",
+    "name": "Guillaume Ceyrac's Amazing Climb",
+    "path": "guillaume",
+    "media": {
+      "macchi_data": {
+        "name": "Guillaume Ceyrac's Amazing Climb",
+        "shortname": "Guillaume Ceyrac",
+        "path": "guillaume",
+        "movies": [
+          {
+            "filename": "guillaumeCeyrac.m4v",
+            "url": "http://player.vimeo.com/video/94891845",
+            "title": "Guillaume Ceyrac's Amazing Climb"
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
+      }
+    }
   }
 ]

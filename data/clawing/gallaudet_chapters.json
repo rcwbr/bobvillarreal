@@ -255,20 +255,6 @@
         ],
         "content_name": "Tours",
         "content_path": "tours"
-      },
-      "macchi_data": {
-        "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
-        "shortname": "Chapter 1 - Ojos del Salado",
-        "path": "1",
-        "movies": [
-          {
-            "filename": "/Videos/0499.m4v",
-            "url": "http://player.vimeo.com/video/85967126",
-            "title": "not same as chapter"
-          }
-        ],
-        "content_name": "Movies",
-        "content_path": "movies"
       }
     }
   },
@@ -529,20 +515,6 @@
         ],
         "content_name": "Tours",
         "content_path": "tours"
-      },
-      "macchi_data": {
-        "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
-        "shortname": "Chapter 2 - Pissis",
-        "path": "2",
-        "movies": [
-          {
-            "filename": "/Videos/0499.m4v",
-            "url": "http://player.vimeo.com/video/85967126",
-            "title": "not same as chapter"
-          }
-        ],
-        "content_name": "Movies",
-        "content_path": "movies"
       }
     }
   },
@@ -2089,6 +2061,25 @@
         ],
         "content_name": "Tours",
         "content_path": "tours"
+      },
+      "macchi_data": {
+        "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
+        "shortname": "Chapter 9 - Tres Cruces",
+        "path": "9",
+        "movies": [
+          {
+            "filename": "clawing/ch9pt1.m4v",
+            "url": "http://player.vimeo.com/video/84256937",
+            "title": "Chapter 9 Movie Part 1"
+          },
+          {
+            "filename": "clawing/ch9pt2.m4v",
+            "url": "http://player.vimeo.com/video/84816638",
+            "title": "Chapter 9 Movie Part 2"
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
       }
     }
   },
@@ -2287,6 +2278,25 @@
         ],
         "content_name": "Tours",
         "content_path": "tours"
+      },
+      "macchi_data": {
+        "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
+        "shortname": "Chapter 10 - Tres Cruces",
+        "path": "10",
+        "movies": [
+          {
+            "filename": "clawing/ch10pt1.m4v",
+            "url": "http://player.vimeo.com/video/84816637",
+            "title": "Chapter 10 Movie Part 1"
+          },
+          {
+            "filename": "clawing/ch10pt2.m4v",
+            "url": "http://player.vimeo.com/video/46904353",
+            "title": "Chapter 10 Movie Part 2"
+          }
+        ],
+        "content_name": "Movies",
+        "content_path": "movies"
       }
     }
   }
