@@ -4,7 +4,7 @@
       <% if index > 0 %>
         -
       <% end %>
-      <a class="about-menu-link" href="/<%= book["shortname"] %>/<%= menu_item["location"] %>"><%= menu_item["menu_text"] %></a>
+      <a class="about-menu-link <% if current_page.data.page == menu_item["page_name"] %>about-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/<%= menu_item["location"] %>"><%= menu_item["menu_text"] %></a>
     <% end %>
   </div>
 </div>
