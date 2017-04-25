@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">-->
 
-    <% puts current_page.data.title
-    if current_page.data.page == "clawing galleries" %>
+    <% if current_page.data.media == "galleries" && current_page.data.index_page %>
       <title><%= "Galleries | Bob Villarreal"%></title>
     <% else %>
       <title><%= gallery_info["name"] || "Gallery" %><%= " | Bob Villarreal"%></title>
@@ -16,7 +15,7 @@
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
     <%= partial "partials/stylesheets/site" %>
     <%= partial "partials/stylesheets/content_pages" %>
-    <% if current_page.data.page != "clawing galleries" %>
+    <% if !current_page.data.index_page %>
       <%= stylesheet_link_tag :gallery %>
       <%= partial "partials/stylesheets/gallery_style" %>
       <%= partial "partials/gallery_script" %>

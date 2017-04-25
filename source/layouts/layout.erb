@@ -9,23 +9,30 @@
     <title><%= current_page.data.title || "Bob Villarreal" %></title>
 
     <%= partial "partials/stylesheets/site" %>
-    <% if current_page.data.page == "clawing home" %>
-      <%= partial "partials/stylesheets/clawing_home" %>
-    <% end %>
-    <% if current_page.data.page == "chronicles home" %>
-      <%= partial "partials/stylesheets/chronicles_home" %>
+    <% if current_page.data.page == "home" %>
+      <% if current_page.data.book == "clawing" %>
+        <%= partial "partials/stylesheets/clawing_home" %>
+      <% elsif current_page.data.book == "chronicles" %>
+        <%= partial "partials/stylesheets/chronicles_home" %>
+      <% end %>
     <% end %>
     <% if current_page.data.content_page %>
       <%= partial "partials/stylesheets/content_pages" %>
-      <% if current_page.data.page == "clawing content index" %>
-        <%= partial "partials/stylesheets/content_index_page" %>
+      <% if current_page.data.media == "chapters" && current_page.data.index_page %>
+        <% if current_page.data.book == "clawing" %>
+          <%= partial "partials/stylesheets/content_index_page" %>
+        <% end %>
       <% end %>
-      <% if current_page.data.page == "clawing slideshows index" %>
-        <%= partial "partials/stylesheets/slideshows_index_page" %>
+      <% if current_page.data.media == "slideshows" && current_page.data.index_page %>
+        <% if current_page.data.book == "clawing" %>
+          <%= partial "partials/stylesheets/slideshows_index_page" %>
+        <% end %>
       <% end %>
-      <% if current_page.data.page == "clawing movies" %>
-        <%= javascript_include_tag :jquery %>
-        <%= javascript_include_tag :movies %>
+      <% if current_page.data.media == "movies" && !current_page.data.index_page %>
+        <% if current_page.data.book == "clawing" %>
+          <%= javascript_include_tag :jquery %>
+          <%= javascript_include_tag :movies %>
+        <% end %>
       <% end %>
     <% else %>
       <%= partial "partials/stylesheets/no_content_pages" %>
