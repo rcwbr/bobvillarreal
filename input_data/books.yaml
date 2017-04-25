@@ -98,16 +98,19 @@
   non_content_pages:
     -
       name: "About the Book"
+      page_name: "about book"
       location: "aboutbook"
       filename: "aboutbook.html"
       menu_text: "ABOUT THE BOOK"
     -
       name: "Acknowledgements"
+      page_name: "acknowledgements"
       location: "acknowledgements"
       filename: "acknowledgements.html"
       menu_text: "ACKNOWLEDGEMENTS"
     -
       name: "About the Author"
+      page_name: "about author"
       location: "aboutauthor"
       filename: "aboutauthor.html"
       menu_text: "ABOUT THE AUTHOR"
