@@ -17,3 +17,6 @@ Update gems again: sudo gem update
 -Update bundle gems again: bundle update
 Clean up uglifier gem: sudo gem cleanup uglifier
 Clean up rb-fsevent gem: sudo gem cleanup rb-fsevent
+Install a JavaScript runtime, such as Node.js:
+	1: curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+	2: sudo apt-get install -y nodejs
