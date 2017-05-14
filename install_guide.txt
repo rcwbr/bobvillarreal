@@ -46,10 +46,22 @@ Open port 4567 on AWS control panel
 Create 8 GB volume on AWS control panel; attach to instance as /sdf
 Set volume as swap: sudo swapon /dev/xvdf
 Set root password: sudo passwd
-Set ssh to allow password access:
+Set ubuntu password: sudo passwd ubuntu
+Set ssh to allow password authentication:
+	1: sudo vim /etc/ssh/ssh_config
+	2: Uncomment this: PasswordAuthentication yes
+Setup ssh for sftp:
 	1: sudo vim /etc/ssh/sshd_config
-	2: PasswordAuthentication yes
-	3: sudo systemctl restart ssh
+	2: Change this setting: PasswordAuthentication yes
+	3: Change this setting: Subsystem sftp /usr/lib/openssh/sftp-server to Subsystem sftp internal-sftp
+	3: Append this to the file:
+		-Match Group sftponly
+        		ChrootDirectory /home/%u
+        		ForceCommand internal-sftp
+			X11Forwarding no
+        		AllowTcpForwarding no	
+	4: Restart ssh: sudo systemctl restart ssh
+	5: And/or: sudo /etc/init.d/ssh restart
 Add ftp-only usergroup: sudo groupadd sftponly
 Add user for ftp: sudo useradd -m USERNAME
 Set user's password: sudo passwd USERNAME
@@ -60,4 +72,4 @@ Create inner home dir for user: sudo mkdir -p /home/USERNAME/home/USERNAME
 Give user ownership of inner home dir: sudo chown USERNAME:USERNAME /home/USERNAME/home/USERNAME
 Make placeholder dir in inner home dir: sudo mkdir /home/USERNAME/home/USERNAME/bobvillarreal
 Mount repo to placeholder: sudo mount -o bind /home/ubuntu/bobvillarreal /home/USERNAME/home/USERNAME/bobvillarreal
-Restart ssh: 
+Restart ssh: sudo systemctl restart ssh
