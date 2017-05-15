@@ -73,3 +73,10 @@ Give user ownership of inner home dir: sudo chown USERNAME:USERNAME /home/USERNA
 Make placeholder dir in inner home dir: sudo mkdir /home/USERNAME/home/USERNAME/bobvillarreal
 Mount repo to placeholder: sudo mount -o bind /home/ubuntu/bobvillarreal /home/USERNAME/home/USERNAME/bobvillarreal
 Restart ssh: sudo systemctl restart ssh
+
+Create startup tasks to properly initialize server environment
+Set script to run on startup:
+	1: sudo vim /etc/rc.local
+	2: Add sh /home/ubuntu/setup.sh before exit 0
+Write script:
+	1: vim /home/ubuntu/server_setup.sh
