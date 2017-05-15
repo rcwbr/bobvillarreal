@@ -77,6 +77,9 @@ Restart ssh: sudo systemctl restart ssh
 Create startup tasks to properly initialize server environment
 Set script to run on startup:
 	1: sudo vim /etc/rc.local
-	2: Add sh /home/ubuntu/setup.sh before exit 0
+	2: Add sh /home/ubuntu/server_setup.sh before exit 0
 Write script:
 	1: vim /home/ubuntu/server_setup.sh
+	2: Add the following text to this file
+		-mount -o bind /home/ubuntu/bobvillarreal /home/villarreal-ftp/home/villarreal-ftp/bobvillarreal
+		-swapon /dev/xvdf
