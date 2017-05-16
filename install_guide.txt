@@ -81,6 +81,17 @@ Set script to run on startup:
 Write script:
 	1: vim /home/ubuntu/server_setup.sh
 	2: Add the following text to this file
-		-mount -o bind /home/ubuntu/bobvillarreal /home/villarreal-ftp/home/villarreal-ftp/bobvillarreal
-		-swapon /dev/xvdf
-Generate ssh key for Github (repeat this for every different developer using the server): ssh-keygen -t rsa -b 4096 -C "[EMAIL ADDRESS]"
+		mount -o bind /home/ubuntu/bobvillarreal /home/villarreal-ftp/home/villarreal-ftp/bobvillarreal
+		swapon /dev/xvdf
+Set up ssh keys for Github:
+	1: Repeat this for every different developer using the server: ssh-keygen -t rsa -b 4096 -C "[EMAIL ADDRESS]"
+	2: Add ssh keys to ssh agent: vim /home/ubuntu/.profile
+	3: Append these lines:
+		export USER_1_NAME="[FIRST USER NAME]"
+		export USER_1_EMAIL="[FIRST USER EMAIL ADDRESS]"
+		export USER_1_KEY_PATH="[PATH TO FIRST USER SSH KEY FROM STEP 1, by default in /home/ubuntu/.ssh/]"
+		export USER_2_NAME="[SECOND USER NAME]"
+		export USER_2_EMAIL="[SECOND USER EMAIL ADDRESS]"
+		export USER_2_KEY_PATH="[PATH TO SECOND USER SSH KEY FROM STEP 1, by default in /home/ubuntu/.ssh/]"
+		echo "IdentityFile $USER_1_KEY_PATH" > ~/.ssh/config
+		echo "IdentityFile $USER_2_KEY_PATH" >> ~/.ssh/config
