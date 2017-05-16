@@ -63,15 +63,15 @@ Setup ssh for sftp:
 	4: Restart ssh: sudo systemctl restart ssh
 	5: And/or: sudo /etc/init.d/ssh restart
 Add ftp-only usergroup: sudo groupadd sftponly
-Add user for ftp: sudo useradd -m USERNAME
-Set user's password: sudo passwd USERNAME
-Place user in usergroup: sudo usermod -g sftponly USERNAME
-Remove user's shell acces: sudo usermod -s /bin/false USERNAME
-Set root as owner of user's home dir: sudo chown root:root /home/USERNAME
-Create inner home dir for user: sudo mkdir -p /home/USERNAME/home/USERNAME
-Give user ownership of inner home dir: sudo chown USERNAME:USERNAME /home/USERNAME/home/USERNAME
-Make placeholder dir in inner home dir: sudo mkdir /home/USERNAME/home/USERNAME/bobvillarreal
-Mount repo to placeholder: sudo mount -o bind /home/ubuntu/bobvillarreal /home/USERNAME/home/USERNAME/bobvillarreal
+Add user for ftp: sudo useradd -m [USERNAME]
+Set user's password: sudo passwd [USERNAME]
+Place user in usergroup: sudo usermod -g sftponly [USERNAME]
+Remove user's shell acces: sudo usermod -s /bin/false [USERNAME]
+Set root as owner of user's home dir: sudo chown root:root /home/[USERNAME]
+Create inner home dir for user: sudo mkdir -p /home/[USERNAME]/home/[USERNAME]
+Give user ownership of inner home dir: sudo chown [USERNAME]:[USERNAME] /home/[USERNAME]/home/[USERNAME]
+Make placeholder dir in inner home dir: sudo mkdir /home/[USERNAME]/home/[USERNAME]/bobvillarreal
+Mount repo to placeholder: sudo mount -o bind /home/ubuntu/bobvillarreal /home/[USERNAME]/home/[USERNAME]/bobvillarreal
 Restart ssh: sudo systemctl restart ssh
 
 Create startup tasks to properly initialize server environment
@@ -83,3 +83,4 @@ Write script:
 	2: Add the following text to this file
 		-mount -o bind /home/ubuntu/bobvillarreal /home/villarreal-ftp/home/villarreal-ftp/bobvillarreal
 		-swapon /dev/xvdf
+Generate ssh key for Github (repeat this for every different developer using the server): ssh-keygen -t rsa -b 4096 -C "[EMAIL ADDRESS]"
