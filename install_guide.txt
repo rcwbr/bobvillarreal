@@ -95,3 +95,4 @@ Set up ssh keys for Github:
 		export USER_2_KEY_PATH="[PATH TO SECOND USER SSH KEY FROM STEP 1, by default in /home/ubuntu/.ssh/]"
 		echo "IdentityFile $USER_1_KEY_PATH" > ~/.ssh/config
 		echo "IdentityFile $USER_2_KEY_PATH" >> ~/.ssh/config
+Install expect: sudo apt-get install expect
