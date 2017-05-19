@@ -1,0 +1,1 @@
+lftp -e "mirror -R $MIDDLEMAN_BUILD_PATH/chronicles /$PROD_FTP_PATH/chronicles; bye;" -u $PROD_FTP_USERNAME,$PROD_FTP_PASSWORD $PROD_FTP_DOMAIN
