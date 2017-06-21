@@ -17,3 +17,81 @@ Update gems again: sudo gem update
 -Update bundle gems again: bundle update
 Clean up uglifier gem: sudo gem cleanup uglifier
 Clean up rb-fsevent gem: sudo gem cleanup rb-fsevent
+Install a JavaScript runtime, such as Node.js:
+	1: curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+	2: sudo apt-get install -y nodejs
+
+For AWS: 
+Install Ruby: sudo apt-get install ruby-full
+Add bobvillarreal repo: git clone https://github.com/rcieoktgieke/bobvillarreal.git
+Install RubyGems:
+	1: mkdir Downloads; cd Downloads
+	2: wget https://rubygems.org/rubygems/rubygems-2.6.12.tgz
+	3: tar -xvzf rubygems-2.6.12.tgz
+	4: cd rubygems-2.6.12/
+	5: sudo ruby setup.rb
+	6: cd [back to bobvillarreal]
+Update repos: sudo apt-get update
+Install ImageMagick: sudo apt-get install imagemagick
+Install bundler: sudo gem install bundler
+-Install gems: bundle install (likely will throw an error for ffi)
+-Update gems: sudo gem update
+Install libmagickwand-dev: sudo apt-get install libmagickwand-dev
+Reinstall gems including ffi: bundle install (should be without errors)
+Update gems again: sudo gem update
+Install a JavaScript runtime, such as Node.js:
+	1: curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+	2: sudo apt-get install -y nodejs
+Open port 4567 on AWS control panel
+Create 8 GB volume on AWS control panel; attach to instance as /sdf
+Set volume as swap: sudo swapon /dev/xvdf
+Set root password: sudo passwd
+Set ubuntu password: sudo passwd ubuntu
+Set ssh to allow password authentication:
+	1: sudo vim /etc/ssh/ssh_config
+	2: Uncomment this: PasswordAuthentication yes
+Setup ssh for sftp:
+	1: sudo vim /etc/ssh/sshd_config
+	2: Change this setting: PasswordAuthentication yes
+	3: Change this setting: Subsystem sftp /usr/lib/openssh/sftp-server to Subsystem sftp internal-sftp
+	3: Append this to the file:
+		-Match Group sftponly
+        		ChrootDirectory /home/%u
+        		ForceCommand internal-sftp
+			X11Forwarding no
+        		AllowTcpForwarding no	
+	4: Restart ssh: sudo systemctl restart ssh
+	5: And/or: sudo /etc/init.d/ssh restart
+Add ftp-only usergroup: sudo groupadd sftponly
+Add user for ftp: sudo useradd -m [USERNAME]
+Set user's password: sudo passwd [USERNAME]
+Place user in usergroup: sudo usermod -g sftponly [USERNAME]
+Remove user's shell acces: sudo usermod -s /bin/false [USERNAME]
+Set root as owner of user's home dir: sudo chown root:root /home/[USERNAME]
+Create inner home dir for user: sudo mkdir -p /home/[USERNAME]/home/[USERNAME]
+Give user ownership of inner home dir: sudo chown [USERNAME]:[USERNAME] /home/[USERNAME]/home/[USERNAME]
+Make placeholder dir in inner home dir: sudo mkdir /home/[USERNAME]/home/[USERNAME]/bobvillarreal
+Mount repo to placeholder: sudo mount -o bind /home/ubuntu/bobvillarreal /home/[USERNAME]/home/[USERNAME]/bobvillarreal
+Restart ssh: sudo systemctl restart ssh
+
+Create startup tasks to properly initialize server environment
+Set script to run on startup:
+	1: sudo vim /etc/rc.local
+	2: Add sh /home/ubuntu/server_setup.sh before exit 0
+Write script:
+	1: vim /home/ubuntu/server_setup.sh
+	2: Add the following text to this file
+		mount -o bind /home/ubuntu/bobvillarreal /home/villarreal-ftp/home/villarreal-ftp/bobvillarreal
+		swapon /dev/xvdf
+Set up ssh keys for Github:
+	1: Repeat this for every different developer using the server: ssh-keygen -t rsa -b 4096 -C "[EMAIL ADDRESS]"
+	2: Add ssh keys to ssh agent: vim /home/ubuntu/.profile
+	3: Append these lines:
+		export USER_1_NAME="[FIRST USER NAME]"
+		export USER_1_EMAIL="[FIRST USER EMAIL ADDRESS]"
+		export USER_1_KEY_PATH="[PATH TO FIRST USER SSH KEY FROM STEP 1, by default in /home/ubuntu/.ssh/]"
+		export USER_2_NAME="[SECOND USER NAME]"
+		export USER_2_EMAIL="[SECOND USER EMAIL ADDRESS]"
+		export USER_2_KEY_PATH="[PATH TO SECOND USER SSH KEY FROM STEP 1, by default in /home/ubuntu/.ssh/]"
+		echo "IdentityFile $USER_1_KEY_PATH" > ~/.ssh/config
+		echo "IdentityFile $USER_2_KEY_PATH" >> ~/.ssh/config
