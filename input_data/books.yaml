@@ -116,6 +116,17 @@
       menu_text: "ABOUT THE AUTHOR"
   media_managers:
     -
+      name: "ikarus"
+      content_type: "galleries"
+      processing_type: "galleries"
+      input_data_path: "ikarus_data"
+      input_data_file: "galleries.yaml"
+      input_data_entries_path: "galleries"
+      output_filename: "ikarus_galleries.json"
+      content_path: "galleries"
+      content_name: "Galleries"
+      menu_text: "PHOTOS"
+    -
       name: "hawker"
       content_type: "tours"
       processing_type: "plain"
