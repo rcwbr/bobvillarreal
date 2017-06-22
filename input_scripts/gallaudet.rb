@@ -33,6 +33,7 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
 
     section_passages = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
 
+    section["section"] = true
     section["passages"] = section_passages
   end
 
