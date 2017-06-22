@@ -1,0 +1,9 @@
+---
+-
+  name: "First Letter"
+  shortname: "first"
+  filename: "first_letter.yaml"
+-
+  name: "Second Letter"
+  shortname: "second"
+  filename: "second_letter.yaml"

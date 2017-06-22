@@ -116,6 +116,17 @@
       menu_text: "ABOUT THE AUTHOR"
   media_managers:
     -
+      name: "burgess"
+      content_type: "passages"
+      processing_type: "sections"
+      input_data_path: "burgess_data"
+      input_data_file: "passages_sections.yaml"
+      input_data_entries_path: "passages"
+      output_filename: "burgess_passages.json"
+      content_path: "passages"
+      content_name: "Passages"
+      menu_text: "PASSAGES"
+    -
       name: "ikarus"
       content_type: "galleries"
       processing_type: "galleries"

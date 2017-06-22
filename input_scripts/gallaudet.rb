@@ -23,6 +23,25 @@ def process_plain_media(media_manager, book_input_data_path, book_output_data_pa
   plain_output_file.close
 end
 
+def process_section_media(media_manager, book_input_data_path, book_output_data_path)
+  sections_info = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
+  sections_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
+
+  sections_info.each do |section|
+    section["content_name"] = media_manager["content_name"]
+    section["content_path"] = media_manager["content_path"]
+
+    section_passages = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
+
+    section["passages"] = section_passages
+  end
+
+  puts sections_info if GALLAUDET_VERBOSE
+
+  sections_output_file.write(JSON.pretty_generate(sections_info))
+  sections_output_file.close
+end
+
 def process_gallery_media(media_manager, book_input_data_path, book_output_data_path, book_image_path)
   ikarus_init("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}", "#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"], book_image_path)
 end
@@ -86,6 +105,7 @@ books.each do |book|
   if media_managers != nil
     media_managers.each do |media_manager|
       process_plain_media(media_manager, book_input_data_path, book_output_data_path) if media_manager["processing_type"] == "plain"
+      process_section_media(media_manager, book_input_data_path, book_output_data_path) if media_manager["processing_type"] == "sections"
       process_gallery_media(media_manager, book_input_data_path, book_output_data_path, book_image_path) if media_manager["processing_type"] == "galleries"
 
       processing_output_file = JSON.parse(File.read("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}"))
