@@ -5,6 +5,7 @@
     "filename": "first_letter.yaml",
     "content_name": "Passages",
     "content_path": "passages",
+    "section": true,
     "passages": [
       {
         "name": "An Overview",
@@ -35,6 +36,7 @@
     "filename": "second_letter.yaml",
     "content_name": "Passages",
     "content_path": "passages",
+    "section": true,
     "passages": [
       {
         "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",

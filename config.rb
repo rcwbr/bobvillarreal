@@ -54,7 +54,13 @@ books.each do |book|
 		media.each do |media_entry|
 			case media_manager["name"]
 			when "burgess"
-				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :passages_info => media_entry }, :ignore => true
+				if media_entry["section"]
+					media_entry["passages"].each do |section_entry|
+						proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{section_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :passages_info => section_entry }, :ignore => true
+					end
+				else
+					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :passages_info => media_entry }, :ignore => true
+				end
 			when "ikarus"
 				media_entry["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{media_entry["images_path"]}"
 				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :gallery_info => media_entry }, :ignore => true
