@@ -7,3 +7,7 @@
   name: "Second Letter"
   shortname: "second"
   filename: "second_letter.yaml"
+-
+  name: "Third Letter"
+  shortname: "third"
+  filename: "third_letter.yaml"

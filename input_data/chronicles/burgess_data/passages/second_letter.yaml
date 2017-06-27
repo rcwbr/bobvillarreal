@@ -1,21 +1,100 @@
 ---
 -
-  name: "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors"
-  shortname: "Chapter 1 - Ojos del Salado"
-  path: "1"
+  name: "Excerpt from Part N"
+  shortname: "Part N"
+  path: "N"
   passages:
     -
-      "When James crosses the top of a rock the size of a small car, the monster shudders ever so slightly but remains in place. I know this because I stand directly underneath him, some twenty feet below, and for seconds I freeze to the spot not knowing what I should do, pee or flee."
+      "I queried Don Pedro de Cieza de Leon many years ago about the coast road. Here is what he wrote to me: \"Estimable Friend Don Pedro, here is what I can tell you about the coastal road. By order of Tupac Inca Yupanqui, the Indians made a road fifteen feet wide through the coast valleys, with a strong wall on both sides, from Arica in the north all the way to Angastu. The whole space of the road was smooth and shaded by trees whenever possible. These trees, in many places, spread their branches laden with fruit over the road, and many birds fluttered amongst the leaves. Where the ocean sand drifted so high that the Indians could not pave the road with cement, they used huge posts, like beams, and drove them in at regular intervals to point out the way. Care was taken to keep the road clean from the drifting sand, to renew any part of the walls that was out of repair, and to replace any of the posts which might be displaced by the wind. This coast road was certainly a great work, though not so difficult in construction as that in the mountains.\""
     -
-      "I see the summit now and know we are almost there.<br />\"Judy, what are you doing here?\"<br />I halt in puzzlement. Judy? What? I turn to confront what must be a new addition to our climbing team. \"What'd you say?\"<br />James points to a nearby boulder. \"That's my sister sitting on that rock. What's she doing here?\"<br />My altitude haze disappears in an instant. James is hallucinating!"
+      "<i>The second most important Inca historian describes the coastal road in Chile.</i>"
 -
-  name: "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus"
-  shortname: "Chapter 2 - Pissis"
-  path: "2"
+  name: "Excerpt from Part O"
+  shortname: "Part O"
+  path: "O"
   passages:
     -
-      "This part of the Andes is full of extraordinary facts, salars, shallow lakes, exquisite birds and animals, lofty, majestic mountains, high winds, shrieking storms--eloquent truths speaking to a climber a clear and distinct language. Everything is quiet now, composed. Still, it's a surety of the cruel laws of Nature that Heisenberg's Uncertainty Principle at the subatomic level is certainly true at the atomic, and anything untoward may happen at any second. So I remain wary. I know that one's light burns brightest just before it goes dark."
+      "\"Don Pedro, the following account began about 1480, when Tupac Inca Yupanqui, ten years into his reign, desired to add new territory to his Empire. From Cuzco, he sent spies through Tupiza into Atacama (this is the dry desert area that stretches from northern Chile down to Copayapu and some thirty miles beyond it to the south), to discover a road into Chile, and report upon its difficulties, in order that the necessary plans might be made. Only persons of the royal blood were employed on duties of such magnitude. They stopped every seven miles to send back reports of what they had seen, this being necessary in order that useful supplies might be sent. The discoverers found great hardships and difficulties in the desert; and they set up markers that they might find the road on their return and that those to follow them might know the way. Thus, they went backwards and forwards, sending back reports of their discoveries. By these means, they traversed the great expanse of desert between Atacama and Copayapu, which is a small and sparsely populated district. Beyond, as far south as Cuquimpu, there is more desert still. After reaching Copayapu and collecting all the information they could gather concerning the province, they returned, with all diligence, to make a personal report to the Inca. He thereupon ordered an army of 10,000 men, formed in the usual manner and under the command of a general and two masters of the camp of the royal blood. He caused everything to be carried by llamas, which also serve for food themselves, for their flesh is very good meat. I am sure, Don Pedro, you remember dining many times upon them!\""
     -
-      "How might I have anticipated it, that one blow to unhinge Blue and me from the mountain? The truth is, there was no warning, what with the unremitting punches pounding our home. And all the while, out there in the inky depths a thousand miles to the south, one mighty Tartarean blow is sweeping across the obliging land, nothing to break its building force and speed as it rushes towards my tiny home. On it comes, like a 4000 hp GE Dash 8 diesel locomotive pulling a 200-car freight galloping across the great Mojave Desert rails seeking California ports to the west, gaining speed with every stride, until it smashes head on into our trembling abode with the crushing weight of half the South American continent as its cargo."
+      "<i>De Merida quotes part of a letter from the most important Inca historian, Garcilasso de la Vega (El Inca).</i>"
+-
+  name: "First Excerpt from Part P"
+  shortname: "First Part P"
+  path: "1P"
+  passages:
     -
-      "I am not afraid. I know this because I am certain not to see another sunrise, and this bestows a measure of stoic calm.<br /><br /> <hr /> <br />Our world is a vast manuscript, and those who do not travel read but a sheet."
+      "Sire, I feel compelled to say something more of Captain Almagro, so Your Majesty knows better this complex man. I observed him on many occasions and in differing circumstances, and he must be acknowledged as a real soldier and extremely devoted to war. . . . . As to his notable qualities as a soldier, they are evidenced in the fact that he wanted adventure, was always ready to lead an attack on the enemy day or night, and, when at a disadvantage on the battlefield, kept his head while those around him of lesser mettle lost theirs. . . . . He had all the qualities of leadership a man requires and impressed upon those with him the strictest obedience and achieved this result by his toughness. . . . . With him punishment became a matter of principle; he thought an army a failure without discipline. Indeed, he said a soldier under his command ought to be more frightened of him than of the enemy. And this he thought necessary to turn out men who could keep a good guard and abstain from doing harm to their own side or fleeing in the		   of the enemy. In demanding situations soldiers gave him their complete confidence and wanted no better leader, since none existed. At these times, they said his forbidding look seemed actually cheerful, and his toughness in battle appeared as confidence in the		   of the enemy. And this gave them self-assurance during a fight. As might be expected, he detested serving under anyone else's command, as his constant skirmishes with the Pizarros over control of Cuzco and Peru amply attest. He had 65 years of age at the time of our journey. Such, Excellency, is a further portrait of our leader."
+    -
+      "<i>De Merida's description of Captain Almagro.</i>"
+-
+  name: "Second Excerpt from Part P"
+  shortname: "Second Part P"
+  path: "2P"
+  passages:
+    -
+      "A curious thing happened as we rode through this area, for there were great numbers of beehives in these parts. The soldiers who ate the honey went out of their minds, suffered from violent vomiting and diarrhea, and could not stand upright. Those who had only eaten a little behaved as though they were drunk, and those who had eaten a lot were like mad men. Numbers of them lay upon the ground and there was a general state among them of unhappiness. However, they were all alive the next day and came to themselves at about the same hour as they had eaten the honey the day before."
+    -
+      "<i>The encounter with the beehives and honey.</i>"
+-
+  name: "First Excerpt from Part Q"
+  shortname: "First Part Q"
+  path: "1Q"
+  passages:
+    -
+      "Your Majesty, a brief word about Lieutenant Castilla. He was an interesting study in leadership and soldiering. He always made it clear his dominant ambition to be the acquisition of wealth, by any means possible. . . . . He wanted to command because he wanted to find gold and receive more pay by doing so. He wished honors so he might obtain something extra as a result. His desire to become friends with the most influential persons in Peru, comparable to our two captains, arose from his desire to avoid punishment for his misdeeds. He thought the quickest way to the realization of his needs to be by means of perjury, lying, and deceit. Consequently, he regarded sincerity and truthfulness as equivalent to stupidity. The junior officers understood he felt no affection for anyone, and if he declared someone his friend, it became obvious he actually intrigued against him. He distinguished himself in battle, however, and I witnessed personally his courage several times. . . . . Lieutenant Castilla died upon entering Cuzco in March, 1537, when an Indian arrow pierced his right temple during a battle outside the city."
+    -
+      "<i>De Merida's description of one of the expedition's officers.</i>"
+-
+  name: "Second Excerpt from Part Q"
+  shortname: "Second Part Q"
+  path: "2Q"
+  passages:
+    -
+      "We departed Limari on April 20, 1536, in a driving rain on our way to the next town, Papudo. After an hour or so on the road, the sun broke through the clouds and it became a pleasant day. Here the mountains were close to us in the east. Ayar, Simpa, and I were riding out in front of the rest, as was our custom, when off to our left we saw what appeared to be strange creatures jumping high into the air. As we drew closer, we verified this to be so, for small, squirrel-like animals, agitated by what we did not know, jumped continually into the air, even as high as a man is tall. We captured several of them and found their fur to be very soft to the touch. The next day we entered a small town. One of its principal occupations was the keeping of these animals and sewing their fur hides into warm articles of clothing. This was of interest, for now that the coolness of fall was upon us some wished to supplement their wardrobes with fur shirts, pants, and socks. Anco saw to this, bartering with the natives in most cases for these furs or simply ordering that they relinquish them to us."
+    -
+      "<i>Most likely these small animals were viscachas, a small, chinchilla-like rodent.</i>"
+-
+  name: "First Excerpt from Part R"
+  shortname: "First Part R"
+  path: "1R"
+  passages:
+    -
+      "In Cuzco, in 1535, just prior to our departure for Chile, several of us captured one of these animals by a scheme most cunning; we lured it with llama meat and then threw netting over it when it latched upon the bait. The span of this one's wings was truly remarkable, for from tip to tip it measured out to ten feet in length. Its body was four feet long; its feathers black in color with white at the tips of the wings. Its head was bald; its beak elongated and sharply pointed. A more extraordinary object of God's winged creation is nowhere to be found. We did not harm this remarkable beast. It had inspired such respect among us that we were quite careful in our examination of it. Once we had completed our measurements and observations, we pulled away the netting and let it fly off unmolested to its lofty sanctuary. It rose higher and higher until it was a small presence in the wide expanse of sky."
+    -
+      "<i>De Merida reflects back upon a previous encounter with the giant bird of the Andes, the condor.</i>"
+-
+  name: "Second Excerpt from Part R"
+  shortname: "Second Part R"
+  path: "2R"
+  passages:
+    -
+      "I was too preoccupied with battle to come to his aid, but at one point Vald�s was surrounded and pelted by many stones. He defended himself with his shield in his left hand and his sword in his right, making thrusts to one side or another at the Indians who drew near him, killing and wounding some of them. Two companions seized the reins of two horses and hastened to his aid. They dashed through the natives and placed Vald�s between the horses, told him to seize the stirrups, and galloped at full speed for a distance, with him running between the two animals. The Indians were so numerous, however, that it was all to no avail, and Vald�s, growing weary, could not then run, and he told his friends to leave off, for he was tired and wished to die fighting. He stopped and turned to		 his antagonists who, believing that they had taken him prisoner, gave a great shout, as was their wont when they had inflicted harm upon one of us or one of our horses. Freed from contact with the enemy for the moment, I called two cavalrymen and we rushed to assist my friend. When I approached at a slow gallop, Vald�s stood on a large rounded stone and jumped behind me on my horse as I passed. By our arrival he was saved, although much tormented by the fighting he had endured. Thus was my companion saved from a painful death."
+    -
+      "<i>Some of the thrilling action at the Battle of Papudo.</i>"
+-
+  name: "Excerpt from Part S"
+  shortname: "Part S"
+  path: "S"
+  passages:
+    -
+      "As we waited for word that a suitable place had been discovered, Francisco de Vald�s rode up to me and we engaged in talk about the campaign so far and what matters might be like in Cuquimpu. At that moment a shout went up that a possible ford had been found and the need for a volunteer to attempt the crossing to confirm its validity. We both rode to the call, Francisco insisting to Lieutenant Cente�o that he should be the first, and his request was granted. He dismounted and proceeded to lead the animal across. But I believe he gripped the reins too tightly, something we knew not to do, for should the animal become frightened and bolt and thrash around, the rider needs to quickly release the reins so as not to be dragged under. When in the middle of the river something alarmed the horse, for it suddenly reared up, for no discernible reason that any of us watching could later understand, and bolted forward for the opposite shore, kicking its legs wildly to left and right, its hooves lashing out as a result, causing Francisco to lose his footing and plunge headlong into the water, there to be dragged underneath by the terrified animal."
+    -
+      "<i>De Merida's partial description of how his good friend lost his life.</i>"
+-
+  name: "First Excerpt from Part T"
+  shortname: "First Part T"
+  path: "1T"
+  passages:
+    -
+      "The following afternoon, Paullu could not answer many of our questions, but he did satisfy those we had about the history of this Llullaillaco. It occurs that soon after Inca Yupanqui died (in 1493, as Don Garcilasso relates, above), the new Inca, Huayna Capac, ordered two small buildings built on this mountain, so offerings might celebrate Inca Yupanqui's honor and venerate the Sun. Men who see to such things for the Inca, his \"master builders\" of mountain religious sites, he dispatched from Cuzco to Angastu, there to coordinate the movement of men and materials to the mountain."
+    -
+      "<i>De Merida first learns of the Inca huts on the summit of Llullaillaco.</i>"
+-
+  name: "Second Excerpt from Part T"
+  shortname: "Second Part T"
+  path: "2T"
+  passages:
+    -
+      "At this point, Anco said he wished to know more as to how the Indians did these things, because he marveled they performed such feats so high in the air. Paullu replied he knew little of such matters but, when the soldiers in the Chilean armies had completed their tours of duty, the Inca allowed a number to remain in Chile, to farm and to marry. Several of these men must still reside there. Also, the High Priest, assigned to Angastu towards the end of Yuapanqi's reign, was still alive and might agree to answer questions of a religious nature. Father Molina said he, Anco, and I all had an interest in these things and suggested we approach Captain Almagro and request permission to leave for Angastu from Copayapu before the expedition, so we might spend time in town investigating."
+    -
+      "<i>Captain Almagro granted their request.</i>"
