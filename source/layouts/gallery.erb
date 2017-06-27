@@ -6,9 +6,9 @@
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">-->
 
     <% if current_page.data.media == "galleries" && current_page.data.index_page %>
-      <title><%= "Galleries | Bob Villarreal"%></title>
+      <title><%= "#{book["title"]} - #{current_page.data.title}"%></title>
     <% else %>
-      <title><%= gallery_info["name"] || "Gallery" %><%= " | Bob Villarreal"%></title>
+      <title><%= "#{book["title"]} - #{gallery_info["shortname"]} - #{current_page.data.title}"%></title>
     <% end %>
 
     <%= javascript_include_tag :all %>

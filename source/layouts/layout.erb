@@ -3,10 +3,13 @@
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"> -->
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
+    <% #if current_page.data.content_page && !current_page.data.index_page %>
+      <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
+    <% #else %>
+      <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
+    <% #end %>
 
     <%= partial "partials/stylesheets/site" %>
     <% if current_page.data.page == "home" %>

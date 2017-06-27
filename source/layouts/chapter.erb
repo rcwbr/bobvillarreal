@@ -6,7 +6,7 @@
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">-->
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= chapter_info["name"] || "Chapter" %><%= " | Bob Villarreal"%></title>
+    <title><%= "#{book["title"]} - #{chapter_info["shortname"]}" %></title>
 
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
