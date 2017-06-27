@@ -1,6 +1,5 @@
 ---
-title: Bob Villarreal - Clawing Passages
-book: clawing
+title: Passages
 content_page: true
 media: passages
 index_page: true
@@ -10,10 +9,12 @@ index_page: true
   <h1 class="media-header">Passages</h1>
   <% media.each do |passages_info|
     if passages_info["section"] %>
-      <h1><%= passages_info["name"] %></h1>
-      <% passages_info["passages"].each do |section_passages| %>
-        <p><a href="/<%= book["shortname"] %>/passages/<%= section_passages["path"] %>"><%= section_passages["name"] %></a></p>
-      <% end %>
+      <div class="passages-category-div">
+        <h1><%= passages_info["name"] %></h1>
+        <% passages_info["passages"].each do |section_passages| %>
+          <p><a href="/<%= book["shortname"] %>/passages/<%= section_passages["path"] %>"><%= section_passages["name"] %></a></p>
+        <% end %>
+      </div>
     <% else %>
       <p><a href="/<%= book["shortname"] %>/passages/<%= passages_info["path"] %>"><%= passages_info["name"] %></a></p>
     <% end %>
