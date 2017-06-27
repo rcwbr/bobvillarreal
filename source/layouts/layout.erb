@@ -6,32 +6,37 @@
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Bob Villarreal" %></title>
+    <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
 
     <%= partial "partials/stylesheets/site" %>
     <% if current_page.data.page == "home" %>
-      <% if current_page.data.book == "clawing" %>
+      <% if book["title"] == "clawing" %>
         <%= partial "partials/stylesheets/clawing_home" %>
-      <% elsif current_page.data.book == "chronicles" %>
+      <% elsif book["title"] == "chronicles" %>
         <%= partial "partials/stylesheets/chronicles_home" %>
       <% end %>
     <% end %>
     <% if current_page.data.content_page %>
       <%= partial "partials/stylesheets/content_pages" %>
       <% if current_page.data.media == "chapters" && current_page.data.index_page %>
-        <% if current_page.data.book == "clawing" %>
+        <% if book["title"] == "clawing" %>
           <%= partial "partials/stylesheets/content_index_page" %>
         <% end %>
       <% end %>
       <% if current_page.data.media == "slideshows" && current_page.data.index_page %>
-        <% if current_page.data.book == "clawing" %>
+        <% if book["title"] == "clawing" %>
           <%= partial "partials/stylesheets/slideshows_index_page" %>
         <% end %>
       <% end %>
       <% if current_page.data.media == "movies" && !current_page.data.index_page %>
-        <% if current_page.data.book == "clawing" %>
+        <% if book["title"] == "clawing" %>
           <%= javascript_include_tag :jquery %>
           <%= javascript_include_tag :movies %>
+        <% end %>
+      <% end %>
+      <% if current_page.data.media == "passages" && current_page.data.index_page %>
+        <% if book["shortname"] == "chronicles" %>
+          <%= partial "partials/stylesheets/passages_index_page" %>
         <% end %>
       <% end %>
     <% else %>
