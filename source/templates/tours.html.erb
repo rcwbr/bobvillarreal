@@ -5,7 +5,8 @@ media: tours
 index_page: false
 ---
 
-<% puts "#{tours_info["name"]} tours is being built." %>
+<% tours_info = media_entry %>
+<% #puts "#{tours_info["name"]} tours is being built." %>
 <div>
 	<h1 class="media-header" id="tours-header">Tours - <%= tours_info["name"] %></h1>
 	<a id="tours-link" href="/<%= book["shortname"] %>/tours/">All Tours</a>

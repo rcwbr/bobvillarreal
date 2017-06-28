@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"> -->
 
-    <% if current_page.data.content_page && current_page.data.index_page %>
-      <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
-    <% else %>
+    <% if current_page.data.content_page && !current_page.data.index_page %>
       <title><%= "#{book["title"]} - #{media_entry["name"]} - #{current_page.data.title}" %></title>
+    <% else %>
+      <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
     <% end %>
 
     <%= partial "partials/stylesheets/site" %>

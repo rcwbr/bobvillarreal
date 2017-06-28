@@ -1,3 +1,6 @@
+<% if defined? media_entry
+	tours_info = media_entry
+end %>
 <div class="content-container-div" id="tour-container-div">
 	<div class="tour-div embedded-movie-container-div">
 		<% tours_info["tours"].each do |tour_info| %>

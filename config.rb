@@ -67,7 +67,7 @@ books.each do |book|
 			when "bloch"
 				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 			when "hawker"
-				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/tours.html", :locals => { :book => book, :tours_info => media_entry }, :ignore => true
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/tours.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 			when "macchi"
 				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/movies.html", :locals => { :book => book, :movies_info => media_entry }, :ignore => true
 			end
