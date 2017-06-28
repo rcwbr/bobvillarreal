@@ -1,3 +1,6 @@
+<% if defined? media_entry
+	passages_info = media_entry
+end %>
 <div class="content-container-div" id="passages-container-div">
 	<% passages_info["passages"].each do |passage| %>
   	<div class="passage-div">
