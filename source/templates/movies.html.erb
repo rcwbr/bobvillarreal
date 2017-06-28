@@ -5,7 +5,8 @@ media: movies
 index_page: false
 ---
 
-<% puts "#{movies_info["name"]} movies are being built." %>
+<% movies_info = media_entry %>
+<% #puts "#{movies_info["name"]} movies are being built." %>
 <div>
 	<h1 class="media-header" id="movie-header">Movies - <%= movies_info["name"] %></h1>
 	<a id="movies-link" href="/<%= book["shortname"] %>/movies/">All Movies</a>

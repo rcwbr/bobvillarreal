@@ -1,3 +1,6 @@
+<% if defined? media_entry
+	movies_info = media_entry
+end %>
 <div class="content-container-div" id="movies-container-div">
 	<% movies_info["movies"].each do |movie| %>
 		<h2><%= movie["title"] %></h2>
