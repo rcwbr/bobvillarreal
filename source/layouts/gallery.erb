@@ -8,7 +8,7 @@
     <% if current_page.data.media == "galleries" && current_page.data.index_page %>
       <title><%= "#{book["title"]} - #{current_page.data.title}"%></title>
     <% else %>
-      <title><%= "#{book["title"]} - #{gallery_info["shortname"]} - #{current_page.data.title}"%></title>
+      <title><%= "#{book["title"]} - #{media_entry["shortname"]} - #{current_page.data.title}"%></title>
     <% end %>
 
     <%= javascript_include_tag :all %>
