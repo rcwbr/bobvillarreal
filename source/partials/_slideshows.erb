@@ -1,3 +1,6 @@
+<% if defined? media_entry
+	slideshows_info = media_entry
+end %>
 <div class="content-container-div" id="slideshows-container-div">
 	<% slideshows_info["slideshows"].each do |slideshow| %>
   	<div class="slideshow-div embedded-movie-container-div">

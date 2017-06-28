@@ -5,34 +5,34 @@
     <meta charset="utf-8">
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"> -->
 
-    <% #if current_page.data.content_page && !current_page.data.index_page %>
+    <% if current_page.data.content_page && current_page.data.index_page %>
       <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
-    <% #else %>
-      <title><%= "#{book["title"]} - #{current_page.data.title}" %></title>
-    <% #end %>
+    <% else %>
+      <title><%= "#{book["title"]} - #{media_entry["name"]} - #{current_page.data.title}" %></title>
+    <% end %>
 
     <%= partial "partials/stylesheets/site" %>
     <% if current_page.data.page == "home" %>
-      <% if book["title"] == "clawing" %>
+      <% if book["shortname"] == "clawing" %>
         <%= partial "partials/stylesheets/clawing_home" %>
-      <% elsif book["title"] == "chronicles" %>
+      <% elsif book["shortname"] == "chronicles" %>
         <%= partial "partials/stylesheets/chronicles_home" %>
       <% end %>
     <% end %>
     <% if current_page.data.content_page %>
       <%= partial "partials/stylesheets/content_pages" %>
       <% if current_page.data.media == "chapters" && current_page.data.index_page %>
-        <% if book["title"] == "clawing" %>
+        <% if book["shortname"] == "clawing" %>
           <%= partial "partials/stylesheets/content_index_page" %>
         <% end %>
       <% end %>
       <% if current_page.data.media == "slideshows" && current_page.data.index_page %>
-        <% if book["title"] == "clawing" %>
+        <% if book["shortname"] == "clawing" %>
           <%= partial "partials/stylesheets/slideshows_index_page" %>
         <% end %>
       <% end %>
       <% if current_page.data.media == "movies" && !current_page.data.index_page %>
-        <% if book["title"] == "clawing" %>
+        <% if book["shortname"] == "clawing" %>
           <%= javascript_include_tag :jquery %>
           <%= javascript_include_tag :movies %>
         <% end %>
