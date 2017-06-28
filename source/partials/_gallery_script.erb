@@ -1,4 +1,6 @@
-<% gallery_info = media_entry %>
+<% if defined? media_entry
+  gallery_info = media_entry
+end %>
 <script>
   gallery = []; //Not to be confused with the config[:gallery] variable; this global variable stores the image objects in a linear manner.
   galleryOverlayDiv = null; //This is a global variable to store the gallery-overlay-div element to avoid excessive calls to the document.getElementById() function. It is assigned in the window.onload function.

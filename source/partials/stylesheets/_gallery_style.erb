@@ -1,4 +1,6 @@
-<% gallery_info = media_entry %>
+<% if defined? media_entry
+  gallery_info = media_entry
+end %>
 <style>
   @charset "utf-8";
   /* The body, h1, and welcome styles are mainly the defaults created by Middleman */
