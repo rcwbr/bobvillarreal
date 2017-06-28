@@ -20,10 +20,8 @@ index_page: false
 		end %>
 	</div>
 	<div>
-  <% if chapter_info["media"].length > 1
-		chapter_info["media"].each do |media_item| %>
-			<h2 id="<%=media_item[1]["content_path"]%>-header" class="chapter-section-header"><%=media_item[1]["content_name"]%></h2>
-			<%= partial "partials/#{media_item[1]["content_path"]}" %>
-		<% end
-	end %>
+  <% chapter_info["media"].each do |media_item| %>
+		<h2 id="<%=media_item[1]["content_path"]%>-header" class="chapter-section-header"><%=media_item[1]["content_name"]%></h2>
+		<%= partial "partials/#{media_item[1]["content_path"]}" %>
+	<% end %>
 </div>
