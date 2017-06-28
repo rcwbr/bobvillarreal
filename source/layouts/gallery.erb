@@ -16,7 +16,6 @@
     <%= partial "partials/stylesheets/site" %>
     <%= partial "partials/stylesheets/content_pages" %>
     <% if !current_page.data.index_page %>
-      <%= stylesheet_link_tag :gallery %>
       <%= partial "partials/stylesheets/gallery_style" %>
       <%= partial "partials/gallery_script" %>
     <% end %>
