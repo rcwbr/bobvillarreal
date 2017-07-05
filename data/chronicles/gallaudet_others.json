@@ -140,6 +140,71 @@
             ]
           }
         ]
+      },
+      "hawker_data": {
+        "name": "First Letter",
+        "shortname": "first",
+        "filename": "first_letter.yaml",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "section": true,
+        "passages": [
+          {
+            "name": "First Letter, Parts A through D",
+            "shortname": "Parts A through D",
+            "path": "A-D",
+            "tours": [
+              {
+                "title": "First Letter, Parts A through D",
+                "url": "https://www.youtube.com/embed/O9kUepMM-Vw"
+              }
+            ]
+          },
+          {
+            "name": "First Letter, Parts E through G",
+            "shortname": "Parts E through G",
+            "path": "E-G",
+            "tours": [
+              {
+                "title": "First Letter, Parts E through G",
+                "url": "https://www.youtube.com/embed/2e0qdK95pR0"
+              }
+            ]
+          },
+          {
+            "name": "First Letter, Parts H through K",
+            "shortname": "Parts H through K",
+            "path": "H-K",
+            "tours": [
+              {
+                "title": "First Letter, Parts H through K",
+                "url": "https://www.youtube.com/embed/8pRfCKtl3dE"
+              }
+            ]
+          },
+          {
+            "name": "First Letter, Parts L through M",
+            "shortname": "Parts L through M",
+            "path": "L-M",
+            "tours": [
+              {
+                "title": "First Letter, Parts L through M",
+                "url": "https://www.youtube.com/embed/SttPvm9sn3M"
+              }
+            ]
+          },
+          {
+            "name": "First Letter, Mines and Copayapu",
+            "shortname": "1X: Mines and Copayapu",
+            "path": "X",
+            "tours": [
+              {
+                "title": "First Letter, Mines and Copayapu",
+                "url": "https://www.youtube.com/embed/XAuu7rmMkIc"
+              }
+            ]
+          }
+        ]
       }
     }
   },
@@ -256,6 +321,60 @@
             ]
           }
         ]
+      },
+      "hawker_data": {
+        "name": "Second Letter",
+        "shortname": "second",
+        "filename": "second_letter.yaml",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "section": true,
+        "passages": [
+          {
+            "name": "Second Letter, Parts N through O",
+            "shortname": "Parts N through O",
+            "path": "N-O",
+            "tours": [
+              {
+                "title": "Second Letter, Parts N through O, #1",
+                "caption": "Copayapu and what happened there.",
+                "url": "https://www.youtube.com/embed/LxetxjiZ7RQ"
+              },
+              {
+                "title": "Second Letter, Parts N through O, #2",
+                "caption": "Following the Inca armies from Lake Titicaca through the Atacama Desert to Copayapu.",
+                "url": "https://www.youtube.com/embed/QhGfIf47afs"
+              },
+              {
+                "title": "Second Letter, Parts N through O, #3",
+                "caption": "The Inca armies are defeated by the fierce Araucanians.",
+                "url": "https://www.youtube.com/embed/-o0Hnpy1whU"
+              }
+            ]
+          },
+          {
+            "name": "Second Letter, Parts P through Q",
+            "shortname": "Parts P through Q",
+            "path": "P-Q",
+            "tours": [
+              {
+                "title": "Second Letter, Parts P through Q",
+                "url": "https://www.youtube.com/embed/GhQa5FLsHxI"
+              }
+            ]
+          },
+          {
+            "name": "Second Letter, Parts R through T",
+            "shortname": "Parts R through T",
+            "path": "R-T",
+            "tours": [
+              {
+                "title": "Second Letter, Parts R through T",
+                "url": "https://www.youtube.com/embed/go-atGCbiz8"
+              }
+            ]
+          }
+        ]
       }
     }
   },
@@ -342,6 +461,60 @@
             "passages": [
               "<p><strong>Pedro</strong>: And your feelings?</p> <p><strong>Apani</strong>: Well, to arrive at the summit meant a great accomplishment. The <em>cunturs</em> hugged each of us and this made us feel important. And the views from there overwhelmed us with their beauty. It is special to see things from the top of a mountain, and especially gratifying to see all our stones there! They were stacked in four piles, according to their color codes.</p> <p><strong>Pedro</strong>: And so you began immediately at reassembly?</p> <p><strong>Apani</strong>: Exactly. Mayta had been part of my builder team, so three of us now composed our group. Our hut was the one with the lower stones marked in green, the upper ones in blue. Before beginning, we all looked over the site, to determine the best positioning of the structures. Finally, we decided a north/south arrangement the best, our hut's end wall separated by two feet from the other hut's end wall. Once this had been determined and settled, we went to work, with the <em>cunturs</em> helping when called on. We made quick work of it, with the lower half of each hut in place by early afternoon. The color-coding helped, of course. Also, we had chipped and shaped those rocks ourselves back at Angastu and we remembered their positions in the completed building.</p>",
               "<i>Apani describes one of the great accomplishments of the Inca.</i>"
+            ]
+          }
+        ]
+      },
+      "hawker_data": {
+        "name": "Third Letter",
+        "shortname": "third",
+        "filename": "third_letter.yaml",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "section": true,
+        "passages": [
+          {
+            "name": "Third Letter, Part U",
+            "shortname": "Part U",
+            "path": "U",
+            "tours": [
+              {
+                "title": "Third Letter, Part U",
+                "url": "https://www.youtube.com/embed/q7pIRb5JXDs"
+              }
+            ]
+          },
+          {
+            "name": "Third Letter, Part V, Apani the Indian",
+            "shortname": "Part V",
+            "path": "V",
+            "tours": [
+              {
+                "title": "Third Letter, Part V, Apani the Indian",
+                "url": "https://www.youtube.com/embed/qaRqKTjM5fU "
+              }
+            ]
+          },
+          {
+            "name": "Third Letter, Part W",
+            "shortname": "Part W",
+            "path": "W",
+            "tours": [
+              {
+                "title": "Third Letter, Part W",
+                "url": "https://www.youtube.com/embed/LUpyl2OEx6s"
+              }
+            ]
+          },
+          {
+            "name": "Third Letter, Part X",
+            "shortname": "Part X",
+            "path": "X",
+            "tours": [
+              {
+                "title": "Third Letter, Part X",
+                "url": "https://www.youtube.com/embed/DdH34Y54ics"
+              }
             ]
           }
         ]
@@ -542,6 +715,56 @@
         ],
         "content_name": "Galleries",
         "content_path": "galleries"
+      }
+    }
+  },
+  {
+    "shortname": "fourth",
+    "name": "Fourth Letter",
+    "path": null,
+    "media": {
+      "hawker_data": {
+        "name": "Fourth Letter",
+        "shortname": "fourth",
+        "filename": "fourth_letter.yaml",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "section": true,
+        "passages": [
+          {
+            "name": "Fourth Letter, Part AA-DD",
+            "shortname": "Part AA-DD",
+            "path": "AA-DD",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part AA-DD",
+                "url": "https://www.youtube.com/embed/bl4T8Q6hA_I"
+              }
+            ]
+          },
+          {
+            "name": "Fourth Letter, Part EE-GG",
+            "shortname": "Part EE-GG",
+            "path": "EE-GG",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part EE-GG",
+                "url": "https://www.youtube.com/embed/NR0wwcg4gNI"
+              }
+            ]
+          },
+          {
+            "name": "Fourth Letter, Part HH-KK",
+            "shortname": "Part HH-KK",
+            "path": "HH-KK",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part HH-KK",
+                "url": "https://www.youtube.com/embed/aX2H8w7GUVo"
+              }
+            ]
+          }
+        ]
       }
     }
   }

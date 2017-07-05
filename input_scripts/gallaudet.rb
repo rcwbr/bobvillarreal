@@ -51,14 +51,16 @@ def add_media_to_chapter(media, media_manager_name, chapters, others)
   puts "Adding media to chapter" if GALLAUDET_VERBOSE
   media.each do |media_entry|
     found_chapter = false
-    chapters.each do |chapter|
-      puts "#{media_manager_name} \"#{chapter["name"]}\" \"#{media_entry["name"]}\"" if GALLAUDET_VERBOSE
-      if media_entry["name"] == chapter["name"]
-        if chapter["media"] == nil
-          chapter["media"] = {}
+    if chapters
+      chapters.each do |chapter|
+        puts "#{media_manager_name} \"#{chapter["name"]}\" \"#{media_entry["name"]}\"" if GALLAUDET_VERBOSE
+        if media_entry["name"] == chapter["name"]
+          if chapter["media"] == nil
+            chapter["media"] = {}
+          end
+          chapter["media"][media_manager_name + "_data"] = media_entry
+          found_chapter = true
         end
-        chapter["media"][media_manager_name + "_data"] = media_entry
-        found_chapter = true
       end
     end
     if !found_chapter
@@ -115,7 +117,8 @@ books.each do |book|
   end
 
   puts JSON.pretty_generate(gallaudet_chapters) if GALLAUDET_VERBOSE
-  gallaudet_chapters_output_file.write(JSON.pretty_generate(gallaudet_chapters))
+  gallaudet_chapters_output_file.write(JSON.pretty_generate(gallaudet_chapters)) if gallaudet_chapters
+  gallaudet_chapters_output_file.write("[]") if !gallaudet_chapters
   gallaudet_others_output_file.write(JSON.pretty_generate(gallaudet_others))
 end
 
