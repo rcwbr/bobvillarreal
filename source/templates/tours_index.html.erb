@@ -8,8 +8,17 @@ index_page: true
 <div id="main">
   <h1 class="media-header">Tours</h1>
   <% media.each do |tour_info|
-    puts tour_info["shortname"]
-    puts tour_info["name"] %>
-    <p><a href="/<%= book["shortname"] %>/tours/<%= tour_info["path"] %>"><%= tour_info["name"] %></a></p>
+    #puts tour_info["shortname"]
+    #puts tour_info["name"]
+    if tour_info["section"] %>
+      <div class="tours-category-div">
+        <h1><%= tour_info["name"] %></h1>
+        <% tour_info["tours"].each do |section_tours| %>
+          <p><a href="/<%= book["shortname"] %>/tours/<%= section_tours["path"] %>"><%= section_tours["name"] %></a></p>
+        <% end %>
+      </div>
+    <% else %>
+      <p><a href="/<%= book["shortname"] %>/tours/<%= tour_info["path"] %>"><%= tour_info["name"] %></a></p>
+    <% end %>
   <% end %>
 </div>
