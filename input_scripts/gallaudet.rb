@@ -31,10 +31,10 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
     section["content_name"] = media_manager["content_name"]
     section["content_path"] = media_manager["content_path"]
 
-    section_passages = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
+    section_media_entries = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
 
     section["section"] = true
-    section["passages"] = section_passages
+    section[media_manager["content_type"]] = section_media_entries
   end
 
   puts sections_info if GALLAUDET_VERBOSE
