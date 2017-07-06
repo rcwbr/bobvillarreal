@@ -42,6 +42,11 @@
           <%= partial "partials/stylesheets/passages_index_page" %>
         <% end %>
       <% end %>
+      <% if current_page.data.media == "tours" && current_page.data.index_page %>
+        <% if book["shortname"] == "chronicles" %>
+          <%= partial "partials/stylesheets/tours_index_page" %>
+        <% end %>
+      <% end %>
     <% else %>
       <%= partial "partials/stylesheets/no_content_pages" %>
       <% if current_page.data.about_page %>
