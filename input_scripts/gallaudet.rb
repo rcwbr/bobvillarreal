@@ -44,7 +44,7 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
 end
 
 def process_gallery_media(media_manager, book_input_data_path, book_output_data_path, book_image_path)
-  ikarus_init("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}", "#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"], book_image_path)
+  ikarus_init("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}", "#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"], book_image_path, media_manager)
 end
 
 def add_media_to_chapter(media, media_manager_name, chapters, others)

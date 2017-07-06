@@ -20,7 +20,7 @@ IMAGE_DEFAULTS = {
   "attribution" => ""
 }
 
-def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path, book_image_path)
+def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path, book_image_path, media_manager)
 
   galleries_info = YAML.load_file("#{ikarus_data_path}/#{galleries_data_file}")
   galleries_json_file = File.open(ikarus_output_filename, "w")
@@ -57,7 +57,7 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
         label_counter += 1
       end
     end
-    
+
     curtiss_init(galleries_info[gallery_counter]["image_matrix"], gallery_images_info, "#{galleries_info[gallery_counter]["source_path"]}/#{galleries_info[gallery_counter]["images_path"]}", galleries_info[gallery_counter]["thumbs_folder_path"], galleries_info[gallery_counter]["total_width"], galleries_info[gallery_counter]["images_per_row"], galleries_info[gallery_counter]["image_margins"], galleries_info[gallery_counter]["width_adjustment"])
 
     for i in 0...galleries_info[gallery_counter]["image_matrix"].length
@@ -68,8 +68,8 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
       puts "" if IKARUS_VERBOSE
     end
 
-    galleries_info[gallery_counter]["content_name"] = "Galleries"
-    galleries_info[gallery_counter]["content_path"] = "galleries"
+    galleries_info[gallery_counter]["content_name"] = media_manager["content_name"]
+    galleries_info[gallery_counter]["content_path"] = media_manager["content_path"]
   end
 
   galleries_json_file.write(JSON.pretty_generate(galleries_info))
