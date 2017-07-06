@@ -1,0 +1,33 @@
+---
+-
+  name: "Third Letter, Part U"
+  shortname: "Part U"
+  path: "U"
+  tours:
+    -
+      title: "Third Letter, Part U"
+      url: "https://www.youtube.com/embed/q7pIRb5JXDs"
+-
+  name: "Third Letter, Part V, Apani the Indian"
+  shortname: "Part V"
+  path: "V"
+  tours:
+    -
+      title: "Third Letter, Part V, Apani the Indian"
+      url: "https://www.youtube.com/embed/qaRqKTjM5fU "
+-
+  name: "Third Letter, Part W"
+  shortname: "Part W"
+  path: "W"
+  tours:
+    -
+      title: "Third Letter, Part W"
+      url: "https://www.youtube.com/embed/LUpyl2OEx6s"
+-
+  name: "Third Letter, Part X"
+  shortname: "Part X"
+  path: "X"
+  tours:
+    -
+      title: "Third Letter, Part X"
+      url: "https://www.youtube.com/embed/DdH34Y54ics"

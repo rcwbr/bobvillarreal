@@ -1,0 +1,25 @@
+---
+-
+  name: "Fourth Letter, Part AA-DD"
+  shortname: "Part AA-DD"
+  path: "AA-DD"
+  tours:
+    -
+      title: "Fourth Letter, Part AA-DD"
+      url: "https://www.youtube.com/embed/bl4T8Q6hA_I"
+-
+  name: "Fourth Letter, Part EE-GG"
+  shortname: "Part EE-GG"
+  path: "EE-GG"
+  tours:
+    -
+      title: "Fourth Letter, Part EE-GG"
+      url: "https://www.youtube.com/embed/NR0wwcg4gNI"
+-
+  name: "Fourth Letter, Part HH-KK"
+  shortname: "Part HH-KK"
+  path: "HH-KK"
+  tours:
+    -
+      title: "Fourth Letter, Part HH-KK"
+      url: "https://www.youtube.com/embed/aX2H8w7GUVo"

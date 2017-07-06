@@ -1,0 +1,41 @@
+---
+-
+  name: "First Letter, Parts A through D"
+  shortname: "Parts A through D"
+  path: "A-D"
+  tours:
+    -
+      title: "First Letter, Parts A through D"
+      url: "https://www.youtube.com/embed/O9kUepMM-Vw"
+-
+  name: "First Letter, Parts E through G"
+  shortname: "Parts E through G"
+  path: "E-G"
+  tours:
+    -
+      title: "First Letter, Parts E through G"
+      url: "https://www.youtube.com/embed/2e0qdK95pR0"
+-
+  name: "First Letter, Parts H through K"
+  shortname: "Parts H through K"
+  path: "H-K"
+  tours:
+    -
+      title: "First Letter, Parts H through K"
+      url: "https://www.youtube.com/embed/8pRfCKtl3dE"
+-
+  name: "First Letter, Parts L through M"
+  shortname: "Parts L through M"
+  path: "L-M"
+  tours:
+    -
+      title: "First Letter, Parts L through M"
+      url: "https://www.youtube.com/embed/SttPvm9sn3M"
+-
+  name: "First Letter, Mines and Copayapu"
+  shortname: "1X: Mines and Copayapu"
+  path: "X"
+  tours:
+    -
+      title: "First Letter, Mines and Copayapu"
+      url: "https://www.youtube.com/embed/XAuu7rmMkIc"

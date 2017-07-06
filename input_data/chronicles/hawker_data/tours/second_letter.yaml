@@ -1,0 +1,33 @@
+-
+  name: "Second Letter, Parts N through O"
+  shortname: "Parts N through O"
+  path: "N-O"
+  tours:
+    -
+      title: "Second Letter, Parts N through O, #1"
+      caption: "Copayapu and what happened there."
+      url: "https://www.youtube.com/embed/LxetxjiZ7RQ"
+    -
+      title: "Second Letter, Parts N through O, #2"
+      caption: "Following the Inca armies from Lake Titicaca through the Atacama Desert to Copayapu."
+      url: "https://www.youtube.com/embed/QhGfIf47afs"
+    -
+      title: "Second Letter, Parts N through O, #3"
+      caption: "The Inca armies are defeated by the fierce Araucanians."
+      url: "https://www.youtube.com/embed/-o0Hnpy1whU"
+-
+  name: "Second Letter, Parts P through Q"
+  shortname: "Parts P through Q"
+  path: "P-Q"
+  tours:
+    -
+      title: "Second Letter, Parts P through Q"
+      url: "https://www.youtube.com/embed/GhQa5FLsHxI"
+-
+  name: "Second Letter, Parts R through T"
+  shortname: "Parts R through T"
+  path: "R-T"
+  tours:
+    -
+      title: "Second Letter, Parts R through T"
+      url: "https://www.youtube.com/embed/go-atGCbiz8"
