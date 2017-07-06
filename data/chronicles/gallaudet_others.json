@@ -148,7 +148,7 @@
         "content_name": "Tours",
         "content_path": "tours",
         "section": true,
-        "passages": [
+        "tours": [
           {
             "name": "First Letter, Parts A through D",
             "shortname": "Parts A through D",
@@ -329,7 +329,7 @@
         "content_name": "Tours",
         "content_path": "tours",
         "section": true,
-        "passages": [
+        "tours": [
           {
             "name": "Second Letter, Parts N through O",
             "shortname": "Parts N through O",
@@ -472,7 +472,7 @@
         "content_name": "Tours",
         "content_path": "tours",
         "section": true,
-        "passages": [
+        "tours": [
           {
             "name": "Third Letter, Part U",
             "shortname": "Part U",
@@ -730,7 +730,7 @@
         "content_name": "Tours",
         "content_path": "tours",
         "section": true,
-        "passages": [
+        "tours": [
           {
             "name": "Fourth Letter, Part AA-DD",
             "shortname": "Part AA-DD",

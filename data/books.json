@@ -161,9 +161,10 @@
       {
         "name": "hawker",
         "content_type": "tours",
-        "processing_type": "plain",
+        "processing_type": "sections",
         "input_data_path": "hawker_data",
-        "input_data_file": "tours.yaml",
+        "input_data_file": "tour_sections.yaml",
+        "input_data_entries_path": "tours",
         "output_filename": "hawker_tours.json",
         "content_path": "tours",
         "content_name": "Tours",

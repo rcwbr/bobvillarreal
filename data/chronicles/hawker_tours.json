@@ -1,28 +1,218 @@
 [
   {
-    "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
-    "shortname": "Chapter 1 Tour - Ojos del Salado",
-    "path": "1",
+    "name": "First Letter",
+    "shortname": "first",
+    "filename": "first_letter.yaml",
+    "content_name": "Tours",
+    "content_path": "tours",
+    "section": true,
     "tours": [
       {
-        "title": "Chapter 1 Tour",
-        "url": "https://www.youtube.com/embed/xilnQmwjNtk"
+        "name": "First Letter, Parts A through D",
+        "shortname": "Parts A through D",
+        "path": "A-D",
+        "tours": [
+          {
+            "title": "First Letter, Parts A through D",
+            "url": "https://www.youtube.com/embed/O9kUepMM-Vw"
+          }
+        ]
+      },
+      {
+        "name": "First Letter, Parts E through G",
+        "shortname": "Parts E through G",
+        "path": "E-G",
+        "tours": [
+          {
+            "title": "First Letter, Parts E through G",
+            "url": "https://www.youtube.com/embed/2e0qdK95pR0"
+          }
+        ]
+      },
+      {
+        "name": "First Letter, Parts H through K",
+        "shortname": "Parts H through K",
+        "path": "H-K",
+        "tours": [
+          {
+            "title": "First Letter, Parts H through K",
+            "url": "https://www.youtube.com/embed/8pRfCKtl3dE"
+          }
+        ]
+      },
+      {
+        "name": "First Letter, Parts L through M",
+        "shortname": "Parts L through M",
+        "path": "L-M",
+        "tours": [
+          {
+            "title": "First Letter, Parts L through M",
+            "url": "https://www.youtube.com/embed/SttPvm9sn3M"
+          }
+        ]
+      },
+      {
+        "name": "First Letter, Mines and Copayapu",
+        "shortname": "1X: Mines and Copayapu",
+        "path": "X",
+        "tours": [
+          {
+            "title": "First Letter, Mines and Copayapu",
+            "url": "https://www.youtube.com/embed/XAuu7rmMkIc"
+          }
+        ]
       }
-    ],
-    "content_name": "Tours",
-    "content_path": "tours"
+    ]
   },
   {
-    "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
-    "shortname": "Chapter 2 Tour - Pissis",
-    "path": "2",
+    "name": "Second Letter",
+    "shortname": "second",
+    "filename": "second_letter.yaml",
+    "content_name": "Tours",
+    "content_path": "tours",
+    "section": true,
     "tours": [
       {
-        "title": "Chapter 2 Tour",
-        "url": "https://www.youtube.com/embed/j4fG3q8esa8"
+        "name": "Second Letter, Parts N through O",
+        "shortname": "Parts N through O",
+        "path": "N-O",
+        "tours": [
+          {
+            "title": "Second Letter, Parts N through O, #1",
+            "caption": "Copayapu and what happened there.",
+            "url": "https://www.youtube.com/embed/LxetxjiZ7RQ"
+          },
+          {
+            "title": "Second Letter, Parts N through O, #2",
+            "caption": "Following the Inca armies from Lake Titicaca through the Atacama Desert to Copayapu.",
+            "url": "https://www.youtube.com/embed/QhGfIf47afs"
+          },
+          {
+            "title": "Second Letter, Parts N through O, #3",
+            "caption": "The Inca armies are defeated by the fierce Araucanians.",
+            "url": "https://www.youtube.com/embed/-o0Hnpy1whU"
+          }
+        ]
+      },
+      {
+        "name": "Second Letter, Parts P through Q",
+        "shortname": "Parts P through Q",
+        "path": "P-Q",
+        "tours": [
+          {
+            "title": "Second Letter, Parts P through Q",
+            "url": "https://www.youtube.com/embed/GhQa5FLsHxI"
+          }
+        ]
+      },
+      {
+        "name": "Second Letter, Parts R through T",
+        "shortname": "Parts R through T",
+        "path": "R-T",
+        "tours": [
+          {
+            "title": "Second Letter, Parts R through T",
+            "url": "https://www.youtube.com/embed/go-atGCbiz8"
+          }
+        ]
       }
-    ],
+    ]
+  },
+  {
+    "name": "Third Letter",
+    "shortname": "third",
+    "filename": "third_letter.yaml",
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "section": true,
+    "tours": [
+      {
+        "name": "Third Letter, Part U",
+        "shortname": "Part U",
+        "path": "U",
+        "tours": [
+          {
+            "title": "Third Letter, Part U",
+            "url": "https://www.youtube.com/embed/q7pIRb5JXDs"
+          }
+        ]
+      },
+      {
+        "name": "Third Letter, Part V, Apani the Indian",
+        "shortname": "Part V",
+        "path": "V",
+        "tours": [
+          {
+            "title": "Third Letter, Part V, Apani the Indian",
+            "url": "https://www.youtube.com/embed/qaRqKTjM5fU "
+          }
+        ]
+      },
+      {
+        "name": "Third Letter, Part W",
+        "shortname": "Part W",
+        "path": "W",
+        "tours": [
+          {
+            "title": "Third Letter, Part W",
+            "url": "https://www.youtube.com/embed/LUpyl2OEx6s"
+          }
+        ]
+      },
+      {
+        "name": "Third Letter, Part X",
+        "shortname": "Part X",
+        "path": "X",
+        "tours": [
+          {
+            "title": "Third Letter, Part X",
+            "url": "https://www.youtube.com/embed/DdH34Y54ics"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fourth Letter",
+    "shortname": "fourth",
+    "filename": "fourth_letter.yaml",
+    "content_name": "Tours",
+    "content_path": "tours",
+    "section": true,
+    "tours": [
+      {
+        "name": "Fourth Letter, Part AA-DD",
+        "shortname": "Part AA-DD",
+        "path": "AA-DD",
+        "tours": [
+          {
+            "title": "Fourth Letter, Part AA-DD",
+            "url": "https://www.youtube.com/embed/bl4T8Q6hA_I"
+          }
+        ]
+      },
+      {
+        "name": "Fourth Letter, Part EE-GG",
+        "shortname": "Part EE-GG",
+        "path": "EE-GG",
+        "tours": [
+          {
+            "title": "Fourth Letter, Part EE-GG",
+            "url": "https://www.youtube.com/embed/NR0wwcg4gNI"
+          }
+        ]
+      },
+      {
+        "name": "Fourth Letter, Part HH-KK",
+        "shortname": "Part HH-KK",
+        "path": "HH-KK",
+        "tours": [
+          {
+            "title": "Fourth Letter, Part HH-KK",
+            "url": "https://www.youtube.com/embed/aX2H8w7GUVo"
+          }
+        ]
+      }
+    ]
   }
 ]
