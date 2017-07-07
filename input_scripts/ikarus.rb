@@ -69,6 +69,7 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
     end
 
     galleries_info[gallery_counter]["content_name"] = media_manager["content_name"]
+    galleries_info[gallery_counter]["content_longname"] = media_manager["content_longname"]
     galleries_info[gallery_counter]["content_path"] = media_manager["content_path"]
   end
 
