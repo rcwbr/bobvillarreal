@@ -138,6 +138,18 @@
       content_name: "Tours"
       menu_text: "TOURS"
     -
+      name: "gloster"
+      content_type: "galleries"
+      processing_type: "galleries"
+      input_data_path: "gloster_data"
+      input_data_file: "paintings.yaml"
+      input_data_entries_path: "paintings"
+      output_filename: "gloster_paintings.json"
+      content_path: "paintings"
+      content_name: "Paintings"
+      content_longname: "Louis S. Glanzman Paintings"
+      menu_text: "PAINTINGS"
+    -
       name: "ikarus"
       content_type: "galleries"
       processing_type: "galleries"
