@@ -42,6 +42,7 @@
       content_path: "passages"
       content_name: "Passages"
       menu_text: "PASSAGES"
+      page_title: "Passages"
     -
       name: "ikarus"
       content_type: "galleries"
@@ -53,6 +54,8 @@
       content_path: "galleries"
       content_name: "Galleries"
       menu_text: "PHOTOS"
+      page_title: "Galleries"
+      entry_page_title: "Gallery"
     -
       name: "bloch"
       content_type: "slideshows"
@@ -63,6 +66,7 @@
       content_path: "slideshows"
       content_name: "Slide Shows"
       menu_text: "SLIDESHOWS"
+      page_title: "Slideshows"
     -
       name: "hawker"
       content_type: "tours"
@@ -73,6 +77,7 @@
       content_path: "tours"
       content_name: "Tours"
       menu_text: "TOURS"
+      page_title: "Tours"
     -
       name: "macchi"
       content_type: "movies"
@@ -83,6 +88,7 @@
       content_path: "movies"
       content_name: "Movies"
       menu_text: "MOVIES"
+      page_title: "Movies"
   other_book_menu_text: "The Next Book: Pedro de M&eacute;rida"
   other_book_location: "chronicles"
 -
@@ -126,6 +132,7 @@
       content_path: "passages"
       content_name: "Passages"
       menu_text: "PASSAGES"
+      page_title: "Passages"
     -
       name: "hawker"
       content_type: "tours"
@@ -137,6 +144,7 @@
       content_path: "tours"
       content_name: "Tours"
       menu_text: "TOURS"
+      page_title: "Tours"
     -
       name: "gloster"
       content_type: "galleries"
@@ -149,6 +157,7 @@
       content_name: "Paintings"
       content_longname: "Louis S. Glanzman Paintings"
       menu_text: "PAINTINGS"
+      page_title: "Paintings"
     -
       name: "ikarus"
       content_type: "galleries"
@@ -160,5 +169,7 @@
       content_path: "galleries"
       content_name: "Galleries"
       menu_text: "PHOTOS"
+      page_title: "Galleries"
+      entry_page_title: "Gallery"
   other_book_menu_text: "Previous Book: Clawing for the Stars"
   other_book_location: "clawing"

@@ -13,7 +13,9 @@
           "I see the summit now and know we are almost there.<br />\"Judy, what are you doing here?\"<br />I halt in puzzlement. Judy? What? I turn to confront what must be a new addition to our climbing team. \"What'd you say?\"<br />James points to a nearby boulder. \"That's my sister sitting on that rock. What's she doing here?\"<br />My altitude haze disappears in an instant. James is hallucinating!"
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
@@ -241,8 +243,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
@@ -255,7 +258,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -274,7 +279,9 @@
           "I am not afraid. I know this because I am certain not to see another sunrise, and this bestows a measure of stoic calm.<br /><br /> <hr /> <br />Our world is a vast manuscript, and those who do not travel read but a sheet."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
@@ -502,8 +509,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
@@ -516,7 +524,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -534,7 +544,9 @@
           "You can lose your path any number of ways on a journey to the top, sometimes thinking the mountain gods are playing whimsical tricks, negating all you know and understand about your climbing craft and thinking some place, far away, perhaps in a parallel universe, resides your real, knowing self."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
@@ -724,8 +736,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
@@ -738,7 +751,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -758,7 +773,9 @@
           "As for the missing miner, is his body still out there somewhere? Most likely. Perhaps he became lost and, at the end of his strength, sank to the earth and cloaked himself in dreams and snow. An entire, unknown world died with him. Who could know his failures, his fears, his loves, his deepest thoughts, his triumphs?"
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
@@ -902,8 +919,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
@@ -916,7 +934,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -934,7 +954,9 @@
           "I try again to make that first step forward. But my leg lacks life, and repeated attempts at movement meet repeated resistance. It is immovable, as a sturdy tree rooted in the earth is immovable. The summit is mine. The weather promises success. The moment is propitious. I try again. I order it to move! But my leg remains firmly in place. I'm unable to control the most basic of human functions."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
@@ -1162,8 +1184,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
@@ -1176,7 +1199,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -1194,7 +1219,9 @@
           "Today I believe he was the luckiest of men that day. This incident closed out my guiding career.<br />I found leading others on a big mountain too stressful. And who needs that kind of tension at 57 years of age?"
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 6 | Interlude: Clients",
@@ -1312,8 +1339,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 6 | Interlude: Clients",
@@ -1326,7 +1354,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -1347,7 +1377,9 @@
           "It remains for me to marvel that I still breathe. And I reflect that we either live and die by accident or we live and die by plan. Some say that we shall never know and that we are like small bugs that children kill on a summer afternoon. But some say, to the contrary, that even the sparrow does not fly without a gentle push from the Hand of God."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
@@ -1595,8 +1627,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
@@ -1613,7 +1646,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -1631,7 +1666,9 @@
           "My body slumps next to them, weary beyond the knowing, exulting as an explorer entranced by an unexpected discovery exults. I wonder, how did those guys do it, anyway? How could they do it, without stoves, warm clothes, sturdy tents, without plastic boots, warm socks, warm gloves, without freeze-dried meals, dark glasses, warm sleeping bags, and without. . . cigarettes?"
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
@@ -1795,8 +1832,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
@@ -1809,7 +1847,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -1827,7 +1867,9 @@
           "In an existential way, I feel the mountain's pleasure at my return. My presence here lends a price to the sand, a value known only to the mountain and to me."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
@@ -2055,8 +2097,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
@@ -2069,7 +2112,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       },
       "macchi_data": {
         "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
@@ -2088,7 +2133,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   },
@@ -2109,7 +2156,9 @@
           "As night descends upon the land, I drift into a deep sleep. The following dream came to me, I believe, by the realization that this is to be my last climb, and our thoughts have an effect upon our sleep. In this case, my many climbs cause me endless memories, and Robert, my Guardian Angel, stands before me, the lifelong protector against threats to my wellbeing. At first, his appearance startles me, for this may be the moment of my final reckoning and atonement.<br />\"Do not worry, Bob, I am here so we might reminisce about our times together. We have been to the Andes' highest places and known their most enduring hardships. I wish to recall the adventures by taking you to where they happened.\"<br />He gestures me to accompany him.<br />\"But I am a mere mortal and cannot fly.\"<br />\"Touch my hand, Bob, and you will be raised up in more than this.\""
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
@@ -2273,8 +2322,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
@@ -2287,7 +2337,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       },
       "macchi_data": {
         "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
@@ -2306,7 +2358,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   }

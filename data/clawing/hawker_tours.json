@@ -10,7 +10,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
@@ -23,7 +25,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
@@ -36,7 +40,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
@@ -49,7 +55,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
@@ -62,7 +70,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
@@ -75,7 +85,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 6 | Interlude: Clients",
@@ -88,7 +100,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
@@ -105,7 +119,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
@@ -118,7 +134,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
@@ -131,7 +149,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
@@ -144,7 +164,9 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   },
   {
     "name": "Appendix C | Apani the Indian",
@@ -157,6 +179,8 @@
       }
     ],
     "content_name": "Tours",
-    "content_path": "tours"
+    "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours"
   }
 ]

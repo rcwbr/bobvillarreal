@@ -12,7 +12,9 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   },
   {
     "name": "April 1999",
@@ -27,7 +29,9 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   },
   {
     "name": "March 2000",
@@ -42,7 +46,9 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   },
   {
     "name": "April 2001",
@@ -57,7 +63,9 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   },
   {
     "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
@@ -76,7 +84,9 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   },
   {
     "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
@@ -95,7 +105,9 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   },
   {
     "name": "Guillaume Ceyrac's Amazing Climb",
@@ -110,6 +122,8 @@
       }
     ],
     "content_name": "Movies",
-    "content_path": "movies"
+    "content_path": "movies",
+    "page_title": "Movies",
+    "entry_page_title": "Movies"
   }
 ]

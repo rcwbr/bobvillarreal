@@ -48,7 +48,8 @@
         "output_filename": "burgess_passages.json",
         "content_path": "passages",
         "content_name": "Passages",
-        "menu_text": "PASSAGES"
+        "menu_text": "PASSAGES",
+        "page_title": "Passages"
       },
       {
         "name": "ikarus",
@@ -60,7 +61,9 @@
         "output_filename": "ikarus_galleries.json",
         "content_path": "galleries",
         "content_name": "Galleries",
-        "menu_text": "PHOTOS"
+        "menu_text": "PHOTOS",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       {
         "name": "bloch",
@@ -71,7 +74,8 @@
         "output_filename": "bloch_slideshows.json",
         "content_path": "slideshows",
         "content_name": "Slide Shows",
-        "menu_text": "SLIDESHOWS"
+        "menu_text": "SLIDESHOWS",
+        "page_title": "Slideshows"
       },
       {
         "name": "hawker",
@@ -82,7 +86,8 @@
         "output_filename": "hawker_tours.json",
         "content_path": "tours",
         "content_name": "Tours",
-        "menu_text": "TOURS"
+        "menu_text": "TOURS",
+        "page_title": "Tours"
       },
       {
         "name": "macchi",
@@ -93,7 +98,8 @@
         "output_filename": "macchi_movies.json",
         "content_path": "movies",
         "content_name": "Movies",
-        "menu_text": "MOVIES"
+        "menu_text": "MOVIES",
+        "page_title": "Movies"
       }
     ],
     "other_book_menu_text": "The Next Book: Pedro de M&eacute;rida",
@@ -144,7 +150,8 @@
         "output_filename": "burgess_passages.json",
         "content_path": "passages",
         "content_name": "Passages",
-        "menu_text": "PASSAGES"
+        "menu_text": "PASSAGES",
+        "page_title": "Passages"
       },
       {
         "name": "hawker",
@@ -156,7 +163,8 @@
         "output_filename": "hawker_tours.json",
         "content_path": "tours",
         "content_name": "Tours",
-        "menu_text": "TOURS"
+        "menu_text": "TOURS",
+        "page_title": "Tours"
       },
       {
         "name": "gloster",
@@ -169,7 +177,8 @@
         "content_path": "paintings",
         "content_name": "Paintings",
         "content_longname": "Louis S. Glanzman Paintings",
-        "menu_text": "PAINTINGS"
+        "menu_text": "PAINTINGS",
+        "page_title": "Paintings"
       },
       {
         "name": "ikarus",
@@ -181,7 +190,9 @@
         "output_filename": "ikarus_galleries.json",
         "content_path": "galleries",
         "content_name": "Galleries",
-        "menu_text": "PHOTOS"
+        "menu_text": "PHOTOS",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       }
     ],
     "other_book_menu_text": "Previous Book: Clawing for the Stars",

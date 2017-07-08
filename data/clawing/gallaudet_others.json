@@ -16,7 +16,9 @@
           "Why this book? And why now? The author believes that action/adventure/travel/memoir books are always popular because the daily grind of our ordinary existences leaves a longing for escape.  And the chance to visit different, exotic lands where most have never ventured is especially enticing. So too is the opportunity to vicariously experience physical and emotional hardships through the author's telling of them. As an added bonus, the linkage of the book with the author's interactive website, what he calls <em>Read and View: A New and Exciting Way to Enjoy a Book</em>, creates a thrilling way to enjoy his adventures and is completely unique to the publishing world."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       }
     }
   },
@@ -34,7 +36,9 @@
           "Why climb mountains? Well, why any inspiration? Why did the early explorers sail the vastness of the oceans?<br />Why did we explore the moon? Is it not in touching the unknown that we find our true selves?"
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       }
     }
   },
@@ -53,7 +57,9 @@
           "Well, Alex, my mountain journeys, and this book, are at an end. Thank you for asking me to write about my climbs. I believe you now know something of why I kept returning to the mountains. Remember my adventures and me occasionally in your thoughts. That way I will be with you forever. Love always. Grandpa."
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       }
     }
   },
@@ -75,7 +81,9 @@
           "<strong>Pedro</strong>: And your feelings?<br /><strong>Apani</strong>: Well, to arrive at the summit meant a great accomplishment. The <em>cunturs</em> hugged each of us and this made us feel important. And the views from there overwhelmed us with their beauty. It is special to see things from the top of a mountain, and especially gratifying to see all our stones there! They were stacked in four piles, according to their color codes.<br /><strong>Pedro</strong>: And so you began immediately at reassembly?<br /><strong>Apani</strong>: Exactly. Mayta had been part of my builder team, so three of us now composed our group. Our hut was the one with the lower stones marked in green, the upper ones in blue. Before beginning, we all looked over the site, to determine the best positioning of the structures. Finally, we decided a north/south arrangement the best, our hut's end wall separated by two feet from the other hut's end wall. Once this had been determined and settled, we went to work, with the <em>cunturs</em> helping when called on. We made quick work of it, with the lower half of each hut in place by early afternoon. The color-coding helped, of course. Also, we had chipped and shaped those rocks ourselves back at Angastu and we remembered their positions in the completed building.<br /><br /><em>Apani describes one of the great accomplishments of the Inca.</em>"
         ],
         "content_name": "Passages",
-        "content_path": "passages"
+        "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages"
       },
       "ikarus_data": {
         "name": "Appendix C | Apani the Indian",
@@ -265,8 +273,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       },
       "hawker_data": {
         "name": "Appendix C | Apani the Indian",
@@ -279,7 +288,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -528,8 +539,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       }
     }
   },
@@ -706,8 +718,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       }
     }
   },
@@ -1014,8 +1027,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       }
     }
   },
@@ -1035,7 +1049,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1055,7 +1071,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1075,7 +1093,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1095,7 +1115,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1115,7 +1137,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1135,7 +1159,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1155,7 +1181,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1175,7 +1203,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1195,7 +1225,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1215,7 +1247,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1235,7 +1269,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1255,7 +1291,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1275,7 +1313,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1295,7 +1335,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1315,7 +1357,9 @@
           }
         ],
         "content_name": "Slide Shows",
-        "content_path": "slideshows"
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1335,7 +1379,9 @@
           }
         ],
         "content_name": "Tours",
-        "content_path": "tours"
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
       }
     }
   },
@@ -1357,7 +1403,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   },
@@ -1379,7 +1427,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   },
@@ -1401,7 +1451,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   },
@@ -1423,7 +1475,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   },
@@ -1445,7 +1499,9 @@
           }
         ],
         "content_name": "Movies",
-        "content_path": "movies"
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
       }
     }
   }

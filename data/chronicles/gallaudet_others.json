@@ -10,6 +10,8 @@
         "filename": "first_letter.yaml",
         "content_name": "Passages",
         "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages",
         "section": true,
         "passages": [
           {
@@ -147,6 +149,8 @@
         "filename": "first_letter.yaml",
         "content_name": "Tours",
         "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours",
         "section": true,
         "tours": [
           {
@@ -270,8 +274,9 @@
           ]
         ],
         "content_name": "Paintings",
-        "content_longname": "Louis S. Glanzman Paintings",
-        "content_path": "paintings"
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "entry_page_title": "Paintings"
       }
     }
   },
@@ -286,6 +291,8 @@
         "filename": "second_letter.yaml",
         "content_name": "Passages",
         "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages",
         "section": true,
         "passages": [
           {
@@ -395,6 +402,8 @@
         "filename": "second_letter.yaml",
         "content_name": "Tours",
         "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours",
         "section": true,
         "tours": [
           {
@@ -456,6 +465,8 @@
         "filename": "third_letter.yaml",
         "content_name": "Passages",
         "content_path": "passages",
+        "page_title": "Passages",
+        "entry_page_title": "Passages",
         "section": true,
         "passages": [
           {
@@ -538,6 +549,8 @@
         "filename": "third_letter.yaml",
         "content_name": "Tours",
         "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours",
         "section": true,
         "tours": [
           {
@@ -599,6 +612,8 @@
         "filename": "fourth_letter.yaml",
         "content_name": "Tours",
         "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours",
         "section": true,
         "tours": [
           {
@@ -831,8 +846,9 @@
           ]
         ],
         "content_name": "Galleries",
-        "content_longname": null,
-        "content_path": "galleries"
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
       }
     }
   }

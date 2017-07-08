@@ -239,8 +239,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Bolivia | Illimani",
@@ -410,8 +411,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Argentina | Aconcagua",
@@ -711,8 +713,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors",
@@ -940,8 +943,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
@@ -1169,8 +1173,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
@@ -1360,8 +1365,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
@@ -1505,8 +1511,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
@@ -1734,8 +1741,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 6 | Interlude: Clients",
@@ -1853,8 +1861,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
@@ -2102,8 +2111,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
@@ -2267,8 +2277,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
@@ -2496,8 +2507,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
@@ -2661,8 +2673,9 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   },
   {
     "name": "Appendix C | Apani the Indian",
@@ -2852,7 +2865,8 @@
       ]
     ],
     "content_name": "Galleries",
-    "content_longname": null,
-    "content_path": "galleries"
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
   }
 ]

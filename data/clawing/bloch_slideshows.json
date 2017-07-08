@@ -10,7 +10,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Bolivia - Illimani",
@@ -23,7 +25,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Argentina - Aconcagua",
@@ -36,7 +40,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Cerro Llullaillaco, Chile",
@@ -49,7 +55,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Cerro Ojos del Salado",
@@ -62,7 +70,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Monte Pissis, Argentina",
@@ -75,7 +85,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Cerro Tres Cruces",
@@ -88,7 +100,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Assortment 1",
@@ -101,7 +115,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Assortment 2",
@@ -114,7 +130,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "My Camps",
@@ -127,7 +145,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "On the Top",
@@ -140,7 +160,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Only the Author",
@@ -153,7 +175,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Giancarlo Fiocco, My First Driver",
@@ -166,7 +190,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Patricio Rios, My Second Driver",
@@ -179,7 +205,9 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   },
   {
     "name": "Original Woodcuts",
@@ -192,6 +220,8 @@
       }
     ],
     "content_name": "Slide Shows",
-    "content_path": "slideshows"
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
   }
 ]

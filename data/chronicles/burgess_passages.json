@@ -5,6 +5,8 @@
     "filename": "first_letter.yaml",
     "content_name": "Passages",
     "content_path": "passages",
+    "page_title": "Passages",
+    "entry_page_title": "Passages",
     "section": true,
     "passages": [
       {
@@ -142,6 +144,8 @@
     "filename": "second_letter.yaml",
     "content_name": "Passages",
     "content_path": "passages",
+    "page_title": "Passages",
+    "entry_page_title": "Passages",
     "section": true,
     "passages": [
       {
@@ -251,6 +255,8 @@
     "filename": "third_letter.yaml",
     "content_name": "Passages",
     "content_path": "passages",
+    "page_title": "Passages",
+    "entry_page_title": "Passages",
     "section": true,
     "passages": [
       {

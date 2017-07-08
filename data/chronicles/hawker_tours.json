@@ -5,6 +5,8 @@
     "filename": "first_letter.yaml",
     "content_name": "Tours",
     "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours",
     "section": true,
     "tours": [
       {
@@ -70,6 +72,8 @@
     "filename": "second_letter.yaml",
     "content_name": "Tours",
     "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours",
     "section": true,
     "tours": [
       {
@@ -124,6 +128,8 @@
     "filename": "third_letter.yaml",
     "content_name": "Tours",
     "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours",
     "section": true,
     "tours": [
       {
@@ -178,6 +184,8 @@
     "filename": "fourth_letter.yaml",
     "content_name": "Tours",
     "content_path": "tours",
+    "page_title": "Tours",
+    "entry_page_title": "Tours",
     "section": true,
     "tours": [
       {

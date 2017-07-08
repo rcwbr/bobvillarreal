@@ -63,7 +63,8 @@
       ]
     ],
     "content_name": "Paintings",
-    "content_longname": "Louis S. Glanzman Paintings",
-    "content_path": "paintings"
+    "content_path": "paintings",
+    "page_title": "Paintings",
+    "entry_page_title": "Paintings"
   }
 ]
