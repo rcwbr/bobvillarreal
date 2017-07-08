@@ -15,6 +15,12 @@ def process_plain_media(media_manager, book_input_data_path, book_output_data_pa
   plain_info.each do |plain_info|
     plain_info["content_name"] = media_manager["content_name"]
     plain_info["content_path"] = media_manager["content_path"]
+    plain_info["page_title"] = media_manager["page_title"]
+    if media_manager["entry_page_title"]
+      plain_info["entry_page_title"] = media_manager["entry_page_title"]
+    else
+      plain_info["entry_page_title"] = media_manager["page_title"]
+    end
   end
 
   puts plain_info if GALLAUDET_VERBOSE
@@ -30,6 +36,12 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
   sections_info.each do |section|
     section["content_name"] = media_manager["content_name"]
     section["content_path"] = media_manager["content_path"]
+    section["page_title"] = media_manager["page_title"]
+    if media_manager["entry_page_title"]
+      section["entry_page_title"] = media_manager["entry_page_title"]
+    else
+      section["entry_page_title"] = media_manager["page_title"]
+    end
 
     section_media_entries = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
 

@@ -69,8 +69,13 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
     end
 
     galleries_info[gallery_counter]["content_name"] = media_manager["content_name"]
-    galleries_info[gallery_counter]["content_longname"] = media_manager["content_longname"]
     galleries_info[gallery_counter]["content_path"] = media_manager["content_path"]
+    galleries_info[gallery_counter]["page_title"] = media_manager["page_title"]
+    if media_manager["entry_page_title"]
+      galleries_info[gallery_counter]["entry_page_title"] = media_manager["entry_page_title"]
+    else
+      galleries_info[gallery_counter]["entry_page_title"] = media_manager["page_title"]
+    end
   end
 
   galleries_json_file.write(JSON.pretty_generate(galleries_info))
