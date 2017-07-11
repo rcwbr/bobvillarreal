@@ -1,8 +1,14 @@
 <div id="header">
   <div id="content-menubar-div">
     <a class="content-menu-link <% if current_page.data.media == "chapters" %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/chapters/">MEDIA BY CHAPTER</a>
-    <% book["media_managers"].each do |media_manager| %>
-      - <a class="content-menu-link <% if current_page.data.media == media_manager["content_path"] %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/"><%= media_manager["menu_text"] %></a>
+    <% book["media_managers"].each do |media_managers_entry|
+      current_page_manager = false
+      if (defined? media[0]) && media[0]["content_path"] == media_managers_entry["content_path"]
+        current_page_manager = true
+      elsif (defined? media_entry) && media_entry["content_path"] == media_managers_entry["content_path"]
+        current_page_manager = true
+      end %>
+      - <a class="content-menu-link <% if current_page_manager %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/<%= media_managers_entry["content_path"] %>/"><%= media_managers_entry["menu_text"] %></a>
     <% end %>
   </div>
 </div>
