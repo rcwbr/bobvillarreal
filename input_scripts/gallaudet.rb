@@ -12,14 +12,14 @@ def process_plain_media(media_manager, book_input_data_path, book_output_data_pa
   plain_info = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
   plain_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
 
-  plain_info.each do |plain_info|
-    plain_info["content_name"] = media_manager["content_name"]
-    plain_info["content_path"] = media_manager["content_path"]
-    plain_info["page_title"] = media_manager["page_title"]
+  plain_info.each do |plain_info_entry|
+    plain_info_entry["content_name"] = media_manager["content_name"]
+    plain_info_entry["content_path"] = media_manager["content_path"]
+    plain_info_entry["page_title"] = media_manager["page_title"]
     if media_manager["entry_page_title"]
-      plain_info["entry_page_title"] = media_manager["entry_page_title"]
+      plain_info_entry["entry_page_title"] = media_manager["entry_page_title"]
     else
-      plain_info["entry_page_title"] = media_manager["page_title"]
+      plain_info_entry["entry_page_title"] = media_manager["page_title"]
     end
   end
 
@@ -44,6 +44,16 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
     end
 
     section_media_entries = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
+    section_media_entries.each do |section_media_entry|
+      section_media_entry["content_name"] = media_manager["content_name"]
+      section_media_entry["content_path"] = media_manager["content_path"]
+      section_media_entry["page_title"] = media_manager["page_title"]
+      if media_manager["entry_page_title"]
+        section_media_entry["entry_page_title"] = media_manager["entry_page_title"]
+      else
+        section_media_entry["entry_page_title"] = media_manager["page_title"]
+      end
+    end
 
     section["section"] = true
     section[media_manager["content_type"]] = section_media_entries
