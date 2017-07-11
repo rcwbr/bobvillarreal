@@ -5,11 +5,17 @@
     <meta charset="utf-8">
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">-->
 
-    <% if current_page.data.media == "galleries" && current_page.data.index_page %>
-      <title><%= "#{book["title"]} - #{current_page.data.title}"%></title>
-    <% else %>
-      <title><%= "#{book["title"]} - #{media_entry["shortname"]} - #{current_page.data.title}"%></title>
-    <% end %>
+    <title><%= "#{book["title"]}" %>
+      <% if !current_page.data.index_page && current_page.data.media != "chapters" %>
+        <% if media_entry["shortname"] != nil %>
+          <%= " - #{media_entry["shortname"]} - #{media_entry["entry_page_title"]}" %>
+        <% else %>
+          <%= " - #{media_entry["name"]} - #{media_entry["entry_page_title"]}" %>
+        <% end %>
+      <% else %>
+        <%= " - #{media_manager["page_title"]}" %>
+      <% end %>
+    </title>
 
     <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
