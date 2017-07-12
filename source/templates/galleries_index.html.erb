@@ -6,8 +6,8 @@ index_page: true
 ---
 
 <div id="main">
-  <h1 class="media-header"><%= media[0]["content_longname"] || "Galleries" %></h1>
+  <h1 class="media-header"><%= media_manager["content_longname"] || "Galleries" %></h1>
   <% media.each do |gallery| %>
-    <p><a href="/<%= book["shortname"] %>/galleries/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
+    <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
   <% end %>
 </div>
