@@ -36,6 +36,7 @@ books.each do |book|
 	book_data_path = book["shortname"]
 
 	page "#{book_data_path}/galleries/*", :layout => "gallery"
+	page "#{book_data_path}/paintings/*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
