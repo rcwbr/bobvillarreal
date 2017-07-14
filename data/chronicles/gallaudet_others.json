@@ -512,7 +512,10 @@
             "entry_page_title": "Gallery"
           }
         ],
-        "section": true
+        "section": true,
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries"
       }
     }
   },

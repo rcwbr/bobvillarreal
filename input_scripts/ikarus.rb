@@ -82,6 +82,9 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
   if media_manager["sectioned"]
     for gallery_section_counter in 0...galleries_info.length
       galleries_info[gallery_section_counter]["section"] = true
+      galleries_info[gallery_section_counter]["content_name"] = media_manager["content_name"]
+      galleries_info[gallery_section_counter]["content_path"] = media_manager["content_path"]
+      galleries_info[gallery_section_counter]["page_title"] = media_manager["page_title"]
       for gallery_counter in 0...galleries_info[gallery_section_counter]["galleries"].length
         generate_gallery(ikarus_data_path, galleries_info[gallery_section_counter]["galleries"], gallery_counter, galleries_data_path, book_image_path, media_manager)
       end
