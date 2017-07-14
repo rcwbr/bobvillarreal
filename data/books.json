@@ -184,6 +184,7 @@
         "name": "ikarus",
         "content_type": "galleries",
         "processing_type": "galleries",
+        "sectioned": "true",
         "input_data_path": "ikarus_data",
         "input_data_file": "galleries.yaml",
         "input_data_entries_path": "galleries",

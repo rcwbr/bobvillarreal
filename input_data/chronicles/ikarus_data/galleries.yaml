@@ -1,7 +1,11 @@
 ---
 -
-  name: "Appendix C | Apani the Indian"
-  shortname: "Appendix C"
-  path: "3V"
-  filename: "3V.yaml"
-  label-prefix: "3V"
+  name: First Letter
+  shortname: first
+  galleries:
+    -
+      name: "First Letter, Parts A through D"
+      shortname: "Parts A-D"
+      path: "1A-D"
+      filename: "a-d.yaml"
+      label-prefix: "1A-D"
