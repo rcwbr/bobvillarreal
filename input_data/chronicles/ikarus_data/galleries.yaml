@@ -1,11 +1,123 @@
 ---
 -
-  name: First Letter
-  shortname: first
+  name: "First Letter"
+  shortname: "first"
   galleries:
     -
       name: "First Letter, Parts A through D"
       shortname: "Parts A-D"
       path: "1A-D"
-      filename: "a-d.yaml"
+      filename: "1A-D.yaml"
       label-prefix: "1A-D"
+    -
+      name: "First Letter, Parts E through G"
+      shortname: "Parts E-G"
+      path: "1E-G"
+      filename: "1E-G.yaml"
+      label-prefix: "1E-G"
+    -
+      name: "First Letter, Parts H through K"
+      shortname: "Parts H-K"
+      path: "1H-K"
+      filename: "1H-K.yaml"
+      label-prefix: "1H-K"
+    -
+      name: "First Letter, Parts L through M"
+      shortname: "Parts L-M"
+      path: "1L-M"
+      filename: "1L-M.yaml"
+      label-prefix: "1L-M"
+    -
+      name: "First Letter, Mines and Copayapu"
+      shortname: "1X: Mines and Copayapu"
+      path: "1X"
+      filename: "1X.yaml"
+      label-prefix: "1X"
+-
+  name: "Second Letter"
+  shortname: "second"
+  galleries:
+    -
+      name: "Second Letter, Parts N through O"
+      shortname: "Parts N-O"
+      path: "2N-O"
+      filename: "2N-O.yaml"
+      label-prefix: "2N-O"
+    -
+      name: "Second Letter, Parts P through Q"
+      shortname: "Parts P-Q"
+      path: "2P-Q"
+      filename: "2P-Q.yaml"
+      label-prefix: "2P-Q"
+    -
+      name: "Second Letter, Parts R through T"
+      shortname: "Parts R-T"
+      path: "2R-T"
+      filename: "2R-T.yaml"
+      label-prefix: "2R-T"
+-
+  name: "Third Letter"
+  shortname: "third"
+  galleries:
+    -
+      name: "Third Letter, Part U"
+      shortname: "Part U"
+      path: "3U"
+      filename: "3U.yaml"
+      label-prefix: "3U"
+    -
+      name: "Third Letter, Part V"
+      shortname: "Part V"
+      path: "3V"
+      filename: "3V.yaml"
+      label-prefix: "3V"
+    -
+      name: "Third Letter, Part W"
+      shortname: "Part W"
+      path: "3W"
+      filename: "3W.yaml"
+      label-prefix: "3W"
+    -
+      name: "Third Letter, Part X"
+      shortname: "Part X"
+      path: "3X"
+      filename: "3X.yaml"
+      label-prefix: "3X"
+-
+  name: "Fourth Letter"
+  shortname: "fourth"
+  galleries:
+    -
+      name: "Fourth Letter, Part AA-DD"
+      shortname: "Part AA-DD"
+      path: "4AA-DD"
+      filename: "4AA-DD.yaml"
+      label-prefix: "4AA-DD"
+    -
+      name: "Fourth Letter, Part EE-GG"
+      shortname: "Part EE-GG"
+      path: "4EE-GG"
+      filename: "4EE-GG.yaml"
+      label-prefix: "4EE-GG"
+    -
+      name: "Fourth Letter, Part HH-KK"
+      shortname: "Part HH-KK"
+      path: "4HH-KK"
+      filename: "4HH-KK.yaml"
+      label-prefix: "4HH-KK"
+    -
+      name: "Fourth Letter, Part LL-MM"
+      shortname: "Part LL-MM"
+      path: "4LL-MM"
+      filename: "4LL-MM.yaml"
+      label-prefix: "4LL-MM"
+-
+  name: "Fifth Letter"
+  shortname: "fifth"
+  galleries:
+    -
+      name: "Fifth Letter, Part XX"
+      shortname: "Part XX"
+      path: "5XX"
+      filename: "5XX.yaml"
+      label-prefix: "5XX"
