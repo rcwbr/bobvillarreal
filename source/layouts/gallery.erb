@@ -24,6 +24,8 @@
     <% if !current_page.data.index_page %>
       <%= partial "partials/stylesheets/gallery_style" %>
       <%= partial "partials/gallery_script" %>
+    <% else %>
+      <%= partial "partials/stylesheets/galleries_index_page" %>
     <% end %>
 
   </head>

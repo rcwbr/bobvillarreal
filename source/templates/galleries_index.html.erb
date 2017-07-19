@@ -9,10 +9,12 @@ index_page: true
   <h1 class="media-header"><%= media_manager["content_longname"] || "Galleries" %></h1>
   <% media.each do |media_entry|
     if media_entry["section"] %>
-      <h2><%= media_entry["name"] %></h2>
-      <% media_entry["galleries"].each do |gallery| %>
-        <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
-      <% end %>
+      <div class="galleries-category-div">
+        <h2><%= media_entry["name"] %></h2>
+        <% media_entry["galleries"].each do |gallery| %>
+          <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
+        <% end %>
+      </div>
     <% else %>
       <% gallery = media_entry %>
       <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
