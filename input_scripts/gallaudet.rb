@@ -13,6 +13,7 @@ def process_plain_media(media_manager, book_input_data_path, book_output_data_pa
   plain_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
 
   plain_info.each do |plain_info_entry|
+    plain_info_entry["content_type"] = media_manager["content_type"]
     plain_info_entry["content_name"] = media_manager["content_name"]
     plain_info_entry["content_path"] = media_manager["content_path"]
     plain_info_entry["page_title"] = media_manager["page_title"]
@@ -34,6 +35,7 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
   sections_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
 
   sections_info.each do |section|
+    section["content_type"] = media_manager["content_type"]
     section["content_name"] = media_manager["content_name"]
     section["content_path"] = media_manager["content_path"]
     section["page_title"] = media_manager["page_title"]
@@ -45,6 +47,7 @@ def process_section_media(media_manager, book_input_data_path, book_output_data_
 
     section_media_entries = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
     section_media_entries.each do |section_media_entry|
+      section_media_entry["content_type"] = media_manager["content_type"]
       section_media_entry["content_name"] = media_manager["content_name"]
       section_media_entry["content_path"] = media_manager["content_path"]
       section_media_entry["page_title"] = media_manager["page_title"]
@@ -69,36 +72,46 @@ def process_gallery_media(media_manager, book_input_data_path, book_output_data_
   ikarus_init("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}", "#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", media_manager["input_data_file"], media_manager["input_data_entries_path"], book_image_path, media_manager)
 end
 
+def add_media_entry_to_chapter(media_entry, media_manager_name, chapters, others)
+  found_chapter = false
+  if chapters
+    chapters.each do |chapter|
+      puts "#{media_manager_name} \"#{chapter["name"]}\" \"#{media_entry["name"]}\"" if GALLAUDET_VERBOSE
+      if media_entry["name"] == chapter["name"]
+        if chapter["media"] == nil
+          chapter["media"] = {}
+        end
+        chapter["media"][media_manager_name + "_data"] = media_entry
+        found_chapter = true
+      end
+    end
+  end
+  if !found_chapter
+    found_other = false
+    others.each do |other|
+      if media_entry["name"] == other["name"]
+        found_other = true
+        other["media"][media_manager_name + "_data"] = media_entry
+      end
+    end
+    if !found_other
+      entry = { "shortname" => media_entry["shortname"], "name" => media_entry["name"], "path" => media_entry["path"] }
+      entry["media"] = {}
+      entry["media"][media_manager_name + "_data"] = media_entry
+      others.push(entry)
+    end
+  end
+end
+
 def add_media_to_chapter(media, media_manager_name, chapters, others)
   puts "Adding media to chapter" if GALLAUDET_VERBOSE
   media.each do |media_entry|
-    found_chapter = false
-    if chapters
-      chapters.each do |chapter|
-        puts "#{media_manager_name} \"#{chapter["name"]}\" \"#{media_entry["name"]}\"" if GALLAUDET_VERBOSE
-        if media_entry["name"] == chapter["name"]
-          if chapter["media"] == nil
-            chapter["media"] = {}
-          end
-          chapter["media"][media_manager_name + "_data"] = media_entry
-          found_chapter = true
-        end
+    if media_entry["section"]
+      media_entry[media_entry["content_type"]].each do |media_section_entry|
+        add_media_entry_to_chapter(media_section_entry, media_manager_name, chapters, others)
       end
-    end
-    if !found_chapter
-      found_other = false
-      others.each do |other|
-        if media_entry["name"] == other["name"]
-          found_other = true
-          other["media"][media_manager_name + "_data"] = media_entry
-        end
-      end
-      if !found_other
-        entry = { "shortname" => media_entry["shortname"], "name" => media_entry["name"], "path" => media_entry["path"] }
-        entry["media"] = {}
-        entry["media"][media_manager_name + "_data"] = media_entry
-        others.push(entry)
-      end
+    else
+      add_media_entry_to_chapter(media_entry, media_manager_name, chapters, others)
     end
   end
 end
@@ -124,7 +137,21 @@ books.each do |book|
 
   gallaudet_chapters_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{GALLAUDET_CHAPTERS_OUTPUT_FILENAME}", "w")
   gallaudet_others_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{GALLAUDET_OTHERS_OUTPUT_FILENAME}", "w")
-  gallaudet_chapters = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{GALLAUDET_DATA_PATH}/#{GALLAUDET_CHAPTERS_FILENAME}")
+  gallaudet_chapters = []
+  gallaudet_chapters_file = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{GALLAUDET_DATA_PATH}/#{GALLAUDET_CHAPTERS_FILENAME}")
+  gallaudet_chapters_file.each do |gallaudet_chapters_entry|
+    if gallaudet_chapters_entry["chapters"]
+      gallaudet_chapters_entry["chapters"].each do |gallaudet_chapters_section_entry|
+        gallaudet_chapters_section_entry["section_name"] = gallaudet_chapters_entry["name"]
+        gallaudet_chapters_section_entry["section_shortname"] = gallaudet_chapters_entry["shortname"]
+        gallaudet_chapters_section_entry["section_path"] = gallaudet_chapters_entry["path"]
+        gallaudet_chapters.push(gallaudet_chapters_section_entry)
+      end
+    else
+      gallaudet_chapters.push(gallaudet_chapters_entry)
+    end
+  end
+
   gallaudet_others = []
 
   if media_managers != nil

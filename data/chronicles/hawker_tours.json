@@ -3,6 +3,7 @@
     "name": "First Letter",
     "shortname": "first",
     "filename": "first_letter.yaml",
+    "content_type": "tours",
     "content_name": "Tours",
     "content_path": "tours",
     "page_title": "Tours",
@@ -19,6 +20,7 @@
             "url": "https://www.youtube.com/embed/O9kUepMM-Vw"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -34,6 +36,7 @@
             "url": "https://www.youtube.com/embed/2e0qdK95pR0"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -49,6 +52,7 @@
             "url": "https://www.youtube.com/embed/8pRfCKtl3dE"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -64,6 +68,7 @@
             "url": "https://www.youtube.com/embed/SttPvm9sn3M"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -79,6 +84,7 @@
             "url": "https://www.youtube.com/embed/XAuu7rmMkIc"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -90,6 +96,7 @@
     "name": "Second Letter",
     "shortname": "second",
     "filename": "second_letter.yaml",
+    "content_type": "tours",
     "content_name": "Tours",
     "content_path": "tours",
     "page_title": "Tours",
@@ -117,6 +124,7 @@
             "url": "https://www.youtube.com/embed/-o0Hnpy1whU"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -132,6 +140,7 @@
             "url": "https://www.youtube.com/embed/GhQa5FLsHxI"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -147,6 +156,7 @@
             "url": "https://www.youtube.com/embed/go-atGCbiz8"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -158,6 +168,7 @@
     "name": "Third Letter",
     "shortname": "third",
     "filename": "third_letter.yaml",
+    "content_type": "tours",
     "content_name": "Tours",
     "content_path": "tours",
     "page_title": "Tours",
@@ -174,6 +185,7 @@
             "url": "https://www.youtube.com/embed/q7pIRb5JXDs"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -189,6 +201,7 @@
             "url": "https://www.youtube.com/embed/qaRqKTjM5fU "
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -204,6 +217,7 @@
             "url": "https://www.youtube.com/embed/LUpyl2OEx6s"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -219,6 +233,7 @@
             "url": "https://www.youtube.com/embed/DdH34Y54ics"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -230,6 +245,7 @@
     "name": "Fourth Letter",
     "shortname": "fourth",
     "filename": "fourth_letter.yaml",
+    "content_type": "tours",
     "content_name": "Tours",
     "content_path": "tours",
     "page_title": "Tours",
@@ -246,6 +262,7 @@
             "url": "https://www.youtube.com/embed/bl4T8Q6hA_I"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -261,6 +278,7 @@
             "url": "https://www.youtube.com/embed/NR0wwcg4gNI"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -276,6 +294,7 @@
             "url": "https://www.youtube.com/embed/aX2H8w7GUVo"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",

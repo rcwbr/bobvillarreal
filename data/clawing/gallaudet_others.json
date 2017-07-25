@@ -15,6 +15,7 @@
           "The quality which satisfies the most in this narrative is its nobility. Only too well we know man's shortcomings, his cowardice, his faults, and other writers are only too keen in exposing these. But we need today someone to tell us how a man may be raised far above himself by his sheer force of determination. Villarreal has done that.",
           "Why this book? And why now? The author believes that action/adventure/travel/memoir books are always popular because the daily grind of our ordinary existences leaves a longing for escape.  And the chance to visit different, exotic lands where most have never ventured is especially enticing. So too is the opportunity to vicariously experience physical and emotional hardships through the author's telling of them. As an added bonus, the linkage of the book with the author's interactive website, what he calls <em>Read and View: A New and Exciting Way to Enjoy a Book</em>, creates a thrilling way to enjoy his adventures and is completely unique to the publishing world."
         ],
+        "content_type": "passages",
         "content_name": "Passages",
         "content_path": "passages",
         "page_title": "Passages",
@@ -35,6 +36,7 @@
           "\"Grandpa, please write a book about your climbs in the Andes. I would like to read about your adventures.\"",
           "Why climb mountains? Well, why any inspiration? Why did the early explorers sail the vastness of the oceans?<br />Why did we explore the moon? Is it not in touching the unknown that we find our true selves?"
         ],
+        "content_type": "passages",
         "content_name": "Passages",
         "content_path": "passages",
         "page_title": "Passages",
@@ -56,6 +58,7 @@
           "So for me, death holds no terror. And this knowledge, learned during my time amongst the great peaks, permitted me to see that it is better to attain the truth of self by not locating it while seeking it than by deciding not to seek it and never finding it.",
           "Well, Alex, my mountain journeys, and this book, are at an end. Thank you for asking me to write about my climbs. I believe you now know something of why I kept returning to the mountains. Remember my adventures and me occasionally in your thoughts. That way I will be with you forever. Love always. Grandpa."
         ],
+        "content_type": "passages",
         "content_name": "Passages",
         "content_path": "passages",
         "page_title": "Passages",
@@ -80,6 +83,7 @@
           "<strong>Anco</strong>: How many men hauled to the succeeding camp?<br /><strong>Apani</strong>: Well, four <em>cunturs</em>, eighty-five rock bearers, thirty carriers of food, dung, tents, and assorted other stores, and an extra twenty men in reserve composed the entire group. Each man carried, in addition to the weight of his load, a gourd of water, dried fruit, and charqui. They started from camp early, directed by the <em>cunturs</em>, one leading at the front, two at different positions within the file, and the fourth at the rear. They proceeded slowly, the <em>cunturs</em> keeping a steady pace, resting often. The course remained free of snow, but with the ground loose in places, as we builders found out when it came our turn, and this made it difficult. Fortunately, the weather cooperated, with no storms and but a slight breeze. They stayed within our sight until the long line finally disappeared behind a huge outcropping of rocks. It remains to my mind a grand and majestic scene, and I haven't forgotten it. In two hours, they reappeared from behind the rocks, in column, slowly wending their way back to us. Several of the men seemed unsteady as they came towards us, a sure sign of breathing or headache problems.<br /><br /><em>Apani describes the first carry up the mountain.</em>",
           "<strong>Pedro</strong>: And your feelings?<br /><strong>Apani</strong>: Well, to arrive at the summit meant a great accomplishment. The <em>cunturs</em> hugged each of us and this made us feel important. And the views from there overwhelmed us with their beauty. It is special to see things from the top of a mountain, and especially gratifying to see all our stones there! They were stacked in four piles, according to their color codes.<br /><strong>Pedro</strong>: And so you began immediately at reassembly?<br /><strong>Apani</strong>: Exactly. Mayta had been part of my builder team, so three of us now composed our group. Our hut was the one with the lower stones marked in green, the upper ones in blue. Before beginning, we all looked over the site, to determine the best positioning of the structures. Finally, we decided a north/south arrangement the best, our hut's end wall separated by two feet from the other hut's end wall. Once this had been determined and settled, we went to work, with the <em>cunturs</em> helping when called on. We made quick work of it, with the lower half of each hut in place by early afternoon. The color-coding helped, of course. Also, we had chipped and shaped those rocks ourselves back at Angastu and we remembered their positions in the completed building.<br /><br /><em>Apani describes one of the great accomplishments of the Inca.</em>"
         ],
+        "content_type": "passages",
         "content_name": "Passages",
         "content_path": "passages",
         "page_title": "Passages",
@@ -272,6 +276,7 @@
             }
           ]
         ],
+        "content_type": "galleries",
         "content_name": "Galleries",
         "content_path": "galleries",
         "page_title": "Galleries",
@@ -287,6 +292,7 @@
             "url": "https://www.youtube.com/embed/qaRqKTjM5fU"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -538,6 +544,7 @@
             }
           ]
         ],
+        "content_type": "galleries",
         "content_name": "Galleries",
         "content_path": "galleries",
         "page_title": "Galleries",
@@ -717,6 +724,7 @@
             }
           ]
         ],
+        "content_type": "galleries",
         "content_name": "Galleries",
         "content_path": "galleries",
         "page_title": "Galleries",
@@ -1026,6 +1034,7 @@
             }
           ]
         ],
+        "content_type": "galleries",
         "content_name": "Galleries",
         "content_path": "galleries",
         "page_title": "Galleries",
@@ -1048,6 +1057,7 @@
             "title": "Ecuador (Chimborazo and other peaks)"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1070,6 +1080,7 @@
             "title": "Bolivia (Illimani and other peaks)"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1092,6 +1103,7 @@
             "title": "Argentina, Aconcagua (the Polish Glacier)"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1114,6 +1126,7 @@
             "title": "Cerro Llullaillaco, Chile"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1136,6 +1149,7 @@
             "title": "Cerro Ojos del Salado"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1158,6 +1172,7 @@
             "title": "Monte Pissis, Argentina"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1180,6 +1195,7 @@
             "title": "Cerro Tres Cruces"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1202,6 +1218,7 @@
             "title": "Assortment 1"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1224,6 +1241,7 @@
             "title": "Assortment 2"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1246,6 +1264,7 @@
             "title": "My Camps"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1268,6 +1287,7 @@
             "title": "On the Top"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1290,6 +1310,7 @@
             "title": "Only the Author"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1312,6 +1333,7 @@
             "title": "Giancarlo Fiocco, My First Driver"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1334,6 +1356,7 @@
             "title": "Patricio Rios, My Second Driver"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1356,6 +1379,7 @@
             "title": "Original Woodcuts"
           }
         ],
+        "content_type": "slideshows",
         "content_name": "Slide Shows",
         "content_path": "slideshows",
         "page_title": "Slideshows",
@@ -1378,6 +1402,7 @@
             "url": "https://www.youtube.com/embed/SP35zS-AUuY"
           }
         ],
+        "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
@@ -1402,6 +1427,7 @@
             "note": "An unsuccessful climb of Llullaillaco with my friend, Sverre Aarseth (footnoted in Ch. 9). Film opens with a discussion with Maria Ester and Sverre at the La Casona Hotel."
           }
         ],
+        "content_type": "movies",
         "content_name": "Movies",
         "content_path": "movies",
         "page_title": "Movies",
@@ -1426,6 +1452,7 @@
             "note": "An unsuccessful attempt on Tres Cruces with Gary, a client. (Not mentioned in the book.)"
           }
         ],
+        "content_type": "movies",
         "content_name": "Movies",
         "content_path": "movies",
         "page_title": "Movies",
@@ -1450,6 +1477,7 @@
             "note": "Attempts of Pissis and Tres Cruces, but there was too much snow. I found my ice axe on Tres (Ch. 6)."
           }
         ],
+        "content_type": "movies",
         "content_name": "Movies",
         "content_path": "movies",
         "page_title": "Movies",
@@ -1474,6 +1502,7 @@
             "note": "A trip to Llullaillaco with Al and Gene (Ch. 4). This includes scenes of the bofedal near Laguna Negro Francisco."
           }
         ],
+        "content_type": "movies",
         "content_name": "Movies",
         "content_path": "movies",
         "page_title": "Movies",
@@ -1498,6 +1527,7 @@
             "note": "In early 2013, Guillaume, a French citizen, climbed the three summits of Tres Cruces in seven days, an amazing feat."
           }
         ],
+        "content_type": "movies",
         "content_name": "Movies",
         "content_path": "movies",
         "page_title": "Movies",

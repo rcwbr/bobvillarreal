@@ -32,9 +32,7 @@
     <% if current_page.data.content_page %>
       <%= partial "partials/stylesheets/content_pages" %>
       <% if current_page.data.media == "chapters" && current_page.data.index_page %>
-        <% if book["shortname"] == "clawing" %>
-          <%= partial "partials/stylesheets/content_index_page" %>
-        <% end %>
+        <%= partial "partials/stylesheets/content_index_page" %>
       <% end %>
       <% if current_page.data.media == "slideshows" && current_page.data.index_page %>
         <% if book["shortname"] == "clawing" %>

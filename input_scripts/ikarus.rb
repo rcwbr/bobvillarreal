@@ -62,6 +62,7 @@ def generate_gallery(ikarus_data_path, galleries_info, gallery_counter, gallerie
     puts "" if IKARUS_VERBOSE
   end
 
+  galleries_info[gallery_counter]["content_type"] = media_manager["content_type"]
   galleries_info[gallery_counter]["content_name"] = media_manager["content_name"]
   galleries_info[gallery_counter]["content_path"] = media_manager["content_path"]
   galleries_info[gallery_counter]["page_title"] = media_manager["page_title"]
@@ -82,6 +83,7 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
   if media_manager["sectioned"]
     for gallery_section_counter in 0...galleries_info.length
       galleries_info[gallery_section_counter]["section"] = true
+      galleries_info[gallery_section_counter]["content_type"] = media_manager["content_type"]
       galleries_info[gallery_section_counter]["content_name"] = media_manager["content_name"]
       galleries_info[gallery_section_counter]["content_path"] = media_manager["content_path"]
       galleries_info[gallery_section_counter]["page_title"] = media_manager["page_title"]
