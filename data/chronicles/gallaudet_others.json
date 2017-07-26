@@ -1010,5 +1010,28 @@
         "entry_page_title": "Paintings"
       }
     }
+  },
+  {
+    "shortname": "Information",
+    "name": "Important Information",
+    "path": "info",
+    "media": {
+      "macchi_data": {
+        "name": "Important Information",
+        "shortname": "Information",
+        "path": "info",
+        "movies": [
+          {
+            "title": "Important Information",
+            "note": "<p>The movies in this section need an explanation. They are part of the content on the website for <span id=\"alonetitle\">Clawing for the Stars: A Solo Climber in the Highest Andes.</span> They are not directly related to the Almagro expedition. However, I have added them to the <em>Chronicle</em> site because they allow the reader to see some of the landscape and scenes the expedition encountered on their journey.</p><p>In the first movie for the First Letter, Parts L-M, the viewer will see Copiapo, travel the road to Laguna Santa Rosa, and visit the peak, Tres Cruces.</p><p>In the second movie, there are more scenes of Tres Cruces, a ride across the Great Plateau, Laguna Verde, and distant views of Ojos del Salado.</p><p>The movie for the Third Letter, Part V, is primarily a climb of Llullaillaco. The views here will permit readers of the interview with the Indian, Apani, (see Third Letter, Part V) to appreciate what the hut builders encountered when they were on the mountain more than 500 years ago.</p>"
+          }
+        ],
+        "content_type": "movies",
+        "content_name": "Movies",
+        "content_path": "movies",
+        "page_title": "Movies",
+        "entry_page_title": "Movies"
+      }
+    }
   }
 ]

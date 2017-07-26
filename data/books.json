@@ -194,6 +194,18 @@
         "menu_text": "PHOTOS",
         "page_title": "Galleries",
         "entry_page_title": "Gallery"
+      },
+      {
+        "name": "macchi",
+        "content_type": "movies",
+        "processing_type": "plain",
+        "input_data_path": "macchi_data",
+        "input_data_file": "movies.yaml",
+        "output_filename": "macchi_movies.json",
+        "content_path": "movies",
+        "content_name": "Movies",
+        "menu_text": "MOVIES",
+        "page_title": "Movies"
       }
     ],
     "other_book_menu_text": "Previous Book: Clawing for the Stars",
