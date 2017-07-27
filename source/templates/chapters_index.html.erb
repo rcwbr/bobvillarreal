@@ -10,8 +10,9 @@ index_page: true
     <h1 class="media-header">Chapters</h1>
     <% chapters.each do |chapter| %>
       <p>
-        <a href="/<%= book["shortname"] %>/chapter/<%= chapter["path"] %>"><%= chapter["name"] || chapter["shortname"] %></a>
-        <br />
+        <a href="/<%= book["shortname"] %>/chapter/<%= chapter["path"] %>">
+          <h3 class="chapter-name"><%= chapter["name"] || chapter["shortname"] %></h3>
+        </a>
         <span class="index_content_links">
           <% if chapter["media"] != nil
             chapter["media"].each_with_index do |media_entry, index|
