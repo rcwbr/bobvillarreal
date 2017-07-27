@@ -74,7 +74,7 @@
         "output_filename": "bloch_slideshows.json",
         "content_path": "slideshows",
         "content_name": "Slide Shows",
-        "menu_text": "SLIDESHOWS",
+        "menu_text": "SLIDE SHOWS",
         "page_title": "Slideshows"
       },
       {
@@ -206,6 +206,18 @@
         "content_name": "Movies",
         "menu_text": "MOVIES",
         "page_title": "Movies"
+      },
+      {
+        "name": "bloch",
+        "content_type": "slideshows",
+        "processing_type": "plain",
+        "input_data_path": "bloch_data",
+        "input_data_file": "slideshows.yaml",
+        "output_filename": "bloch_slideshows.json",
+        "content_path": "slideshows",
+        "content_name": "Slide Shows",
+        "menu_text": "SLIDE SHOWS",
+        "page_title": "Slideshows"
       }
     ],
     "other_book_menu_text": "Previous Book: Clawing for the Stars",

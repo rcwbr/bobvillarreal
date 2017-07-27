@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Bolivia (Illimani and other peaks)",
+    "path": "bolivia",
+    "category": "Country/Peak",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/TjcPWsAO4Y4",
+        "title": "This accompanies the First Letter, Part E"
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  },
+  {
+    "name": "Cerro Ojos del Salado",
+    "path": "ojos",
+    "category": "Country/Peak",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/IF5ryAnSl8I",
+        "title": "This accompanies the First Letter, Parts L-M"
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  },
+  {
+    "name": "Cerro Tres Cruces",
+    "path": "trescruces",
+    "category": "Country/Peak",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/jAnqkCkETnE",
+        "title": "Cerro Tres Cruces"
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  },
+  {
+    "name": "Cerro Llullaillaco, Chile",
+    "path": "llullaillaco",
+    "category": "Country/Peak",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/U4z5Nd-hOh4",
+        "title": "This accompanies the Third Letter, Parts U-V"
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  },
+  {
+    "name": "Glanzman Paintings, First and Second Letters.",
+    "path": "glanzman1-2",
+    "category": "Paintings and Woodcuts",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/1gA5_8ZXJXk",
+        "title": "The Louis S. Glanzman Gallery of Paintings, First and Second Letters."
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  },
+  {
+    "name": "Glanzman Paintings, Third and Fourth Letters.",
+    "path": "glanzman3-4",
+    "category": "Paintings and Woodcuts",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/Dx2DmpI61r0",
+        "title": "The Louis S. Glanzman Gallery of Paintings, Third and Fourth Letters."
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  },
+  {
+    "name": "Original Woodcuts, Engravings, Lithographs, Photogravure, and Prints",
+    "path": "Woodcuts",
+    "category": "Paintings and Woodcuts",
+    "slideshows": [
+      {
+        "url": "https://www.youtube.com/embed/iKkDSTS-xUU",
+        "title": "Original Woodcuts, Engravings, Lithographs, Photogravure, and Prints"
+      }
+    ],
+    "content_type": "slideshows",
+    "content_name": "Slide Shows",
+    "content_path": "slideshows",
+    "page_title": "Slideshows",
+    "entry_page_title": "Slideshows"
+  }
+]

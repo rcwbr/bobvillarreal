@@ -35,9 +35,7 @@
         <%= partial "partials/stylesheets/content_index_page" %>
       <% end %>
       <% if current_page.data.media == "slideshows" && current_page.data.index_page %>
-        <% if book["shortname"] == "clawing" %>
-          <%= partial "partials/stylesheets/slideshows_index_page" %>
-        <% end %>
+        <%= partial "partials/stylesheets/slideshows_index_page" %>
       <% end %>
       <% if current_page.data.media == "movies" && !current_page.data.index_page %>
         <% if book["shortname"] == "clawing" %>

@@ -28,7 +28,12 @@ index_page: true
     <div class="slideshow-category-div">
       <h2><%= category["category"] %></h2>
       <% category["slideshows"].each do |slideshows_info| %>
-        <p><a href="/<%= book["shortname"] %>/slideshows/<%= slideshows_info["path"] %>"><%= slideshows_info["name"] %></a></p>
+        <h3 class="slideshow-name">
+          <a href="/<%= book["shortname"] %>/slideshows/<%= slideshows_info["path"] %>"><%= slideshows_info["name"] %></a>
+        </h3>
+        <p class="slideshow-title-p">
+          <a href="/<%= book["shortname"] %>/slideshows/<%= slideshows_info["path"] %>"><%= slideshows_info["slideshows"][0]["title"] %></a>
+        </p>
       <% end %>
     </div>
   <% end %>

@@ -1,0 +1,57 @@
+---
+-
+  name: "Bolivia (Illimani and other peaks)"
+  path: "bolivia"
+  category: "Peaks"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/TjcPWsAO4Y4"
+      title: "This accompanies the First Letter, Part E"
+-
+  name: "Cerro Ojos del Salado"
+  path: "ojos"
+  category: "Peaks"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/IF5ryAnSl8I"
+      title: "This accompanies the First Letter, Parts L-M"
+-
+  name: "Cerro Tres Cruces"
+  path: "trescruces"
+  category: "Peaks"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/jAnqkCkETnE"
+      title: "Cerro Tres Cruces"
+-
+  name: "Cerro Llullaillaco, Chile"
+  path: "llullaillaco"
+  category: "Peaks"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/U4z5Nd-hOh4"
+      title: "This accompanies the Third Letter, Parts U-V"
+-
+  name: "Glanzman Paintings, First and Second Letters."
+  path: "glanzman1-2"
+  category: "Paintings and Woodcuts"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/1gA5_8ZXJXk"
+      title: "The Louis S. Glanzman Gallery of Paintings, First and Second Letters."
+-
+  name: "Glanzman Paintings, Third and Fourth Letters."
+  path: "glanzman3-4"
+  category: "Paintings and Woodcuts"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/Dx2DmpI61r0"
+      title: "The Louis S. Glanzman Gallery of Paintings, Third and Fourth Letters."
+-
+  name: "Original Woodcuts, Engravings, Lithographs, Photogravure, and Prints"
+  path: "Woodcuts"
+  category: "Paintings and Woodcuts"
+  slideshows:
+    -
+      url: "https://www.youtube.com/embed/iKkDSTS-xUU"
+      title: "Original Woodcuts, Engravings, Lithographs, Photogravure, and Prints"
