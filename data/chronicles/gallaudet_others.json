@@ -1036,86 +1036,17 @@
   },
   {
     "shortname": null,
-    "name": "Bolivia (Illimani and other peaks)",
-    "path": "bolivia",
-    "media": {
-      "bloch_data": {
-        "name": "Bolivia (Illimani and other peaks)",
-        "path": "bolivia",
-        "category": "Country/Peak",
-        "slideshows": [
-          {
-            "url": "https://www.youtube.com/embed/TjcPWsAO4Y4",
-            "title": "This accompanies the First Letter, Part E"
-          }
-        ],
-        "content_type": "slideshows",
-        "content_name": "Slide Shows",
-        "content_path": "slideshows",
-        "page_title": "Slideshows",
-        "entry_page_title": "Slideshows"
-      }
-    }
-  },
-  {
-    "shortname": null,
-    "name": "Cerro Ojos del Salado",
-    "path": "ojos",
-    "media": {
-      "bloch_data": {
-        "name": "Cerro Ojos del Salado",
-        "path": "ojos",
-        "category": "Country/Peak",
-        "slideshows": [
-          {
-            "url": "https://www.youtube.com/embed/IF5ryAnSl8I",
-            "title": "This accompanies the First Letter, Parts L-M"
-          }
-        ],
-        "content_type": "slideshows",
-        "content_name": "Slide Shows",
-        "content_path": "slideshows",
-        "page_title": "Slideshows",
-        "entry_page_title": "Slideshows"
-      }
-    }
-  },
-  {
-    "shortname": null,
     "name": "Cerro Tres Cruces",
     "path": "trescruces",
     "media": {
       "bloch_data": {
         "name": "Cerro Tres Cruces",
         "path": "trescruces",
-        "category": "Country/Peak",
+        "category": "Peaks",
         "slideshows": [
           {
             "url": "https://www.youtube.com/embed/jAnqkCkETnE",
             "title": "Cerro Tres Cruces"
-          }
-        ],
-        "content_type": "slideshows",
-        "content_name": "Slide Shows",
-        "content_path": "slideshows",
-        "page_title": "Slideshows",
-        "entry_page_title": "Slideshows"
-      }
-    }
-  },
-  {
-    "shortname": null,
-    "name": "Cerro Llullaillaco, Chile",
-    "path": "llullaillaco",
-    "media": {
-      "bloch_data": {
-        "name": "Cerro Llullaillaco, Chile",
-        "path": "llullaillaco",
-        "category": "Country/Peak",
-        "slideshows": [
-          {
-            "url": "https://www.youtube.com/embed/U4z5Nd-hOh4",
-            "title": "This accompanies the Third Letter, Parts U-V"
           }
         ],
         "content_type": "slideshows",

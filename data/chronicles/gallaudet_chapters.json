@@ -570,6 +570,25 @@
         "content_path": "galleries",
         "page_title": "Galleries",
         "entry_page_title": "Gallery"
+      },
+      "bloch_data": {
+        "name": "Bolivia (Illimani and other peaks)",
+        "path": "bolivia",
+        "category": "Peaks",
+        "chapters": [
+          "First Letter, Parts E through G"
+        ],
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/TjcPWsAO4Y4",
+            "title": "This accompanies the First Letter, Part E"
+          }
+        ],
+        "content_type": "slideshows",
+        "content_name": "Slide Shows",
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -1070,6 +1089,25 @@
         "content_path": "movies",
         "page_title": "Movies",
         "entry_page_title": "Movies"
+      },
+      "bloch_data": {
+        "name": "Cerro Ojos del Salado",
+        "path": "ojos",
+        "category": "Peaks",
+        "chapters": [
+          "First Letter, Parts L through M"
+        ],
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/IF5ryAnSl8I",
+            "title": "This accompanies the First Letter, Parts L-M"
+          }
+        ],
+        "content_type": "slideshows",
+        "content_name": "Slide Shows",
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -2164,6 +2202,26 @@
         "content_path": "galleries",
         "page_title": "Galleries",
         "entry_page_title": "Gallery"
+      },
+      "bloch_data": {
+        "name": "Cerro Llullaillaco, Chile",
+        "path": "llullaillaco",
+        "category": "Peaks",
+        "chapters": [
+          "Third Letter, Part U",
+          "Third Letter, Part V"
+        ],
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/U4z5Nd-hOh4",
+            "title": "This accompanies the Third Letter, Parts U-V"
+          }
+        ],
+        "content_type": "slideshows",
+        "content_name": "Slide Shows",
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },
@@ -2387,6 +2445,26 @@
         "content_path": "movies",
         "page_title": "Movies",
         "entry_page_title": "Movies"
+      },
+      "bloch_data": {
+        "name": "Cerro Llullaillaco, Chile",
+        "path": "llullaillaco",
+        "category": "Peaks",
+        "chapters": [
+          "Third Letter, Part U",
+          "Third Letter, Part V"
+        ],
+        "slideshows": [
+          {
+            "url": "https://www.youtube.com/embed/U4z5Nd-hOh4",
+            "title": "This accompanies the Third Letter, Parts U-V"
+          }
+        ],
+        "content_type": "slideshows",
+        "content_name": "Slide Shows",
+        "content_path": "slideshows",
+        "page_title": "Slideshows",
+        "entry_page_title": "Slideshows"
       }
     }
   },

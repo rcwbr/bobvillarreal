@@ -77,7 +77,18 @@ def add_media_entry_to_chapter(media_entry, media_manager_name, chapters, others
   if chapters
     chapters.each do |chapter|
       puts "#{media_manager_name} \"#{chapter["name"]}\" \"#{media_entry["name"]}\"" if GALLAUDET_VERBOSE
-      if media_entry["name"] == chapter["name"]
+      chapter_match = false
+      if media_entry["chapters"]
+        media_entry["chapters"].each do |media_entry_chapter|
+          if media_entry_chapter == chapter["name"]
+            chapter_match = true
+          end
+        end
+      elsif media_entry["name"] == chapter["name"]
+        chapter_match = true
+      end
+
+      if chapter_match
         if chapter["media"] == nil
           chapter["media"] = {}
         end
@@ -89,7 +100,18 @@ def add_media_entry_to_chapter(media_entry, media_manager_name, chapters, others
   if !found_chapter
     found_other = false
     others.each do |other|
-      if media_entry["name"] == other["name"]
+      other_match = false
+      if media_entry["chapters"]
+        media_entry["chapters"].each do |media_entry_chapter|
+          if media_entry_chapter == other["name"]
+            other_match = true
+          end
+        end
+      elsif media_entry["name"] == other["name"]
+        other_match = true
+      end
+
+      if other_match
         found_other = true
         other["media"][media_manager_name + "_data"] = media_entry
       end

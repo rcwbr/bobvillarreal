@@ -2,7 +2,10 @@
   {
     "name": "Bolivia (Illimani and other peaks)",
     "path": "bolivia",
-    "category": "Country/Peak",
+    "category": "Peaks",
+    "chapters": [
+      "First Letter, Parts E through G"
+    ],
     "slideshows": [
       {
         "url": "https://www.youtube.com/embed/TjcPWsAO4Y4",
@@ -18,7 +21,10 @@
   {
     "name": "Cerro Ojos del Salado",
     "path": "ojos",
-    "category": "Country/Peak",
+    "category": "Peaks",
+    "chapters": [
+      "First Letter, Parts L through M"
+    ],
     "slideshows": [
       {
         "url": "https://www.youtube.com/embed/IF5ryAnSl8I",
@@ -34,7 +40,7 @@
   {
     "name": "Cerro Tres Cruces",
     "path": "trescruces",
-    "category": "Country/Peak",
+    "category": "Peaks",
     "slideshows": [
       {
         "url": "https://www.youtube.com/embed/jAnqkCkETnE",
@@ -50,7 +56,11 @@
   {
     "name": "Cerro Llullaillaco, Chile",
     "path": "llullaillaco",
-    "category": "Country/Peak",
+    "category": "Peaks",
+    "chapters": [
+      "Third Letter, Part U",
+      "Third Letter, Part V"
+    ],
     "slideshows": [
       {
         "url": "https://www.youtube.com/embed/U4z5Nd-hOh4",
