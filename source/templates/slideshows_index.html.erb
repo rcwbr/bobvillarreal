@@ -26,7 +26,9 @@ index_page: true
 
   categorized_slideshows.each do |category| %>
     <div class="slideshow-category-div">
-      <h2><%= category["category"] %></h2>
+      <% if media_manager["show_categories"] != "false" %>
+        <h2><%= category["category"] %></h2>
+      <% end %>
       <% category["slideshows"].each do |slideshows_info| %>
         <h3 class="slideshow-name">
           <a href="/<%= book["shortname"] %>/slideshows/<%= slideshows_info["path"] %>"><%= slideshows_info["name"] %></a>
