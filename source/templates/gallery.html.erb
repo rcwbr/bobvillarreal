@@ -9,6 +9,6 @@ index_page: false
 <% #puts "#{gallery_info["name"]} gallery is being built." %>
 <div>
 	<h1 class="media-header" id="gallery-header"><%= gallery_info["content_longname"] || gallery_info["content_name"] %> - <%= gallery_info["name"] %></h1>
-	<a id="gallery-link" href="/<%= book["shortname"] %>/<%= gallery_info["content_path"] %>/">All Galleries</a>
+	<a id="gallery-link" href="/<%= book["shortname"] %>/<%= gallery_info["content_path"] %>/">All <%= gallery_info["content_name"] %></a>
   <%= partial "partials/galleries" %>
 </div>
