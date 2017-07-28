@@ -1,0 +1,8 @@
+---
+-
+  name: "First Letter"
+  shortname: "First Letter"
+  path: "L1"
+  filename: "first_letter.yaml"
+  label-prefix: "L1"
+  images_per_row: 3

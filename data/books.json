@@ -219,6 +219,21 @@
         "content_name": "Slide Shows",
         "menu_text": "SLIDE SHOWS",
         "page_title": "Slideshows"
+      },
+      {
+        "name": "vought",
+        "content_type": "galleries",
+        "processing_type": "galleries",
+        "input_data_path": "vought_data",
+        "input_data_file": "letters.yaml",
+        "input_data_entries_path": "letters",
+        "output_filename": "vought_letters.json",
+        "content_path": "letters",
+        "content_name": "Letters",
+        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "menu_text": "LETTERS",
+        "page_title": "Letters",
+        "entry_page_title": "Letters"
       }
     ],
     "other_book_menu_text": "Previous Book: Clawing for the Stars",
