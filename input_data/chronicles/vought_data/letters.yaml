@@ -1,8 +1,36 @@
 ---
 -
   name: "First Letter"
-  shortname: "First Letter"
+  shortname: "first"
   path: "L1"
   filename: "first_letter.yaml"
   label-prefix: "L1"
+  images_per_row: 3
+-
+  name: "Second Letter"
+  shortname: "second"
+  path: "L2"
+  filename: "second_letter.yaml"
+  label-prefix: "L2"
+  images_per_row: 3
+-
+  name: "Third Letter"
+  shortname: "third"
+  path: "L3"
+  filename: "third_letter.yaml"
+  label-prefix: "L3"
+  images_per_row: 3
+-
+  name: "Fourth Letter"
+  shortname: "fourth"
+  path: "L4"
+  filename: "fourth_letter.yaml"
+  label-prefix: "L4"
+  images_per_row: 3
+-
+  name: "Fifth Letter"
+  shortname: "fifth"
+  path: "L5"
+  filename: "fifth_letter.yaml"
+  label-prefix: "L5"
   images_per_row: 3
