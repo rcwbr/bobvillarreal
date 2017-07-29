@@ -80,11 +80,11 @@ def add_media_entry_to_chapter(media_entry, media_manager_name, chapters, others
       chapter_match = false
       if media_entry["chapters"]
         media_entry["chapters"].each do |media_entry_chapter|
-          if media_entry_chapter == chapter["name"]
+          if media_entry_chapter == chapter["name"] || media_entry_chapter == chapter["section_name"]
             chapter_match = true
           end
         end
-      elsif media_entry["name"] == chapter["name"]
+      elsif media_entry["name"] == chapter["name"] || media_entry["name"] == chapter["section_name"]
         chapter_match = true
       end
 
