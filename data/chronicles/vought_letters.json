@@ -1,6 +1,9 @@
 [
   {
-    "name": "First Letter",
+    "name": "The first Valdivia Letter, dated 4 September 1545",
+    "chapters": [
+      "First Letter"
+    ],
     "shortname": "first",
     "path": "L1",
     "filename": "first_letter.yaml",
@@ -192,7 +195,10 @@
     "entry_page_title": "Letters"
   },
   {
-    "name": "Second Letter",
+    "name": "The second letter, dated 15 June 1548",
+    "chapters": [
+      "Second Letter"
+    ],
     "shortname": "second",
     "path": "L2",
     "filename": "second_letter.yaml",
@@ -244,7 +250,10 @@
     "entry_page_title": "Letters"
   },
   {
-    "name": "Third Letter",
+    "name": "The third letter, dated 15 October 1550",
+    "chapters": [
+      "Third Letter"
+    ],
     "shortname": "third",
     "path": "L3",
     "filename": "third_letter.yaml",
@@ -608,7 +617,10 @@
     "entry_page_title": "Letters"
   },
   {
-    "name": "Fourth Letter",
+    "name": "The fourth letter, dated 25 September 1551",
+    "chapters": [
+      "Fourth Letter"
+    ],
     "shortname": "fourth",
     "path": "L4",
     "filename": "fourth_letter.yaml",
@@ -680,7 +692,10 @@
     "entry_page_title": "Letters"
   },
   {
-    "name": "Fifth Letter",
+    "name": "The fifth letter, dated 26 October 1552",
+    "chapters": [
+      "Fifth Letter"
+    ],
     "shortname": "fifth",
     "path": "L5",
     "filename": "fifth_letter.yaml",
