@@ -717,6 +717,301 @@
     }
   },
   {
+    "shortname": "First Letter",
+    "name": "First Letter",
+    "path": "P1",
+    "media": {
+      "gloster_data": {
+        "name": "First Letter",
+        "shortname": "First Letter",
+        "path": "P1",
+        "filename": "first_letter.yaml",
+        "label-prefix": "P1",
+        "images_path": "images/chronicles/galleries/P1",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "On July 3, 1535, Paullu, the Inca Manco's brother and head of the Indian contingent to accompany the Almagro Expedition to Chile, is carried to Cuzco's central square to join Captain Almagro. Courtesy Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "The Battle of Andahuaylillas. In a driving rain, Captain Almagro, on the left, slashes and thrusts his way through attacking natives. Courtesy Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Lake Titicaca natives prepare beds of earth in the shallow part of the Lake in preparation for the growing season. Courtesy Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "A <em>chasqui</em> runner with a message for the Inca in Cuzco. Courtesy Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Paullu remonstrates with Lieutenant Alvarado about mistreatment of natives by the Spanish troops. Courtesy Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The chief steward of the Inca's gold caravan prepares to meet with Captain Almagro and Paullu. Courtesy Louis S. Glanzman and National Geographic Magazine",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Conquistador Pedro de M&eacute;rida and Spanish horsemen struggle with their animals upon leaving Tucma (today's San Miguel de Tucuman) on the way to Fiambala. Courtesy Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
+    "shortname": "Second Letter",
+    "name": "Second Letter",
+    "path": "P2",
+    "media": {
+      "gloster_data": {
+        "name": "Second Letter",
+        "shortname": "Second Letter",
+        "path": "P2",
+        "filename": "second_letter.yaml",
+        "label-prefix": "P2",
+        "images_path": "images/chronicles/galleries/P2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Copayapu villagers celebrate the rare blooming of flowers in the desert by strewing them about the streets in joyful processions resembling this one. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "In the mid-1470s, the new Inca, Tupac Inca Yupanqui, sent the first of three armies, each 10,000 strong, on their way to conquer the kingdom of Chile. Here, his general, Sinchiroca, is borne by litter as the army leaves the Andean fastnesses behind. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Copayapu warriors arm themselves to resist the Inca invasion. They soon realized that to do so would be useless. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Bartering by natives in and around Cuquimpu. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Lieutenant Alvarado, leading a search for gold outside Cuquimpu, attempts to intimidate a local chieftain into revealing where the natives have hidden the golden metal. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Battle of Papudo. Pedro de M&eacute;rida, on the left, slashes through attacking warriors as his friend, Francisco de Vald&eacute;z, is unhorsed. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Cuquimpu natives paddle to the <em>Santiago</em> to unload its cargo. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
+    "shortname": "Third Letter",
+    "name": "Third Letter",
+    "path": "P3",
+    "media": {
+      "gloster_data": {
+        "name": "Third Letter",
+        "shortname": "Third Letter",
+        "path": "P3",
+        "filename": "third_letter.yaml",
+        "label-prefix": "P3",
+        "images_path": "images/chronicles/galleries/P3",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Years after the Indians built the huts on the summit of Llullaillaco, others dug burial places for sacrificial victims next to them. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "The <i>Desert Cacique</i> of Calama. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "The Spanish charge before the walls of Fortress Arequipa.  Lieutenant Cente&ntilde;o (with the white scarf over his mouth) is on his ride of death. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
+    "shortname": "Fourth Letter",
+    "name": "Fourth Letter",
+    "path": "P4",
+    "media": {
+      "gloster_data": {
+        "name": "Fourth Letter",
+        "shortname": "Fourth Letter",
+        "path": "P4",
+        "filename": "fourth_letter.yaml",
+        "label-prefix": "P4",
+        "images_path": "images/chronicles/galleries/P4",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Sancho de Hoz (left), after hearing his sentence of death, attempts to foil his executioners.  <span class=\"attribution\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
+    "shortname": "Fifth Letter",
+    "name": "Fifth Letter",
+    "path": "P5",
+    "media": {
+      "gloster_data": {
+        "name": "Fifth Letter",
+        "shortname": "Fifth Letter",
+        "path": "P5",
+        "filename": "fifth_letter.yaml",
+        "label-prefix": "P5",
+        "images_path": "images/chronicles/galleries/P5",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Captain Valdivia (left) and Pedro de M&eacute;rida stare out over the location of the soon to be port of Valparaiso. Do&ntildea In&eacutes de Su&aacuterez, the mistress of Valdivia, stands to the right. </span>",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Araucanian Indians, under the leadership of Lautaro, defeated Pedro de Valdivia and the Spanish at the Battle of Tucapel in December 1553.  Here, Araucanian warriors celebrate their victory. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "De M&eacute;rida and his wife, Pilca Huaca, on the porch of their plantation estate near La Serena. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
     "shortname": "Information",
     "name": "Important Information",
     "path": "info",
@@ -828,6 +1123,793 @@
         "content_path": "slideshows",
         "page_title": "Slideshows",
         "entry_page_title": "Slideshows"
+      }
+    }
+  },
+  {
+    "shortname": "first",
+    "name": "The first Valdivia Letter, dated 4 September 1545",
+    "path": "L1",
+    "media": {
+      "vought_data": {
+        "name": "The first Valdivia Letter, dated 4 September 1545",
+        "shortname": "first",
+        "path": "L1",
+        "filename": "first_letter.yaml",
+        "label-prefix": "L1",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L1",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "image8.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "image9.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "image10.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "image11.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "image12.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "image13.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "image14.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "image15.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "image16.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "image17.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "image18.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "image19.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "image20.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "image21.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "image22.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "image23.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "image24.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "image25.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Letters",
+        "content_path": "letters",
+        "page_title": "Letters",
+        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "entry_page_title": "Letters"
+      }
+    }
+  },
+  {
+    "shortname": "second",
+    "name": "The second letter, dated 15 June 1548",
+    "path": "L2",
+    "media": {
+      "vought_data": {
+        "name": "The second letter, dated 15 June 1548",
+        "shortname": "second",
+        "path": "L2",
+        "filename": "second_letter.yaml",
+        "label-prefix": "L2",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Letters",
+        "content_path": "letters",
+        "page_title": "Letters",
+        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "entry_page_title": "Letters"
+      }
+    }
+  },
+  {
+    "shortname": "third",
+    "name": "The third letter, dated 15 October 1550",
+    "path": "L3",
+    "media": {
+      "vought_data": {
+        "name": "The third letter, dated 15 October 1550",
+        "shortname": "third",
+        "path": "L3",
+        "filename": "third_letter.yaml",
+        "label-prefix": "L3",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L3",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "image8.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "image9.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "image10.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "image11.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "image12.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "image13.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "image14.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "image15.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "image16.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "image17.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "image18.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "image19.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "image20.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "image21.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "image22.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "image23.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "image24.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "image25.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "image26.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "image27.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "image28.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "image29.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "image30.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "image31.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "filename": "image32.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "filename": "image33.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "33"
+            }
+          ],
+          [
+            {
+              "filename": "image34.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "filename": "image35.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "filename": "image36.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "filename": "image37.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "filename": "image38.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "filename": "image39.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "39"
+            }
+          ],
+          [
+            {
+              "filename": "image40.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "40"
+            },
+            {
+              "filename": "image41.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "41"
+            },
+            {
+              "filename": "image42.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "42"
+            }
+          ],
+          [
+            {
+              "filename": "image43.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "43"
+            },
+            {
+              "filename": "image44.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "44"
+            },
+            {
+              "filename": "image45.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "45"
+            }
+          ],
+          [
+            {
+              "filename": "image46.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "46"
+            },
+            {
+              "filename": "image47.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "47"
+            },
+            {
+              "filename": "image48.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "48"
+            }
+          ],
+          [
+            {
+              "filename": "image49.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "49"
+            },
+            {
+              "filename": "image50.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "50"
+            },
+            {
+              "filename": "image51.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "51"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Letters",
+        "content_path": "letters",
+        "page_title": "Letters",
+        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "entry_page_title": "Letters"
+      }
+    }
+  },
+  {
+    "shortname": "fourth",
+    "name": "The fourth letter, dated 25 September 1551",
+    "path": "L4",
+    "media": {
+      "vought_data": {
+        "name": "The fourth letter, dated 25 September 1551",
+        "shortname": "fourth",
+        "path": "L4",
+        "filename": "fourth_letter.yaml",
+        "label-prefix": "L4",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L4",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Letters",
+        "content_path": "letters",
+        "page_title": "Letters",
+        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "entry_page_title": "Letters"
+      }
+    }
+  },
+  {
+    "shortname": "fifth",
+    "name": "The fifth letter, dated 26 October 1552",
+    "path": "L5",
+    "media": {
+      "vought_data": {
+        "name": "The fifth letter, dated 26 October 1552",
+        "shortname": "fifth",
+        "path": "L5",
+        "filename": "fifth_letter.yaml",
+        "label-prefix": "L5",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L5",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Letters",
+        "content_path": "letters",
+        "page_title": "Letters",
+        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "entry_page_title": "Letters"
       }
     }
   }
