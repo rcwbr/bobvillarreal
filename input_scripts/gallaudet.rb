@@ -84,7 +84,7 @@ def add_media_entry_to_chapter(media_entry, media_manager_name, chapters, others
             chapter_match = true
           end
         end
-      elsif media_entry["name"] == chapter["name"] || media_entry["name"] == chapter["section_name"]
+      elsif media_entry["name"] == chapter["name"]
         chapter_match = true
       end
 
