@@ -22,6 +22,6 @@ index_page: false
 	<div>
   <% chapter_info["media"].each do |media_item| %>
 		<h2 id="<%=media_item[1]["content_path"]%>-header" class="chapter-section-header"><%=media_item[1]["content_name"]%></h2>
-		<%= partial "partials/#{media_item[1]["content_path"]}" %>
+		<%= partial "partials/#{media_item[1]["content_type"]}" %>
 	<% end %>
 </div>
