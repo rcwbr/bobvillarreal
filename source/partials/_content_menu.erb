@@ -1,6 +1,8 @@
 <div id="header">
   <div id="content-menubar-div">
-    <a class="content-menu-link <% if current_page.data.media == "chapters" %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/chapters/">MEDIA BY CHAPTER</a>
+    <a class="content-menu-link <% if current_page.data.media == "chapters" %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/chapters/">
+      <%= book["chapters_menu_text"] || "MEDIA BY CHAPTER" %>
+    </a>
     <% book["media_managers"].each do |media_managers_entry|
       current_page_manager = false
       if (defined? media[0]) && media[0]["content_path"] == media_managers_entry["content_path"]

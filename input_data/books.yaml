@@ -101,6 +101,7 @@
     color_one: "#925237"
     color_two: "#731811"
     color_three: "#D1724E"
+  chapters_menu_text: "INDEX"
   non_content_pages:
     -
       name: "About the Book"
