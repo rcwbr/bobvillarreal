@@ -143,19 +143,6 @@
     ],
     "media_managers": [
       {
-        "name": "burgess",
-        "content_type": "passages",
-        "processing_type": "sections",
-        "input_data_path": "burgess_data",
-        "input_data_file": "passages_sections.yaml",
-        "input_data_entries_path": "passages",
-        "output_filename": "burgess_passages.json",
-        "content_path": "passages",
-        "content_name": "Passages",
-        "menu_text": "PASSAGES",
-        "page_title": "Passages"
-      },
-      {
         "name": "hawker",
         "content_type": "tours",
         "processing_type": "sections",
@@ -233,7 +220,7 @@
         "content_path": "letters",
         "content_name": "Letters",
         "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
-        "menu_text": "LETTERS",
+        "menu_text": "VALDIVIA'S LETTERS",
         "page_title": "Letters",
         "entry_page_title": "Letters"
       }
