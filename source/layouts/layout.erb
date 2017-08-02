@@ -38,10 +38,8 @@
         <%= partial "partials/stylesheets/slideshows_index_page" %>
       <% end %>
       <% if current_page.data.media == "movies" && !current_page.data.index_page %>
-        <% if book["shortname"] == "clawing" %>
-          <%= javascript_include_tag :jquery %>
-          <%= javascript_include_tag :movies %>
-        <% end %>
+        <%= javascript_include_tag :jquery %>
+        <%= javascript_include_tag :movies %>
       <% end %>
       <% if current_page.data.media == "passages" && current_page.data.index_page %>
         <% if book["shortname"] == "chronicles" %>
