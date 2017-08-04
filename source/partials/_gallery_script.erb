@@ -7,31 +7,16 @@ end %>
   navBarHeight = <%= gallery_info["overlay_thumb_height"] %>; //This is a global variable for the height of the list of thumbnails in the overlay.
   galleryOverlayFadeDuration = .3; //This is a global variable for the duration of the fade animations for the gallery overlay.
 
-  var galleryFilenames = [ //assemble matrix of filenames from Middleman config variable.
+  var galleryMatrix = [ //assemble matrix of image info from Middleman config variable.
     <% gallery_info["image_matrix"].each do |row| %>
     [
-      <% row.each do |image| %>
-        "<%= image['filename'] %>",
-      <% end %>
-    ],
-    <% end %>
-  ];
-
-  var galleryCaptions = [ //assemble matrix of captions from Middleman config variable.
-    <% gallery_info["image_matrix"].each do |row| %>
-    [
-      <% row.each do |image| %>
-        "<%= image['caption'] %>",
-      <% end %>
-    ],
-    <% end %>
-  ];
-
-  var galleryLabels = [ //assemble matrix of labels from Middleman config variable.
-    <% gallery_info["image_matrix"].each do |row| %>
-    [
-      <% row.each do |image| %>
-        "<%= gallery_info['label-prefix'] %>.<%= image['label'] %>",
+      <% row.each do |image, index| %>
+        {
+          filename: "<%= image['filename'] %>",
+          caption: "<%= image['caption'] %>",
+          collapseCaption: "<%= image['collapse-caption'] %>",
+          label: "<%= gallery_info['label-prefix'] %>.<%= image['label'] %>"
+        }<% if index != row.size - 1 %>,<% end %>
       <% end %>
     ],
     <% end %>
@@ -40,7 +25,7 @@ end %>
   window.onload = function () { //Wait for window to load
     galleryOverlayDiv = document.getElementById("gallery-overlay-div"); //The galleryOverlayDiv variable is set once, here.
     galleryOverlayDiv.addEventListener("click", function () { closeOverlay() });
-    window.document.body.onload = loadGalleryImages(galleryFilenames); //Wait for body to load, then call function to load gallery images
+    window.document.body.onload = loadGalleryImages(galleryMatrix); //Wait for body to load, then call function to load gallery images
 
     var body = document.querySelector("body");
     body.onkeydown = function (event) {
@@ -49,13 +34,13 @@ end %>
   }
 
   //loadGalleryImages creates a DOM image object for each entry in the filename matrix given as a parameter. It assigns each object appropriate attributes, finds its thumbnail counterpart using the index stored as the thumbnail element's id, and passes the image and thumbnail objects to the replaceImageWhenLoaded function. It also pushes each image object into the gallery[] array for future use.
-  function loadGalleryImages(galleryFilenames) {
+  function loadGalleryImages(galleryMatrix) {
     var galleryIndex = 0;
-    for (var rowIndex = 0; rowIndex < galleryFilenames.length; rowIndex ++) {
-      for (var colIndex = 0; colIndex < galleryFilenames[rowIndex].length; colIndex ++) {
-        var filename = galleryFilenames[rowIndex][colIndex];
-        var caption = galleryCaptions[rowIndex][colIndex];
-        var label = galleryLabels[rowIndex][colIndex];
+    for (var rowIndex = 0; rowIndex < galleryMatrix.length; rowIndex ++) {
+      for (var colIndex = 0; colIndex < galleryMatrix[rowIndex].length; colIndex ++) {
+        var filename = galleryMatrix[rowIndex][colIndex].filename;
+        var caption = galleryMatrix[rowIndex][colIndex].caption;
+        var label = galleryMatrix[rowIndex][colIndex].label;
 
         var imageObject = document.createElement("IMG");
         imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
