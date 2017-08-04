@@ -68,6 +68,7 @@ end %>
         imageObject.setAttribute("height", thumb.height);
         replaceImageWhenLoaded(imageObject, thumb);
         imageObject.addEventListener("click", function (event) { openOverlay(event) });
+        thumb.addEventListener("click", function (event) { openOverlay(event) });
 
         gallery.push(imageObject);
         //addToOverlayThumbs(imageObject); //calling addToOverlayThumbs here adds images to the thumbnail list rapidly, such that little or nothing is changed in regards to the order of the thumbnails, but choosing this results in the visible loading of each thumbnail in the list. Also, this would be expected to load each full image twice, because cloneNode() is called before the object is loaded.
@@ -139,24 +140,26 @@ end %>
 
   //setOverlayImage scales the image passed to it such that it fills either the width of the galleryOverlayDiv or the height of the window minus the height of the thumbnail list minus three times the image margins used in the gallery (one for above the overlay image, one for between it and the thumbnail list, and one for below the thumbnail list), and then appends it to the gallery-overlay-image-div div.
   function setOverlayImage(event) {
-    var overlayImage;
-
-    if (!!window.sidebar) { //Case for Firefox
-      overlayImage = event.target;
-    }
-    else {
-      overlayImage = event.target.cloneNode();
-    }
-
+    var overlayImage = event.target.cloneNode();
     setOverlayImageFromImage(overlayImage);
   }
 
   function setOverlayImageFromImage(overlayImage) {
+    if (!!window.sidebar) { //Case for Firefox
+      document.getElementById("gallery-overlay-image-div").insertBefore(overlayImage, captionDiv);
+    }
+
     document.getElementById("gallery-overlay-image-div").innerHTML = "";
 
     var caption = document.createElement("p");
     caption.id = "caption";
-    caption.innerHTML = overlayImage.getAttribute("label") + "<br />" + overlayImage.getAttribute("caption");
+    caption.innerHTML = "";
+    if (overlayImage.getAttribute("label") != null) {
+      caption.innerHTML += overlayImage.getAttribute("label")
+    }
+    if (overlayImage.getAttribute("caption") != null) {
+      caption.innerHTML += "<br />" + overlayImage.getAttribute("caption");
+    }
     var captionDiv = document.createElement("div");
     captionDiv.id = "caption-container-div";
     captionDiv.appendChild(caption);
