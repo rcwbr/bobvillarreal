@@ -47,11 +47,14 @@ end %>
     left: 50%;
     margin-left: -<%= gallery_info["total_width"] / 2 %>px;
   }
-  p#caption {
+  p#caption, p#toggle-caption-link {
     text-align: left;
     color: white;
     margin-top: <%= gallery_info["image_margins"] %>px;
     margin-bottom: <%= gallery_info["image_margins"] %>px;
+  }
+  p#toggle-caption-link {
+    cursor: pointer;
   }
 
   /* The overlay-thumb-div is rendered above the bottom of the window by the number of pixels given as image margins in config.rb. It is set to overflow horizontally such that the list of thumbnails can be scrolled through. */

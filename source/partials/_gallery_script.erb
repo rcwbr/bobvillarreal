@@ -40,11 +40,13 @@ end %>
       for (var colIndex = 0; colIndex < galleryMatrix[rowIndex].length; colIndex ++) {
         var filename = galleryMatrix[rowIndex][colIndex].filename;
         var caption = galleryMatrix[rowIndex][colIndex].caption;
+        var collapseCaption = galleryMatrix[rowIndex][colIndex].collapseCaption;
         var label = galleryMatrix[rowIndex][colIndex].label;
 
         var imageObject = document.createElement("IMG");
         imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
         imageObject.setAttribute("caption", caption);
+        imageObject.setAttribute("collapseCaption", collapseCaption);
         imageObject.setAttribute("galleryIndex", galleryIndex);
         imageObject.setAttribute("label", label);
 
@@ -136,20 +138,7 @@ end %>
 
     document.getElementById("gallery-overlay-image-div").innerHTML = "";
 
-    var caption = document.createElement("p");
-    caption.id = "caption";
-    caption.innerHTML = "";
-    if (overlayImage.getAttribute("label") != null) {
-      caption.innerHTML += overlayImage.getAttribute("label")
-    }
-    if (overlayImage.getAttribute("caption") != null) {
-      caption.innerHTML += "<br />" + overlayImage.getAttribute("caption");
-    }
-    var captionDiv = document.createElement("div");
-    captionDiv.id = "caption-container-div";
-    captionDiv.appendChild(caption);
-
-    document.getElementById("gallery-overlay-image-div").appendChild(captionDiv);
+    var captionDiv = addCaption(overlayImage);
 
     var widthRatio;
     var heightRatio;
@@ -183,6 +172,53 @@ end %>
     overlayImage.addEventListener("touchstart", function (event) { detectSwipe(event) });
 
     document.getElementById("gallery-overlay-image-div").insertBefore(overlayImage, captionDiv);
+  }
+
+  function addCaption(overlayImage) {
+    var captionDiv = document.createElement("div");
+    captionDiv.id = "caption-container-div";
+
+    var caption = document.createElement("p");
+    caption.id = "caption";
+    caption.innerHTML = "";
+    if (overlayImage.getAttribute("label") != null) {
+      caption.innerHTML += overlayImage.getAttribute("label")
+    }
+    if (overlayImage.getAttribute("caption") != null) {
+      caption.innerHTML += "<br />" + overlayImage.getAttribute("caption");
+    }
+
+    if (!overlayImage.getAttribute("collapseCaption")) {
+      captionDiv.appendChild(caption);
+    } else if (overlayImage.getAttribute("collapseCaptionOpen") == "true") {
+      if (overlayImage.getAttribute("collapseCaptionOpen")) {
+        var hideCaptionLink = document.createElement("p");
+        hideCaptionLink.id = "toggle-caption-link";
+        hideCaptionLink.innerHTML = "Hide Caption";
+        hideCaptionLink.addEventListener("click", function (event) {
+          event.stopPropagation();
+          overlayImage.setAttribute("collapseCaptionOpen", false);
+          setOverlayImageFromImage(overlayImage);
+        });
+        captionDiv.appendChild(hideCaptionLink);
+      }
+      captionDiv.appendChild(caption);
+    } else {
+      var viewCaptionLink = document.createElement("p");
+      viewCaptionLink.innerHTML = "Read Caption";
+      viewCaptionLink.id = "toggle-caption-link";
+      viewCaptionLink.addEventListener("click", function (event) {
+        event.stopPropagation();
+        overlayImage.setAttribute("collapseCaptionOpen", true);
+        setOverlayImageFromImage(overlayImage);
+      });
+
+      captionDiv.appendChild(viewCaptionLink);
+    }
+
+    document.getElementById("gallery-overlay-image-div").appendChild(captionDiv);
+
+    return captionDiv;
   }
 
   //swapOverlayImage clones the target of the click event, clears the gallery-overlay-image-div div, and then sets the overlay image by passing the cloned image to setOverlayImage().
