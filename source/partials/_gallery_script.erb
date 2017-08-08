@@ -54,8 +54,16 @@ end %>
         imageObject.setAttribute("width", thumb.width);
         imageObject.setAttribute("height", thumb.height);
         replaceImageWhenLoaded(imageObject, thumb);
-        imageObject.addEventListener("click", function (event) { openOverlay(event) });
-        thumb.addEventListener("click", function (event) { openOverlay(event) });
+        imageObject.addEventListener("click", function (event) {
+          event.stopPropagation();
+          openOverlay();
+          setOverlayImage(event);
+        });
+        thumb.addEventListener("click", function (event) {
+          event.stopPropagation();
+          openOverlay();
+          setOverlayImage(event);
+        });
 
         gallery.push(imageObject);
         //addToOverlayThumbs(imageObject); //calling addToOverlayThumbs here adds images to the thumbnail list rapidly, such that little or nothing is changed in regards to the order of the thumbnails, but choosing this results in the visible loading of each thumbnail in the list. Also, this would be expected to load each full image twice, because cloneNode() is called before the object is loaded.
@@ -72,6 +80,11 @@ end %>
       }
       else {
         thumb.parentElement.replaceChild(imageObject, thumb);
+        if (galleryMatrix.length == 1 && galleryMatrix[0].length == 1) {
+          openOverlay();
+          var overlayImage = imageObject.cloneNode();
+          setOverlayImageFromImage(overlayImage);
+        }
         addToOverlayThumbs(imageObject); //calling addToOverlayThumbs here adds images to the thumbnail list once loaded, which avoids watching the images load in the thumbnail list, but does result in insertions between existing images in a way that could be confusing to users.
       }
     }, 100);
@@ -97,14 +110,11 @@ end %>
   }
 
   //openOverlay activates the galleryOverlayDiv's fade in animation, and sets the overlay image to a clone of the click event's target.
-  function openOverlay(event) {
-    event.stopPropagation();
+  function openOverlay() {
     galleryOverlayDiv.style.zIndex = "1";
     galleryOverlayDiv.style.animationFillMode = "forwards";
     galleryOverlayDiv.style.animationDuration = galleryOverlayFadeDuration.toString() + "s";
     galleryOverlayDiv.style.animationName = "overlay-fadein";
-
-    setOverlayImage(event);
   }
 
   function readKeyPress(event) {
