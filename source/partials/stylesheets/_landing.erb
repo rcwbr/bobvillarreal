@@ -1,4 +1,13 @@
 <style>
+  body {
+    margin: 0px;
+    background-color: white;
+    font-family: "Raleway", "Helvetica Nueue", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+
   div.book-container-div {
     width: 50%;
     float: left;
@@ -9,5 +18,44 @@
   }
   div.book-title-div {
     height: 275px;
+  }
+
+  h1.main-header {
+    text-align: center;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 200;
+    font-size: 28pt;
+  }
+  span.main-header-first-line-span {
+    text-decoration: underline;
+    font-size: 33pt;
+  }
+
+  div#clawing-container-div {
+    background: url("/images/<%= books[0]["styles"]["background-image"] %>");
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+
+    color: <%= books[0]["styles"]["color_two"] %>;
+  }
+  div#clawing-container-div a {
+    color: <%= books[0]["styles"]["color_one"] %>;
+  }
+  h1#clawing-main-header {
+    color: <%= books[0]["styles"]["color_three"] %>;
+  }
+
+  div#chronicles-container-div {
+    background: url("/images/<%= books[1]["styles"]["background-image"] %>");
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+
+    color: <%= books[1]["styles"]["color_two"] %>;
+  }
+  div#chronicles-container-div a {
+    color: <%= books[1]["styles"]["color_one"] %>;
+  }
+  h1#chronicles-main-header {
+    color: <%= books[1]["styles"]["color_three"] %>;
   }
 </style>

@@ -30,7 +30,7 @@ GALLERY_SITE_ROOT_PATH = "../../../"
 books = JSON.parse(File.read("#{DATA_PATH}/books.json"))
 
 page "/index.html", :layout => "landing"
-proxy "/index.html", "landing.html", :locals => { :book => books[0] }, :ignore => true
+proxy "/index.html", "landing.html", :locals => { :books => books }, :ignore => true
 
 books.each do |book|
 	book_data_path = book["shortname"]
