@@ -3714,6 +3714,22 @@
     "section_shortname": "fourth",
     "section_path": "4",
     "media": {
+      "hawker_data": {
+        "name": "Fourth Letter, Part LL-MM",
+        "shortname": "Part LL-MM",
+        "path": "LL-MM",
+        "tours": [
+          {
+            "title": "Fourth Letter, Part LL-MM",
+            "url": "https://www.youtube.com/embed/P1WR2DFDnD8"
+          }
+        ],
+        "content_type": "tours",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
+      },
       "ikarus_data": {
         "name": "Fourth Letter, Part LL-MM",
         "shortname": "Part LL-MM",
