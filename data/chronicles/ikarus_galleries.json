@@ -2406,12 +2406,12 @@
         "entry_page_title": "Gallery"
       },
       {
-        "name": "Third Letter, Part X",
-        "shortname": "Part X",
-        "path": "3X",
-        "filename": "3X.yaml",
+        "name": "Third Letter, Parts X-Z",
+        "shortname": "Parts X-Z",
+        "path": "3X-Z",
+        "filename": "3X-Z.yaml",
         "label-prefix": "3X",
-        "images_path": "images/chronicles/galleries/3X",
+        "images_path": "images/chronicles/galleries/3X-Z",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -2429,7 +2429,7 @@
               "label": "1"
             },
             {
-              "caption": "TToday's Plaza de Armas in Tacna. The famed Gustave Eiffel designed the San Pedro de Tacna  church in the background in 1875. <span class=\\\"attribution\\\">Courtesy of sumaqperu.com</span>",
+              "caption": "Today's Plaza de Armas in Tacna. The famed Gustave Eiffel designed the San Pedro de Tacna  church in the background in 1875. <span class=\\\"attribution\\\">Courtesy of sumaqperu.com</span>",
               "filename": "image2.jpg",
               "attribution": "",
               "label": "2"

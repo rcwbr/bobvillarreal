@@ -78,10 +78,10 @@
       filename: "3W.yaml"
       label-prefix: "3W"
     -
-      name: "Third Letter, Part X"
-      shortname: "Part X"
-      path: "3X"
-      filename: "3X.yaml"
+      name: "Third Letter, Parts X-Z"
+      shortname: "Parts X-Z"
+      path: "3X-Z"
+      filename: "3X-Z.yaml"
       label-prefix: "3X"
 -
   name: "Fourth Letter"
