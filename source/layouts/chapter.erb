@@ -8,7 +8,6 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= "#{book["title"]} - #{chapter_info["shortname"]}" %></title>
 
-    <%= javascript_include_tag :all %>
     <%= javascript_include_tag "javascripts/dragscroll-0.0.6/dragscroll.js" %> <!-- This imports the dragscroll.js file to every page using this layout. -->
     <%= partial "partials/stylesheets/site" %>
     <%= partial "partials/stylesheets/content_pages" %>
@@ -20,6 +19,10 @@
       <%= partial "partials/stylesheets/gallery_style" %>
       <%= partial "partials/gallery_script" %>
     <% end %>
+
+    <%= partial "partials/javascripts/all" %>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106560209-1"></script>
   </head>
 
   <body class="<%= page_classes %>">

@@ -9,7 +9,9 @@
     <title><%= current_page.data.title || "Bob Villarreal" %></title>
 
     <%= partial "partials/stylesheets/landing" %>
-    <%= javascript_include_tag :all %>
+    <%= partial "partials/javascripts/all" %>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106560209-1"></script>
   </head>
 
   <body class="<%= page_classes %>">
