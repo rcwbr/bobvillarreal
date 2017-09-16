@@ -1,0 +1,262 @@
+<% if defined? media_entry
+  gallery_info = media_entry
+end %>
+<script>
+  gallery = []; //Not to be confused with the config[:gallery] variable; this global variable stores the image objects in a linear manner.
+  galleryOverlayDiv = null; //This is a global variable to store the gallery-overlay-div element to avoid excessive calls to the document.getElementById() function. It is assigned in the window.onload function.
+  navBarHeight = <%= gallery_info["overlay_thumb_height"] %>; //This is a global variable for the height of the list of thumbnails in the overlay.
+  galleryOverlayFadeDuration = .3; //This is a global variable for the duration of the fade animations for the gallery overlay.
+
+  var galleryMatrix = [ //assemble matrix of image info from Middleman config variable.
+    <% gallery_info["image_matrix"].each do |row| %>
+    [
+      <% row.each do |image, index| %>
+        {
+          filename: "<%= image['filename'] %>",
+          caption: "<%= image['caption'] %>",
+          collapseCaption: "<%= image['collapse-caption'] %>",
+          label: "<%= gallery_info['label-prefix'] %>.<%= image['label'] %>"
+        }<% if index != row.size - 1 %>,<% end %>
+      <% end %>
+    ],
+    <% end %>
+  ];
+
+  window.onload = function () { //Wait for window to load
+    galleryOverlayDiv = document.getElementById("gallery-overlay-div"); //The galleryOverlayDiv variable is set once, here.
+    galleryOverlayDiv.addEventListener("click", function () { closeOverlay() });
+    window.document.body.onload = loadGalleryImages(galleryMatrix); //Wait for body to load, then call function to load gallery images
+
+    var body = document.querySelector("body");
+    body.onkeydown = function (event) {
+      readKeyPress(event);
+    }
+  }
+
+  //loadGalleryImages creates a DOM image object for each entry in the filename matrix given as a parameter. It assigns each object appropriate attributes, finds its thumbnail counterpart using the index stored as the thumbnail element's id, and passes the image and thumbnail objects to the replaceImageWhenLoaded function. It also pushes each image object into the gallery[] array for future use.
+  function loadGalleryImages(galleryMatrix) {
+    var galleryIndex = 0;
+    for (var rowIndex = 0; rowIndex < galleryMatrix.length; rowIndex ++) {
+      for (var colIndex = 0; colIndex < galleryMatrix[rowIndex].length; colIndex ++) {
+        var filename = galleryMatrix[rowIndex][colIndex].filename;
+        var caption = galleryMatrix[rowIndex][colIndex].caption;
+        var collapseCaption = galleryMatrix[rowIndex][colIndex].collapseCaption;
+        var label = galleryMatrix[rowIndex][colIndex].label;
+
+        var imageObject = document.createElement("IMG");
+        imageObject.setAttribute("src", "<%= gallery_info["images_path"] %>/" + filename);
+        imageObject.setAttribute("caption", caption);
+        imageObject.setAttribute("collapseCaption", collapseCaption);
+        imageObject.setAttribute("galleryIndex", galleryIndex);
+        imageObject.setAttribute("label", label);
+
+        var thumb = document.getElementById("galleryIndex" + galleryIndex);
+        imageObject.setAttribute("width", thumb.width);
+        imageObject.setAttribute("height", thumb.height);
+        replaceImageWhenLoaded(imageObject, thumb);
+        imageObject.addEventListener("click", function (event) {
+          event.stopPropagation();
+          openOverlay();
+          setOverlayImage(event);
+        });
+        thumb.addEventListener("click", function (event) {
+          event.stopPropagation();
+          openOverlay();
+          setOverlayImage(event);
+        });
+
+        gallery.push(imageObject);
+        //addToOverlayThumbs(imageObject); //calling addToOverlayThumbs here adds images to the thumbnail list rapidly, such that little or nothing is changed in regards to the order of the thumbnails, but choosing this results in the visible loading of each thumbnail in the list. Also, this would be expected to load each full image twice, because cloneNode() is called before the object is loaded.
+        galleryIndex += 1;
+      }
+    }
+  }
+
+  //replaceImageWhenLoaded replaces a thumbnail image element (passed as thumb) with a full-size image element (passed as imageObject) when the latter has been fully loaded by the browser. To achieve this, it recursively calls itself ten times a second until the image.complete property is true.
+  function replaceImageWhenLoaded(imageObject, thumb) {
+    setTimeout( function () {
+      if (!imageObject.complete) {
+        replaceImageWhenLoaded(imageObject, thumb);
+      }
+      else {
+        thumb.parentElement.replaceChild(imageObject, thumb);
+        if (galleryMatrix.length == 1 && galleryMatrix[0].length == 1) {
+          openOverlay();
+          var overlayImage = imageObject.cloneNode();
+          setOverlayImageFromImage(overlayImage);
+        }
+        addToOverlayThumbs(imageObject); //calling addToOverlayThumbs here adds images to the thumbnail list once loaded, which avoids watching the images load in the thumbnail list, but does result in insertions between existing images in a way that could be confusing to users.
+      }
+    }, 100);
+  }
+
+  //addToOverlayThumbs adds an image to the overlay thumbnail list. It scales each image such that the height is equal to the navBarHeight, then iterates through the existing thumbnail list and uses the galleryIndex attribute to determine where in the list to insert the image.
+  function addToOverlayThumbs(imageObject) {
+    var listThumb = imageObject.cloneNode();
+    listThumb.setAttribute("width", listThumb.width * (navBarHeight / listThumb.height));
+    listThumb.setAttribute("height", listThumb.height * (navBarHeight / listThumb.height));
+
+    listThumb.addEventListener("click", function (event) { swapOverlayImage(event) });
+
+    var thumbList = document.getElementById("overlay-thumb-div").children;
+    var listThumbIndex = listThumb.getAttribute("galleryIndex");
+    for (i = 0; i < thumbList.length; i ++) {
+      if (listThumbIndex <  parseInt(thumbList[i].getAttribute("galleryIndex"))) {
+        document.getElementById("overlay-thumb-div").insertBefore(listThumb, thumbList[i]);
+        return;
+      }
+    }
+    document.getElementById("overlay-thumb-div").appendChild(listThumb);
+  }
+
+  //openOverlay activates the galleryOverlayDiv's fade in animation, and sets the overlay image to a clone of the click event's target.
+  function openOverlay() {
+    galleryOverlayDiv.style.zIndex = "1";
+    galleryOverlayDiv.style.animationFillMode = "forwards";
+    galleryOverlayDiv.style.animationDuration = galleryOverlayFadeDuration.toString() + "s";
+    galleryOverlayDiv.style.animationName = "overlay-fadein";
+  }
+
+  function readKeyPress(event) {
+    if (event.keyCode == 27) {
+      closeOverlay();
+    }
+    else if (event.keyCode == 37) {
+      var currentIndex = galleryOverlayDiv.getElementsByTagName("img")[0].getAttribute("galleryIndex");
+      if (currentIndex > 0) {
+        setOverlayImageFromImage(gallery[parseInt(currentIndex) - 1].cloneNode());
+      }
+    }
+    else if (event.keyCode == 39) {
+      var currentIndex = galleryOverlayDiv.getElementsByTagName("img")[0].getAttribute("galleryIndex");
+      if (currentIndex < gallery.length - 1) {
+        setOverlayImageFromImage(gallery[parseInt(currentIndex) + 1].cloneNode());
+      }
+    }
+  }
+
+  //setOverlayImage scales the image passed to it such that it fills either the width of the galleryOverlayDiv or the height of the window minus the height of the thumbnail list minus three times the image margins used in the gallery (one for above the overlay image, one for between it and the thumbnail list, and one for below the thumbnail list), and then appends it to the gallery-overlay-image-div div.
+  function setOverlayImage(event) {
+    var overlayImage = event.target.cloneNode();
+    setOverlayImageFromImage(overlayImage);
+  }
+
+  function setOverlayImageFromImage(overlayImage) {
+    if (!!window.sidebar) { //Case for Firefox
+      document.getElementById("gallery-overlay-image-div").insertBefore(overlayImage, captionDiv);
+    }
+
+    document.getElementById("gallery-overlay-image-div").innerHTML = "";
+
+    var captionDiv = addCaption(overlayImage);
+
+    var widthRatio;
+    var heightRatio;
+
+    widthRatio = overlayImage.naturalWidth / galleryOverlayDiv.offsetWidth;
+    heightRatio = overlayImage.naturalHeight / (window.innerHeight - navBarHeight - 4 * <%= gallery_info["image_margins"] %> - captionDiv.offsetHeight);
+
+    var scaleRatio = 1;
+    if (widthRatio > heightRatio) {
+      scaleRatio = 1 / widthRatio;
+    }
+    else {
+      scaleRatio = 1 / heightRatio;
+    }
+    if (scaleRatio > 1) {
+      scaleRatio = 1;
+    }
+
+    var imageWidth;
+    var imageHeight;
+    imageWidth = overlayImage.naturalWidth * scaleRatio;
+    imageHeight = overlayImage.naturalHeight * scaleRatio;
+
+    var marginTop = ((window.innerHeight - navBarHeight - captionDiv.offsetHeight) - imageHeight) / 2 - <%= gallery_info["image_margins"] %>;
+
+    overlayImage.setAttribute("width", imageWidth);
+    overlayImage.setAttribute("height", imageHeight);
+    overlayImage.style.marginTop = marginTop.toString() + "px";
+
+    overlayImage.addEventListener("click", function () { closeOverlay() });
+    overlayImage.addEventListener("touchstart", function (event) { detectSwipe(event) });
+
+    document.getElementById("gallery-overlay-image-div").insertBefore(overlayImage, captionDiv);
+  }
+
+  function addCaption(overlayImage) {
+    var captionDiv = document.createElement("div");
+    captionDiv.id = "caption-container-div";
+
+    var caption = document.createElement("p");
+    caption.id = "caption";
+    caption.innerHTML = "";
+    if (overlayImage.getAttribute("label") != null) {
+      caption.innerHTML += overlayImage.getAttribute("label")
+    }
+    if (overlayImage.getAttribute("caption") != null) {
+      caption.innerHTML += "<br />" + overlayImage.getAttribute("caption");
+    }
+
+    if (!overlayImage.getAttribute("collapseCaption")) {
+      captionDiv.appendChild(caption);
+    } else if (overlayImage.getAttribute("collapseCaptionOpen") == "true") {
+      if (overlayImage.getAttribute("collapseCaptionOpen")) {
+        var hideCaptionLink = document.createElement("p");
+        hideCaptionLink.id = "toggle-caption-link";
+        hideCaptionLink.innerHTML = "Hide Caption";
+        hideCaptionLink.addEventListener("click", function (event) {
+          event.stopPropagation();
+          overlayImage.setAttribute("collapseCaptionOpen", false);
+          setOverlayImageFromImage(overlayImage);
+        });
+        captionDiv.appendChild(hideCaptionLink);
+      }
+      captionDiv.appendChild(caption);
+    } else {
+      var viewCaptionLink = document.createElement("p");
+      viewCaptionLink.innerHTML = "Show Caption";
+      viewCaptionLink.id = "toggle-caption-link";
+      viewCaptionLink.addEventListener("click", function (event) {
+        event.stopPropagation();
+        overlayImage.setAttribute("collapseCaptionOpen", true);
+        setOverlayImageFromImage(overlayImage);
+      });
+
+      captionDiv.appendChild(viewCaptionLink);
+    }
+
+    document.getElementById("gallery-overlay-image-div").appendChild(captionDiv);
+
+    return captionDiv;
+  }
+
+  //swapOverlayImage clones the target of the click event, clears the gallery-overlay-image-div div, and then sets the overlay image by passing the cloned image to setOverlayImage().
+  function swapOverlayImage(event) {
+    event.stopPropagation();
+    document.getElementById("gallery-overlay-image-div").innerHTML = "";
+    setOverlayImage(event);
+  }
+
+  //closeOverlay activates the galleryOverlayDiv fade out animation, waits for the duration of the animation, then sets the galleryOverlayDiv z-index to behind the gallery and clears the contents of the gallery-overlay-image-div div, namely the overlay image.
+  function closeOverlay() {
+    galleryOverlayDiv.style.animationFillMode = "forwards";
+    galleryOverlayDiv.style.animationDuration = galleryOverlayFadeDuration.toString() + "s";
+    galleryOverlayDiv.style.animationName = "overlay-fadeout";
+    setTimeout( function () {
+      galleryOverlayDiv.style.zIndex = "-1";
+      document.getElementById("gallery-overlay-image-div").innerHTML = "";
+    }, galleryOverlayFadeDuration * 1000);
+  }
+
+  //MOBILE-FRIENDLY SECTION
+  function detectSwipe(event) {
+    start = event.touches[0].screenX;
+    //alert(start);
+    event.target.addEventListener("touchmove", function(event) { event.target.setAttribute("left", start + "px") });
+  }
+
+  function swipe(event, start) {
+    event.target.setAttribute("left", event.touches[0].screenX - start + "px");
+  }
+</script>
