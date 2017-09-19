@@ -3800,20 +3800,20 @@
     }
   },
   {
-    "name": "Fifth Letter, Part XX",
-    "shortname": "Part XX",
-    "path": "5XX",
+    "name": "Fifth Letter, Part NN-PP",
+    "shortname": "Part NN-PP",
+    "path": "5NN-PP",
     "section_name": "Fifth Letter",
     "section_shortname": "fifth",
     "section_path": "5",
     "media": {
       "ikarus_data": {
-        "name": "Fifth Letter, Part XX",
-        "shortname": "Part XX",
-        "path": "5XX",
-        "filename": "5XX.yaml",
-        "label-prefix": "5XX",
-        "images_path": "images/chronicles/galleries/5XX",
+        "name": "Fifth Letter, Part NN-PP",
+        "shortname": "Part NN-PP",
+        "path": "5NN-PP",
+        "filename": "5NN-PP.yaml",
+        "label-prefix": "5NN-PP",
+        "images_path": "images/chronicles/galleries/5NN-PP",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -3825,10 +3825,42 @@
         "image_matrix": [
           [
             {
-              "caption": "This map shows the territory of the Mapuche Indians in southern Chile.  Their main zone of influence is the Region of Araucania, but north and south of that Region is also Mapuche country.  <span class=\\\"attribution\\\">Courtesy of Tomas Bonilla, <u>La Gran Guerra Mapuche</u>.</span>",
-              "filename": "image1.jpg",
+              "caption": "Today's Papudo.  The Valdivia Expedition left the town on December 18, 1540 heading east/southeast in search of a site for their capitol city.  Courtesy of <a href=\\\"gochile.com\\\">gochile.com</a>.",
+              "filename": "ValdivPapudoShorelineGochile.jpg",
               "attribution": "",
               "label": "1"
+            },
+            {
+              "caption": "A painting of Captain Francisco de Villagran, the loyal assistant to Captain Pedro de Valdivia.  Courtesy of wiki.",
+              "filename": "ValdivFranciscodeVillagra.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "1932 Original Color Print of Santiago de Chile. Publisher:  Fortune Magazine.   R. Villarreal Collection.",
+              "filename": "ValdivSantiagoPrint.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Mapuche warriors at the Battle of Santa Lucίa.  Courtesy clioMiss.",
+              "filename": "Valdivwarriors1clioMizzou.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Image of the probable location of Michimalongo's fort.  Google Earth.",
+              "filename": "ValdivMichiFort.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Image of the probable site of the MargaMarga gold mine.  Google Earth.",
+              "filename": "MargaMarga2.jpg",
+              "attribution": "",
+              "label": "6"
             }
           ]
         ],

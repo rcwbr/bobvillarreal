@@ -89,6 +89,6 @@
   path: "5"
   chapters:
     -
-      name: "Fifth Letter, Part XX"
-      shortname: "Part XX"
-      path: "5XX"
+      name: "Fifth Letter, Part NN-PP"
+      shortname: "Part NN-PP"
+      path: "5NN-PP"
