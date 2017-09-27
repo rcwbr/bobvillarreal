@@ -3,4 +3,18 @@
   function gtag () { dataLayer.push(arguments) };
   gtag("js", new Date());
   gtag("config", "UA-106560209-1");
+
+  <% if defined? book %>
+    var analyticsRequest = new XMLHttpRequest();
+    analyticsRequest.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var analytics = JSON.parse(analyticsRequest.responseText);
+        var bookAnalytics = analytics.books["<%= book['shortname'] %>"];
+        var visitorCountSpan = document.getElementById("visitor-count-span");
+        visitorCountSpan.innerHTML = bookAnalytics.visitorCount;
+      }
+    };
+    analyticsRequest.open("GET", "http://52.25.229.114:8080/", true);
+    analyticsRequest.send();
+  <% end %>
 </script>
