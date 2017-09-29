@@ -72,7 +72,9 @@
           <%= partial "partials/about_menu"%>
         <% end %>
         <%= yield %>
-        <%= partial "partials/visitor_count" %>
+        <% if current_page.data.page == "home" %>
+          <%= partial "partials/visitor_count" %>
+        <% end %>
       </div>
     </div>
   </body>
