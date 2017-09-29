@@ -15,3 +15,7 @@
   name: "Fourth Letter"
   shortname: "fourth"
   filename: "fourth_letter.yaml"
+-
+  name: "Fifth Letter"
+  shortname: "fifth"
+  filename: "fifth_letter.yaml"

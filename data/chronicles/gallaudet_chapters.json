@@ -3807,6 +3807,22 @@
     "section_shortname": "fifth",
     "section_path": "5",
     "media": {
+      "hawker_data": {
+        "name": "Fifth Letter, Part NN-PP",
+        "shortname": "Part NN-PP",
+        "path": "NN-PP",
+        "tours": [
+          {
+            "title": "Fifth Letter, Part NN-PP",
+            "url": "https://www.youtube.com/embed/-liFkFd_Keo"
+          }
+        ],
+        "content_type": "tours",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
+      },
       "ikarus_data": {
         "name": "Fifth Letter, Part NN-PP",
         "shortname": "Part NN-PP",
