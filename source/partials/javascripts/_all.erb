@@ -11,7 +11,10 @@
         var analytics = JSON.parse(analyticsRequest.responseText);
         var bookAnalytics = analytics.books["<%= book['shortname'] %>"];
         var visitorCountSpan = document.getElementById("visitor-count-span");
-        visitorCountSpan.innerHTML = bookAnalytics.visitorCount;
+        visitorCountSpan.innerHTML = (
+          bookAnalytics.visitorCount
+          + bookAnalytics.originalSiteCount
+        ).toLocaleString();
       }
     };
     analyticsRequest.open("GET", "http://52.25.229.114:8080/", true);
