@@ -4,7 +4,7 @@
   gtag("js", new Date());
   gtag("config", "UA-106560209-1");
 
-  <% if defined? book %>
+  <% if ((defined? book) && (current_page.data.page == "home")) %>
     var analyticsRequest = new XMLHttpRequest();
     analyticsRequest.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
