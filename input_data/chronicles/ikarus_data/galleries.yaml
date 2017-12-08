@@ -121,3 +121,9 @@
       path: "5NN-PP"
       filename: "5NN-PP.yaml"
       label-prefix: "5NN-PP"
+    -
+      name: "Fifth Letter, Part QQ-SS"
+      shortname: "Part QQ-SS"
+      path: "5QQ-SS"
+      filename: "5QQ-SS.yaml"
+      label-prefix: "5QQ-SS"
