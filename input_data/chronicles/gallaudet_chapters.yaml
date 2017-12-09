@@ -92,3 +92,7 @@
       name: "Fifth Letter, Part NN-PP"
       shortname: "Part NN-PP"
       path: "5NN-PP"
+    -
+      name: "Fifth Letter, Part QQ-SS"
+      shortname: "Part QQ-SS"
+      path: "5QQ-SS"
