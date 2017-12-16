@@ -3487,132 +3487,140 @@
         "image_matrix": [
           [
             {
+              "caption": "In September, 1543, the <i>Santiaguillo</i> arrived off the coast near Valpara&iacuteso with supplies for the Christians building Santiago.  Here it is shown earlier during the Almagro Expedition unloading supplies in Cuquimpu.  Courtesy of Louis S. Glanzman and national Geographic Magazine.",
+              "filename": "santiaguillo.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
               "caption": "Captain Diego Garc&iacute;a Villal&oacute;n, the pilot of the <i>Santiaguillo</i>, brought with him from Peru a clock, probably like this turret clock.  De M&eacute;rida now begins to use hours and hour increments to describe the passage of time.  Courtesy of Rauantiques.",
               "filename": "turret_clock.jpg",
               "attribution": "",
-              "label": "1"
+              "label": "2"
             },
             {
               "caption": "In Part SS, de M&eacute;rida describes fighting Mapuche deep within the thick forests to the south of Santiago:  \\\"When forced to travel through this darkness to seek out and subdue Mapuche forts and armed bands of hostiles, we felt ourselves to be within a colossal wilderness, so dark as to be almost black.  Montesinos referred to this landscape as \\\"the dark\\\", a name we all quickly took up, for it described these murky places exactly.\\\"  Picture:  Forest scene in southern Chile.  Courtesy of Jason and Alexa.",
               "filename": "the_dark.jpg",
               "attribution": "",
-              "label": "2"
+              "label": "3"
             },
             {
               "caption": "Forest scene in the land of the Mapuche.  Courtesy of yiyodiazch.",
               "filename": "the_dark_and_fog.jpg",
-              "attribution": "",
-              "label": "3"
-            },
-            {
-              "caption": "A forest clearing.  Courtesy of chocoli.",
-              "filename": "forest_clearing.jpg",
               "attribution": "",
               "label": "4"
             }
           ],
           [
             {
+              "caption": "A forest clearing.  Courtesy of chocoli.",
+              "filename": "forest_clearing.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
               "caption": "Valdivia led a contingent of men to look for a rumored gold mining area north northeast from Santiago and came upon the rich growing area near Quillota in the R&iacute;o Aconcagua Valley.  Courtesy of paltita.",
               "filename": "acon_valley_near_quillota_paltita.jpg",
               "attribution": "",
-              "label": "5"
+              "label": "6"
             },
             {
               "caption": "This is another view of the Aconcagua valley.  Courtesy of winechile.",
               "filename": "acon_valley_near_quillota_winechile.jpg",
               "attribution": "",
-              "label": "6"
+              "label": "7"
             },
             {
               "caption": "Located in the Quillota area is the low peak of La Campana, the site of a small gold mine.  Courtesy of carlos.",
               "filename": "la_campana.jpg",
-              "attribution": "",
-              "label": "7"
-            },
-            {
-              "caption": "Google map of the La Campana and Quillota area.",
-              "filename": "la_campana_google_maps.jpg",
               "attribution": "",
               "label": "8"
             }
           ],
           [
             {
+              "caption": "Google map of the La Campana and Quillota area.",
+              "filename": "la_campana_google_maps.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
               "caption": "On their way north to find Michimalongo, Valdivia and his troops passed by the small village of Illapel.  Courtesy of francisco.pf.",
               "filename": "illapel.jpg",
               "attribution": "",
-              "label": "9"
+              "label": "10"
             },
             {
               "caption": "North of Illapel lies Limari and this area is where the Christians fought Michimalongo and his warriors in a brief but bloody battle.  Courtesy of Juan Bustos.",
               "filename": "limari.jpg",
               "attribution": "",
-              "label": "10"
+              "label": "11"
             },
             {
               "caption": "This is an overhead Google look at the Andacollo copper/gold mine, which lies twenty miles east from Cuquimpu.  The Christians were able extract tons of gold from the area through the years.  It is still a rich store of copper and gold.",
               "filename": "andacollo.jpg",
-              "attribution": "",
-              "label": "11"
-            },
-            {
-              "caption": "The small city of Andacollo lies on the outskirts of the mine.  Courtesy of Retamal.",
-              "filename": "andacollo_today.jpg",
               "attribution": "",
               "label": "12"
             }
           ],
           [
             {
+              "caption": "The small city of Andacollo lies on the outskirts of the mine.  Courtesy of Retamal.",
+              "filename": "andacollo_today.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
               "caption": "Captain Juan Baut&iacute;sta de Pastene arrived on the <i>San Pedro</i> with supplies for the growing town of Santiago in mid-1544.  Artist: Alonso de Ovalle.",
               "filename": "pastene.jpg",
               "attribution": "",
-              "label": "13"
+              "label": "14"
             },
             {
               "caption": "The <i>San Pedro</i> was similar to this 16th century caravel.  Courtesy of Alamy.",
               "filename": "caravel.jpg",
               "attribution": "",
-              "label": "14"
+              "label": "15"
             },
             {
               "caption": "Captain Valdivia sent Pastene and several men on a month long voyage of discovery south from Valpara&iacute;so.  This is the route they followed.  Courtesy of wiki.",
               "filename": "voyage_route.jpg",
-              "attribution": "",
-              "label": "15"
-            },
-            {
-              "caption": "This is a Google map of their major discoveries:  Mancera Island, the R&iacute;o Valdivia, and the site of today's city of Valdivia.",
-              "filename": "valdivia_country.jpg",
               "attribution": "",
               "label": "16"
             }
           ],
           [
             {
+              "caption": "This is a Google map of their major discoveries:  Mancera Island, the R&iacute;o Valdivia, and the site of today's city of Valdivia.",
+              "filename": "valdivia_country.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
               "caption": "1878 original in-text wood engraving of a Mapuche family.  Creator:  Edward Stanford.  R. Villarreal Collection.",
               "filename": "mapuche.jpg",
               "attribution": "",
-              "label": "17"
+              "label": "18"
             },
             {
               "caption": "The modern day city of Valdivia.  Courtesy of wiki.",
               "filename": "valdivia_town.jpg",
               "attribution": "",
-              "label": "18"
+              "label": "19"
             },
             {
               "caption": "1903 Original halftone print of Valdivia.  Creator: George Philip & Son.  R. Villarreal Collection.",
               "filename": "valdivia_engraving.jpg",
               "attribution": "",
-              "label": "19"
-            },
+              "label": "20"
+            }
+          ],
+          [
             {
               "caption": "Another dark forest scene typical of the landscape around Valdivia city.  Courtesy of visitchile.",
               "filename": "forest_near_valdivia.jpg",
               "attribution": "",
-              "label": "20"
+              "label": "21"
             }
           ]
         ],
