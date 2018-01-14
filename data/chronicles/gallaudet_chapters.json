@@ -3986,6 +3986,22 @@
     "section_shortname": "fifth",
     "section_path": "5",
     "media": {
+      "hawker_data": {
+        "name": "Fifth Letter, Part QQ-SS",
+        "shortname": "Part QQ-SS",
+        "path": "QQ-SS",
+        "tours": [
+          {
+            "title": "Fifth Letter, Part QQ-SS",
+            "url": "https://www.youtube.com/embed/dFq-65j7HvQ"
+          }
+        ],
+        "content_type": "tours",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
+      },
       "ikarus_data": {
         "name": "Fifth Letter, Part QQ-SS",
         "shortname": "Part QQ-SS",
