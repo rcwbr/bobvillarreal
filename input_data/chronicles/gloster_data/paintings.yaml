@@ -18,12 +18,6 @@
   filename: "third_letter.yaml"
   label-prefix: "P3"
 -
-  name: "Fourth Letter"
-  shortname: "Fourth Letter"
-  path: "P4"
-  filename: "fourth_letter.yaml"
-  label-prefix: "P4"
--
   name: "Fifth Letter"
   shortname: "Fifth Letter"
   path: "P5"
