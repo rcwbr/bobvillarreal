@@ -127,3 +127,9 @@
       path: "5QQ-SS"
       filename: "5QQ-SS.yaml"
       label-prefix: "5QQ-SS"
+    -
+      name: "Fifth Letter, Part TT-UU"
+      shortname: "Part TT-UU"
+      path: "5TT-UU"
+      filename: "5TT-UU.yaml"
+      label-prefix: "5TT-UU"
