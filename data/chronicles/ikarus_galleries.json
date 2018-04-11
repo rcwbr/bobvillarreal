@@ -3678,6 +3678,38 @@
               "filename": "rio_nuble_region.jpg",
               "attribution": "",
               "label": "5"
+            },
+            {
+              "caption": "Heavy forested landscape near the R&iacute;o Nuble.  Courtesy of Pixabay.",
+              "filename": "jungle.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "1922 Original half-tone print of an Araucanian home structure.  Publisher:  National Geographic.  R. Villarreal Collection.",
+              "filename": "araucanian.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "The Battle of Quilacura took place at night, with the Mapuche hiding in high grass like this.  Courtesy of pexels.",
+              "filename": "high_grass.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Image of the Quiacura battle site.  Google Earth.",
+              "filename": "battle_site.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Area near where the Battle of Quiacura took place.  Courtesy of Maria Figueroa.",
+              "filename": "maria_figueroa.jpg",
+              "attribution": "",
+              "label": "10"
             }
           ]
         ],
