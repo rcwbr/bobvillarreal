@@ -3,27 +3,76 @@
     font-size: 14pt;
   }
 
-  div#home-image-div {
-    width: 600px;
-    float: left;
+  div#description-wrapper-div {
+    width: 100%;
   }
-  div#book-description-div {
-    width: 340px;
-    margin-left: 20px;
-    float: left;
+  div#description-div {
+    width: 600px;
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+    text-align: center;
   }
   p#book-description-p {
     margin-top: 0px;
   }
 
-  h1#construction-header {
-    clear: both;
+  h1.volume-title-header {
+    font-family: "Playfair Display", Helvetica;
+    font-size: 22px;
+    color: <%= book["styles"]["color_one"] %>;
+    margin-top: -20px;
     text-align: center;
   }
 
-  div#site-credit-div {
+  div.volume-div {
+    margin-top: 10px;
+    overflow: auto;
+  }
+  div.volume-title-div {
+    text-align: center;
+  }
+  a.volume-select-a {
+    cursor: pointer;
+  }
+  h2.volume-header {
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    color: <%= book["styles"]["color_one"] %>;
+    margin-top: 10px;
+    margin-bottom: 10px;
     clear: both;
-    width: 100%;
+  }
+
+  p.volume-image-caption-p {
+    margin-top: 0px;
+  }
+  div#almagro-image-div {
+    width: 425.5px;
+    float: left;
+  }
+  div#almagro-description-div {
+    width: 454.5px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  div#valdivia-div {
+    display: none;
+  }
+  div#valdivia-image-div {
+    width: 425.5px;
+    float: left;
+  }
+  div#valdivia-description-div {
+    width: 454.5px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  h1#construction-header {
+    clear: both;
+    text-align: center;
   }
 
   p#visitor-count-p {
