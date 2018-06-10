@@ -211,18 +211,44 @@
           "filename": "sancho_de_hoz.jpg",
           "attribution": "",
           "label": "2"
-        },
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Paintings",
+    "content_path": "paintings",
+    "page_title": "Paintings",
+    "content_longname": "Louis S. Glanzman Paintings",
+    "entry_page_title": "Paintings"
+  },
+  {
+    "name": "Sixth Letter",
+    "shortname": "Sixth Letter",
+    "path": "P6",
+    "filename": "sixth_letter.yaml",
+    "label-prefix": "P6",
+    "images_path": "images/chronicles/galleries/P6",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 2,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
         {
           "caption": "Araucanian Indians, under the leadership of Lautaro, defeated Pedro de Valdivia and the Spanish at the Battle of Tucapel in December 1553.  Here, Araucanian warriors celebrate their victory. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
           "filename": "image2.jpg",
           "attribution": "",
-          "label": "3"
+          "label": "1"
         },
         {
           "caption": "De M&eacute;rida and his wife, Pilca Huaca, on the porch of their plantation estate near Santiago. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
           "filename": "image3.jpg",
           "attribution": "",
-          "label": "4"
+          "label": "2"
         }
       ]
     ],
