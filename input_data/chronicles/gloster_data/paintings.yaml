@@ -23,3 +23,9 @@
   path: "P5"
   filename: "fifth_letter.yaml"
   label-prefix: "P5"
+-
+  name: "Sixth Letter"
+  shortname: "Sixth Letter"
+  path: "P6"
+  filename: "sixth_letter.yaml"
+  label-prefix: "P6"
