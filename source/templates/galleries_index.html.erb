@@ -5,19 +5,47 @@ media: galleries
 index_page: true
 ---
 
+<% def section(book, media_manager, section)
+  section.each do |gallery| %>
+    <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
+  <% end
+end %>
+
+<% def sections(book, media_manager, volume)
+  sections = []
+  volume.each do |section|
+    if section["section"] then
+      sections.push(section)
+    end
+  end
+  if sections.length > 0
+    sections.each do |section| %>
+      <div class="section-div">
+        <h2><%= section["name"] %></h2>
+        <% section(book, media_manager, section["galleries"]) %>
+      </div>
+    <% end
+  else
+    section(book, media_manager, volume)
+  end
+end %>
+
 <div id="main">
   <h1 class="media-header"><%= media_manager["content_longname"] || "Galleries" %></h1>
-  <% media.each do |media_entry|
-    if media_entry["section"] %>
-      <div class="galleries-category-div">
-        <h2><%= media_entry["name"] %></h2>
-        <% media_entry["galleries"].each do |gallery| %>
-          <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
-        <% end %>
+  <% volumes = []
+  media.each do |media_entry|
+    if media_entry["volume"] then
+      volumes.push(media_entry)
+    end
+  end
+  if volumes.length > 0 then
+    volumes.each do |volume| %>
+      <div class="volume-div">
+        <h1><%= volume["name"] %></h1>
+        <% sections(book, media_manager, volume["sections"]) %>
       </div>
-    <% else %>
-      <% gallery = media_entry %>
-      <p><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= gallery["path"] %>"><%= gallery["name"] %></a></p>
-    <% end %>
-  <% end %>
+    <% end
+  else
+    sections(book, media_manager, media)
+  end %>
 </div>
