@@ -76,10 +76,7 @@ def generate_gallery(ikarus_data_path, galleries_info, gallery_counter, gallerie
   end
 end
 
-def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path, book_image_path, media_manager)
-  galleries_info = YAML.load_file("#{ikarus_data_path}/#{galleries_data_file}")
-  galleries_json_file = File.open(ikarus_output_filename, "w")
-
+def no_volume_gallery(galleries_info, ikarus_data_path, galleries_data_path, book_image_path, media_manager)
   if media_manager["sectioned"]
     for gallery_section_counter in 0...galleries_info.length
       galleries_info[gallery_section_counter]["section"] = true
@@ -95,6 +92,24 @@ def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, g
     for gallery_counter in 0...galleries_info.length
       generate_gallery(ikarus_data_path, galleries_info, gallery_counter, galleries_data_path, book_image_path, media_manager)
     end
+  end
+end
+
+def volume_gallery(galleries_info, ikarus_data_path, galleries_data_path, book_image_path, media_manager)
+  for gallery_section_counter in 0...galleries_info.length
+    galleries_info[gallery_section_counter]["volume"] = true
+    no_volume_gallery(galleries_info[gallery_section_counter]["sections"], ikarus_data_path, galleries_data_path, book_image_path, media_manager)
+  end
+end
+
+def ikarus_init(ikarus_data_path, ikarus_output_filename, galleries_data_file, galleries_data_path, book_image_path, media_manager)
+  galleries_info = YAML.load_file("#{ikarus_data_path}/#{galleries_data_file}")
+  galleries_json_file = File.open(ikarus_output_filename, "w")
+
+  if media_manager["volumed"]
+    volume_gallery(galleries_info, ikarus_data_path, galleries_data_path, book_image_path, media_manager)
+  else
+    no_volume_gallery(galleries_info, ikarus_data_path, galleries_data_path, book_image_path, media_manager)
   end
 
   galleries_json_file.write(JSON.pretty_generate(galleries_info))

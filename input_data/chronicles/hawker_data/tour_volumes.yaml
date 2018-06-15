@@ -1,0 +1,27 @@
+---
+-
+  name: "Volume 1: Almagro"
+  sections:
+    -
+      name: "First Letter"
+      shortname: "first"
+      filename: "first_letter.yaml"
+    -
+      name: "Second Letter"
+      shortname: "second"
+      filename: "second_letter.yaml"
+    -
+      name: "Third Letter"
+      shortname: "third"
+      filename: "third_letter.yaml"
+-
+  name: "Volume 2: Valdivia"
+  sections:
+    -
+      name: "Fourth Letter"
+      shortname: "fourth"
+      filename: "fourth_letter.yaml"
+    -
+      name: "Fifth Letter"
+      shortname: "fifth"
+      filename: "fifth_letter.yaml"
