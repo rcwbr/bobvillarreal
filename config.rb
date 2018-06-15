@@ -5,13 +5,27 @@ def build_gallery(media_entry, gallery_site_root_path, book_data_path, media_man
 	proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 end
 
-def build_sections(media_entry, gallery_site_root_path, book_data_path, media_manager, book)
+def build_gallery_sections(media_entry, gallery_site_root_path, book_data_path, media_manager, book)
 	if media_entry["section"]
 		media_entry["galleries"].each do |section_entry|
 			build_gallery(section_entry, gallery_site_root_path, book_data_path, media_manager, book)
 		end
 	else
 		build_gallery(media_entry, gallery_site_root_path, book_data_path, media_manager, book)
+	end
+end
+
+def build_tours(book_data_path, media_manager, media_entry, book)
+	proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/tours.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+end
+
+def build_tour_sections(media_entry, book_data_path, media_manager, book)
+	if media_entry["section"]
+		media_entry["tours"].each do |section_entry|
+			build_tours(book_data_path, media_manager, section_entry, book)
+		end
+	else
+		build_tours(book_data_path, media_manager, media_entry, book)
 	end
 end
 
@@ -82,10 +96,10 @@ books.each do |book|
 			when "ikarus"
 				if media_entry["volume"] then
 					media_entry["sections"].each do |media_section_entry|
-						build_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+						build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
 					end
 				else
-					build_sections(media_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+					build_gallery_sections(media_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
 				end
 
 			when "gloster"
@@ -97,12 +111,12 @@ books.each do |book|
 			when "bloch"
 				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 			when "hawker"
-				if media_entry["section"]
-					media_entry["tours"].each do |section_entry|
-						proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{section_entry["path"]}/index.html", "/templates/tours.html", :locals => { :book => book, :media_entry => section_entry }, :ignore => true
+				if media_entry["volume"]
+					media_entry["sections"].each do |media_section_entry|
+						build_tour_sections(media_section_entry, book_data_path, media_manager, book)
 					end
 				else
-					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/tours.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+					build_tour_sections(media_entry, book_data_path, media_manager, book)
 				end
 			when "macchi"
 				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/movies.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
