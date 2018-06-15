@@ -5,21 +5,54 @@ media: tours
 index_page: true
 ---
 
+<% def tour_link(book, tour) %>
+  <p><a href="/<%= book["shortname"] %>/tours/<%= tour["path"] %>"><%= tour["name"] %></a></p>
+<% end %>
+
+<% def section(book, section) %>
+  <div class="tours-category-div">
+    <h2><%= section["name"] %></h2>
+    <% section["tours"].each do |tour|
+      tour_link(book, tour)
+    end %>
+  </div>
+<% end %>
+
+<% def sections(book, volume)
+  sections = []
+  volume.each do |section|
+    if section["section"]
+      sections.push(section)
+    end
+  end
+  if sections.length > 0 then
+    sections.each do |section|
+      section(book, section)
+    end
+  else
+    volume.each do |tour|
+      tour_link(book, tour)
+    end
+  end
+end %>
+
 <div id="main">
   <h1 class="media-header">Tours</h1>
   <p>To view the Tour locations interactively, the reader may use <a href="https://www.google.com/earth/">Google Earth</a>. In the search box in the upper left corner of the Google Earth window, search for the peak and country you want to visit. Once there, the viewer can zoom all the way down, right to "street" level, and see much of what I saw.</p>
-  <% media.each do |tour_info|
+  <% volumes = []
+  media.each do |volume|
     #puts tour_info["shortname"]
     #puts tour_info["name"]
-    if tour_info["section"] %>
-      <div class="tours-category-div">
-        <h1><%= tour_info["name"] %></h1>
-        <% tour_info["tours"].each do |section_tours| %>
-          <p><a href="/<%= book["shortname"] %>/tours/<%= section_tours["path"] %>"><%= section_tours["name"] %></a></p>
-        <% end %>
-      </div>
-    <% else %>
-      <p><a href="/<%= book["shortname"] %>/tours/<%= tour_info["path"] %>"><%= tour_info["name"] %></a></p>
-    <% end %>
-  <% end %>
+    if volume["volume"] then
+      volumes.push(volume)
+    end
+  end
+  if volumes.length > 0 then
+    volumes.each do |volume| %>
+      <h1><%= volume["name"] %></h1>
+      <% sections(book, volume["sections"])
+    end
+  else
+    sections(book, media)
+  end %>
 </div>

@@ -30,6 +30,48 @@ def process_plain_media(media_manager, book_input_data_path, book_output_data_pa
   plain_output_file.close
 end
 
+def process_volume_media(media_manager, book_input_data_path, book_output_data_path)
+  volumes_info = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
+  volumes_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
+
+  volumes_info.each do |volume|
+    sections_info = volume["sections"]
+    sections_info.each do |section|
+      section["content_type"] = media_manager["content_type"]
+      section["content_name"] = media_manager["content_name"]
+      section["content_path"] = media_manager["content_path"]
+      section["page_title"] = media_manager["page_title"]
+      if media_manager["entry_page_title"]
+        section["entry_page_title"] = media_manager["entry_page_title"]
+      else
+        section["entry_page_title"] = media_manager["page_title"]
+      end
+
+      section_media_entries = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_entries_path"]}/#{section["filename"]}")
+      section_media_entries.each do |section_media_entry|
+        section_media_entry["content_type"] = media_manager["content_type"]
+        section_media_entry["content_name"] = media_manager["content_name"]
+        section_media_entry["content_path"] = media_manager["content_path"]
+        section_media_entry["page_title"] = media_manager["page_title"]
+        if media_manager["entry_page_title"]
+          section_media_entry["entry_page_title"] = media_manager["entry_page_title"]
+        else
+          section_media_entry["entry_page_title"] = media_manager["page_title"]
+        end
+      end
+
+      section["section"] = true
+      section[media_manager["content_type"]] = section_media_entries
+    end
+    volume["volume"] = true
+  end
+
+  puts volumes_info if GALLAUDET_VERBOSE
+
+  volumes_output_file.write(JSON.pretty_generate(volumes_info))
+  volumes_output_file.close
+end
+
 def process_section_media(media_manager, book_input_data_path, book_output_data_path)
   sections_info = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{media_manager["input_data_path"]}/#{media_manager["input_data_file"]}")
   sections_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
@@ -186,6 +228,7 @@ books.each do |book|
   if media_managers != nil
     media_managers.each do |media_manager|
       process_plain_media(media_manager, book_input_data_path, book_output_data_path) if media_manager["processing_type"] == "plain"
+      process_volume_media(media_manager, book_input_data_path, book_output_data_path) if media_manager["processing_type"] == "volumes"
       process_section_media(media_manager, book_input_data_path, book_output_data_path) if media_manager["processing_type"] == "sections"
       process_gallery_media(media_manager, book_input_data_path, book_output_data_path, book_image_path) if media_manager["processing_type"] == "galleries"
 

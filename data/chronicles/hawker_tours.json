@@ -1,366 +1,378 @@
 [
   {
-    "name": "First Letter",
-    "shortname": "first",
-    "filename": "first_letter.yaml",
-    "content_type": "tours",
-    "content_name": "Tours",
-    "content_path": "tours",
-    "page_title": "Tours",
-    "entry_page_title": "Tours",
-    "section": true,
-    "tours": [
+    "name": "Volume 1: Almagro",
+    "sections": [
       {
-        "name": "First Letter, Parts A through D",
-        "shortname": "Parts A through D",
-        "path": "A-D",
-        "tours": [
-          {
-            "title": "First Letter, Parts A through D",
-            "url": "https://www.youtube.com/embed/O9kUepMM-Vw"
-          }
-        ],
+        "name": "First Letter",
+        "shortname": "first",
+        "filename": "first_letter.yaml",
         "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "First Letter, Parts E through G",
-        "shortname": "Parts E through G",
-        "path": "E-G",
+        "entry_page_title": "Tours",
+        "section": true,
         "tours": [
           {
-            "title": "First Letter, Parts E through G",
-            "url": "https://www.youtube.com/embed/2e0qdK95pR0"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "First Letter, Parts H through K",
-        "shortname": "Parts H through K",
-        "path": "H-K",
-        "tours": [
-          {
-            "title": "First Letter, Parts H through K",
-            "url": "https://www.youtube.com/embed/8pRfCKtl3dE"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "First Letter, Parts L through M",
-        "shortname": "Parts L through M",
-        "path": "L-M",
-        "tours": [
-          {
-            "title": "First Letter, Parts L through M",
-            "url": "https://www.youtube.com/embed/SttPvm9sn3M"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "First Letter, Mines and Copayapu",
-        "shortname": "1X: Mines and Copayapu",
-        "path": "X",
-        "tours": [
-          {
-            "title": "First Letter, Mines and Copayapu",
-            "url": "https://www.youtube.com/embed/XAuu7rmMkIc"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      }
-    ]
-  },
-  {
-    "name": "Second Letter",
-    "shortname": "second",
-    "filename": "second_letter.yaml",
-    "content_type": "tours",
-    "content_name": "Tours",
-    "content_path": "tours",
-    "page_title": "Tours",
-    "entry_page_title": "Tours",
-    "section": true,
-    "tours": [
-      {
-        "name": "Second Letter, Parts N through O",
-        "shortname": "Parts N through O",
-        "path": "N-O",
-        "tours": [
-          {
-            "title": "Second Letter, Parts N through O, #1",
-            "caption": "Copayapu and what happened there.",
-            "url": "https://www.youtube.com/embed/LxetxjiZ7RQ"
+            "name": "First Letter, Parts A through D",
+            "shortname": "Parts A through D",
+            "path": "A-D",
+            "tours": [
+              {
+                "title": "First Letter, Parts A through D",
+                "url": "https://www.youtube.com/embed/O9kUepMM-Vw"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
           },
           {
-            "title": "Second Letter, Parts N through O, #2",
-            "caption": "Following the Inca armies from Lake Titicaca through the Atacama Desert to Copayapu.",
-            "url": "https://www.youtube.com/embed/QhGfIf47afs"
+            "name": "First Letter, Parts E through G",
+            "shortname": "Parts E through G",
+            "path": "E-G",
+            "tours": [
+              {
+                "title": "First Letter, Parts E through G",
+                "url": "https://www.youtube.com/embed/2e0qdK95pR0"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
           },
           {
-            "title": "Second Letter, Parts N through O, #3",
-            "caption": "The Inca armies are defeated by the fierce Araucanians.",
-            "url": "https://www.youtube.com/embed/-o0Hnpy1whU"
+            "name": "First Letter, Parts H through K",
+            "shortname": "Parts H through K",
+            "path": "H-K",
+            "tours": [
+              {
+                "title": "First Letter, Parts H through K",
+                "url": "https://www.youtube.com/embed/8pRfCKtl3dE"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "First Letter, Parts L through M",
+            "shortname": "Parts L through M",
+            "path": "L-M",
+            "tours": [
+              {
+                "title": "First Letter, Parts L through M",
+                "url": "https://www.youtube.com/embed/SttPvm9sn3M"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "First Letter, Mines and Copayapu",
+            "shortname": "1X: Mines and Copayapu",
+            "path": "X",
+            "tours": [
+              {
+                "title": "First Letter, Mines and Copayapu",
+                "url": "https://www.youtube.com/embed/XAuu7rmMkIc"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
           }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
+        ]
       },
       {
-        "name": "Second Letter, Parts P through Q",
-        "shortname": "Parts P through Q",
-        "path": "P-Q",
-        "tours": [
-          {
-            "title": "Second Letter, Parts P through Q",
-            "url": "https://www.youtube.com/embed/GhQa5FLsHxI"
-          }
-        ],
+        "name": "Second Letter",
+        "shortname": "second",
+        "filename": "second_letter.yaml",
         "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
-        "entry_page_title": "Tours"
+        "entry_page_title": "Tours",
+        "section": true,
+        "tours": [
+          {
+            "name": "Second Letter, Parts N through O",
+            "shortname": "Parts N through O",
+            "path": "N-O",
+            "tours": [
+              {
+                "title": "Second Letter, Parts N through O, #1",
+                "caption": "Copayapu and what happened there.",
+                "url": "https://www.youtube.com/embed/LxetxjiZ7RQ"
+              },
+              {
+                "title": "Second Letter, Parts N through O, #2",
+                "caption": "Following the Inca armies from Lake Titicaca through the Atacama Desert to Copayapu.",
+                "url": "https://www.youtube.com/embed/QhGfIf47afs"
+              },
+              {
+                "title": "Second Letter, Parts N through O, #3",
+                "caption": "The Inca armies are defeated by the fierce Araucanians.",
+                "url": "https://www.youtube.com/embed/-o0Hnpy1whU"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Second Letter, Parts P through Q",
+            "shortname": "Parts P through Q",
+            "path": "P-Q",
+            "tours": [
+              {
+                "title": "Second Letter, Parts P through Q",
+                "url": "https://www.youtube.com/embed/GhQa5FLsHxI"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Second Letter, Parts R through T",
+            "shortname": "Parts R through T",
+            "path": "R-T",
+            "tours": [
+              {
+                "title": "Second Letter, Parts R through T",
+                "url": "https://www.youtube.com/embed/go-atGCbiz8"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          }
+        ]
       },
       {
-        "name": "Second Letter, Parts R through T",
-        "shortname": "Parts R through T",
-        "path": "R-T",
-        "tours": [
-          {
-            "title": "Second Letter, Parts R through T",
-            "url": "https://www.youtube.com/embed/go-atGCbiz8"
-          }
-        ],
+        "name": "Third Letter",
+        "shortname": "third",
+        "filename": "third_letter.yaml",
         "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
-        "entry_page_title": "Tours"
+        "entry_page_title": "Tours",
+        "section": true,
+        "tours": [
+          {
+            "name": "Third Letter, Part U",
+            "shortname": "Part U",
+            "path": "U",
+            "tours": [
+              {
+                "title": "Third Letter, Part U",
+                "url": "https://www.youtube.com/embed/q7pIRb5JXDs"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Third Letter, Part V, Apani the Indian",
+            "shortname": "Part V",
+            "path": "V",
+            "tours": [
+              {
+                "title": "Third Letter, Part V, Apani the Indian",
+                "url": "https://www.youtube.com/embed/qaRqKTjM5fU "
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Third Letter, Part W",
+            "shortname": "Part W",
+            "path": "W",
+            "tours": [
+              {
+                "title": "Third Letter, Part W",
+                "url": "https://www.youtube.com/embed/LUpyl2OEx6s"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Third Letter, Parts X-Z",
+            "shortname": "Parts X-Z",
+            "path": "X-Z",
+            "tours": [
+              {
+                "title": "Third Letter, Part X",
+                "url": "https://www.youtube.com/embed/DdH34Y54ics"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          }
+        ]
       }
-    ]
+    ],
+    "volume": true
   },
   {
-    "name": "Third Letter",
-    "shortname": "third",
-    "filename": "third_letter.yaml",
-    "content_type": "tours",
-    "content_name": "Tours",
-    "content_path": "tours",
-    "page_title": "Tours",
-    "entry_page_title": "Tours",
-    "section": true,
-    "tours": [
+    "name": "Volume 2: Valdivia",
+    "sections": [
       {
-        "name": "Third Letter, Part U",
-        "shortname": "Part U",
-        "path": "U",
-        "tours": [
-          {
-            "title": "Third Letter, Part U",
-            "url": "https://www.youtube.com/embed/q7pIRb5JXDs"
-          }
-        ],
+        "name": "Fourth Letter",
+        "shortname": "fourth",
+        "filename": "fourth_letter.yaml",
         "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
-        "entry_page_title": "Tours"
+        "entry_page_title": "Tours",
+        "section": true,
+        "tours": [
+          {
+            "name": "Fourth Letter, Part AA-DD",
+            "shortname": "Part AA-DD",
+            "path": "AA-DD",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part AA-DD",
+                "url": "https://www.youtube.com/embed/bl4T8Q6hA_I"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Fourth Letter, Part EE-GG",
+            "shortname": "Part EE-GG",
+            "path": "EE-GG",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part EE-GG",
+                "url": "https://www.youtube.com/embed/NR0wwcg4gNI"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Fourth Letter, Part HH-KK",
+            "shortname": "Part HH-KK",
+            "path": "HH-KK",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part HH-KK",
+                "url": "https://www.youtube.com/embed/aX2H8w7GUVo"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
+          {
+            "name": "Fourth Letter, Part LL-MM",
+            "shortname": "Part LL-MM",
+            "path": "LL-MM",
+            "tours": [
+              {
+                "title": "Fourth Letter, Part LL-MM",
+                "url": "https://www.youtube.com/embed/P1WR2DFDnD8"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          }
+        ]
       },
       {
-        "name": "Third Letter, Part V, Apani the Indian",
-        "shortname": "Part V",
-        "path": "V",
-        "tours": [
-          {
-            "title": "Third Letter, Part V, Apani the Indian",
-            "url": "https://www.youtube.com/embed/qaRqKTjM5fU "
-          }
-        ],
+        "name": "Fifth Letter",
+        "shortname": "fifth",
+        "filename": "fifth_letter.yaml",
         "content_type": "tours",
         "content_name": "Tours",
         "content_path": "tours",
         "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "Third Letter, Part W",
-        "shortname": "Part W",
-        "path": "W",
+        "entry_page_title": "Tours",
+        "section": true,
         "tours": [
           {
-            "title": "Third Letter, Part W",
-            "url": "https://www.youtube.com/embed/LUpyl2OEx6s"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "Third Letter, Parts X-Z",
-        "shortname": "Parts X-Z",
-        "path": "X-Z",
-        "tours": [
+            "name": "Fifth Letter, Part NN-PP",
+            "shortname": "Part NN-PP",
+            "path": "NN-PP",
+            "tours": [
+              {
+                "title": "Fifth Letter, Part NN-PP",
+                "url": "https://www.youtube.com/embed/-liFkFd_Keo"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
           {
-            "title": "Third Letter, Part X",
-            "url": "https://www.youtube.com/embed/DdH34Y54ics"
+            "name": "Fifth Letter, Part QQ-SS",
+            "shortname": "Part QQ-SS",
+            "path": "QQ-SS",
+            "tours": [
+              {
+                "title": "Fifth Letter, Part QQ-SS",
+                "url": "https://www.youtube.com/embed/dFq-65j7HvQ"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
           }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
+        ]
       }
-    ]
-  },
-  {
-    "name": "Fourth Letter",
-    "shortname": "fourth",
-    "filename": "fourth_letter.yaml",
-    "content_type": "tours",
-    "content_name": "Tours",
-    "content_path": "tours",
-    "page_title": "Tours",
-    "entry_page_title": "Tours",
-    "section": true,
-    "tours": [
-      {
-        "name": "Fourth Letter, Part AA-DD",
-        "shortname": "Part AA-DD",
-        "path": "AA-DD",
-        "tours": [
-          {
-            "title": "Fourth Letter, Part AA-DD",
-            "url": "https://www.youtube.com/embed/bl4T8Q6hA_I"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "Fourth Letter, Part EE-GG",
-        "shortname": "Part EE-GG",
-        "path": "EE-GG",
-        "tours": [
-          {
-            "title": "Fourth Letter, Part EE-GG",
-            "url": "https://www.youtube.com/embed/NR0wwcg4gNI"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "Fourth Letter, Part HH-KK",
-        "shortname": "Part HH-KK",
-        "path": "HH-KK",
-        "tours": [
-          {
-            "title": "Fourth Letter, Part HH-KK",
-            "url": "https://www.youtube.com/embed/aX2H8w7GUVo"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "Fourth Letter, Part LL-MM",
-        "shortname": "Part LL-MM",
-        "path": "LL-MM",
-        "tours": [
-          {
-            "title": "Fourth Letter, Part LL-MM",
-            "url": "https://www.youtube.com/embed/P1WR2DFDnD8"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      }
-    ]
-  },
-  {
-    "name": "Fifth Letter",
-    "shortname": "fifth",
-    "filename": "fifth_letter.yaml",
-    "content_type": "tours",
-    "content_name": "Tours",
-    "content_path": "tours",
-    "page_title": "Tours",
-    "entry_page_title": "Tours",
-    "section": true,
-    "tours": [
-      {
-        "name": "Fifth Letter, Part NN-PP",
-        "shortname": "Part NN-PP",
-        "path": "NN-PP",
-        "tours": [
-          {
-            "title": "Fifth Letter, Part NN-PP",
-            "url": "https://www.youtube.com/embed/-liFkFd_Keo"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      },
-      {
-        "name": "Fifth Letter, Part QQ-SS",
-        "shortname": "Part QQ-SS",
-        "path": "QQ-SS",
-        "tours": [
-          {
-            "title": "Fifth Letter, Part QQ-SS",
-            "url": "https://www.youtube.com/embed/dFq-65j7HvQ"
-          }
-        ],
-        "content_type": "tours",
-        "content_name": "Tours",
-        "content_path": "tours",
-        "page_title": "Tours",
-        "entry_page_title": "Tours"
-      }
-    ]
+    ],
+    "volume": true
   }
 ]
