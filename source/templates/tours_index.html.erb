@@ -49,9 +49,11 @@ end %>
   end
   if volumes.length > 0 then
     volumes.each do |volume| %>
-      <h1><%= volume["name"] %></h1>
-      <% sections(book, volume["sections"])
-    end
+      <div class="volume-div">
+        <h1><%= volume["name"] %></h1>
+        <% sections(book, volume["sections"]) %>
+      </div>
+    <% end
   else
     sections(book, media)
   end %>
