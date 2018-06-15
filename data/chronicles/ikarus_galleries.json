@@ -3719,6 +3719,44 @@
                   "filename": "maria_figueroa.jpg",
                   "attribution": "",
                   "label": "10"
+                },
+                {
+                  "caption": "Following the Battle of Quiiacura, the Christians marched west for the coast near the R&iacute;o BioBio.  Courtesy of Maly1995",
+                  "filename": "Rio_BioBio_Maly1995.jpg",
+                  "attribution": "",
+                  "label": "11"
+                },
+                {
+                  "caption": "Another photo of the BioBio.  Courtesy of M. Escobar.",
+                  "filename": "Rio_BioBio_M_Escobar.jpg",
+                  "attribution": "",
+                  "label": "12"
+                }
+              ],
+              [
+                {
+                  "caption": "An image of the Penco, Concepci&oacute;n area.  Captain Valdivia decided this location would be the future site of a new town. Google Earth.",
+                  "filename": "fort_penco_goog.jpg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
+                  "caption": "A modern day view of Concepci&oacute;n.  Courtesy of Alvaro Molina.",
+                  "filename": "Concepción_AlvaroMolina.jpg",
+                  "attribution": "",
+                  "label": "14"
+                },
+                {
+                  "caption": "The forested landscape to the east of Concepci&oacute;n.  Courtesy of WWF.",
+                  "filename": "Concep_forests_WWF.jpg",
+                  "attribution": "",
+                  "label": "15"
+                },
+                {
+                  "caption": "The BioBio empties into the Pacific near Penco.  Courtesy of Pencos.",
+                  "filename": "Bio_bio_into_ocean_G_Burgos.jpg",
+                  "attribution": "",
+                  "label": "16"
                 }
               ]
             ],
