@@ -1,8 +1,6 @@
 ---
 -
-  name: "First Letter"
-  shortname: "First"
-  path: "1"
+  name: "Volume 1: Almagro"
   chapters:
     -
       name: "First Letter, Parts A through D"
@@ -24,11 +22,6 @@
       name: "First Letter, Mines and Copayapu"
       shortname: "1X: Mines and Copayapu"
       path: "1X"
--
-  name: "Second Letter"
-  shortname: "Second"
-  path: "2"
-  chapters:
     -
       name: "Second Letter, Parts N through O"
       shortname: "Parts N-O"
@@ -41,11 +34,6 @@
       name: "Second Letter, Parts R through T"
       shortname: "Parts R-T"
       path: "2R-T"
--
-  name: "Third Letter"
-  shortname: "third"
-  path: "3"
-  chapters:
     -
       name: "Third Letter, Part U"
       shortname: "Part U"
@@ -63,9 +51,7 @@
       shortname: "Part X-Z"
       path: "3X-Z"
 -
-  name: "Fourth Letter"
-  shortname: "fourth"
-  path: "4"
+  name: "Volume 2: Valdivia"
   chapters:
     -
       name: "Fourth Letter, Part AA-DD"
@@ -83,11 +69,6 @@
       name: "Fourth Letter, Part LL-MM"
       shortname: "Part LL-MM"
       path: "4LL-MM"
--
-  name: "Fifth Letter"
-  shortname: "fifth"
-  path: "5"
-  chapters:
     -
       name: "Fifth Letter, Part NN-PP"
       shortname: "Part NN-PP"
