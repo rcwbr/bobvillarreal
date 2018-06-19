@@ -42,7 +42,11 @@ end %>
     volumes.each do |volume| %>
       <div class="volume-div">
         <h1><%= volume["name"] %></h1>
-        <% sections(book, media_manager, volume["sections"]) %>
+        <% if volume["sections"]
+          sections(book, media_manager, volume["sections"])
+        else
+          section(book, media_manager, volume["galleries"])
+        end %>
       </div>
     <% end
   else
