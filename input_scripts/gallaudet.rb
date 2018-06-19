@@ -171,9 +171,15 @@ def add_media_to_chapter(media, media_manager_name, chapters, others)
   puts "Adding media to chapter" if GALLAUDET_VERBOSE
   media.each do |media_entry|
     if media_entry["volume"]
-      media_entry["sections"].each do |media_volume_entry|
-        media_volume_entry[media_volume_entry["content_type"]].each do |media_section_entry|
-          add_media_entry_to_chapter(media_section_entry, media_manager_name, chapters, others)
+      if media_entry["sections"]
+        media_entry["sections"].each do |media_volume_entry|
+          media_volume_entry[media_volume_entry["content_type"]].each do |media_section_entry|
+            add_media_entry_to_chapter(media_section_entry, media_manager_name, chapters, others)
+          end
+        end
+      else
+        media_entry[media_entry["content_type"]].each do |media_volume_entry|
+          add_media_entry_to_chapter(media_volume_entry, media_manager_name, chapters, others)
         end
       end
     end

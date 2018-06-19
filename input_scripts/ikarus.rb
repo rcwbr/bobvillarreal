@@ -96,9 +96,17 @@ def no_volume_gallery(galleries_info, ikarus_data_path, galleries_data_path, boo
 end
 
 def volume_gallery(galleries_info, ikarus_data_path, galleries_data_path, book_image_path, media_manager)
-  for gallery_section_counter in 0...galleries_info.length
-    galleries_info[gallery_section_counter]["volume"] = true
-    no_volume_gallery(galleries_info[gallery_section_counter]["sections"], ikarus_data_path, galleries_data_path, book_image_path, media_manager)
+  for gallery_volume_counter in 0...galleries_info.length
+    galleries_info[gallery_volume_counter]["volume"] = true
+    if media_manager["sectioned"]
+      no_volume_gallery(galleries_info[gallery_volume_counter]["sections"], ikarus_data_path, galleries_data_path, book_image_path, media_manager)
+    else
+      galleries_info[gallery_volume_counter]["content_type"] = media_manager["content_type"]
+      galleries_info[gallery_volume_counter]["content_name"] = media_manager["content_name"]
+      galleries_info[gallery_volume_counter]["content_path"] = media_manager["content_path"]
+      galleries_info[gallery_volume_counter]["page_title"] = media_manager["page_title"]
+      no_volume_gallery(galleries_info[gallery_volume_counter]["galleries"], ikarus_data_path, galleries_data_path, book_image_path, media_manager)
+    end
   end
 end
 

@@ -1,31 +1,37 @@
 ---
 -
-  name: "First Letter"
-  shortname: "First Letter"
-  path: "P1"
-  filename: "first_letter.yaml"
-  label-prefix: "P1"
+  name: "Volume 1: Almagro"
+  galleries:
+    -
+      name: "First Letter"
+      shortname: "First Letter"
+      path: "P1"
+      filename: "first_letter.yaml"
+      label-prefix: "P1"
+    -
+      name: "Second Letter"
+      shortname: "Second Letter"
+      path: "P2"
+      filename: "second_letter.yaml"
+      label-prefix: "P2"
+    -
+      name: "Third Letter"
+      shortname: "Third Letter"
+      path: "P3"
+      filename: "third_letter.yaml"
+      label-prefix: "P3"
 -
-  name: "Second Letter"
-  shortname: "Second Letter"
-  path: "P2"
-  filename: "second_letter.yaml"
-  label-prefix: "P2"
--
-  name: "Third Letter"
-  shortname: "Third Letter"
-  path: "P3"
-  filename: "third_letter.yaml"
-  label-prefix: "P3"
--
-  name: "Fifth Letter"
-  shortname: "Fifth Letter"
-  path: "P5"
-  filename: "fifth_letter.yaml"
-  label-prefix: "P5"
--
-  name: "Sixth Letter"
-  shortname: "Sixth Letter"
-  path: "P6"
-  filename: "sixth_letter.yaml"
-  label-prefix: "P6"
+  name: "Volume 2: Valdivia"
+  galleries:
+    -
+      name: "Fifth Letter"
+      shortname: "Fifth Letter"
+      path: "P5"
+      filename: "fifth_letter.yaml"
+      label-prefix: "P5"
+    -
+      name: "Sixth Letter"
+      shortname: "Sixth Letter"
+      path: "P6"
+      filename: "sixth_letter.yaml"
+      label-prefix: "P6"

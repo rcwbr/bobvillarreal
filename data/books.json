@@ -159,6 +159,7 @@
         "name": "gloster",
         "content_type": "galleries",
         "processing_type": "galleries",
+        "volumed": "true",
         "input_data_path": "gloster_data",
         "input_data_file": "paintings.yaml",
         "input_data_entries_path": "paintings",
