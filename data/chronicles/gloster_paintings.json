@@ -187,11 +187,11 @@
         "entry_page_title": "Paintings"
       }
     ],
-    "volume": true,
     "content_type": "galleries",
     "content_name": "Paintings",
     "content_path": "paintings",
-    "page_title": "Paintings"
+    "page_title": "Paintings",
+    "volume": true
   },
   {
     "name": "Volume 2: Valdivia",
@@ -273,10 +273,10 @@
         "entry_page_title": "Paintings"
       }
     ],
-    "volume": true,
     "content_type": "galleries",
     "content_name": "Paintings",
     "content_path": "paintings",
-    "page_title": "Paintings"
+    "page_title": "Paintings",
+    "volume": true
   }
 ]

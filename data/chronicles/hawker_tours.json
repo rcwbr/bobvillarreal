@@ -245,6 +245,10 @@
         ]
       }
     ],
+    "content_type": "tours",
+    "content_name": "Tours",
+    "content_path": "tours",
+    "page_title": "Tours",
     "volume": true
   },
   {
@@ -373,6 +377,10 @@
         ]
       }
     ],
+    "content_type": "tours",
+    "content_name": "Tours",
+    "content_path": "tours",
+    "page_title": "Tours",
     "volume": true
   }
 ]

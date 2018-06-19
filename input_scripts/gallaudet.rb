@@ -35,6 +35,10 @@ def process_volume_media(media_manager, book_input_data_path, book_output_data_p
   volumes_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{media_manager["output_filename"]}", "w")
 
   volumes_info.each do |volume|
+    volume["content_type"] = media_manager["content_type"]
+    volume["content_name"] = media_manager["content_name"]
+    volume["content_path"] = media_manager["content_path"]
+    volume["page_title"] = media_manager["page_title"]
     sections_info = volume["sections"]
     sections_info.each do |section|
       section["content_type"] = media_manager["content_type"]
