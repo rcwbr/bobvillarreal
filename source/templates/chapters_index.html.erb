@@ -5,26 +5,39 @@ media: chapters
 index_page: true
 ---
 
+<% def chapter(chapter, book) %>
+  <p>
+    <a href="/<%= book["shortname"] %>/chapter/<%= chapter["path"] %>">
+      <h3 class="chapter-name"><%= chapter["name"] || chapter["shortname"] %></h3>
+    </a>
+    <span class="index_content_links">
+      <% if chapter["media"] != nil
+        chapter["media"].each_with_index do |media_entry, index|
+          if index == 0 %>
+            <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
+          <% else %>
+            - <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
+          <% end %>
+        <% end
+      end %>
+    </span>
+  </p>
+<% end %>
+
 <div id="main">
   <div id="chapters-index-div">
     <h1 class="media-header"><%= book["chapters_header_text"] || "Chapters" %></h1>
-    <% chapters.each do |chapter| %>
-      <p>
-        <a href="/<%= book["shortname"] %>/chapter/<%= chapter["path"] %>">
-          <h3 class="chapter-name"><%= chapter["name"] || chapter["shortname"] %></h3>
-        </a>
-        <span class="index_content_links">
-          <% if chapter["media"] != nil
-            chapter["media"].each_with_index do |media_entry, index|
-              if index == 0 %>
-                <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
-              <% else %>
-                - <a href="/<%= book["shortname"] %>/<%= media_entry[1]["content_path"] %>/<%= media_entry[1]["path"] %>"><%= media_entry[1]["content_name"] %></a>
-              <% end %>
-            <% end
+    <% chapters.each do |volume|
+      if volume["chapters"] %>
+        <div class="volume-div">
+          <h1><%= volume["name"] %></h1>
+          <% volume["chapters"].each do |chapter|
+            chapter(chapter, book)
           end %>
-        </span>
-      </p>
-    <% end %>
+        </div>
+      <% else
+        chapter(volume, book)
+      end
+    end %>
   </div>
 </div>

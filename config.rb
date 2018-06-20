@@ -29,6 +29,14 @@ def build_sections(media_entry, book_data_path, media_manager, book, media_templ
 	end
 end
 
+def build_chapter(chapter_info, book_data_path, book)
+	puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
+	if chapter_info["media"]["ikarus_data"]
+		chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
+	end
+	proxy "/#{book_data_path}/chapter/#{chapter_info["path"]}/index.html", "/templates/chapter.html", :locals => { :book => book, :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tours_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -129,12 +137,14 @@ books.each do |book|
 	end
 
 	chapters = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_chapters.json"))
-	chapters.each do |chapter_info|
-		puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
-		if chapter_info["media"]["ikarus_data"]
-			chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
+	chapters.each do |volume|
+		if volume["chapters"]
+			volume["chapters"].each do |chapter|
+				build_chapter(chapter, book_data_path, book)
+			end
+		else
+			build_chapter(volume, book_data_path, book)
 		end
-		proxy "/#{book_data_path}/chapter/#{chapter_info["path"]}/index.html", "/templates/chapter.html", :locals => { :book => book, :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tours_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
 	end
 	others = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_others.json"))
 	proxy "/#{book_data_path}/chapters/index.html", "/templates/chapters_index.html", :locals => { :book => book, :chapters => chapters, :others => others }, :ignore => true
