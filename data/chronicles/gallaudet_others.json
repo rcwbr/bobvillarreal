@@ -6998,6 +6998,176 @@
     }
   },
   {
+    "shortname": "Part TT-UU",
+    "name": "Fifth Letter, Part TT-UU",
+    "path": "TT-UU",
+    "media": {
+      "hawker_data": {
+        "name": "Fifth Letter, Part TT-UU",
+        "shortname": "Part TT-UU",
+        "path": "TT-UU",
+        "tours": [
+          {
+            "title": "Fifth Letter, Part TT-UU",
+            "url": "https://www.youtube.com/embed/YNxptAxLLp4"
+          }
+        ],
+        "content_type": "tours",
+        "content_name": "Tours",
+        "content_path": "tours",
+        "page_title": "Tours",
+        "entry_page_title": "Tours"
+      },
+      "ikarus_data": {
+        "name": "Fifth Letter, Part TT-UU",
+        "shortname": "Part TT-UU",
+        "path": "5TT-UU",
+        "filename": "5TT-UU.yaml",
+        "label-prefix": "5TT-UU",
+        "images_path": "images/chronicles/galleries/5TT-UU",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "An artist's rendering of the Inca <i>Toqui</i>, Michimalongo.  Despite his several years of opposition to the Christians, he eventually decided to accept them and entered into an agreement of friendship with Valdivia.  Courtesy of memoriachilena.",
+              "filename": "michimalongo.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "In February, 1546, Valdivia and sixty horse soldiers journeyed south from Santiago to found new towns and pacify the Mapuche.  This is one of the rivers they crossed, the  R&iacute;o Maule.  Courtesy of Juan Bustos.",
+              "filename": "rio_maule.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "The R&iacute;o Maule region.  Google Earth image.",
+              "filename": "rio_maule_region.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Farther south, they crossed the R&iacute;o Nuble.  Google Earth image.",
+              "filename": "rio_nuble.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The landscape near the the R&iacute;o Nuble.  Courtesy of Patricio Ahumada.",
+              "filename": "rio_nuble_region.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Heavy forested landscape near the R&iacute;o Nuble.  Courtesy of Pixabay.",
+              "filename": "jungle.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "1922 Original half-tone print of an Araucanian home structure.  Publisher:  National Geographic.  R. Villarreal Collection.",
+              "filename": "araucanian.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "The Battle of Quilacura took place at night, with the Mapuche hiding in high grass like this.  Courtesy of pexels.",
+              "filename": "high_grass.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Image of the Quilacura battle site.  Google Earth.",
+              "filename": "battle_site.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Area near where the Battle of Quilacura took place.  Courtesy of Maria Figueroa.",
+              "filename": "maria_figueroa.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Following the Battle of Quiiacura, the Christians marched west for the coast near the R&iacute;o BioBio.  Courtesy of Maly1995",
+              "filename": "Rio_BioBio_Maly1995.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Another photo of the BioBio.  Courtesy of M. Escobar.",
+              "filename": "Rio_BioBio_M_Escobar.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "An image of the Penco, Concepci&oacute;n area.  Captain Valdivia decided this location would be the future site of a new town. Google Earth.",
+              "filename": "fort_penco_goog.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "A modern day view of Concepci&oacute;n.  Courtesy of Alvaro Molina.",
+              "filename": "Concepcion_AlvaroMolina.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "The forested landscape to the east of Concepci&oacute;n.  Courtesy of WWF.",
+              "filename": "Concep_forests_WWF.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "The BioBio empties into the Pacific near Penco.  Courtesy of Pencos.",
+              "filename": "Bio_bio_into_ocean_G_Burgos.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Engraving depicting Valdivia, Villagran, and de Alderete.  Artist unknown.",
+              "filename": "Villagran_de_Alderete_from_Weldon_Vernon.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Captain Valdivia decided to go to Peru to help the Viceroy, Father Pedro de la Gasca, fight an insurrection led by Gonzalo Pizarro.  Valdivia destroyed the Pizarro forces in the course of one afternoon.  This depiction of the skirmish is by an unknown artist.",
+              "filename": "Jaquijahuana_unknown_artist.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The Inca fortress of Sacsayhuaman, where the battle with Pizarro took place.  I have personally toured this immense structure three times and marveled each time how the Inca resembled the Egyptians in their building prowess.  Courtesy of Peru Travel.",
+              "filename": "Sacsayhuaman_Peru_Travel.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
     "shortname": null,
     "name": "Volume 2: Valdivia",
     "path": null,
@@ -7117,6 +7287,22 @@
                   {
                     "title": "Fifth Letter, Part QQ-SS",
                     "url": "https://www.youtube.com/embed/dFq-65j7HvQ"
+                  }
+                ],
+                "content_type": "tours",
+                "content_name": "Tours",
+                "content_path": "tours",
+                "page_title": "Tours",
+                "entry_page_title": "Tours"
+              },
+              {
+                "name": "Fifth Letter, Part TT-UU",
+                "shortname": "Part TT-UU",
+                "path": "TT-UU",
+                "tours": [
+                  {
+                    "title": "Fifth Letter, Part TT-UU",
+                    "url": "https://www.youtube.com/embed/YNxptAxLLp4"
                   }
                 ],
                 "content_type": "tours",
@@ -8909,160 +9095,6 @@
         "content_path": "slideshows",
         "page_title": "Slideshows",
         "entry_page_title": "Slideshows"
-      }
-    }
-  },
-  {
-    "shortname": "Part TT-UU",
-    "name": "Fifth Letter, Part TT-UU",
-    "path": "5TT-UU",
-    "media": {
-      "ikarus_data": {
-        "name": "Fifth Letter, Part TT-UU",
-        "shortname": "Part TT-UU",
-        "path": "5TT-UU",
-        "filename": "5TT-UU.yaml",
-        "label-prefix": "5TT-UU",
-        "images_path": "images/chronicles/galleries/5TT-UU",
-        "galleries_path": "galleries",
-        "source_path": "../source",
-        "thumbs_folder_path": "thumbs",
-        "total_width": 960,
-        "images_per_row": 4,
-        "image_margins": 10,
-        "width_adjustment": 2,
-        "overlay_thumb_height": 100,
-        "image_matrix": [
-          [
-            {
-              "caption": "An artist's rendering of the Inca <i>Toqui</i>, Michimalongo.  Despite his several years of opposition to the Christians, he eventually decided to accept them and entered into an agreement of friendship with Valdivia.  Courtesy of memoriachilena.",
-              "filename": "michimalongo.jpg",
-              "attribution": "",
-              "label": "1"
-            },
-            {
-              "caption": "In February, 1546, Valdivia and sixty horse soldiers journeyed south from Santiago to found new towns and pacify the Mapuche.  This is one of the rivers they crossed, the  R&iacute;o Maule.  Courtesy of Juan Bustos.",
-              "filename": "rio_maule.jpg",
-              "attribution": "",
-              "label": "2"
-            },
-            {
-              "caption": "The R&iacute;o Maule region.  Google Earth image.",
-              "filename": "rio_maule_region.jpg",
-              "attribution": "",
-              "label": "3"
-            },
-            {
-              "caption": "Farther south, they crossed the R&iacute;o Nuble.  Google Earth image.",
-              "filename": "rio_nuble.jpg",
-              "attribution": "",
-              "label": "4"
-            }
-          ],
-          [
-            {
-              "caption": "The landscape near the the R&iacute;o Nuble.  Courtesy of Patricio Ahumada.",
-              "filename": "rio_nuble_region.jpg",
-              "attribution": "",
-              "label": "5"
-            },
-            {
-              "caption": "Heavy forested landscape near the R&iacute;o Nuble.  Courtesy of Pixabay.",
-              "filename": "jungle.jpg",
-              "attribution": "",
-              "label": "6"
-            },
-            {
-              "caption": "1922 Original half-tone print of an Araucanian home structure.  Publisher:  National Geographic.  R. Villarreal Collection.",
-              "filename": "araucanian.jpg",
-              "attribution": "",
-              "label": "7"
-            },
-            {
-              "caption": "The Battle of Quilacura took place at night, with the Mapuche hiding in high grass like this.  Courtesy of pexels.",
-              "filename": "high_grass.jpg",
-              "attribution": "",
-              "label": "8"
-            }
-          ],
-          [
-            {
-              "caption": "Image of the Quilacura battle site.  Google Earth.",
-              "filename": "battle_site.jpg",
-              "attribution": "",
-              "label": "9"
-            },
-            {
-              "caption": "Area near where the Battle of Quilacura took place.  Courtesy of Maria Figueroa.",
-              "filename": "maria_figueroa.jpg",
-              "attribution": "",
-              "label": "10"
-            },
-            {
-              "caption": "Following the Battle of Quiiacura, the Christians marched west for the coast near the R&iacute;o BioBio.  Courtesy of Maly1995",
-              "filename": "Rio_BioBio_Maly1995.jpg",
-              "attribution": "",
-              "label": "11"
-            },
-            {
-              "caption": "Another photo of the BioBio.  Courtesy of M. Escobar.",
-              "filename": "Rio_BioBio_M_Escobar.jpg",
-              "attribution": "",
-              "label": "12"
-            }
-          ],
-          [
-            {
-              "caption": "An image of the Penco, Concepci&oacute;n area.  Captain Valdivia decided this location would be the future site of a new town. Google Earth.",
-              "filename": "fort_penco_goog.jpg",
-              "attribution": "",
-              "label": "13"
-            },
-            {
-              "caption": "A modern day view of Concepci&oacute;n.  Courtesy of Alvaro Molina.",
-              "filename": "Concepcion_AlvaroMolina.jpg",
-              "attribution": "",
-              "label": "14"
-            },
-            {
-              "caption": "The forested landscape to the east of Concepci&oacute;n.  Courtesy of WWF.",
-              "filename": "Concep_forests_WWF.jpg",
-              "attribution": "",
-              "label": "15"
-            },
-            {
-              "caption": "The BioBio empties into the Pacific near Penco.  Courtesy of Pencos.",
-              "filename": "Bio_bio_into_ocean_G_Burgos.jpg",
-              "attribution": "",
-              "label": "16"
-            }
-          ],
-          [
-            {
-              "caption": "Engraving depicting Valdivia, Villagran, and de Alderete.  Artist unknown.",
-              "filename": "Villagran_de_Alderete_from_Weldon_Vernon.jpg",
-              "attribution": "",
-              "label": "17"
-            },
-            {
-              "caption": "Captain Valdivia decided to go to Peru to help the Viceroy, Father Pedro de la Gasca, fight an insurrection led by Gonzalo Pizarro.  Valdivia destroyed the Pizarro forces in the course of one afternoon.  This depiction of the skirmish is by an unknown artist.",
-              "filename": "Jaquijahuana_unknown_artist.jpg",
-              "attribution": "",
-              "label": "18"
-            },
-            {
-              "caption": "The Inca fortress of Sacsayhuaman, where the battle with Pizarro took place.  I have personally toured this immense structure three times and marveled each time how the Inca resembled the Egyptians in their building prowess.  Courtesy of Peru Travel.",
-              "filename": "Sacsayhuaman_Peru_Travel.jpg",
-              "attribution": "",
-              "label": "19"
-            }
-          ]
-        ],
-        "content_type": "galleries",
-        "content_name": "Galleries",
-        "content_path": "galleries",
-        "page_title": "Galleries",
-        "entry_page_title": "Gallery"
       }
     }
   },

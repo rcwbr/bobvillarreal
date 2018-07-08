@@ -4124,6 +4124,22 @@
         "shortname": "Part TT-UU",
         "path": "5TT-UU",
         "media": {
+          "hawker_data": {
+            "name": "Fifth Letter, Part TT-UU",
+            "shortname": "Part TT-UU",
+            "path": "TT-UU",
+            "tours": [
+              {
+                "title": "Fifth Letter, Part TT-UU",
+                "url": "https://www.youtube.com/embed/YNxptAxLLp4"
+              }
+            ],
+            "content_type": "tours",
+            "content_name": "Tours",
+            "content_path": "tours",
+            "page_title": "Tours",
+            "entry_page_title": "Tours"
+          },
           "ikarus_data": {
             "name": "Fifth Letter, Part TT-UU",
             "shortname": "Part TT-UU",
