@@ -28,6 +28,10 @@
       <% elsif book["shortname"] == "chronicles" %>
         <%= partial "partials/javascripts/chron_vol_script" %>
         <%= partial "partials/stylesheets/chronicles_home" %>
+      <% elsif book["shortname"] == "greeks" %>
+        <%= partial "partials/stylesheets/greeks_home" %>
+      <% elsif book["shortname"] == "romans" %>
+        <%= partial "partials/stylesheets/romans_home" %>
       <% end %>
     <% end %>
     <% if current_page.data.content_page %>
