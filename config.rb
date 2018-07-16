@@ -31,7 +31,7 @@ end
 
 def build_chapter(chapter_info, book_data_path, book)
 	puts "CHAPTER: Name: #{chapter_info["name"]}" if CONFIG_VERBOSE
-	if chapter_info["media"]["ikarus_data"]
+	if chapter_info != nil and chapter_info["media"]["ikarus_data"]
 		chapter_info["media"]["ikarus_data"]["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{chapter_info["media"]["ikarus_data"]["images_path"]}"
 	end
 	proxy "/#{book_data_path}/chapter/#{chapter_info["path"]}/index.html", "/templates/chapter.html", :locals => { :book => book, :chapter_info => chapter_info, :gallery_info => chapter_info["media"]["ikarus_data"], :passages_info => chapter_info["media"]["burgess_data"], :movies_info => chapter_info["media"]["macchi_data"], :tours_info => chapter_info["media"]["hawker_data"], :slideshows_info => chapter_info["media"]["bloch_data"] }, :ignore => true
@@ -80,70 +80,76 @@ books.each do |book|
 
 
 	non_content_pages = book["non_content_pages"]
-	non_content_pages.each do |non_content_page|
-		if !non_content_page["menu_only"]
-			proxy "/#{book_data_path}/#{non_content_page["location"]}/index.html", "#{book_data_path}/#{non_content_page["filename"]}", :locals => { :book => book, :non_content_pages => non_content_pages }, :ignore => true
+	if non_content_pages != nil
+		non_content_pages.each do |non_content_page|
+			if !non_content_page["menu_only"]
+				proxy "/#{book_data_path}/#{non_content_page["location"]}/index.html", "#{book_data_path}/#{non_content_page["filename"]}", :locals => { :book => book, :non_content_pages => non_content_pages }, :ignore => true
+			end
 		end
 	end
 
 	proxy "/#{book_data_path}/index.html", "#{book_data_path}/home.html", :locals => { :book => book, :non_content_pages => non_content_pages }, :ignore => true
 
 	media_managers = book["media_managers"]
-	media_managers.each do |media_manager|
-		media = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/#{media_manager["output_filename"]}"))
-		media.each do |media_entry|
-			case media_manager["name"]
-			when "burgess"
-				if media_entry["section"]
-					media_entry["passages"].each do |section_entry|
-						proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{section_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :media_entry => section_entry }, :ignore => true
+	if media_managers != nil
+		media_managers.each do |media_manager|
+			media = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/#{media_manager["output_filename"]}"))
+			media.each do |media_entry|
+				case media_manager["name"]
+				when "burgess"
+					if media_entry["section"]
+						media_entry["passages"].each do |section_entry|
+							proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{section_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :media_entry => section_entry }, :ignore => true
+						end
+					else
+						proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 					end
-				else
-					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/passages.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
-				end
-			when "ikarus"
-				if media_entry["volume"] then
-					media_entry["sections"].each do |media_section_entry|
-						build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+				when "ikarus"
+					if media_entry["volume"] then
+						media_entry["sections"].each do |media_section_entry|
+							build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+						end
+					else
+						build_gallery_sections(media_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
 					end
-				else
-					build_gallery_sections(media_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
-				end
 
-			when "gloster"
-				if media_entry["volume"]
-					media_entry["galleries"].each do |gallery|
-						build_gallery(gallery, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+				when "gloster"
+					if media_entry["volume"]
+						media_entry["galleries"].each do |gallery|
+							build_gallery(gallery, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+						end
 					end
-				end
-			when "vought"
-				media_entry["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{media_entry["images_path"]}"
-				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
-			when "bloch"
-				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
-			when "hawker"
-				if media_entry["volume"]
-					media_entry["sections"].each do |media_section_entry|
-						build_sections(media_section_entry, book_data_path, media_manager, book, "/templates/tours.html")
+				when "vought"
+					media_entry["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{media_entry["images_path"]}"
+					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+				when "bloch"
+					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+				when "hawker"
+					if media_entry["volume"]
+						media_entry["sections"].each do |media_section_entry|
+							build_sections(media_section_entry, book_data_path, media_manager, book, "/templates/tours.html")
+						end
+					else
+						build_sections(media_entry, book_data_path, media_manager, book, "/templates/tours.html")
 					end
-				else
-					build_sections(media_entry, book_data_path, media_manager, book, "/templates/tours.html")
+				when "macchi"
+					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/movies.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 				end
-			when "macchi"
-				proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/movies.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 			end
+			proxy "/#{book_data_path}/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_type"]}_index.html", :locals => { :book => book, :media_manager => media_manager, :media => media }, :ignore => true
 		end
-		proxy "/#{book_data_path}/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_type"]}_index.html", :locals => { :book => book, :media_manager => media_manager, :media => media }, :ignore => true
 	end
 
 	chapters = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_chapters.json"))
 	chapters.each do |volume|
-		if volume["chapters"]
-			volume["chapters"].each do |chapter|
-				build_chapter(chapter, book_data_path, book)
+		if volume != nil
+			if volume["chapters"]
+				volume["chapters"].each do |chapter|
+					build_chapter(chapter, book_data_path, book)
+				end
+			else
+				build_chapter(volume, book_data_path, book)
 			end
-		else
-			build_chapter(volume, book_data_path, book)
 		end
 	end
 	others = JSON.parse(File.read("#{DATA_PATH}/#{book_data_path}/gallaudet_others.json"))

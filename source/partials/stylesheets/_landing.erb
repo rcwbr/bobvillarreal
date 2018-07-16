@@ -2,30 +2,55 @@
   @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
   body {
     margin: 0px;
-    background-color: white;
+    background-color: #D9D9D9;
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
     font-family: "Raleway", "Helvetica Nueue", sans-serif;
   }
   a {
     text-decoration: none;
   }
 
+  div#center-section {
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+  }
+  h1#site-header {
+    text-align: center;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 50pt;
+    color: #505050;
+  }
+  p#site-description-p {
+    color: #303030;
+    font-size: 18pt;
+  }
   div.book-container-div {
-    width: 50%;
+    width: 49%;
+    height: 636px;
+    margin-top: 20px;
     float: left;
+  }
+  div.book-container-div:nth-child(even) {
+    float: right;
   }
   div.book-div {
     padding: 40px;
     text-align: center;
   }
   div.book-title-div {
-    height: 275px;
+    height: 245px;
   }
 
   h1.main-header {
     text-align: center;
     font-family: "Playfair Display", Helvetica;
     font-weight: 200;
-    font-size: 28pt;
+    font-size: 24pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   span.main-header-first-line-span {
     text-decoration: underline;
@@ -58,5 +83,29 @@
   }
   h1#chronicles-main-header {
     color: <%= books[1]["styles"]["color_three"] %>;
+  }
+
+  div#greeks-container-div {
+		background-color: <%= books[2]["styles"]["background-color"] %>;
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+  }
+  div#greeks-container-div a {
+    color: <%= books[2]["styles"]["color_one"] %>;
+  }
+  h1#greeks-main-header {
+    color: <%= books[2]["styles"]["color_one"] %>;
+  }
+
+  div#romans-container-div {
+    background-color: <%= books[3]["styles"]["background-color"] %>;
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+  }
+  div#romans-container-div a {
+    color: <%= books[3]["styles"]["color_one"] %>;
+  }
+  h1#romans-main-header {
+    color: <%= books[3]["styles"]["color_one"] %>;
   }
 </style>
