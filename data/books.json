@@ -237,6 +237,7 @@
     "home_title_text": "GREEK & ROMAN CLASSICAL LITERATURE",
     "styles": {
       "background-image": "greeks/background.png",
+      "background-color": "#5182bb",
       "color_one": "#0E233A",
       "color_two": "white",
       "color_three": "white"
@@ -251,6 +252,7 @@
     "home_title_text": "GREEK & ROMAN CLASSICAL LITERATURE",
     "styles": {
       "background-image": "romans/background.png",
+      "background-color": "#923736",
       "color_one": "#FFE0E0",
       "color_two": "white",
       "color_three": "white"

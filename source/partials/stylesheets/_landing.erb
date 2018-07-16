@@ -2,7 +2,7 @@
   @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
   body {
     margin: 0px;
-    background: url("/images/landing-background.png");
+    background-color: #D9D9D9;
     background-size: 72.6px 51px;
     background-attachment: fixed;
     font-family: "Raleway", "Helvetica Nueue", sans-serif;
@@ -86,7 +86,7 @@
   }
 
   div#greeks-container-div {
-    background: url("/images/<%= books[2]["styles"]["background-image"] %>");
+		background-color: <%= books[2]["styles"]["background-color"] %>;
     background-size: 72.6px 51px;
     background-attachment: fixed;
   }
@@ -98,7 +98,7 @@
   }
 
   div#romans-container-div {
-    background: url("/images/<%= books[3]["styles"]["background-image"] %>");
+    background-color: <%= books[3]["styles"]["background-color"] %>;
     background-size: 72.6px 51px;
     background-attachment: fixed;
   }
