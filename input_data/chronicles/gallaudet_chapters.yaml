@@ -81,3 +81,7 @@
       name: "Fifth Letter, Part TT-UU"
       shortname: "Part TT-UU"
       path: "5TT-UU"
+    -
+      name: "Fifth Letter, Part VV-ZZ"
+      shortname: "Part VV-ZZ"
+      path: "5VV-ZZ"
