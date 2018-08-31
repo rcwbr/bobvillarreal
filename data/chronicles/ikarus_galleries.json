@@ -3789,14 +3789,25 @@
             "content_path": "galleries",
             "page_title": "Galleries",
             "entry_page_title": "Gallery"
-          },
+          }
+        ],
+        "section": true,
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries"
+      },
+      {
+        "name": "Sixth Letter",
+        "shortname": "sixth",
+        "galleries": [
           {
-            "name": "Fifth Letter, Part VV-ZZ",
+            "name": "Sixth Letter, Part VV-ZZ",
             "shortname": "Part VV-ZZ",
-            "path": "5VV-ZZ",
-            "filename": "5VV-ZZ.yaml",
-            "label-prefix": "5VV-ZZ",
-            "images_path": "images/chronicles/galleries/5VV-ZZ",
+            "path": "6VV-ZZ",
+            "filename": "6VV-ZZ.yaml",
+            "label-prefix": "6VV-ZZ",
+            "images_path": "images/chronicles/galleries/6VV-ZZ",
             "galleries_path": "galleries",
             "source_path": "../source",
             "thumbs_folder_path": "thumbs",

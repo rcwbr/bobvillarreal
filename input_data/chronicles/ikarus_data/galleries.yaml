@@ -139,9 +139,13 @@
           path: "5TT-UU"
           filename: "5TT-UU.yaml"
           label-prefix: "5TT-UU"
+    -
+      name: "Sixth Letter"
+      shortname: "sixth"
+      galleries:
         -
-          name: "Fifth Letter, Part VV-ZZ"
+          name: "Sixth Letter, Part VV-ZZ"
           shortname: "Part VV-ZZ"
-          path: "5VV-ZZ"
-          filename: "5VV-ZZ.yaml"
-          label-prefix: "5VV-ZZ"
+          path: "6VV-ZZ"
+          filename: "6VV-ZZ.yaml"
+          label-prefix: "6VV-ZZ"
