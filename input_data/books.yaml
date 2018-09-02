@@ -8,6 +8,8 @@
     color_one: "#99CCFF"
     color_two: "white"
     color_three: "#D3E2FA"
+    header_font: "Playfair Display"
+    header_text_decoration: "underline"
   non_content_pages:
     -
       name: "About the Book"
@@ -101,6 +103,8 @@
     color_one: "#925237"
     color_two: "#731811"
     color_three: "#D1724E"
+    header_font: "Kristen ITC"
+    header_text_decoration: "none"
   chapters_menu_text: "INDEX"
   chapters_header_text: "Sections"
   non_content_pages:
@@ -214,6 +218,8 @@
     color_one: "#0E233A"
     color_two: "white"
     color_three: "white"
+    header_font: "Playfair Display"
+    header_text_decoration: "underline"
   other_book_menu_text: "All Books"
   other_book_location: "index.html"
 -
@@ -227,5 +233,7 @@
     color_one: "#FFE0E0"
     color_two: "white"
     color_three: "white"
+    header_font: "Playfair Display"
+    header_text_decoration: "underline"
   other_book_menu_text: "All Books"
   other_book_location: "index.html"
