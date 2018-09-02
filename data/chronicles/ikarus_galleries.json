@@ -3979,6 +3979,44 @@
                   "filename": "IMPERIAL_GOOG.jpg",
                   "attribution": "",
                   "label": "21"
+                },
+                {
+                  "caption": "Governor Valdivia established Fortress Valdivia on February 9, 1552 and named the town around it Santa Maria la Blanca de Valdivia.  Google Earth image.",
+                  "filename": "Fortress_Valdivia.jpg",
+                  "attribution": "",
+                  "label": "22"
+                },
+                {
+                  "caption": "The present day city of Valdivia.  Courtesy of TRIPADVISOR.",
+                  "filename": "VALDIV_CITY_OF.jpg",
+                  "attribution": "",
+                  "label": "23"
+                },
+                {
+                  "caption": "A forest scene on the outskirts of Valdivia.  The Christians skirmished with Mapuche near this area.  Courtesy of GO CHILE.",
+                  "filename": "FOREST_NEAR_VALDIV.jpg",
+                  "attribution": "",
+                  "label": "24"
+                }
+              ],
+              [
+                {
+                  "caption": "On February 19 of 1552, Captain Ger&oacute;nimo de Alderete performed the foundation ceremony for Santa Mar&iacute;a Magdalena de Villarrica.  It lies 65 miles northwest from Valdivia on the shores of Lago Villarrica.  Volcan Villarrica sits to the east.  Google image.",
+                  "filename": "VILLARRICA.jpg",
+                  "attribution": "",
+                  "label": "25"
+                },
+                {
+                  "caption": "Volcan Villarrica (9,380') is east of the city 15 miles away.  Courtesy of TripAdvisor.",
+                  "filename": "Villarrica_volcan.jpg",
+                  "attribution": "",
+                  "label": "26"
+                },
+                {
+                  "caption": "Mapuche warrior somewhere in the jungles and forests of southern Chile.  Artist: Robert Shore.",
+                  "filename": "MAPUCHE.jpeg",
+                  "attribution": "",
+                  "label": "27"
                 }
               ]
             ],
