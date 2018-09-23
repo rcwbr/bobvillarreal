@@ -4494,7 +4494,7 @@
               ],
               [
                 {
-                  "caption": "On February 19 of 1552, Captain Ger&oacute;nimo de Alderete performed the foundation ceremony for Santa Mar&iacute;a Magdalena de Villarrica.  It lies 65 miles northwest from Valdivia on the shores of Lago Villarrica.  Volcan Villarrica sits to the east.  Google image.",
+                  "caption": "On February 19 of 1552, Captain Ger&oacute;nimo de Alderete performed the foundation ceremony for Santa Mar&iacute;a Magdalena de Villarrica.  It lies 65 miles northeast from Valdivia on the shores of Lago Villarrica.  Volcan Villarrica sits to the east.  Google image.",
                   "filename": "VILLARRICA.jpg",
                   "attribution": "",
                   "label": "25"
@@ -4510,6 +4510,84 @@
                   "filename": "MAPUCHE.jpeg",
                   "attribution": "",
                   "label": "27"
+                },
+                {
+                  "caption": "In October of 1553, the Christians founded forts at Tucapel, Puren, and Los Confines.  Google image.",
+                  "filename": "Tucapel_Puren_Angol.jpg",
+                  "attribution": "",
+                  "label": "28"
+                }
+              ],
+              [
+                {
+                  "caption": "Los Confines today  (now known as Angol). Valdivia founded a fort here in October of 1553.  Courtesy of TripAdvisor.",
+                  "filename": "Los_Confines_Angol.jpg",
+                  "attribution": "",
+                  "label": "29"
+                },
+                {
+                  "caption": "Today's Fort Pur&eacute;n. On October 25 of 1553, Captain Juan G&oacute;mez de Almagro founded the fort of Pur&eacute;n. Courtesy of ccpoChile.",
+                  "filename": "Puren_Fort.jpg",
+                  "attribution": "",
+                  "label": "30"
+                },
+                {
+                  "caption": "Another view of Fort Pur&eacute;n.  Courtesy of Vidal.",
+                  "filename": "PUREN_Rodrigo_Vidal.jpg",
+                  "attribution": "",
+                  "label": "31"
+                },
+                {
+                  "caption": "Drawing of an unidentified Arauco war battle. Artist: de Bibar.",
+                  "filename": "Geronimo_de_Bibar.jpg",
+                  "attribution": "",
+                  "label": "32"
+                }
+              ],
+              [
+                {
+                  "caption": "Lautaro was a Mapuche youth who tricked Valdivia into thinking that he was on the side of the Christians in the war with the Mapuche.  Valdivia, impressed by him, took him on as his \\\"page.\\\"  Courtesy of subercaseaux.",
+                  "filename": "El_joven_Lautaro.png",
+                  "attribution": "",
+                  "label": "33"
+                },
+                {
+                  "caption": "Caupolican was one of the important Mapuche <i>toqui's</i> in the Arauco Wars against the Christians.  Courtesy of Nicanor.",
+                  "filename": "Caupolican_Nicanor.jpg",
+                  "attribution": "",
+                  "label": "34"
+                },
+                {
+                  "caption": "Colo-Colo was another <i>toqui</i> of prominence in the Wars.  Statue resides at the Estadio Monumental in Santiago, Chile.",
+                  "filename": "COLO-COLO.jpg",
+                  "attribution": "",
+                  "label": "35"
+                },
+                {
+                  "caption": "Lautaro escaped from the Christians in late 1552 and went into battle training under the tutelage of Caupolican and Colo-Colo.  Courtesy of biographiadechile.",
+                  "filename": "Lautaro_at_Tucapel.jpg",
+                  "attribution": "",
+                  "label": "36"
+                }
+              ],
+              [
+                {
+                  "caption": "On his way to join up with Valdivia at Tucapel, de Almagro was ambushed by Colo-Colo at today's Contulmo and was delayed by one day from the meeting, thus allowing the Mapuche to slaughter Valdivia and his men.   Courtesy of GoChile.",
+                  "filename": "CONTULMO.jpg",
+                  "attribution": "",
+                  "label": "37"
+                },
+                {
+                  "caption": "An artist's rendition of the possible last moments of Governor Valdivia and his men at the Battle of Tucapel on December 25 of 1553. Courtesy of ghconcepcion.",
+                  "filename": "Valdiv_last_moments.jpg",
+                  "attribution": "",
+                  "label": "38"
+                },
+                {
+                  "caption": "Another depiction of the Battle of Tucapel.  Since there were no survivors, we don't know exactly all that happened, other than the Mapuche chopped up the bodies, roasted some of the body parts, and \\\"gorged upon them.\\\" Courtesy of  commons.wikipedia.",
+                  "filename": "last_moments_wikipedia.jpg",
+                  "attribution": "",
+                  "label": "39"
                 }
               ]
             ],
