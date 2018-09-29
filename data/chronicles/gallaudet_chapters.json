@@ -4064,76 +4064,108 @@
                   "label": "14"
                 },
                 {
-                  "caption": "The <i>Santiaguillo</i> and the <i>San Pedro</i> prepare to leave the Valpara&iacute;so harbor on the exploration voyage to the south.  Artist:  Lima de Freitas.",
-                  "filename": "VALPA_HARBOR_LIMA.jpeg",
+                  "caption": "The anatomy of Captain Pastene's ship, the <i>San Pedro</i>, looked much like this on and above deck.",
+                  "filename": "SHIP_ANATOMY.jpg",
                   "attribution": "",
                   "label": "15"
                 },
                 {
-                  "caption": "The mate in the foremast nest shouts that an island is off the port side bow.  Captain Pastene named it Isla de San Nicolas de Tolentino.  Artist:  Lima de Freitas.",
-                  "filename": "SIGHT_LAND_LIMA.jpeg",
+                  "caption": "This mariner's spyglass was a necessity on board any sailing vessel. This one is two feet in length.  R. Villarreal collection.",
+                  "filename": "SPYGLASS_2FT.jpg",
                   "attribution": "",
                   "label": "16"
                 }
               ],
               [
                 {
-                  "caption": "The <i>San Pedro's</i> ship's mates attend to their duties atop the mizzenmast.  Artist:  Lima de Freitas.",
-                  "filename": "MATES_ON_DECK_LIMA.jpeg",
+                  "caption": "This nautical compass was likewise a sailing ship necessity.  R. Villarreal collection.",
+                  "filename": "NAUTICAL_COMPASS.jpg",
                   "attribution": "",
                   "label": "17"
                 },
                 {
-                  "caption": "After leaving Isla Tolentino, the ships encountered hard winds.  Here is how Pastene described it in his journal:   \\\"September 12, 1544.  Our progress to the S was slowed early on the morning watch as unfavorable head winds blowing lustily at 39&deg;15&prime;S caused me to tack frequently 80 degrees to port and starboard as we beat before the wind.  At mid-day, we were in a full gale that blew with such violence that the San Pedro was almost driven forecastle under until I ordered the sails taken in, which eased the situation considerably.\\\"  Artist:  Lima de Freitas.",
-                  "filename": "SHIP_STORM_LIMA.jpeg",
+                  "caption": "A replica of an astrolabe used by Pastene.  R. Villarreal collection.",
+                  "filename": "ASTROLABE.jpg",
                   "attribution": "",
                   "label": "18"
                 },
                 {
-                  "caption": "The <i>San Pedro</i> was similar to this 16th century caravel.  Courtesy of Alamy.",
-                  "filename": "caravel.jpg",
+                  "caption": "In another 100 years or so from Pastene's days, the nautical sextant (pictured) replaced the astrolabe to determine positioning and location.  R. Villarreal collection.",
+                  "filename": "SEXTANT.jpg",
                   "attribution": "",
                   "label": "19"
                 },
                 {
-                  "caption": "Captain Valdivia sent Pastene and several men on a month long voyage of discovery south from Valpara&iacute;so.  This is the route they followed.  Courtesy of wiki.",
-                  "filename": "voyage_route.jpg",
+                  "caption": "The <i>Santiaguillo</i> and the <i>San Pedro</i> prepare to leave the Valpara&iacute;so harbor on the exploration voyage to the south.  Artist:  Lima de Freitas.",
+                  "filename": "VALPA_HARBOR_LIMA.jpeg",
                   "attribution": "",
                   "label": "20"
                 }
               ],
               [
                 {
-                  "caption": "This is a Google map of their major discoveries:  Mancera Island, the R&iacute;o Valdivia, and the site of today's city of Valdivia.",
-                  "filename": "valdivia_country.jpg",
+                  "caption": "The mate in the foremast nest shouts that an island is off the port side bow.  Captain Pastene named it Isla de San Nicolas de Tolentino.  Artist:  Lima de Freitas.",
+                  "filename": "SIGHT_LAND_LIMA.jpeg",
                   "attribution": "",
                   "label": "21"
                 },
                 {
-                  "caption": "1878 original in-text wood engraving of a Mapuche family.  Creator:  Edward Stanford.  R. Villarreal Collection.",
-                  "filename": "mapuche.jpg",
+                  "caption": "The <i>San Pedro's</i> ship's mates attend to their duties atop the mizzenmast.  Artist:  Lima de Freitas.",
+                  "filename": "MATES_ON_DECK_LIMA.jpeg",
                   "attribution": "",
                   "label": "22"
                 },
                 {
-                  "caption": "The modern day city of Valdivia.  Courtesy of wiki.",
-                  "filename": "valdivia_town.jpg",
+                  "caption": "After leaving Isla Tolentino, the ships encountered hard winds.  Here is how Pastene described it in his journal:   \\\"September 12, 1544.  Our progress to the S was slowed early on the morning watch as unfavorable head winds blowing lustily at 39&deg;15&prime;S caused me to tack frequently 80 degrees to port and starboard as we beat before the wind.  At mid-day, we were in a full gale that blew with such violence that the San Pedro was almost driven forecastle under until I ordered the sails taken in, which eased the situation considerably.\\\"  Artist:  Lima de Freitas.",
+                  "filename": "SHIP_STORM_LIMA.jpeg",
                   "attribution": "",
                   "label": "23"
                 },
                 {
-                  "caption": "1903 Original halftone print of Valdivia.  Creator: George Philip & Son.  R. Villarreal Collection.",
-                  "filename": "valdivia_engraving.jpg",
+                  "caption": "The <i>San Pedro</i> was similar to this 16th century caravel.  Courtesy of Alamy.",
+                  "filename": "caravel.jpg",
                   "attribution": "",
                   "label": "24"
                 }
               ],
               [
                 {
+                  "caption": "Captain Valdivia sent Pastene and several men on a month long voyage of discovery south from Valpara&iacute;so.  This is the route they followed.  Courtesy of wiki.",
+                  "filename": "voyage_route.jpg",
+                  "attribution": "",
+                  "label": "25"
+                },
+                {
+                  "caption": "This is a Google map of their major discoveries:  Mancera Island, the R&iacute;o Valdivia, and the site of today's city of Valdivia.",
+                  "filename": "valdivia_country.jpg",
+                  "attribution": "",
+                  "label": "26"
+                },
+                {
+                  "caption": "1878 original in-text wood engraving of a Mapuche family.  Creator:  Edward Stanford.  R. Villarreal Collection.",
+                  "filename": "mapuche.jpg",
+                  "attribution": "",
+                  "label": "27"
+                },
+                {
+                  "caption": "The modern day city of Valdivia.  Courtesy of wiki.",
+                  "filename": "valdivia_town.jpg",
+                  "attribution": "",
+                  "label": "28"
+                }
+              ],
+              [
+                {
+                  "caption": "1903 Original halftone print of Valdivia.  Creator: George Philip & Son.  R. Villarreal Collection.",
+                  "filename": "valdivia_engraving.jpg",
+                  "attribution": "",
+                  "label": "29"
+                },
+                {
                   "caption": "Another dark forest scene typical of the landscape around Valdivia city.  Courtesy of visitchile.",
                   "filename": "forest_near_valdivia.jpg",
                   "attribution": "",
-                  "label": "25"
+                  "label": "30"
                 }
               ]
             ],
