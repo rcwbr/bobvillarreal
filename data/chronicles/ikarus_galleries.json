@@ -3385,94 +3385,102 @@
                   "label": "6"
                 },
                 {
-                  "caption": "Pedro de Gamboa's grid map for the new city of Santiago de Chile.  From \\\"Pedro de Valdivia\\\" by Ida Weldon Vernon.",
-                  "filename": "ValdivSantFounding.jpg",
+                  "caption": "Cerro Santa Luc&iacute;a viewed from Cerro San Crist&oacute;bal looking west.  Valdiva chose to place the new town of Santiago at the western foot of Santa Luc&iacute;a and build westward.   Courtesy of Dario Alpern.",
+                  "filename": "CERRO_SANTA_LUCIA_Dario_Alpern.jpg",
                   "attribution": "",
                   "label": "7"
                 },
                 {
-                  "caption": "Another grid map by de Gamboa from the same source.",
-                  "filename": "ValdivstreetplanCropped.jpg",
+                  "caption": "Pedro de Gamboa's grid map for the new city of Santiago de Chile.  From \\\"Pedro de Valdivia\\\" by Ida Weldon Vernon.",
+                  "filename": "ValdivSantFounding.jpg",
                   "attribution": "",
                   "label": "8"
                 }
               ],
               [
                 {
+                  "caption": "Another grid map by de Gamboa from the same source.",
+                  "filename": "ValdivstreetplanCropped.jpg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
                   "caption": "An early depiction of Santiago's Plaza Mayor.  Courtesy of wikimedia.",
                   "filename": "ValdivSantiagoplaza2wikimedia.jpg",
                   "attribution": "",
-                  "label": "9"
+                  "label": "10"
                 },
                 {
                   "caption": "Another look at the Plaza Mayor in the mid-1700's.  Courtesy of memoriachilena.",
                   "filename": "ValdivSantiagoplazamemoriachilena.jpg",
                   "attribution": "",
-                  "label": "10"
+                  "label": "11"
                 },
                 {
                   "caption": "Several months after Michimalongo and his Mapuche warriors attacked the Christians at Santa Lucίa, they heard that he had set up a fort to the west.  This is its approximate location.  Google Earth.",
                   "filename": "ValdivMichiFort.jpg",
-                  "attribution": "",
-                  "label": "11"
-                },
-                {
-                  "caption": "Valdivia and his men defeated Michimalongo at his fort.  As part of the surrender terms he gave Valdivia the gold mines at Marga Marga.  This is their probable location.  Google Earth.",
-                  "filename": "ValdivMargaMarga.jpg",
                   "attribution": "",
                   "label": "12"
                 }
               ],
               [
                 {
+                  "caption": "Valdivia and his men defeated Michimalongo at his fort.  As part of the surrender terms he gave Valdivia the gold mines at Marga Marga.  This is their probable location.  Google Earth.",
+                  "filename": "ValdivMargaMarga.jpg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
                   "caption": "Valdivia used an astrolabe like this 15th century one to find the latitude coordinate for the harbor of Valparaίso.  Courtesy of  Wikipedia.",
                   "filename": "ValdivAstrolabe.jpg",
                   "attribution": "",
-                  "label": "13"
+                  "label": "14"
                 },
                 {
                   "caption": "1903 Original Halftone Print of Port of Valparaίso.  Publisher: Bay View Magazine.  R. Villarreal Collection.",
                   "filename": "ValdivValpaPrintCropped.jpg",
                   "attribution": "",
-                  "label": "14"
+                  "label": "15"
                 },
                 {
                   "caption": "1810 painting of Valpara&iacute;so harbor.  R. Villarreal Collection.",
                   "filename": "ValdivValpariaso,.jpg",
-                  "attribution": "",
-                  "label": "15"
-                },
-                {
-                  "caption": "Valpara&iacute;so, known by sailors as \\\"Early San Francisco\\\" because of its proximity to the sea and its steep hills.   ambassador profiles.",
-                  "filename": "ValdivValpaAmbassadorprofiles.jpg",
                   "attribution": "",
                   "label": "16"
                 }
               ],
               [
                 {
+                  "caption": "Valpara&iacute;so, known by sailors as \\\"Early San Francisco\\\" because of its proximity to the sea and its steep hills.   ambassador profiles.",
+                  "filename": "ValdivValpaAmbassadorprofiles.jpg",
+                  "attribution": "",
+                  "label": "17"
+                },
+                {
                   "caption": "Comic book depiction of the Mapuche attack on Santiago town on September 12, 1541.  Courtesy of Chris Vares.",
                   "filename": "Valdivchile_destruction_of_santiago_1541_by_chrisvares-d8jci0s.jpg",
                   "attribution": "",
-                  "label": "17"
+                  "label": "18"
                 },
                 {
                   "caption": "Depiction of Do&ntilde;a In&eacute;z slaying the seven caciques.  Courtesy of <a href=\\\"http://wuz.it\\\">wuz.it</a>",
                   "filename": "ValdivInesSuarezbeheadinghostages.jpg",
                   "attribution": "",
-                  "label": "18"
+                  "label": "19"
                 },
                 {
                   "caption": "Another painting of the scene.  Incredible as it might seem, historians agree that this actually took place.  Courtesy of Jose Ortega.",
                   "filename": "ValdivInesbeheadingJoseOrtega.jpg",
                   "attribution": "",
-                  "label": "19"
-                },
+                  "label": "20"
+                }
+              ],
+              [
                 {
                   "caption": "Looking ahead, the layout of Santiago in 1865.  Courtesy of  Nichol&aacute;s Bolo&ntilde;a.",
                   "filename": "plano.jpg",
                   "attribution": "",
-                  "label": "20"
+                  "label": "21"
                 }
               ]
             ],
