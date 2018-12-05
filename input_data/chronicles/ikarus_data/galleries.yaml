@@ -1,6 +1,6 @@
 ---
 -
-  name: "Volume 1: Almagro"
+  name: "Volume I: Almagro"
   sections:
     -
       name: "First Letter"
@@ -87,7 +87,7 @@
           filename: "3X-Z.yaml"
           label-prefix: "3X"
 -
-  name: "Volume 2: Valdivia"
+  name: "Volume II: Valdivia"
   sections:
     -
       name: "Fourth Letter"
