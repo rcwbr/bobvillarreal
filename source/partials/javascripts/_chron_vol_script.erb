@@ -1,19 +1,29 @@
 <script>
-  var almagroDiv, valdiviaDiv;
+  var almagroDiv, valdiviaDiv, pizarroDiv;
+  function viewAlmagro() {
+    almagroDiv.style.display = 'block';
+    valdiviaDiv.style.display = 'none';
+    pizarroDiv.style.display = 'none';
+  }
   function viewValdivia() {
     almagroDiv.style.display = 'none';
     valdiviaDiv.style.display = 'block';
+    pizarroDiv.style.display = 'none';
   }
-  function viewAlmagro() {
+  function viewPizarro() {
+    almagroDiv.style.display = 'none';
     valdiviaDiv.style.display = 'none';
-    almagroDiv.style.display = 'block';
+    pizarroDiv.style.display = 'block';
   }
   window.onload = function () {
     almagroDiv = document.getElementById("almagro-div");
     valdiviaDiv = document.getElementById("valdivia-div");
-    var viewValdiviaButton = document.getElementById("view-valdivia-a");
+    pizarroDiv = document.getElementById("pizarro-div");
     var viewAlmagroButton = document.getElementById("view-almagro-a");
-    viewValdiviaButton.addEventListener("click", viewValdivia );
+    var viewValdiviaButton = document.getElementById("view-valdivia-a");
+    var viewPizarroButton = document.getElementById("view-pizarro-a");
     viewAlmagroButton.addEventListener("click", viewAlmagro );
+    viewValdiviaButton.addEventListener("click", viewValdivia );
+    viewPizarroButton.addEventListener("click", viewPizarro );
   }
 </script>
