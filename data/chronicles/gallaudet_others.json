@@ -2788,11 +2788,11 @@
   },
   {
     "shortname": null,
-    "name": "Volume 1: Almagro",
+    "name": "Volume I: Almagro",
     "path": null,
     "media": {
       "hawker_data": {
-        "name": "Volume 1: Almagro",
+        "name": "Volume I: Almagro",
         "sections": [
           {
             "name": "First Letter",
@@ -3044,7 +3044,7 @@
         "volume": true
       },
       "gloster_data": {
-        "name": "Volume 1: Almagro",
+        "name": "Volume I: Almagro",
         "galleries": [
           {
             "name": "First Letter",
@@ -3160,7 +3160,7 @@
               ],
               [
                 {
-                  "caption": "Lieutenant Alvarado, leading a search for gold outside Cuquimpu, attempts to intimidate a local chieftain into revealing where the natives have hidden the golden metal. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+                  "caption": "Please view this painting as the new <a href=\\\"P7/index.html\\\">P7.1</a>",
                   "filename": "image5.jpg",
                   "attribution": "",
                   "label": "5"
@@ -3238,7 +3238,7 @@
         "volume": true
       },
       "ikarus_data": {
-        "name": "Volume 1: Almagro",
+        "name": "Volume I: Almagro",
         "sections": [
           {
             "name": "First Letter",
@@ -7273,11 +7273,11 @@
   },
   {
     "shortname": null,
-    "name": "Volume 2: Valdivia",
+    "name": "Volume II: Valdivia",
     "path": null,
     "media": {
       "hawker_data": {
-        "name": "Volume 2: Valdivia",
+        "name": "Volume II: Valdivia",
         "sections": [
           {
             "name": "Fourth Letter",
@@ -7425,7 +7425,7 @@
         "volume": true
       },
       "gloster_data": {
-        "name": "Volume 2: Valdivia",
+        "name": "Volume II: Valdivia",
         "galleries": [
           {
             "name": "Fifth Letter",
@@ -7511,7 +7511,7 @@
         "volume": true
       },
       "ikarus_data": {
-        "name": "Volume 2: Valdivia",
+        "name": "Volume II: Valdivia",
         "sections": [
           {
             "name": "Fourth Letter",
@@ -9181,7 +9181,7 @@
           ],
           [
             {
-              "caption": "Lieutenant Alvarado, leading a search for gold outside Cuquimpu, attempts to intimidate a local chieftain into revealing where the natives have hidden the golden metal. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "caption": "Please view this painting as the new <a href=\\\"P7/index.html\\\">P7.1</a>",
               "filename": "image5.jpg",
               "attribution": "",
               "label": "5"
@@ -9347,6 +9347,94 @@
         "page_title": "Paintings",
         "content_longname": "Louis S. Glanzman Paintings",
         "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
+    "shortname": "Seventh Letter",
+    "name": "Seventh Letter",
+    "path": "P7",
+    "media": {
+      "gloster_data": {
+        "name": "Seventh Letter",
+        "shortname": "Seventh Letter",
+        "path": "P7",
+        "filename": "seventh_letter.yaml",
+        "label-prefix": "P7",
+        "images_path": "images/chronicles/galleries/P7",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Captain Hern&aacute;n de Soto charges Atahualpa, the lord high Inca, who grins in defiance in his first confrontation with a Spanish <i>conquistador</i>. The Captain had entered Atahualpa’s camp of 80,000 warriors to invite him to a meeting with Francisco Pizarro. On the next day, when the Inca was borne into Caxamalca in his litter, the Spanish captured him and held him hostage. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
+    "shortname": null,
+    "name": "Volume III: Pizarro",
+    "path": null,
+    "media": {
+      "gloster_data": {
+        "name": "Volume III: Pizarro",
+        "galleries": [
+          {
+            "name": "Seventh Letter",
+            "shortname": "Seventh Letter",
+            "path": "P7",
+            "filename": "seventh_letter.yaml",
+            "label-prefix": "P7",
+            "images_path": "images/chronicles/galleries/P7",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 2,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              [
+                {
+                  "caption": "Captain Hern&aacute;n de Soto charges Atahualpa, the lord high Inca, who grins in defiance in his first confrontation with a Spanish <i>conquistador</i>. The Captain had entered Atahualpa’s camp of 80,000 warriors to invite him to a meeting with Francisco Pizarro. On the next day, when the Inca was borne into Caxamalca in his litter, the Spanish captured him and held him hostage. <span class=\\\"attribution\\\">Courtesy Louis S. Glanzman and National Geographic Magazine.</span>",
+                  "filename": "image5.jpg",
+                  "attribution": "",
+                  "label": "1"
+                }
+              ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Paintings",
+            "content_path": "paintings",
+            "page_title": "Paintings",
+            "content_longname": "Louis S. Glanzman Paintings",
+            "entry_page_title": "Paintings"
+          }
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "volume": true
       }
     }
   },

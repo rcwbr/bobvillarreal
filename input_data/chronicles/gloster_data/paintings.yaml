@@ -1,6 +1,6 @@
 ---
 -
-  name: "Volume 1: Almagro"
+  name: "Volume I: Almagro"
   galleries:
     -
       name: "First Letter"
@@ -21,7 +21,7 @@
       filename: "third_letter.yaml"
       label-prefix: "P3"
 -
-  name: "Volume 2: Valdivia"
+  name: "Volume II: Valdivia"
   galleries:
     -
       name: "Fifth Letter"
@@ -35,3 +35,12 @@
       path: "P6"
       filename: "sixth_letter.yaml"
       label-prefix: "P6"
+-
+  name: "Volume III: Pizarro"
+  galleries:
+    -
+      name: "Seventh Letter"
+      shortname: "Seventh Letter"
+      path: "P7"
+      filename: "seventh_letter.yaml"
+      label-prefix: "P7"
