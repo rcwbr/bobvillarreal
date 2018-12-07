@@ -118,7 +118,7 @@
       "color_two": "#731811",
       "color_three": "#D1724E",
       "header_font": "Bookman Old Style",
-      "header_text_decoration": "none"
+      "header_text_decoration": "underline"
     },
     "chapters_menu_text": "INDEX",
     "chapters_header_text": "Sections",
