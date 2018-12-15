@@ -149,3 +149,13 @@
           path: "6VV-ZZ"
           filename: "6VV-ZZ.yaml"
           label-prefix: "6VV-ZZ"
+    -
+      name: "Seventh Letter"
+      shortname: "seventh"
+      galleries:
+        -
+          name: "Seventh Letter, Part A-D"
+          shortname: "Part A-D"
+          path: "7A-D"
+          filename: "7A-D.yaml"
+          label-prefix: "7A-D"
