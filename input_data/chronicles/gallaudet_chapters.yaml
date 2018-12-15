@@ -85,3 +85,10 @@
       name: "Sixth Letter, Part VV-ZZ"
       shortname: "Part VV-ZZ"
       path: "6VV-ZZ"
+-
+  name: "Volume III: Pizarro"
+  chapters:
+    -
+      name: "Seventh Letter, Part A-D"
+      shortname: "Part A-D"
+      path: "7A-D"

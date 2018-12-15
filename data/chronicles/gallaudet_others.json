@@ -9059,6 +9059,54 @@
             "content_name": "Galleries",
             "content_path": "galleries",
             "page_title": "Galleries"
+          },
+          {
+            "name": "Seventh Letter",
+            "shortname": "seventh",
+            "galleries": [
+              {
+                "name": "Seventh Letter, Part A-D",
+                "shortname": "Part A-D",
+                "path": "7A-D",
+                "filename": "7A-D.yaml",
+                "label-prefix": "7A-D",
+                "images_path": "images/chronicles/galleries/7A-D",
+                "galleries_path": "galleries",
+                "source_path": "../source",
+                "thumbs_folder_path": "thumbs",
+                "total_width": 960,
+                "images_per_row": 4,
+                "image_margins": 10,
+                "width_adjustment": 2,
+                "overlay_thumb_height": 100,
+                "image_matrix": [
+                  [
+                    {
+                      "caption": "An early map of Panam&aacute;. Captains Francisco Pizarro and Diego de Almagro sailed from Panam&aacute; city on several expeditions to the south from 1522-1532 in search of the golden kingdom of the Inca. De M&eacute;rida uses the ship journals of Pilot-Captain Juan Baut&iacute;sta de Pastene to re-create these dangerous and historic expeditions. Antique print by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. \\\"The New and Unknown World: or Description of America and the Southland.\\\" R. Villarreal Collection.",
+                      "filename": "PIZARRO_PANAMA_MONTANUS.jpg",
+                      "attribution": "",
+                      "label": "1"
+                    },
+                    {
+                      "caption": "Pedro de M&eacute;rida and Vicente Montesinos arrived in Peru with Captain Hern&aacute;n de Soto in 1532. De M&eacute;rida will tell of the fall of the Incas in his three letters to the King. Antique print, titled: Peru, by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. \\\"The New and Unknown World: or Description of America and the Southland.\\\" R. Villarreal Collection.",
+                      "filename": "PIZARRO_MONTANUS_PERU.jpg",
+                      "attribution": "",
+                      "label": "2"
+                    }
+                  ]
+                ],
+                "content_type": "galleries",
+                "content_name": "Galleries",
+                "content_path": "galleries",
+                "page_title": "Galleries",
+                "entry_page_title": "Gallery"
+              }
+            ],
+            "section": true,
+            "content_type": "galleries",
+            "content_name": "Galleries",
+            "content_path": "galleries",
+            "page_title": "Galleries"
           }
         ],
         "content_type": "galleries",
@@ -9971,6 +10019,50 @@
               "filename": "last_moments_wikipedia.jpg",
               "attribution": "",
               "label": "41"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Part A-D",
+    "name": "Seventh Letter, Part A-D",
+    "path": "7A-D",
+    "media": {
+      "ikarus_data": {
+        "name": "Seventh Letter, Part A-D",
+        "shortname": "Part A-D",
+        "path": "7A-D",
+        "filename": "7A-D.yaml",
+        "label-prefix": "7A-D",
+        "images_path": "images/chronicles/galleries/7A-D",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 2,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "An early map of Panam&aacute;. Captains Francisco Pizarro and Diego de Almagro sailed from Panam&aacute; city on several expeditions to the south from 1522-1532 in search of the golden kingdom of the Inca. De M&eacute;rida uses the ship journals of Pilot-Captain Juan Baut&iacute;sta de Pastene to re-create these dangerous and historic expeditions. Antique print by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. \\\"The New and Unknown World: or Description of America and the Southland.\\\" R. Villarreal Collection.",
+              "filename": "PIZARRO_PANAMA_MONTANUS.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Pedro de M&eacute;rida and Vicente Montesinos arrived in Peru with Captain Hern&aacute;n de Soto in 1532. De M&eacute;rida will tell of the fall of the Incas in his three letters to the King. Antique print, titled: Peru, by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. \\\"The New and Unknown World: or Description of America and the Southland.\\\" R. Villarreal Collection.",
+              "filename": "PIZARRO_MONTANUS_PERU.jpg",
+              "attribution": "",
+              "label": "2"
             }
           ]
         ],
