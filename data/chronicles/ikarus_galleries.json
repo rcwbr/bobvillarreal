@@ -3732,6 +3732,26 @@
                   "filename": "forest_near_valdivia.jpg",
                   "attribution": "",
                   "label": "31"
+                },
+                {
+                  "caption": "Pastene approaches Isla Santa Maria and claims it for King Phillip. Artist: Reynolds Stone.",
+                  "filename": "SHIP_AT_ISLA_STONE.jpg",
+                  "attribution": "",
+                  "label": "32"
+                }
+              ],
+              [
+                {
+                  "caption": "Isla Santa Maria lies just to the south of Concepci&oacute;n. Google image.",
+                  "filename": "SANTA_MARIA_GOOG.jpg",
+                  "attribution": "",
+                  "label": "33"
+                },
+                {
+                  "caption": "Captain Pastene and his men head ashore to Isla Santa Maria to barter with the natives. Artist: Lima de Freitas.",
+                  "filename": "BOAT_ASHORE_DE_FREITAS.jpg",
+                  "attribution": "",
+                  "label": "34"
                 }
               ]
             ],
@@ -3995,224 +4015,230 @@
                   "label": "9"
                 },
                 {
-                  "caption": "Valdivia founded Concepci&oacute;n de Mar&iacute;a Pur&iacute;sima del Nuevo Extremo on October 5 of 1550.  This is what the city looks like today.  Courtesy of HELLOCHILE.",
-                  "filename": "CONCEP_HELLOCHILE.jpg",
+                  "caption": "The <i>San Pedro</i> and <i>Santiaguillo</i> depart the Valpara&iacute;so roads for Concepci&oacute;n with fruit, vegetables, pigs, construction supplies, and workers for the new town. Artist: Lima de Freitas.",
+                  "filename": "SHIPS_GO_SOUTH_DE_FREITAS.jpg",
                   "attribution": "",
                   "label": "10"
                 },
                 {
-                  "caption": "Captain Pastene founded Isla Santa Maria south of Concepci&oacute;n and west of Arauco in 1550.  The Spanish traded for food with the islanders.  Today it has a population of 2,200.  Google image.",
-                  "filename": "ISLA_SANTA_MARIA_GOOG.jpg",
+                  "caption": "Valdivia founded Concepci&oacute;n de Mar&iacute;a Pur&iacute;sima del Nuevo Extremo on October 5 of 1550.  This is what the city looks like today.  Courtesy of HELLOCHILE.",
+                  "filename": "CONCEP_HELLOCHILE.jpg",
                   "attribution": "",
                   "label": "11"
                 },
                 {
-                  "caption": "A modern day view of Isla Santa Maria. The island is the place where the Herman Melville novel Benito Cereno takes place. Courtesy of GOCHILE.",
-                  "filename": "ISLA_SANTA_MARIA.jpg",
+                  "caption": "Captain Pastene founded Isla Santa Maria south of Concepci&oacute;n and west of Arauco in 1550.  The Spanish traded for food with the islanders.  Today it has a population of 2,200.  Google image.",
+                  "filename": "ISLA_SANTA_MARIA_GOOG.jpg",
                   "attribution": "",
                   "label": "12"
                 }
               ],
               [
                 {
+                  "caption": "A modern day view of Isla Santa Maria. The island is the place where the Herman Melville novel Benito Cereno takes place. Courtesy of GOCHILE.",
+                  "filename": "ISLA_SANTA_MARIA.jpg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
                   "caption": "Captene Pastene discovered this island in 1555 and named it Isla de San Nicolas de Tolentino.  Google image.",
                   "filename": "ISLA_MOCHA_GOOG.jpg",
                   "attribution": "",
-                  "label": "13"
+                  "label": "14"
                 },
                 {
                   "caption": "Isla San Nicolas was renamed Isla Mocha in the late 16th century.  The waters off the island are noted as the home of a famous 19th century sperm whale, Mocha Dick as depicted by American explorer and author Jeremiah N. Reynolds who published an account, \\\"Mocha Dick: Or The White Whale of the Pacific.\\\"  Herman Melville used this for his novel, Moby Dick.  Courtesy of TRAVELCHILE.",
                   "filename": "ISLA_MOCHA.jpg",
                   "attribution": "",
-                  "label": "14"
+                  "label": "15"
                 },
                 {
                   "caption": "In September of 1550, De M&eacute;rida was sent back to Santiago to work on <i>Cabildo</i> matters.  There, he greeted his new son, Vicente de M&eacute;rida de Santiago born a month before.  He was named after Pedro’s friend, Vicente Montesinos.  Courtesy of TRAVELSA.",
                   "filename": "SANTIAGO.jpg",
-                  "attribution": "",
-                  "label": "15"
-                },
-                {
-                  "caption": "A bust of the Mapuche <i>toqui</i>, Lautaro.",
-                  "filename": "LautaroBust.jpg",
                   "attribution": "",
                   "label": "16"
                 }
               ],
               [
                 {
+                  "caption": "A bust of the Mapuche <i>toqui</i>, Lautaro.",
+                  "filename": "LautaroBust.jpg",
+                  "attribution": "",
+                  "label": "17"
+                },
+                {
                   "caption": "Founded March 16 of 1551, the original site of La Imperial was destroyed several times through the years by the Mapuche and was relocated twelve miles east and named New Imperial.  The original town site has been re-founded as Carahue.  Google image.",
                   "filename": "LaImperialCarahueGoog.jpg",
                   "attribution": "",
-                  "label": "17"
+                  "label": "18"
                 },
                 {
                   "caption": "La Imperial, renamed Carahue, today has 25,000 citizens.  Courtesy of ELMOSTRADOR.",
                   "filename": "CARAHUE_ELMOSTRADOR.jpg",
                   "attribution": "",
-                  "label": "18"
+                  "label": "19"
                 },
                 {
                   "caption": "Although this sailing ship is from a later century, it provides a likeness of the <i>San Pedro</i>, captained by Juan Baut&iacute;sta de Pastene.  Artist: Geoffrey Ingleton.",
                   "filename": "SAN_PEDRO_INGLETON.jpg",
-                  "attribution": "",
-                  "label": "19"
-                },
-                {
-                  "caption": "Again, this is a later vessel, but it is similar to the <i>Santiaguillo</i>, piloted by Captain Diego Garc&iacute;a Villal&oacute;n.  Artist: Geoffrey Ingleton.",
-                  "filename": "SANTIAGUILLO_INGLETON.jpg",
                   "attribution": "",
                   "label": "20"
                 }
               ],
               [
                 {
+                  "caption": "Again, this is a later vessel, but it is similar to the <i>Santiaguillo</i>, piloted by Captain Diego Garc&iacute;a Villal&oacute;n.  Artist: Geoffrey Ingleton.",
+                  "filename": "SANTIAGUILLO_INGLETON.jpg",
+                  "attribution": "",
+                  "label": "21"
+                },
+                {
                   "caption": "De M&eacute;rida, back in Santiago with Valdivia for a brief visit, adopts with his wife, Pilca Huaca, an abandoned baby girl. They name her In&eacute;s de M&eacute;rida de Santiago de Chile after their friend, In&eacute;s de Su&aacute;rez.  Courtesy of GoChile.",
                   "filename": "SANTIAGO_2.jpg",
                   "attribution": "",
-                  "label": "21"
+                  "label": "22"
                 },
                 {
                   "caption": "Lautaro asked Valdivia's permission on the march south to leave the column to pick this flower with medicinal properties. With no one to watch him, he escaped and joined his Mapuche brethren.  Courtesy of NatMed.",
                   "filename": "Buddleja-globosa-flowers.jpg",
                   "attribution": "",
-                  "label": "22"
+                  "label": "23"
                 },
                 {
                   "caption": "Valdivia founded La Imperial on March 16, 1551.  Google image.",
                   "filename": "IMPERIAL_GOOG.jpg",
-                  "attribution": "",
-                  "label": "23"
-                },
-                {
-                  "caption": "Governor Valdivia established Fortress Valdivia on February 9, 1552 and named the town around it Santa Maria la Blanca de Valdivia.  Google Earth image.",
-                  "filename": "Fortress_Valdivia.jpg",
                   "attribution": "",
                   "label": "24"
                 }
               ],
               [
                 {
+                  "caption": "Governor Valdivia established Fortress Valdivia on February 9, 1552 and named the town around it Santa Maria la Blanca de Valdivia.  Google Earth image.",
+                  "filename": "Fortress_Valdivia.jpg",
+                  "attribution": "",
+                  "label": "25"
+                },
+                {
                   "caption": "The present day city of Valdivia.  Courtesy of TRIPADVISOR.",
                   "filename": "VALDIV_CITY_OF.jpg",
                   "attribution": "",
-                  "label": "25"
+                  "label": "26"
                 },
                 {
                   "caption": "A forest scene on the outskirts of Valdivia.  The Christians skirmished with Mapuche near this area.  Courtesy of GO CHILE.",
                   "filename": "FOREST_NEAR_VALDIV.jpg",
                   "attribution": "",
-                  "label": "26"
+                  "label": "27"
                 },
                 {
                   "caption": "On February 19 of 1552, Captain Ger&oacute;nimo de Alderete performed the foundation ceremony for Santa Mar&iacute;a Magdalena de Villarrica.  It lies 65 miles northeast from Valdivia on the shores of Lago Villarrica.  Volcan Villarrica sits to the east.  Google image.",
                   "filename": "VILLARRICA.jpg",
-                  "attribution": "",
-                  "label": "27"
-                },
-                {
-                  "caption": "Volcan Villarrica (9,380') is east of the city 15 miles away.  Courtesy of TripAdvisor.",
-                  "filename": "Villarrica_volcan.jpg",
                   "attribution": "",
                   "label": "28"
                 }
               ],
               [
                 {
+                  "caption": "Volcan Villarrica (9,380') is east of the city 15 miles away.  Courtesy of TripAdvisor.",
+                  "filename": "Villarrica_volcan.jpg",
+                  "attribution": "",
+                  "label": "29"
+                },
+                {
                   "caption": "A Mapuche warrior stares from his dark jungle hiding place as he waits for unsuspecting Christians.  Artist:  Robert Shore.",
                   "filename": "THE_FACE_CONRAD_SHORE.jpg",
                   "attribution": "",
-                  "label": "29"
+                  "label": "30"
                 },
                 {
                   "caption": "In October of 1553, the Christians founded forts at Tucapel, Puren, and Los Confines.  Google image.",
                   "filename": "Tucapel_Puren_Angol.jpg",
                   "attribution": "",
-                  "label": "30"
+                  "label": "31"
                 },
                 {
                   "caption": "Los Confines today  (now known as Angol). Valdivia founded a fort here in October of 1553.  Courtesy of TripAdvisor.",
                   "filename": "Los_Confines_Angol.jpg",
-                  "attribution": "",
-                  "label": "31"
-                },
-                {
-                  "caption": "Today's Fort Pur&eacute;n. On October 25 of 1553, Captain Juan G&oacute;mez de Almagro founded the fort of Pur&eacute;n. Courtesy of ccpoChile.",
-                  "filename": "Puren_Fort.jpg",
                   "attribution": "",
                   "label": "32"
                 }
               ],
               [
                 {
+                  "caption": "Today's Fort Pur&eacute;n. On October 25 of 1553, Captain Juan G&oacute;mez de Almagro founded the fort of Pur&eacute;n. Courtesy of ccpoChile.",
+                  "filename": "Puren_Fort.jpg",
+                  "attribution": "",
+                  "label": "33"
+                },
+                {
                   "caption": "Another view of Fort Pur&eacute;n.  Courtesy of Vidal.",
                   "filename": "PUREN_Rodrigo_Vidal.jpg",
                   "attribution": "",
-                  "label": "33"
+                  "label": "34"
                 },
                 {
                   "caption": "Drawing of an unidentified Arauco war battle. Artist: de Bibar.",
                   "filename": "Geronimo_de_Bibar.jpg",
                   "attribution": "",
-                  "label": "34"
+                  "label": "35"
                 },
                 {
                   "caption": "Lautaro was a Mapuche youth who tricked Valdivia into thinking that he was on the side of the Christians in the war with the Mapuche.  Valdivia, impressed by him, took him on as his \\\"page.\\\"  Courtesy of subercaseaux.",
                   "filename": "El_joven_Lautaro.png",
-                  "attribution": "",
-                  "label": "35"
-                },
-                {
-                  "caption": "Caupolican was one of the important Mapuche <i>toqui's</i> in the Arauco Wars against the Christians.  Courtesy of Nicanor.",
-                  "filename": "Caupolican_Nicanor.jpg",
                   "attribution": "",
                   "label": "36"
                 }
               ],
               [
                 {
+                  "caption": "Caupolican was one of the important Mapuche <i>toqui's</i> in the Arauco Wars against the Christians.  Courtesy of Nicanor.",
+                  "filename": "Caupolican_Nicanor.jpg",
+                  "attribution": "",
+                  "label": "37"
+                },
+                {
                   "caption": "Colo-Colo was another <i>toqui</i> of prominence in the Wars.  Statue resides at the Estadio Monumental in Santiago, Chile.",
                   "filename": "COLO-COLO.jpg",
                   "attribution": "",
-                  "label": "37"
+                  "label": "38"
                 },
                 {
                   "caption": "Lautaro escaped from the Christians in late 1552 and went into battle training under the tutelage of Caupolican and Colo-Colo.  Courtesy of biographiadechile.",
                   "filename": "Lautaro_at_Tucapel.jpg",
                   "attribution": "",
-                  "label": "38"
+                  "label": "39"
                 },
                 {
                   "caption": "On his way to join up with Valdivia at Tucapel, de Almagro was ambushed by Colo-Colo at today's Contulmo and was delayed by one day from the meeting, thus allowing the Mapuche to slaughter Valdivia and his men.   Courtesy of GoChile.",
                   "filename": "CONTULMO.jpg",
-                  "attribution": "",
-                  "label": "39"
-                },
-                {
-                  "caption": "An artist's rendition of the possible last moments of Governor Valdivia and his men at the Battle of Tucapel on December 25 of 1553. Courtesy of ghconcepcion.",
-                  "filename": "Valdiv_last_moments.jpg",
                   "attribution": "",
                   "label": "40"
                 }
               ],
               [
                 {
+                  "caption": "An artist's rendition of the possible last moments of Governor Valdivia and his men at the Battle of Tucapel on December 25 of 1553. Courtesy of ghconcepcion.",
+                  "filename": "Valdiv_last_moments.jpg",
+                  "attribution": "",
+                  "label": "41"
+                },
+                {
                   "caption": "Another depiction of the Battle of Tucapel.  Since there were no survivors, we don't know exactly all that happened, other than the Mapuche chopped up the bodies, roasted some of the body parts, and \\\"gorged upon them.\\\" Courtesy of  commons.wikipedia.",
                   "filename": "last_moments_wikipedia.jpg",
                   "attribution": "",
-                  "label": "41"
+                  "label": "42"
                 },
                 {
                   "caption": "Captain Pastene and the <i>San Pedro</i> head north from Valdivia to Concepci&oacute;n with men wounded in battles with the Mapuche after the disaster at Tucapel. Artist: Lima de Freitas.",
                   "filename": "SHIP_AT_NIGHT_DE_FREITAS.jpg",
                   "attribution": "",
-                  "label": "42"
+                  "label": "43"
                 },
                 {
                   "caption": "The <i>San Pedro</i> sails from Concepci&oacute;n north to Valpara&iacute;so. On board are the men injured in the Mapuche battles, including de M&eacute;rida with his crippling ankle injury. Artist: Reynolds Stone.",
                   "filename": "NEW_SHIP_NORTH_STONE.jpg",
                   "attribution": "",
-                  "label": "43"
+                  "label": "44"
                 }
               ]
             ],
