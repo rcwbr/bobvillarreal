@@ -18,7 +18,7 @@
   filename: "argentina.yaml"
   label-prefix: "A"
 -
-  name: "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the Conquistadors"
+  name: "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the <i>Conquistadors</i>"
   shortname: "Chapter 1 - Ojos del Salado"
   path: "1"
   filename: "chapter1.yaml"
