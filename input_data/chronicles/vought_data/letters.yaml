@@ -1,35 +1,35 @@
 ---
 -
   name: "The first Valdivia Letter, dated 4 September 1545"
-  shortname: "first"
+  shortname: "First"
   path: "L1"
   filename: "first_letter.yaml"
   label-prefix: "L1"
   images_per_row: 3
 -
   name: "The second letter, dated 15 June 1548"
-  shortname: "second"
+  shortname: "Second"
   path: "L2"
   filename: "second_letter.yaml"
   label-prefix: "L2"
   images_per_row: 3
 -
   name: "The third letter, dated 15 October 1550"
-  shortname: "third"
+  shortname: "Third"
   path: "L3"
   filename: "third_letter.yaml"
   label-prefix: "L3"
   images_per_row: 3
 -
   name: "The fourth letter, dated 25 September 1551"
-  shortname: "fourth"
+  shortname: "Fourth"
   path: "L4"
   filename: "fourth_letter.yaml"
   label-prefix: "L4"
   images_per_row: 3
 -
   name: "The fifth letter, dated 26 October 1552"
-  shortname: "fifth"
+  shortname: "Fifth"
   path: "L5"
   filename: "fifth_letter.yaml"
   label-prefix: "L5"

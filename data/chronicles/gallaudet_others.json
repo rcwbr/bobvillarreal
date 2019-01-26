@@ -10398,13 +10398,13 @@
     }
   },
   {
-    "shortname": "first",
+    "shortname": "First",
     "name": "The first Valdivia Letter, dated 4 September 1545",
     "path": "L1",
     "media": {
       "vought_data": {
         "name": "The first Valdivia Letter, dated 4 September 1545",
-        "shortname": "first",
+        "shortname": "First",
         "path": "L1",
         "filename": "first_letter.yaml",
         "label-prefix": "L1",
@@ -10587,23 +10587,23 @@
             }
           ]
         ],
-        "content_type": "galleries",
-        "content_name": "Letters",
-        "content_path": "letters",
-        "page_title": "Letters",
-        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "content_type": "historical",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
         "entry_page_title": "Letters"
       }
     }
   },
   {
-    "shortname": "second",
+    "shortname": "Second",
     "name": "The second letter, dated 15 June 1548",
     "path": "L2",
     "media": {
       "vought_data": {
         "name": "The second letter, dated 15 June 1548",
-        "shortname": "second",
+        "shortname": "Second",
         "path": "L2",
         "filename": "second_letter.yaml",
         "label-prefix": "L2",
@@ -10646,23 +10646,23 @@
             }
           ]
         ],
-        "content_type": "galleries",
-        "content_name": "Letters",
-        "content_path": "letters",
-        "page_title": "Letters",
-        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "content_type": "historical",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
         "entry_page_title": "Letters"
       }
     }
   },
   {
-    "shortname": "third",
+    "shortname": "Third",
     "name": "The third letter, dated 15 October 1550",
     "path": "L3",
     "media": {
       "vought_data": {
         "name": "The third letter, dated 15 October 1550",
-        "shortname": "third",
+        "shortname": "Third",
         "path": "L3",
         "filename": "third_letter.yaml",
         "label-prefix": "L3",
@@ -11017,23 +11017,23 @@
             }
           ]
         ],
-        "content_type": "galleries",
-        "content_name": "Letters",
-        "content_path": "letters",
-        "page_title": "Letters",
-        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "content_type": "historical",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
         "entry_page_title": "Letters"
       }
     }
   },
   {
-    "shortname": "fourth",
+    "shortname": "Fourth",
     "name": "The fourth letter, dated 25 September 1551",
     "path": "L4",
     "media": {
       "vought_data": {
         "name": "The fourth letter, dated 25 September 1551",
-        "shortname": "fourth",
+        "shortname": "Fourth",
         "path": "L4",
         "filename": "fourth_letter.yaml",
         "label-prefix": "L4",
@@ -11096,23 +11096,23 @@
             }
           ]
         ],
-        "content_type": "galleries",
-        "content_name": "Letters",
-        "content_path": "letters",
-        "page_title": "Letters",
-        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "content_type": "historical",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
         "entry_page_title": "Letters"
       }
     }
   },
   {
-    "shortname": "fifth",
+    "shortname": "Fifth",
     "name": "The fifth letter, dated 26 October 1552",
     "path": "L5",
     "media": {
       "vought_data": {
         "name": "The fifth letter, dated 26 October 1552",
-        "shortname": "fifth",
+        "shortname": "Fifth",
         "path": "L5",
         "filename": "fifth_letter.yaml",
         "label-prefix": "L5",
@@ -11175,11 +11175,11 @@
             }
           ]
         ],
-        "content_type": "galleries",
-        "content_name": "Letters",
-        "content_path": "letters",
-        "page_title": "Letters",
-        "content_longname": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+        "content_type": "historical",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
         "entry_page_title": "Letters"
       }
     }
