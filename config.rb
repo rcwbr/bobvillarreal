@@ -75,7 +75,7 @@ books.each do |book|
 
 	page "#{book_data_path}/galleries/*", :layout => "gallery"
 	page "#{book_data_path}/paintings/*", :layout => "gallery"
-	page "#{book_data_path}/historical/*", :layout => "gallery"
+	page "#{book_data_path}/historical/L*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
@@ -89,6 +89,12 @@ books.each do |book|
 	end
 
 	proxy "/#{book_data_path}/index.html", "#{book_data_path}/home.html", :locals => { :book => book, :non_content_pages => non_content_pages }, :ignore => true
+
+  if book["shortname"] == "chronicles"
+    media_entry = {"content_path" => "historical"}
+    proxy "/#{book_data_path}/historical/prescott/index.html", "#{book_data_path}/prescott.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+    proxy "/#{book_data_path}/historical/vega/index.html", "#{book_data_path}/vega.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+  end
 
 	media_managers = book["media_managers"]
 	if media_managers != nil
