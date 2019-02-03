@@ -6,7 +6,7 @@
     <!--<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"> -->
 
     <title><%= "#{book["title"]}" %>
-      <% if current_page.data.content_page && current_page.data.media != "chapters" %>
+      <% if current_page.data.content_page && current_page.data.media != "chapters" && current_page.data.media != "historical" %>
         <% if !current_page.data.index_page %>
           <% if media_entry["shortname"] != nil %>
             <%= " - #{media_entry["shortname"]} - #{media_entry["entry_page_title"]}" %>
