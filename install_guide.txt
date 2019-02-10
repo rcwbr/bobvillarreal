@@ -21,9 +21,9 @@ Install a JavaScript runtime, such as Node.js:
 	1: curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 	2: sudo apt-get install -y nodejs
 
-For AWS: 
+For AWS:
 Install Ruby: sudo apt-get install ruby-full
-Add bobvillarreal repo: git clone https://github.com/rcieoktgieke/bobvillarreal.git
+Add bobvillarreal repo: git clone https://github.com/rcwbr/bobvillarreal.git
 Install RubyGems:
 	1: mkdir Downloads; cd Downloads
 	2: wget https://rubygems.org/rubygems/rubygems-2.6.12.tgz
@@ -59,7 +59,7 @@ Setup ssh for sftp:
         		ChrootDirectory /home/%u
         		ForceCommand internal-sftp
 			X11Forwarding no
-        		AllowTcpForwarding no	
+        		AllowTcpForwarding no
 	4: Restart ssh: sudo systemctl restart ssh
 	5: And/or: sudo /etc/init.d/ssh restart
 Add ftp-only usergroup: sudo groupadd sftponly

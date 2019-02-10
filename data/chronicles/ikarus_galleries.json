@@ -19,7 +19,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -183,7 +183,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -552,7 +552,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -757,7 +757,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -976,7 +976,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -1114,7 +1114,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -1354,7 +1354,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -1521,7 +1521,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -1621,7 +1621,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -1945,7 +1945,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -2138,7 +2138,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -2429,7 +2429,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -2681,7 +2681,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -2858,7 +2858,7 @@
                   "label": "26"
                 },
                 {
-                  "caption": "Pomerape, Parinacota.  These two strato-volcanoes soon came in view.  Pomerape, at 20,610 feet, is in front, with Parinacota, at 20,827 feet, to the left and behind it. They are known as the &ldquo;Payachatas&rdquo;, or fraternal twins in Aymara. <span class=\\\"attribution\\\">Courtesy of Claudio Solari.</span>",
+                  "caption": "Pomerape, Parinacota.  These two strato-volcanoes soon came in view.  Pomerape, at 20,610 feet, is in front, with Parinacota, at 20,827 feet, to the left and behind it. They are known as the \\\"Payachatas\\\", or fraternal twins in Aymara. <span class=\\\"attribution\\\">Courtesy of Claudio Solari.</span>",
                   "filename": "image26.jpg",
                   "attribution": "",
                   "label": "27"
@@ -2916,7 +2916,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -3063,7 +3063,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -3268,7 +3268,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -3362,7 +3362,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -3529,7 +3529,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -3774,7 +3774,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -3952,7 +3952,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -4272,7 +4272,7 @@
             "total_width": 960,
             "images_per_row": 4,
             "image_margins": 10,
-            "width_adjustment": 2,
+            "width_adjustment": 4,
             "overlay_thumb_height": 100,
             "image_matrix": [
               [
@@ -4339,6 +4339,18 @@
                   "filename": "GRIJALVA.jpg",
                   "attribution": "",
                   "label": "10"
+                },
+                {
+                  "caption": "Captain Juan Bautista de Pastene was one of the Captain-pilots who transported the Captains Pizarro, Almagro, and their men from Panam&aacute; to various locations on the western coast of South America in search of the Inca from 1524 to 1532.  Artist: Alonso de Ovalle.",
+                  "filename": "PASTENE.jpg",
+                  "attribution": "",
+                  "label": "11"
+                },
+                {
+                  "caption": "Captain Bartolom&eacute; Ruiz started his career as a pilot for Christopher Columbus and later joined Francisco Pizarro and Diego de Almagro as their chief pilot in the conquest of Peru. Artist unknown.",
+                  "filename": "Bartolome_Ruiz.jpg",
+                  "attribution": "",
+                  "label": "12"
                 }
               ]
             ],
