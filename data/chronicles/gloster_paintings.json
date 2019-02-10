@@ -15,7 +15,7 @@
         "total_width": 960,
         "images_per_row": 4,
         "image_margins": 10,
-        "width_adjustment": 2,
+        "width_adjustment": 4,
         "overlay_thumb_height": 100,
         "image_matrix": [
           [
@@ -85,7 +85,7 @@
         "total_width": 960,
         "images_per_row": 4,
         "image_margins": 10,
-        "width_adjustment": 2,
+        "width_adjustment": 4,
         "overlay_thumb_height": 100,
         "image_matrix": [
           [
@@ -149,7 +149,7 @@
         "total_width": 960,
         "images_per_row": 4,
         "image_margins": 10,
-        "width_adjustment": 2,
+        "width_adjustment": 4,
         "overlay_thumb_height": 100,
         "image_matrix": [
           [
@@ -203,7 +203,7 @@
         "total_width": 960,
         "images_per_row": 4,
         "image_margins": 10,
-        "width_adjustment": 2,
+        "width_adjustment": 4,
         "overlay_thumb_height": 100,
         "image_matrix": [
           [
@@ -241,7 +241,7 @@
         "total_width": 960,
         "images_per_row": 4,
         "image_margins": 10,
-        "width_adjustment": 2,
+        "width_adjustment": 4,
         "overlay_thumb_height": 100,
         "image_matrix": [
           [
@@ -289,7 +289,7 @@
         "total_width": 960,
         "images_per_row": 4,
         "image_margins": 10,
-        "width_adjustment": 2,
+        "width_adjustment": 4,
         "overlay_thumb_height": 100,
         "image_matrix": [
           [
