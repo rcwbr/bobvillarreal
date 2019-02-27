@@ -4359,6 +4359,18 @@
                   "filename": "Bartolome_Ruiz.jpg",
                   "attribution": "",
                   "label": "13"
+                },
+                {
+                  "caption": "The Peru/Humboldt Current extends from southern Chile (-45th parallel south) to northern Peru (-4th parallel south). Ships sailing south down the western shores of South America had to tack continually in order to make progress.  When returning north, the Current was in their favor.",
+                  "filename": "winds.png",
+                  "attribution": "",
+                  "label": "14"
+                },
+                {
+                  "caption": "The westerlies are the prevailing winds in the middle latitudes. These winds blow from west to east and are from the southwest in the Northern Hemisphere and from the northwest in the Southern. The trade winds, or trades, are the prevailing easterly winds near the equator. They blow from the northeast in the Northern Hemisphere and from the southeast in the Southern. Ship pilots had to sail against them or with them when they traveled north or south.",
+                  "filename": "peru_current.png",
+                  "attribution": "",
+                  "label": "15"
                 }
               ]
             ],
