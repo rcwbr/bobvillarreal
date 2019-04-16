@@ -159,3 +159,9 @@
           path: "7A-D"
           filename: "7A-D.yaml"
           label-prefix: "7A-D"
+        -
+          name: "Seventh Letter, Part E-G"
+          shortname: "Part E-G"
+          path: "7E-G"
+          filename: "7E-G.yaml"
+          label-prefix: "7E-G"
