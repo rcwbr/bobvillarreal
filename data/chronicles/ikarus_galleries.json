@@ -4489,6 +4489,12 @@
                   "filename": "ANCHOR_BLIGH_INGLETON.jpeg",
                   "attribution": "",
                   "label": "33"
+                },
+                {
+                  "caption": "While Pizarro and his men marched along the coast towards Tumbez, they stopped at a place he named Puerto Viejo.  Captain-Pilot Ru&iacute;z in the <i>San Sebasti&aacute;n</i> and Pilot Tafur in the <i>Consolaci&oacute;n.</i> came with supplies and men to reinforce him and stopped at the Puerto. Lieutenant Vicente Montesinos was one of the fifty-six new men. Artist: Geoffrey C. Ingleton.",
+                  "filename": "TWO_SHIPS_INGLETON.jpeg",
+                  "attribution": "",
+                  "label": "34"
                 }
               ]
             ],
@@ -4526,6 +4532,44 @@
                   "filename": "ST_ELMO_CORPO_Max_de_Narisouty.jpg",
                   "attribution": "",
                   "label": "2"
+                },
+                {
+                  "caption": "Captain Ru&iacute;z in the <i>San Sebasti&aacute;n</i> ferries men from the mainland to Isla Pun&aacute;. Artist: Reynolds Stone.",
+                  "filename": "ONE_SHIP_Puna_ISLAND_STONE.jpeg",
+                  "attribution": "",
+                  "label": "3"
+                },
+                {
+                  "caption": "Captain Pastene in <i>Santiaguillo</i> nears Isla Pun&aacute; with Captain Hernando de Soto and the men he recruited on board, including Pedro de M&eacute;rida. Artist: Reynolds Stone.",
+                  "filename": "ONE_SHIP_Puna_STONE.jpeg",
+                  "attribution": "",
+                  "label": "4"
+                }
+              ],
+              [
+                {
+                  "caption": "Captain Hernando de Soto. After he left Peru in 1535, he journeyed to Florida, moved west, and founded the Mississippi River. He died on its banks on May 21, 1542. Artist: Lambert A. Wilmer.",
+                  "filename": "DE_SOTO_LAMBERT_A_WILMER.jpg",
+                  "attribution": "",
+                  "label": "5"
+                },
+                {
+                  "caption": "In February of 1532, Pizarro and his men are transported from Isla Pun&aacute; to Tumbez. Artist: Reynolds Stone.",
+                  "filename": "3_SHIPS_TRANQUIL_SEAS_from_Puna_DE_FREITAS.jpeg",
+                  "attribution": "",
+                  "label": "6"
+                },
+                {
+                  "caption": "The pilots and ships carrying the men to Tumbez were Captain-Pilot Ru&iacute;z in the <i>San Sebasti&aacute;n</i>, Captain-Pilot Pastene in the <i>Santiaguillo</i>, and Pilot Tafur in the <i>Consolaci&oacute;n.</i> Artist: Lima de Freitas.",
+                  "filename": "3_SHIPS_ON_WAY_TO_TUMBEZ_COLOR_LIMA.jpeg",
+                  "attribution": "",
+                  "label": "7"
+                },
+                {
+                  "caption": "Governor Pizarro points to Tumbez and where he wants to land and disembark. Artist: Lima de Freitas.",
+                  "filename": "PIZARRO_POINTS_DE_FREITAS.jpeg",
+                  "attribution": "",
+                  "label": "8"
                 }
               ]
             ],
