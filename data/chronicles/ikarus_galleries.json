@@ -4554,22 +4554,30 @@
                   "label": "5"
                 },
                 {
+                  "caption": "A stylized rendering of Captain Hernando de Soto by Everett Gee Jackson.",
+                  "filename": "DE_SOTO_JACKSON.jpeg",
+                  "attribution": "",
+                  "label": "6"
+                },
+                {
                   "caption": "In February of 1532, Pizarro and his men are transported from Isla Pun&aacute; to Tumbez. Artist: Reynolds Stone.",
                   "filename": "3_SHIPS_TRANQUIL_SEAS_from_Puna_DE_FREITAS.jpeg",
                   "attribution": "",
-                  "label": "6"
+                  "label": "7"
                 },
                 {
                   "caption": "The pilots and ships carrying the men to Tumbez were Captain-Pilot Ru&iacute;z in the <i>San Sebasti&aacute;n</i>, Captain-Pilot Pastene in the <i>Santiaguillo</i>, and Pilot Tafur in the <i>Consolaci&oacute;n.</i> Artist: Lima de Freitas.",
                   "filename": "3_SHIPS_ON_WAY_TO_TUMBEZ_COLOR_LIMA.jpeg",
                   "attribution": "",
-                  "label": "7"
-                },
+                  "label": "8"
+                }
+              ],
+              [
                 {
                   "caption": "Governor Pizarro points to Tumbez and where he wants to land and disembark. Artist: Lima de Freitas.",
                   "filename": "PIZARRO_POINTS_DE_FREITAS.jpeg",
                   "attribution": "",
-                  "label": "8"
+                  "label": "9"
                 }
               ]
             ],
