@@ -9521,6 +9521,24 @@
                       "filename": "INCA_ROADS_10.jpeg",
                       "attribution": "",
                       "label": "17"
+                    },
+                    {
+                      "caption": "A stylized rendering of a <i>chasqui</i> runner. Artist: Everett Gee Jackson.",
+                      "filename": "CHASQUI_JACKSON.jpeg",
+                      "attribution": "",
+                      "label": "18"
+                    },
+                    {
+                      "caption": "Qunchamarka <i>tambo</i>, a large storage structure on the Inca road to Machu Picchu. Courtesy of G. Robertson.",
+                      "filename": "QUNCHAMARKA_TAMBO_G_ROBERTSON.jpg",
+                      "attribution": "",
+                      "label": "19"
+                    },
+                    {
+                      "caption": "A fine example of a knotted <i>quipu</i>. Only those trained for years in their use could construct or interpret them. Courtesy of PERUARTI.",
+                      "filename": "INCA_QUIPU.jpg",
+                      "attribution": "",
+                      "label": "20"
                     }
                   ]
                 ],
@@ -10896,6 +10914,24 @@
               "filename": "INCA_ROADS_10.jpeg",
               "attribution": "",
               "label": "17"
+            },
+            {
+              "caption": "A stylized rendering of a <i>chasqui</i> runner. Artist: Everett Gee Jackson.",
+              "filename": "CHASQUI_JACKSON.jpeg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Qunchamarka <i>tambo</i>, a large storage structure on the Inca road to Machu Picchu. Courtesy of G. Robertson.",
+              "filename": "QUNCHAMARKA_TAMBO_G_ROBERTSON.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "A fine example of a knotted <i>quipu</i>. Only those trained for years in their use could construct or interpret them. Courtesy of PERUARTI.",
+              "filename": "INCA_QUIPU.jpg",
+              "attribution": "",
+              "label": "20"
             }
           ]
         ],
