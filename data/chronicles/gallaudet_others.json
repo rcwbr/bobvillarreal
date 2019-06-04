@@ -9413,7 +9413,7 @@
                 "image_matrix": [
                   [
                     {
-                      "caption": "The flames appearing at the mast heads are known as \\\"<i>corpo santo</i>,\\\" or, \\\"holy body.\\\"  This is the term Spanish sailors of the time called it. Today, we know it as St. Elmo’s fire. Artist unknown.",
+                      "caption": "The flames appearing at the mast heads are known as \\\"<i>corpo santo</i>,\\\" or, \\\"holy body.\\\" This is the term Spanish sailors of the time called it. Today, we know it as St. Elmo’s fire. Artist unknown.",
                       "filename": "ST_ELMO_ON_SHIP_UNK_ARTIST.jpg",
                       "attribution": "",
                       "label": "1"
@@ -9547,6 +9547,44 @@
                       "filename": "INCA_QUIPU.jpg",
                       "attribution": "",
                       "label": "21"
+                    },
+                    {
+                      "caption": "Viracocha. The villagers in the Andean towns visited by de Soto and his men as they searched for a representative of the Lord High Inca, Atahuallpa, hailed them as Viracochas. Viracocha was the the name they gave to the creator of all things in this world. Artist: Unknown.",
+                      "filename": "VIRACOCHA_1.jpg",
+                      "attribution": "",
+                      "label": "22"
+                    },
+                    {
+                      "caption": "Viracocha. Artist: Poma de Ayala.",
+                      "filename": "VIRACOCHA_POMA_2.jpg",
+                      "attribution": "",
+                      "label": "23"
+                    },
+                    {
+                      "caption": "Inti, the sun god. On the gold drinking vessel Atahuallpa sent Pizarro, the Inti was carved on its side. Also, the Inti is displayed on the national flag of Peru. Artist: Bernardo de Tagli.",
+                      "filename": "THE_INTI_SUN_GOD_Jose_Bernardo_de_Tagle_3.png",
+                      "attribution": "",
+                      "label": "24"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "Pachacuti Inca pays homage to the Inti. Artist: Martin de Murua.",
+                      "filename": "PACHACUTI_WORSHIPS_THE_INTI_MARTIN_DE_MURUA_4.jpg",
+                      "attribution": "",
+                      "label": "25"
+                    },
+                    {
+                      "caption": "The silver drinking fountain given Pizarro was engraved with the image of the moon goddess, Mama Quilla.",
+                      "filename": "INCA_MOON_GODDESS.jpg",
+                      "attribution": "",
+                      "label": "26"
+                    },
+                    {
+                      "caption": "Father de Segovia, who accompanied de Soto in the search for Atahuallpa's envoy, blesses villagers in Caxas. Artist: Everett Gee Jackson.",
+                      "filename": "FATHER_DE_SEGOVIA_JACKSON.jpeg",
+                      "attribution": "",
+                      "label": "27"
                     }
                   ]
                 ],
@@ -10814,7 +10852,7 @@
         "image_matrix": [
           [
             {
-              "caption": "The flames appearing at the mast heads are known as \\\"<i>corpo santo</i>,\\\" or, \\\"holy body.\\\"  This is the term Spanish sailors of the time called it. Today, we know it as St. Elmo’s fire. Artist unknown.",
+              "caption": "The flames appearing at the mast heads are known as \\\"<i>corpo santo</i>,\\\" or, \\\"holy body.\\\" This is the term Spanish sailors of the time called it. Today, we know it as St. Elmo’s fire. Artist unknown.",
               "filename": "ST_ELMO_ON_SHIP_UNK_ARTIST.jpg",
               "attribution": "",
               "label": "1"
@@ -10948,6 +10986,44 @@
               "filename": "INCA_QUIPU.jpg",
               "attribution": "",
               "label": "21"
+            },
+            {
+              "caption": "Viracocha. The villagers in the Andean towns visited by de Soto and his men as they searched for a representative of the Lord High Inca, Atahuallpa, hailed them as Viracochas. Viracocha was the the name they gave to the creator of all things in this world. Artist: Unknown.",
+              "filename": "VIRACOCHA_1.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "Viracocha. Artist: Poma de Ayala.",
+              "filename": "VIRACOCHA_POMA_2.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Inti, the sun god. On the gold drinking vessel Atahuallpa sent Pizarro, the Inti was carved on its side. Also, the Inti is displayed on the national flag of Peru. Artist: Bernardo de Tagli.",
+              "filename": "THE_INTI_SUN_GOD_Jose_Bernardo_de_Tagle_3.png",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "Pachacuti Inca pays homage to the Inti. Artist: Martin de Murua.",
+              "filename": "PACHACUTI_WORSHIPS_THE_INTI_MARTIN_DE_MURUA_4.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "The silver drinking fountain given Pizarro was engraved with the image of the moon goddess, Mama Quilla.",
+              "filename": "INCA_MOON_GODDESS.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "Father de Segovia, who accompanied de Soto in the search for Atahuallpa's envoy, blesses villagers in Caxas. Artist: Everett Gee Jackson.",
+              "filename": "FATHER_DE_SEGOVIA_JACKSON.jpeg",
+              "attribution": "",
+              "label": "27"
             }
           ]
         ],
