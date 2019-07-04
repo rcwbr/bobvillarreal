@@ -4744,6 +4744,40 @@
                   "attribution": "",
                   "label": "8"
                 }
+              ],
+              [
+                {
+                  "caption": "A stylized rendering of Governor Francisco Pizarro. Artist: Everett Gee Jackson.",
+                  "filename": "PIZARRO_JACKSON.jpeg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
+                  "caption": "Pizarro and his men, now in the Andes on their way to Caxamalco (Cajamarca), began to see the high flying condor. Courtesy of SV Calpso.",
+                  "filename": "CONDOR_SVCALPSO.jpg",
+                  "attribution": "",
+                  "label": "10"
+                },
+                {
+                  "caption": "The journey took them through Bat&aacute;n Grande, once a city of the Sic&aacute;n Culture of the 8th-12th century A.D. Here are some of the ruins still standing. Courtesy of Grande Tours.",
+                  "filename": "RUINS_GRANDE_TOURS.jpg",
+                  "attribution": "",
+                  "label": "11"
+                },
+                {
+                  "caption": "Map showing the terrain Pizarro and his men passed over. Google Earth.",
+                  "filename": "LA_RAMADA_TO_CAXAMALCA_GOOG.jpg",
+                  "attribution": "",
+                  "label": "12"
+                }
+              ],
+              [
+                {
+                  "caption": "A rendering of the terrain encountered on the journey to Caxamalco. Artist: Edward Bawden.",
+                  "filename": "HORSES_ABOVE_BAWDEN.jpeg",
+                  "attribution": "",
+                  "label": "13"
+                }
               ]
             ],
             "content_type": "galleries",
