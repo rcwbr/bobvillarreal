@@ -5081,22 +5081,48 @@
                   "label": "9"
                 },
                 {
+                  "caption": "The Inca Empire ranged north from Cusco to the towns of Pasto and Quito. Eighty miles south of Quito is the famed mountain of Chimborazo (20,702 feet), a peak the Inca respected because of the mountain gods that resided there. The Inca civil war was caused by Atahuallpa seeking to overthrow his brother, Huascar, and claim the Empire for his own. His leading generals were Quizquiz, Chalicuchima, and Rumiñavi. In April of 1532, Quizquiz and his men led the armies of Atahuallpa to victory at the battles of Mullihambato, Chimborazo, and Quipaipan. The Battle of Chimborazo took place near the peak. This is a wood engraving by the first man to ascend Chimborazo in January of 1880, Edward Whymper. This is called today the Whymper Ridge. R. Villarreal Collection.",
+                  "filename": "CHIMBO_RIDGE_WHYMPER.jpg",
+                  "attribution": "",
+                  "label": "10"
+                },
+                {
+                  "caption": "A Whymper engraving of the summit of Chimborazo. R. Villarreal Collection.",
+                  "filename": "CHIMBO_SUMMIT_WHYMPER.jpg",
+                  "attribution": "",
+                  "label": "11"
+                },
+                {
+                  "caption": "The Whymper Ridge is to the right with the Chimborazo summit behind. The author climbed to the top in March of 1988. R. Villarreal Collection.",
+                  "filename": "CHIMBO_RIDGE_AND_SUMMIT_MINE.jpg",
+                  "attribution": "",
+                  "label": "12"
+                }
+              ],
+              [
+                {
+                  "caption": "The author, before ascending the peak, stands on the outskirts of the small town of Guarandas to the west from Chimborazo in the distance. This area is where the Battle of Chimborazo was fought. R. Villarreal Collection.",
+                  "filename": "EcChimbo.jpg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
                   "caption": "Governor Pizarro founded San Miguel de Piura on 24 September of 1532. It served as the \\\"jump-off\\\" point for his journey into the Andes in the east to search for the High Inca, Atahuallpa. Courtesy of PERUTRAVEL.",
                   "filename": "PIURA_PERUTRAVEL.jpg",
                   "attribution": "",
-                  "label": "10"
+                  "label": "14"
                 },
                 {
                   "caption": "Pizarro sent Hernando de Soto and his men, including de M&eacute;rida, on a ride through near by towns in the Andes, Ayabaca, Caxas, and Huancabamba, in search of the whereabouts of Atahuallpa. Pizarro and his men waited in Zar&aacute;n (present-day name is Serran). Google Earth.",
                   "filename": "TUMPIURAAYACA_XAS.jpg",
                   "attribution": "",
-                  "label": "11"
+                  "label": "15"
                 },
                 {
                   "caption": "Today's Ayabaca, which sits at 8,900' in elevation. Some of de Soto's men were affected by the altitude. Mart&iacute;n gave them coca leaves to ease the effects. Coca is still used today in the Andes for the same purpose. Courtesy of GOPERU.",
                   "filename": "AYABACA_GOPERU.jpg",
                   "attribution": "",
-                  "label": "12"
+                  "label": "16"
                 }
               ],
               [
@@ -5104,25 +5130,25 @@
                   "caption": "In Huancabamba at 6,400', de Soto learned more as to the location of Atahuallpa and his army. Courtesy of Travel Peru.",
                   "filename": "HUANCA.jpg",
                   "attribution": "",
-                  "label": "13"
+                  "label": "17"
                 },
                 {
                   "caption": "Another picture of Huancabamba. Courtesy of R. Viente.",
                   "filename": "HUANCABAMBA_R_Viente.jpg",
                   "attribution": "",
-                  "label": "14"
+                  "label": "18"
                 },
                 {
                   "caption": "De M&eacute;rida explains to the King the elaborate and efficient road system of the Inca. This is a high level overview of the important royal roads. Courtesy of Victor W. von Hagen in his, <u>The Royal Road of the Inca.</u>",
                   "filename": "INCA_ROADS_7.jpeg",
                   "attribution": "",
-                  "label": "15"
+                  "label": "19"
                 },
                 {
                   "caption": "This is von Hagen's depiction of the roads of the northern empire.",
                   "filename": "INCA_ROADS_8.jpeg",
                   "attribution": "",
-                  "label": "16"
+                  "label": "20"
                 }
               ],
               [
@@ -5130,25 +5156,25 @@
                   "caption": "This is von Hagen's presentation of the royal Inca roads of the central empire.",
                   "filename": "INCA_ROADS_9.jpeg",
                   "attribution": "",
-                  "label": "17"
+                  "label": "21"
                 },
                 {
                   "caption": "Von Hagen's drawing of the southern Inca roads.",
                   "filename": "INCA_ROADS_10.jpeg",
                   "attribution": "",
-                  "label": "18"
+                  "label": "22"
                 },
                 {
                   "caption": "A stylized rendering of a <i>chasqui</i> runner. Artist: Everett Gee Jackson.",
                   "filename": "CHASQUI_JACKSON.jpeg",
                   "attribution": "",
-                  "label": "19"
+                  "label": "23"
                 },
                 {
                   "caption": "Qunchamarka <i>tambo</i>, a large storage structure on the Inca road to Machu Picchu. Courtesy of G. Robertson.",
                   "filename": "QUNCHAMARKA_TAMBO_G_ROBERTSON.jpg",
                   "attribution": "",
-                  "label": "20"
+                  "label": "24"
                 }
               ],
               [
@@ -5156,19 +5182,19 @@
                   "caption": "A fine example of a knotted <i>quipu</i>. Only those trained for years in their use could construct or interpret them. Courtesy of PERUARTI.",
                   "filename": "INCA_QUIPU.jpg",
                   "attribution": "",
-                  "label": "21"
+                  "label": "25"
                 },
                 {
                   "caption": "Viracocha. The villagers in the Andean towns visited by de Soto and his men as they searched for a representative of the Lord High Inca, Atahuallpa, hailed them as Viracochas. Viracocha was the the name they gave to the creator of all things in this world. Artist: Unknown.",
                   "filename": "VIRACOCHA_1.jpg",
                   "attribution": "",
-                  "label": "22"
+                  "label": "26"
                 },
                 {
                   "caption": "Viracocha. Artist: Poma de Ayala.",
                   "filename": "VIRACOCHA_POMA_2.jpg",
                   "attribution": "",
-                  "label": "23"
+                  "label": "27"
                 }
               ]
             ],
@@ -5285,6 +5311,32 @@
                   "filename": "HORSES_ABOVE_BAWDEN.jpeg",
                   "attribution": "",
                   "label": "13"
+                },
+                {
+                  "caption": "Caption: Pizarro and his men reached Ciudad Llama after a two day effort and a rise of 7,000 feet in elevation. Today's village has 3,000 inhabitants. Courtesy of Trip Advisor.",
+                  "filename": "CIUDAD_LLAMA_TRIP_ADVISOR.jpg",
+                  "attribution": "",
+                  "label": "14"
+                },
+                {
+                  "caption": "The Spaniards entered Chota, elevation 7,000 feet, to welcoming villagers hailing them as \\\"viracochas\\\" (gods). The city today has 47,000 citizens. Courtesy of TIENDEO.PE.",
+                  "filename": "CHOTA_PLAZA_MAYOR_TIENDEO_PE.jpg",
+                  "attribution": "",
+                  "label": "15"
+                },
+                {
+                  "caption": "The next town they came to, again with welcoming villagers, was Bambamarca, at 8,400 feet. Courtesy of Travel Peru.",
+                  "filename": "BAMBAMARCA_TRAVEL_PERU.jpg",
+                  "attribution": "",
+                  "label": "16"
+                }
+              ],
+              [
+                {
+                  "caption": "On November 14 of 1532, Pizarro and his men looked down upon the beautiful city of Caxamalca (Cajamarca), where Atahuallpa awaited their arrival. Its elevation is 8,900 feet and has a population of 201,000. Courtesy of Travel Peru.",
+                  "filename": "CAXAMALCA_X.jpg",
+                  "attribution": "",
+                  "label": "17"
                 }
               ]
             ],
