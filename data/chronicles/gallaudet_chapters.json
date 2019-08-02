@@ -3730,44 +3730,50 @@
                   "label": "3"
                 },
                 {
-                  "caption": "A Google Earth image of the area south of Huasco where the soldier, Juan Ru&iacute;z, was executed for various crimes.",
-                  "filename": "image4.jpg",
+                  "caption": "A depiction of the death of the lazy Indian.  Artist unknown.",
+                  "filename": "PUSH_OVER_CLIFF.jpg",
                   "attribution": "",
                   "label": "4"
                 }
               ],
               [
                 {
+                  "caption": "A Google Earth image of the area south of Huasco where the soldier, Juan Ru&iacute;z, was executed for various crimes.",
+                  "filename": "image4.jpg",
+                  "attribution": "",
+                  "label": "5"
+                },
+                {
                   "caption": "The place where the  Juan Ru&iacute;z execution probably took place.  <span class=\\\"attribution\\\">Courtesy chiletravel. </span>",
                   "filename": "image5.jpg",
                   "attribution": "",
-                  "label": "5"
+                  "label": "6"
                 },
                 {
                   "caption": "Mapuche warriors and their weapons.  <span class=\\\"attribution\\\">Courtesy missouri state.edu.</span>",
                   "filename": "image6.jpg",
                   "attribution": "",
-                  "label": "6"
+                  "label": "7"
                 },
                 {
                   "caption": "Google Earth image of the area below Cuquimpu depicting the probable locations of the skirmish with warrior natives in a low mountain pass and the site of the Francisco de Vald&eacute;z drowning on the Almagro Expedition.",
                   "filename": "image7.jpg",
-                  "attribution": "",
-                  "label": "7"
-                },
-                {
-                  "caption": "The Expedition reached the town of Papudo on December 15, 1540.  Google image.",
-                  "filename": "Valdiv4thPapudoGoog.jpg",
                   "attribution": "",
                   "label": "8"
                 }
               ],
               [
                 {
+                  "caption": "The Expedition reached the town of Papudo on December 15, 1540.  Google image.",
+                  "filename": "Valdiv4thPapudoGoog.jpg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
                   "caption": "Photo of today's Papudo. Courtesy of GoChile.",
                   "filename": "Valdiv4thPapudoPhoto.jpg",
                   "attribution": "",
-                  "label": "9"
+                  "label": "10"
                 }
               ]
             ],
