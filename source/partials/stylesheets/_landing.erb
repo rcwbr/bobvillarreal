@@ -71,23 +71,54 @@
     color: <%= books[0]["styles"]["color_three"] %>;
   }
 
-  div#chronicles-container-div {
+  h1.chronicles-main-header {
+    font-family: <%= books[1]["styles"]["header_font"] %>;
+    font-size: 24pt;
+  }
+  h1#chronicles-main-header > span.main-header-first-line-span {
+    font-size: 34pt;
+  }
+
+  div#almagro-container-div {
     background: url("/images/<%= books[1]["styles"]["background-image"] %>");
     background-size: 72.6px 51px;
     background-attachment: fixed;
 
     color: <%= books[1]["styles"]["color_two"] %>;
   }
-  div#chronicles-container-div a {
+  div#almagro-container-div a {
     color: <%= books[1]["styles"]["color_one"] %>;
   }
-  h1#chronicles-main-header {
+  h1#almagro-main-header {
     color: <%= books[1]["styles"]["color_three"] %>;
-    font-family: <%= books[1]["styles"]["header_font"] %>;
-    font-size: 30pt;
   }
-  h1#chronicles-main-header > span.main-header-first-line-span {
-    font-size: 34pt;
+
+  div#valdivia-container-div {
+    background-color: #B6581A;
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+
+    color: black;
+  }
+  div#valdivia-container-div a {
+    color: black;
+  }
+  h1#valdivia-main-header {
+    color: black;
+  }
+
+  div#pizarro-container-div {
+    background-color: #612424;
+    background-size: 72.6px 51px;
+    background-attachment: fixed;
+
+    color: white;
+  }
+  div#pizarro-container-div a {
+    color: #FFEEEE;
+  }
+  h1#pizarro-main-header {
+    color: white;
   }
 
   div#greeks-container-div {
