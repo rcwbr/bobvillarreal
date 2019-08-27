@@ -242,7 +242,7 @@ books.each do |book|
       # else
       #   gallaudet_chapters.push(gallaudet_chapters_entry)
       # end
-  		gallaudet_chapters.push(gallaudet_chapters_entry)
+      gallaudet_chapters.push(gallaudet_chapters_entry)
     end
   end
 
