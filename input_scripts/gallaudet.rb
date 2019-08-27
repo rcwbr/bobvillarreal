@@ -230,18 +230,20 @@ books.each do |book|
   gallaudet_others_output_file = File.open("#{OUTPUT_DATA_PATH}/#{book_output_data_path}/#{GALLAUDET_OTHERS_OUTPUT_FILENAME}", "w")
   gallaudet_chapters = []
   gallaudet_chapters_file = YAML.load_file("#{INPUT_DATA_PATH}/#{book_input_data_path}/#{GALLAUDET_DATA_PATH}/#{GALLAUDET_CHAPTERS_FILENAME}")
-  gallaudet_chapters_file.each do |gallaudet_chapters_entry|
-    # if gallaudet_chapters_entry["chapters"]
-    #   gallaudet_chapters_entry["chapters"].each do |gallaudet_chapters_section_entry|
-    #     gallaudet_chapters_section_entry["section_name"] = gallaudet_chapters_entry["name"]
-    #     gallaudet_chapters_section_entry["section_shortname"] = gallaudet_chapters_entry["shortname"]
-    #     gallaudet_chapters_section_entry["section_path"] = gallaudet_chapters_entry["path"]
-    #     gallaudet_chapters.push(gallaudet_chapters_section_entry)
-    #   end
-    # else
-    #   gallaudet_chapters.push(gallaudet_chapters_entry)
-    # end
-		gallaudet_chapters.push(gallaudet_chapters_entry)
+  if gallaudet_chapters_file
+    gallaudet_chapters_file.each do |gallaudet_chapters_entry|
+      # if gallaudet_chapters_entry["chapters"]
+      #   gallaudet_chapters_entry["chapters"].each do |gallaudet_chapters_section_entry|
+      #     gallaudet_chapters_section_entry["section_name"] = gallaudet_chapters_entry["name"]
+      #     gallaudet_chapters_section_entry["section_shortname"] = gallaudet_chapters_entry["shortname"]
+      #     gallaudet_chapters_section_entry["section_path"] = gallaudet_chapters_entry["path"]
+      #     gallaudet_chapters.push(gallaudet_chapters_section_entry)
+      #   end
+      # else
+      #   gallaudet_chapters.push(gallaudet_chapters_entry)
+      # end
+  		gallaudet_chapters.push(gallaudet_chapters_entry)
+    end
   end
 
   gallaudet_others = []
