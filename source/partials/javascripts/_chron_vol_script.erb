@@ -4,16 +4,19 @@
     almagroDiv.style.display = 'block';
     valdiviaDiv.style.display = 'none';
     pizarroDiv.style.display = 'none';
+    window.location.hash = '#almagro'
   }
   function viewValdivia() {
     almagroDiv.style.display = 'none';
     valdiviaDiv.style.display = 'block';
     pizarroDiv.style.display = 'none';
+    window.location.hash = '#valdivia'
   }
   function viewPizarro() {
     almagroDiv.style.display = 'none';
     valdiviaDiv.style.display = 'none';
     pizarroDiv.style.display = 'block';
+    window.location.hash = '#pizarro'
   }
   window.onload = function () {
     almagroDiv = document.getElementById("almagro-div");
@@ -25,5 +28,21 @@
     viewAlmagroButton.addEventListener("click", viewAlmagro );
     viewValdiviaButton.addEventListener("click", viewValdivia );
     viewPizarroButton.addEventListener("click", viewPizarro );
+    if (window.location.hash) {
+      switch (window.location.hash) {
+        case '#almagro':
+          viewAlmagro()
+          break;
+        case '#valdivia':
+          viewValdivia()
+          break;
+        case '#pizarro':
+          viewPizarro()
+          break;
+        default:
+          viewAlmagro()
+          break;
+      }
+    }
   }
 </script>
