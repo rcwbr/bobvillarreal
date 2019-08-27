@@ -1,0 +1,19 @@
+---
+-
+  name: "Ecuador | Chimborazo"
+  shortname: "Ecuador - Chimborazo"
+  path: "E"
+  filename: "ecuador.yaml"
+  label-prefix: "E"
+-
+  name: "Bolivia | Illimani"
+  shortname: "Bolivia - Illimani"
+  path: "B"
+  filename: "bolivia.yaml"
+  label-prefix: "B"
+-
+  name: "Argentina | Aconcagua"
+  shortname: "Argentina - Aconcagua"
+  path: "A"
+  filename: "argentina.yaml"
+  label-prefix: "A"

@@ -32,6 +32,8 @@
         <%= partial "partials/stylesheets/greeks_home" %>
       <% elsif book["shortname"] == "romans" %>
         <%= partial "partials/stylesheets/romans_home" %>
+      <% elsif book["shortname"] == "preamble" %>
+        <%= partial "partials/stylesheets/preamble_home" %>
       <% end %>
     <% end %>
     <% if current_page.data.content_page %>
