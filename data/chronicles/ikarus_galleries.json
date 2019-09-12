@@ -4843,14 +4843,25 @@
             "content_path": "galleries",
             "page_title": "Galleries",
             "entry_page_title": "Gallery"
-          },
+          }
+        ],
+        "section": true,
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries"
+      },
+      {
+        "name": "Eighth Letter",
+        "shortname": "eighth",
+        "galleries": [
           {
-            "name": "Seventh Letter, Part J-K",
+            "name": "Eighth Letter, Part J-K",
             "shortname": "Part J-K",
-            "path": "7J-K",
-            "filename": "7J-K.yaml",
-            "label-prefix": "7J-K",
-            "images_path": "images/chronicles/galleries/7J-K",
+            "path": "8J-K",
+            "filename": "8J-K.yaml",
+            "label-prefix": "8J-K",
+            "images_path": "images/chronicles/galleries/8J-K",
             "galleries_path": "galleries",
             "source_path": "../source",
             "thumbs_folder_path": "thumbs",
