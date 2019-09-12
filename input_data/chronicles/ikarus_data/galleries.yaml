@@ -171,9 +171,13 @@
           path: "7H-I"
           filename: "7H-I.yaml"
           label-prefix: "7H-I"
+    -
+      name: "Eighth Letter"
+      shortname: "eighth"
+      galleries:
         -
-          name: "Seventh Letter, Part J-K"
+          name: "Eighth Letter, Part J-K"
           shortname: "Part J-K"
-          path: "7J-K"
-          filename: "7J-K.yaml"
-          label-prefix: "7J-K"
+          path: "8J-K"
+          filename: "8J-K.yaml"
+          label-prefix: "8J-K"
