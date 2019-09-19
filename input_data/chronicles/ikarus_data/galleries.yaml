@@ -149,6 +149,9 @@
           path: "6VV-ZZ"
           filename: "6VV-ZZ.yaml"
           label-prefix: "6VV-ZZ"
+-
+  name: "Volume III: Pizarro"
+  sections:
     -
       name: "Seventh Letter"
       shortname: "seventh"
