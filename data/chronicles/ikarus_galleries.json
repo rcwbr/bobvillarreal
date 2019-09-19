@@ -4260,7 +4260,17 @@
         "content_name": "Galleries",
         "content_path": "galleries",
         "page_title": "Galleries"
-      },
+      }
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "volume": true
+  },
+  {
+    "name": "Volume III: Pizarro",
+    "sections": [
       {
         "name": "Seventh Letter",
         "shortname": "seventh",
