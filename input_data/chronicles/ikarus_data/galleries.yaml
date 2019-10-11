@@ -184,3 +184,9 @@
           path: "8J-K"
           filename: "8J-K.yaml"
           label-prefix: "8J-K"
+        -
+          name: "Eighth Letter, Part L-M"
+          shortname: "Part L-M"
+          path: "8L-M"
+          filename: "8L-M.yaml"
+          label-prefix: "8L-M"
