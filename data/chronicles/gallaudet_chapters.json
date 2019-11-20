@@ -5541,17 +5541,17 @@
         }
       },
       {
-        "name": "Eighth Letter, Part L-M",
-        "shortname": "Part L-M",
-        "path": "8L-M",
+        "name": "Eighth Letter, Part L-N",
+        "shortname": "Part L-N",
+        "path": "8L-N",
         "media": {
           "ikarus_data": {
-            "name": "Eighth Letter, Part L-M",
-            "shortname": "Part L-M",
-            "path": "8L-M",
-            "filename": "8L-M.yaml",
-            "label-prefix": "8L-M",
-            "images_path": "images/chronicles/galleries/8L-M",
+            "name": "Eighth Letter, Part L-N",
+            "shortname": "Part L-N",
+            "path": "8L-N",
+            "filename": "8L-N.yaml",
+            "label-prefix": "8L-N",
+            "images_path": "images/chronicles/galleries/8L-N",
             "galleries_path": "galleries",
             "source_path": "../source",
             "thumbs_folder_path": "thumbs",
@@ -5685,6 +5685,37 @@
                   "label": "19"
                 }
               ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Galleries",
+            "content_path": "galleries",
+            "page_title": "Galleries",
+            "entry_page_title": "Gallery"
+          }
+        }
+      },
+      {
+        "name": "Eighth Letter, Part O-P",
+        "shortname": "Part O-P",
+        "path": "8O-P",
+        "media": {
+          "ikarus_data": {
+            "name": "Eighth Letter, Part O-P",
+            "shortname": "Part O-P",
+            "path": "8O-P",
+            "filename": "8O-P.yaml",
+            "label-prefix": "8O-P",
+            "images_path": "images/chronicles/galleries/8O-P",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 4,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              []
             ],
             "content_type": "galleries",
             "content_name": "Galleries",
