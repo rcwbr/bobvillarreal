@@ -217,18 +217,19 @@
       },
       {
         "name": "vought",
-        "content_type": "historical",
+        "content_type": "galleries",
         "processing_type": "galleries",
+        "sectioned": "true",
         "input_data_path": "vought_data",
-        "input_data_file": "letters.yaml",
-        "input_data_entries_path": "letters",
-        "output_filename": "vought_letters.json",
+        "input_data_file": "sources.yaml",
+        "input_data_entries_path": "sources",
+        "output_filename": "vought_sources.json",
         "content_path": "historical",
         "content_name": "Historical",
         "content_longname": "Historical Sources",
         "menu_text": "HISTORICAL SOURCES",
         "page_title": "Historical",
-        "entry_page_title": "Letters"
+        "entry_page_title": "Sources"
       }
     ],
     "other_book_menu_text": "All Books",
