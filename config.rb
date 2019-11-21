@@ -76,6 +76,7 @@ books.each do |book|
 	page "#{book_data_path}/galleries/*", :layout => "gallery"
 	page "#{book_data_path}/paintings/*", :layout => "gallery"
 	page "#{book_data_path}/historical/L*", :layout => "gallery"
+	page "#{book_data_path}/historical/R*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
@@ -126,8 +127,13 @@ books.each do |book|
 						end
 					end
 				when "vought"
-					media_entry["images_path"] = "#{GALLERY_SITE_ROOT_PATH}#{media_entry["images_path"]}"
-					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/gallery.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+					if media_entry["volume"] then
+						media_entry["sections"].each do |media_section_entry|
+							build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+						end
+					else
+						build_gallery_sections(media_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+					end
 				when "bloch"
 					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/slideshows.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 				when "hawker"
@@ -142,7 +148,11 @@ books.each do |book|
 					proxy "/#{book_data_path}/#{media_manager["content_path"]}/#{media_entry["path"]}/index.html", "/templates/movies.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 				end
 			end
-			proxy "/#{book_data_path}/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_type"]}_index.html", :locals => { :book => book, :media_manager => media_manager, :media => media }, :ignore => true
+			if media_manager["content_path"] == 'historical'
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/index.html", "/templates/historical_index.html", :locals => { :book => book, :media_manager => media_manager, :media => media }, :ignore => true
+			else
+				proxy "/#{book_data_path}/#{media_manager["content_path"]}/index.html", "/templates/#{media_manager["content_type"]}_index.html", :locals => { :book => book, :media_manager => media_manager, :media => media }, :ignore => true
+			end
 		end
 	end
 

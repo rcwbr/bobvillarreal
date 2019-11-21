@@ -10525,7 +10525,7 @@
                       "label": "1"
                     },
                     {
-                      "caption": "To melt Atahuallpa's gold and silver ransom pieces, it took nine furnaces burning around the clock for four days. Artist: Everett Gee Jackson.",
+                      "caption": "Atahuallpa, the Lord High Inca.  Artist: Everett Gee Jackson.",
                       "filename": "ATA_IN_OPEN_FIELD_JACKSON.jpeg",
                       "attribution": "",
                       "label": "2"
@@ -12103,7 +12103,7 @@
               "label": "1"
             },
             {
-              "caption": "To melt Atahuallpa's gold and silver ransom pieces, it took nine furnaces burning around the clock for four days. Artist: Everett Gee Jackson.",
+              "caption": "Atahuallpa, the Lord High Inca.  Artist: Everett Gee Jackson.",
               "filename": "ATA_IN_OPEN_FIELD_JACKSON.jpeg",
               "attribution": "",
               "label": "2"
@@ -12449,12 +12449,12 @@
             }
           ]
         ],
-        "content_type": "historical",
+        "content_type": "galleries",
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
         "content_longname": "Historical Sources",
-        "entry_page_title": "Letters"
+        "entry_page_title": "Sources"
       }
     }
   },
@@ -12508,12 +12508,12 @@
             }
           ]
         ],
-        "content_type": "historical",
+        "content_type": "galleries",
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
         "content_longname": "Historical Sources",
-        "entry_page_title": "Letters"
+        "entry_page_title": "Sources"
       }
     }
   },
@@ -12879,12 +12879,12 @@
             }
           ]
         ],
-        "content_type": "historical",
+        "content_type": "galleries",
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
         "content_longname": "Historical Sources",
-        "entry_page_title": "Letters"
+        "entry_page_title": "Sources"
       }
     }
   },
@@ -12958,12 +12958,12 @@
             }
           ]
         ],
-        "content_type": "historical",
+        "content_type": "galleries",
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
         "content_longname": "Historical Sources",
-        "entry_page_title": "Letters"
+        "entry_page_title": "Sources"
       }
     }
   },
@@ -13037,12 +13037,111 @@
             }
           ]
         ],
-        "content_type": "historical",
+        "content_type": "galleries",
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
         "content_longname": "Historical Sources",
-        "entry_page_title": "Letters"
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Ransom",
+    "name": "The Distribution of Atahuallpa's Ransom",
+    "path": "R",
+    "media": {
+      "vought_data": {
+        "name": "The Distribution of Atahuallpa's Ransom",
+        "shortname": "Ransom",
+        "path": "R",
+        "filename": "ransom.yaml",
+        "label-prefix": "R",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/R",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "RANSOM_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "RANSOM_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "RANSOM_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "RANSOM_5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "RANSOM_6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "RANSOM_8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "RANSOM_9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
       }
     }
   }

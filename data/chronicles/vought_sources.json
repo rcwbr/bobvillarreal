@@ -1,0 +1,868 @@
+[
+  {
+    "name": "Valdivia's Five Letters to the King of Spain, 1545-1552",
+    "shortname": "letters",
+    "galleries": [
+      {
+        "name": "The first Valdivia Letter, dated 4 September 1545",
+        "shortname": "First",
+        "path": "L1",
+        "filename": "first_letter.yaml",
+        "label-prefix": "L1",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L1",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "image8.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "image9.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "image10.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "image11.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "image12.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "image13.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "image14.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "image15.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "image16.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "image17.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "image18.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "image19.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "image20.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "image21.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "image22.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "image23.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "image24.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "image25.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      },
+      {
+        "name": "The second letter, dated 15 June 1548",
+        "shortname": "Second",
+        "path": "L2",
+        "filename": "second_letter.yaml",
+        "label-prefix": "L2",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      },
+      {
+        "name": "The third letter, dated 15 October 1550",
+        "shortname": "Third",
+        "path": "L3",
+        "filename": "third_letter.yaml",
+        "label-prefix": "L3",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L3",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "image8.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "image9.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "image10.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "image11.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "image12.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "image13.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "image14.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "image15.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "image16.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "image17.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "image18.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "image19.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "image20.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "image21.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "image22.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "image23.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "image24.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "image25.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "image26.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "image27.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "image28.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "image29.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "image30.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "image31.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "filename": "image32.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "filename": "image33.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "33"
+            }
+          ],
+          [
+            {
+              "filename": "image34.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "filename": "image35.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "filename": "image36.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "filename": "image37.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "filename": "image38.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "filename": "image39.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "39"
+            }
+          ],
+          [
+            {
+              "filename": "image40.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "40"
+            },
+            {
+              "filename": "image41.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "41"
+            },
+            {
+              "filename": "image42.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "42"
+            }
+          ],
+          [
+            {
+              "filename": "image43.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "43"
+            },
+            {
+              "filename": "image44.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "44"
+            },
+            {
+              "filename": "image45.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "45"
+            }
+          ],
+          [
+            {
+              "filename": "image46.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "46"
+            },
+            {
+              "filename": "image47.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "47"
+            },
+            {
+              "filename": "image48.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "48"
+            }
+          ],
+          [
+            {
+              "filename": "image49.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "49"
+            },
+            {
+              "filename": "image50.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "50"
+            },
+            {
+              "filename": "image51.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "51"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      },
+      {
+        "name": "The fourth letter, dated 25 September 1551",
+        "shortname": "Fourth",
+        "path": "L4",
+        "filename": "fourth_letter.yaml",
+        "label-prefix": "L4",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L4",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      },
+      {
+        "name": "The fifth letter, dated 26 October 1552",
+        "shortname": "Fifth",
+        "path": "L5",
+        "filename": "fifth_letter.yaml",
+        "label-prefix": "L5",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L5",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "image1.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "image2.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "image3.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "image4.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "image5.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "image6.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "image7.jpg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "The Distribution of Atahuallpa's Ransom",
+    "shortname": "ransom",
+    "galleries": [
+      {
+        "name": "The Distribution of Atahuallpa's Ransom",
+        "shortname": "Ransom",
+        "path": "R",
+        "filename": "ransom.yaml",
+        "label-prefix": "R",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/R",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "RANSOM_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "RANSOM_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "RANSOM_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "RANSOM_5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "RANSOM_6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "RANSOM_8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "RANSOM_9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  }
+]
