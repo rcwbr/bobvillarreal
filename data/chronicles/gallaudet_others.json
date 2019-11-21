@@ -10519,10 +10519,42 @@
                 "image_matrix": [
                   [
                     {
-                      "caption": "On Hernando Pizarro's march to Pachacamac, he and his men came upon two finely constructed bridges at the town of Coronga. The foot soldiers used one bridge and the horse soldiers the other. Artist: Edward Bawden",
-                      "filename": "CUZCO_CROSS_BRIDGES_BAWDEN.jpeg",
+                      "caption": "To melt Atahuallpa's gold and silver ransom pieces, it took nine furnaces burning around the clock for four days. Artist: Everett Gee Jackson.",
+                      "filename": "ATA_RANSOM_MELT_DOWN_JACKSON.jpeg",
                       "attribution": "",
                       "label": "1"
+                    },
+                    {
+                      "caption": "To melt Atahuallpa's gold and silver ransom pieces, it took nine furnaces burning around the clock for four days. Artist: Everett Gee Jackson.",
+                      "filename": "ATA_IN_OPEN_FIELD_JACKSON.jpeg",
+                      "attribution": "",
+                      "label": "2"
+                    },
+                    {
+                      "caption": "De M&eacute;rida tells of a comet appearing in the sky in June of 1533. A comet astronomers have called 1533 (M1) was visible on June 27, 1533, and remained so for 83 days. Xerez mentions it in his, \\\"Report\\\", and Cieza de Leone remarks upon it also in his, \\\"Chronicle\\\", Third Part, Ch.65.",
+                      "filename": "COMET_WIKIPEDIA.jpg",
+                      "attribution": "",
+                      "label": "3"
+                    },
+                    {
+                      "caption": "Governor Francisco Pizarro sent his brother, Hernando, to Spain to tell the King and his court of the activities in the land of Peru. Here he departs on the <i>Santiaguillo</i>, with Captain Pastene as pilot, for Panam&aacute;. Artist: Hans Alexander Mueller.",
+                      "filename": "ONE_SHIP_AGAIN_MUELLER.jpeg",
+                      "attribution": "",
+                      "label": "4"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "The men go ashore to replenish their food and water supplies. Artist: Geoffrey C. Ingleton.",
+                      "filename": "ONE_SHIP_GO_ASHORE_INGLETON_EIGHTH.jpeg",
+                      "attribution": "",
+                      "label": "5"
+                    },
+                    {
+                      "caption": "The <i>Santiaguillo</i> sails full sheets to the wind. Artist: Geoffrey C. Ingleton.",
+                      "filename": "RUIZ_ALMAG_MEN_ASHORE_BLIGH_INGLETON_2.jpeg",
+                      "attribution": "",
+                      "label": "6"
                     }
                   ]
                 ],
@@ -12065,10 +12097,42 @@
         "image_matrix": [
           [
             {
-              "caption": "On Hernando Pizarro's march to Pachacamac, he and his men came upon two finely constructed bridges at the town of Coronga. The foot soldiers used one bridge and the horse soldiers the other. Artist: Edward Bawden",
-              "filename": "CUZCO_CROSS_BRIDGES_BAWDEN.jpeg",
+              "caption": "To melt Atahuallpa's gold and silver ransom pieces, it took nine furnaces burning around the clock for four days. Artist: Everett Gee Jackson.",
+              "filename": "ATA_RANSOM_MELT_DOWN_JACKSON.jpeg",
               "attribution": "",
               "label": "1"
+            },
+            {
+              "caption": "To melt Atahuallpa's gold and silver ransom pieces, it took nine furnaces burning around the clock for four days. Artist: Everett Gee Jackson.",
+              "filename": "ATA_IN_OPEN_FIELD_JACKSON.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "De M&eacute;rida tells of a comet appearing in the sky in June of 1533. A comet astronomers have called 1533 (M1) was visible on June 27, 1533, and remained so for 83 days. Xerez mentions it in his, \\\"Report\\\", and Cieza de Leone remarks upon it also in his, \\\"Chronicle\\\", Third Part, Ch.65.",
+              "filename": "COMET_WIKIPEDIA.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Governor Francisco Pizarro sent his brother, Hernando, to Spain to tell the King and his court of the activities in the land of Peru. Here he departs on the <i>Santiaguillo</i>, with Captain Pastene as pilot, for Panam&aacute;. Artist: Hans Alexander Mueller.",
+              "filename": "ONE_SHIP_AGAIN_MUELLER.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The men go ashore to replenish their food and water supplies. Artist: Geoffrey C. Ingleton.",
+              "filename": "ONE_SHIP_GO_ASHORE_INGLETON_EIGHTH.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The <i>Santiaguillo</i> sails full sheets to the wind. Artist: Geoffrey C. Ingleton.",
+              "filename": "RUIZ_ALMAG_MEN_ASHORE_BLIGH_INGLETON_2.jpeg",
+              "attribution": "",
+              "label": "6"
             }
           ]
         ],
