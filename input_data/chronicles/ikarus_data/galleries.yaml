@@ -191,8 +191,8 @@
           filename: "8L-N.yaml"
           label-prefix: "8L-N"
         -
-          name: "Eighth Letter, Part O-P"
-          shortname: "Part O-P"
-          path: "8O-P"
-          filename: "8O-P.yaml"
-          label-prefix: "8O-P"
+          name: "Eighth Letter, Part O-Q"
+          shortname: "Part O-Q"
+          path: "8O-Q"
+          filename: "8O-Q.yaml"
+          label-prefix: "8O-Q"

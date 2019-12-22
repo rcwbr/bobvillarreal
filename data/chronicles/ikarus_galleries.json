@@ -5192,12 +5192,12 @@
             "entry_page_title": "Gallery"
           },
           {
-            "name": "Eighth Letter, Part O-P",
-            "shortname": "Part O-P",
-            "path": "8O-P",
-            "filename": "8O-P.yaml",
-            "label-prefix": "8O-P",
-            "images_path": "images/chronicles/galleries/8O-P",
+            "name": "Eighth Letter, Part O-Q",
+            "shortname": "Part O-Q",
+            "path": "8O-Q",
+            "filename": "8O-Q.yaml",
+            "label-prefix": "8O-Q",
+            "images_path": "images/chronicles/galleries/8O-Q",
             "galleries_path": "galleries",
             "source_path": "../source",
             "thumbs_folder_path": "thumbs",
@@ -5251,6 +5251,38 @@
                   "filename": "ATA_VALVER_DEATH_JACKSON.jpeg",
                   "attribution": "",
                   "label": "7"
+                },
+                {
+                  "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
+                  "filename": "MANCO_INCA_JACKSON.jpeg",
+                  "attribution": "",
+                  "label": "8"
+                }
+              ],
+              [
+                {
+                  "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
+                  "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
+                  "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
+                  "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+                  "attribution": "",
+                  "label": "10"
+                },
+                {
+                  "caption": "Today's Anta, the Xaquixahuana of Inca days, with the small church still in service. Courtesy of Ojeda Flores.",
+                  "filename": "ANTA_CHURCH_OJEDA_FLORES.jpg",
+                  "attribution": "",
+                  "label": "11"
+                },
+                {
+                  "caption": "Antique print of Cusco by Arnoldus Montanus, 1671. R Villarreal Collection.",
+                  "filename": "CUSCO_MONTANUS.jpg",
+                  "attribution": "",
+                  "label": "12"
                 }
               ]
             ],
