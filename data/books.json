@@ -236,40 +236,6 @@
     "other_book_location": "index.html"
   },
   {
-    "shortname": "greeks",
-    "title": "Greek and Roman Classical Literature",
-    "subtitle": "Volume I: the Greeks",
-    "home_title_text": "GREEK & ROMAN CLASSICAL LITERATURE",
-    "styles": {
-      "background-image": "greeks/background.png",
-      "background-color": "#5182bb",
-      "color_one": "#0E233A",
-      "color_two": "white",
-      "color_three": "white",
-      "header_font": "Playfair Display",
-      "header_text_decoration": "underline"
-    },
-    "other_book_menu_text": "All Books",
-    "other_book_location": "index.html"
-  },
-  {
-    "shortname": "romans",
-    "title": "Greek and Roman Classical Literature",
-    "subtitle": "Volume II: the Romans",
-    "home_title_text": "GREEK & ROMAN CLASSICAL LITERATURE",
-    "styles": {
-      "background-image": "romans/background.png",
-      "background-color": "#923736",
-      "color_one": "#FFE0E0",
-      "color_two": "white",
-      "color_three": "white",
-      "header_font": "Playfair Display",
-      "header_text_decoration": "underline"
-    },
-    "other_book_menu_text": "All Books",
-    "other_book_location": "index.html"
-  },
-  {
     "shortname": "preamble",
     "title": "The preamble to Clawing for the Stars: a solo climber in the highest Andes",
     "subtitle": "TO<br />CLAWING FOR THE STARS:<br />A SOLO CLIMBER<br />IN THE HIGHEST ANDES<br />Andean peaks that served as preparation for my solo climbing career",

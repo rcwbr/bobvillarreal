@@ -196,3 +196,13 @@
           path: "8O-Q"
           filename: "8O-Q.yaml"
           label-prefix: "8O-Q"
+    -
+      name: "Ninth Letter"
+      shortname: "ninth"
+      galleries:
+        -
+          name: "Ninth Letter, Part R-T"
+          shortname: "Part R-T"
+          path: "9R-T"
+          filename: "9R-T.yaml"
+          label-prefix: "9R-T"
