@@ -9514,6 +9514,45 @@
     }
   },
   {
+    "shortname": "Ninth Letter",
+    "name": "Ninth Letter",
+    "path": "P9",
+    "media": {
+      "gloster_data": {
+        "name": "Ninth Letter",
+        "shortname": "Ninth Letter",
+        "path": "P9",
+        "filename": "ninth_letter.yaml",
+        "label-prefix": "P9",
+        "images_path": "images/chronicles/galleries/P9",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Spanish allies, the ruthless Ca&ntildeari warriors, slaughter Inca Quitan troops at the R&iacuteo Ambato on the Spanish march to Quito in June, 1535. Courtesy of Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "Canari_AMBATO_GLANZ.jpeg",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Paintings",
+        "content_path": "paintings",
+        "page_title": "Paintings",
+        "content_longname": "Louis S. Glanzman Paintings",
+        "entry_page_title": "Paintings"
+      }
+    }
+  },
+  {
     "shortname": null,
     "name": "Volume III: Pizarro",
     "path": null,
@@ -9561,6 +9600,38 @@
                   "filename": "ATA_RANSOM_Glanzman.jpeg",
                   "attribution": "",
                   "label": "4"
+                }
+              ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Paintings",
+            "content_path": "paintings",
+            "page_title": "Paintings",
+            "content_longname": "Louis S. Glanzman Paintings",
+            "entry_page_title": "Paintings"
+          },
+          {
+            "name": "Ninth Letter",
+            "shortname": "Ninth Letter",
+            "path": "P9",
+            "filename": "ninth_letter.yaml",
+            "label-prefix": "P9",
+            "images_path": "images/chronicles/galleries/P9",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 4,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              [
+                {
+                  "caption": "Spanish allies, the ruthless Ca&ntildeari warriors, slaughter Inca Quitan troops at the R&iacuteo Ambato on the Spanish march to Quito in June, 1535. Courtesy of Louis S. Glanzman and National Geographic Magazine.",
+                  "filename": "Canari_AMBATO_GLANZ.jpeg",
+                  "attribution": "",
+                  "label": "1"
                 }
               ]
             ],
@@ -10687,6 +10758,20 @@
                       "filename": "CUSCO_Sacsayhuaman_Cusco_DIEGO_DELSO.jpg",
                       "attribution": "",
                       "label": "8"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "Father de Segovia teaches the sacred word to the natives of Cusco. Artist: Jean Charlot.",
+                      "filename": "CHARLOT_SEGOVIA.jpeg",
+                      "attribution": "",
+                      "label": "9"
+                    },
+                    {
+                      "caption": "Outside the sacred city of Cusco, Father de Segovia travels to nearby villages to spread the word.",
+                      "filename": "CHARLOT_VAL.jpeg",
+                      "attribution": "",
+                      "label": "10"
                     }
                   ]
                 ],
@@ -12393,6 +12478,20 @@
               "filename": "CUSCO_Sacsayhuaman_Cusco_DIEGO_DELSO.jpg",
               "attribution": "",
               "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Father de Segovia teaches the sacred word to the natives of Cusco. Artist: Jean Charlot.",
+              "filename": "CHARLOT_SEGOVIA.jpeg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Outside the sacred city of Cusco, Father de Segovia travels to nearby villages to spread the word.",
+              "filename": "CHARLOT_VAL.jpeg",
+              "attribution": "",
+              "label": "10"
             }
           ]
         ],
