@@ -44,3 +44,9 @@
       path: "P7"
       filename: "seventh_letter.yaml"
       label-prefix: "P7"
+    -
+      name: "Ninth Letter"
+      shortname: "Ninth Letter"
+      path: "P9"
+      filename: "ninth_letter.yaml"
+      label-prefix: "P9"

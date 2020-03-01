@@ -5378,6 +5378,20 @@
                   "attribution": "",
                   "label": "8"
                 }
+              ],
+              [
+                {
+                  "caption": "Father de Segovia teaches the sacred word to the natives of Cusco. Artist: Jean Charlot.",
+                  "filename": "CHARLOT_SEGOVIA.jpeg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
+                  "caption": "Outside the sacred city of Cusco, Father de Segovia travels to nearby villages to spread the word.",
+                  "filename": "CHARLOT_VAL.jpeg",
+                  "attribution": "",
+                  "label": "10"
+                }
               ]
             ],
             "content_type": "galleries",
