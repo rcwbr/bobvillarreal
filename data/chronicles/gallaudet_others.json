@@ -13936,5 +13936,101 @@
         "entry_page_title": "Sources"
       }
     }
+  },
+  {
+    "shortname": "Pizzaro",
+    "name": "William H. Prescott's evaluation of the historian, Pedro Pizarro",
+    "path": "P",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's evaluation of the historian, Pedro Pizarro",
+        "shortname": "Pizzaro",
+        "path": "P",
+        "filename": "pizzaro.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/P",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "PEDRO_PRESCOTT_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "PEDRO_PRESCOTT_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "PEDRO_PRESCOTT_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Leon",
+    "name": "William H. Prescott's evaluation of the historian, Cieza de Leon",
+    "path": "L",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's evaluation of the historian, Cieza de Leon",
+        "shortname": "Leon",
+        "path": "L",
+        "filename": "leon.yaml",
+        "label-prefix": "L",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/L",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "CIEZA_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "CIEZA_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
   }
 ]

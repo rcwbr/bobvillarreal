@@ -7,18 +7,20 @@ index_page: true
 
 <div id="main">
   <h1 class="media-header"><%= media_manager["content_longname"] || "Galleries" %></h1>
-  <ul>
+  <ol>
     <li>
       <h2><a class="source-link"><%= media[0]["name"] %></a></h2>
       <ul>
         <% media[0]["galleries"].each do |letter| %>
-          <li><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= letter["path"] %>"><%= letter["name"] %></a></li>
+          <li class="letter-li"><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= letter["path"] %>"><%= letter["name"] %></a></li>
         <% end %>
       </ul>
     </li>
     <li><h2><a class="source-link" href="./prescott/">CHAPTER 5 OF: <u>The History of the Conquest of Peru</u>, by William H. Prescott.</a></h2></li>
     <li><h2><a class="source-link" href="./vega/">Battle of Tucapel by Garcilaso de la Vega</a><h2></li>
     <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[1]["galleries"][0]["path"] %>/"><%= media[1]["name"] %></a></h2></li>
-  </ul>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[2]["galleries"][0]["path"] %>/"><%= media[2]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[3]["galleries"][0]["path"] %>/"><%= media[3]["name"] %></a></h2></li>
+  </ol>
 
 </div>

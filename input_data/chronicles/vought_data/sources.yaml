@@ -49,3 +49,25 @@
       filename: "ransom.yaml"
       label-prefix: "R"
       images_per_row: 3
+-
+  name: "William H. Prescott's evaluation of the historian, Pedro Pizarro"
+  shortname: "pizzaro"
+  galleries:
+    -
+      name: "William H. Prescott's evaluation of the historian, Pedro Pizarro"
+      shortname: "Pizzaro"
+      path: "P"
+      filename: "pizzaro.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "William H. Prescott's evaluation of the historian, Cieza de Leon"
+  shortname: "leon"
+  galleries:
+    -
+      name: "William H. Prescott's evaluation of the historian, Cieza de Leon"
+      shortname: "Leon"
+      path: "L"
+      filename: "leon.yaml"
+      label-prefix: "L"
+      images_per_row: 3
