@@ -206,3 +206,9 @@
           path: "9R-T"
           filename: "9R-T.yaml"
           label-prefix: "9R-T"
+        -
+          name: "Ninth Letter, Part U-V"
+          shortname: "Part U-V"
+          path: "9U-V"
+          filename: "9U-V.yaml"
+          label-prefix: "9U-V"
