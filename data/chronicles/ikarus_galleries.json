@@ -5437,6 +5437,81 @@
                   "filename": "Canari_WARRIOR_UNK.jpg",
                   "attribution": "",
                   "label": "17"
+                },
+                {
+                  "caption": "Earth image of the route from Latacunga to Quito.",
+                  "filename": "QUITAN_LATA_TO_QUITO_EARTH.jpg",
+                  "attribution": "",
+                  "label": "18"
+                },
+                {
+                  "caption": "An 1805 map of the Inca town of Quito. Artist: Juan Pio Montufar.",
+                  "filename": "QUITAN_1805_MAP_Juan_Pio_Montufar.jpg",
+                  "attribution": "",
+                  "label": "19"
+                },
+                {
+                  "caption": "Another painting of Quito, this from the mid-18th century. Artist: Miguel de Santiago",
+                  "filename": "QUITAN_QUITO_MID-18TH_MIGUEL_DE_SANTIAGO.jpg",
+                  "attribution": "",
+                  "label": "20"
+                }
+              ],
+              [
+                {
+                  "caption": "Two days before Captain Belalc&aacute;zar and his men reached Quito and attacked it, the Inca general, Rumi&ntilde;avi, ordered his men to loot the city of all its gold and silver. Here the general is conveyed in his litter over the R&iacute;o Guayllabamba as he retreats north. Artist: Jean Charlot.",
+                  "filename": "QUITAN_CHARLOT_Ruminavi_LITTER.jpeg",
+                  "attribution": "",
+                  "label": "21"
+                },
+                {
+                  "caption": "Another painting of Quito, this one dated 1850. Artist: Rafael Salas.",
+                  "filename": "QUITAN_TOWN_RAFAEL_SALAS_1850.jpg",
+                  "attribution": "",
+                  "label": "22"
+                }
+              ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Galleries",
+            "content_path": "galleries",
+            "page_title": "Galleries",
+            "entry_page_title": "Gallery"
+          },
+          {
+            "name": "Ninth Letter, Part U-V",
+            "shortname": "Part U-V",
+            "path": "9U-V",
+            "filename": "9U-V.yaml",
+            "label-prefix": "9U-V",
+            "images_path": "images/chronicles/galleries/9U-V",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 4,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              [
+                {
+                  "caption": "Governor Pizarro founded the City of Kings on January 18 of 1535, the capital city in the new land of Peru. The name bestowed upon it Pizarro chose in recognition that this day celebrated the feast day of the Epiphany, the day when the three kings visited the Christ child in his manger. Within a few years the name of Lima took its place. Artist unknown.",
+                  "filename": "FOUNDING_LIMA_2.jpg",
+                  "attribution": "",
+                  "label": "1"
+                },
+                {
+                  "caption": "An engraving of Lima city. Artist: Poma de Ayala.",
+                  "filename": "LIMA_POMA.jpg",
+                  "attribution": "",
+                  "label": "2"
+                },
+                {
+                  "caption": "1846 painting of Lima Cathedral. Artist: unknown.",
+                  "filename": "LIMA_CATHEDRAL_1846.jpg",
+                  "attribution": "",
+                  "label": "3"
                 }
               ]
             ],
