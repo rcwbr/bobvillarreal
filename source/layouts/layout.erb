@@ -55,6 +55,9 @@
           <%= partial "partials/stylesheets/content_index_page" %>
         <% end %>
       <% end %>
+      <% if current_page.data.media == "historical" && current_page.data.index_page %>
+        <%= partial "partials/stylesheets/historical_index_page" %>
+      <% end %>
     <% else %>
       <%= partial "partials/stylesheets/no_content_pages" %>
       <% if current_page.data.about_page %>
