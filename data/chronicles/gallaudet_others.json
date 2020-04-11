@@ -10985,6 +10985,58 @@
                       "filename": "SHIP_SUN_SHEETS.jpeg",
                       "attribution": "",
                       "label": "17"
+                    },
+                    {
+                      "caption": "Hernando Pizarro sent his brother, Juan, and seventy horse to confront Manco Inca in the Yucay Valley, north of Cusco. The Christians were surprised when the Inca hordes on the slopes above rolled large boulders down upon them. Artist: Edward Bawden.",
+                      "filename": "MANCO_REBELLION_TROOPS.jpeg",
+                      "attribution": "",
+                      "label": "18"
+                    },
+                    {
+                      "caption": "By early May of 1536, Manco Inca and 200,000 Inca troops had surrounded Cusco and the 190 Spanish inside. Manco decided to burn the sacred city to force the Christians into the open so that his warriors could butcher them. Artist: Poma de Ayala.",
+                      "filename": "MANCO_BURNS_CUSCO_POMA.jpeg",
+                      "attribution": "",
+                      "label": "19"
+                    },
+                    {
+                      "caption": "Another depiction of Manco's troops burning Cusco, the capital city. Artist: Edward Bawden.",
+                      "filename": "MANCO_CUSCO_BURNING_BAWDEN.jpeg",
+                      "attribution": "",
+                      "label": "20"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
+                      "filename": "MANCO_SACSAY_DELSO_3.jpg",
+                      "attribution": "",
+                      "label": "21"
+                    },
+                    {
+                      "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
+                      "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
+                      "attribution": "",
+                      "label": "22"
+                    },
+                    {
+                      "caption": "Depiction of the battle for Fortress Sacsayhuaman. Artist: Unknown.",
+                      "filename": "MANCO_SACSAY_UNKNOWN.jpg",
+                      "attribution": "",
+                      "label": "23"
+                    },
+                    {
+                      "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
+                      "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
+                      "attribution": "",
+                      "label": "24"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
+                      "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
+                      "attribution": "",
+                      "label": "25"
                     }
                   ]
                 ],
@@ -12925,6 +12977,58 @@
               "filename": "SHIP_SUN_SHEETS.jpeg",
               "attribution": "",
               "label": "17"
+            },
+            {
+              "caption": "Hernando Pizarro sent his brother, Juan, and seventy horse to confront Manco Inca in the Yucay Valley, north of Cusco. The Christians were surprised when the Inca hordes on the slopes above rolled large boulders down upon them. Artist: Edward Bawden.",
+              "filename": "MANCO_REBELLION_TROOPS.jpeg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "By early May of 1536, Manco Inca and 200,000 Inca troops had surrounded Cusco and the 190 Spanish inside. Manco decided to burn the sacred city to force the Christians into the open so that his warriors could butcher them. Artist: Poma de Ayala.",
+              "filename": "MANCO_BURNS_CUSCO_POMA.jpeg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Another depiction of Manco's troops burning Cusco, the capital city. Artist: Edward Bawden.",
+              "filename": "MANCO_CUSCO_BURNING_BAWDEN.jpeg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DELSO_3.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "Depiction of the battle for Fortress Sacsayhuaman. Artist: Unknown.",
+              "filename": "MANCO_SACSAY_UNKNOWN.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
+              "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
+              "attribution": "",
+              "label": "25"
             }
           ]
         ],
@@ -14021,6 +14125,97 @@
               "caption": "",
               "attribution": "",
               "label": "2"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Sacsayhuaman",
+    "name": "Fortress Sacsayhuaman",
+    "path": "S",
+    "media": {
+      "vought_data": {
+        "name": "Fortress Sacsayhuaman",
+        "shortname": "Sacsayhuaman",
+        "path": "S",
+        "filename": "sacsayhuaman.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/S",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is an aerial view of the ruins of Fortress Sacsayhuaman. Cusco lies below to the west. From: \\\"Sacsayhuaman,\\\" by Victor W. Von Hagen.",
+              "filename": "MANCO_SACSAY_OVERHEAD.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A map by von Hagen of the Fortress layout.",
+              "filename": "MANCO_SACSAY_OVERHEAD_DRAWING.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Von Hagen's numbered guide to the Fortress particulars.",
+              "filename": "MANCO_SACSAY_OVERHEAD_GUIDE.jpeg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_1.jpeg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_5.jpeg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
+              "attribution": "",
+              "label": "9"
             }
           ]
         ],
