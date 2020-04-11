@@ -71,3 +71,14 @@
       filename: "leon.yaml"
       label-prefix: "L"
       images_per_row: 3
+-
+  name: "Fortress Sacsayhuaman"
+  shortname: "sacsayhuaman"
+  galleries:
+    -
+      name: "Fortress Sacsayhuaman"
+      shortname: "Sacsayhuaman"
+      path: "S"
+      filename: "sacsayhuaman.yaml"
+      label-prefix: "S"
+      images_per_row: 3
