@@ -79,6 +79,9 @@ books.each do |book|
 	page "#{book_data_path}/historical/P*", :layout => "gallery"
 	page "#{book_data_path}/historical/R*", :layout => "gallery"
 	page "#{book_data_path}/historical/S*", :layout => "gallery"
+	page "#{book_data_path}/historical/O*", :layout => "gallery"
+	page "#{book_data_path}/historical/C*", :layout => "gallery"
+	page "#{book_data_path}/historical/pachacamac*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 

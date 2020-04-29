@@ -10648,30 +10648,36 @@
                       "label": "9"
                     },
                     {
-                      "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
-                      "filename": "MANCO_INCA_JACKSON.jpeg",
+                      "caption": "This is the terrain over which the Spanish fought the Incas on their way to capture Cusco.",
+                      "filename": "TERRAIN_ENDOF_8.jpg",
                       "attribution": "",
                       "label": "10"
                     },
                     {
-                      "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
-                      "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
+                      "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
+                      "filename": "MANCO_INCA_JACKSON.jpeg",
                       "attribution": "",
                       "label": "11"
                     },
                     {
-                      "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
-                      "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+                      "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
+                      "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
                       "attribution": "",
                       "label": "12"
                     }
                   ],
                   [
                     {
+                      "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
+                      "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+                      "attribution": "",
+                      "label": "13"
+                    },
+                    {
                       "caption": "Today's Anta, the Xaquixahuana of Inca days, with the small church still in service. Courtesy of Ojeda Flores.",
                       "filename": "ANTA_CHURCH_OJEDA_FLORES.jpg",
                       "attribution": "",
-                      "label": "13"
+                      "label": "14"
                     }
                   ]
                 ],
@@ -11037,6 +11043,87 @@
                       "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
                       "attribution": "",
                       "label": "25"
+                    },
+                    {
+                      "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
+                      "filename": "SACSAY_MINE_1.jpeg",
+                      "attribution": "",
+                      "label": "26"
+                    },
+                    {
+                      "caption": "View of the walls near the water tower. R. Villarreal Collection.",
+                      "filename": "SACSAY_MINE_2.jpeg",
+                      "attribution": "",
+                      "label": "27"
+                    }
+                  ]
+                ],
+                "content_type": "galleries",
+                "content_name": "Galleries",
+                "content_path": "galleries",
+                "page_title": "Galleries",
+                "entry_page_title": "Gallery"
+              },
+              {
+                "name": "Ninth Letter, Part W-X",
+                "shortname": "Part W-X",
+                "path": "9W-X",
+                "filename": "9W-X.yaml",
+                "label-prefix": "9W-X",
+                "images_path": "images/chronicles/galleries/9W-X",
+                "galleries_path": "galleries",
+                "source_path": "../source",
+                "thumbs_folder_path": "thumbs",
+                "total_width": 960,
+                "images_per_row": 4,
+                "image_margins": 10,
+                "width_adjustment": 4,
+                "overlay_thumb_height": 100,
+                "image_matrix": [
+                  [
+                    {
+                      "caption": "After the Indians left the battle at Fortress Sacsayhuaman to tend to their crops, Manco Inca and his soldiers retreated to the Citadel of Ollantaytambo, several miles north of Yucay and near the Urubamba River. This photo was taken in the town of Ollantaytambo on market day in the town. The author is on the left and one of the climbing guides is on the right. R. Villarreal Collection.",
+                      "filename": "OLLAN_MARKET_MINE.jpeg",
+                      "attribution": "",
+                      "label": "1"
+                    },
+                    {
+                      "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
+                      "filename": "OLLAN_2_WIKI.jpg",
+                      "attribution": "",
+                      "label": "2"
+                    },
+                    {
+                      "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
+                      "filename": "OLLAN_FORT_MINE.jpeg",
+                      "attribution": "",
+                      "label": "3"
+                    },
+                    {
+                      "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
+                      "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+                      "attribution": "",
+                      "label": "4"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
+                      "filename": "OLLAN_4_TICKETMACHU.jpg",
+                      "attribution": "",
+                      "label": "5"
+                    },
+                    {
+                      "caption": "Terraces viewed from and staircase. R. Villarreal Collection.",
+                      "filename": "OLLAN_1_MINE.jpg",
+                      "attribution": "",
+                      "label": "6"
+                    },
+                    {
+                      "caption": "Another stairwell. R. Villarreal Collection.",
+                      "filename": "OLLAN_STAIRS_MINE.jpeg",
+                      "attribution": "",
+                      "label": "7"
                     }
                   ]
                 ],
@@ -12637,30 +12724,36 @@
               "label": "9"
             },
             {
-              "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
-              "filename": "MANCO_INCA_JACKSON.jpeg",
+              "caption": "This is the terrain over which the Spanish fought the Incas on their way to capture Cusco.",
+              "filename": "TERRAIN_ENDOF_8.jpg",
               "attribution": "",
               "label": "10"
             },
             {
-              "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
-              "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
+              "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
+              "filename": "MANCO_INCA_JACKSON.jpeg",
               "attribution": "",
               "label": "11"
             },
             {
-              "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
-              "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+              "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
+              "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
               "attribution": "",
               "label": "12"
             }
           ],
           [
             {
+              "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
+              "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
               "caption": "Today's Anta, the Xaquixahuana of Inca days, with the small church still in service. Courtesy of Ojeda Flores.",
               "filename": "ANTA_CHURCH_OJEDA_FLORES.jpg",
               "attribution": "",
-              "label": "13"
+              "label": "14"
             }
           ]
         ],
@@ -13029,6 +13122,94 @@
               "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
               "attribution": "",
               "label": "25"
+            },
+            {
+              "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
+              "filename": "SACSAY_MINE_1.jpeg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "View of the walls near the water tower. R. Villarreal Collection.",
+              "filename": "SACSAY_MINE_2.jpeg",
+              "attribution": "",
+              "label": "27"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Part W-X",
+    "name": "Ninth Letter, Part W-X",
+    "path": "9W-X",
+    "media": {
+      "ikarus_data": {
+        "name": "Ninth Letter, Part W-X",
+        "shortname": "Part W-X",
+        "path": "9W-X",
+        "filename": "9W-X.yaml",
+        "label-prefix": "9W-X",
+        "images_path": "images/chronicles/galleries/9W-X",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "After the Indians left the battle at Fortress Sacsayhuaman to tend to their crops, Manco Inca and his soldiers retreated to the Citadel of Ollantaytambo, several miles north of Yucay and near the Urubamba River. This photo was taken in the town of Ollantaytambo on market day in the town. The author is on the left and one of the climbing guides is on the right. R. Villarreal Collection.",
+              "filename": "OLLAN_MARKET_MINE.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
+              "filename": "OLLAN_2_WIKI.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
+              "filename": "OLLAN_FORT_MINE.jpeg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
+              "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
+              "filename": "OLLAN_4_TICKETMACHU.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Terraces viewed from and staircase. R. Villarreal Collection.",
+              "filename": "OLLAN_1_MINE.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Another stairwell. R. Villarreal Collection.",
+              "filename": "OLLAN_STAIRS_MINE.jpeg",
+              "attribution": "",
+              "label": "7"
             }
           ]
         ],
@@ -14042,6 +14223,752 @@
     }
   },
   {
+    "shortname": "Pachacamac",
+    "name": "Description of Pachacamac by E. George Squier",
+    "path": "pachacamac",
+    "media": {
+      "vought_data": {
+        "name": "Description of Pachacamac by E. George Squier",
+        "shortname": "Pachacamac",
+        "path": "pachacamac",
+        "filename": "pachacamac.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/pachacamac",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Cusco",
+    "name": "Cusco, the Sacred City Description by E. George Squier",
+    "path": "C",
+    "media": {
+      "vought_data": {
+        "name": "Cusco, the Sacred City Description by E. George Squier",
+        "shortname": "Cusco",
+        "path": "C",
+        "filename": "cusco.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/C",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "29.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "30.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "31.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "filename": "32.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "filename": "33.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "33"
+            }
+          ],
+          [
+            {
+              "filename": "34.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "filename": "35.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "filename": "36.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "filename": "37.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "filename": "38.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "38"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Sacsayhuaman",
+    "name": "Fortress Sacsayhuaman by Victor W. Von Hagen",
+    "path": "S",
+    "media": {
+      "vought_data": {
+        "name": "Fortress Sacsayhuaman by Victor W. Von Hagen",
+        "shortname": "Sacsayhuaman",
+        "path": "S",
+        "filename": "sacsayhuaman.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/S",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is an aerial view of the ruins of Fortress Sacsayhuaman. Cusco lies below to the west. From: \\\"Sacsayhuaman,\\\" by Victor W. Von Hagen.",
+              "filename": "MANCO_SACSAY_OVERHEAD.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A map by von Hagen of the Fortress layout.",
+              "filename": "MANCO_SACSAY_OVERHEAD_DRAWING.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Von Hagen's numbered guide to the Fortress particulars.",
+              "filename": "MANCO_SACSAY_OVERHEAD_GUIDE.jpeg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "SACSAY_P_1.jpeg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "SACSAY_P_5.jpeg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
+              "attribution": "",
+              "label": "9"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Ollantaytambo",
+    "name": "Citadel Ollantaytambo by E. George Squier",
+    "path": "O",
+    "media": {
+      "vought_data": {
+        "name": "Citadel Ollantaytambo by E. George Squier",
+        "shortname": "Ollantaytambo",
+        "path": "O",
+        "filename": "ollantaytambo.yaml",
+        "label-prefix": "O",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/O",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "0.jpeg",
+              "label": "0",
+              "caption": "",
+              "attribution": ""
+            },
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            }
+          ],
+          [
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            }
+          ],
+          [
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            }
+          ],
+          [
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            }
+          ],
+          [
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
     "shortname": "Pizzaro",
     "name": "William H. Prescott's evaluation of the historian, Pedro Pizarro",
     "path": "P",
@@ -14125,97 +15052,6 @@
               "caption": "",
               "attribution": "",
               "label": "2"
-            }
-          ]
-        ],
-        "content_type": "galleries",
-        "content_name": "Historical",
-        "content_path": "historical",
-        "page_title": "Historical",
-        "content_longname": "Historical Sources",
-        "entry_page_title": "Sources"
-      }
-    }
-  },
-  {
-    "shortname": "Sacsayhuaman",
-    "name": "Fortress Sacsayhuaman",
-    "path": "S",
-    "media": {
-      "vought_data": {
-        "name": "Fortress Sacsayhuaman",
-        "shortname": "Sacsayhuaman",
-        "path": "S",
-        "filename": "sacsayhuaman.yaml",
-        "label-prefix": "S",
-        "images_per_row": 3,
-        "images_path": "images/chronicles/galleries/S",
-        "galleries_path": "galleries",
-        "source_path": "../source",
-        "thumbs_folder_path": "thumbs",
-        "total_width": 960,
-        "image_margins": 10,
-        "width_adjustment": 4,
-        "overlay_thumb_height": 100,
-        "image_matrix": [
-          [
-            {
-              "caption": "This is an aerial view of the ruins of Fortress Sacsayhuaman. Cusco lies below to the west. From: \\\"Sacsayhuaman,\\\" by Victor W. Von Hagen.",
-              "filename": "MANCO_SACSAY_OVERHEAD.jpeg",
-              "attribution": "",
-              "label": "1"
-            },
-            {
-              "caption": "A map by von Hagen of the Fortress layout.",
-              "filename": "MANCO_SACSAY_OVERHEAD_DRAWING.jpeg",
-              "attribution": "",
-              "label": "2"
-            },
-            {
-              "caption": "Von Hagen's numbered guide to the Fortress particulars.",
-              "filename": "MANCO_SACSAY_OVERHEAD_GUIDE.jpeg",
-              "attribution": "",
-              "label": "3"
-            }
-          ],
-          [
-            {
-              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_1.jpeg",
-              "attribution": "",
-              "label": "4"
-            },
-            {
-              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
-              "attribution": "",
-              "label": "5"
-            },
-            {
-              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
-              "attribution": "",
-              "label": "6"
-            }
-          ],
-          [
-            {
-              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
-              "attribution": "",
-              "label": "7"
-            },
-            {
-              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_5.jpeg",
-              "attribution": "",
-              "label": "8"
-            },
-            {
-              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
-              "attribution": "",
-              "label": "9"
             }
           ]
         ],
