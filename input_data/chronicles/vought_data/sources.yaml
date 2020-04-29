@@ -50,6 +50,50 @@
       label-prefix: "R"
       images_per_row: 3
 -
+  name: "Description of Pachacamac by E. George Squier"
+  shortname: "pachacamac"
+  galleries:
+    -
+      name: "Description of Pachacamac by E. George Squier"
+      shortname: "Pachacamac"
+      path: "pachacamac"
+      filename: "pachacamac.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "Cusco, the Sacred City Description by E. George Squier"
+  shortname: "cusco"
+  galleries:
+    -
+      name: "Cusco, the Sacred City Description by E. George Squier"
+      shortname: "Cusco"
+      path: "C"
+      filename: "cusco.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Fortress Sacsayhuaman by Victor W. Von Hagen"
+  shortname: "sacsayhuaman"
+  galleries:
+    -
+      name: "Fortress Sacsayhuaman by Victor W. Von Hagen"
+      shortname: "Sacsayhuaman"
+      path: "S"
+      filename: "sacsayhuaman.yaml"
+      label-prefix: "S"
+      images_per_row: 3
+-
+  name: "Citadel Ollantaytambo by E. George Squier"
+  shortname: "ollantaytambo"
+  galleries:
+    -
+      name: "Citadel Ollantaytambo by E. George Squier"
+      shortname: "Ollantaytambo"
+      path: "O"
+      filename: "ollantaytambo.yaml"
+      label-prefix: "O"
+      images_per_row: 3
+-
   name: "William H. Prescott's evaluation of the historian, Pedro Pizarro"
   shortname: "pizzaro"
   galleries:
@@ -70,15 +114,4 @@
       path: "L"
       filename: "leon.yaml"
       label-prefix: "L"
-      images_per_row: 3
--
-  name: "Fortress Sacsayhuaman"
-  shortname: "sacsayhuaman"
-  galleries:
-    -
-      name: "Fortress Sacsayhuaman"
-      shortname: "Sacsayhuaman"
-      path: "S"
-      filename: "sacsayhuaman.yaml"
-      label-prefix: "S"
       images_per_row: 3

@@ -5267,30 +5267,36 @@
                   "label": "9"
                 },
                 {
-                  "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
-                  "filename": "MANCO_INCA_JACKSON.jpeg",
+                  "caption": "This is the terrain over which the Spanish fought the Incas on their way to capture Cusco.",
+                  "filename": "TERRAIN_ENDOF_8.jpg",
                   "attribution": "",
                   "label": "10"
                 },
                 {
-                  "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
-                  "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
+                  "caption": "A royal prince by the name of Manco entered the Spanish camp at Xaquixahuana (today's town of Anta, twenty miles north from Cusco), and declared himself a son of the deceased Lord High Inca, Huayna Capac. Pizarro was impressed by his bearing and his royal lineage. Artist: Everett Gee Jackson.",
+                  "filename": "MANCO_INCA_JACKSON.jpeg",
                   "attribution": "",
                   "label": "11"
                 },
                 {
-                  "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
-                  "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+                  "caption": "Suspected of collusion with the Inca general, Quizquiz in Cusco to annihilate the Christians, Pizarro has Chalicuchima burned alive. Artist: Poma de Ayala.",
+                  "filename": "CHALICUCHIMA_POMA_DE_AYALA.jpg",
                   "attribution": "",
                   "label": "12"
                 }
               ],
               [
                 {
+                  "caption": "Chalicuchima could have become a Christian, like Atahuallpa, and died by the garrote, but he refused and thus was burned to death. Artist: Edward Bawden.",
+                  "filename": "CHALICU_EXECU_BAWDEN.jpeg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
                   "caption": "Today's Anta, the Xaquixahuana of Inca days, with the small church still in service. Courtesy of Ojeda Flores.",
                   "filename": "ANTA_CHURCH_OJEDA_FLORES.jpg",
                   "attribution": "",
-                  "label": "13"
+                  "label": "14"
                 }
               ]
             ],
@@ -5656,6 +5662,87 @@
                   "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
                   "attribution": "",
                   "label": "25"
+                },
+                {
+                  "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
+                  "filename": "SACSAY_MINE_1.jpeg",
+                  "attribution": "",
+                  "label": "26"
+                },
+                {
+                  "caption": "View of the walls near the water tower. R. Villarreal Collection.",
+                  "filename": "SACSAY_MINE_2.jpeg",
+                  "attribution": "",
+                  "label": "27"
+                }
+              ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Galleries",
+            "content_path": "galleries",
+            "page_title": "Galleries",
+            "entry_page_title": "Gallery"
+          },
+          {
+            "name": "Ninth Letter, Part W-X",
+            "shortname": "Part W-X",
+            "path": "9W-X",
+            "filename": "9W-X.yaml",
+            "label-prefix": "9W-X",
+            "images_path": "images/chronicles/galleries/9W-X",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 4,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              [
+                {
+                  "caption": "After the Indians left the battle at Fortress Sacsayhuaman to tend to their crops, Manco Inca and his soldiers retreated to the Citadel of Ollantaytambo, several miles north of Yucay and near the Urubamba River. This photo was taken in the town of Ollantaytambo on market day in the town. The author is on the left and one of the climbing guides is on the right. R. Villarreal Collection.",
+                  "filename": "OLLAN_MARKET_MINE.jpeg",
+                  "attribution": "",
+                  "label": "1"
+                },
+                {
+                  "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
+                  "filename": "OLLAN_2_WIKI.jpg",
+                  "attribution": "",
+                  "label": "2"
+                },
+                {
+                  "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
+                  "filename": "OLLAN_FORT_MINE.jpeg",
+                  "attribution": "",
+                  "label": "3"
+                },
+                {
+                  "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
+                  "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+                  "attribution": "",
+                  "label": "4"
+                }
+              ],
+              [
+                {
+                  "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
+                  "filename": "OLLAN_4_TICKETMACHU.jpg",
+                  "attribution": "",
+                  "label": "5"
+                },
+                {
+                  "caption": "Terraces viewed from and staircase. R. Villarreal Collection.",
+                  "filename": "OLLAN_1_MINE.jpg",
+                  "attribution": "",
+                  "label": "6"
+                },
+                {
+                  "caption": "Another stairwell. R. Villarreal Collection.",
+                  "filename": "OLLAN_STAIRS_MINE.jpeg",
+                  "attribution": "",
+                  "label": "7"
                 }
               ]
             ],
