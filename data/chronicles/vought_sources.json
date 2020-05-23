@@ -1372,19 +1372,19 @@
           [
             {
               "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "S_4.jpeg",
+              "filename": "NEW_S_4.jpeg",
               "attribution": "",
               "label": "4"
             },
             {
               "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
+              "filename": "NEW_S_5.jpeg",
               "attribution": "",
               "label": "5"
             },
             {
               "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
+              "filename": "S_4.jpeg",
               "attribution": "",
               "label": "6"
             }
@@ -1392,21 +1392,35 @@
           [
             {
               "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
+              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
               "attribution": "",
               "label": "7"
             },
             {
               "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "S_8.jpeg",
+              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
               "attribution": "",
               "label": "8"
             },
             {
               "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
-              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
+              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
               "attribution": "",
               "label": "9"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "S_8.jpeg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
+              "attribution": "",
+              "label": "11"
             }
           ]
         ],
