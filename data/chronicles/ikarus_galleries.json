@@ -5701,48 +5701,106 @@
             "image_matrix": [
               [
                 {
-                  "caption": "After the Indians left the battle at Fortress Sacsayhuaman to tend to their crops, Manco Inca and his soldiers retreated to the Citadel of Ollantaytambo, several miles north of Yucay and near the Urubamba River. This photo was taken in the town of Ollantaytambo on market day in the town. The author is on the left and one of the climbing guides is on the right. R. Villarreal Collection.",
-                  "filename": "OLLAN_MARKET_MINE.jpeg",
+                  "caption": "Manco Inca sent an adept general by the name of Quizo Yupanqui to do battle with the forces Francisco Pizarro sent from Lima to bolster the Spanish troops in Cusco. These are some of the towns where Quizo annihilated the Spanish. During two months, he and his warriors killed four Christian captains, two hundred men, and ninety horses. This is an Earth image of the towns where the battles occurred.",
+                  "filename": "BATTLES_QUIZO_VICTORIES_GOOG.jpg",
                   "attribution": "",
                   "label": "1"
                 },
                 {
-                  "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
-                  "filename": "OLLAN_2_WIKI.jpg",
+                  "caption": "Near Ayacucho, general Quizo and his men slew many Christians. Courtesy of TravelPeru.",
+                  "filename": "BATTLES_AYACUCHO.jpg",
                   "attribution": "",
                   "label": "2"
                 },
                 {
-                  "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
-                  "filename": "OLLAN_FORT_MINE.jpeg",
+                  "caption": "Huaytara was also a town near which Quizo and his warriors wiped out more Spanish forces. Courtesy of toquesonmoto.",
+                  "filename": "BATTLES_HUAYTARA.jpg",
                   "attribution": "",
                   "label": "3"
                 },
                 {
-                  "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
-                  "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+                  "caption": "Vilcashuaman was the town near which the Spanish were wiped out. Courtesy of blueskylimit.",
+                  "filename": "BATTLES_VILCASHUAMAN_BLUESKYLIMIT.jpg",
                   "attribution": "",
                   "label": "4"
                 }
               ],
               [
                 {
+                  "caption": "Caption: Xauxa (today's Jauja) was one more defeat of the Christians. Courtesy of Wiki.",
+                  "filename": "XUAXA_WIKI.jpg",
+                  "attribution": "",
+                  "label": "5"
+                },
+                {
+                  "caption": "Quizo and his warriors attack Francisco Pizarro and his men in the new city of Lima. Courtesy of LISTVERSE.",
+                  "filename": "LIMA_SIEGE_LISTVERSE.jpg",
+                  "attribution": "",
+                  "label": "6"
+                },
+                {
+                  "caption": "Quizo camped out on the hill of San Cristobal to avoid the maneuverability of the Spanish horses. Courtesy of Valladares.",
+                  "filename": "LIMA_SAN_CRISTOBAL_VALLADARES.jpg",
+                  "attribution": "",
+                  "label": "7"
+                },
+                {
+                  "caption": "General Quizo is cornered by the Spanish and executed. Courtesy of Wiki.",
+                  "filename": "LIMA_QUIZO_DEATH.jpg",
+                  "attribution": "",
+                  "label": "8"
+                }
+              ],
+              [
+                {
+                  "caption": "In their attack upon Manco Inca, Hernando Pizarro led his men from Yucay to the Inca Citadel of Ollantaytambo. Google Earth.",
+                  "filename": "OLLAN_YUCAY_TO_OLLAN_GOOG.jpg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
+                  "caption": "After the Indians left the battle at Fortress Sacsayhuaman to tend to their crops, Manco Inca and his soldiers retreated to the Citadel of Ollantaytambo, several miles north of Yucay and near the Urubamba River. This photo was taken in the town of Ollantaytambo on market day in the town. The author is on the left and one of the climbing guides is on the right. R. Villarreal Collection.",
+                  "filename": "OLLAN_MARKET_MINE.jpeg",
+                  "attribution": "",
+                  "label": "10"
+                },
+                {
+                  "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
+                  "filename": "OLLAN_2_WIKI.jpg",
+                  "attribution": "",
+                  "label": "11"
+                },
+                {
+                  "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
+                  "filename": "OLLAN_FORT_MINE.jpeg",
+                  "attribution": "",
+                  "label": "12"
+                }
+              ],
+              [
+                {
+                  "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
+                  "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
                   "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
                   "filename": "OLLAN_4_TICKETMACHU.jpg",
                   "attribution": "",
-                  "label": "5"
+                  "label": "14"
                 },
                 {
                   "caption": "Terraces viewed from and staircase. R. Villarreal Collection.",
                   "filename": "OLLAN_1_MINE.jpg",
                   "attribution": "",
-                  "label": "6"
+                  "label": "15"
                 },
                 {
                   "caption": "Another stairwell. R. Villarreal Collection.",
                   "filename": "OLLAN_STAIRS_MINE.jpeg",
                   "attribution": "",
-                  "label": "7"
+                  "label": "16"
                 }
               ]
             ],
