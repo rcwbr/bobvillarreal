@@ -10616,8 +10616,8 @@
                   ],
                   [
                     {
-                      "caption": "The men go ashore to replenish their food and water supplies. Artist: Geoffrey C. Ingleton.",
-                      "filename": "ONE_SHIP_GO_ASHORE_INGLETON_EIGHTH.jpeg",
+                      "caption": "The men return from replenishing their food stores. Artist: Hans Alexander Mueller.",
+                      "filename": "SHIP_ASHORE_MUELLER.jpeg",
                       "attribution": "",
                       "label": "5"
                     },
@@ -11224,10 +11224,47 @@
                       "label": "22"
                     },
                     {
-                      "caption": "To negotiate a truce with Marquess Pizarro, Marshal Almagro and his men rode to the coast and, at today's Mala, seventy miles south of Lima, began the construction of a town. Artist: E. Taylor.",
+                      "caption": "Prior to negotiating a truce with Marquess Pizarro at Mala, Marshal Almagro and his men rode to the coast and, at today's Chincha, 120 miles south from Lima, began the construction of a town. Artist: E. Taylor.",
                       "filename": "MALA_TAYLOR.jpg",
                       "attribution": "",
                       "label": "23"
+                    }
+                  ]
+                ],
+                "content_type": "galleries",
+                "content_name": "Galleries",
+                "content_path": "galleries",
+                "page_title": "Galleries",
+                "entry_page_title": "Gallery"
+              },
+              {
+                "name": "Ninth Letter, Part Y-Z",
+                "shortname": "Part Y-Z",
+                "path": "9Y-Z",
+                "filename": "9Y-Z.yaml",
+                "label-prefix": "9Y-Z",
+                "images_path": "images/chronicles/galleries/9Y-Z",
+                "galleries_path": "galleries",
+                "source_path": "../source",
+                "thumbs_folder_path": "thumbs",
+                "total_width": 960,
+                "images_per_row": 4,
+                "image_margins": 10,
+                "width_adjustment": 4,
+                "overlay_thumb_height": 100,
+                "image_matrix": [
+                  [
+                    {
+                      "caption": "Battle of Las Salinas. On April 26 of 1538, the forces of Hernando Pizarro defeated those of Diego de Almagro on the Las Salinas salt flats outside Cusco. Artist: Theodo de Bry.",
+                      "filename": "LAS_SALINAS_THEODO_DE_BRY.jpg",
+                      "attribution": "",
+                      "label": "1"
+                    },
+                    {
+                      "caption": "On July 8 of 1538, Hernando Pizarro ordered the beheading of Marshal Diego de Almagro. Artist unknown.",
+                      "filename": "DEATH_OF_ALMAGRO.jpg",
+                      "attribution": "",
+                      "label": "2"
                     }
                   ]
                 ],
@@ -12796,8 +12833,8 @@
           ],
           [
             {
-              "caption": "The men go ashore to replenish their food and water supplies. Artist: Geoffrey C. Ingleton.",
-              "filename": "ONE_SHIP_GO_ASHORE_INGLETON_EIGHTH.jpeg",
+              "caption": "The men return from replenishing their food stores. Artist: Hans Alexander Mueller.",
+              "filename": "SHIP_ASHORE_MUELLER.jpeg",
               "attribution": "",
               "label": "5"
             },
@@ -13414,10 +13451,54 @@
               "label": "22"
             },
             {
-              "caption": "To negotiate a truce with Marquess Pizarro, Marshal Almagro and his men rode to the coast and, at today's Mala, seventy miles south of Lima, began the construction of a town. Artist: E. Taylor.",
+              "caption": "Prior to negotiating a truce with Marquess Pizarro at Mala, Marshal Almagro and his men rode to the coast and, at today's Chincha, 120 miles south from Lima, began the construction of a town. Artist: E. Taylor.",
               "filename": "MALA_TAYLOR.jpg",
               "attribution": "",
               "label": "23"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Part Y-Z",
+    "name": "Ninth Letter, Part Y-Z",
+    "path": "9Y-Z",
+    "media": {
+      "ikarus_data": {
+        "name": "Ninth Letter, Part Y-Z",
+        "shortname": "Part Y-Z",
+        "path": "9Y-Z",
+        "filename": "9Y-Z.yaml",
+        "label-prefix": "9Y-Z",
+        "images_path": "images/chronicles/galleries/9Y-Z",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Battle of Las Salinas. On April 26 of 1538, the forces of Hernando Pizarro defeated those of Diego de Almagro on the Las Salinas salt flats outside Cusco. Artist: Theodo de Bry.",
+              "filename": "LAS_SALINAS_THEODO_DE_BRY.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "On July 8 of 1538, Hernando Pizarro ordered the beheading of Marshal Diego de Almagro. Artist unknown.",
+              "filename": "DEATH_OF_ALMAGRO.jpg",
+              "attribution": "",
+              "label": "2"
             }
           ]
         ],
