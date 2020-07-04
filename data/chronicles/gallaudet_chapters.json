@@ -6405,10 +6405,16 @@
                   "label": "1"
                 },
                 {
+                  "caption": "An artist's rendition of the Battle at Las Salinas. Artist: Everett Gee Jackson.",
+                  "filename": "SALINAS_EVERETT.jpeg",
+                  "attribution": "",
+                  "label": "2"
+                },
+                {
                   "caption": "On July 8 of 1538, Hernando Pizarro ordered the beheading of Marshal Diego de Almagro. Artist unknown.",
                   "filename": "DEATH_OF_ALMAGRO.jpg",
                   "attribution": "",
-                  "label": "2"
+                  "label": "3"
                 }
               ]
             ],

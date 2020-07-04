@@ -83,7 +83,8 @@ books.each do |book|
 	page "#{book_data_path}/historical/C*", :layout => "gallery"
 	page "#{book_data_path}/historical/pachacamac*", :layout => "gallery"
 	page "#{book_data_path}/historical/lima*", :layout => "gallery"
-	page "#{book_data_path}/historical/vega_prescott*", :layout => "gallery"
+	page "#{book_data_path}/historical/*_prescott*", :layout => "gallery"
+	page "#{book_data_path}/historical/assassination*", :layout => "gallery"
 	page "#{book_data_path}/historical/tiwanaku*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
