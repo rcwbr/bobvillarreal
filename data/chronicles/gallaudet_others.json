@@ -11261,10 +11261,16 @@
                       "label": "1"
                     },
                     {
+                      "caption": "An artist's rendition of the Battle at Las Salinas. Artist: Everett Gee Jackson.",
+                      "filename": "SALINAS_EVERETT.jpeg",
+                      "attribution": "",
+                      "label": "2"
+                    },
+                    {
                       "caption": "On July 8 of 1538, Hernando Pizarro ordered the beheading of Marshal Diego de Almagro. Artist unknown.",
                       "filename": "DEATH_OF_ALMAGRO.jpg",
                       "attribution": "",
-                      "label": "2"
+                      "label": "3"
                     }
                   ]
                 ],
@@ -13495,10 +13501,16 @@
               "label": "1"
             },
             {
+              "caption": "An artist's rendition of the Battle at Las Salinas. Artist: Everett Gee Jackson.",
+              "filename": "SALINAS_EVERETT.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
               "caption": "On July 8 of 1538, Hernando Pizarro ordered the beheading of Marshal Diego de Almagro. Artist unknown.",
               "filename": "DEATH_OF_ALMAGRO.jpg",
               "attribution": "",
-              "label": "2"
+              "label": "3"
             }
           ]
         ],
@@ -15882,6 +15894,280 @@
               "caption": "",
               "attribution": "",
               "label": "5"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Almagro",
+    "name": "William H. Prescott's Portrait of Marshal Diego de Almagro",
+    "path": "almagro_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Portrait of Marshal Diego de Almagro",
+        "shortname": "Almagro",
+        "path": "almagro_prescott",
+        "filename": "almagro_prescott.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/almagro_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Hernando",
+    "name": "William H. Prescott's portrait of Hernando Pizarro",
+    "path": "hernando_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's portrait of Hernando Pizarro",
+        "shortname": "Hernando",
+        "path": "hernando_prescott",
+        "filename": "hernando_prescott.yaml",
+        "label-prefix": "H",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/hernando_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Assassination",
+    "name": "William H. Prescott's Description of the Assassination of Francisco Pizarro",
+    "path": "assassination",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Description of the Assassination of Francisco Pizarro",
+        "shortname": "Assassination",
+        "path": "assassination",
+        "filename": "assassination.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/assassination",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Francisco",
+    "name": "William H. Prescott's Portrait of Marquess Francisco Pizarro",
+    "path": "francisco_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Portrait of Marquess Francisco Pizarro",
+        "shortname": "Francisco",
+        "path": "francisco_prescott",
+        "filename": "francisco_prescott.yaml",
+        "label-prefix": "F",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/francisco_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
             }
           ]
         ],
