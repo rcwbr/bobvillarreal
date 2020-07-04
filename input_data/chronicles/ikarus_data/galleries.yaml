@@ -218,3 +218,10 @@
           path: "9W-X"
           filename: "9W-X.yaml"
           label-prefix: "9W-X"
+        -
+          name: "Ninth Letter, Part Y-Z"
+          shortname: "Part Y-Z"
+          path: "9Y-Z"
+          filename: "9Y-Z.yaml"
+          label-prefix: "9Y-Z"
+

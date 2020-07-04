@@ -124,3 +124,7 @@
       name: "Ninth Letter, Part W-X"
       shortname: "Part W-X"
       path: "9W-X"
+    -
+      name: "Ninth Letter, Part Y-Z"
+      shortname: "Part Y-Z"
+      path: "9Y-Z"
