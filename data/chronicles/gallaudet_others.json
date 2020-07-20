@@ -11271,6 +11271,32 @@
                       "filename": "DEATH_OF_ALMAGRO.jpg",
                       "attribution": "",
                       "label": "3"
+                    },
+                    {
+                      "caption": "In August of 1540, Marquess Pizarro sent his brother, Gonzalo, in search of the Land of Cinnamon and the golden Land of El Dorado. Artist: Unknown.",
+                      "filename": "GONZALO_UNK.jpeg",
+                      "attribution": "",
+                      "label": "4"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "The Marquess Pizarro hears rumors of his assassination but does not believe them. Artist: Lima de Freitas.",
+                      "filename": "FRANCISCO_IN_LIMA_OFFICE_DE_FREITAS.jpeg",
+                      "attribution": "",
+                      "label": "5"
+                    },
+                    {
+                      "caption": "On Sunday, 26 June of 1541, the followers of Almagro the Lad charge through the Lima streets on their way to kill the Marquess. Artist: Edward Bawden.",
+                      "filename": "DEATH_OF_EDWARD_BAWDEN.jpeg",
+                      "attribution": "",
+                      "label": "6"
+                    },
+                    {
+                      "caption": "The men of Chile exact their vengeance upon Francisco Pizarro at his home. Artist: Unknown.",
+                      "filename": "DEATH_OF_PIZ_HERITAGE_HISTORY.gif",
+                      "attribution": "",
+                      "label": "7"
                     }
                   ]
                 ],
@@ -13511,6 +13537,32 @@
               "filename": "DEATH_OF_ALMAGRO.jpg",
               "attribution": "",
               "label": "3"
+            },
+            {
+              "caption": "In August of 1540, Marquess Pizarro sent his brother, Gonzalo, in search of the Land of Cinnamon and the golden Land of El Dorado. Artist: Unknown.",
+              "filename": "GONZALO_UNK.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The Marquess Pizarro hears rumors of his assassination but does not believe them. Artist: Lima de Freitas.",
+              "filename": "FRANCISCO_IN_LIMA_OFFICE_DE_FREITAS.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "On Sunday, 26 June of 1541, the followers of Almagro the Lad charge through the Lima streets on their way to kill the Marquess. Artist: Edward Bawden.",
+              "filename": "DEATH_OF_EDWARD_BAWDEN.jpeg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "The men of Chile exact their vengeance upon Francisco Pizarro at his home. Artist: Unknown.",
+              "filename": "DEATH_OF_PIZ_HERITAGE_HISTORY.gif",
+              "attribution": "",
+              "label": "7"
             }
           ]
         ],
@@ -16168,6 +16220,204 @@
               "caption": "",
               "attribution": "",
               "label": "8"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "El Dorado",
+    "name": "Agustín de Zárate's Description of Gonzalo Pizarro's Expedition to locate the Land of Cinnamon and to find the Land of El Dorado",
+    "path": "zarate",
+    "media": {
+      "vought_data": {
+        "name": "Agustín de Zárate's Description of Gonzalo Pizarro's Expedition to locate the Land of Cinnamon and to find the Land of El Dorado",
+        "shortname": "El Dorado",
+        "path": "zarate",
+        "filename": "zarate.yaml",
+        "label-prefix": "Z",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/zarate",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "El Dorado",
+    "name": "John Hemming's Description of Gonzalo Pizarro's Expedition to locate the Lands of Cinnamon and of El Dorado",
+    "path": "hemming",
+    "media": {
+      "vought_data": {
+        "name": "John Hemming's Description of Gonzalo Pizarro's Expedition to locate the Lands of Cinnamon and of El Dorado",
+        "shortname": "El Dorado",
+        "path": "hemming",
+        "filename": "hemming.yaml",
+        "label-prefix": "H",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/hemming",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
             }
           ]
         ],
