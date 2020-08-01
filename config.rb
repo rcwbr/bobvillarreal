@@ -88,6 +88,7 @@ books.each do |book|
 	page "#{book_data_path}/historical/tiwanaku*", :layout => "gallery"
 	page "#{book_data_path}/historical/zarate*", :layout => "gallery"
 	page "#{book_data_path}/historical/hemming*", :layout => "gallery"
+	page "#{book_data_path}/historical/yupanqui*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
@@ -106,6 +107,7 @@ books.each do |book|
     media_entry = {"content_path" => "historical"}
     proxy "/#{book_data_path}/historical/prescott/index.html", "#{book_data_path}/prescott.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
     proxy "/#{book_data_path}/historical/vega/index.html", "#{book_data_path}/vega.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+    proxy "/#{book_data_path}/historical/new_laws/index.html", "#{book_data_path}/new_laws.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
     proxy "/#{book_data_path}/historical/nautical/index.html", "#{book_data_path}/nautical.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
 
