@@ -236,3 +236,36 @@
       filename: "yupanqui_prescott.yaml"
       label-prefix: "Y"
       images_per_row: 3
+-
+  name: "William H. Prescott's Portrait of August&iacute;n de Z&aacute;rate."
+  shortname: "zarate_prescott"
+  galleries:
+    -
+      name: "William H. Prescott's Portrait of August&iacute;n de Z&aacute;rate."
+      shortname: "Zarate Prescott"
+      path: "zarate_prescott"
+      filename: "zarate_prescott.yaml"
+      label-prefix: "Z"
+      images_per_row: 3
+-
+  name: "William H. Prescott's Portrait of Francisco de Carbaj&aacute;l, the \"Demon of the Andes.\""
+  shortname: "carbajal_prescott"
+  galleries:
+    -
+      name: "William H. Prescott's Portrait of Francisco de Carbaj&aacute;l, the \"Demon of the Andes.\""
+      shortname: "Carbaj&aacute;l Prescott"
+      path: "carbajal_prescott"
+      filename: "carbajal_prescott.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "William H. Prescott's Portrait of Gonzalo Pizarro."
+  shortname: "gonzalo_prescott"
+  galleries:
+    -
+      name: "William H. Prescott's Portrait of Gonzalo Pizarro."
+      shortname: "Gonzalo Prescott"
+      path: "gonzalo_prescott"
+      filename: "gonzalo_prescott.yaml"
+      label-prefix: "G"
+      images_per_row: 3
