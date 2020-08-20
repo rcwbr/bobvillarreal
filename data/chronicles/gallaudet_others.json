@@ -7284,7 +7284,7 @@
               "label": "18"
             },
             {
-              "caption": "The new Viceroy of Peru, Pedro de la Gasca, asked Captain Valdivia to help him defeat the uprising against his rule led by Gonzalo Pizarro. This painting depicts Spanish fighting Spanish at the Battle of Sacsayhuaman. Artist: Everett Gee Jackson.",
+              "caption": "The new Viceroy of Peru, Pedro de la Gasca, asked Captain Valdivia to help him defeat the uprising against his rule led by Gonzalo Pizarro. This painting depicts Spanish fighting Spanish at the Battle of Xaquixahuana. Artist: Everett Gee Jackson.",
               "filename": "SPAN_AGAINST_SPAN_JACKSON.jpeg",
               "attribution": "",
               "label": "19"
@@ -8792,7 +8792,7 @@
                       "label": "18"
                     },
                     {
-                      "caption": "The new Viceroy of Peru, Pedro de la Gasca, asked Captain Valdivia to help him defeat the uprising against his rule led by Gonzalo Pizarro. This painting depicts Spanish fighting Spanish at the Battle of Sacsayhuaman. Artist: Everett Gee Jackson.",
+                      "caption": "The new Viceroy of Peru, Pedro de la Gasca, asked Captain Valdivia to help him defeat the uprising against his rule led by Gonzalo Pizarro. This painting depicts Spanish fighting Spanish at the Battle of Xaquixahuana. Artist: Everett Gee Jackson.",
                       "filename": "SPAN_AGAINST_SPAN_JACKSON.jpeg",
                       "attribution": "",
                       "label": "19"
@@ -16554,6 +16554,173 @@
               "caption": "",
               "attribution": "",
               "label": "2"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Zarate Prescott",
+    "name": "William H. Prescott's Portrait of August&iacute;n de Z&aacute;rate.",
+    "path": "zarate_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Portrait of August&iacute;n de Z&aacute;rate.",
+        "shortname": "Zarate Prescott",
+        "path": "zarate_prescott",
+        "filename": "zarate_prescott.yaml",
+        "label-prefix": "Z",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/zarate_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Carbaj&aacute;l Prescott",
+    "name": "William H. Prescott's Portrait of Francisco de Carbaj&aacute;l, the \"Demon of the Andes.\"",
+    "path": "carbajal_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Portrait of Francisco de Carbaj&aacute;l, the \"Demon of the Andes.\"",
+        "shortname": "Carbaj&aacute;l Prescott",
+        "path": "carbajal_prescott",
+        "filename": "carbajal_prescott.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/carbajal_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Gonzalo Prescott",
+    "name": "William H. Prescott's Portrait of Gonzalo Pizarro.",
+    "path": "gonzalo_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Portrait of Gonzalo Pizarro.",
+        "shortname": "Gonzalo Prescott",
+        "path": "gonzalo_prescott",
+        "filename": "gonzalo_prescott.yaml",
+        "label-prefix": "G",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/gonzalo_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
             }
           ]
         ],
