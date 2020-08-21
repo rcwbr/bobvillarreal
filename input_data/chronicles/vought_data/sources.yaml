@@ -269,3 +269,14 @@
       filename: "gonzalo_prescott.yaml"
       label-prefix: "G"
       images_per_row: 3
+-
+  name: "William H. Prescott's Profile of Viceroy Blasco Nu&ntildeez Vela."
+  shortname: "vela_prescott"
+  galleries:
+    -
+      name: "William H. Prescott's Profile of Viceroy Blasco Nu&ntildeez Vela."
+      shortname: "Vela Prescott"
+      path: "vela_prescott"
+      filename: "vela_prescott.yaml"
+      label-prefix: "V"
+      images_per_row: 3
