@@ -10,7 +10,7 @@
         "path": "E",
         "filename": "ecuador.yaml",
         "label-prefix": "E",
-        "images_path": "images/preamble/galleries/E",
+        "images_path": "images/prelude/galleries/E",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -262,7 +262,7 @@
         "path": "B",
         "filename": "bolivia.yaml",
         "label-prefix": "B",
-        "images_path": "images/preamble/galleries/B",
+        "images_path": "images/prelude/galleries/B",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -442,7 +442,7 @@
         "path": "A",
         "filename": "argentina.yaml",
         "label-prefix": "A",
-        "images_path": "images/preamble/galleries/A",
+        "images_path": "images/prelude/galleries/A",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -738,6 +738,105 @@
         "content_path": "galleries",
         "page_title": "Galleries",
         "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Ransom",
+    "name": "The Distribution of Atahuallpa's Ransom",
+    "path": "R",
+    "media": {
+      "vought_data": {
+        "name": "The Distribution of Atahuallpa's Ransom",
+        "shortname": "Ransom",
+        "path": "R",
+        "filename": "ransom.yaml",
+        "label-prefix": "R",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/R",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "RANSOM_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "RANSOM_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "RANSOM_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "RANSOM_5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "RANSOM_6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "RANSOM_8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "RANSOM_9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "RANSOM_10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
       }
     }
   }

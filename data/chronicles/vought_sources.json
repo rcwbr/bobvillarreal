@@ -3117,5 +3117,88 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "Portrait of Pedro de la Gasca by William H. Prescott.",
+    "shortname": "gasca_prescott",
+    "galleries": [
+      {
+        "name": "Portrait of Pedro de la Gasca by William H. Prescott.",
+        "shortname": "Gasca Prescott",
+        "path": "gasca_prescott",
+        "filename": "gasca_prescott.yaml",
+        "label-prefix": "G",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/gasca_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]

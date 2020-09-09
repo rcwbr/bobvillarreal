@@ -11311,6 +11311,58 @@
                       "filename": "LAS_CASAS_FELIX_PARRA_SAVIOR_OF_INDIANS.JPG",
                       "attribution": "",
                       "label": "11"
+                    },
+                    {
+                      "caption": "An Earth image of Quito, with the battlefield of I&ntilde;aquito to the north. In this battle, Pizarro defeated the Viceroy, Blasco Vela.",
+                      "filename": "Inaquito_GOOG.jpg",
+                      "attribution": "",
+                      "label": "12"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "Blasco Vela marched through Quito on his way north to link with Captain Belalc&aacute;zar for reinforcements. He passed through Pasto, Colombia seen here. In 1982, the author and his wife traveled to this city to adopt their second daughter. Courtesy of JORGELRM.",
+                      "filename": "PASTO_JORGELRM.jpg",
+                      "attribution": "",
+                      "label": "13"
+                    },
+                    {
+                      "caption": "Gonzalo Pizarro chose the place of battle on a small plain called Iñaquito, here depicted. Artist: I Riquelme.",
+                      "filename": "Inaquito_PAINTING.jpg",
+                      "attribution": "",
+                      "label": "14"
+                    },
+                    {
+                      "caption": "Photo of the neighborhood of I&ntilde;aquito. Most of its inhabitants are Americans! Courtesy of H3ktor.",
+                      "filename": "Inaquito_TODAY_H3ktor.jpg",
+                      "attribution": "",
+                      "label": "15"
+                    },
+                    {
+                      "caption": "After the victory at I&ntilde;aquito, Gonzalo Pizarro enters Lima. Artist: Edward Bawden.",
+                      "filename": "GONZALO_BAWDEN.jpeg",
+                      "attribution": "",
+                      "label": "16"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "Another depiction of Pizarro entering Lima. Artist: Everett Gee Jackson.",
+                      "filename": "GONZALO_ENTERS_LIMA_EVERETT.jpeg",
+                      "attribution": "",
+                      "label": "17"
+                    },
+                    {
+                      "caption": "Father Pedro de la Gasca, the new President of Spanish lands in the New World. Artist: Everett Gee Jackson.",
+                      "filename": "GASCA_EVERETT.jpeg",
+                      "attribution": "",
+                      "label": "18"
+                    },
+                    {
+                      "caption": "Another rendering of President de la Gasca. Artist: Valentin Carderera y Solano.",
+                      "filename": "LA_GASCA.jpg",
+                      "attribution": "",
+                      "label": "19"
                     }
                   ]
                 ],
@@ -13603,6 +13655,58 @@
               "filename": "LAS_CASAS_FELIX_PARRA_SAVIOR_OF_INDIANS.JPG",
               "attribution": "",
               "label": "11"
+            },
+            {
+              "caption": "An Earth image of Quito, with the battlefield of I&ntilde;aquito to the north. In this battle, Pizarro defeated the Viceroy, Blasco Vela.",
+              "filename": "Inaquito_GOOG.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "Blasco Vela marched through Quito on his way north to link with Captain Belalc&aacute;zar for reinforcements. He passed through Pasto, Colombia seen here. In 1982, the author and his wife traveled to this city to adopt their second daughter. Courtesy of JORGELRM.",
+              "filename": "PASTO_JORGELRM.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Gonzalo Pizarro chose the place of battle on a small plain called Iñaquito, here depicted. Artist: I Riquelme.",
+              "filename": "Inaquito_PAINTING.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Photo of the neighborhood of I&ntilde;aquito. Most of its inhabitants are Americans! Courtesy of H3ktor.",
+              "filename": "Inaquito_TODAY_H3ktor.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "After the victory at I&ntilde;aquito, Gonzalo Pizarro enters Lima. Artist: Edward Bawden.",
+              "filename": "GONZALO_BAWDEN.jpeg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Another depiction of Pizarro entering Lima. Artist: Everett Gee Jackson.",
+              "filename": "GONZALO_ENTERS_LIMA_EVERETT.jpeg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Father Pedro de la Gasca, the new President of Spanish lands in the New World. Artist: Everett Gee Jackson.",
+              "filename": "GASCA_EVERETT.jpeg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Another rendering of President de la Gasca. Artist: Valentin Carderera y Solano.",
+              "filename": "LA_GASCA.jpg",
+              "attribution": "",
+              "label": "19"
             }
           ]
         ],
@@ -16772,6 +16876,85 @@
               "caption": "",
               "attribution": "",
               "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Gasca Prescott",
+    "name": "Portrait of Pedro de la Gasca by William H. Prescott.",
+    "path": "gasca_prescott",
+    "media": {
+      "vought_data": {
+        "name": "Portrait of Pedro de la Gasca by William H. Prescott.",
+        "shortname": "Gasca Prescott",
+        "path": "gasca_prescott",
+        "filename": "gasca_prescott.yaml",
+        "label-prefix": "G",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/gasca_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
             }
           ]
         ],

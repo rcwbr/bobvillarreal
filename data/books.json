@@ -236,10 +236,10 @@
     "other_book_location": "index.html"
   },
   {
-    "shortname": "preamble",
-    "title": "The preamble to Clawing for the Stars: a solo climber in the highest Andes",
+    "shortname": "prelude",
+    "title": "The prelude to Clawing for the Stars: a solo climber in the highest Andes",
     "subtitle": "TO<br />CLAWING FOR THE STARS:<br />A SOLO CLIMBER<br />IN THE HIGHEST ANDES<br />Andean peaks that served as preparation for my solo climbing career",
-    "home_title_text": "THE PREAMBLE",
+    "home_title_text": "THE PRELUDE",
     "styles": {
       "background-image": "clawing/clawing-background-darkest.png",
       "color_one": "#99CCFF",
@@ -262,6 +262,22 @@
         "menu_text": "PHOTOS",
         "page_title": "Galleries",
         "entry_page_title": "Gallery"
+      },
+      {
+        "name": "vought",
+        "content_type": "galleries",
+        "processing_type": "galleries",
+        "sectioned": "true",
+        "input_data_path": "vought_data",
+        "input_data_file": "sources.yaml",
+        "input_data_entries_path": "sources",
+        "output_filename": "vought_sources.json",
+        "content_path": "historical",
+        "content_name": "Historical",
+        "content_longname": "Historical Sources",
+        "menu_text": "HISTORICAL SOURCES",
+        "page_title": "Historical",
+        "entry_page_title": "Sources"
       }
     ],
     "other_book_menu_text": "All Books",

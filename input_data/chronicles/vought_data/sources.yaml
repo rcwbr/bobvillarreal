@@ -280,3 +280,14 @@
       filename: "vela_prescott.yaml"
       label-prefix: "V"
       images_per_row: 3
+-
+  name: "Portrait of Pedro de la Gasca by William H. Prescott."
+  shortname: "gasca_prescott"
+  galleries:
+    -
+      name: "Portrait of Pedro de la Gasca by William H. Prescott."
+      shortname: "Gasca Prescott"
+      path: "gasca_prescott"
+      filename: "gasca_prescott.yaml"
+      label-prefix: "G"
+      images_per_row: 3
