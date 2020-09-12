@@ -10935,114 +10935,108 @@
                       "label": "10"
                     },
                     {
-                      "caption": "The <i>San Sebasti&aacute;n</i> weathers the same storm. Artist: Millard Sheets.",
-                      "filename": "SHIP_STORM_SHEETS.jpeg",
+                      "caption": "St. Elmo's fire, also known as <i>corpo santo</i>, lights up the spars and rigging of the <i>Santiaguillo</i>. Artist: Unknown.",
+                      "filename": "CORP_NINE_2.jpg",
                       "attribution": "",
                       "label": "11"
                     },
                     {
-                      "caption": "St. Elmo's fire, also known as <i>corpo santo</i>, lights up the spars and rigging of the <i>Santiaguillo</i>. Artist: Unknown.",
-                      "filename": "CORP_NINE_2.jpg",
+                      "caption": "St. Elmo's fire also appears above the deck of the <i>San Sebasti&aacute;n</i>. Artist: Unknown.",
+                      "filename": "image1.jpeg",
                       "attribution": "",
                       "label": "12"
                     }
                   ],
                   [
                     {
-                      "caption": "St. Elmo's fire also appears above the deck of the <i>San Sebasti&aacute;n</i>. Artist: Unknown.",
-                      "filename": "image1.jpeg",
-                      "attribution": "",
-                      "label": "13"
-                    },
-                    {
                       "caption": "<i>Corpo santo</i> is also in the rigging and trucks of the <i>Consolaci&oacute;n</i>. Artist: greencanticle.",
                       "filename": "CORPO_NINE_GREENCANTICLE.jpg",
                       "attribution": "",
-                      "label": "14"
+                      "label": "13"
                     },
                     {
                       "caption": "The three ships sail west of Tumbez on their way to Peru. Artist: Lima de Freitas.",
                       "filename": "SHIPS_SAIL_NORTH_ALMAG_DE_FREITAS_3.jpeg",
                       "attribution": "",
-                      "label": "15"
+                      "label": "14"
                     },
                     {
                       "caption": "The ships battle another storm off the shores of Peru. Artist: Lima de Freitas.",
                       "filename": "SHIPS_IN_STORM_COLOR_LIMA.jpeg",
+                      "attribution": "",
+                      "label": "15"
+                    },
+                    {
+                      "caption": "The <i>Santiaguillo</i> approaches Lima's port of Callao in mid-December of 1535. Artist: Millard Sheets.",
+                      "filename": "SHIP_SUN_SHEETS.jpeg",
                       "attribution": "",
                       "label": "16"
                     }
                   ],
                   [
                     {
-                      "caption": "The <i>Santiaguillo</i> approaches Lima's port of Callao in mid-December of 1535. Artist: Millard Sheets.",
-                      "filename": "SHIP_SUN_SHEETS.jpeg",
-                      "attribution": "",
-                      "label": "17"
-                    },
-                    {
                       "caption": "Hernando Pizarro sent his brother, Juan, and seventy horse to confront Manco Inca in the Yucay Valley, north of Cusco. The Christians were surprised when the Inca hordes on the slopes above rolled large boulders down upon them. Artist: Edward Bawden.",
                       "filename": "MANCO_REBELLION_TROOPS.jpeg",
                       "attribution": "",
-                      "label": "18"
+                      "label": "17"
                     },
                     {
                       "caption": "By early May of 1536, Manco Inca and 200,000 Inca troops had surrounded Cusco and the 190 Spanish inside. Manco decided to burn the sacred city to force the Christians into the open so that his warriors could butcher them. Artist: Poma de Ayala.",
                       "filename": "MANCO_BURNS_CUSCO_POMA.jpeg",
                       "attribution": "",
-                      "label": "19"
+                      "label": "18"
                     },
                     {
                       "caption": "Another depiction of Manco's troops burning Cusco, the capital city. Artist: Edward Bawden.",
                       "filename": "MANCO_CUSCO_BURNING_BAWDEN.jpeg",
+                      "attribution": "",
+                      "label": "19"
+                    },
+                    {
+                      "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
+                      "filename": "MANCO_SACSAY_DELSO_3.jpg",
                       "attribution": "",
                       "label": "20"
                     }
                   ],
                   [
                     {
-                      "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
-                      "filename": "MANCO_SACSAY_DELSO_3.jpg",
-                      "attribution": "",
-                      "label": "21"
-                    },
-                    {
                       "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
                       "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
                       "attribution": "",
-                      "label": "22"
+                      "label": "21"
                     },
                     {
                       "caption": "Depiction of the battle for Fortress Sacsayhuaman. Artist: Unknown.",
                       "filename": "MANCO_SACSAY_UNKNOWN.jpg",
                       "attribution": "",
-                      "label": "23"
+                      "label": "22"
                     },
                     {
                       "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
                       "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
+                      "attribution": "",
+                      "label": "23"
+                    },
+                    {
+                      "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
+                      "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
                       "attribution": "",
                       "label": "24"
                     }
                   ],
                   [
                     {
-                      "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
-                      "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
-                      "attribution": "",
-                      "label": "25"
-                    },
-                    {
                       "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
                       "filename": "SACSAY_MINE_1.jpeg",
                       "attribution": "",
-                      "label": "26"
+                      "label": "25"
                     },
                     {
                       "caption": "View of the walls near the water tower. R. Villarreal Collection.",
                       "filename": "SACSAY_MINE_2.jpeg",
                       "attribution": "",
-                      "label": "27"
+                      "label": "26"
                     }
                   ]
                 ],
@@ -11353,16 +11347,56 @@
                       "label": "17"
                     },
                     {
-                      "caption": "Father Pedro de la Gasca, the new President of Spanish lands in the New World. Artist: Everett Gee Jackson.",
-                      "filename": "GASCA_EVERETT.jpeg",
+                      "caption": "The <i>Santiaguillo</i> sails south with the new President, Pedro de la Gasca, on board. Artist: Gordon Grant.",
+                      "filename": "GASCA_SAILS.jpeg",
                       "attribution": "",
                       "label": "18"
                     },
                     {
+                      "caption": "The top men furl the main sail before the storm strikes. Artist: Gordon Grant.",
+                      "filename": "GASCA_FURLING.jpeg",
+                      "attribution": "",
+                      "label": "19"
+                    },
+                    {
+                      "caption": "The <i>Santiaguillo</i> sails the heavy seas. Artist: Millard Sheets.",
+                      "filename": "GASCA_SHIP_STORM_SHEETS.jpeg",
+                      "attribution": "",
+                      "label": "20"
+                    }
+                  ],
+                  [
+                    {
+                      "caption": "The <i>Consolaci&oacute;n</i> takes on a wave bow on. Artist: Gordon Grant.",
+                      "filename": "GASCA_SHEETS.jpeg",
+                      "attribution": "",
+                      "label": "21"
+                    },
+                    {
+                      "caption": "The <i>Consolaci&oacute;n</i> struggles in the heavy seas. Artist: Hans Alexander Mueller.",
+                      "filename": "GASCA_SHIP.jpeg",
+                      "attribution": "",
+                      "label": "22"
+                    },
+                    {
+                      "caption": "The <i>Consolaci&oacute;n</i> in calmer seas. Artist: Hans Alexander Mueller.",
+                      "filename": "GASCA_SHIP_2.jpeg",
+                      "attribution": "",
+                      "label": "23"
+                    },
+                    {
+                      "caption": "Father Pedro de la Gasca, the new President of Spanish lands in the New World. Artist: Everett Gee Jackson.",
+                      "filename": "GASCA_EVERETT.jpeg",
+                      "attribution": "",
+                      "label": "24"
+                    }
+                  ],
+                  [
+                    {
                       "caption": "Another rendering of President de la Gasca. Artist: Valentin Carderera y Solano.",
                       "filename": "LA_GASCA.jpg",
                       "attribution": "",
-                      "label": "19"
+                      "label": "25"
                     }
                   ]
                 ],
@@ -13265,114 +13299,108 @@
               "label": "10"
             },
             {
-              "caption": "The <i>San Sebasti&aacute;n</i> weathers the same storm. Artist: Millard Sheets.",
-              "filename": "SHIP_STORM_SHEETS.jpeg",
+              "caption": "St. Elmo's fire, also known as <i>corpo santo</i>, lights up the spars and rigging of the <i>Santiaguillo</i>. Artist: Unknown.",
+              "filename": "CORP_NINE_2.jpg",
               "attribution": "",
               "label": "11"
             },
             {
-              "caption": "St. Elmo's fire, also known as <i>corpo santo</i>, lights up the spars and rigging of the <i>Santiaguillo</i>. Artist: Unknown.",
-              "filename": "CORP_NINE_2.jpg",
+              "caption": "St. Elmo's fire also appears above the deck of the <i>San Sebasti&aacute;n</i>. Artist: Unknown.",
+              "filename": "image1.jpeg",
               "attribution": "",
               "label": "12"
             }
           ],
           [
             {
-              "caption": "St. Elmo's fire also appears above the deck of the <i>San Sebasti&aacute;n</i>. Artist: Unknown.",
-              "filename": "image1.jpeg",
-              "attribution": "",
-              "label": "13"
-            },
-            {
               "caption": "<i>Corpo santo</i> is also in the rigging and trucks of the <i>Consolaci&oacute;n</i>. Artist: greencanticle.",
               "filename": "CORPO_NINE_GREENCANTICLE.jpg",
               "attribution": "",
-              "label": "14"
+              "label": "13"
             },
             {
               "caption": "The three ships sail west of Tumbez on their way to Peru. Artist: Lima de Freitas.",
               "filename": "SHIPS_SAIL_NORTH_ALMAG_DE_FREITAS_3.jpeg",
               "attribution": "",
-              "label": "15"
+              "label": "14"
             },
             {
               "caption": "The ships battle another storm off the shores of Peru. Artist: Lima de Freitas.",
               "filename": "SHIPS_IN_STORM_COLOR_LIMA.jpeg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "The <i>Santiaguillo</i> approaches Lima's port of Callao in mid-December of 1535. Artist: Millard Sheets.",
+              "filename": "SHIP_SUN_SHEETS.jpeg",
               "attribution": "",
               "label": "16"
             }
           ],
           [
             {
-              "caption": "The <i>Santiaguillo</i> approaches Lima's port of Callao in mid-December of 1535. Artist: Millard Sheets.",
-              "filename": "SHIP_SUN_SHEETS.jpeg",
-              "attribution": "",
-              "label": "17"
-            },
-            {
               "caption": "Hernando Pizarro sent his brother, Juan, and seventy horse to confront Manco Inca in the Yucay Valley, north of Cusco. The Christians were surprised when the Inca hordes on the slopes above rolled large boulders down upon them. Artist: Edward Bawden.",
               "filename": "MANCO_REBELLION_TROOPS.jpeg",
               "attribution": "",
-              "label": "18"
+              "label": "17"
             },
             {
               "caption": "By early May of 1536, Manco Inca and 200,000 Inca troops had surrounded Cusco and the 190 Spanish inside. Manco decided to burn the sacred city to force the Christians into the open so that his warriors could butcher them. Artist: Poma de Ayala.",
               "filename": "MANCO_BURNS_CUSCO_POMA.jpeg",
               "attribution": "",
-              "label": "19"
+              "label": "18"
             },
             {
               "caption": "Another depiction of Manco's troops burning Cusco, the capital city. Artist: Edward Bawden.",
               "filename": "MANCO_CUSCO_BURNING_BAWDEN.jpeg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DELSO_3.jpg",
               "attribution": "",
               "label": "20"
             }
           ],
           [
             {
-              "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
-              "filename": "MANCO_SACSAY_DELSO_3.jpg",
-              "attribution": "",
-              "label": "21"
-            },
-            {
               "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
               "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
               "attribution": "",
-              "label": "22"
+              "label": "21"
             },
             {
               "caption": "Depiction of the battle for Fortress Sacsayhuaman. Artist: Unknown.",
               "filename": "MANCO_SACSAY_UNKNOWN.jpg",
               "attribution": "",
-              "label": "23"
+              "label": "22"
             },
             {
               "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
               "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
               "attribution": "",
               "label": "24"
             }
           ],
           [
             {
-              "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
-              "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
-              "attribution": "",
-              "label": "25"
-            },
-            {
               "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
               "filename": "SACSAY_MINE_1.jpeg",
               "attribution": "",
-              "label": "26"
+              "label": "25"
             },
             {
               "caption": "View of the walls near the water tower. R. Villarreal Collection.",
               "filename": "SACSAY_MINE_2.jpeg",
               "attribution": "",
-              "label": "27"
+              "label": "26"
             }
           ]
         ],
@@ -13697,16 +13725,56 @@
               "label": "17"
             },
             {
-              "caption": "Father Pedro de la Gasca, the new President of Spanish lands in the New World. Artist: Everett Gee Jackson.",
-              "filename": "GASCA_EVERETT.jpeg",
+              "caption": "The <i>Santiaguillo</i> sails south with the new President, Pedro de la Gasca, on board. Artist: Gordon Grant.",
+              "filename": "GASCA_SAILS.jpeg",
               "attribution": "",
               "label": "18"
             },
             {
+              "caption": "The top men furl the main sail before the storm strikes. Artist: Gordon Grant.",
+              "filename": "GASCA_FURLING.jpeg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "The <i>Santiaguillo</i> sails the heavy seas. Artist: Millard Sheets.",
+              "filename": "GASCA_SHIP_STORM_SHEETS.jpeg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "The <i>Consolaci&oacute;n</i> takes on a wave bow on. Artist: Gordon Grant.",
+              "filename": "GASCA_SHEETS.jpeg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The <i>Consolaci&oacute;n</i> struggles in the heavy seas. Artist: Hans Alexander Mueller.",
+              "filename": "GASCA_SHIP.jpeg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "The <i>Consolaci&oacute;n</i> in calmer seas. Artist: Hans Alexander Mueller.",
+              "filename": "GASCA_SHIP_2.jpeg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Father Pedro de la Gasca, the new President of Spanish lands in the New World. Artist: Everett Gee Jackson.",
+              "filename": "GASCA_EVERETT.jpeg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
               "caption": "Another rendering of President de la Gasca. Artist: Valentin Carderera y Solano.",
               "filename": "LA_GASCA.jpg",
               "attribution": "",
-              "label": "19"
+              "label": "25"
             }
           ]
         ],
@@ -16722,6 +16790,57 @@
     }
   },
   {
+    "shortname": "Vela Prescott",
+    "name": "William H. Prescott's Profile of Viceroy Blasco Nu&ntildeez Vela.",
+    "path": "vela_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Profile of Viceroy Blasco Nu&ntildeez Vela.",
+        "shortname": "Vela Prescott",
+        "path": "vela_prescott",
+        "filename": "vela_prescott.yaml",
+        "label-prefix": "V",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/vela_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
     "shortname": "Carbaj&aacute;l Prescott",
     "name": "William H. Prescott's Portrait of Francisco de Carbaj&aacute;l, the \"Demon of the Andes.\"",
     "path": "carbajal_prescott",
@@ -16838,57 +16957,6 @@
     }
   },
   {
-    "shortname": "Vela Prescott",
-    "name": "William H. Prescott's Profile of Viceroy Blasco Nu&ntildeez Vela.",
-    "path": "vela_prescott",
-    "media": {
-      "vought_data": {
-        "name": "William H. Prescott's Profile of Viceroy Blasco Nu&ntildeez Vela.",
-        "shortname": "Vela Prescott",
-        "path": "vela_prescott",
-        "filename": "vela_prescott.yaml",
-        "label-prefix": "V",
-        "images_per_row": 3,
-        "images_path": "images/chronicles/galleries/vela_prescott",
-        "galleries_path": "galleries",
-        "source_path": "../source",
-        "thumbs_folder_path": "thumbs",
-        "total_width": 960,
-        "image_margins": 10,
-        "width_adjustment": 4,
-        "overlay_thumb_height": 100,
-        "image_matrix": [
-          [
-            {
-              "filename": "1.jpeg",
-              "caption": "",
-              "attribution": "",
-              "label": "1"
-            },
-            {
-              "filename": "2.jpeg",
-              "caption": "",
-              "attribution": "",
-              "label": "2"
-            },
-            {
-              "filename": "3.jpeg",
-              "caption": "",
-              "attribution": "",
-              "label": "3"
-            }
-          ]
-        ],
-        "content_type": "galleries",
-        "content_name": "Historical",
-        "content_path": "historical",
-        "page_title": "Historical",
-        "content_longname": "Historical Sources",
-        "entry_page_title": "Sources"
-      }
-    }
-  },
-  {
     "shortname": "Gasca Prescott",
     "name": "Portrait of Pedro de la Gasca by William H. Prescott.",
     "path": "gasca_prescott",
@@ -16955,6 +17023,46 @@
               "caption": "",
               "attribution": "",
               "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
             }
           ]
         ],
