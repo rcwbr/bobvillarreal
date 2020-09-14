@@ -259,6 +259,17 @@
       label-prefix: "V"
       images_per_row: 3
 -
+  name: "Harry A. Franck's description of Pasto, Colombia from  \"Vagabonding Down the Andes.\""
+  shortname: "pasto"
+  galleries:
+    -
+      name: "Harry A. Franck's description of Pasto, Colombia from  \"Vagabonding Down the Andes.\""
+      shortname: "Pasto"
+      path: "pasto"
+      filename: "pasto.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
   name: "William H. Prescott's Portrait of Francisco de Carbaj&aacute;l, the \"Demon of the Andes.\""
   shortname: "carbajal_prescott"
   galleries:
