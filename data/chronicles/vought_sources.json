@@ -3315,5 +3315,154 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\"",
+    "shortname": "quito",
+    "galleries": [
+      {
+        "name": "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Quito",
+        "path": "quito",
+        "filename": "quito.yaml",
+        "label-prefix": "Q",
+        "images_per_row": 3,
+        "images_path": "images/chronicles/galleries/quito",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]
