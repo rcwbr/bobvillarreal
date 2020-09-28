@@ -302,3 +302,14 @@
       filename: "gasca_prescott.yaml"
       label-prefix: "G"
       images_per_row: 3
+-
+  name: "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "quito"
+  galleries:
+    -
+      name: "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Quito"
+      path: "quito"
+      filename: "quito.yaml"
+      label-prefix: "Q"
+      images_per_row: 3
