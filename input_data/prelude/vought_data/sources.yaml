@@ -1,0 +1,67 @@
+---
+-
+  name: "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "quito"
+  galleries:
+    -
+      name: "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Quito"
+      path: "quito"
+      filename: "quito.yaml"
+      label-prefix: "Q"
+      images_per_row: 3
+-
+  name: "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier"
+  shortname: "tiwanaku"
+  galleries:
+    -
+      name: "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier"
+      shortname: "Tiwanaku"
+      path: "tiwanaku"
+      filename: "tiwanaku.yaml"
+      label-prefix: "T"
+      images_per_row: 3
+-
+  name: "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "pichincha"
+  galleries:
+    -
+      name: "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Pichincha"
+      path: "pichincha"
+      filename: "pichincha.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "cayambe"
+  galleries:
+    -
+      name: "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Cayambe"
+      path: "cayambe"
+      filename: "cayambe.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "cotopaxi"
+  galleries:
+    -
+      name: "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Cotopaxi"
+      path: "cotopaxi"
+      filename: "cotopaxi.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Edward Whymper's description of the first ascent of Chimborazo."
+  shortname: "chimborazo"
+  galleries:
+    -
+      name: "Edward Whymper's description of the first ascent of Chimborazo."
+      shortname: "Chimborazo"
+      path: "chimborazo"
+      filename: "chimborazo.yaml"
+      label-prefix: "C"
+      images_per_row: 3

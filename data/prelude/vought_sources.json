@@ -1,16 +1,16 @@
 [
   {
-    "name": "The Distribution of Atahuallpa's Ransom",
-    "shortname": "ransom",
+    "name": "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\"",
+    "shortname": "quito",
     "galleries": [
       {
-        "name": "The Distribution of Atahuallpa's Ransom",
-        "shortname": "Ransom",
-        "path": "R",
-        "filename": "ransom.yaml",
-        "label-prefix": "R",
+        "name": "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Quito",
+        "path": "quito",
+        "filename": "quito.yaml",
+        "label-prefix": "Q",
         "images_per_row": 3,
-        "images_path": "images/prelude/galleries/R",
+        "images_path": "images/prelude/galleries/quito",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -21,19 +21,19 @@
         "image_matrix": [
           [
             {
-              "filename": "RANSOM_1.jpeg",
+              "filename": "1.jpeg",
               "caption": "",
               "attribution": "",
               "label": "1"
             },
             {
-              "filename": "RANSOM_2.jpeg",
+              "filename": "2.jpeg",
               "caption": "",
               "attribution": "",
               "label": "2"
             },
             {
-              "filename": "RANSOM_3.jpeg",
+              "filename": "3.jpeg",
               "caption": "",
               "attribution": "",
               "label": "3"
@@ -41,19 +41,19 @@
           ],
           [
             {
-              "filename": "RANSOM_4.jpeg",
+              "filename": "4.jpeg",
               "caption": "",
               "attribution": "",
               "label": "4"
             },
             {
-              "filename": "RANSOM_5.jpeg",
+              "filename": "5.jpeg",
               "caption": "",
               "attribution": "",
               "label": "5"
             },
             {
-              "filename": "RANSOM_6.jpeg",
+              "filename": "6.jpeg",
               "caption": "",
               "attribution": "",
               "label": "6"
@@ -61,19 +61,19 @@
           ],
           [
             {
-              "filename": "RANSOM_7.jpeg",
+              "filename": "7.jpeg",
               "caption": "",
               "attribution": "",
               "label": "7"
             },
             {
-              "filename": "RANSOM_8.jpeg",
+              "filename": "8.jpeg",
               "caption": "",
               "attribution": "",
               "label": "8"
             },
             {
-              "filename": "RANSOM_9.jpeg",
+              "filename": "9.jpeg",
               "caption": "",
               "attribution": "",
               "label": "9"
@@ -81,10 +81,995 @@
           ],
           [
             {
-              "filename": "RANSOM_10.jpeg",
+              "filename": "10.jpeg",
               "caption": "",
               "attribution": "",
               "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier",
+    "shortname": "tiwanaku",
+    "galleries": [
+      {
+        "name": "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier",
+        "shortname": "Tiwanaku",
+        "path": "tiwanaku",
+        "filename": "tiwanaku.yaml",
+        "label-prefix": "T",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/tiwanaku",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "10_282.jpeg",
+              "label": "10 282",
+              "caption": "",
+              "attribution": ""
+            },
+            {
+              "filename": "10_283.jpeg",
+              "label": "10 283",
+              "caption": "",
+              "attribution": ""
+            }
+          ],
+          [
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            }
+          ],
+          [
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            }
+          ],
+          [
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            }
+          ],
+          [
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\"",
+    "shortname": "pichincha",
+    "galleries": [
+      {
+        "name": "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Pichincha",
+        "path": "pichincha",
+        "filename": "pichincha.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/pichincha",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\"",
+    "shortname": "cayambe",
+    "galleries": [
+      {
+        "name": "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Cayambe",
+        "path": "cayambe",
+        "filename": "cayambe.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/cayambe",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\"",
+    "shortname": "cotopaxi",
+    "galleries": [
+      {
+        "name": "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Cotopaxi",
+        "path": "cotopaxi",
+        "filename": "cotopaxi.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/cotopaxi",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Edward Whymper's description of the first ascent of Chimborazo.",
+    "shortname": "chimborazo",
+    "galleries": [
+      {
+        "name": "Edward Whymper's description of the first ascent of Chimborazo.",
+        "shortname": "Chimborazo",
+        "path": "chimborazo",
+        "filename": "chimborazo.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/chimborazo",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "29.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "30.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "31.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
             }
           ]
         ],

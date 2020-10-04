@@ -6,56 +6,71 @@ index_page: true
 ---
 
 <% def chronicles_index (book, media_manager, media) %>
-  <li>
-    <h2><a class="source-link"><%= media[0]["name"] %></a></h2>
-    <ul>
-      <% media[0]["galleries"].each do |letter| %>
-        <li class="letter-li"><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= letter["path"] %>"><%= letter["name"] %></a></li>
-      <% end %>
-    </ul>
-  </li>
-  <li><h2><a class="source-link" href="./prescott/">CHAPTER 5 OF: <u>The History of the Conquest of Peru</u>, by William H. Prescott.</a></h2></li>
-  <li><h2><a class="source-link" href="./vega/">Battle of Tucapel by Garcilaso de la Vega</a><h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[1]["galleries"][0]["path"] %>/"><%= media[1]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[2]["galleries"][0]["path"] %>/"><%= media[2]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[3]["galleries"][0]["path"] %>/"><%= media[3]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[4]["galleries"][0]["path"] %>/"><%= media[4]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[5]["galleries"][0]["path"] %>/"><%= media[5]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[6]["galleries"][0]["path"] %>/"><%= media[6]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[7]["galleries"][0]["path"] %>/"><%= media[7]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[8]["galleries"][0]["path"] %>/"><%= media[8]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[9]["galleries"][0]["path"] %>/"><%= media[9]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[10]["galleries"][0]["path"] %>/"><%= media[10]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="./nautical/">Sailing Ship Nautical Terms</a><h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[11]["galleries"][0]["path"] %>/"><%= media[11]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[12]["galleries"][0]["path"] %>/"><%= media[12]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[13]["galleries"][0]["path"] %>/"><%= media[13]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[14]["galleries"][0]["path"] %>/"><%= media[14]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[15]["galleries"][0]["path"] %>/"><%= media[15]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[16]["galleries"][0]["path"] %>/"><%= media[16]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="./new_laws/">NEW LAWS OF THE INDIES FOR THE GOOD TREATMENT AND PRESERVATION OF THE INDIANS</a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[17]["galleries"][0]["path"] %>/"><%= media[17]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[18]["galleries"][0]["path"] %>/"><%= media[18]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[19]["galleries"][0]["path"] %>/"><%= media[19]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[20]["galleries"][0]["path"] %>/"><%= media[20]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[21]["galleries"][0]["path"] %>/"><%= media[21]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[22]["galleries"][0]["path"] %>/"><%= media[22]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[23]["galleries"][0]["path"] %>/"><%= media[23]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[24]["galleries"][0]["path"] %>/"><%= media[24]["name"] %></a></h2></li>
-  <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[25]["galleries"][0]["path"] %>/"><%= media[25]["name"] %></a></h2></li>
+  <ol>
+    <li>
+      <h2><a class="source-link"><%= media[0]["name"] %></a></h2>
+      <ul>
+        <% media[0]["galleries"].each do |letter| %>
+          <li class="letter-li"><a href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= letter["path"] %>"><%= letter["name"] %></a></li>
+        <% end %>
+      </ul>
+    </li>
+    <li><h2><a class="source-link" href="./prescott/">CHAPTER 5 OF: <u>The History of the Conquest of Peru</u>, by William H. Prescott.</a></h2></li>
+    <li><h2><a class="source-link" href="./vega/">Battle of Tucapel by Garcilaso de la Vega</a><h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[1]["galleries"][0]["path"] %>/"><%= media[1]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[2]["galleries"][0]["path"] %>/"><%= media[2]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[3]["galleries"][0]["path"] %>/"><%= media[3]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[4]["galleries"][0]["path"] %>/"><%= media[4]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[5]["galleries"][0]["path"] %>/"><%= media[5]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[6]["galleries"][0]["path"] %>/"><%= media[6]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[7]["galleries"][0]["path"] %>/"><%= media[7]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[8]["galleries"][0]["path"] %>/"><%= media[8]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[9]["galleries"][0]["path"] %>/"><%= media[9]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[10]["galleries"][0]["path"] %>/"><%= media[10]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="./nautical/">Sailing Ship Nautical Terms</a><h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[11]["galleries"][0]["path"] %>/"><%= media[11]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[12]["galleries"][0]["path"] %>/"><%= media[12]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[13]["galleries"][0]["path"] %>/"><%= media[13]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[14]["galleries"][0]["path"] %>/"><%= media[14]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[15]["galleries"][0]["path"] %>/"><%= media[15]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[16]["galleries"][0]["path"] %>/"><%= media[16]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="./new_laws/">NEW LAWS OF THE INDIES FOR THE GOOD TREATMENT AND PRESERVATION OF THE INDIANS</a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[17]["galleries"][0]["path"] %>/"><%= media[17]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[18]["galleries"][0]["path"] %>/"><%= media[18]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[19]["galleries"][0]["path"] %>/"><%= media[19]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[20]["galleries"][0]["path"] %>/"><%= media[20]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[21]["galleries"][0]["path"] %>/"><%= media[21]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[22]["galleries"][0]["path"] %>/"><%= media[22]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[23]["galleries"][0]["path"] %>/"><%= media[23]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[24]["galleries"][0]["path"] %>/"><%= media[24]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[25]["galleries"][0]["path"] %>/"><%= media[25]["name"] %></a></h2></li>
+  </ol>
 <% end %>
 
 <% def prelude_index (book, media_manager, media) %>
+  <h2>Ecuador</h2>
+  <ol>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[0]["galleries"][0]["path"] %>/"><%= media[0]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[2]["galleries"][0]["path"] %>/"><%= media[2]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[3]["galleries"][0]["path"] %>/"><%= media[3]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[4]["galleries"][0]["path"] %>/"><%= media[4]["name"] %></a></h2></li>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[5]["galleries"][0]["path"] %>/"><%= media[5]["name"] %></a></h2></li>
+  </ol>
+  <h2>Bolivia</h2>
+  <ol>
+    <li><h2><a class="source-link" href="/<%= book["shortname"] %>/<%= media_manager["content_path"] %>/<%= media[1]["galleries"][0]["path"] %>/"><%= media[1]["name"] %></a></h2></li>
+  </ol>
+  <h2>Argentina</h2>
+  <ol>
+  </ol>
 <% end %>
 
 <div id="main">
   <h1 class="media-header"><%= media_manager["content_longname"] || "Galleries" %></h1>
-  <ol>
-    <% if book["shortname"] == "chronicles"
-      chronicles_index(book, media_manager, media)
-    elsif
-      prelude_index(book, media_manager, media)
-    end %>
-  </ol>
+  <% if book["shortname"] == "chronicles"
+    chronicles_index(book, media_manager, media)
+  elsif
+    prelude_index(book, media_manager, media)
+  end %>
 
 </div>
