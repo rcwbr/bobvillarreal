@@ -95,6 +95,8 @@ books.each do |book|
 	page "#{book_data_path}/historical/cayambe*", :layout => "gallery"
 	page "#{book_data_path}/historical/cotopaxi*", :layout => "gallery"
 	page "#{book_data_path}/historical/chimborazo*", :layout => "gallery"
+	page "#{book_data_path}/historical/illimani*", :layout => "gallery"
+	page "#{book_data_path}/historical/aconcagua*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 

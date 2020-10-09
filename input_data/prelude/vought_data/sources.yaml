@@ -65,3 +65,25 @@
       filename: "chimborazo.yaml"
       label-prefix: "C"
       images_per_row: 3
+-
+  name: "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway."
+  shortname: "illimani"
+  galleries:
+    -
+      name: "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway."
+      shortname: "Illimani"
+      path: "illimani"
+      filename: "illimani.yaml"
+      label-prefix: "I"
+      images_per_row: 3
+-
+  name: "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald."
+  shortname: "aconcagua"
+  galleries:
+    -
+      name: "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald."
+      shortname: "Aconcagua"
+      path: "aconcagua"
+      filename: "aconcagua.yaml"
+      label-prefix: "A"
+      images_per_row: 3
