@@ -1804,5 +1804,223 @@
         "entry_page_title": "Sources"
       }
     }
+  },
+  {
+    "shortname": "Illimani",
+    "name": "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway.",
+    "path": "illimani",
+    "media": {
+      "vought_data": {
+        "name": "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway.",
+        "shortname": "Illimani",
+        "path": "illimani",
+        "filename": "illimani.yaml",
+        "label-prefix": "I",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/illimani",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Aconcagua",
+    "name": "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald.",
+    "path": "aconcagua",
+    "media": {
+      "vought_data": {
+        "name": "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald.",
+        "shortname": "Aconcagua",
+        "path": "aconcagua",
+        "filename": "aconcagua.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/aconcagua",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources",
+        "entry_page_title": "Sources"
+      }
+    }
   }
 ]
