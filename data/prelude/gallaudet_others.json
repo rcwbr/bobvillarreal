@@ -22,6 +22,12 @@
         "image_matrix": [
           [
             {
+              "caption": "A view from 30,000 feet at the main Ecuador peaks. Loren McIntyre.",
+              "filename": "ACLAPRE_ECUADOR_PEAKS_FROM_30_K.jpeg",
+              "label": "0",
+              "attribution": ""
+            },
+            {
               "caption": "My new little friend in Quito (1989).",
               "filename": "image1.jpg",
               "attribution": "",
@@ -38,15 +44,15 @@
               "filename": "image3.jpg",
               "attribution": "",
               "label": "3"
-            },
+            }
+          ],
+          [
             {
               "caption": "This photo captures the 1999 eruption of Pichincha Volcano.  I stood on the summit 12 years before this!  <span class=\\\"attribution\\\">Courtesy of Wikipedia.</span>",
               "filename": "image4.jpg",
               "attribution": "",
               "label": "4"
-            }
-          ],
-          [
+            },
             {
               "caption": "El Cayambe (<span class=\\\"height\\\">18,996', 5790 m</span>) sits northeast of Quito. Its distinction is that the equator lies right on its southern slopes. We got this close to the peak before the guides determined that the entire lower portion of the Whymper route had been obliterated by avalanches. We pushed on to Cotopaxi.",
               "filename": "image5.jpg",
@@ -64,15 +70,15 @@
               "filename": "image7.png",
               "attribution": "",
               "label": "7"
-            },
+            }
+          ],
+          [
             {
               "caption": "On the descent of El Cayambe, one of the pack animals slipped and fell over a precipice into the void below. Original 1892 Edward Whymper woodcut. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image8.png",
               "attribution": "",
               "label": "8"
-            }
-          ],
-          [
+            },
             {
               "caption": "Base Camp on Cotopaxi -- the Jose Rivas hut at <span class=\\\"height\\\">15,500' (4720 m)</span>.",
               "filename": "image9.jpg",
@@ -90,15 +96,15 @@
               "filename": "image11.jpg",
               "attribution": "",
               "label": "11"
-            },
+            }
+          ],
+          [
             {
               "caption": "Whymper wood engraving dated 1892 of the Cotopaxi summit crater. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image12.jpg",
               "attribution": "",
               "label": "12"
-            }
-          ],
-          [
+            },
             {
               "caption": "On the return from the fog choked Cotopaxi summit, the mists lift to reveal the rich Ecuadorian countryside.",
               "filename": "image13.jpg",
@@ -116,15 +122,15 @@
               "filename": "image15.jpg",
               "attribution": "",
               "label": "15"
-            },
+            }
+          ],
+          [
             {
               "caption": "A section of the valley walls surrounding Banos, a small town near Tungurahua peak. It resembles Yosemite Valley, with numerous waterfalls that cascade into the valley below.",
               "filename": "image16.png",
               "attribution": "",
               "label": "16"
-            }
-          ],
-          [
+            },
             {
               "caption": "On the way from Banos to the Tungurahua staging area to rent our pack animals.",
               "filename": "image17.jpg",
@@ -142,15 +148,15 @@
               "filename": "image19.jpg",
               "attribution": "",
               "label": "19"
-            },
+            }
+          ],
+          [
             {
               "caption": "This same Tungurahua erupting in April, 2011; the beautiful town of Banos is off to the left.",
               "filename": "image20.jpg",
               "attribution": "",
               "label": "20"
-            }
-          ],
-          [
+            },
             {
               "caption": "Another picture of the eruption.",
               "filename": "image21.jpg",
@@ -168,15 +174,15 @@
               "filename": "image23.jpg",
               "attribution": "",
               "label": "23"
-            },
+            }
+          ],
+          [
             {
               "caption": "This wood-engraving hunting scene most likely was carried out in the area of the previous picture of Chimborazo, near Guarandas. It's another Whymper work dated 1885. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image24.png",
               "attribution": "",
               "label": "24"
-            }
-          ],
-          [
+            },
             {
               "caption": "The Louis Carrel hut on Chimborazo, at <span class=\\\"height\\\">15,912' (4850 m)</span>. Carrel was one of Whymper's climbing guides in Ecuador.",
               "filename": "image25.jpg",
@@ -194,52 +200,72 @@
               "filename": "image27.jpg",
               "attribution": "",
               "label": "27"
+            }
+          ],
+          [
+            {
+              "caption": "Close up views of the red cliffs and the Whymper Glacier. Courtesy of Loren McIntyre.",
+              "filename": "ACLAPRE_CHIMBO_2_PICS.jpeg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "An aerial approaching Chimborazo from the north side, looking south. Whymper climbed <i>El Arenal</i> (the plain of ashes and cinders) under the clouds to the right, and up to the base of the red cliffs. He then crossed to the left to the bottom of the smooth glacier leading to the summit and climbed directly up it to the top. This is known as the \\\"Whymper Route\\\" and is the route we followed. Courtesy of Loren McIntyre.",
+              "filename": "ACLAPRE_CHIMBO_2_PAGES.jpeg",
+              "attribution": "",
+              "label": "29"
             },
             {
               "caption": "A view of Chimborazo from the Whymper hut. The route follows the ridge to the right. Once above the rock and ice outcropping in the center of the picture, the route traverses to the left skyline and follows the glacier to the summit.",
               "filename": "image28.jpg",
               "attribution": "",
-              "label": "28"
-            }
-          ],
-          [
+              "label": "30"
+            },
             {
               "caption": "On the top; I'm on the left with our Ecuadorian guide.",
               "filename": "image29.jpg",
               "attribution": "",
-              "label": "29"
-            },
+              "label": "31"
+            }
+          ],
+          [
             {
               "caption": "Original 1892 Edward Whymper woodcut as he and his guides try to erect their tent low on the slopes of Chimborazo. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image30.png",
               "attribution": "",
-              "label": "30"
+              "label": "32"
             },
             {
               "caption": "Another Whymper engraving showing climbers, at <span class=\\\"height\\\">17,450' (5319 m)</span>, above the site of today's Whymper hut as they work their way across the ridge outside camp. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image31.png",
               "attribution": "",
-              "label": "31"
+              "label": "33"
             },
             {
               "caption": "Whymper's engraving of the scene higher on the route, at <span class=\\\"height\\\">18,500' (5640 m)</span>. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image32.png",
               "attribution": "",
-              "label": "32"
-            }
-          ],
-          [
+              "label": "34"
+            },
             {
               "caption": "Whymper engraving of the route as they close on the summit. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image33.jpg",
               "attribution": "",
-              "label": "33"
+              "label": "35"
+            }
+          ],
+          [
+            {
+              "caption": "An engraving by Edward Whymper of his first ascent of Chimborazo.",
+              "filename": "ACLAPRE_CHIMBO_TOP_WHYM.jpeg",
+              "attribution": "",
+              "label": "36"
             },
             {
               "caption": "Louis Carrel contracted frostbite on the climb. A litter was rigged up and he was carried to the nearby town of Ambato for medical treatment Another 1892 woodcut by Edward Whymper. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
               "filename": "image34.png",
               "attribution": "",
-              "label": "34"
+              "label": "37"
             }
           ]
         ],
@@ -292,134 +318,148 @@
               "label": "3"
             },
             {
-              "caption": "On the way to Alpamayo.",
-              "filename": "image4.jpg",
+              "caption": "Earth image of Condoriri, Peque&ntilde;o Alpamayo, and Huayna Potosi locations.",
+              "filename": "ACLAPRE_CONDO_ALPA_POTO_GOOG.jpg",
               "attribution": "",
               "label": "4"
             }
           ],
           [
             {
-              "caption": "Pequeno Alpamayo (<span class=\\\"height\\\">17,558', 5352 m</span>).",
-              "filename": "image5.jpg",
+              "caption": "Condoriri (18,530 feet). Since I was sick the first several days on this expedition, I did not attempt this peak. Two did though and our guide got them to the top of its distinctive summit. Courtesy of Wikipedia.",
+              "filename": "ACLAPRE_CONDORIRI_WIKIPEDIA.jpg",
               "attribution": "",
               "label": "5"
             },
             {
-              "caption": "A view to the west.",
-              "filename": "image6.jpg",
+              "caption": "On the way to Alpamayo.",
+              "filename": "image4.jpg",
               "attribution": "",
               "label": "6"
             },
             {
-              "caption": "We inch our way up.",
-              "filename": "image7.jpg",
+              "caption": "Pequeno Alpamayo (<span class=\\\"height\\\">17,558', 5352 m</span>).",
+              "filename": "image5.jpg",
               "attribution": "",
               "label": "7"
             },
             {
-              "caption": "On the top.",
-              "filename": "image8.jpg",
+              "caption": "A view to the west.",
+              "filename": "image6.jpg",
               "attribution": "",
               "label": "8"
             }
           ],
           [
             {
-              "caption": "On the top with a rope mate.",
-              "filename": "image9.jpg",
+              "caption": "We inch our way up.",
+              "filename": "image7.jpg",
               "attribution": "",
               "label": "9"
             },
             {
-              "caption": "Cerro Huayna Potosi (<span class=\\\"height\\\">19,968', 6086 m</span>).",
-              "filename": "image10.jpg",
+              "caption": "On the top.",
+              "filename": "image8.jpg",
               "attribution": "",
               "label": "10"
             },
             {
-              "caption": "One rope team nears the summit, out of sight to the right.",
-              "filename": "image11.jpg",
+              "caption": "On the top with a rope mate.",
+              "filename": "image9.jpg",
               "attribution": "",
               "label": "11"
             },
             {
-              "caption": "We approach a small village on the way to Base Camp. Illimani in distance (<span class=\\\"height\\\">21,122', 6438 m</span>).",
-              "filename": "image12.jpg",
+              "caption": "Cerro Huayna Potosi (<span class=\\\"height\\\">19,968', 6086 m</span>).",
+              "filename": "image10.jpg",
               "attribution": "",
               "label": "12"
             }
           ],
           [
             {
-              "caption": "Above the little village.",
-              "filename": "image13.jpg",
+              "caption": "One rope team nears the summit, out of sight to the right.",
+              "filename": "image11.jpg",
               "attribution": "",
               "label": "13"
             },
             {
-              "caption": "Another view.",
-              "filename": "image14.jpg",
+              "caption": "We approach a small village on the way to Base Camp. Illimani in distance (<span class=\\\"height\\\">21,122', 6438 m</span>).",
+              "filename": "image12.jpg",
               "attribution": "",
               "label": "14"
             },
             {
-              "caption": "We near Base Camp.",
-              "filename": "image15.jpg",
+              "caption": "Above the little village.",
+              "filename": "image13.jpg",
               "attribution": "",
               "label": "15"
             },
             {
-              "caption": "On the summit.",
-              "filename": "image16.jpg",
+              "caption": "Another view.",
+              "filename": "image14.jpg",
               "attribution": "",
               "label": "16"
             }
           ],
           [
             {
-              "caption": "Our descent down the mountain.",
-              "filename": "image17.jpg",
+              "caption": "We near Base Camp.",
+              "filename": "image15.jpg",
               "attribution": "",
               "label": "17"
             },
             {
-              "caption": "The Tiwanaku (or Tiahuanaco) complex, looking north. Tiahuanaco is a Pre-Colombian archaeological site in western Bolivia. It was the capital of an empire that extended into present-day Peru and Chile, flourishing from AD 300 to AD 1000. The temple complex of Kalasasaya is in the center of the scene. The following pictures show much of the present-day site.",
-              "filename": "image18.jpg",
+              "caption": "On the summit.",
+              "filename": "image16.jpg",
               "attribution": "",
               "label": "18"
             },
             {
-              "caption": "Staircase and entrance door of the Kalasasaya Temple.",
-              "filename": "image19.jpg",
+              "caption": "Our descent down the mountain.",
+              "filename": "image17.jpg",
               "attribution": "",
               "label": "19"
             },
             {
-              "caption": "Interior walls of the Semi-subterranean Temple with the \\\"embedded heads\\\" on its walls.",
-              "filename": "image20.jpg",
+              "caption": "The Tiwanaku (or Tiahuanaco) complex, looking north. Tiahuanaco is a Pre-Colombian archaeological site in western Bolivia. It was the capital of an empire that extended into present-day Peru and Chile, flourishing from AD 300 to AD 1000. The temple complex of Kalasasaya is in the center of the scene. The following pictures show much of the present-day site.",
+              "filename": "image18.jpg",
               "attribution": "",
               "label": "20"
             }
           ],
           [
             {
+              "caption": "Staircase and entrance door of the Kalasasaya Temple.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Interior walls of the Semi-subterranean Temple with the \\\"embedded heads\\\" on its walls.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
               "caption": "Another view of the Semi-subterranean Temple courtyard.",
               "filename": "image21.jpg",
               "attribution": "",
-              "label": "21"
+              "label": "23"
             },
             {
               "caption": "The Ponce monolith in the Kalasasaya complex.",
               "filename": "image22.jpg",
               "attribution": "",
-              "label": "22"
-            },
+              "label": "24"
+            }
+          ],
+          [
             {
               "caption": "The Gateway of the Sun. It stands 10 feet high and 13 feet wide.",
               "filename": "image23.jpg",
               "attribution": "",
-              "label": "23"
+              "label": "25"
             }
           ]
         ],
@@ -486,20 +526,20 @@
               "label": "5"
             },
             {
-              "caption": "Our Camp at Casa de la Piedra. The first view of Aconcagua is from this point.",
-              "filename": "image6.jpg",
+              "caption": "In the afternoon of the second day, we reach Casa de Piedra for our second camp; Aconcagua is in the distance. The view is west.",
+              "filename": "image8.jpg",
               "attribution": "",
               "label": "6"
             },
             {
-              "caption": "A climber checks out the stone \\\"house.\\\" Courtesy of mza com ar.",
-              "filename": "image7.png",
+              "caption": "Our Camp at Casa de la Piedra. The first view of Aconcagua is from this point.",
+              "filename": "image6.jpg",
               "attribution": "",
               "label": "7"
             },
             {
-              "caption": "In the afternoon of the second day, we reach Casa de Piedra for our second camp; Aconcagua is in the distance. The view is west.",
-              "filename": "image8.jpg",
+              "caption": "A climber checks out the stone \\\"house.\\\" Courtesy of mza com ar.",
+              "filename": "image7.png",
               "attribution": "",
               "label": "8"
             }
@@ -694,19 +734,19 @@
               "label": "37"
             },
             {
-              "caption": "We're there! I'm on the left.<br /><span class=\\\"height\\\">22,834' (6960 m)</span>",
+              "caption": "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking east, from high on Aconcagua.",
               "filename": "image38.jpg",
               "attribution": "",
               "label": "38"
             },
             {
-              "caption": "Team photo on the summit.",
+              "caption": "We're there! I'm on the left.<br /><span class=\\\"height\\\">22,834' (6960 m)</span>",
               "filename": "image39.jpg",
               "attribution": "",
               "label": "39"
             },
             {
-              "caption": "We descend by way of the Canaleta on the western slopes. A thousand feet lower we traverse around the northern slopes to the eastern side for the return back to Base.",
+              "caption": "Team photo on the summit.",
               "filename": "image40.jpg",
               "attribution": "",
               "label": "40"
@@ -714,19 +754,19 @@
           ],
           [
             {
-              "caption": "To prevent my frostbitten toes from becoming wet, my friends carry me across the Rio de las Vacas.",
+              "caption": "We descend by way of the Canaleta on the western slopes. A thousand feet lower we traverse around the northern slopes to the eastern side for the return back to Base.",
               "filename": "image41.jpg",
               "attribution": "",
               "label": "41"
             },
             {
-              "caption": "Group shot back at Puente del Inca. Though my right toes and fingers were frostbitten, the climb was worth it.",
+              "caption": "To prevent my frostbitten toes from becoming wet, my friends carry me across the Rio de las Vacas.",
               "filename": "image42.jpg",
               "attribution": "",
               "label": "42"
             },
             {
-              "caption": "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking east, from high on Aconcagua.",
+              "caption": "Group shot back at Puente del Inca. Though my right toes and fingers were frostbitten, the climb was worth it.",
               "filename": "image43.jpg",
               "attribution": "",
               "label": "43"
@@ -881,7 +921,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -1112,7 +1152,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -1211,7 +1251,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -1351,7 +1391,7 @@
               "label": "17"
             },
             {
-              "filename": "19.jpeg",
+              "filename": "18.jpeg",
               "caption": "",
               "attribution": "",
               "label": "18"
@@ -1359,22 +1399,30 @@
           ],
           [
             {
-              "filename": "20.jpeg",
+              "filename": "19.jpeg",
               "caption": "",
               "attribution": "",
               "label": "19"
             },
             {
-              "filename": "21.jpeg",
+              "filename": "20.jpeg",
               "caption": "",
               "attribution": "",
               "label": "20"
             },
             {
-              "filename": "22.jpeg",
+              "filename": "21.jpeg",
               "caption": "",
               "attribution": "",
               "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
             }
           ]
         ],
@@ -1382,7 +1430,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -1561,7 +1609,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -1800,7 +1848,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -1899,7 +1947,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
@@ -2018,7 +2066,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     }
