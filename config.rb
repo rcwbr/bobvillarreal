@@ -116,7 +116,20 @@ books.each do |book|
     proxy "/#{book_data_path}/historical/prescott/index.html", "#{book_data_path}/prescott.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
     proxy "/#{book_data_path}/historical/vega/index.html", "#{book_data_path}/vega.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
     proxy "/#{book_data_path}/historical/new_laws/index.html", "#{book_data_path}/new_laws.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
-    proxy "/#{book_data_path}/historical/nautical/index.html", "#{book_data_path}/nautical.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/nautical/index.html", "#{book_data_path}/nautical.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+	elsif book["shortname"] == "prelude"
+    media_entry = {"content_path" => "historical"}
+		proxy "/#{book_data_path}/historical/roping/index.html", "#{book_data_path}/roping.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = {
+			"content_path" => "historical",
+			"tours" => [
+				{
+					"title" => "",
+					"url" => "https://www.youtube.com/embed/1Z_hgWdbWPA"
+				}
+			]
+		}
+		proxy "/#{book_data_path}/historical/mariscal/index.html", "#{book_data_path}/mariscal.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
 
 	media_managers = book["media_managers"]

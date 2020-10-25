@@ -1,5 +1,9 @@
 ---
 -
+  caption: "A view from 30,000 feet at the main Ecuador peaks. Loren McIntyre."
+  filename: "ACLAPRE_ECUADOR_PEAKS_FROM_30_K.jpeg"
+  label: "0"
+-
   caption: "My new little friend in Quito (1989)."
   filename: image1.jpg
 -
@@ -81,6 +85,12 @@
   caption: "The Whymper hut at <span class=\\\"height\\\">16,404' (5000 m)</span>. <span class=\\\"attribution\\\">Courtesy Summit Post.</span>"
   filename: image27.jpg
 -
+  caption: "Close up views of the red cliffs and the Whymper Glacier. Courtesy of Loren McIntyre."
+  filename: "ACLAPRE_CHIMBO_2_PICS.jpeg"
+-
+  caption: "An aerial approaching Chimborazo from the north side, looking south. Whymper climbed <i>El Arenal</i> (the plain of ashes and cinders) under the clouds to the right, and up to the base of the red cliffs. He then crossed to the left to the bottom of the smooth glacier leading to the summit and climbed directly up it to the top. This is known as the \\\"Whymper Route\\\" and is the route we followed. Courtesy of Loren McIntyre."
+  filename: "ACLAPRE_CHIMBO_2_PAGES.jpeg"
+-
   caption: "A view of Chimborazo from the Whymper hut. The route follows the ridge to the right. Once above the rock and ice outcropping in the center of the picture, the route traverses to the left skyline and follows the glacier to the summit."
   filename: image28.jpg
 -
@@ -98,6 +108,9 @@
 -
   caption: "Whymper engraving of the route as they close on the summit. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>"
   filename: image33.jpg
+-
+  caption: "An engraving by Edward Whymper of his first ascent of Chimborazo."
+  filename: "ACLAPRE_CHIMBO_TOP_WHYM.jpeg"
 -
   caption: "Louis Carrel contracted frostbite on the climb. A litter was rigged up and he was carried to the nearby town of Ambato for medical treatment Another 1892 woodcut by Edward Whymper. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>"
   filename: image34.png

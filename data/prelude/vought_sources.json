@@ -138,7 +138,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -373,7 +373,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -476,7 +476,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -620,7 +620,7 @@
               "label": "17"
             },
             {
-              "filename": "19.jpeg",
+              "filename": "18.jpeg",
               "caption": "",
               "attribution": "",
               "label": "18"
@@ -628,22 +628,30 @@
           ],
           [
             {
-              "filename": "20.jpeg",
+              "filename": "19.jpeg",
               "caption": "",
               "attribution": "",
               "label": "19"
             },
             {
-              "filename": "21.jpeg",
+              "filename": "20.jpeg",
               "caption": "",
               "attribution": "",
               "label": "20"
             },
             {
-              "filename": "22.jpeg",
+              "filename": "21.jpeg",
               "caption": "",
               "attribution": "",
               "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
             }
           ]
         ],
@@ -651,7 +659,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -834,7 +842,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -1077,7 +1085,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -1180,7 +1188,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
@@ -1303,7 +1311,7 @@
         "content_name": "Historical",
         "content_path": "historical",
         "page_title": "Historical",
-        "content_longname": "Historical Sources",
+        "content_longname": "Historical Sources and Miscellaneous",
         "entry_page_title": "Sources"
       }
     ],
