@@ -87,3 +87,36 @@
       filename: "aconcagua.yaml"
       label-prefix: "A"
       images_per_row: 3
+-
+  name: "South American Handbook (1990) Description of Quito."
+  shortname: "handbook"
+  galleries:
+    -
+      name: "South American Handbook (1990) Description of Quito."
+      shortname: "Handbook"
+      path: "handbook"
+      filename: "handbook.yaml"
+      label-prefix: "Q"
+      images_per_row: 3
+-
+  name: "Harry A. Franck's description of Pasto, Colombia from \"Vagabonding Down the Andes.\""
+  shortname: "pasto"
+  galleries:
+    -
+      name: "Harry A. Franck's description of Pasto, Colombia from \"Vagabonding Down the Andes.\""
+      shortname: "Pasto"
+      path: "pasto"
+      filename: "pasto.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "Harry A. Franck's description of the llama from \"Vagabonding Down the Andes.\""
+  shortname: "llama"
+  galleries:
+    -
+      name: "Harry A. Franck's description of the llama from \"Vagabonding Down the Andes.\""
+      shortname: "Llama"
+      path: "llama"
+      filename: "llama.yaml"
+      label-prefix: "L"
+      images_per_row: 3

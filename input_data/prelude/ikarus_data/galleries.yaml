@@ -1,19 +1,25 @@
 ---
 -
-  name: "Ecuador | Chimborazo"
-  shortname: "Ecuador - Chimborazo"
+  name: "Climbing in the Tetons"
+  shortname: "Tetons"
+  path: "tetons"
+  filename: "tetons.yaml"
+  label-prefix: "T"
+-
+  name: "The Expedition to Ecuador in January, 1989."
+  shortname: "The Expedition to Ecuador in January, 1989."
   path: "E"
   filename: "ecuador.yaml"
   label-prefix: "E"
 -
-  name: "Bolivia | Illimani"
-  shortname: "Bolivia - Illimani"
+  name: "The Expedition to Bolivia in June, 1990, preceded by a visit to Machu Picchu."
+  shortname: "The Expedition to Bolivia in June, 1990, preceded by a visit to Machu Picchu."
   path: "B"
   filename: "bolivia.yaml"
   label-prefix: "B"
 -
-  name: "Argentina | Aconcagua"
-  shortname: "Argentina - Aconcagua"
+  name: "The Expedition to Argentina in January, 1991."
+  shortname: "The Expedition to Argentina in January, 1991."
   path: "A"
   filename: "argentina.yaml"
   label-prefix: "A"
