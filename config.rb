@@ -99,6 +99,10 @@ books.each do |book|
 	page "#{book_data_path}/historical/aconcagua*", :layout => "gallery"
 	page "#{book_data_path}/historical/handbook*", :layout => "gallery"
 	page "#{book_data_path}/historical/llama*", :layout => "gallery"
+	page "#{book_data_path}/historical/machu*", :layout => "gallery"
+	page "#{book_data_path}/historical/lapaz*", :layout => "gallery"
+	page "#{book_data_path}/historical/cusco_franck*", :layout => "gallery"
+	page "#{book_data_path}/historical/altitude*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
