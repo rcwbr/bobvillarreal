@@ -313,3 +313,14 @@
       filename: "quito.yaml"
       label-prefix: "Q"
       images_per_row: 3
+-
+  name: "A Description of Cusco by Harry A. Franck."
+  shortname: "cusco_franck"
+  galleries:
+    -
+      name: "A Description of Cusco by Harry A. Franck."
+      shortname: "Cusco"
+      path: "cusco_franck"
+      filename: "cusco_franck.yaml"
+      label-prefix: "C"
+      images_per_row: 3
