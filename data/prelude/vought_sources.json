@@ -2217,5 +2217,890 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "Description of Quito by Harry A, Franck.",
+    "shortname": "quito_franck",
+    "galleries": [
+      {
+        "name": "Description of Quito by Harry A, Franck.",
+        "shortname": "Quito",
+        "path": "quito_franck",
+        "filename": "quito_franck.yaml",
+        "label-prefix": "Q",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/quito_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Cusco, the Sacred City Description by E. George Squier",
+    "shortname": "cusco",
+    "galleries": [
+      {
+        "name": "Cusco, the Sacred City Description by E. George Squier",
+        "shortname": "Cusco",
+        "path": "C",
+        "filename": "cusco.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/C",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "448.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "29.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "30.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "filename": "31.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "filename": "32.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "33"
+            }
+          ],
+          [
+            {
+              "filename": "33.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "filename": "34.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "filename": "35.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "filename": "36.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "filename": "37.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "filename": "38.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "39"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Fortress Sacsayhuaman by Victor W. Von Hagen",
+    "shortname": "sacsayhuaman",
+    "galleries": [
+      {
+        "name": "Fortress Sacsayhuaman by Victor W. Von Hagen",
+        "shortname": "Sacsayhuaman",
+        "path": "S",
+        "filename": "sacsayhuaman.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/S",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is an aerial view of the ruins of Fortress Sacsayhuaman. Cusco lies below to the west. From: \\\"Sacsayhuaman,\\\" by Victor W. Von Hagen.",
+              "filename": "MANCO_SACSAY_OVERHEAD.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A map by von Hagen of the Fortress layout.",
+              "filename": "MANCO_SACSAY_OVERHEAD_DRAWING.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Von Hagen's numbered guide to the Fortress particulars.",
+              "filename": "MANCO_SACSAY_OVERHEAD_GUIDE.jpeg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "NEW_S_4.jpeg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "NEW_S_5.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "S_4.jpeg",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "S_8.jpeg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
+              "attribution": "",
+              "label": "11"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Citadel Ollantaytambo by E. George Squier",
+    "shortname": "ollantaytambo",
+    "galleries": [
+      {
+        "name": "Citadel Ollantaytambo by E. George Squier",
+        "shortname": "Ollantaytambo",
+        "path": "O",
+        "filename": "ollantaytambo.yaml",
+        "label-prefix": "O",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/O",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "0.jpeg",
+              "label": "0",
+              "caption": "",
+              "attribution": ""
+            },
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            }
+          ],
+          [
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            }
+          ],
+          [
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            }
+          ],
+          [
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            }
+          ],
+          [
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Whymper's Identification of 35 Beetles in Ecuador",
+    "shortname": "beetles",
+    "galleries": [
+      {
+        "name": "Whymper's Identification of 35 Beetles in Ecuador",
+        "shortname": "Beetles",
+        "path": "beetles",
+        "filename": "beetles.yaml",
+        "label-prefix": "B",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/beetles",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "BEETLES.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]

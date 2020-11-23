@@ -103,6 +103,8 @@ books.each do |book|
 	page "#{book_data_path}/historical/lapaz*", :layout => "gallery"
 	page "#{book_data_path}/historical/cusco_franck*", :layout => "gallery"
 	page "#{book_data_path}/historical/altitude*", :layout => "gallery"
+	page "#{book_data_path}/historical/quito_franck*", :layout => "gallery"
+	page "#{book_data_path}/historical/beetles*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
@@ -156,7 +158,11 @@ books.each do |book|
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/ER2Jge7Ac7w"
-		proxy "/#{book_data_path}/historical/cusco_train/index.html", "#{book_data_path}/cusco_landing.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/cusco_train/index.html", "#{book_data_path}/cusco_train.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/9YAFpPXUPlM"
+		proxy "/#{book_data_path}/historical/eruption_pichincha/index.html", "#{book_data_path}/eruption_pichincha.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
 
 	media_managers = book["media_managers"]
