@@ -219,3 +219,25 @@
       filename: "beetles.yaml"
       label-prefix: "B"
       images_per_row: 3
+-
+  name: "Alexander von Humboldt's failed attempt to climb Chimborazo."
+  shortname: "humboldt_chimborazo"
+  galleries:
+    -
+      name: "Alexander von Humboldt's failed attempt to climb Chimborazo."
+      shortname: "Chimborazo"
+      path: "humboldt_chimborazo"
+      filename: "humboldt_chimborazo.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Edward Whymper's description of the Andean condor."
+  shortname: "Edward Whymper's description of the Andean condor."
+  galleries:
+    -
+      name: "Edward Whymper's description of the Andean condor."
+      shortname: "Condor"
+      path: "condor"
+      filename: "condor.yaml"
+      label-prefix: "C"
+      images_per_row: 3

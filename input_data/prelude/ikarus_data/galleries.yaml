@@ -18,6 +18,12 @@
   filename: "bolivia.yaml"
   label-prefix: "B"
 -
+  name: "A Visit to Machu Picchu"
+  shortname: "A Visit to Machu Picchu"
+  path: "M"
+  filename: "machu_picchu.yaml"
+  label-prefix: "M"
+-
   name: "The Expedition to Argentina in January, 1991."
   shortname: "The Expedition to Argentina in January, 1991."
   path: "A"
