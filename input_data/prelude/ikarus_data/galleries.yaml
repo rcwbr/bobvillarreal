@@ -20,7 +20,7 @@
 -
   name: "A Visit to Machu Picchu"
   shortname: "A Visit to Machu Picchu"
-  path: "M"
+  path: "machu_picchu"
   filename: "machu_picchu.yaml"
   label-prefix: "M"
 -
