@@ -107,6 +107,7 @@ books.each do |book|
 	page "#{book_data_path}/historical/beetles*", :layout => "gallery"
 	page "#{book_data_path}/historical/humboldt*", :layout => "gallery"
 	page "#{book_data_path}/historical/condor*", :layout => "gallery"
+	page "#{book_data_path}/historical/heights*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 
@@ -151,7 +152,7 @@ books.each do |book|
 		proxy "/#{book_data_path}/historical/la_paz_takeoff/index.html", "#{book_data_path}/la_paz_takeoff.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
-		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/37ycBw3yAdw"
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/i22GUZgW0mo"
 		proxy "/#{book_data_path}/historical/la_paz_landing/index.html", "#{book_data_path}/la_paz_landing.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
@@ -165,6 +166,10 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/9YAFpPXUPlM"
 		proxy "/#{book_data_path}/historical/eruption_pichincha/index.html", "#{book_data_path}/eruption_pichincha.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/Iy1p_uiIgtg"
+		proxy "/#{book_data_path}/historical/eruption_tungurahua/index.html", "#{book_data_path}/eruption_tungurahua.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
 
 	media_managers = book["media_managers"]
