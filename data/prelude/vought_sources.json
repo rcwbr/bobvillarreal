@@ -3240,5 +3240,48 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "Heights of the Great Andes Peaks by Edward Whymper.",
+    "shortname": "Heights of the Great Andes Peaks by Edward Whymper.",
+    "galleries": [
+      {
+        "name": "Heights of the Great Andes Peaks by Edward Whymper.",
+        "shortname": "Heights",
+        "path": "heights",
+        "filename": "heights.yaml",
+        "label-prefix": "H",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/heights",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "CHIMBO_HT_AND_OTHER_PEAKS_WHYMPER.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]
