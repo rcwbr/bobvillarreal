@@ -24,8 +24,8 @@
   filename: "machu_picchu.yaml"
   label-prefix: "M"
 -
-  name: "The Expedition to Argentina in January, 1991."
-  shortname: "The Expedition to Argentina in January, 1991."
+  name: "The Expedition to Aconcagua in January, 1991."
+  shortname: "The Expedition to Aconcagua in January, 1991."
   path: "A"
   filename: "argentina.yaml"
   label-prefix: "A"
