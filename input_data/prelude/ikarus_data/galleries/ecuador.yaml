@@ -244,6 +244,9 @@
   caption: "Another picture of the eruption."
   filename: image21.jpg
 -
+  caption: "Spanish allies, the ruthless Ca&ntildeari warriors, slaughter Inca Quitan troops at the R&iacuteo Ambato on the Spanish march to Quito in June, 1535. Courtesy of Louis S. Glanzman and National Geographic Magazine."
+  filename: "Canari_AMBATO_GLANZ.jpeg"
+-
   caption: "We're on the way to the Carrel hut on Chimborazo (in the distance). Photo taken from Guarandas."
   filename: image22.jpg
 -
@@ -322,9 +325,6 @@
   caption: "This is the eastern side of Chimborazo, a more pleasing view, to me, than any other side. Courtesy of Loren McIntyre."
   filename: "EAST_6.jpeg"
 -
-  caption: "In this photo, one can see the shelf we followed from the top of the ridge to the side of the Whymper Glacier. The stone is a darker copper color than that above or below it. Courtesy of SummitPost."
-  filename: "FULL_RIDGE_SUMMIT_POST_BRIGHT.jpg"
--
   caption: "On the top; I'm on the left with our Ecuadorian guide, Rodrigo."
   filename: image29.jpg
 -
@@ -345,6 +345,12 @@
 -
   caption: "Louis Carrel contracted frostbite on the climb. A litter was rigged up and he was carried to the nearby town of Ambato for medical treatment Another 1892 woodcut by Edward Whymper. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>"
   filename: image34.png
+-
+  caption: "An Earth view of the northwest ridge of Chimborazo, the route to the summit of Whymper's second ascent of the peak."
+  filename: "CHIMBO_2_NORTHWEST_RIDGE_GOOG.jpg"
+-
+  caption: "Whymper's engraving of the eruption of Cotopaxi during his second ascent of Chimborazo."
+  filename: "CHIMBO_COTO_ERUP_WHYMP.jpeg"
 -
   caption: "Whymper and the Carrels ascended Chimborazo for the second time on July 3 of 1880. Edward Whymper engraving. R. Villarreal Collection."
   filename: "TOP_SECOND_WHYM.jpeg"
