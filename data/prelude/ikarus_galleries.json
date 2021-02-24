@@ -100,6 +100,12 @@
     "image_matrix": [
       [
         {
+          "caption": "Earth image of the terrain west of Quito.",
+          "filename": "EC_QUITO_WEST_OF_GOOG.jpg",
+          "label": "00",
+          "attribution": ""
+        },
+        {
           "caption": "A view from 30,000 feet at the main Ecuador peaks. Loren McIntyre.",
           "filename": "ACLAPRE_ECUADOR_PEAKS_FROM_30_K.jpeg",
           "label": "0",
@@ -116,15 +122,15 @@
           "filename": "PASTO_JORGELRM.jpg",
           "attribution": "",
           "label": "2"
-        },
+        }
+      ],
+      [
         {
           "caption": "Gonzalo Pizarro chose the place of battle on a small plain called Iñaquito, here depicted. Artist: I Riquelme.",
           "filename": "Inaquito_PAINTING.jpg",
           "attribution": "",
           "label": "3"
-        }
-      ],
-      [
+        },
         {
           "caption": "Edward Whymper climbed many of the peaks in Ecuador and documented his travels in, <u>Travels Amongst the Great Andes of the Equator</u>, written in 1880. We followed his climbing routes on all the peaks we attempted. Painting by Lance Calkin.",
           "filename": "ACLAPRE_WHYMPER_PICTURE.jpeg",
@@ -142,15 +148,15 @@
           "filename": "3.jpg",
           "attribution": "",
           "label": "6"
-        },
+        }
+      ],
+      [
         {
           "caption": "The Otavalo market. Otavalo, capital of Otavalo canton, has a population largely made up of the Otavalo indigenous group. It has 39,354 inhabitants and sits at an elevation of 8,307 feet. It is surrounded by the peaks of Imbabura (15,190 feet), Cotacachi (16,388 ft)), and Mojanda (12,300 feet) volcanoes. The indigenous Otavalo people are famous for weaving textiles, usually made of wool, such as handmade blankets, tablecloths, and much more. Our climbing team visited on Saturday, the famous market day. Courtesy of GRAYLINE.",
           "filename": "4.jpg",
           "attribution": "",
           "label": "7"
-        }
-      ],
-      [
+        },
         {
           "caption": "After spending the morning at the Otavalo market, we hiked through the hills of the town, crossed through fields and eucalyptus groves, and came to Lago San Pedro and had lunch at the restaurant of the Lago Pedro Hotel. Courtesy of INTHEKNOW.",
           "filename": "5.jpg",
@@ -168,15 +174,15 @@
           "filename": "7.jpg",
           "attribution": "",
           "label": "10"
-        },
+        }
+      ],
+      [
         {
           "caption": "The Virgin on the top of the Panecillo. Courtesy of VISTA HERMOSA.",
           "filename": "8.jpg",
           "attribution": "",
           "label": "11"
-        }
-      ],
-      [
+        },
         {
           "caption": "The Panecillo with Antisana to the east. Courtesy of ROUGHGUIDES.",
           "filename": "9.jpg",
@@ -194,15 +200,15 @@
           "filename": "11.jpg",
           "attribution": "",
           "label": "14"
-        },
+        }
+      ],
+      [
         {
           "caption": "La Ronda is a popular attraction in Old Quito, famous for its many shops and cafes, all with a Bohemian edge to them. Courtesy of GOECUADOR.",
           "filename": "12.jpg",
           "attribution": "",
           "label": "15"
-        }
-      ],
-      [
+        },
         {
           "caption": "An 1805 map of the Inca town of Quito. Artist: Juan Pio Montufar.",
           "filename": "QUITAN_1805_MAP_Juan_Pio_Montufar.jpg",
@@ -220,15 +226,15 @@
           "filename": "QUITAN_TOWN_RAFAEL_SALAS_1850.jpg",
           "attribution": "",
           "label": "18"
-        },
+        }
+      ],
+      [
         {
           "caption": "My new little friend in Quito (1989).",
           "filename": "image1.jpg",
           "attribution": "",
           "label": "19"
-        }
-      ],
-      [
+        },
         {
           "caption": "A view of Quito on the road to Lloa. Courtesy of Ricardo Magron.",
           "filename": "PICHIN_QUITO_FROM_ROAD_TO_PICHIN_RICARDO_MAGRON_1.jpg",
@@ -246,15 +252,15 @@
           "filename": "PICHIN_LLOA_DREAMSTIME.jpg",
           "attribution": "",
           "label": "22"
-        },
+        }
+      ],
+      [
         {
           "caption": "An Earth image of the area where we started our hike.",
           "filename": "PICHIN_START_CLIMB_GOOG.jpg",
           "attribution": "",
           "label": "23"
-        }
-      ],
-      [
+        },
         {
           "caption": "This is the Pichincha Refugio at 15,000 feet. We did not visit this place as our guide chose to bypass it to the east on the way to the summit. Courtesy of Frosia Kitova.",
           "filename": "PICHIN_REFUGIO_15K_FROSIA_KITOVA_2.jpg",
@@ -272,15 +278,15 @@
           "filename": "PICHIN_TOP_ON_EDGE_4.jpg",
           "attribution": "",
           "label": "26"
-        },
+        }
+      ],
+      [
         {
           "caption": "The summit of Guagua Pichincha, 15,728 feet. Courtesy of A. Enriquez.",
           "filename": "PICHIN_GUAGUA_SUMMIT_A_ENRIQUEZ.JPG",
           "attribution": "",
           "label": "27"
-        }
-      ],
-      [
+        },
         {
           "caption": "Pichincha volcano summit (<span class=\\\"height\\\">15,700', 4790 m</span>).",
           "filename": "image3.jpg",
@@ -298,15 +304,15 @@
           "filename": "ACLAPRE_CAYA_TOWN_YOUTUBE_1.jpg",
           "attribution": "",
           "label": "30"
-        },
+        }
+      ],
+      [
         {
           "caption": "Whymper's drawing of a lower camp on the slopes of Cayambe.",
           "filename": "ACLAPRE_CAYA_CAMP_WHYMP_2.jpeg",
           "attribution": "",
           "label": "31"
-        }
-      ],
-      [
+        },
         {
           "caption": "A view of Cayambe from a point west from the peak. Courtesy of wiki.",
           "filename": "ACLAPRE_CAYA_WIKI_3.jpg",
@@ -324,15 +330,15 @@
           "filename": "ACLAPRE_CAYA_COCKFIGHTING_5.jpg",
           "attribution": "",
           "label": "34"
-        },
+        }
+      ],
+      [
         {
           "caption": "This is the Ruales Oleas Berge Refugio on Cayambe. It accommodates 32 people, has two kitchens, two fireplaces, two living rooms, running water, and toilets. When we got here the guides determined that recent avalanches had covered the lower reaches of the Whymper route, making it too dangerous for us to attempt it. We stayed the night and next day left for Cotopaxi. Courtesy of Riofrio Arias.",
           "filename": "ACLAPRE_CAYAMBE_REFUGIO_RIOFRIO_ARIAS_6.jpg",
           "attribution": "",
           "label": "35"
-        }
-      ],
-      [
+        },
         {
           "caption": "El Cayambe (<span class=\\\"height\\\">18,996', 5790 m</span>) sits northeast of Quito. Its distinction is that the equator lies right on its southern slopes. We got this close to the peak before the guides determined that the entire lower portion of the Whymper route had been obliterated by avalanches. We pushed on to Cotopaxi.",
           "filename": "image5.jpg",
@@ -350,15 +356,15 @@
           "filename": "image7.png",
           "attribution": "",
           "label": "38"
-        },
+        }
+      ],
+      [
         {
           "caption": "On the descent of El Cayambe, one of the pack animals slipped and fell over a precipice into the void below. Original 1892 Edward Whymper woodcut. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
           "filename": "image8.png",
           "attribution": "",
           "label": "39"
-        }
-      ],
-      [
+        },
         {
           "caption": "The town of Machach to the west of Cotopaxii. Whymper and the Carrels stayed here before tackling Cotopaxi. So did we. Courtesy of ECTravel.",
           "filename": "MACHACHI_ECTRAVEL_1.jpg",
@@ -376,15 +382,15 @@
           "filename": "tambopaxi_samana_exp_3.jpg",
           "attribution": "",
           "label": "42"
-        },
+        }
+      ],
+      [
         {
           "caption": "Cotopaxi from the Rosario Farm. Artist: Edward Whymper.",
           "filename": "FROM_ROSARIO_WHYMP_4.jpeg",
           "attribution": "",
           "label": "43"
-        }
-      ],
-      [
+        },
         {
           "caption": "This is today' Rosario Farm property. It was purchased by the government in 2001 and they converted it into a talapia breeding farm. Courtesy of AQUASOL.",
           "filename": "ROSARIO_FARM_AQUASOL_5.jpg",
@@ -402,15 +408,15 @@
           "filename": "PIC_JORGE_ANHALZER_7.jpeg",
           "attribution": "",
           "label": "46"
-        },
+        }
+      ],
+      [
         {
           "caption": "Cotopaxi Park entrance station. Courtesy of Bakhmotov.",
           "filename": "PARK_ENTRAN_BAKHMUTOV_8.jpg",
           "attribution": "",
           "label": "47"
-        }
-      ],
-      [
+        },
         {
           "caption": "Inside the Jose Rivas Refugio. Courtesy of ECTRAVEL. ",
           "filename": "HUT_INSIDE_9.jpeg",
@@ -428,15 +434,15 @@
           "filename": "2_11.jpeg",
           "attribution": "",
           "label": "50"
-        },
+        }
+      ],
+      [
         {
           "caption": "Yet another crater view. Courtesy of Loren McIntyre.",
           "filename": "SUMMIT_TOURHQ_12.jpg",
           "attribution": "",
           "label": "51"
-        }
-      ],
-      [
+        },
         {
           "caption": "Whymper and one of the Carrels peer into the mouth of the crater. Artist: Edward Whymper.",
           "filename": "EXTERIOR_WHYMP_13.jpeg",
@@ -454,15 +460,15 @@
           "filename": "image9.jpg",
           "attribution": "",
           "label": "54"
-        },
+        }
+      ],
+      [
         {
           "caption": "Cotopaxi (<span class=\\\"height\\\">19,347', 5897 m</span>).",
           "filename": "image10.jpg",
           "attribution": "",
           "label": "55"
-        }
-      ],
-      [
+        },
         {
           "caption": "Another view of the Cotopaxi summit, this one higher on the route.",
           "filename": "image11.jpg",
@@ -480,15 +486,15 @@
           "filename": "image13.jpg",
           "attribution": "",
           "label": "58"
-        },
+        }
+      ],
+      [
         {
           "caption": "More stunning views from the flanks of Cotopaxi.",
           "filename": "image14.jpg",
           "attribution": "",
           "label": "59"
-        }
-      ],
-      [
+        },
         {
           "caption": "And more.",
           "filename": "image15.jpg",
@@ -506,15 +512,15 @@
           "filename": "AMBATO_TUNGI_ERUP_ECUATRAVEL_00.jpg",
           "attribution": "",
           "label": "62"
-        },
+        }
+      ],
+      [
         {
           "caption": "The main plaza of Ba&ntilde;os de Santa Agua. R. Villarreal Collection.",
           "filename": "de_Santa_Agua_1.jpeg",
           "attribution": "",
           "label": "63"
-        }
-      ],
-      [
+        },
         {
           "caption": "Catholic believers say that the Virgin Mary appeared near a waterfall near the town in the early 20th century. To honor this, a sculpture of the Virgin, called <i>Virgen de Agua Santa</i>, was placed in the city's cathedral. Courtesy of Chaz Thompson.",
           "filename": "VIRGIN_CHAZ_THOMPSON_1.jpg",
@@ -532,15 +538,15 @@
           "filename": "MARKET_ASLEEP_3.jpeg",
           "attribution": "",
           "label": "66"
-        },
+        }
+      ],
+      [
         {
           "caption": "Tungurahua from Ba&ntilde;os. Courtesy of Torres Costales.",
           "filename": "TUNGU_TORRES_COSTALES_4.jpg",
           "attribution": "",
           "label": "67"
-        }
-      ],
-      [
+        },
         {
           "caption": "The town of Ba&ntilde;os, with Tungurahua in the distance. Courtesy of viajandox.",
           "filename": "TUNGU_FROM_BANOS_VIAJANDOX_5.jpg",
@@ -558,15 +564,15 @@
           "filename": "WIKI_8.JPG",
           "attribution": "",
           "label": "70"
-        },
+        }
+      ],
+      [
         {
           "caption": "Some of the 60 waterfalls in and around the city. Courtesy of mill 1.",
           "filename": "WITH_FALLS_MILL_1_9.jpg",
           "attribution": "",
           "label": "71"
-        }
-      ],
-      [
+        },
         {
           "caption": "More waterfalls! Courtesy of budget your trip.",
           "filename": "WITH_WATERFALLS_BUDGET_YOUR_TRIP_10.jpg",
@@ -584,15 +590,15 @@
           "filename": "image17.jpg",
           "attribution": "",
           "label": "74"
-        },
+        }
+      ],
+      [
         {
           "caption": "This is the Park office where we paid for the arrieros and horses to carry our equipment to the Refugio. R. Villarreal Collection.",
           "filename": "TUNGU_MULES_11.jpeg",
           "attribution": "",
           "label": "75"
-        }
-      ],
-      [
+        },
         {
           "caption": "This is the route above the Refugio to the summit. Winds came up during the night before our summit attempt and I accompanied our guide at 2 a.m. as he wanted to climb above to see if we could still continue. The winds were too fierce and he had to cancel our attempt on the summit. Courtesy of ivaga tours.",
           "filename": "TUNGU_ABOVE_HUT_IVAGA_TOURS_12.png",
@@ -610,15 +616,15 @@
           "filename": "image19.jpg",
           "attribution": "",
           "label": "78"
-        },
+        }
+      ],
+      [
         {
           "caption": "This same Tungurahua erupting in April, 2011; the beautiful town of Banos is off to the left.",
           "filename": "image20.jpg",
           "attribution": "",
           "label": "79"
-        }
-      ],
-      [
+        },
         {
           "caption": "Another picture of the eruption.",
           "filename": "image21.jpg",
@@ -636,15 +642,15 @@
           "filename": "image22.jpg",
           "attribution": "",
           "label": "82"
-        },
+        }
+      ],
+      [
         {
           "caption": "An Earth view of the landscape around Chimborazo.",
           "filename": "TUNGU_GOOG_1.jpg",
           "attribution": "",
           "label": "83"
-        }
-      ],
-      [
+        },
         {
           "caption": "An Earth image looking east at the valley between Carihuairazo and Chimborazo.",
           "filename": "CARIHUA_AND_VALLEY_GOOG_2.jpg",
@@ -662,15 +668,15 @@
           "filename": "FROM_GUARAN_PINTEREST_4.jpg",
           "attribution": "",
           "label": "86"
-        },
+        }
+      ],
+      [
         {
           "caption": "Another image of Chimborazo from Guaranda. Courtesy of Torres Costales.",
           "filename": "FROM_GUARANDA_TORRES_COSTALES_5.jpg",
           "attribution": "",
           "label": "87"
-        }
-      ],
-      [
+        },
         {
           "caption": "\\\"The early explorers of Chimborazo, Humboldt and Bonpland.\\\" Artist: Freidrich Georg Weitsch.",
           "filename": "HUMBOLDT_BONPLAND_FRIEDRICH_GEORG_WEITSCH_1810_6.jpg",
@@ -688,15 +694,15 @@
           "filename": "TOTORILLAS_ALBERTO_BOMBARDELLI_8.jpg",
           "attribution": "",
           "label": "90"
-        },
+        }
+      ],
+      [
         {
           "caption": "The Arenal, with Chimborazo to the east. Courtesy of Viajando.",
           "filename": "EL_ARENAL_VIAJANDO_9.jpg",
           "attribution": "",
           "label": "91"
-        }
-      ],
-      [
+        },
         {
           "caption": "Chimborazo Park Entrance Station. Courtesy of ChimboParque.",
           "filename": "PARK_ENTRANCE_CHIMBOPARQUE_10.jpg",
@@ -714,15 +720,15 @@
           "filename": "image23.jpg",
           "attribution": "",
           "label": "94"
-        },
+        }
+      ],
+      [
         {
           "caption": "This wood-engraving hunting scene most likely was carried out in the area of the previous picture of Chimborazo, near Guarandas. It's another Whymper work dated 1885. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
           "filename": "image24.png",
           "attribution": "",
           "label": "95"
-        }
-      ],
-      [
+        },
         {
           "caption": "The Louis Carrel hut on Chimborazo, at <span class=\\\"height\\\">15,912' (4850 m)</span>. Carrel was one of Whymper's climbing guides in Ecuador.",
           "filename": "image25.jpg",
@@ -740,15 +746,15 @@
           "filename": "image27.jpg",
           "attribution": "",
           "label": "98"
-        },
+        }
+      ],
+      [
         {
           "caption": "Close up views of the red cliffs and the Whymper Glacier. Courtesy of Loren McIntyre.",
           "filename": "ACLAPRE_CHIMBO_2_PICS.jpeg",
           "attribution": "",
           "label": "99"
-        }
-      ],
-      [
+        },
         {
           "caption": "An aerial approaching Chimborazo from the north side, looking south. Whymper climbed <i>El Arenal</i> (the plain of ashes and cinders) under the clouds to the right, and up to the base of the red cliffs. He then crossed to the left to the bottom of the smooth glacier leading to the summit and climbed directly up it to the top. This is known as the \\\"Whymper Route\\\" and is the route we followed. Courtesy of Loren McIntyre.",
           "filename": "ACLAPRE_CHIMBO_2_PAGES.jpeg",
@@ -766,15 +772,15 @@
           "filename": "CARREL_AND_WHYMPER_GOOG_1.jpg",
           "attribution": "",
           "label": "102"
-        },
+        }
+      ],
+      [
         {
           "caption": "Frank has found a space for the night in the Whymper hut! R. Villarreal Collection.",
           "filename": "HUT_INSIDE_2.jpeg",
           "attribution": "",
           "label": "103"
-        }
-      ],
-      [
+        },
         {
           "caption": "Cotopaxi and Antisana from high on Chimborazo. Courtesy of Destination Latine.",
           "filename": "COTO_AND_ANTI_DESTINATION_LATINE_3.jpg",
@@ -792,15 +798,15 @@
           "filename": "TOP_ME_5.jpeg",
           "attribution": "",
           "label": "106"
-        },
+        }
+      ],
+      [
         {
           "caption": "This is the eastern side of Chimborazo, a more pleasing view, to me, than any other side. Courtesy of Loren McIntyre.",
           "filename": "EAST_6.jpeg",
           "attribution": "",
           "label": "107"
-        }
-      ],
-      [
+        },
         {
           "caption": "On the top; I'm on the left with our Ecuadorian guide, Rodrigo.",
           "filename": "image29.jpg",
@@ -818,15 +824,15 @@
           "filename": "image31.png",
           "attribution": "",
           "label": "110"
-        },
+        }
+      ],
+      [
         {
           "caption": "Whymper's engraving of the scene higher on the route, at <span class=\\\"height\\\">18,500' (5640 m)</span>. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
           "filename": "image32.png",
           "attribution": "",
           "label": "111"
-        }
-      ],
-      [
+        },
         {
           "caption": "Whymper engraving of the route as they close on the summit. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
           "filename": "image33.jpg",
@@ -844,15 +850,15 @@
           "filename": "image34.png",
           "attribution": "",
           "label": "114"
-        },
+        }
+      ],
+      [
         {
           "caption": "An Earth view of the northwest ridge of Chimborazo, the route to the summit of Whymper's second ascent of the peak.",
           "filename": "CHIMBO_2_NORTHWEST_RIDGE_GOOG.jpg",
           "attribution": "",
           "label": "115"
-        }
-      ],
-      [
+        },
         {
           "caption": "Whymper's engraving of the eruption of Cotopaxi during his second ascent of Chimborazo.",
           "filename": "CHIMBO_COTO_ERUP_WHYMP.jpeg",

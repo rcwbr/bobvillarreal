@@ -274,3 +274,36 @@
       filename: "polish.yaml"
       label-prefix: "P"
       images_per_row: 3
+-
+  name: "Tiwanaku, by Cieza de Leon."
+  shortname: "Tiwanaku, by Cieza de Leon."
+  galleries:
+    -
+      name: "Tiwanaku, by Cieza de Leon."
+      shortname: "Tiwanaku"
+      path: "tiwanaku_leon"
+      filename: "tiwanaku_leon.yaml"
+      label-prefix: "T"
+      images_per_row: 3
+-
+  name: "Cusco, the Sacred City by Cieza de Leon."
+  shortname: "Cusco, the Sacred City by Cieza de Leon."
+  galleries:
+    -
+      name: "Cusco, the Sacred City by Cieza de Leon."
+      shortname: "Cusco"
+      path: "cusco_leon"
+      filename: "cusco_leon.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Lima, the City of Kings by E. George Squier"
+  shortname: "lima"
+  galleries:
+    -
+      name: "Lima, the City of Kings by E. George Squier"
+      shortname: "Lima"
+      path: "lima"
+      filename: "lima.yaml"
+      label-prefix: "L"
+      images_per_row: 3

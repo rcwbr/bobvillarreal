@@ -1,5 +1,9 @@
 ---
 -
+  caption: "Earth image of the terrain west of Quito."
+  filename: "EC_QUITO_WEST_OF_GOOG.jpg"
+  label: "00"
+-
   caption: "A view from 30,000 feet at the main Ecuador peaks. Loren McIntyre."
   filename: "ACLAPRE_ECUADOR_PEAKS_FROM_30_K.jpeg"
   label: "0"

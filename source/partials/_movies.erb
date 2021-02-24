@@ -11,7 +11,7 @@ end %>
 			<% end %>
 			<% if movie["filename"] %>
 				<video class="movie-html-video fallback-player" width="640" height="480" controls="">
-					<source src="/movies/<%= movie["filename"] %>" type="video/mp4; codecs='avc1.42E01E,mp4a.40.2'" />
+					<source src="https://bobvillarreal.com/movies/<%= movie["filename"] %>" type="video/mp4" />
 				</video>
 			<% end %>
 			<% if movie["url"] && movie["filename"] %>
