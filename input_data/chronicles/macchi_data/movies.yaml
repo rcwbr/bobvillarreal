@@ -14,12 +14,12 @@
   movies:
     -
       filename: "chronicles/ch10pt1.m4v"
-      url: "http://player.vimeo.com/video/84816637"
+      url: "https://player.vimeo.com/video/84816637"
       title: "Scenes to accompany the First Letter, Parts L-M"
       note: "This movie contains scenes of Copiapo, the road to Laguna Santa Rosa, and the peak, Tres Cruces."
     -
       filename: "chronicles/ch10pt2.m4v"
-      url: "http://player.vimeo.com/video/85394374"
+      url: "https://player.vimeo.com/video/85394374"
       title: "More scenes for Parts L-M"
       note: "Scenes here include Tres Cruces, a ride across the Great Plateau, Laguna Verde, and distant views of Ojos del Salado."
 -
@@ -29,6 +29,6 @@
   movies:
     -
       filename: "chronicles/1198.m4v"
-      url: "http://player.vimeo.com/video/85967126"
+      url: "https://player.vimeo.com/video/85967126"
       title: "Scenes for the Third Letter, Part V"
       note: "An attempt on the great mountain, Llullaillaco."

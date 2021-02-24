@@ -2150,12 +2150,12 @@
         "movies": [
           {
             "filename": "clawing/ch9pt1.m4v",
-            "url": "http://player.vimeo.com/video/84256937",
+            "url": "https://player.vimeo.com/video/84256937",
             "title": "Chapter 9 Movie Part 1"
           },
           {
             "filename": "clawing/ch9pt2.m4v",
-            "url": "http://player.vimeo.com/video/84816638",
+            "url": "https://player.vimeo.com/video/84816638",
             "title": "Chapter 9 Movie Part 2"
           }
         ],
@@ -2379,12 +2379,12 @@
         "movies": [
           {
             "filename": "clawing/ch10pt1.m4v",
-            "url": "http://player.vimeo.com/video/84816637",
+            "url": "https://player.vimeo.com/video/84816637",
             "title": "Chapter 10 Movie Part 1"
           },
           {
             "filename": "clawing/ch10pt2.m4v",
-            "url": "http://player.vimeo.com/video/46904353",
+            "url": "https://player.vimeo.com/video/46904353",
             "title": "Chapter 10 Movie Part 2"
           }
         ],

@@ -6,7 +6,7 @@
     "movies": [
       {
         "filename": "clawing/1198.m4v",
-        "url": "http://player.vimeo.com/video/85967126",
+        "url": "https://player.vimeo.com/video/85967126",
         "title": "November 1998 Movie",
         "note": "An unsuccessful climb of Llullaillaco with my friend, Sverre Aarseth (footnoted in Ch. 9). Film opens with a discussion with Maria Ester and Sverre at the La Casona Hotel."
       }
@@ -24,7 +24,7 @@
     "movies": [
       {
         "filename": "clawing/0499.m4v",
-        "url": "http://player.vimeo.com/video/84256938",
+        "url": "https://player.vimeo.com/video/84256938",
         "title": "April 1999 Movie",
         "note": "An unsuccessful attempt on Tres Cruces with Gary, a client. (Not mentioned in the book.)"
       }
@@ -42,7 +42,7 @@
     "movies": [
       {
         "filename": "clawing/0300.m4v",
-        "url": "http://player.vimeo.com/video/83714590",
+        "url": "https://player.vimeo.com/video/83714590",
         "title": "March 2000 Movie",
         "note": "Attempts of Pissis and Tres Cruces, but there was too much snow. I found my ice axe on Tres (Ch. 6)."
       }
@@ -60,7 +60,7 @@
     "movies": [
       {
         "filename": "clawing/0401.m4v",
-        "url": "http://player.vimeo.com/video/83714589",
+        "url": "https://player.vimeo.com/video/83714589",
         "title": "April 2001 Movie",
         "note": "A trip to Llullaillaco with Al and Gene (Ch. 4). This includes scenes of the bofedal near Laguna Negro Francisco."
       }
@@ -78,12 +78,12 @@
     "movies": [
       {
         "filename": "clawing/ch9pt1.m4v",
-        "url": "http://player.vimeo.com/video/84256937",
+        "url": "https://player.vimeo.com/video/84256937",
         "title": "Chapter 9 Movie Part 1"
       },
       {
         "filename": "clawing/ch9pt2.m4v",
-        "url": "http://player.vimeo.com/video/84816638",
+        "url": "https://player.vimeo.com/video/84816638",
         "title": "Chapter 9 Movie Part 2"
       }
     ],
@@ -100,12 +100,12 @@
     "movies": [
       {
         "filename": "clawing/ch10pt1.m4v",
-        "url": "http://player.vimeo.com/video/84816637",
+        "url": "https://player.vimeo.com/video/84816637",
         "title": "Chapter 10 Movie Part 1"
       },
       {
         "filename": "clawing/ch10pt2.m4v",
-        "url": "http://player.vimeo.com/video/46904353",
+        "url": "https://player.vimeo.com/video/46904353",
         "title": "Chapter 10 Movie Part 2"
       }
     ],
@@ -121,8 +121,8 @@
     "path": "guillaume",
     "movies": [
       {
-        "filename": "guillaumeCeyrac.m4v",
-        "url": "http://player.vimeo.com/video/94891845",
+        "filename": "clawing/guillaumeCeyrac.m4v",
+        "url": "https://player.vimeo.com/video/94891845",
         "title": "Guillaume Ceyrac's Amazing Climb",
         "note": "In early 2013, Guillaume, a French citizen, climbed the three summits of Tres Cruces in seven days, an amazing feat."
       }
