@@ -108,6 +108,7 @@ books.each do |book|
 	page "#{book_data_path}/historical/humboldt*", :layout => "gallery"
 	page "#{book_data_path}/historical/condor*", :layout => "gallery"
 	page "#{book_data_path}/historical/height*", :layout => "gallery"
+	page "#{book_data_path}/historical/sacsayhuaman_squier*", :layout => "gallery"
 	page "#{book_data_path}/historical/polish/", :layout => "gallery"
 	page "#{book_data_path}/historical/cusco_leon*", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
@@ -201,6 +202,10 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/B7As2LMnd0U"
 		proxy "/#{book_data_path}/historical/polish_above/index.html", "#{book_data_path}/polish_above.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.dailymotion.com/embed/video/x2tuahn?autoplay=1"
+		proxy "/#{book_data_path}/historical/peru_la_paz/index.html", "#{book_data_path}/peru_la_paz.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 	if book["shortname"] == "prelude" || book["shortname"] == "chronicles"
 		media_entry_template = {
