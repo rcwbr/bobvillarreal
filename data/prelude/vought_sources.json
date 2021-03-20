@@ -4005,5 +4005,346 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "William H. Prescott's Description of the Assassination of Francisco Pizarro",
+    "shortname": "assassination",
+    "galleries": [
+      {
+        "name": "William H. Prescott's Description of the Assassination of Francisco Pizarro",
+        "shortname": "Assassination",
+        "path": "assassination",
+        "filename": "assassination.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/assassination",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "William H. Prescott's Portrait of Marquess Francisco Pizarro",
+    "shortname": "francisco_prescott",
+    "galleries": [
+      {
+        "name": "William H. Prescott's Portrait of Marquess Francisco Pizarro",
+        "shortname": "Francisco",
+        "path": "francisco_prescott",
+        "filename": "francisco_prescott.yaml",
+        "label-prefix": "F",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/francisco_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Description of Pachacamac by E. George Squier",
+    "shortname": "pachacamac",
+    "galleries": [
+      {
+        "name": "Description of Pachacamac by E. George Squier",
+        "shortname": "Pachacamac",
+        "path": "pachacamac",
+        "filename": "pachacamac.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/pachacamac",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]
