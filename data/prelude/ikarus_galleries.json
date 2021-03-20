@@ -929,10 +929,36 @@
           "label": "3"
         },
         {
+          "caption": "The Marquess Pizarro hears rumors of his assassination but does not believe them. Artist: Lima de Freitas.",
+          "filename": "FRANCISCO_IN_LIMA_OFFICE_DE_FREITAS.jpeg",
+          "attribution": "",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "caption": "On Sunday, 26 June of 1541, the followers of Almagro the Lad charge through the Lima streets on their way to kill the Marquess. Artist: Edward Bawden.",
+          "filename": "DEATH_OF_EDWARD_BAWDEN.jpeg",
+          "attribution": "",
+          "label": "5"
+        },
+        {
+          "caption": "The men of Chile exact their vengeance upon Francisco Pizarro at his home. Artist: Unknown.",
+          "filename": "DEATH_OF_PIZ_HERITAGE_HISTORY.gif",
+          "attribution": "",
+          "label": "6"
+        },
+        {
+          "caption": "The tomb of Francisco Pizarro in a side chapel of the Lima Cathedral. Courtesy of GOPERU.",
+          "filename": "ACLAPRE_BOL_PIZ_TOMB_GOPERU.jpg",
+          "attribution": "",
+          "label": "7"
+        },
+        {
           "caption": "Quizo and his warriors attack Francisco Pizarro and his men in the new city of Lima. Courtesy of LISTVERSE.",
           "filename": "LIMA_SIEGE_LISTVERSE.jpg",
           "attribution": "",
-          "label": "4"
+          "label": "8"
         }
       ],
       [
@@ -940,378 +966,384 @@
           "caption": "Quizo camped out on the hill of San Cristobal to avoid the maneuverability of the Spanish horses. Courtesy of Valladares.",
           "filename": "LIMA_SAN_CRISTOBAL_VALLADARES.jpg",
           "attribution": "",
-          "label": "5"
+          "label": "9"
         },
         {
           "caption": "General Quizo is cornered by the Spanish and executed. Courtesy of Wiki.",
           "filename": "LIMA_QUIZO_DEATH.jpg",
           "attribution": "",
-          "label": "6"
+          "label": "10"
         },
         {
           "caption": "Cuzco, Peru. The Plaza de Armas is at the center in the photo. The present day buildings around the square have the old Inca structures for their foundations. The Almagro Expedition departed the city for Chile on July 3, 1535.",
           "filename": "image2.jpg",
           "attribution": "",
-          "label": "7"
-        },
-        {
-          "caption": "1888 wood engraving of a Cuzco street scene. Publisher: Harper &amp; Brothers. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image3.jpg",
-          "attribution": "",
-          "label": "8"
-        }
-      ],
-      [
-        {
-          "caption": "A modern street scene today, this the alley of Hatun Rumiyoq. <span class=\\\"attribution\\\">Courtesy Odyssei.</span>",
-          "filename": "image4.jpg",
-          "attribution": "",
-          "label": "9"
-        },
-        {
-          "caption": "The city of Cuzco. Original 1875 Engraving by Edouard Riou. Scribner, Armstrong, Co. Publisher. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image5.jpg",
-          "attribution": "",
-          "label": "10"
-        },
-        {
-          "caption": "Cuzco street scene in 1978.  Some of these buildings pre-date the Conquest and are the original Inca structures. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image6.jpg",
-          "attribution": "",
           "label": "11"
         },
         {
-          "caption": "Street scene in Cuzco from a hotel balcony in 1989.  These buildings haven't changed since the Conquest.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image7.jpg",
+          "caption": "Map of Cusco by E. George Squier. R. Villarreal Collection.",
+          "filename": "4CUSCOSQUIER.jpeg",
           "attribution": "",
           "label": "12"
         }
       ],
       [
         {
-          "caption": "Antique print, titled “A Bird’s Eye View of Cusco, a City in Peru and the Principal City of the Region and Province of the Same Name.”  This engraving originates from Sebastian Munster’s “Cosmographia, Beschreibung aller Lender”.  It is from the 1592 German edition, published in Basel by Henrichum Petri.  Munster, a German cartographer, cosmographer, and Christian scholar  is best known for “Cosmographia”, the earliest German description of the world, in six parts.   <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image8.jpg",
-          "collapse-caption": true,
+          "caption": "1888 wood engraving of a Cuzco street scene. Publisher: Harper &amp; Brothers. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image3.jpg",
           "attribution": "",
           "label": "13"
         },
         {
-          "caption": "Inca Temple of the Sun in Cuzco.  1994.  The Temple was used by the Incas at the time of, and before, the Conquest.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image9.jpg",
+          "caption": "A modern street scene today, this the alley of Hatun Rumiyoq. <span class=\\\"attribution\\\">Courtesy Odyssei.</span>",
+          "filename": "image4.jpg",
           "attribution": "",
           "label": "14"
         },
         {
-          "caption": "Rustic street scene in Cuzco in 2000.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image10.jpg",
+          "caption": "The city of Cuzco. Original 1875 Engraving by Edouard Riou. Scribner, Armstrong, Co. Publisher. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image5.jpg",
           "attribution": "",
           "label": "15"
         },
         {
-          "caption": "Cusco, Peru.  From: 'De Nieuwe en Onbekende Weereld: of beschryving van America en 't Zuid-Land.', by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. (The New and Unknown World: or Description of America and the Southland, Containing the Origin of the Americans and South-landers, remarkable voyages thither, Quality of the Shores, Islands, Cities, Fortresses, Towns, Temples, Mountains, Sources, Rivers, Houses, the nature of Beasts, Trees, Plants and foreign Crops, Religion and Manners, Miraculous Occurrences, Old and New Wars: Adorned with Illustrations drawn from the life in America, and described by Arnoldus Montanus). The book was translated and published in England by the editor and map publisher John Ogilby under the title, America, Being an Accurate Description of the New World (1671). Ref: In the late 1630s, Holland attempted to reassert its claim over Brazil by establishing a series of forts along the coastline. One of the best-documented colonies was the expedition led by Prince Maurits of Nassau, who attempted to assemble an intellectual court in the New World. He brought with him a group of highly accomplished artists, mapmakers, and scientists to record the mysteries of Brazil. They included the celebrated painter Frans Post, and the astronomer George Markgraf, who produced the first serious study of the southern sky. Artists and Engravers: Some references mention Bernard Picart as the engraver. We have not been able to verify this. Bernard Picart (1673-1733) was a French painter and engraver. Author: Arnoldus Montanus (c.1625–1683) was a Dutch teacher and author. He published books on theology, history, and geography.  Original 1671 engraving.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image11.jpg",
+          "caption": "Cuzco street scene in 1978.  Some of these buildings pre-date the Conquest and are the original Inca structures. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image6.jpg",
           "attribution": "",
           "label": "16"
         }
       ],
       [
         {
-          "caption": "The Inca fortress of Sacsayhuaman sits on a hill on the northern border of Cusco. The Spanish, in a furious battle over several days, were finally able to overcome General Quizquiz and his warriors and take possession of it. R. Villarreal Collection.",
-          "filename": "CUSCO_SACSAYHUAMAN_PIC.jpg",
+          "caption": "Street scene in Cuzco from a hotel balcony in 1989.  These buildings haven't changed since the Conquest.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image7.jpg",
           "attribution": "",
           "label": "17"
         },
         {
-          "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
-          "filename": "MANCO_SACSAY_DELSO_3.jpg",
+          "caption": "Antique print, titled “A Bird’s Eye View of Cusco, a City in Peru and the Principal City of the Region and Province of the Same Name.”  This engraving originates from Sebastian Munster’s “Cosmographia, Beschreibung aller Lender”.  It is from the 1592 German edition, published in Basel by Henrichum Petri.  Munster, a German cartographer, cosmographer, and Christian scholar  is best known for “Cosmographia”, the earliest German description of the world, in six parts.   <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image8.jpg",
+          "collapse-caption": true,
           "attribution": "",
           "label": "18"
         },
         {
-          "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
-          "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
+          "caption": "Inca Temple of the Sun in Cuzco.  1994.  The Temple was used by the Incas at the time of, and before, the Conquest.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image9.jpg",
           "attribution": "",
           "label": "19"
         },
         {
-          "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
-          "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
+          "caption": "Rustic street scene in Cuzco in 2000.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image10.jpg",
           "attribution": "",
           "label": "20"
         }
       ],
       [
         {
-          "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
-          "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
+          "caption": "Cusco, Peru.  From: 'De Nieuwe en Onbekende Weereld: of beschryving van America en 't Zuid-Land.', by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. (The New and Unknown World: or Description of America and the Southland, Containing the Origin of the Americans and South-landers, remarkable voyages thither, Quality of the Shores, Islands, Cities, Fortresses, Towns, Temples, Mountains, Sources, Rivers, Houses, the nature of Beasts, Trees, Plants and foreign Crops, Religion and Manners, Miraculous Occurrences, Old and New Wars: Adorned with Illustrations drawn from the life in America, and described by Arnoldus Montanus). The book was translated and published in England by the editor and map publisher John Ogilby under the title, America, Being an Accurate Description of the New World (1671). Ref: In the late 1630s, Holland attempted to reassert its claim over Brazil by establishing a series of forts along the coastline. One of the best-documented colonies was the expedition led by Prince Maurits of Nassau, who attempted to assemble an intellectual court in the New World. He brought with him a group of highly accomplished artists, mapmakers, and scientists to record the mysteries of Brazil. They included the celebrated painter Frans Post, and the astronomer George Markgraf, who produced the first serious study of the southern sky. Artists and Engravers: Some references mention Bernard Picart as the engraver. We have not been able to verify this. Bernard Picart (1673-1733) was a French painter and engraver. Author: Arnoldus Montanus (c.1625–1683) was a Dutch teacher and author. He published books on theology, history, and geography.  Original 1671 engraving.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image11.jpg",
           "attribution": "",
           "label": "21"
         },
         {
-          "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
-          "filename": "SACSAY_MINE_1.jpeg",
+          "caption": "The Inca fortress of Sacsayhuaman sits on a hill on the northern border of Cusco. The Spanish, in a furious battle over several days, were finally able to overcome General Quizquiz and his warriors and take possession of it. R. Villarreal Collection.",
+          "filename": "CUSCO_SACSAYHUAMAN_PIC.jpg",
           "attribution": "",
           "label": "22"
         },
         {
-          "caption": "View of the walls near the water tower. R. Villarreal Collection.",
-          "filename": "SACSAY_MINE_2.jpeg",
+          "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
+          "filename": "MANCO_SACSAY_DELSO_3.jpg",
           "attribution": "",
           "label": "23"
         },
         {
-          "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
-          "filename": "OLLAN_2_WIKI.jpg",
+          "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
+          "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
           "attribution": "",
           "label": "24"
         }
       ],
       [
         {
-          "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
-          "filename": "OLLAN_FORT_MINE.jpeg",
+          "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
+          "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
           "attribution": "",
           "label": "25"
         },
         {
-          "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
-          "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+          "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
+          "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
           "attribution": "",
           "label": "26"
         },
         {
-          "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
-          "filename": "OLLAN_4_TICKETMACHU.jpg",
+          "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
+          "filename": "SACSAY_MINE_1.jpeg",
           "attribution": "",
           "label": "27"
         },
         {
-          "caption": "Terraces viewed from and staircase. R. Villarreal Collection.",
-          "filename": "OLLAN_1_MINE.jpg",
+          "caption": "View of the walls near the water tower. R. Villarreal Collection.",
+          "filename": "SACSAY_MINE_2.jpeg",
           "attribution": "",
           "label": "28"
         }
       ],
       [
         {
-          "caption": "Another stairwell. R. Villarreal Collection.",
-          "filename": "OLLAN_STAIRS_MINE.jpeg",
+          "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
+          "filename": "OLLAN_2_WIKI.jpg",
           "attribution": "",
           "label": "29"
         },
         {
-          "caption": "La Paz, with Illimani in the distance (1991).",
-          "filename": "image1.jpg",
+          "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
+          "filename": "OLLAN_FORT_MINE.jpeg",
           "attribution": "",
           "label": "30"
         },
         {
-          "caption": "1931 original photogravure by Atlantis-Verlag of La Paz, with Illimani in the distance. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
-          "filename": "image2-2.jpg",
+          "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
+          "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
           "attribution": "",
           "label": "31"
         },
         {
-          "caption": "The Tiwanaku (or Tiahuanaco) complex, looking north. Tiahuanaco is a Pre-Colombian archaeological site in western Bolivia. It was the capital of an empire that extended into present-day Peru and Chile, flourishing from AD 300 to AD 1000. The temple complex of Kalasasaya is in the center of the scene. The following pictures show much of the present-day site.",
-          "filename": "image18.jpg",
+          "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
+          "filename": "OLLAN_4_TICKETMACHU.jpg",
           "attribution": "",
           "label": "32"
         }
       ],
       [
         {
-          "caption": "Staircase and entrance door of the Kalasasaya Temple.",
-          "filename": "image19.jpg",
+          "caption": "Terraces viewed from and staircase. R. Villarreal Collection.",
+          "filename": "OLLAN_1_MINE.jpg",
           "attribution": "",
           "label": "33"
         },
         {
-          "caption": "Interior walls of the Semi-subterranean Temple with the \\\"embedded heads\\\" on its walls.",
-          "filename": "image20.jpg",
+          "caption": "Another stairwell. R. Villarreal Collection.",
+          "filename": "OLLAN_STAIRS_MINE.jpeg",
           "attribution": "",
           "label": "34"
         },
         {
-          "caption": "Another view of the Semi-subterranean Temple courtyard.",
-          "filename": "image21.jpg",
+          "caption": "La Paz, with Illimani in the distance (1991).",
+          "filename": "image1.jpg",
           "attribution": "",
           "label": "35"
         },
         {
-          "caption": "The Ponce monolith in the Kalasasaya complex.",
-          "filename": "image22.jpg",
+          "caption": "1931 original photogravure by Atlantis-Verlag of La Paz, with Illimani in the distance. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+          "filename": "image2-2.jpg",
           "attribution": "",
           "label": "36"
         }
       ],
       [
         {
-          "caption": "The Gateway of the Sun. It stands 10 feet high and 13 feet wide.",
-          "filename": "image23.jpg",
+          "caption": "The Tiwanaku (or Tiahuanaco) complex, looking north. Tiahuanaco is a Pre-Colombian archaeological site in western Bolivia. It was the capital of an empire that extended into present-day Peru and Chile, flourishing from AD 300 to AD 1000. The temple complex of Kalasasaya is in the center of the scene. The following pictures show much of the present-day site.",
+          "filename": "image18.jpg",
           "attribution": "",
           "label": "37"
         },
         {
-          "caption": "A wall decoration of a small god. Courtesy of Viator.",
-          "filename": "TIWA_VIATOR.jpg",
+          "caption": "Staircase and entrance door of the Kalasasaya Temple.",
+          "filename": "image19.jpg",
           "attribution": "",
           "label": "38"
         },
         {
-          "caption": "A large courtyard with the Kalasasaya temple behind it. Courtesy of TRAVELPLEASE.",
-          "filename": "TIWA_TRAVELPLEASE.jpg",
+          "caption": "Interior walls of the Semi-subterranean Temple with the \\\"embedded heads\\\" on its walls.",
+          "filename": "image20.jpg",
           "attribution": "",
           "label": "39"
         },
         {
-          "caption": "A large bug-eyed stone monolith. Courtesy of LENSTALES.",
-          "filename": "TIWA_LENSTALES.jpg",
+          "caption": "Another view of the Semi-subterranean Temple courtyard.",
+          "filename": "image21.jpg",
           "attribution": "",
           "label": "40"
         }
       ],
       [
         {
-          "caption": "Another large courtyard with room foundations inside. Courtesy of FREEPIC.",
-          "filename": "TIWA_FREEPIC.jpg",
+          "caption": "The Ponce monolith in the Kalasasaya complex.",
+          "filename": "image22.jpg",
           "attribution": "",
           "label": "41"
         },
         {
-          "caption": "Etching of a ruin in Tiwanaku by E. George Squier.",
-          "filename": "ATIWA1.jpeg",
+          "caption": "The Gateway of the Sun. It stands 10 feet high and 13 feet wide.",
+          "filename": "image23.jpg",
           "attribution": "",
           "label": "42"
         },
         {
-          "caption": "Etching of Tiwanaku ruin by E. George Squier.",
-          "filename": "ATIWA2.bmp",
+          "caption": "A wall decoration of a small god. Courtesy of Viator.",
+          "filename": "TIWA_VIATOR.jpg",
           "attribution": "",
           "label": "43"
         },
         {
-          "caption": "Ruins by E. George Squier.",
-          "filename": "ATIWA3.bmp",
+          "caption": "A large courtyard with the Kalasasaya temple behind it. Courtesy of TRAVELPLEASE.",
+          "filename": "TIWA_TRAVELPLEASE.jpg",
           "attribution": "",
           "label": "44"
         }
       ],
       [
         {
-          "caption": "Etching by E. George Squier.",
-          "filename": "ATIWA4.bmp",
+          "caption": "A large bug-eyed stone monolith. Courtesy of LENSTALES.",
+          "filename": "TIWA_LENSTALES.jpg",
           "attribution": "",
           "label": "45"
         },
         {
-          "caption": "Our llama arrieros load the animals for the hike into Condoriri and Pequeno Alpamayo.",
-          "filename": "image2-3.jpg",
+          "caption": "Another large courtyard with room foundations inside. Courtesy of FREEPIC.",
+          "filename": "TIWA_FREEPIC.jpg",
           "attribution": "",
           "label": "46"
         },
         {
-          "caption": "Earth image of Condoriri, Peque&ntilde;o Alpamayo, and Huayna Potosi locations.",
-          "filename": "ACLAPRE_CONDO_ALPA_POTO_GOOG.jpg",
+          "caption": "Etching of a ruin in Tiwanaku by E. George Squier.",
+          "filename": "ATIWA1.jpeg",
           "attribution": "",
           "label": "47"
         },
         {
-          "caption": "Condoriri (18,530 feet). Since I was sick the first several days on this expedition, I did not attempt this peak. Two did though and our guide got them to the top of its distinctive summit. Courtesy of Wikipedia.",
-          "filename": "ACLAPRE_CONDORIRI_WIKIPEDIA.jpg",
+          "caption": "Etching of Tiwanaku ruin by E. George Squier.",
+          "filename": "ATIWA2.bmp",
           "attribution": "",
           "label": "48"
         }
       ],
       [
         {
-          "caption": "On the way to Alpamayo.",
-          "filename": "image2-4.jpg",
+          "caption": "Ruins by E. George Squier.",
+          "filename": "ATIWA3.bmp",
           "attribution": "",
           "label": "49"
         },
         {
-          "caption": "Pequeno Alpamayo (<span class=\\\"height\\\">17,558', 5352 m</span>).",
-          "filename": "image2-5.jpg",
+          "caption": "Etching by E. George Squier.",
+          "filename": "ATIWA4.bmp",
           "attribution": "",
           "label": "50"
         },
         {
-          "caption": "A view to the west.",
-          "filename": "image2-6.jpg",
+          "caption": "Our llama arrieros load the animals for the hike into Condoriri and Pequeno Alpamayo.",
+          "filename": "image2-3.jpg",
           "attribution": "",
           "label": "51"
         },
         {
-          "caption": "We inch our way up.",
-          "filename": "image2-7.jpg",
+          "caption": "Earth image of Condoriri, Peque&ntilde;o Alpamayo, and Huayna Potosi locations.",
+          "filename": "ACLAPRE_CONDO_ALPA_POTO_GOOG.jpg",
           "attribution": "",
           "label": "52"
         }
       ],
       [
         {
-          "caption": "On the top.",
-          "filename": "image2-8.jpg",
+          "caption": "Condoriri (18,530 feet). Since I was sick the first several days on this expedition, I did not attempt this peak. Two did though and our guide got them to the top of its distinctive summit. Courtesy of Wikipedia.",
+          "filename": "ACLAPRE_CONDORIRI_WIKIPEDIA.jpg",
           "attribution": "",
           "label": "53"
         },
         {
-          "caption": "On the top with a rope mate.",
-          "filename": "image2-9.jpg",
+          "caption": "On the way to Alpamayo.",
+          "filename": "image2-4.jpg",
           "attribution": "",
           "label": "54"
         },
         {
-          "caption": "Cerro Huayna Potosi (<span class=\\\"height\\\">19,968', 6086 m</span>).",
-          "filename": "image2-10.jpg",
+          "caption": "Pequeno Alpamayo (<span class=\\\"height\\\">17,558', 5352 m</span>).",
+          "filename": "image2-5.jpg",
           "attribution": "",
           "label": "55"
         },
         {
-          "caption": "One rope team nears the summit, out of sight to the right.",
-          "filename": "image2-11.jpg",
+          "caption": "A view to the west.",
+          "filename": "image2-6.jpg",
           "attribution": "",
           "label": "56"
         }
       ],
       [
         {
-          "caption": "We approach a small village on the way to Base Camp. Illimani in distance (<span class=\\\"height\\\">21,122', 6438 m</span>).",
-          "filename": "image12.jpg",
+          "caption": "We inch our way up.",
+          "filename": "image2-7.jpg",
           "attribution": "",
           "label": "57"
         },
         {
-          "caption": "Above the little village.",
-          "filename": "image13.jpg",
+          "caption": "On the top.",
+          "filename": "image2-8.jpg",
           "attribution": "",
           "label": "58"
         },
         {
-          "caption": "Another view.",
-          "filename": "image14.jpg",
+          "caption": "On the top with a rope mate.",
+          "filename": "image2-9.jpg",
           "attribution": "",
           "label": "59"
         },
         {
-          "caption": "We near Base Camp.",
-          "filename": "image15.jpg",
+          "caption": "Cerro Huayna Potosi (<span class=\\\"height\\\">19,968', 6086 m</span>).",
+          "filename": "image2-10.jpg",
           "attribution": "",
           "label": "60"
         }
       ],
       [
         {
+          "caption": "One rope team nears the summit, out of sight to the right.",
+          "filename": "image2-11.jpg",
+          "attribution": "",
+          "label": "61"
+        },
+        {
+          "caption": "We approach a small village on the way to Base Camp. Illimani in distance (<span class=\\\"height\\\">21,122', 6438 m</span>).",
+          "filename": "image12.jpg",
+          "attribution": "",
+          "label": "62"
+        },
+        {
+          "caption": "Above the little village.",
+          "filename": "image13.jpg",
+          "attribution": "",
+          "label": "63"
+        },
+        {
+          "caption": "Another view.",
+          "filename": "image14.jpg",
+          "attribution": "",
+          "label": "64"
+        }
+      ],
+      [
+        {
+          "caption": "We near Base Camp.",
+          "filename": "image15.jpg",
+          "attribution": "",
+          "label": "65"
+        },
+        {
           "caption": "On the summit.",
           "filename": "image16.jpg",
           "attribution": "",
-          "label": "61"
+          "label": "66"
         },
         {
           "caption": "Our descent down the mountain.",
           "filename": "image17.jpg",
           "attribution": "",
-          "label": "62"
+          "label": "67"
         }
       ]
     ],
