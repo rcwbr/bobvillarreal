@@ -2887,19 +2887,19 @@
           ],
           [
             {
-              "filename": "3.jpeg",
-              "caption": "",
+              "caption": "Earth image of Ollantaytambo ruins positions.",
+              "filename": "ACLA_OLLAN_EARTH.jpg",
               "attribution": "",
               "label": "3"
             },
             {
-              "filename": "4.jpeg",
+              "filename": "3.jpeg",
               "caption": "",
               "attribution": "",
               "label": "4"
             },
             {
-              "filename": "5.jpeg",
+              "filename": "4.jpeg",
               "caption": "",
               "attribution": "",
               "label": "5"
@@ -2907,19 +2907,19 @@
           ],
           [
             {
-              "filename": "6.jpeg",
+              "filename": "5.jpeg",
               "caption": "",
               "attribution": "",
               "label": "6"
             },
             {
-              "filename": "7.jpeg",
+              "filename": "6.jpeg",
               "caption": "",
               "attribution": "",
               "label": "7"
             },
             {
-              "filename": "8.jpeg",
+              "filename": "7.jpeg",
               "caption": "",
               "attribution": "",
               "label": "8"
@@ -2927,19 +2927,19 @@
           ],
           [
             {
-              "filename": "9.jpeg",
+              "filename": "8.jpeg",
               "caption": "",
               "attribution": "",
               "label": "9"
             },
             {
-              "filename": "10.jpeg",
+              "filename": "9.jpeg",
               "caption": "",
               "attribution": "",
               "label": "10"
             },
             {
-              "filename": "11.jpeg",
+              "filename": "10.jpeg",
               "caption": "",
               "attribution": "",
               "label": "11"
@@ -2947,19 +2947,19 @@
           ],
           [
             {
-              "filename": "12.jpeg",
+              "filename": "11.jpeg",
               "caption": "",
               "attribution": "",
               "label": "12"
             },
             {
-              "filename": "13.jpeg",
+              "filename": "12.jpeg",
               "caption": "",
               "attribution": "",
               "label": "13"
             },
             {
-              "filename": "14.jpeg",
+              "filename": "13.jpeg",
               "caption": "",
               "attribution": "",
               "label": "14"
@@ -2967,19 +2967,19 @@
           ],
           [
             {
-              "filename": "15.jpeg",
+              "filename": "14.jpeg",
               "caption": "",
               "attribution": "",
               "label": "15"
             },
             {
-              "filename": "16.jpeg",
+              "filename": "15.jpeg",
               "caption": "",
               "attribution": "",
               "label": "16"
             },
             {
-              "filename": "17.jpeg",
+              "filename": "16.jpeg",
               "caption": "",
               "attribution": "",
               "label": "17"
@@ -2987,19 +2987,19 @@
           ],
           [
             {
-              "filename": "18.jpeg",
+              "filename": "17.jpeg",
               "caption": "",
               "attribution": "",
               "label": "18"
             },
             {
-              "filename": "19.jpeg",
+              "filename": "18.jpeg",
               "caption": "",
               "attribution": "",
               "label": "19"
             },
             {
-              "filename": "20.jpeg",
+              "filename": "19.jpeg",
               "caption": "",
               "attribution": "",
               "label": "20"
@@ -3007,19 +3007,19 @@
           ],
           [
             {
-              "filename": "21.jpeg",
+              "filename": "20.jpeg",
               "caption": "",
               "attribution": "",
               "label": "21"
             },
             {
-              "filename": "22.jpeg",
+              "filename": "21.jpeg",
               "caption": "",
               "attribution": "",
               "label": "22"
             },
             {
-              "filename": "23.jpeg",
+              "filename": "22.jpeg",
               "caption": "",
               "attribution": "",
               "label": "23"
@@ -3027,22 +3027,30 @@
           ],
           [
             {
-              "filename": "24.jpeg",
+              "filename": "23.jpeg",
               "caption": "",
               "attribution": "",
               "label": "24"
             },
             {
-              "filename": "25.jpeg",
+              "filename": "24.jpeg",
               "caption": "",
               "attribution": "",
               "label": "25"
             },
             {
-              "filename": "26.jpeg",
+              "filename": "25.jpeg",
               "caption": "",
               "attribution": "",
               "label": "26"
+            }
+          ],
+          [
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
             }
           ]
         ],
