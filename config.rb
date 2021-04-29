@@ -250,6 +250,26 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/WImT7lEij_M"
 		proxy "/#{book_data_path}/historical/bus_ride/index.html", "#{book_data_path}/bus_ride.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/cbL-K_9-YB8"
+		proxy "/#{book_data_path}/historical/flyover_illimani/index.html", "#{book_data_path}/flyover_illimani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/elfdy-kUz6I"
+		proxy "/#{book_data_path}/historical/flyover_tiwanaku/index.html", "#{book_data_path}/flyover_tiwanaku.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/dXqU_apjvXU"
+		proxy "/#{book_data_path}/historical/la_paz_tour/index.html", "#{book_data_path}/la_paz_tour.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/xMFf0DeSrAk"
+		proxy "/#{book_data_path}/historical/la_paz_cholitas/index.html", "#{book_data_path}/la_paz_cholitas.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/LJz1Qvh-Bbw"
+		proxy "/#{book_data_path}/historical/isla_del_sol/index.html", "#{book_data_path}/isla_del_sol.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 	if book["shortname"] == "prelude" || book["shortname"] == "chronicles"
 		media_entry_template = {
