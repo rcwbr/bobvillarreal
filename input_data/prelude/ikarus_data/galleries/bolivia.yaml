@@ -194,10 +194,16 @@
   filename: image22.jpg
 -
   caption: "The Gateway of the Sun. It stands 10 feet high and 13 feet wide."
-  filename: image23.jpg
+  filename: "BOL_TIA_GATEWAY.jpg"
 -
   caption: "A wall decoration of a small god. Courtesy of Viator."
   filename: "TIWA_VIATOR.jpg"
+-
+  caption: "The Gateway God and the images that surround him. Drawing by E. George Squier."
+  filename: "BOL_TIWA_GOD_ON_GATE.jpeg"
+-
+  caption: "Condor-headed figure next to the Gateway God. Drawing by Squier."
+  filename: "BOL_TIA_FIG_ON_GATE.bmp"
 -
   caption: "A large courtyard with the Kalasasaya temple behind it. Courtesy of TRAVELPLEASE."
   filename: "TIWA_TRAVELPLEASE.jpg"
@@ -220,6 +226,18 @@
   caption: "Etching by E. George Squier."
   filename: "ATIWA4.bmp"
 -
+  caption: "Etching of the Temple of the Sun on the Sacred Island of Titicaca, also called Isla del Sol. Artist: E. George Squier."
+  filename: "ACLAPRE_BOL_TITI_SOL_1.jpg"
+-
+  caption: "Dwellings amid ruins of the Sacred Island. Courtesy of IslaTravel."
+  filename: "aclapre_bol_titi_sol_2.jpg"
+-
+  caption: "More ruins on the Sacred Island. Courtesy of IslaTravel."
+  filename: "aclapre_bol_titi_sol_3.jpg"
+-
+  caption: "The Sacred Rock, from which Manco Cap&aacute;c had emerged, followed by the Inti. Courtesy of Nambo."
+  filename: "aclapre_bol_titi_sol_sacred_4.jpg"
+-
   caption: "Our llama arrieros load the animals for the hike into Condoriri and Pequeno Alpamayo."
   filename: image2-3.jpg
 -
@@ -228,6 +246,12 @@
 -
   caption: "Condoriri (18,530 feet). Since I was sick the first several days on this expedition, I did not attempt this peak. Two did though and our guide got them to the top of its distinctive summit. Courtesy of Wikipedia."
   filename: "ACLAPRE_CONDORIRI_WIKIPEDIA.jpg"
+-
+  caption: "The view east of Condoriri from the Laguna Chiar Khota, our base camp. R. Villarreal Collection."
+  filename: "BOL_CONDO_MINE.jpeg"
+-
+  caption: "The Laguna Chiar Khota as we climb up towards Peque&ntildeo Alpamayo. R. Villarreal Collection."
+  filename: "BOL_CONDO_LAGO_BELOW_MINE.jpg"
 -
   caption: "On the way to Alpamayo."
   filename: image2-4.jpg
@@ -270,3 +294,12 @@
 -
   caption: "Our descent down the mountain."
   filename: image17.jpg
+-
+  caption: "The view north to Mururata (18,490 feet). R. Villarreal Collection."
+  filename: "BOL_ILLI_LOOK_NORTH_MINE.jpeg"
+-
+  caption: "Our descent from high camp back to base. R. Villarreal Collection."
+  filename: "BOL_ILLI_RIDGE_ON_WAY_TO_BC.jpeg"
+-
+  caption: "The Illimani climbing team. From the left: Alberto, Stan, Jennifer, John, me, and in front Jennifer's friend, Susan. R. Villarreal Collection."
+  filename: "BOL_ILLI_CLIMB_TEAM.jpeg"

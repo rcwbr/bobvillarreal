@@ -1329,7 +1329,7 @@
       [
         {
           "caption": "The Gateway of the Sun. It stands 10 feet high and 13 feet wide.",
-          "filename": "image23.jpg",
+          "filename": "BOL_TIA_GATEWAY.jpg",
           "attribution": "",
           "label": "65"
         },
@@ -1340,68 +1340,120 @@
           "label": "66"
         },
         {
-          "caption": "A large courtyard with the Kalasasaya temple behind it. Courtesy of TRAVELPLEASE.",
-          "filename": "TIWA_TRAVELPLEASE.jpg",
+          "caption": "The Gateway God and the images that surround him. Drawing by E. George Squier.",
+          "filename": "BOL_TIWA_GOD_ON_GATE.jpeg",
           "attribution": "",
           "label": "67"
         },
         {
-          "caption": "A large bug-eyed stone monolith. Courtesy of LENSTALES.",
-          "filename": "TIWA_LENSTALES.jpg",
+          "caption": "Condor-headed figure next to the Gateway God. Drawing by Squier.",
+          "filename": "BOL_TIA_FIG_ON_GATE.bmp",
           "attribution": "",
           "label": "68"
         }
       ],
       [
         {
-          "caption": "Another large courtyard with room foundations inside. Courtesy of FREEPIC.",
-          "filename": "TIWA_FREEPIC.jpg",
+          "caption": "A large courtyard with the Kalasasaya temple behind it. Courtesy of TRAVELPLEASE.",
+          "filename": "TIWA_TRAVELPLEASE.jpg",
           "attribution": "",
           "label": "69"
         },
         {
-          "caption": "Etching of a ruin in Tiwanaku by E. George Squier.",
-          "filename": "ATIWA1.jpeg",
+          "caption": "A large bug-eyed stone monolith. Courtesy of LENSTALES.",
+          "filename": "TIWA_LENSTALES.jpg",
           "attribution": "",
           "label": "70"
         },
         {
-          "caption": "Etching of Tiwanaku ruin by E. George Squier.",
-          "filename": "ATIWA2.bmp",
+          "caption": "Another large courtyard with room foundations inside. Courtesy of FREEPIC.",
+          "filename": "TIWA_FREEPIC.jpg",
           "attribution": "",
           "label": "71"
         },
         {
-          "caption": "Ruins by E. George Squier.",
-          "filename": "ATIWA3.bmp",
+          "caption": "Etching of a ruin in Tiwanaku by E. George Squier.",
+          "filename": "ATIWA1.jpeg",
           "attribution": "",
           "label": "72"
         }
       ],
       [
         {
+          "caption": "Etching of Tiwanaku ruin by E. George Squier.",
+          "filename": "ATIWA2.bmp",
+          "attribution": "",
+          "label": "73"
+        },
+        {
+          "caption": "Ruins by E. George Squier.",
+          "filename": "ATIWA3.bmp",
+          "attribution": "",
+          "label": "74"
+        },
+        {
           "caption": "Etching by E. George Squier.",
           "filename": "ATIWA4.bmp",
           "attribution": "",
-          "label": "73"
+          "label": "75"
+        },
+        {
+          "caption": "Etching of the Temple of the Sun on the Sacred Island of Titicaca, also called Isla del Sol. Artist: E. George Squier.",
+          "filename": "ACLAPRE_BOL_TITI_SOL_1.jpg",
+          "attribution": "",
+          "label": "76"
+        }
+      ],
+      [
+        {
+          "caption": "Dwellings amid ruins of the Sacred Island. Courtesy of IslaTravel.",
+          "filename": "aclapre_bol_titi_sol_2.jpg",
+          "attribution": "",
+          "label": "77"
+        },
+        {
+          "caption": "More ruins on the Sacred Island. Courtesy of IslaTravel.",
+          "filename": "aclapre_bol_titi_sol_3.jpg",
+          "attribution": "",
+          "label": "78"
+        },
+        {
+          "caption": "The Sacred Rock, from which Manco Cap&aacute;c had emerged, followed by the Inti. Courtesy of Nambo.",
+          "filename": "aclapre_bol_titi_sol_sacred_4.jpg",
+          "attribution": "",
+          "label": "79"
         },
         {
           "caption": "Our llama arrieros load the animals for the hike into Condoriri and Pequeno Alpamayo.",
           "filename": "image2-3.jpg",
           "attribution": "",
-          "label": "74"
-        },
+          "label": "80"
+        }
+      ],
+      [
         {
           "caption": "Earth image of Condoriri, Peque&ntilde;o Alpamayo, and Huayna Potosi locations.",
           "filename": "ACLAPRE_CONDO_ALPA_POTO_GOOG.jpg",
           "attribution": "",
-          "label": "75"
+          "label": "81"
         },
         {
           "caption": "Condoriri (18,530 feet). Since I was sick the first several days on this expedition, I did not attempt this peak. Two did though and our guide got them to the top of its distinctive summit. Courtesy of Wikipedia.",
           "filename": "ACLAPRE_CONDORIRI_WIKIPEDIA.jpg",
           "attribution": "",
-          "label": "76"
+          "label": "82"
+        },
+        {
+          "caption": "The view east of Condoriri from the Laguna Chiar Khota, our base camp. R. Villarreal Collection.",
+          "filename": "BOL_CONDO_MINE.jpeg",
+          "attribution": "",
+          "label": "83"
+        },
+        {
+          "caption": "The Laguna Chiar Khota as we climb up towards Peque&ntildeo Alpamayo. R. Villarreal Collection.",
+          "filename": "BOL_CONDO_LAGO_BELOW_MINE.jpg",
+          "attribution": "",
+          "label": "84"
         }
       ],
       [
@@ -1409,25 +1461,25 @@
           "caption": "On the way to Alpamayo.",
           "filename": "image2-4.jpg",
           "attribution": "",
-          "label": "77"
+          "label": "85"
         },
         {
           "caption": "Pequeno Alpamayo (<span class=\\\"height\\\">17,558', 5352 m</span>).",
           "filename": "image2-5.jpg",
           "attribution": "",
-          "label": "78"
+          "label": "86"
         },
         {
           "caption": "A view to the west.",
           "filename": "image2-6.jpg",
           "attribution": "",
-          "label": "79"
+          "label": "87"
         },
         {
           "caption": "We inch our way up.",
           "filename": "image2-7.jpg",
           "attribution": "",
-          "label": "80"
+          "label": "88"
         }
       ],
       [
@@ -1435,25 +1487,25 @@
           "caption": "On the top.",
           "filename": "image2-8.jpg",
           "attribution": "",
-          "label": "81"
+          "label": "89"
         },
         {
           "caption": "On the top with a rope mate.",
           "filename": "image2-9.jpg",
           "attribution": "",
-          "label": "82"
+          "label": "90"
         },
         {
           "caption": "Cerro Huayna Potosi (<span class=\\\"height\\\">19,968', 6086 m</span>).",
           "filename": "image2-10.jpg",
           "attribution": "",
-          "label": "83"
+          "label": "91"
         },
         {
           "caption": "One rope team nears the summit, out of sight to the right.",
           "filename": "image2-11.jpg",
           "attribution": "",
-          "label": "84"
+          "label": "92"
         }
       ],
       [
@@ -1461,25 +1513,25 @@
           "caption": "We approach a small village on the way to Base Camp. Illimani in distance (<span class=\\\"height\\\">21,122', 6438 m</span>).",
           "filename": "image12.jpg",
           "attribution": "",
-          "label": "85"
+          "label": "93"
         },
         {
           "caption": "Above the little village.",
           "filename": "image13.jpg",
           "attribution": "",
-          "label": "86"
+          "label": "94"
         },
         {
           "caption": "Another view.",
           "filename": "image14.jpg",
           "attribution": "",
-          "label": "87"
+          "label": "95"
         },
         {
           "caption": "We near Base Camp.",
           "filename": "image15.jpg",
           "attribution": "",
-          "label": "88"
+          "label": "96"
         }
       ],
       [
@@ -1487,13 +1539,33 @@
           "caption": "On the summit.",
           "filename": "image16.jpg",
           "attribution": "",
-          "label": "89"
+          "label": "97"
         },
         {
           "caption": "Our descent down the mountain.",
           "filename": "image17.jpg",
           "attribution": "",
-          "label": "90"
+          "label": "98"
+        },
+        {
+          "caption": "The view north to Mururata (18,490 feet). R. Villarreal Collection.",
+          "filename": "BOL_ILLI_LOOK_NORTH_MINE.jpeg",
+          "attribution": "",
+          "label": "99"
+        },
+        {
+          "caption": "Our descent from high camp back to base. R. Villarreal Collection.",
+          "filename": "BOL_ILLI_RIDGE_ON_WAY_TO_BC.jpeg",
+          "attribution": "",
+          "label": "100"
+        }
+      ],
+      [
+        {
+          "caption": "The Illimani climbing team. From the left: Alberto, Stan, Jennifer, John, me, and in front Jennifer's friend, Susan. R. Villarreal Collection.",
+          "filename": "BOL_ILLI_CLIMB_TEAM.jpeg",
+          "attribution": "",
+          "label": "101"
         }
       ]
     ],
