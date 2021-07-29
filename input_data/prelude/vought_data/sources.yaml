@@ -351,3 +351,14 @@
       filename: "pachacamac.yaml"
       label-prefix: "P"
       images_per_row: 3
+-
+  name: "High Altitude Archaeological sites in the Andes, by Johan Reinhard in \"The Inca Maiden.\""
+  shortname: "reinhard_sites"
+  galleries:
+    -
+      name: "High Altitude Archaeological sites in the Andes, by Johan Reinhard in \"The Inca Maiden.\""
+      shortname: "Reinhard Sites"
+      path: "reinhard_sites"
+      filename: "reinhard_sites.yaml"
+      label-prefix: "R"
+      images_per_row: 3
