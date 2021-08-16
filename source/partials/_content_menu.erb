@@ -1,16 +1,21 @@
 <div id="header">
   <div id="content-menubar-div">
-    <a class="content-menu-link <% if current_page.data.media == "chapters" %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/chapters/">
-      <%= book["chapters_menu_text"] || "MEDIA BY CHAPTER" %>
-    </a>
-    <% book["media_managers"].each do |media_managers_entry|
+    <% if book["use_chapters"] == nil or book["use_chapters"] == true %>
+      <a class="content-menu-link <% if current_page.data.media == "chapters" %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/chapters/">
+        <%= book["chapters_menu_text"] || "MEDIA BY CHAPTER" %>
+      </a> -
+    <% end %>
+    <% book["media_managers"].each_with_index do |media_managers_entry, index|
       current_page_manager = false
       if (defined? media[0]) && media[0]["content_path"] == media_managers_entry["content_path"]
         current_page_manager = true
       elsif (defined? media_entry) && media_entry["content_path"] == media_managers_entry["content_path"]
         current_page_manager = true
       end %>
-      - <a class="content-menu-link <% if current_page_manager %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/<%= media_managers_entry["content_path"] %>/"><%= media_managers_entry["menu_text"] %></a>
+      <% if index > 0 %>
+        -
+      <% end %>
+      <a class="content-menu-link <% if current_page_manager %>content-menu-link-underlined<% end %>" href="/<%= book["shortname"] %>/<%= media_managers_entry["content_path"] %>/"><%= media_managers_entry["menu_text"] %></a>
     <% end %>
   </div>
 </div>
