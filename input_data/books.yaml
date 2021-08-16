@@ -251,3 +251,5 @@
       entry_page_title: "Sources"
   other_book_menu_text: "All Books"
   other_book_location: "index.html"
+  use_chapters: false
+  media_home: "galleries"
