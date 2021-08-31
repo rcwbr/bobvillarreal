@@ -111,6 +111,7 @@ books.each do |book|
 	page "#{book_data_path}/historical/sacsayhuaman_squier*", :layout => "gallery"
 	page "#{book_data_path}/historical/polish/", :layout => "gallery"
 	page "#{book_data_path}/historical/cusco_leon*", :layout => "gallery"
+	page "#{book_data_path}/historical/buenos_aires/", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 
 

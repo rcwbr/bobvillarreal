@@ -362,3 +362,14 @@
       filename: "reinhard_sites.yaml"
       label-prefix: "R"
       images_per_row: 3
+-
+  name: "A Description of Buenos Aires by Harry A. Franck."
+  shortname: "buenos_aires"
+  galleries:
+    -
+      name: "A Description of Buenos Aires by Harry A. Franck."
+      shortname: "Buenos Aires"
+      path: "buenos_aires"
+      filename: "buenos_aires.yaml"
+      label-prefix: "B"
+      images_per_row: 3
