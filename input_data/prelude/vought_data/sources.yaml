@@ -373,3 +373,25 @@
       filename: "buenos_aires.yaml"
       label-prefix: "B"
       images_per_row: 3
+-
+  name: "A description of Santiago de Chile by Harry A. Franck."
+  shortname: "santiago_franck"
+  galleries:
+    -
+      name: "A description of Santiago de Chile by Harry A. Franck."
+      shortname: "Santiago"
+      path: "santiago_franck"
+      filename: "santiago_franck.yaml"
+      label-prefix: "S"
+      images_per_row: 3
+-
+  name: "A description of Mendoza by Harry A. Franck."
+  shortname: "mendoza_franck"
+  galleries:
+    -
+      name: "A description of Mendoza by Harry A. Franck."
+      shortname: "Mendoza"
+      path: "mendoza_franck"
+      filename: "mendoza_franck.yaml"
+      label-prefix: "M"
+      images_per_row: 3
