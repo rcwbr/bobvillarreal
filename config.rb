@@ -113,6 +113,8 @@ books.each do |book|
 	page "#{book_data_path}/historical/cusco_leon*", :layout => "gallery"
 	page "#{book_data_path}/historical/buenos_aires/", :layout => "gallery"
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
+	page "#{book_data_path}/historical/santiago_franck*", :layout => "gallery"
+	page "#{book_data_path}/historical/mendoza_franck*", :layout => "gallery"
 
 
 	non_content_pages = book["non_content_pages"]
@@ -279,6 +281,14 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/YsyNbvJoo74"
 		proxy "/#{book_data_path}/historical/polish_direct/index.html", "#{book_data_path}/polish_direct.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/4VrbAY8flWA"
+		proxy "/#{book_data_path}/historical/santiago_mendoza/index.html", "#{book_data_path}/santiago_mendoza.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/bKc9m7xfOyM"
+		proxy "/#{book_data_path}/historical/los_caracoles/index.html", "#{book_data_path}/los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 	if book["shortname"] == "prelude" || book["shortname"] == "chronicles"
 		media_entry_template = {

@@ -2374,6 +2374,14 @@
               "attribution": "",
               "label": "44"
             }
+          ],
+          [
+            {
+              "caption": "Since we had climbed Aconcagua two days sooner than planned due to the favorable weather, and because I had to return home so a doctor could treat my frostbite, David, Ted, and I boarded the Mendoza to Santiago bus at Puente del Inca. Several miles west, the road dropped downwards in a series of twenty-nine switcbacks, called the Los Caracoles (The Snails), from 9,425 feet at Portillo, Chile to 7,340 feet at El Juncal, Chile. And the entire time there must have been at least twenty condors flying above us. What a ride!",
+              "filename": "ARG_CARACOLES.jpg",
+              "attribution": "",
+              "label": "45"
+            }
           ]
         ],
         "content_type": "galleries",
@@ -6810,6 +6818,202 @@
               "caption": "",
               "attribution": "",
               "label": "21"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Santiago",
+    "name": "A description of Santiago de Chile by Harry A. Franck.",
+    "path": "santiago_franck",
+    "media": {
+      "vought_data": {
+        "name": "A description of Santiago de Chile by Harry A. Franck.",
+        "shortname": "Santiago",
+        "path": "santiago_franck",
+        "filename": "santiago_franck.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/santiago_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Mendoza",
+    "name": "A description of Mendoza by Harry A. Franck.",
+    "path": "mendoza_franck",
+    "media": {
+      "vought_data": {
+        "name": "A description of Mendoza by Harry A. Franck.",
+        "shortname": "Mendoza",
+        "path": "mendoza_franck",
+        "filename": "mendoza_franck.yaml",
+        "label-prefix": "M",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/mendoza_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
             }
           ]
         ],

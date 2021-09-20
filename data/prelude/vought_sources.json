@@ -4572,5 +4572,209 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "A description of Santiago de Chile by Harry A. Franck.",
+    "shortname": "santiago_franck",
+    "galleries": [
+      {
+        "name": "A description of Santiago de Chile by Harry A. Franck.",
+        "shortname": "Santiago",
+        "path": "santiago_franck",
+        "filename": "santiago_franck.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/santiago_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "A description of Mendoza by Harry A. Franck.",
+    "shortname": "mendoza_franck",
+    "galleries": [
+      {
+        "name": "A description of Mendoza by Harry A. Franck.",
+        "shortname": "Mendoza",
+        "path": "mendoza_franck",
+        "filename": "mendoza_franck.yaml",
+        "label-prefix": "M",
+        "images_per_row": 3,
+        "images_path": "images/prelude/galleries/mendoza_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]
