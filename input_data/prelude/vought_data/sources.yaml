@@ -363,33 +363,33 @@
       label-prefix: "R"
       images_per_row: 3
 -
-  name: "A Description of Buenos Aires by Harry A. Franck."
+  name: "A Description of Buenos Aires by Harry A. Franck, from \"Working North From Patagonia.\""
   shortname: "buenos_aires"
   galleries:
     -
-      name: "A Description of Buenos Aires by Harry A. Franck."
+      name: "A Description of Buenos Aires by Harry A. Franck, from \"Working North From Patagonia.\""
       shortname: "Buenos Aires"
       path: "buenos_aires"
       filename: "buenos_aires.yaml"
       label-prefix: "B"
       images_per_row: 3
 -
-  name: "A description of Santiago de Chile by Harry A. Franck."
+  name: "A description of Santiago de Chile by Harry A. Franck, from \"Working North From Patagonia.\""
   shortname: "santiago_franck"
   galleries:
     -
-      name: "A description of Santiago de Chile by Harry A. Franck."
+      name: "A description of Santiago de Chile by Harry A. Franck, from \"Working North From Patagonia.\""
       shortname: "Santiago"
       path: "santiago_franck"
       filename: "santiago_franck.yaml"
       label-prefix: "S"
       images_per_row: 3
 -
-  name: "A description of Mendoza by Harry A. Franck."
+  name: "A description of Mendoza by Harry A. Franck, from \"Working North From Patagonia.\""
   shortname: "mendoza_franck"
   galleries:
     -
-      name: "A description of Mendoza by Harry A. Franck."
+      name: "A description of Mendoza by Harry A. Franck, from \"Working North From Patagonia.\""
       shortname: "Mendoza"
       path: "mendoza_franck"
       filename: "mendoza_franck.yaml"
