@@ -211,7 +211,7 @@ books.each do |book|
 		proxy "/#{book_data_path}/historical/bmg_illimani/index.html", "#{book_data_path}/bmg_illimani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
-		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/cgJvVh1-1Ig"
+		media_entry["tours"][0]["url"] = ""
 		proxy "/#{book_data_path}/historical/polish_below/index.html", "#{book_data_path}/polish_below.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
