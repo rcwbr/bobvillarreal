@@ -181,6 +181,7 @@ end %>
     overlayImage.addEventListener("click", function () { closeOverlay() });
     overlayImage.addEventListener("touchstart", function (event) { detectSwipe(event) });
 
+    console.log(overlayImage) // TODO remove
     document.getElementById("gallery-overlay-image-div").insertBefore(overlayImage, captionDiv);
   }
 
