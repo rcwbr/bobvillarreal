@@ -2292,7 +2292,7 @@
       ],
       [
         {
-          "caption": "Bernardo, one of our arrieros, at Base Camp. R. Villarreal Collection.",
+          "caption": "At the Plaza Argentine, Bernardo, one of our muleteers, in complete <i>arriero</i> garb, including the black cordovan hat.",
           "filename": "image16.jpg",
           "attribution": "",
           "label": "37"
@@ -2408,7 +2408,7 @@
           "label": "54"
         },
         {
-          "caption": "The view of Mercedario in the east.",
+          "caption": "The view of Mercedario in the north.",
           "filename": "image26.jpg",
           "attribution": "",
           "label": "55"
@@ -2532,7 +2532,7 @@
           "label": "73"
         },
         {
-          "caption": "As we approach the summit, a look back down the ridge of our ascent. The rock pinnacles seen in <a href=\\\"#\\\" id=\\\"image26link\\\" onclick=\\\"goTo26(event)\\\">A.26</a> are just to the left and below the end of the ice ridge. Farther to the left, the Relinchos Valley is in the near distance, with the de las Vacas river in the far distance.",
+          "caption": "As we approach the summit, a look back down the ridge of our ascent. The rock pinnacles seen in <a href=\\\"#\\\" id=\\\"image26link\\\" onclick=\\\"setOverlayImageFromImage(gallery[66].cloneNode()); event.stopPropagation();\\\">A.67</a> are just to the left and below the end of the ice ridge. Farther to the left, the Relinchos Valley is in the near distance, with the de las Vacas river in the far distance.",
           "filename": "image36.jpg",
           "attribution": "",
           "label": "74"
@@ -2544,7 +2544,7 @@
           "label": "75"
         },
         {
-          "caption": "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking east, from high on Aconcagua.",
+          "caption": "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking north, from high on Aconcagua.",
           "filename": "image38.jpg",
           "attribution": "",
           "label": "76"
@@ -2564,56 +2564,62 @@
           "label": "78"
         },
         {
-          "caption": "We descend by way of the Canaleta on the western slopes. A thousand feet lower we traverse around the northern slopes to the eastern side for the return back to Base.",
-          "filename": "image41.jpg",
+          "caption": "The Aconcagua summit cross with the south summit ridge behind it. Courtesy of Tor Lundgren",
+          "filename": "ARG_ACON_CROSS.jpg",
           "attribution": "",
           "label": "79"
         },
         {
-          "caption": "Another look down the Canaleta, the \\\"chute\\\" in Spanish. Eight hundred feet from top to bottom, it's difficult and dangerous going down as it is going up. Fortunately, there was no wind. R. Villarreal Collection.",
-          "filename": "ACLAPRE_ARG_CANA_DOWN_MINE.jpeg",
+          "caption": "We descend by way of the Canaleta on the western slopes. A thousand feet lower we traverse around the northern slopes to the eastern side for the return back to Base.",
+          "filename": "image41.jpg",
           "attribution": "",
           "label": "80"
         }
       ],
       [
         {
+          "caption": "Another look down the Canaleta, the \\\"chute\\\" in Spanish. Eight hundred feet from top to bottom, it's difficult and dangerous going down as it is going up. Fortunately, there was no wind. R. Villarreal Collection.",
+          "filename": "ACLAPRE_ARG_CANA_DOWN_MINE.jpeg",
+          "attribution": "",
+          "label": "81"
+        },
+        {
           "caption": "Half-way down the Canaleta, a look back up to the summit. R. Villarreal Collection.",
           "filename": "ACLAPRE_ARG_CANA_UP_MINE.jpeg",
           "attribution": "",
-          "label": "81"
+          "label": "82"
         },
         {
           "caption": "This is the Gran Acarreo (the big haul) that links the Independencia hut with the Canaleta. Courtesy of MOUNTAIN TRAVEL.",
           "filename": "ARG_ACON_GRAN_ACARREO.jpg",
           "attribution": "",
-          "label": "82"
+          "label": "83"
         },
         {
           "caption": "This is the shattered hut of Independencia at just under 21,000 feet that lies at the bottom of the Gran Acarreo. Courtesy of MOUNTAINSOFT.",
           "filename": "ARG_INDEPENDENCIA_MOUNTAINSOFT.jpg",
-          "attribution": "",
-          "label": "83"
-        },
-        {
-          "caption": "To prevent my frostbitten toes from becoming wet, my friends carry me across the Rio de las Vacas.",
-          "filename": "image42.jpg",
           "attribution": "",
           "label": "84"
         }
       ],
       [
         {
+          "caption": "To prevent my frostbitten toes from becoming wet, my friends carry me across the Rio de las Vacas.",
+          "filename": "image42.jpg",
+          "attribution": "",
+          "label": "85"
+        },
+        {
           "caption": "Group shot back at Puente del Inca. Though my right toes and fingers were frostbitten, the climb was worth it.",
           "filename": "image43.jpg",
           "attribution": "",
-          "label": "85"
+          "label": "86"
         },
         {
           "caption": "Since we had climbed Aconcagua two days sooner than planned due to the favorable weather, and because I had to return home so a doctor could treat my frostbite, David, Ted, and I boarded the Mendoza to Santiago bus at Puente del Inca. Several miles west, the road dropped downwards in a series of twenty-nine switcbacks, called the Los Caracoles (The Snails), from 9,425 feet at Portillo, Chile to 7,340 feet at El Juncal, Chile. And the entire time there must have been at least twenty condors flying above us. What a ride!",
           "filename": "ARG_CARACOLES.jpg",
           "attribution": "",
-          "label": "86"
+          "label": "87"
         }
       ]
     ],

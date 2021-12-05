@@ -107,7 +107,7 @@
   caption: "Our Base Camp at <span class=\\\"height\\\">13,000' (4000 m)</span>."
   filename: image15.jpg
 -
-  caption: "Bernardo, one of our arrieros, at Base Camp. R. Villarreal Collection."
+  caption: "At the Plaza Argentine, Bernardo, one of our muleteers, in complete <i>arriero</i> garb, including the black cordovan hat."
   filename: image16.jpg
 -
   caption: "Our pack animals."
@@ -161,7 +161,7 @@
   caption: "More of Camp II."
   filename: image25.jpg
 -
-  caption: "The view of Mercedario in the east."
+  caption: "The view of Mercedario in the north."
   filename: image26.jpg
 -
   caption: "Another vista from Camp II."
@@ -218,13 +218,13 @@
   caption: "The view to the southwest."
   filename: image35.jpg
 -
-  caption: "As we approach the summit, a look back down the ridge of our ascent. The rock pinnacles seen in <a href=\\\"#\\\" id=\\\"image26link\\\" onclick=\\\"goTo26(event)\\\">A.26</a> are just to the left and below the end of the ice ridge. Farther to the left, the Relinchos Valley is in the near distance, with the de las Vacas river in the far distance."
+  caption: "As we approach the summit, a look back down the ridge of our ascent. The rock pinnacles seen in <a href=\\\"#\\\" id=\\\"image26link\\\" onclick=\\\"setOverlayImageFromImage(gallery[66].cloneNode()); event.stopPropagation();\\\">A.67</a> are just to the left and below the end of the ice ridge. Farther to the left, the Relinchos Valley is in the near distance, with the de las Vacas river in the far distance."
   filename: image36.jpg
 -
   caption: "A rest stop near the summit."
   filename: image37.jpg
 -
-  caption: "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking east, from high on Aconcagua."
+  caption: "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking north, from high on Aconcagua."
   filename: image38.jpg
 -
   caption: "We're there! I'm on the left.<br /><span class=\\\"height\\\">22,834' (6960 m)</span>"
@@ -232,6 +232,9 @@
 -
   caption: "Team photo on the summit."
   filename: image40.jpg
+-
+  caption: "The Aconcagua summit cross with the south summit ridge behind it. Courtesy of Tor Lundgren"
+  filename: "ARG_ACON_CROSS.jpg"
 -
   caption: "We descend by way of the Canaleta on the western slopes. A thousand feet lower we traverse around the northern slopes to the eastern side for the return back to Base."
   filename: image41.jpg
