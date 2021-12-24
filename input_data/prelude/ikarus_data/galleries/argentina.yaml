@@ -17,6 +17,9 @@
   caption: "Our hotel, the Puente del Inca Turismo y Aventura, in the ski resort of Los Penitentes. Courtesy of Aventura."
   filename: "ACLAPRE_ARG_HOSTERIA_PENITENTES.jpg"
 -
+  caption: "Cerro Penitentes. The ski resort of Los Penitentes is named after this peak, which lies two miles to the south. Courtesy of Wikiloc."
+  filename: "ARG_ACON_PENITENTES_WIKILOC.jpg"
+-
   caption: "The Puente del Inca is a popular tourist attraction that goes back in time. Even Charles Darwin visited it in 1835, but wasn't impressed. Courtesy of Travel Argentina."
   filename: "ACLAPRE_ARG_PUENTE_DEL_INCA.jpg"
 -
@@ -86,7 +89,7 @@
   caption: "A climber checks out the stone \\\"house.\\\" Courtesy of mza com ar."
   filename: image7.png
 -
-  caption: "Hiking up the Relinchos Valley to Base Camp; Aconcagua on the left, Ameghino on the right."
+  caption: "Hiking up the Relinchos Valley to Base Camp; Aconcagua on the left, Ameghino on the right. Notice that a puff of the Viento Blanco is blowing snow off the summit of Aconcagua. R. Villarreal Collection."
   filename: image9.jpg
 -
   caption: "More of the Relinchos Valley."
@@ -149,9 +152,6 @@
   caption: "The hike to Camp II at the foot of the Polish Glacier."
   filename: image21.jpg
 -
-  caption: "Progress towards Camp II."
-  filename: image22.jpg
--
   caption: "Getting close."
   filename: image23.jpg
 -
@@ -197,6 +197,7 @@
   caption: "Matt enjoys the view at the top of the Polish Glacier. R. Villarreal Collection."
   filename: "ACON_NOTCH_4.jpeg"
 -
+  # TODO if adding images before this, change "...The rock pinnacles seen in..." link to this image's new number
   caption: "We leave our rest stop at the top of the Glacier and strike out for the summit; I'm the one behind the climber immediately in picture. Behind stretches the Relinchos Valley all the way to Casa de Piedra on the de las Vacas. This is one of the most highly sought-after photos of the route pioneered by the Poles in 1934 along their route up the eastern slopes of the great peak. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>"
   filename: image31.jpg
 -
