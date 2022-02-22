@@ -289,6 +289,10 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/bKc9m7xfOyM"
 		proxy "/#{book_data_path}/historical/los_caracoles/index.html", "#{book_data_path}/los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/nW56kQ9SjJY"
+		proxy "/#{book_data_path}/historical/driving_los_caracoles/index.html", "#{book_data_path}/driving_los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 	if book["shortname"] == "prelude" || book["shortname"] == "chronicles"
 		media_entry_template = {
