@@ -238,8 +238,9 @@
   {
     "shortname": "prelude",
     "title": "The prelude to Clawing for the Stars: a solo climber in the highest Andes",
-    "subtitle": "TO<br />CLAWING FOR THE STARS:<br />A SOLO CLIMBER<br />IN THE HIGHEST ANDES<br />Andean peaks that served as preparation for my solo climbing career",
+    "home_pre_title": "CLAWING FOR THE STARS:<br />A SOLO CLIMBER<br />IN THE HIGHEST ANDES",
     "home_title_text": "THE PRELUDE",
+    "subtitle": "A RENDERING OF MOUNTAINS ASCENDED BEFORE MY SOLO ANDEAN CLIMBS",
     "styles": {
       "background-image": "clawing/clawing-background-darkest.png",
       "color_one": "#99CCFF",
