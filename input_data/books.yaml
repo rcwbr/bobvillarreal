@@ -254,3 +254,35 @@
   other_book_location: "index.html"
   use_chapters: false
   media_home: "galleries"
+-
+  shortname: "az"
+  title: ""
+  home_title_text: ""
+  subtitle: ""
+  styles:
+    background-image: "clawing/clawing-background-darkest.png"
+    color_one: "#99CCFF"
+    color_two: "white"
+    color_three: "#D3E2FA"
+    header_font: "Playfair Display"
+    header_text_decoration: "underline"
+  media_managers:
+    -
+      name: "vought"
+      content_type: "galleries"
+      processing_type: "galleries"
+      sectioned: "true"
+      input_data_path: "vought_data"
+      input_data_file: "sources.yaml"
+      input_data_entries_path: "sources"
+      output_filename: "vought_sources.json"
+      content_path: "historical"
+      content_name: "Historical"
+      content_longname: "Historical Sources and Miscellaneous"
+      menu_text: "HISTORICAL SOURCES AND MISCELLANEOUS"
+      page_title: "Historical"
+      entry_page_title: "Sources"
+  other_book_menu_text: "All Books"
+  other_book_location: "index.html"
+  use_chapters: false
+  media_home: "historical"
