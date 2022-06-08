@@ -247,5 +247,285 @@
         "entry_page_title": "Sources"
       }
     }
+  },
+  {
+    "shortname": "Orellana Medina",
+    "name": "A portrait of Francisco de Orellana by Jos&eacute; Toribio Medina (1934).",
+    "path": "orellana_medina",
+    "media": {
+      "vought_data": {
+        "name": "A portrait of Francisco de Orellana by Jos&eacute; Toribio Medina (1934).",
+        "shortname": "Orellana Medina",
+        "path": "orellana_medina",
+        "filename": "orellana_medina.yaml",
+        "label-prefix": "O",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/orellana_medina",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1ORE1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "1ORE2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "1ORE3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "1ORE4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "1ORE5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "1ORE6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "1ORE7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "1ORE8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "1ORE9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Names",
+    "name": "The names of the men on the voyage of discovery down the Amazon.",
+    "path": "names",
+    "media": {
+      "vought_data": {
+        "name": "The names of the men on the voyage of discovery down the Amazon.",
+        "shortname": "Names",
+        "path": "names",
+        "filename": "names.yaml",
+        "label-prefix": "N",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/names",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "AAMAORE_NAMES_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "AAMAORE_NAMES_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Map",
+    "name": "This map denotes the notable incidents and where they occurred on the voyage of discovery.",
+    "path": "orellana_map",
+    "media": {
+      "vought_data": {
+        "name": "This map denotes the notable incidents and where they occurred on the voyage of discovery.",
+        "shortname": "Map",
+        "path": "orellana_map",
+        "filename": "orellana_map.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/orellana_map",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "AAMAORE_MAP.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Carvahal Medina",
+    "name": "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina.",
+    "path": "carvahal_medina",
+    "media": {
+      "vought_data": {
+        "name": "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina.",
+        "shortname": "Carvahal Medina",
+        "path": "carvahal_medina",
+        "filename": "carvahal_medina.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/carvahal_medina",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1CAR1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "1CAR2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "1CAR3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "1CAR4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "1CAR5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "1CAR6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "1CAR7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "1CAR8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "1CAR9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "1CAR10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "1CAR11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
   }
 ]
