@@ -32,3 +32,47 @@
       filename: "gonzalo_prescott.yaml"
       label-prefix: "G"
       images_per_row: 3
+-
+  name: "A portrait of Francisco de Orellana by Jos&eacute; Toribio Medina (1934)."
+  shortname: "orellana_medina"
+  galleries:
+    -
+      name: "A portrait of Francisco de Orellana by Jos&eacute; Toribio Medina (1934)."
+      shortname: "Orellana Medina"
+      path: "orellana_medina"
+      filename: "orellana_medina.yaml"
+      label-prefix: "O"
+      images_per_row: 3
+-
+  name: "The names of the men on the voyage of discovery down the Amazon."
+  shortname: "names"
+  galleries:
+    -
+      name: "The names of the men on the voyage of discovery down the Amazon."
+      shortname: "Names"
+      path: "names"
+      filename: "names.yaml"
+      label-prefix: "N"
+      images_per_row: 3
+-
+  name: "This map denotes the notable incidents and where they occurred on the voyage of discovery."
+  shortname: "orellana_map"
+  galleries:
+    -
+      name: "This map denotes the notable incidents and where they occurred on the voyage of discovery."
+      shortname: "Map"
+      path: "orellana_map"
+      filename: "orellana_map.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina."
+  shortname: "carvahal_medina"
+  galleries:
+    -
+      name: "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina."
+      shortname: "Carvahal Medina"
+      path: "carvahal_medina"
+      filename: "carvahal_medina.yaml"
+      label-prefix: "C"
+      images_per_row: 3
