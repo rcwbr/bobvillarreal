@@ -76,3 +76,14 @@
       filename: "carvahal_medina.yaml"
       label-prefix: "C"
       images_per_row: 3
+-
+  name: "The Names of the River, by Jos&eacute; Toribio Medina."
+  shortname: "river_medina"
+  galleries:
+    -
+      name: "The Names of the River, by Jos&eacute; Toribio Medina."
+      shortname: "River Medina"
+      path: "river_medina"
+      filename: "river_medina.yaml"
+      label-prefix: "R"
+      images_per_row: 3

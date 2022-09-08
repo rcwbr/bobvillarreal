@@ -527,5 +527,110 @@
         "entry_page_title": "Sources"
       }
     }
+  },
+  {
+    "shortname": "River Medina",
+    "name": "The Names of the River, by Jos&eacute; Toribio Medina.",
+    "path": "river_medina",
+    "media": {
+      "vought_data": {
+        "name": "The Names of the River, by Jos&eacute; Toribio Medina.",
+        "shortname": "River Medina",
+        "path": "river_medina",
+        "filename": "river_medina.yaml",
+        "label-prefix": "R",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/river_medina",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "AMANAM1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "AMANAM2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "AMANAM3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "AMANAM4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "AMANAM5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "AMANAM6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "AMANAM7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "AMANAM8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "AMANAM9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "AMANAM10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "AMANAM11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
   }
 ]
