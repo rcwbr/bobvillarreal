@@ -119,6 +119,7 @@ books.each do |book|
 	page "#{book_data_path}/chapter/*", :layout => "chapter"
 	page "#{book_data_path}/historical/santiago_franck*", :layout => "gallery"
 	page "#{book_data_path}/historical/mendoza_franck*", :layout => "gallery"
+	page "#{book_data_path}/historical/cinnamon_pizarro*", :layout => "gallery"
 
 
 	non_content_pages = book["non_content_pages"]
