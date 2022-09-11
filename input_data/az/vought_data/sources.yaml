@@ -44,11 +44,11 @@
       label-prefix: "O"
       images_per_row: 3
 -
-  name: "The names of the men on the voyage of discovery down the Amazon."
+  name: "The names of the men on the voyage of discovery down the Amazon, from Document #4 in \"The Discovery of the Amazon\", by Jos&eacute; Toribio Medina."
   shortname: "names"
   galleries:
     -
-      name: "The names of the men on the voyage of discovery down the Amazon."
+      name: "The names of the men on the voyage of discovery down the Amazon, from Document #4 in \"The Discovery of the Amazon\", by Jos&eacute; Toribio Medina."
       shortname: "Names"
       path: "names"
       filename: "names.yaml"
@@ -86,4 +86,15 @@
       path: "river_medina"
       filename: "river_medina.yaml"
       label-prefix: "R"
+      images_per_row: 3
+-
+  name: "Letter to the King by Gonzalo Pizarro about his attempt to find the Lands of Cinnamon and El Dorado."
+  shortname: "cinnamon_pizarro"
+  galleries:
+    -
+      name: "Letter to the King by Gonzalo Pizarro about his attempt to find the Lands of Cinnamon and El Dorado."
+      shortname: "Cinnamon Pizarro"
+      path: "cinnamon_pizarro"
+      filename: "cinnamon_pizarro.yaml"
+      label-prefix: "C"
       images_per_row: 3

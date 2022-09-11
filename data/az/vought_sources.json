@@ -356,11 +356,11 @@
     "page_title": "Historical"
   },
   {
-    "name": "The names of the men on the voyage of discovery down the Amazon.",
+    "name": "The names of the men on the voyage of discovery down the Amazon, from Document #4 in \"The Discovery of the Amazon\", by Jos&eacute; Toribio Medina.",
     "shortname": "names",
     "galleries": [
       {
-        "name": "The names of the men on the voyage of discovery down the Amazon.",
+        "name": "The names of the men on the voyage of discovery down the Amazon, from Document #4 in \"The Discovery of the Amazon\", by Jos&eacute; Toribio Medina.",
         "shortname": "Names",
         "path": "names",
         "filename": "names.yaml",
@@ -648,6 +648,89 @@
               "caption": "",
               "attribution": "",
               "label": "11"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
+  },
+  {
+    "name": "Letter to the King by Gonzalo Pizarro about his attempt to find the Lands of Cinnamon and El Dorado.",
+    "shortname": "cinnamon_pizarro",
+    "galleries": [
+      {
+        "name": "Letter to the King by Gonzalo Pizarro about his attempt to find the Lands of Cinnamon and El Dorado.",
+        "shortname": "Cinnamon Pizarro",
+        "path": "cinnamon_pizarro",
+        "filename": "cinnamon_pizarro.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/cinnamon_pizarro",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "GONZ1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "GONZ2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "GONZ3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "GONZ4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "GONZ5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "GONZ6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "GONZ7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
             }
           ]
         ],
