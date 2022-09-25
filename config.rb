@@ -317,6 +317,20 @@ books.each do |book|
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/LArO19qw8iw"
 		proxy "/#{book_data_path}/historical/exposa_quito/index.html", "#{book_data_path}/exposa_quito.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
+	if book["shortname"] == "az"
+		media_entry_template = {
+			"content_path" => "historical",
+			"tours" => []
+		}
+		tour_template = {
+			"title" => "",
+			"url" => "https://www.youtube.com/embed/AI9i9FbHkjs"
+		}
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/AI9i9FbHkjs"
+		proxy "/#{book_data_path}/historical/dance/index.html", "#{book_data_path}/dance.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+	end
 
 	media_managers = book["media_managers"]
 	if media_managers != nil
