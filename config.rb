@@ -330,6 +330,18 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/AI9i9FbHkjs"
 		proxy "/#{book_data_path}/historical/dance/index.html", "#{book_data_path}/dance.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/Oqgz1PLRmM8"
+		proxy "/#{book_data_path}/historical/tributary/index.html", "#{book_data_path}/tributary.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/QOPSOeSUl_k"
+		proxy "/#{book_data_path}/historical/tributary2/index.html", "#{book_data_path}/tributary2.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/hkXGgSZFdBs"
+		proxy "/#{book_data_path}/historical/iquitos_to_manaus/index.html", "#{book_data_path}/iquitos_to_manaus.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 
 	media_managers = book["media_managers"]
