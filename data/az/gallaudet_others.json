@@ -807,6 +807,65 @@
     }
   },
   {
+    "shortname": "Cinnamon Pizarro",
+    "name": "This is the petition the companions asked the scrivener to draw up asking Orellana not to go back up the river to the Expeditionary force because of the swiftness of the river.",
+    "path": "petition",
+    "media": {
+      "vought_data": {
+        "name": "This is the petition the companions asked the scrivener to draw up asking Orellana not to go back up the river to the Expeditionary force because of the swiftness of the river.",
+        "shortname": "Cinnamon Pizarro",
+        "path": "petition",
+        "filename": "petition.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/petition",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
     "shortname": "Chapter 1",
     "name": "Chapter 1",
     "path": "chapter_1",
@@ -871,6 +930,70 @@
               "filename": "AAMAORE_ANTISANA_BIRDFORUM.jpg",
               "attribution": "",
               "label": "7"
+            },
+            {
+              "caption": "Late in 1541 on their way down the Coca river, Gonzalo Pizarro ordered the expeditionary force to build a brig. The result was the <i>San Pedro</i>, a small boat with eight oars and room for twenty men and supplies. Friendly Indians in a nearby village helped in the construction, a place they called \\\"El Barco\\\" (the boat). Artist unknown.",
+              "filename": "AAMAORE_SAN_PEDRO.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "These are some of the animals found up and down the Amazon River. Courtesy of National Geographic.",
+              "filename": "AAMAORE_ANIMALS_2.jpeg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Indians in a Coca River village. Courtesy of National Geographic.",
+              "filename": "aamaore_indians_1.jpg",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Chapter 2",
+    "name": "Chapter 2",
+    "path": "chapter_2",
+    "media": {
+      "ikarus_data": {
+        "name": "Chapter 2",
+        "shortname": "Chapter 2",
+        "path": "chapter_2",
+        "filename": "chapter_2.yaml",
+        "label-prefix": "2",
+        "images_path": "images/az/galleries/chapter_2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Bust of Francisco de Orellana in downtown Trujillo, Spain where he was born. Artist unknown.",
+              "filename": "AAMAORE_Francisco-de-Orellana-Trujillo-YORDAMA.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Captain Orellana and the companions sail down the river looking for food for themselves and Pizarro's expeditionary force. Courtesy of historiaperuana.",
+              "filename": "AAMAORE_ORE_PIC.jpg",
+              "attribution": "",
+              "label": "2"
             }
           ]
         ],

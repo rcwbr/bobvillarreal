@@ -841,5 +841,68 @@
     "content_name": "Historical",
     "content_path": "historical",
     "page_title": "Historical"
+  },
+  {
+    "name": "This is the petition the companions asked the scrivener to draw up asking Orellana not to go back up the river to the Expeditionary force because of the swiftness of the river.",
+    "shortname": "petition",
+    "galleries": [
+      {
+        "name": "This is the petition the companions asked the scrivener to draw up asking Orellana not to go back up the river to the Expeditionary force because of the swiftness of the river.",
+        "shortname": "Cinnamon Pizarro",
+        "path": "petition",
+        "filename": "petition.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/petition",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    ],
+    "section": true,
+    "content_type": "galleries",
+    "content_name": "Historical",
+    "content_path": "historical",
+    "page_title": "Historical"
   }
 ]
