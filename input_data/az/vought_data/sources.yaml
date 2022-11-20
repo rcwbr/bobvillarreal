@@ -98,3 +98,14 @@
       filename: "cinnamon_pizarro.yaml"
       label-prefix: "C"
       images_per_row: 3
+-
+  name: "This is the petition the companions asked the scrivener to draw up asking Orellana not to go back up the river to the Expeditionary force because of the swiftness of the river."
+  shortname: "petition"
+  galleries:
+    -
+      name: "This is the petition the companions asked the scrivener to draw up asking Orellana not to go back up the river to the Expeditionary force because of the swiftness of the river."
+      shortname: "Cinnamon Pizarro"
+      path: "petition"
+      filename: "petition.yaml"
+      label-prefix: "P"
+      images_per_row: 3

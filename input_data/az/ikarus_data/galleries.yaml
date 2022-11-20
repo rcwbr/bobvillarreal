@@ -5,3 +5,9 @@
   path: "chapter_1"
   filename: "chapter_1.yaml"
   label-prefix: "1"
+-
+  name: "Chapter 2"
+  shortname: "Chapter 2"
+  path: "chapter_2"
+  filename: "chapter_2.yaml"
+  label-prefix: "2"
