@@ -257,8 +257,8 @@
 -
   shortname: "az"
   title: ""
-  home_title_text: ""
-  subtitle: ""
+  home_title_text: "DOWN THE AMAZON RIVER, WITH CAPTAIN FRANCISCO DE ORELLANA, THE ONE-EYED KNIGHT, A VOYAGE OF DISCOVERY IN 1541-1542, AS TOLD BY ALONSO GUTI&Eacute;RREZ OF BADAJOZ, ONE OF HIS FIFTY-SEVEN FAITHFUL COMPANIONS"
+  subtitle: "A STORY OF SUCH WONDER AND FASCINATION THAT THOSE OF MY FAMILY WHO READ OF IT WILL DO SO IN ASTONISHMENT."
   styles:
     background-image: "clawing/clawing-background-darkest.png"
     color_one: "#99CCFF"
@@ -295,6 +295,23 @@
       menu_text: "PHOTOS"
       page_title: "Galleries"
       entry_page_title: "Gallery"
+  other_book_menu_text: "All Books"
+  other_book_location: "index.html"
+  use_chapters: false
+  media_home: "historical"
+-
+  shortname: "climbing"
+  title: ""
+  home_title_text: "Climbing Amongst the Great Andes of South America: A Collection of Memorable Moments On Climbs of Thirty-two peaks Over Eighteen Years."
+  subtitle: ""
+  styles:
+    background-image: "clawing/clawing-background-darkest.png"
+    color_one: "#99CCFF"
+    color_two: "white"
+    color_three: "#D3E2FA"
+    header_font: "Playfair Display"
+    header_text_decoration: "underline"
+  media_managers: []
   other_book_menu_text: "All Books"
   other_book_location: "index.html"
   use_chapters: false
