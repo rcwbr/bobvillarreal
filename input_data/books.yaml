@@ -257,13 +257,13 @@
 -
   shortname: "az"
   title: ""
-  home_title_text: "DOWN THE AMAZON RIVER, WITH CAPTAIN FRANCISCO DE ORELLANA, THE ONE-EYED KNIGHT, A VOYAGE OF DISCOVERY IN 1541-1542, AS TOLD BY ALONSO GUTI&Eacute;RREZ OF BADAJOZ, ONE OF HIS FIFTY-SEVEN FAITHFUL COMPANIONS"
-  subtitle: "A STORY OF SUCH WONDER AND FASCINATION THAT THOSE OF MY FAMILY WHO READ OF IT WILL DO SO IN ASTONISHMENT."
+  home_title_text: "DOWN THE AMAZON RIVER, WITH CAPTAIN FRANCISCO DE ORELLANA, THE ONE-EYED KNIGHT, A VOYAGE OF DISCOVERY IN 1541-1542, AS TOLD BY ALONSO GUTIÉRREZ OF BADAJOZ, ONE OF HIS FIFTY-SEVEN FAITHFUL COMPANIONS"
+  subtitle: "A STORY OF SUCH WONDER AND FASCINATION THAT THOSE OF MY FAMILY WHO READ OF IT WILL DO SO IN IN ASTONISHMENT, FOR TRUTH HAS A FORCE THAT OFTEN MAKES REALITY SEEM UNBELIEVABLE."
   styles:
-    background-image: "clawing/clawing-background-darkest.png"
-    color_one: "#99CCFF"
+    background_color: "#0A632F"
+    color_one: "white"
     color_two: "white"
-    color_three: "#D3E2FA"
+    color_three: "white"
     header_font: "Playfair Display"
     header_text_decoration: "underline"
   media_managers:
@@ -302,7 +302,7 @@
 -
   shortname: "climbing"
   title: ""
-  home_title_text: "Climbing Amongst the Great Andes of South America: A Collection of Memorable Moments On Climbs of Thirty-two peaks Over Eighteen Years."
+  home_title_text: "Climbing the Great Andes"
   subtitle: ""
   styles:
     background-image: "clawing/clawing-background-darkest.png"

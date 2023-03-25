@@ -109,3 +109,25 @@
       filename: "petition.yaml"
       label-prefix: "P"
       images_per_row: 3
+-
+  name: "Drawing of a Crossbow by Leonardo de Vinci, c. 1500."
+  shortname: "crossbow"
+  galleries:
+    -
+      name: "Drawing of a Crossbow by Leonardo de Vinci, c. 1500."
+      shortname: "Crossbow"
+      path: "crossbow"
+      filename: "crossbow.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "This is the petition the companions signed asking Captain Orellana to remain as Captain of the Expedition."
+  shortname: "petition2"
+  galleries:
+    -
+      name: "This is the petition the companions signed asking Captain Orellana to remain as Captain of the Expedition."
+      shortname: "Petition"
+      path: "petition2"
+      filename: "petition2.yaml"
+      label-prefix: "P"
+      images_per_row: 3
