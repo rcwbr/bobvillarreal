@@ -866,6 +866,110 @@
     }
   },
   {
+    "shortname": "Crossbow",
+    "name": "Drawing of a Crossbow by Leonardo de Vinci, c. 1500.",
+    "path": "crossbow",
+    "media": {
+      "vought_data": {
+        "name": "Drawing of a Crossbow by Leonardo de Vinci, c. 1500.",
+        "shortname": "Crossbow",
+        "path": "crossbow",
+        "filename": "crossbow.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/crossbow",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "AAMAORE_CROSSBOW.JPG",
+              "caption": "A crossbow is a weapon using a launching device consisting of a bow-like assembly called a lath mounted horizontally on a main frame called the tiller. They shoot arrows called bolts.",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Petition",
+    "name": "This is the petition the companions signed asking Captain Orellana to remain as Captain of the Expedition.",
+    "path": "petition2",
+    "media": {
+      "vought_data": {
+        "name": "This is the petition the companions signed asking Captain Orellana to remain as Captain of the Expedition.",
+        "shortname": "Petition",
+        "path": "petition2",
+        "filename": "petition2.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/az/galleries/petition2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "PET1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "PET2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "PET3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "PET4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "PET5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
     "shortname": "Chapter 1",
     "name": "Chapter 1",
     "path": "chapter_1",
