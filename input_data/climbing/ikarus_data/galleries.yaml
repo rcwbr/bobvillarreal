@@ -1,0 +1,94 @@
+---
+-
+  name: "The Prelude"
+  shortname: "prelude"
+  galleries:
+    -
+      name: "The Expedition to Ecuador in January, 1989."
+      shortname: "The Expedition to Ecuador in January, 1989."
+      path: "E"
+      filename: "../../../prelude/ikarus_data/galleries/ecuador.yaml"
+      label-prefix: "E"
+    -
+      name: "The Expedition to Bolivia in June, 1990, preceded by a visit to Machu Picchu."
+      shortname: "The Expedition to Bolivia in June, 1990, preceded by a visit to Machu Picchu."
+      path: "B"
+      filename: "../../../prelude/ikarus_data/galleries/bolivia.yaml"
+      label-prefix: "B"
+    -
+      name: "The Expedition to Aconcagua in January, 1991."
+      shortname: "The Expedition to Aconcagua in January, 1991."
+      path: "A"
+      filename: "../../../prelude/ikarus_data/galleries/argentina.yaml"
+      label-prefix: "A"
+-
+  name: "Clawing for the Stars"
+  shortname: "prelude"
+  galleries:
+    -
+      name: "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the <i>Conquistadors</i>"
+      shortname: "Chapter 1 - Ojos del Salado"
+      path: "1"
+      filename: "../../../clawing/ikarus_data/galleries/chapter1.yaml"
+      label-prefix: "1"
+    -
+      name: "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus"
+      shortname: "Chapter 2 - Pissis"
+      path: "2"
+      filename: "../../../clawing/ikarus_data/galleries/chapter2.yaml"
+      label-prefix: "2"
+    -
+      name: "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity"
+      shortname: "Chapter 3 - Llullaillaco"
+      path: "3"
+      filename: "../../../clawing/ikarus_data/galleries/chapter3.yaml"
+      label-prefix: "3"
+    -
+      name: "Chapter 4 | Closing the Circle on Llullaillaco, Chile"
+      shortname: "Chapter 4 - Llullaillaco"
+      path: "4"
+      filename: "../../../clawing/ikarus_data/galleries/chapter4.yaml"
+      label-prefix: "4"
+    -
+      name: "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will"
+      shortname: "Chapter 5 - Tres Cruces"
+      path: "5"
+      filename: "../../../clawing/ikarus_data/galleries/chapter5.yaml"
+      label-prefix: "5"
+    -
+      name: "Chapter 6 | Interlude: Clients"
+      shortname: "Chapter 6 - Assorted"
+      path: "6"
+      filename: "../../../clawing/ikarus_data/galleries/chapter6.yaml"
+      label-prefix: "6"
+    -
+      name: "Chapter 7 | Monte Pissis, Argentina: The Hand of God"
+      shortname: "Chapter 7 - Pissis"
+      path: "7"
+      filename: "../../../clawing/ikarus_data/galleries/chapter7.yaml"
+      label-prefix: "7"
+    -
+      name: "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?"
+      shortname: "Chapter 8 - Llullaillaco"
+      path: "8"
+      filename: "../../../clawing/ikarus_data/galleries/chapter8.yaml"
+      label-prefix: "8"
+    -
+      name: "Chapter 9 | Tres Cruces, Chile: Climbing with Friends"
+      shortname: "Chapter 9 - Tres Cruces"
+      path: "9"
+      filename: "../../../clawing/ikarus_data/galleries/chapter9.yaml"
+      label-prefix: "9"
+    -
+      name: "Chapter 10 | Tres Cruces, Chile: The Last Climb"
+      shortname: "Chapter 10 - Tres Cruces"
+      path: "10"
+      filename: "../../../clawing/ikarus_data/galleries/chapter10.yaml"
+      label-prefix: "10"
+    -
+      name: "Appendix C | Apani the Indian"
+      shortname: "Appendix C"
+      path: "C"
+      filename: "../../../chronicles/ikarus_data/galleries/3V.yaml"
+      label-prefix: "3V"
+
