@@ -79,6 +79,12 @@
           "filename": "aamaore_indians_1.jpg",
           "attribution": "",
           "label": "10"
+        },
+        {
+          "caption": "The confluence of the Napo and the Coca Rivers. Google Earth.",
+          "filename": "NAPO_COCA_MEET.jpg",
+          "attribution": "",
+          "label": "11"
         }
       ]
     ],
@@ -116,6 +122,502 @@
           "filename": "AAMAORE_ORE_PIC.jpg",
           "attribution": "",
           "label": "2"
+        },
+        {
+          "caption": "Theses are wooden canoes like the companions rode in following the San Pedro down the river. Courtesy of Dreamtime.",
+          "filename": "CANOES_DREAMTIME.jpg",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "Flocks of butterflies were seen frequently on the river. Courtesy of Mahogan.",
+          "filename": "BUTTERFLIES_MAHOGAN.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 3",
+    "shortname": "Chapter 3",
+    "path": "chapter_3",
+    "filename": "chapter_3.yaml",
+    "label-prefix": "3",
+    "images_path": "images/az/galleries/chapter_3",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "Nail reproductions of nails used in the building of the brigs. Courtesy of Hackaday.",
+          "filename": "NAILS_1_HACKADAY.png",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "An overhead view of today's city of Iquitos. There was no city or village here when the companions sailed down this part of the river. Courtesy of Amazon for all.",
+          "filename": "IQUITOS_AMAZONFORALL.jpeg",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "Another view of Iquitos. Courtesy of Peruhop.",
+          "filename": "IQUITOS_VILLAGE_PERUHOP.jpg",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "This is a replica of a Julian Calendar like Padre Carvajal used to determine the feast days as they journeyed down the river. Courtesy of RepCom.",
+          "filename": "J_CALENDAR.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "caption": "Lily pads this size are not uncommon on the Amazon. Courtesy of Luqman007.",
+          "filename": "LILY_PADS_LUQMAN_007.jpg",
+          "attribution": "",
+          "label": "5"
+        },
+        {
+          "caption": "Rain squalls are frequent on the river during the rainy season. Courtesy of AmazonNow.",
+          "filename": "SQUALL.jpeg",
+          "attribution": "",
+          "label": "6"
+        },
+        {
+          "caption": "These baby turtles are like the ones captured by the companions. Courtesy of AmazonLove.",
+          "filename": "baby_turtle_amazon_love.jpg",
+          "attribution": "",
+          "label": "7"
+        },
+        {
+          "caption": "The meat from a large manatee could feed all the companions for several days. Courtesy of AmazonNow.",
+          "filename": "MANATEE.jpg",
+          "attribution": "",
+          "label": "8"
+        }
+      ],
+      [
+        {
+          "caption": "This is a model of a 16th century brig. Since the Victoria was built by the companions who were not ship builders, it wasn't as fine as this model, but it got them down the river. Courtesy of Modelships.",
+          "filename": "VIC_MODELSHIPS.jpeg",
+          "attribution": "",
+          "label": "9"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 4",
+    "shortname": "Chapter 4",
+    "path": "chapter_4",
+    "filename": "chapter_4.yaml",
+    "label-prefix": "4",
+    "images_path": "images/az/galleries/chapter_4",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "The companions occasionally came upon swarms of ants, as they did at this camp. Courtesy of inhabitat.",
+          "filename": "4_ANT_SWARM_INHABITAT.jpg",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "This was one of the few incidents when otters approached them on the river. Courtesy of Ecostuk.",
+          "filename": "4_OTTERS_ECOSTUK.jpg",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "The crossbowmen wreaked havoc on Indian warriors whenever they encountered them. Courtesy of medievalweapons.",
+          "filename": "4_CROSSBOW.JPG",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "The arquebus was a formidable weapon in every battle with the river Indians. Courtesy of medievalweapons.",
+          "filename": "4_ARQUE.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "caption": "Many battles with the Indians took place in jungle as thick as this. Courtesy of forestindev.",
+          "filename": "4_JUNGLE_FORESTENDEV.jpg",
+          "attribution": "",
+          "label": "5"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 5",
+    "shortname": "Chapter 5",
+    "path": "chapter_5",
+    "filename": "chapter_5.yaml",
+    "label-prefix": "5",
+    "images_path": "images/az/galleries/chapter_5",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "A typical village along the great river. Some of the villagers were friendly. But some like the ones here were not. Courtesy of amazonforall.",
+          "filename": "5_TYPICAL_VILLAGE_2.jpg",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "Maize has always been common along the Amazon and has fed those on the river for thousands of years. Courtesy of amazonfood.",
+          "filename": "5_MAIZE_AMAZONFOOD.jpg",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "The Purus River on its course to join the Amazon. Courtesy of wiksite.",
+          "filename": "5_PURUS_ON_WAY_TO_AMA_WIKSITE.jpg",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "The River Negro joins the Amazon. Courtesy of wiki.",
+          "filename": "5_NEGRO_CONFLUENCE_WIKI.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "caption": "The companions feared the blowgunner, as he could strike at a distance and silently. Courtesy of Ecuadian.",
+          "filename": "5_BLOWGUN_2_ECUADIAN.jpg",
+          "attribution": "",
+          "label": "5"
+        },
+        {
+          "caption": "An Indian with a blowgun was particularly dangerous from high in a tree. Courtesy of Ecuadian.",
+          "filename": "5_BLOWGUN.jpeg",
+          "attribution": "",
+          "label": "6"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 6",
+    "shortname": "Chapter 6",
+    "path": "chapter_6",
+    "filename": "chapter_6.yaml",
+    "label-prefix": "6",
+    "images_path": "images/az/galleries/chapter_6",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "The companions were attacked often by swarms of flies, as they were here. Courtesy of AMAZONBUGS.",
+          "filename": "6_FLY_SWARM_AMAZON_BUGS.png",
+          "attribution": "",
+          "label": "1"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 7",
+    "shortname": "Chapter 7",
+    "path": "chapter_7",
+    "filename": "chapter_7.yaml",
+    "label-prefix": "7",
+    "images_path": "images/az/galleries/chapter_7",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "Edward Whymper speculated on what the Amazons may have looked like and drew them in his, \\\"Travels Amongst the Great Andes of the Equator\\\".",
+          "filename": "7_AMAZON_WOMEN_WARRIORS_WHYMPER.png",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "A modern day reenactment of the Amazons and their exploits takes place occasionally along the Amazon. Courtesy of hypeme.",
+          "filename": "7_AMAZON_WOMEN_2_HYPE.MY.png",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "Bamboo forests are commonplace along the Amazon. Courtesy of amazonworld.",
+          "filename": "7_BAMBOO_FOREST_AMAZONWORLD.jpg",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "This strange looking chief may have looked like this. Artist: Robert Shore.",
+          "filename": "7_WARRIOR_FACE_DARK.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 8",
+    "shortname": "Chapter 8",
+    "path": "chapter_8",
+    "filename": "chapter_8.yaml",
+    "label-prefix": "8",
+    "images_path": "images/az/galleries/chapter_8",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "A modern day pirogue the size of those during Orellana's voyage down the river. Courtesy of adventime.",
+          "filename": "8_PIROGUE_ADVENTIME.jpg",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "Another pirogue on today's Amazon. Courtesy of Pinta.",
+          "filename": "8_PIROGUE_2_PINTA.jpg",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "This is a model of a medieval rebec. Unfortunately, we do not have an image of those the Indians used on the Amazon. Courtesy of etsy.",
+          "filename": "8_REBEC_ETSY.png",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "These birds are like those the companions saw here and are common up and down the river. Courtesy of amazonbirds.",
+          "filename": "8_BIRDS.jpeg",
+          "attribution": "",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "caption": "This is an Amazon alligator called a caiman. Courtesy of Grayson.",
+          "filename": "8_CAIMAN.jpg",
+          "attribution": "",
+          "label": "5"
+        },
+        {
+          "caption": "Caiman skins being taken to market. Courtesy of National Geographic.",
+          "filename": "8_CAIMAN_SKINS_P_136.jpeg",
+          "attribution": "",
+          "label": "6"
+        },
+        {
+          "caption": "The float islands referred to are probably similar to these. Courtesy of wwf.",
+          "filename": "8_FLOAT_ISLANDS_WWF.jpg",
+          "attribution": "",
+          "label": "7"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 9",
+    "shortname": "Chapter 9",
+    "path": "chapter_9",
+    "filename": "chapter_9.yaml",
+    "label-prefix": "9",
+    "images_path": "images/az/galleries/chapter_9",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "Now close to the sea, the tides made almost a daily appearance. Courtesy of loveit.",
+          "filename": "9_SEA_TIDE_LOVEIT.jpg",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "This is a pororoca, a tide event that happens several times a month. Courtesy of grantholm.",
+          "filename": "9_POROROCA_GRANTHOLM.jpg",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "This is a look at the convoluted part of the river the companions were now steering through. Courtesy of amazonfromabove.",
+          "filename": "9_LOOK_DOWN_ON_Ama.jpg",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "This village looked peaceful from the river but the natives were not. Courtesy of riverlife.",
+          "filename": "9_TYPICAL_VILLAGE_1.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ]
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "entry_page_title": "Gallery"
+  },
+  {
+    "name": "Chapter 10",
+    "shortname": "Chapter 10",
+    "path": "chapter_10",
+    "filename": "chapter_10.yaml",
+    "label-prefix": "10",
+    "images_path": "images/az/galleries/chapter_10",
+    "galleries_path": "galleries",
+    "source_path": "../source",
+    "thumbs_folder_path": "thumbs",
+    "total_width": 960,
+    "images_per_row": 4,
+    "image_margins": 10,
+    "width_adjustment": 4,
+    "overlay_thumb_height": 100,
+    "image_matrix": [
+      [
+        {
+          "caption": "The dark jungle was with the companions the entire way down thr river. Courtesy of realworldholiday.",
+          "filename": "10_DARK_JUNGLE_REALWORLD_HOLIDAY.jpg",
+          "attribution": "",
+          "label": "1"
+        },
+        {
+          "caption": "Snails for food were common on this part of the river. Courtesy of amazonbugs.",
+          "filename": "10_SNAILS_AMAZON_BUGS.png",
+          "attribution": "",
+          "label": "2"
+        },
+        {
+          "caption": "Crabs were also. Courtesy of amazonfish.",
+          "filename": "10_CRABS_AMAZON_BUGS.jpg",
+          "attribution": "",
+          "label": "3"
+        },
+        {
+          "caption": "After many months on their voyage, the companions entered the Northern Sea. Google Earth.",
+          "filename": "10_PASS_OUT_OF_AMAZON_EARTH.jpg",
+          "attribution": "",
+          "label": "4"
+        }
+      ],
+      [
+        {
+          "caption": "The Mouth of the Dragon and the Serpent's Mouth locations in the Gulf of Paria. Google Earth. ",
+          "filename": "10_TRINIDAD_MOUTH_PARIA_EARTH.jpg",
+          "attribution": "",
+          "label": "5"
+        },
+        {
+          "caption": "Today's ruins of Nueva Cádiz. Courtesy of Wilfredo. ",
+          "filename": "10_NUEVA_c_WILFREDO.jpg",
+          "attribution": "",
+          "label": "6"
+        },
+        {
+          "caption": "Today's Margarita Island. Courtesy of kayak.",
+          "filename": "10_MARGA_KAYAK.jpg",
+          "attribution": "",
+          "label": "7"
+        },
+        {
+          "caption": "At this time, pearls accounted for one-third of the tribute paid to the Spanish Crown from the New World. Courtesy of onlypearls.",
+          "filename": "10_ClipperPearlHarvest949.jpg",
+          "attribution": "",
+          "label": "8"
+        }
+      ],
+      [
+        {
+          "caption": "A handful of gems to make any person rich. Courtesy of only pearls.",
+          "filename": "10_PEARLS.jpg",
+          "attribution": "",
+          "label": "9"
         }
       ]
     ],

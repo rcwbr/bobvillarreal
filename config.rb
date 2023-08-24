@@ -321,6 +321,8 @@ books.each do |book|
 		proxy "/#{book_data_path}/historical/exposa_quito/index.html", "#{book_data_path}/exposa_quito.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
 	if book["shortname"] == "az"
+		media_entry = {"content_path" => "historical"}
+    proxy "/#{book_data_path}/historical/gonzalo_pizzaro/index.html", "#{book_data_path}/gonzalo_pizzaro.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry_template = {
 			"content_path" => "historical",
 			"tours" => []
