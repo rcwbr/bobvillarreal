@@ -122,6 +122,7 @@ books.each do |book|
 	page "#{book_data_path}/historical/cinnamon_pizarro*", :layout => "gallery"
 	page "#{book_data_path}/historical/petition*", :layout => "gallery"
 	page "#{book_data_path}/historical/crossbow*", :layout => "gallery"
+	page "#{book_data_path}/historical/terms*", :layout => "gallery"
 
 
 	non_content_pages = book["non_content_pages"]
@@ -320,6 +321,8 @@ books.each do |book|
 		proxy "/#{book_data_path}/historical/exposa_quito/index.html", "#{book_data_path}/exposa_quito.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
   end
 	if book["shortname"] == "az"
+		media_entry = {"content_path" => "historical"}
+    proxy "/#{book_data_path}/historical/gonzalo_pizzaro/index.html", "#{book_data_path}/gonzalo_pizzaro.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry_template = {
 			"content_path" => "historical",
 			"tours" => []
@@ -360,6 +363,14 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/ZKSx-6MSWIs"
 		proxy "/#{book_data_path}/historical/sights/index.html", "#{book_data_path}/sights.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/77VIRo_GeaQ"
+		proxy "/#{book_data_path}/historical/video_crossbow/index.html", "#{book_data_path}/video_crossbow.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		media_entry = media_entry_template.clone
+		media_entry["tours"] = [ tour_template.clone ]
+		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/RhKu5MvT2-Y"
+		proxy "/#{book_data_path}/historical/arquebus/index.html", "#{book_data_path}/arquebus.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 
 	media_managers = book["media_managers"]
@@ -378,8 +389,14 @@ books.each do |book|
 					end
 				when "ikarus"
 					if media_entry["volume"] then
-						media_entry["sections"].each do |media_section_entry|
-							build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+						if media_entry["sections"]
+							media_entry["sections"].each do |media_section_entry|
+								build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+							end
+						elsif media_entry["galleries"]
+							media_entry["galleries"].each do |media_section_entry|
+								build_gallery_sections(media_section_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)
+							end
 						end
 					else
 						build_gallery_sections(media_entry, GALLERY_SITE_ROOT_PATH, book_data_path, media_manager, book)

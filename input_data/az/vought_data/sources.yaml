@@ -131,3 +131,14 @@
       filename: "petition2.yaml"
       label-prefix: "P"
       images_per_row: 3
+-
+  name: "Terms of the agreement of exploration and colonization of New Andalusia granted by King Charles V to Francisco de Orellana"
+  shortname: "terms"
+  galleries:
+    -
+      name: "Terms of the agreement of exploration and colonization of New Andalusia granted by King Charles V to Francisco de Orellana"
+      shortname: "Petition"
+      path: "terms"
+      filename: "terms.yaml"
+      label-prefix: "T"
+      images_per_row: 3

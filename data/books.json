@@ -289,8 +289,8 @@
   {
     "shortname": "az",
     "title": "",
-    "home_title_text": "DOWN THE AMAZON RIVER, WITH CAPTAIN FRANCISCO DE ORELLANA, THE ONE-EYED KNIGHT, A VOYAGE OF DISCOVERY IN 1541-1542, AS TOLD BY ALONSO GUTIÉRREZ OF BADAJOZ, ONE OF HIS FIFTY-SEVEN FAITHFUL COMPANIONS",
-    "subtitle": "A STORY OF SUCH WONDER AND FASCINATION THAT THOSE OF MY FAMILY WHO READ OF IT WILL DO SO IN IN ASTONISHMENT, FOR TRUTH HAS A FORCE THAT OFTEN MAKES REALITY SEEM UNBELIEVABLE.",
+    "home_title_text": "DOWN THE AMAZON RIVER WITH CAPTAIN FRANCISCO DE ORELLANA, THE ONE-EYED KNIGHT, A VOYAGE OF DISCOVERY IN 1541-1542, FOLLOWED BY THE VOYAGE TO SPAIN, HIS APPOINTMENT AS GOVERNOR OF NEW ANDALUSIA, AND THE FATEFUL EVENTS AFTERWARDS, AS TOLD BY ALONZO GUTIÉRREZ OF BADAJOZ, ONE OF HIS FAITHFUL COMPANIONS",
+    "subtitle": "A STORY OF SUCH WONDER AND FASCINATION THAT THOSE OF MY FAMILY WHO READ OF IT WILL DO SO IN ASTONISHMENT, FOR TRUTH HAS A FORCE THAT OFTEN MAKES REALITY SEEM UNBELIEVABLE.",
     "styles": {
       "background_color": "#0A632F",
       "color_one": "white",
@@ -350,11 +350,25 @@
       "header_text_decoration": "underline"
     },
     "media_managers": [
-
+      {
+        "name": "ikarus",
+        "content_type": "galleries",
+        "processing_type": "galleries",
+        "volumed": "true",
+        "input_data_path": "ikarus_data",
+        "input_data_file": "galleries.yaml",
+        "input_data_entries_path": "galleries",
+        "output_filename": "ikarus_galleries.json",
+        "content_path": "galleries",
+        "content_name": "Galleries",
+        "menu_text": "PHOTOS",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
     ],
     "other_book_menu_text": "All Books",
     "other_book_location": "index.html",
     "use_chapters": false,
-    "media_home": "historical"
+    "media_home": "galleries"
   }
 ]

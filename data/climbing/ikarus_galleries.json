@@ -1,0 +1,4471 @@
+[
+  {
+    "name": "The Prelude",
+    "shortname": "prelude",
+    "galleries": [
+      {
+        "name": "The Expedition to Ecuador in January, 1989.",
+        "shortname": "The Expedition to Ecuador in January, 1989.",
+        "path": "E",
+        "filename": "../../../prelude/ikarus_data/galleries/ecuador.yaml",
+        "label-prefix": "E",
+        "images_path": "images/climbing/galleries/E",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Earth image of the terrain west of Quito.",
+              "filename": "EC_QUITO_WEST_OF_GOOG.jpg",
+              "label": "00",
+              "attribution": ""
+            },
+            {
+              "caption": "A view from 30,000 feet at the main Ecuador peaks. Loren McIntyre.",
+              "filename": "ACLAPRE_ECUADOR_PEAKS_FROM_30_K.jpeg",
+              "label": "0",
+              "attribution": ""
+            },
+            {
+              "caption": "A jet landing at the old Mariscal Sucre passes right above a residential neighborhood. The guy is using a flame torch to burn weeds, although he seems to be firing at the jet! Courtesy of Wiki.",
+              "filename": "1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Blasco Vela marched through Quito on his way north to link with Captain Belalc&aacute;zar for reinforcements. He passed through Pasto, Colombia seen here. In 1982, the author and his wife traveled to this city to adopt their second daughter. Courtesy of JORGELRM.",
+              "filename": "PASTO_JORGELRM.jpg",
+              "attribution": "",
+              "label": "2"
+            }
+          ],
+          [
+            {
+              "caption": "Gonzalo Pizarro chose the place of battle on a small plain called Iñaquito, here depicted. Artist: I Riquelme.",
+              "filename": "Inaquito_PAINTING.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Edward Whymper climbed many of the peaks in Ecuador and documented his travels in, <u>Travels Amongst the Great Andes of the Equator</u>, written in 1880. We followed his climbing routes on all the peaks we attempted. Painting by Lance Calkin.",
+              "filename": "ACLAPRE_WHYMPER_PICTURE.jpeg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "I&ntilde;aquito is one of 55 parishes in the canton of Quito located towards the north of the city and near the old Mariscal Sucre. Our hotel was located here. There is a large concentration of malls in the area and the population is exceedingly wealthy relative to the rest of Quito. This is also home to a large international community, primarily Americans. Various mission agencies have their Ecuador headquarters here. Courtesy of GOQUITO.",
+              "filename": "2.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The Ciudad Mitad del Mundo (Middle of the World City) is a tract of land owned by the prefecture of the province of Pichincha, Ecuador. It is located 16 miles north of the center of Quito. The grounds contain the Monument to the Equator, which highlights the exact location of the Equator from which the country takes its name; they also contain the Ethnographic Museum Middle of the Earth, a museum about the indigenous people ethnography of Ecuador. The 98 ft monument was constructed between 1979 and 1982 by Pichincha's Province Council to replace an older, smaller monument built by the Government of Ecuador in 1936. It is made of iron and concrete and covered with cut and polished andesite stone. The monument was built to commemorate the first Geodesic Mission of the French Academy of Sciences. It conducted experiments to test the flattening at the poles of the characteristic shape of the Earth, by comparing the distance between a degree meridian in the equatorial zone to another level measured in Sweden. The older monument was moved 4.3 miles to the town of CalaCali. Courtesy of Yee Wang.",
+              "filename": "3.jpg",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "caption": "The Otavalo market. Otavalo, capital of Otavalo canton, has a population largely made up of the Otavalo indigenous group. It has 39,354 inhabitants and sits at an elevation of 8,307 feet. It is surrounded by the peaks of Imbabura (15,190 feet), Cotacachi (16,388 ft)), and Mojanda (12,300 feet) volcanoes. The indigenous Otavalo people are famous for weaving textiles, usually made of wool, such as handmade blankets, tablecloths, and much more. Our climbing team visited on Saturday, the famous market day. Courtesy of GRAYLINE.",
+              "filename": "4.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "After spending the morning at the Otavalo market, we hiked through the hills of the town, crossed through fields and eucalyptus groves, and came to Lago San Pedro and had lunch at the restaurant of the Lago Pedro Hotel. Courtesy of INTHEKNOW.",
+              "filename": "5.jpg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "The day after visiting Otavalo, we made our way to the Panecillo. El Panecillo (from Spanish <i>panecillo</i> small piece of bread) is a 650 foot high hill of volcanic-origin located between southern and central Quito. Its peak is at an elevation of 9,895 feet above sea level. The original name used by the aboriginal inhabitants of Quito was Yavirac. There was a temple on top of Yavirac where the Indians worshiped the sun until it was destroyed by the <i>conquistadors</i>. In 1976, the Spanish artist Agust&iacute;n de la Herr&aacute;n Matorras was commissioned to build a 150 foot tall stone monument of a Madonna on the top of Panecillo. Called \\\"Virgin of Panecillo\\\", it is made of seven thousand pieces of aluminum. The Virgin stands on top of a globe and is stepping on a snake, which is classic Madonna iconography. Less traditional are the wings. Locals claim that she is the only one in the world with wings like an angel. Courtesy of GOQUITO.",
+              "filename": "6.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "The Panecillo in the early evening with Antisana in the distance. Courtesy of NOTIMUNDO.",
+              "filename": "7.jpg",
+              "attribution": "",
+              "label": "10"
+            }
+          ],
+          [
+            {
+              "caption": "The Virgin on the top of the Panecillo. Courtesy of VISTA HERMOSA.",
+              "filename": "8.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "The Panecillo with Antisana to the east. Courtesy of ROUGHGUIDES.",
+              "filename": "9.jpg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "The Church and Convent of St. Francis is a 16th-century Roman Catholic complex in Quito, Ecuador and fronts onto its namesake Plaza de San Francisco. The imposing edifice has the distinction of being the largest architectural ensemble among the historical structures of colonial Latin America and for this reason is sometimes known as \\\"El Escorial of the New World\\\". The style evolved over almost 143 years of construction (1537-1680) through earthquakes and changes in architectural styles. The Church houses the city's beloved Virgin of Quito (1734). Courtesy of GOECUADOR.",
+              "filename": "10.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Santo Domingo Church borders the southern edge of Quito Old Town and stands over Santo Domingo Plaza. The church represents fascinating periods in Quito’s religious history, as it was constructed by Dominicans and modified by Italian priests. The church’s stately tower features Baroque architectural styling and a city clock. This colonial era Church is well known for its awe-inspiring collection of art, located in the Lady of the Rosary chapel and the church museum. There are magnificent works by noteworthy Quiteño artists, including carvings, reliefs, and stunning frescos. Also on display is the famous sculpture of the Virgin del Rosario (Our Lady of the Rosary) and fine examples of artworks from the Quito School of Art. Courtesy of VISTA HERMOSA.",
+              "filename": "11.jpg",
+              "attribution": "",
+              "label": "14"
+            }
+          ],
+          [
+            {
+              "caption": "La Ronda is a popular attraction in Old Quito, famous for its many shops and cafes, all with a Bohemian edge to them. Courtesy of GOECUADOR.",
+              "filename": "12.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "An 1805 map of the Inca town of Quito. Artist: Juan Pio Montufar.",
+              "filename": "QUITAN_1805_MAP_Juan_Pio_Montufar.jpg",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "caption": "Another painting of Quito, this from the mid-18th century. Artist: Miguel de Santiago",
+              "filename": "QUITAN_QUITO_MID-18TH_MIGUEL_DE_SANTIAGO.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Another painting of Quito, this one dated 1850. Artist: Rafael Salas.",
+              "filename": "QUITAN_TOWN_RAFAEL_SALAS_1850.jpg",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "caption": "My new little friend in Quito (1989).",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "A view of Quito on the road to Lloa. Courtesy of Ricardo Magron.",
+              "filename": "PICHIN_QUITO_FROM_ROAD_TO_PICHIN_RICARDO_MAGRON_1.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "Pichincha is an active volcano outside Quito, Ecuador. This Edward Whymper woodcut of 1892 shows three of Whymper's guides near the summit. Whymper was a famous naturalist, climber, and artist who climbed extensively in the Alps and the Andes. In 1880, he was the first climber to ascend a high altitude peak, in this case Chimborazo (20,400'). His signature appears in the lower left corner. See the delightful accounts of his climbs and travels in <em>Travels Amongst the Great Andes of the Equator</em>. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The village of Lloa on the lower southern slopes of Pichincha. Courtesy of DREAMSTIME.",
+              "filename": "PICHIN_LLOA_DREAMSTIME.jpg",
+              "attribution": "",
+              "label": "22"
+            }
+          ],
+          [
+            {
+              "caption": "An Earth image of the area where we started our hike.",
+              "filename": "PICHIN_START_CLIMB_GOOG.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "This is the Pichincha Refugio at 15,000 feet. We did not visit this place as our guide chose to bypass it to the east on the way to the summit. Courtesy of Frosia Kitova.",
+              "filename": "PICHIN_REFUGIO_15K_FROSIA_KITOVA_2.jpg",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "caption": "The CULCITIUM is a genus of flowering plants that includes 59 described species. Whymper mentions them on the slopes of Pichincha and we saw one near the summit. Courtesy of Rare flowers.",
+              "filename": "PICHIN_Culcitium_3.JPG",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "The Guagua summit marker at 15,728 feet. Notice how close to the volcano's crater it is. Courtesy of Quito climbs.",
+              "filename": "PICHIN_TOP_ON_EDGE_4.jpg",
+              "attribution": "",
+              "label": "26"
+            }
+          ],
+          [
+            {
+              "caption": "The summit of Guagua Pichincha, 15,728 feet. Courtesy of A. Enriquez.",
+              "filename": "PICHIN_GUAGUA_SUMMIT_A_ENRIQUEZ.JPG",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "Pichincha volcano summit (<span class=\\\"height\\\">15,700', 4790 m</span>).",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "This photo captures the 1999 eruption of Pichincha Volcano.  I stood on the summit 12 years before this!  <span class=\\\"attribution\\\">Courtesy of Wikipedia.</span>",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "The town of Cayambe, home to 40,000 citizens. Courtesy of youtube.",
+              "filename": "ACLAPRE_CAYA_TOWN_YOUTUBE_1.jpg",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "caption": "Whymper's drawing of a lower camp on the slopes of Cayambe.",
+              "filename": "ACLAPRE_CAYA_CAMP_WHYMP_2.jpeg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "A view of Cayambe from a point west from the peak. Courtesy of wiki.",
+              "filename": "ACLAPRE_CAYA_WIKI_3.jpg",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "caption": "Cayambe peak amongst the clouds. Courtesy of Loren McIntyre.",
+              "filename": "ACLAPRE_CAYAMBE_LOREN_4.jpeg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "A cock fighting arena in Cayambe. Whymper tells of the mayor managing a cock fighting competition when he visited the town. Courtesy of COCKFIGHTING.",
+              "filename": "ACLAPRE_CAYA_COCKFIGHTING_5.jpg",
+              "attribution": "",
+              "label": "34"
+            }
+          ],
+          [
+            {
+              "caption": "This is the Ruales Oleas Berge Refugio on Cayambe. It accommodates 32 people, has two kitchens, two fireplaces, two living rooms, running water, and toilets. When we got here the guides determined that recent avalanches had covered the lower reaches of the Whymper route, making it too dangerous for us to attempt it. We stayed the night and next day left for Cotopaxi. Courtesy of Riofrio Arias.",
+              "filename": "ACLAPRE_CAYAMBE_REFUGIO_RIOFRIO_ARIAS_6.jpg",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "caption": "El Cayambe (<span class=\\\"height\\\">18,996', 5790 m</span>) sits northeast of Quito. Its distinction is that the equator lies right on its southern slopes. We got this close to the peak before the guides determined that the entire lower portion of the Whymper route had been obliterated by avalanches. We pushed on to Cotopaxi.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "36"
+            },
+            {
+              "caption": "Upon our departure from El Cayambe, I found another little friend, this one walking her dog.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "caption": "Original 1892 Whymper woodcut of a puma approaching Whymper's tent on El Cayambe at <span class=\\\"height\\\">14,462' (4408 m)</span>. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image7.png",
+              "attribution": "",
+              "label": "38"
+            }
+          ],
+          [
+            {
+              "caption": "On the descent of El Cayambe, one of the pack animals slipped and fell over a precipice into the void below. Original 1892 Edward Whymper woodcut. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image8.png",
+              "attribution": "",
+              "label": "39"
+            },
+            {
+              "caption": "The town of Machachi to the west of Cotopaxi. Whymper and the Carrels stayed here before tackling Cotopaxi. So did we. Courtesy of ECTravel.",
+              "filename": "MACHACHI_ECTRAVEL_1.jpg",
+              "attribution": "",
+              "label": "40"
+            },
+            {
+              "caption": "A Google image of the important geographical places mentioned in the text.",
+              "filename": "MACHACHI_REFUGIO_GOOG_2.jpg",
+              "attribution": "",
+              "label": "41"
+            },
+            {
+              "caption": "The Tambopaxi Lodge where we stayed the night before proceeding on to Cotopaxi (background.) Courtesy of sabana exp.",
+              "filename": "tambopaxi_samana_exp_3.jpg",
+              "attribution": "",
+              "label": "42"
+            }
+          ],
+          [
+            {
+              "caption": "Cotopaxi from the Rosario Farm. Artist: Edward Whymper.",
+              "filename": "FROM_ROSARIO_WHYMP_4.jpeg",
+              "attribution": "",
+              "label": "43"
+            },
+            {
+              "caption": "This is today' Rosario Farm property. It was purchased by the government in 2001 and they converted it into a talapia breeding farm. Courtesy of AQUASOL.",
+              "filename": "ROSARIO_FARM_AQUASOL_5.jpg",
+              "attribution": "",
+              "label": "44"
+            },
+            {
+              "caption": "A view east to Cotopaxi. Courtesy of Wiki.",
+              "filename": "WIKI_6.jpg",
+              "attribution": "",
+              "label": "45"
+            },
+            {
+              "caption": "Another view of the mountain. Courtesy of Jorge Anhalzer.",
+              "filename": "PIC_JORGE_ANHALZER_7.jpeg",
+              "attribution": "",
+              "label": "46"
+            }
+          ],
+          [
+            {
+              "caption": "Cotopaxi Park entrance station. Courtesy of Bakhmotov.",
+              "filename": "PARK_ENTRAN_BAKHMUTOV_8.jpg",
+              "attribution": "",
+              "label": "47"
+            },
+            {
+              "caption": "Inside the Jose Rivas Refugio. Courtesy of ECTRAVEL. ",
+              "filename": "HUT_INSIDE_9.jpeg",
+              "attribution": "",
+              "label": "48"
+            },
+            {
+              "caption": "An aerial view of the Cotopaxi crater. Courtesy of Loren McIntyre.",
+              "filename": "1_10.jpeg",
+              "attribution": "",
+              "label": "49"
+            },
+            {
+              "caption": "Another crater view. Courtesy of Loren McIntyre. ",
+              "filename": "2_11.jpeg",
+              "attribution": "",
+              "label": "50"
+            }
+          ],
+          [
+            {
+              "caption": "Yet another crater view. Courtesy of Loren McIntyre.",
+              "filename": "SUMMIT_TOURHQ_12.jpg",
+              "attribution": "",
+              "label": "51"
+            },
+            {
+              "caption": "Whymper and one of the Carrels peer into the mouth of the crater. Artist: Edward Whymper.",
+              "filename": "EXTERIOR_WHYMP_13.jpeg",
+              "attribution": "",
+              "label": "52"
+            },
+            {
+              "caption": "Whymper's drawing of the crater's inside. From A to B was measured by a rope line. C was the lowest point on the rim, while D and E were the highest. Z represents the mouth of the lava pipe at the bottom of the crater.",
+              "filename": "CRATER_WHYM_14.jpeg",
+              "attribution": "",
+              "label": "53"
+            },
+            {
+              "caption": "Base Camp on Cotopaxi -- the Jose Rivas hut at <span class=\\\"height\\\">15,500' (4720 m)</span>.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "54"
+            }
+          ],
+          [
+            {
+              "caption": "Cotopaxi (<span class=\\\"height\\\">19,347', 5897 m</span>).",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "55"
+            },
+            {
+              "caption": "Another view of the Cotopaxi summit, this one higher on the route.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "56"
+            },
+            {
+              "caption": "Whymper wood engraving dated 1892 of the Cotopaxi summit crater. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "57"
+            },
+            {
+              "caption": "On the return from the fog choked Cotopaxi summit, the mists lift to reveal the rich Ecuadorian countryside.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "58"
+            }
+          ],
+          [
+            {
+              "caption": "More stunning views from the flanks of Cotopaxi.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "59"
+            },
+            {
+              "caption": "And more.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "60"
+            },
+            {
+              "caption": "The city of Ambato, northeast from Chimborazo and northwest from Ba&ntilde;os. Courtesy of Andre Hubner.",
+              "filename": "AMBATO_ANDRE_HUBNER_0.jpg",
+              "attribution": "",
+              "label": "61"
+            },
+            {
+              "caption": "The eruption of Tungurahua in 1995, as seen from Ambato. Courtesy of ECUATRAVEL.",
+              "filename": "AMBATO_TUNGI_ERUP_ECUATRAVEL_00.jpg",
+              "attribution": "",
+              "label": "62"
+            }
+          ],
+          [
+            {
+              "caption": "The main plaza of Ba&ntilde;os de Santa Agua. R. Villarreal Collection.",
+              "filename": "de_Santa_Agua_1.jpeg",
+              "attribution": "",
+              "label": "63"
+            },
+            {
+              "caption": "Catholic believers say that the Virgin Mary appeared near a waterfall near the town in the early 20th century. To honor this, a sculpture of the Virgin, called <i>Virgen de Agua Santa</i>, was placed in the city's cathedral. Courtesy of Chaz Thompson.",
+              "filename": "VIRGIN_CHAZ_THOMPSON_1.jpg",
+              "attribution": "",
+              "label": "64"
+            },
+            {
+              "caption": "We stayed at the Hotel Sangay. R. Villarreal Collection.",
+              "filename": "Hotel_Sangay_2.jpeg",
+              "attribution": "",
+              "label": "65"
+            },
+            {
+              "caption": "<i>Cuy</i>, or guinea pigs, are cute! Courtesy of <i>cuy</i>nation",
+              "filename": "CUY.jpg",
+              "attribution": "",
+              "label": "66"
+            }
+          ],
+          [
+            {
+              "caption": "Ecuadorians consume 65 million cuy each year! Courtesy of 25dollartravel.",
+              "filename": "CUY_PREP_FOR_LUNCH.JPG",
+              "attribution": "",
+              "label": "67"
+            },
+            {
+              "caption": "We visited a nearby market and the bread woman was fast asleep! R. Villarreal Collection.",
+              "filename": "MARKET_ASLEEP_3.jpeg",
+              "attribution": "",
+              "label": "68"
+            },
+            {
+              "caption": "Tungurahua from Ba&ntilde;os. Courtesy of Torres Costales.",
+              "filename": "TUNGU_TORRES_COSTALES_4.jpg",
+              "attribution": "",
+              "label": "69"
+            },
+            {
+              "caption": "The town of Ba&ntilde;os, with Tungurahua in the distance. Courtesy of viajandox.",
+              "filename": "TUNGU_FROM_BANOS_VIAJANDOX_5.jpg",
+              "attribution": "",
+              "label": "70"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of Tungurahua. Courtesy of volcandiscovery.",
+              "filename": "TUNGU_VOLCANDISCOVERY_6.jpg",
+              "attribution": "",
+              "label": "71"
+            },
+            {
+              "caption": "Another view of Ba&ntilde;os. Courtesy of Wiki.",
+              "filename": "WIKI_8.JPG",
+              "attribution": "",
+              "label": "72"
+            },
+            {
+              "caption": "Some of the 60 waterfalls in and around the city. Courtesy of mill 1.",
+              "filename": "WITH_FALLS_MILL_1_9.jpg",
+              "attribution": "",
+              "label": "73"
+            },
+            {
+              "caption": "More waterfalls! Courtesy of budget your trip.",
+              "filename": "WITH_WATERFALLS_BUDGET_YOUR_TRIP_10.jpg",
+              "attribution": "",
+              "label": "74"
+            }
+          ],
+          [
+            {
+              "caption": "A section of the valley walls surrounding Banos, a small town near Tungurahua peak. It resembles Yosemite Valley, with numerous waterfalls that cascade into the valley below.",
+              "filename": "image16.png",
+              "attribution": "",
+              "label": "75"
+            },
+            {
+              "caption": "On the way from Banos to the Tungurahua staging area to rent our pack animals.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "76"
+            },
+            {
+              "caption": "This is the Park office where we paid for the arrieros and horses to carry our equipment to the Refugio. R. Villarreal Collection.",
+              "filename": "TUNGU_MULES_11.jpeg",
+              "attribution": "",
+              "label": "77"
+            },
+            {
+              "caption": "This is the route above the Refugio to the summit. Winds came up during the night before our summit attempt and I accompanied our guide at 2 a.m. as he wanted to climb above to see if we could still continue. The winds were too fierce and he had to cancel our attempt on the summit. Courtesy of ivaga tours.",
+              "filename": "TUNGU_ABOVE_HUT_IVAGA_TOURS_12.png",
+              "attribution": "",
+              "label": "78"
+            }
+          ],
+          [
+            {
+              "caption": "Pack horse for lugging our gear to a refugio on the slopes of Tungurahua volcano (<span class=\\\"height\\\">16,475', 5022 m</span>); next day it was too windy to climb.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "79"
+            },
+            {
+              "caption": "The Tungurahua hut at <span class=\\\"height\\\">13,000' (4000 m)</span>. The wind was blasting the next morning so viciously that we cancelled an attempt on the summit.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "80"
+            },
+            {
+              "caption": "This same Tungurahua erupting in April, 2011; the beautiful town of Banos is off to the left.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "81"
+            },
+            {
+              "caption": "Another picture of the eruption.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "82"
+            }
+          ],
+          [
+            {
+              "caption": "Spanish allies, the ruthless Ca&ntildeari warriors, slaughter Inca Quitan troops at the R&iacuteo Ambato on the Spanish march to Quito in June, 1535. Courtesy of Louis S. Glanzman and National Geographic Magazine.",
+              "filename": "Canari_AMBATO_GLANZ.jpeg",
+              "attribution": "",
+              "label": "83"
+            },
+            {
+              "caption": "We're on the way to the Carrel hut on Chimborazo (in the distance). Photo taken from Guarandas.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "84"
+            },
+            {
+              "caption": "An Earth view of the landscape around Chimborazo.",
+              "filename": "TUNGU_GOOG_1.jpg",
+              "attribution": "",
+              "label": "85"
+            },
+            {
+              "caption": "An Earth image looking east at the valley between Carihuairazo and Chimborazo.",
+              "filename": "CARIHUA_AND_VALLEY_GOOG_2.jpg",
+              "attribution": "",
+              "label": "86"
+            }
+          ],
+          [
+            {
+              "caption": "Looking north at the flanks of Carihuairazo. Chimborazo is behind the photographer. Courtesy of jraudiovideo.",
+              "filename": "CARIHUAIRAZO_JRAUDIOVIDEO_3.jpg",
+              "attribution": "",
+              "label": "87"
+            },
+            {
+              "caption": "Chimborazo to the east from the streets of Guaranda. Courtesy of PINTEREST.",
+              "filename": "FROM_GUARAN_PINTEREST_4.jpg",
+              "attribution": "",
+              "label": "88"
+            },
+            {
+              "caption": "Another image of Chimborazo from Guaranda. Courtesy of Torres Costales.",
+              "filename": "FROM_GUARANDA_TORRES_COSTALES_5.jpg",
+              "attribution": "",
+              "label": "89"
+            },
+            {
+              "caption": "\\\"The early explorers of Chimborazo, Humboldt and Bonpland.\\\" Artist: Freidrich Georg Weitsch.",
+              "filename": "HUMBOLDT_BONPLAND_FRIEDRICH_GEORG_WEITSCH_1810_6.jpg",
+              "attribution": "",
+              "label": "90"
+            }
+          ],
+          [
+            {
+              "caption": "\\\"Chimborazo, the Heart of the Andes.\\\" Artist: Frederic Edwin Church.",
+              "filename": "HEART_OF_THE_ANDES_FREDERIC_EDWIN_CHURCH_7.jpg",
+              "attribution": "",
+              "label": "91"
+            },
+            {
+              "caption": "The Tambo of Totorillas. Courtesy of Alberto Bombardelli.",
+              "filename": "TOTORILLAS_ALBERTO_BOMBARDELLI_8.jpg",
+              "attribution": "",
+              "label": "92"
+            },
+            {
+              "caption": "The Arenal, with Chimborazo to the east. Courtesy of Viajando.",
+              "filename": "EL_ARENAL_VIAJANDO_9.jpg",
+              "attribution": "",
+              "label": "93"
+            },
+            {
+              "caption": "Chimborazo Park Entrance Station. Courtesy of ChimboParque.",
+              "filename": "PARK_ENTRANCE_CHIMBOPARQUE_10.jpg",
+              "attribution": "",
+              "label": "94"
+            }
+          ],
+          [
+            {
+              "caption": "Earth image of the Park Entrance Station.",
+              "filename": "ENTRANCE_GOOG_11.jpg",
+              "attribution": "",
+              "label": "95"
+            },
+            {
+              "caption": "1899 original halftone print of Chimborazo by The Werner Company. This image is from Guarandas, very near the spot where I took the picture in the previous image. In both, the Whymper route to the summit is out of sight, over the ridge on the left skyline. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "96"
+            },
+            {
+              "caption": "This wood-engraving hunting scene most likely was carried out in the area of the previous picture of Chimborazo, near Guarandas. It's another Whymper work dated 1885. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image24.png",
+              "attribution": "",
+              "label": "97"
+            },
+            {
+              "caption": "The Louis Carrel hut on Chimborazo, at <span class=\\\"height\\\">15,912' (4850 m)</span>. Carrel was one of Whymper's climbing guides in Ecuador.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "98"
+            }
+          ],
+          [
+            {
+              "caption": "A look down to the Carrel hut on the way up to the Base Camp location of the Whymper hut.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "99"
+            },
+            {
+              "caption": "The Whymper hut at <span class=\\\"height\\\">16,404' (5000 m)</span>. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "100"
+            },
+            {
+              "caption": "Close up views of the red cliffs and the Whymper Glacier. Courtesy of Loren McIntyre.",
+              "filename": "ACLAPRE_CHIMBO_2_PICS.jpeg",
+              "attribution": "",
+              "label": "101"
+            },
+            {
+              "caption": "An aerial approaching Chimborazo from the north side, looking south. Whymper climbed <i>El Arenal</i> (the plain of ashes and cinders) under the clouds to the right, and up to the base of the red cliffs. He then crossed to the left to the bottom of the smooth glacier leading to the summit and climbed directly up it to the top. This is known as the \\\"Whymper Route\\\" and is the route we followed. Courtesy of Loren McIntyre.",
+              "filename": "ACLAPRE_CHIMBO_2_PAGES.jpeg",
+              "attribution": "",
+              "label": "102"
+            }
+          ],
+          [
+            {
+              "caption": "A view of Chimborazo from the Whymper hut. The route follows the ridge to the right. Once above the rock and ice outcropping in the center of the picture, the route traverses to the left skyline and follows the glacier to the summit.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "103"
+            },
+            {
+              "caption": "An Earth view of the Carrel and Whymper Refugios on the western slopes.",
+              "filename": "CARREL_AND_WHYMPER_GOOG_1.jpg",
+              "attribution": "",
+              "label": "104"
+            },
+            {
+              "caption": "Frank has found a space for the night in the Whymper hut! R. Villarreal Collection.",
+              "filename": "HUT_INSIDE_2.jpeg",
+              "attribution": "",
+              "label": "105"
+            },
+            {
+              "caption": "Cotopaxi and Antisana from high on Chimborazo. Courtesy of Destination Latine.",
+              "filename": "COTO_AND_ANTI_DESTINATION_LATINE_3.jpg",
+              "attribution": "",
+              "label": "106"
+            }
+          ],
+          [
+            {
+              "caption": "This is a picture of the western slopes with the upper part of the western ridge to the right. This was taken from the Whymper Refugio with a Zoom lens. At the top of the ridge, there is a shelf, here seen as the dark rock ledge that stretches from the top of the ridge to the Whymper Glacier to the left. The ledge was some five feet in width, so it was ideal to walk upon it to the Glacier, where we attached our crampons for the climb upwards. Courtesy of SummitPost.",
+              "filename": "FULL_RIDGE_SUMMIT_POST_BRIGHT_4.jpg",
+              "attribution": "",
+              "label": "107"
+            },
+            {
+              "caption": "Julie leads the second team to the summit. R. Villarreal Collection.",
+              "filename": "TOP_ME_5.jpeg",
+              "attribution": "",
+              "label": "108"
+            },
+            {
+              "caption": "This is the eastern side of Chimborazo, a more pleasing view, to me, than any other side. Courtesy of Loren McIntyre.",
+              "filename": "EAST_6.jpeg",
+              "attribution": "",
+              "label": "109"
+            },
+            {
+              "caption": "On the top; I'm on the left with our Ecuadorian guide, Rodrigo.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "110"
+            }
+          ],
+          [
+            {
+              "caption": "Original 1892 Edward Whymper woodcut as he and his guides try to erect their tent low on the slopes of Chimborazo. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image30.png",
+              "attribution": "",
+              "label": "111"
+            },
+            {
+              "caption": "Another Whymper engraving showing climbers, at <span class=\\\"height\\\">17,450' (5319 m)</span>, above the site of today's Whymper hut as they work their way across the ridge outside camp. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image31.png",
+              "attribution": "",
+              "label": "112"
+            },
+            {
+              "caption": "Whymper's engraving of the scene higher on the route, at <span class=\\\"height\\\">18,500' (5640 m)</span>. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image32.png",
+              "attribution": "",
+              "label": "113"
+            },
+            {
+              "caption": "Whymper engraving of the route as they close on the summit. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image33.jpg",
+              "attribution": "",
+              "label": "114"
+            }
+          ],
+          [
+            {
+              "caption": "Whymper and the Carrels ascended the eastern summit of Chimborazo (20,581 feet) on January 4 of 1880. R. Villarreal Collection.",
+              "filename": "CHIMBO_TOP_FIRST_WHYM.jpeg",
+              "attribution": "",
+              "label": "115"
+            },
+            {
+              "caption": "Louis Carrel contracted frostbite on the climb. A litter was rigged up and he was carried to the nearby town of Ambato for medical treatment Another 1892 woodcut by Edward Whymper. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image34.png",
+              "attribution": "",
+              "label": "116"
+            },
+            {
+              "caption": "An Earth view of the northwest ridge of Chimborazo, the route to the summit of Whymper's second ascent of the peak.",
+              "filename": "CHIMBO_2_NORTHWEST_RIDGE_GOOG.jpg",
+              "attribution": "",
+              "label": "117"
+            },
+            {
+              "caption": "Whymper's engraving of the eruption of Cotopaxi during his second ascent of Chimborazo.",
+              "filename": "CHIMBO_COTO_ERUP_WHYMP.jpeg",
+              "attribution": "",
+              "label": "118"
+            }
+          ],
+          [
+            {
+              "caption": "Whymper and the Carrels ascended Chimborazo for the second time on July 3 of 1880. Edward Whymper engraving. R. Villarreal Collection.",
+              "filename": "TOP_SECOND_WHYM.jpeg",
+              "attribution": "",
+              "label": "119"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "The Expedition to Bolivia in June, 1990, preceded by a visit to Machu Picchu.",
+        "shortname": "The Expedition to Bolivia in June, 1990, preceded by a visit to Machu Picchu.",
+        "path": "B",
+        "filename": "../../../prelude/ikarus_data/galleries/bolivia.yaml",
+        "label-prefix": "B",
+        "images_path": "images/climbing/galleries/B",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Governor Pizarro founded the City of Kings on January 18 of 1535, the capital city in the new land of Peru. The name bestowed upon it Pizarro chose in recognition that this day celebrated the feast day of the Epiphany, the day when the three kings visited the Christ child in his manger. Within a few years the name of Lima took its place. Artist unknown.",
+              "filename": "FOUNDING_LIMA_2.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "An engraving of Lima city. Artist: Poma de Ayala.",
+              "filename": "LIMA_POMA.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "1846 painting of Lima Cathedral. Artist: unknown.",
+              "filename": "LIMA_CATHEDRAL_1846.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "The Marquess Pizarro hears rumors of his assassination but does not believe them. Artist: Lima de Freitas.",
+              "filename": "FRANCISCO_IN_LIMA_OFFICE_DE_FREITAS.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "On Sunday, 26 June of 1541, the followers of Almagro the Lad charge through the Lima streets on their way to kill the Marquess. Artist: Edward Bawden.",
+              "filename": "DEATH_OF_EDWARD_BAWDEN.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The men of Chile exact their vengeance upon Francisco Pizarro at his home. Artist: Unknown.",
+              "filename": "DEATH_OF_PIZ_HERITAGE_HISTORY.gif",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "The tomb of Francisco Pizarro in a side chapel of the Lima Cathedral. Courtesy of GOPERU.",
+              "filename": "ACLAPRE_BOL_PIZ_TOMB_GOPERU.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Quizo and his warriors attack Francisco Pizarro and his men in the new city of Lima. Courtesy of LISTVERSE.",
+              "filename": "LIMA_SIEGE_LISTVERSE.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Quizo camped out on the hill of San Cristobal to avoid the maneuverability of the Spanish horses. Courtesy of Valladares.",
+              "filename": "LIMA_SAN_CRISTOBAL_VALLADARES.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "General Quizo is cornered by the Spanish and executed. Courtesy of Wiki.",
+              "filename": "LIMA_QUIZO_DEATH.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "We visited the Pachacamac ruins on the outskirts of Lima. This is one of the restored structures. Pachacamac, or Earth Maker, was considered the creator god by the ancient peoples who lived here. Courtesy of ELCOMERCIO.",
+              "filename": "BOL_PACHA_ELCOMERCIO.jpeg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "The Pachacamac site was first occupied around 200 AD and the civilization fell in the 1400's. Courtesy of Rove.",
+              "filename": "BOL_PACHA_ROVE.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "More Pachacamac ruins. Courtesy of TravelPeru.",
+              "filename": "BOL_PACHA_TRAVELPERU.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "This is the inner courtyard of the Hotel Monasterio where we stayed in Cuzco. Courtesy of the hotel.",
+              "filename": "1HOTELMONAS2.png",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "This is the plastic map of the Sacred Valley that we were given when we checked in at the Hotel Monasterio. R. Villarreal Collection.",
+              "filename": "1HOTELMONAS.jpeg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Cuzco, Peru. The Plaza de Armas is at the center in the photo. The present day buildings around the square have the old Inca structures for their foundations. The Almagro Expedition departed the city for Chile on July 3, 1535.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Map of Cusco by E. George Squier. R. Villarreal Collection.",
+              "filename": "4CUSCOSQUIER.jpeg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "A view of Cusco below from Fortress Sacsayhuaman above. Courtesy of PERUSUMMIT.",
+              "filename": "BOL_CUSCO_FROM_SACSAY_PERU_SUMMIT_1.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The Plaza de Armas with the statue of Inca Pachacuti in the forefront and the Iglesia de Companía de Jesús behind. Courtesy of PERUTRAVEL.",
+              "filename": "BOL_CUSCO_PACHACUTI_PERU_TRAVEL_2.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "The distinctive street of Hatun Rumiyoc. Courtesy of GOPERU.",
+              "filename": "BOL_CUSCO_HATUNRUMIYOC_3.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "Room at the Hotel Loreto where we stayed when we adopted our daughter in 1978. It occupies part of the structure known as the House of the Virgins of the Sun and was built during the reign of Inca Pachacuti (1438-1471). The walls are made of square stones of polished grey granite. ",
+              "filename": "BOL_CUSCO_HOTEL_LORETO_4.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Another room interior at the Hotel Loreto.",
+              "filename": "bol_cusco_loreto_4+1.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "1888 wood engraving of a Cuzco street scene. Publisher: Harper &amp; Brothers. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "A modern street scene today, this the alley of Hatun Rumiyoq. <span class=\\\"attribution\\\">Courtesy Odyssei.</span>",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "The city of Cuzco. Original 1875 Engraving by Edouard Riou. Scribner, Armstrong, Co. Publisher. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "Cuzco street scene in 1978.  Some of these buildings pre-date the Conquest and are the original Inca structures. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "Street scene in Cuzco from a hotel balcony in 1989.  These buildings haven't changed since the Conquest.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "Antique print, titled “A Bird’s Eye View of Cusco, a City in Peru and the Principal City of the Region and Province of the Same Name.”  This engraving originates from Sebastian Munster’s “Cosmographia, Beschreibung aller Lender”.  It is from the 1592 German edition, published in Basel by Henrichum Petri.  Munster, a German cartographer, cosmographer, and Christian scholar  is best known for “Cosmographia”, the earliest German description of the world, in six parts.   <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image8.jpg",
+              "collapse-caption": true,
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "Inca Temple of the Sun in Cuzco.  1994.  The Temple was used by the Incas at the time of, and before, the Conquest.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "Rustic street scene in Cuzco in 2000.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "Cusco, Peru.  From: 'De Nieuwe en Onbekende Weereld: of beschryving van America en 't Zuid-Land.', by Arnoldus Montanus, published in Amsterdam by Jacob van Meurs in 1671. (The New and Unknown World: or Description of America and the Southland, Containing the Origin of the Americans and South-landers, remarkable voyages thither, Quality of the Shores, Islands, Cities, Fortresses, Towns, Temples, Mountains, Sources, Rivers, Houses, the nature of Beasts, Trees, Plants and foreign Crops, Religion and Manners, Miraculous Occurrences, Old and New Wars: Adorned with Illustrations drawn from the life in America, and described by Arnoldus Montanus). The book was translated and published in England by the editor and map publisher John Ogilby under the title, America, Being an Accurate Description of the New World (1671). Ref: In the late 1630s, Holland attempted to reassert its claim over Brazil by establishing a series of forts along the coastline. One of the best-documented colonies was the expedition led by Prince Maurits of Nassau, who attempted to assemble an intellectual court in the New World. He brought with him a group of highly accomplished artists, mapmakers, and scientists to record the mysteries of Brazil. They included the celebrated painter Frans Post, and the astronomer George Markgraf, who produced the first serious study of the southern sky. Artists and Engravers: Some references mention Bernard Picart as the engraver. We have not been able to verify this. Bernard Picart (1673-1733) was a French painter and engraver. Author: Arnoldus Montanus (c.1625–1683) was a Dutch teacher and author. He published books on theology, history, and geography.  Original 1671 engraving.  <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "An overhead view of Fortress Sacsayhuaman by E. George Squier.",
+              "filename": "BOL_SACSAY_OVERHEAD_SQUIER_5.jpeg",
+              "attribution": "",
+              "label": "32"
+            }
+          ],
+          [
+            {
+              "caption": "The Inca fortress of Sacsayhuaman sits on a hill on the northern border of Cusco. The Spanish, in a furious battle over several days, were finally able to overcome General Quizquiz and his warriors and take possession of it. R. Villarreal Collection.",
+              "filename": "CUSCO_SACSAYHUAMAN_PIC.jpg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "This is the site of the water tower, the Muyumarca, which was located inside the Fortress. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DELSO_3.jpg",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "caption": "The serrated northeastern walls of Sacsayhuaman. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DIEGO_DELSO_2.JPG",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "caption": "Massive Fortress wall stones. R. Villarreal Collection.",
+              "filename": "MANCO_SACSAY_STONES_MINE.jpeg",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "caption": "The northern wall of the Citadel. Courtesy of Diego Delso.",
+              "filename": "MANCO_SACSAY_DIEGO_DELSO.jpg",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "caption": "Another view of the northeastern walls of the Fortress. R. Villarreal Collection.",
+              "filename": "SACSAY_MINE_1.jpeg",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "caption": "View of the walls near the water tower. R. Villarreal Collection.",
+              "filename": "SACSAY_MINE_2.jpeg",
+              "attribution": "",
+              "label": "39"
+            },
+            {
+              "caption": "A look down upon Pisac, with its inca stone ruins on the hillsides. Courtesy of GOPERU.",
+              "filename": "BOL_PISAC_GO_PERU_6.jpg",
+              "attribution": "",
+              "label": "40"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of Pisac and its ruins. Courtesy of PERUTRAVEL.",
+              "filename": "BOL_PISAC_RUINS_AND_TOWN_PERUTRAVEL_7.jpg",
+              "attribution": "",
+              "label": "41"
+            },
+            {
+              "caption": "More of the Pisac ruins. Courtesy of COMMONSWIKI.",
+              "filename": "BOL_PISAC_RUINS_COMMONSWIKI_8.jpg",
+              "attribution": "",
+              "label": "42"
+            },
+            {
+              "caption": "Pisac ruins. Courtesy of Diego Rivas.",
+              "filename": "BOL_PISAC_RUINS_DIEGO_RIVAS_9.jpg",
+              "attribution": "",
+              "label": "43"
+            },
+            {
+              "caption": "Pisac terraces. Courtesy of AUDLEYTRAVEL.",
+              "filename": "BOL_PISAC_TERRACES_AUDLEYTRAVEL_11.jpg",
+              "attribution": "",
+              "label": "44"
+            }
+          ],
+          [
+            {
+              "caption": "The Pisac Intihuatana. Courtesy of PERUTRAVEL.",
+              "filename": "BOL_PISAC_INTI_PERUTRAVEL.jpg",
+              "attribution": "",
+              "label": "45"
+            },
+            {
+              "caption": "Our guide, Steven, and I at the Chinchero market. R. Villarreal Collection.",
+              "filename": "BOL_CHINCHERO_ME_AND_GUIDE.jpeg",
+              "attribution": "",
+              "label": "46"
+            },
+            {
+              "caption": "A Quechua lady selling trinkets at the Chinchero market. Courtesy of MARKLADY TREKKERS.",
+              "filename": "BOL_CHINCHER_MARKLADY_TREKKERS_13.jpg",
+              "attribution": "",
+              "label": "47"
+            },
+            {
+              "caption": "The Albergue Hotel. Courtesy of PeruRail.",
+              "filename": "BOL_Albergue-Ollantaytambo-51.jpg",
+              "attribution": "",
+              "label": "48"
+            }
+          ],
+          [
+            {
+              "caption": "The Quechua town of Ollantaytambo, the home of the Citadel Ollantaytambo Inca ruins. Courtesy of WIKI.",
+              "filename": "BOL_OLLAN_TOWN_WIKI_14.jpg",
+              "attribution": "",
+              "label": "49"
+            },
+            {
+              "caption": "An Ollantaytambo village street. Courtesy of EDIAS.",
+              "filename": "BOL_ollan_town_2_edias_15.jpg",
+              "attribution": "",
+              "label": "50"
+            },
+            {
+              "caption": "A stream flows through Ollantaytambo. Courtesy of WIKICOMMONS.",
+              "filename": "BOL_OLLAN_STREET_STREAM_WIKICOMMONS_16.jpg",
+              "attribution": "",
+              "label": "51"
+            },
+            {
+              "caption": "Ollantaytambo and some of the Citadel ruins. Courtesy of INTREPIDSCOUT.",
+              "filename": "BOL_OLAN_TOWN_AND_TERRACES_INTREPIDSCOUT_17.jpg",
+              "attribution": "",
+              "label": "52"
+            }
+          ],
+          [
+            {
+              "caption": "The Citadel was an imposing collection of forts and storage areas. The steepness of the numerous walls of the several valleys made attacks by the Christians difficult to effect. Courtesy of Wiki.",
+              "filename": "OLLAN_2_WIKI.jpg",
+              "attribution": "",
+              "label": "53"
+            },
+            {
+              "caption": "One of the several forts within the boundaries of the Citadel. R. Villarreal Collection.",
+              "filename": "OLLAN_FORT_MINE.jpeg",
+              "attribution": "",
+              "label": "54"
+            },
+            {
+              "caption": "A row of stairs within the Citadel. R. Villarreal Collection.",
+              "filename": "OLLAN_MORE_STAIRS_MINE.jpeg",
+              "attribution": "",
+              "label": "55"
+            },
+            {
+              "caption": "Strange structures on the hill side. Courtesy of TicketMachu.",
+              "filename": "OLLAN_4_TICKETMACHU.jpg",
+              "attribution": "",
+              "label": "56"
+            }
+          ],
+          [
+            {
+              "caption": "Terraces and stairwells seen from above. R. Villarreal Collection.",
+              "filename": "OLLAN_1_MINE.jpg",
+              "attribution": "",
+              "label": "57"
+            },
+            {
+              "caption": "Another stairwell. R. Villarreal Collection.",
+              "filename": "OLLAN_STAIRS_MINE.jpeg",
+              "attribution": "",
+              "label": "58"
+            },
+            {
+              "caption": "La Paz, with Illimani in the distance (1991).",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "59"
+            },
+            {
+              "caption": "1931 original photogravure by Atlantis-Verlag of La Paz, with Illimani in the distance. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image2-2.jpg",
+              "attribution": "",
+              "label": "60"
+            }
+          ],
+          [
+            {
+              "caption": "Map of the important ruins of Tiwanaku. It is on the back of the entrance ticket!",
+              "filename": "BOL_TIA_MAP_ON_TICKET.jpg",
+              "attribution": "",
+              "label": "61"
+            },
+            {
+              "caption": "The Tiwanaku (or Tiahuanaco) complex, looking north. Tiahuanaco is a Pre-Colombian archaeological site in western Bolivia. It was the capital of an empire that extended into present-day Peru and Chile, flourishing from AD 300 to AD 1000. The temple complex of Kalasasaya is in the center of the scene. The following pictures show much of the present-day site.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "62"
+            },
+            {
+              "caption": "Staircase and entrance door of the Kalasasaya Temple.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "63"
+            },
+            {
+              "caption": "Interior walls of the Semi-subterranean Temple with the \\\"embedded heads\\\" on its walls.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "64"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of the Semi-subterranean Temple courtyard.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "65"
+            },
+            {
+              "caption": "The Ponce monolith in the Kalasasaya complex.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "66"
+            },
+            {
+              "caption": "The Gateway of the Sun. It stands 10 feet high and 13 feet wide.",
+              "filename": "BOL_TIA_GATEWAY.jpg",
+              "attribution": "",
+              "label": "67"
+            },
+            {
+              "caption": "A wall decoration of a small god. Courtesy of Viator.",
+              "filename": "TIWA_VIATOR.jpg",
+              "attribution": "",
+              "label": "68"
+            }
+          ],
+          [
+            {
+              "caption": "The Gateway God and the images that surround him. Drawing by E. George Squier.",
+              "filename": "BOL_TIWA_GOD_ON_GATE.jpeg",
+              "attribution": "",
+              "label": "69"
+            },
+            {
+              "caption": "Condor-headed figure next to the Gateway God. Drawing by Squier.",
+              "filename": "BOL_TIA_FIG_ON_GATE.bmp",
+              "attribution": "",
+              "label": "70"
+            },
+            {
+              "caption": "A large courtyard with the Kalasasaya temple behind it. Courtesy of TRAVELPLEASE.",
+              "filename": "TIWA_TRAVELPLEASE.jpg",
+              "attribution": "",
+              "label": "71"
+            },
+            {
+              "caption": "A large bug-eyed stone monolith. Courtesy of LENSTALES.",
+              "filename": "TIWA_LENSTALES.jpg",
+              "attribution": "",
+              "label": "72"
+            }
+          ],
+          [
+            {
+              "caption": "Another large courtyard with room foundations inside. Courtesy of FREEPIC.",
+              "filename": "TIWA_FREEPIC.jpg",
+              "attribution": "",
+              "label": "73"
+            },
+            {
+              "caption": "Etching of a ruin in Tiwanaku by E. George Squier.",
+              "filename": "ATIWA1.jpeg",
+              "attribution": "",
+              "label": "74"
+            },
+            {
+              "caption": "Etching of Tiwanaku ruin by E. George Squier.",
+              "filename": "ATIWA2.bmp",
+              "attribution": "",
+              "label": "75"
+            },
+            {
+              "caption": "Ruins by E. George Squier.",
+              "filename": "ATIWA3.bmp",
+              "attribution": "",
+              "label": "76"
+            }
+          ],
+          [
+            {
+              "caption": "Etching by E. George Squier.",
+              "filename": "ATIWA4.bmp",
+              "attribution": "",
+              "label": "77"
+            },
+            {
+              "caption": "A map of the Sacred Island of Titicaca. Courtesy of Isla Travel.",
+              "filename": "BOL_ISLA_DEL_SOL_MAP_1.jpg",
+              "attribution": "",
+              "label": "78"
+            },
+            {
+              "caption": "We disembarked at the small port of Challapampa to begin the tour of the Sacred Island. Courtesy of Tobi H.",
+              "filename": "BOL_ISLA_CHALLAPAMPA_TOBI_H_2.jpg",
+              "attribution": "",
+              "label": "79"
+            },
+            {
+              "caption": "The Luna Temple. Courtesy of TROVER.",
+              "filename": "BOL_ISLA_LUNA_TEMPLE_TROVER_3.jpg",
+              "attribution": "",
+              "label": "80"
+            }
+          ],
+          [
+            {
+              "caption": "Etching of the Temple of the Sun on the Sacred Island of Titicaca, also called Isla del Sol. Artist: E. George Squier.",
+              "filename": "ACLAPRE_BOL_TITI_SOL_1.jpg",
+              "attribution": "",
+              "label": "81"
+            },
+            {
+              "caption": "Dwellings amid ruins of the Sacred Island. Courtesy of IslaTravel.",
+              "filename": "aclapre_bol_titi_sol_2.jpg",
+              "attribution": "",
+              "label": "82"
+            },
+            {
+              "caption": "More ruins on the Sacred Island. Courtesy of IslaTravel.",
+              "filename": "aclapre_bol_titi_sol_3.jpg",
+              "attribution": "",
+              "label": "83"
+            },
+            {
+              "caption": "The Sacred Rock, from which Manco Cap&aacute;c had emerged, followed by the Inti. Courtesy of Nambo.",
+              "filename": "aclapre_bol_titi_sol_sacred_4.jpg",
+              "attribution": "",
+              "label": "84"
+            }
+          ],
+          [
+            {
+              "caption": "A Fighting Cholita team gathers before the matches. Courtesy of Panacho.",
+              "filename": "BOL_PAZ_CHOLITAS_1.jpg",
+              "attribution": "",
+              "label": "85"
+            },
+            {
+              "caption": "Two Fighting Cholitas in action. Courtesy of Panacho.",
+              "filename": "BOL_PAZ_FIGHTINGCHOLITAS.jpg",
+              "attribution": "",
+              "label": "86"
+            },
+            {
+              "caption": "Several stores at the Witches Market. Courtesy of Aesha.",
+              "filename": "BOL_PAZ_WICH_MARK.jpg",
+              "attribution": "",
+              "label": "87"
+            },
+            {
+              "caption": "Our llama arrieros load the animals for the hike into Condoriri and Pequeno Alpamayo.",
+              "filename": "image2-3.jpg",
+              "attribution": "",
+              "label": "88"
+            }
+          ],
+          [
+            {
+              "caption": "Earth image of Condoriri, Peque&ntilde;o Alpamayo, and Huayna Potosi locations.",
+              "filename": "ACLAPRE_CONDO_ALPA_POTO_GOOG.jpg",
+              "attribution": "",
+              "label": "89"
+            },
+            {
+              "caption": "This is another picture of the arrieros loading the llamas with our gear. Nina is in the middle of the photo behind the llama she is holding around the neck. R. Villarreal Collection.",
+              "filename": "BOL_NINA.jpeg",
+              "attribution": "",
+              "label": "90"
+            },
+            {
+              "caption": "We camped on the western shore of Laguna Tuni. On the eastern shore two miles away was the village of Tuni with 300 inhabitants. Courtesy of HOROWITZ.",
+              "filename": "BOL_CONDO_TUNI_TOWN_HOROWITZ_1.jpg",
+              "attribution": "",
+              "label": "91"
+            },
+            {
+              "caption": "Condoriri (18,530 feet). Since I was sick the first several days on this expedition, I did not attempt this peak. Two did though and our guide got them to the top of its distinctive summit. Courtesy of Wikipedia.",
+              "filename": "ACLAPRE_CONDORIRI_WIKIPEDIA.jpg",
+              "attribution": "",
+              "label": "92"
+            }
+          ],
+          [
+            {
+              "caption": "The view east of Condoriri from the Laguna Chiar Khota, our base camp. R. Villarreal Collection.",
+              "filename": "BOL_CONDO_MINE.jpeg",
+              "attribution": "",
+              "label": "93"
+            },
+            {
+              "caption": "The Laguna Chiar Khota as we climb up towards Peque&ntildeo Alpamayo. R. Villarreal Collection.",
+              "filename": "BOL_CONDO_LAGO_BELOW_MINE.jpg",
+              "attribution": "",
+              "label": "94"
+            },
+            {
+              "caption": "On the way to Alpamayo.",
+              "filename": "image2-4.jpg",
+              "attribution": "",
+              "label": "95"
+            },
+            {
+              "caption": "Pequeno Alpamayo (<span class=\\\"height\\\">17,558', 5352 m</span>).",
+              "filename": "image2-5.jpg",
+              "attribution": "",
+              "label": "96"
+            }
+          ],
+          [
+            {
+              "caption": "A view to the west.",
+              "filename": "image2-6.jpg",
+              "attribution": "",
+              "label": "97"
+            },
+            {
+              "caption": "Another look to the side as we front point up Peque&ntilde;o Alpamayo to the summit. R. Villarreal Collection.",
+              "filename": "BOL_ALPA_MINE_3.jpg",
+              "attribution": "",
+              "label": "98"
+            },
+            {
+              "caption": "A look down the Alpamayo ridge on the way to the summit. R. Villarreal Collection.",
+              "filename": "BOL_ALPAMAYO_MINE_4.jpeg",
+              "attribution": "",
+              "label": "99"
+            },
+            {
+              "caption": "We inch our way up.",
+              "filename": "image2-7.jpg",
+              "attribution": "",
+              "label": "100"
+            }
+          ],
+          [
+            {
+              "caption": "On the top.",
+              "filename": "image2-8.jpg",
+              "attribution": "",
+              "label": "101"
+            },
+            {
+              "caption": "On the summit of Peque&ntilde;o Alpamayo with a fellow climber, Martinelli. R. Villarreal Collection.",
+              "filename": "image2-9.jpg",
+              "attribution": "",
+              "label": "102"
+            },
+            {
+              "caption": "Huayna Potos&iacute;, as seen from El Alto fourteen miles to the south. Courtesy of Cooper.",
+              "filename": "BOL_HUAYNA_FROM_ALTO_COOPER_1.jpg",
+              "attribution": "",
+              "label": "103"
+            },
+            {
+              "caption": "The east face of Huayna Potos&iacute; from the southeast. The traverse of the face begins at the snow covered south ridge and ends at the rock exposed north ridge that goes west to the summit. Courtesy of Pinterest.",
+              "filename": "BOL_HUAYNA_POTOSI_FACE_PINTEREST_2.jpg",
+              "attribution": "",
+              "label": "104"
+            }
+          ],
+          [
+            {
+              "caption": "The Zongo Pass Refugio on the shore of the reservoir. Courtesy of Daspe Travel.",
+              "filename": "BOL_HUAYNA_POTOSI_HOTEL_DASPE_TRAVEL_3.jpg",
+              "attribution": "",
+              "label": "105"
+            },
+            {
+              "caption": "Earth image of the east face. The traverse across the face starts at around 18,400 feet, where the marker is, and proceeds to the snow covered summit ridge that goes to the summit.",
+              "filename": "BOL_HUAYPOTO_EAST_FACE_GOOG_4.jpg",
+              "attribution": "",
+              "label": "106"
+            },
+            {
+              "caption": "Cerro Huayna Potosi (<span class=\\\"height\\\">19,968', 6086 m</span>).",
+              "filename": "image2-10.jpg",
+              "attribution": "",
+              "label": "107"
+            },
+            {
+              "caption": "One rope team nears the summit, out of sight to the right.",
+              "filename": "image2-11.jpg",
+              "attribution": "",
+              "label": "108"
+            }
+          ],
+          [
+            {
+              "caption": "The view east to the western slopes of Illimani (the \\\"Golden Eagle\\\") 25 miles away with La Paz below. Courtesy of wikicommons.",
+              "filename": "BOL_ILLI_AND_LAPAZ_WIKICOMMONS_1.jpg",
+              "attribution": "",
+              "label": "109"
+            },
+            {
+              "caption": "Another photo of La Paz with Illimani in the distance. R. Villarreal Collection.",
+              "filename": "BOL_ILLI_AND_PAZ_MINE_2.jpg",
+              "attribution": "",
+              "label": "110"
+            },
+            {
+              "caption": "Illimani and La Paz at night. Courtesy of Flickr.",
+              "filename": "BOL_ILLI_AT_NIGHT_FLICK_3.jpg",
+              "attribution": "",
+              "label": "111"
+            },
+            {
+              "caption": "The western side of Illimani. Courtesy of wikicommons.",
+              "filename": "BOL_ILLI_FROM_LA_PAZ_WIKI_4.jpg",
+              "attribution": "",
+              "label": "112"
+            }
+          ],
+          [
+            {
+              "caption": "La Paz and Illimani at night. R. Villarreal Collection.",
+              "filename": "BOL_LA_PZA_AT_NIGHT_5.jpg",
+              "attribution": "",
+              "label": "113"
+            },
+            {
+              "caption": "A busy La Paz street. Courtesy of LAPAZTRAVEL.",
+              "filename": "BOL_LA_PAZ_STREET_LAPAZTRAVEL_6.jpg",
+              "attribution": "",
+              "label": "114"
+            },
+            {
+              "caption": "Between La Paz and the Golden Eagle on the drive to the peak. R. Villarreal Collection.",
+              "filename": "BOL_ILLI_IN_DISTANCE_MINE_7.jpg",
+              "attribution": "",
+              "label": "115"
+            },
+            {
+              "caption": "A view of Palca Canyon between La Paz and Illimani. Courtesy of SUMMIT POST.",
+              "filename": "BOL_ILLI_PALCA_CANYON_SUMMIT_POST_8.png",
+              "attribution": "",
+              "label": "116"
+            }
+          ],
+          [
+            {
+              "caption": "The small village of Palca. Courtesy of Matt P.",
+              "filename": "BOL_ILLI_PALCA_MATT_P_9.jpg",
+              "attribution": "",
+              "label": "117"
+            },
+            {
+              "caption": "The village of Quilhuana six miles from the peak. Courtesy of RIVAMONTAN.",
+              "filename": "BOL_ILLI_QUILHUANA_RIVAMONTAN_10.jpg",
+              "attribution": "",
+              "label": "118"
+            },
+            {
+              "caption": "This shows Pinaya village, Puente Roco base camp, Nido de Condores camp, high camp, and the south summit of Illimani. Google Earth.",
+              "filename": "BOL_ILLI_APPROACHES_GOOG_11.jpg",
+              "attribution": "",
+              "label": "119"
+            },
+            {
+              "caption": "In the early 2000's, Bolivian cholitas began to porter the gear of climbers to base camp and Nido de Condores. Courtesy of D. Ricardo.",
+              "filename": "BOL_ILLI_PORTERS_CHOLITA_D._RICARDO_12.jpg",
+              "attribution": "",
+              "label": "120"
+            }
+          ],
+          [
+            {
+              "caption": "Cholitas carrying gear to the Nido camp. Courtesy of XPLORE.",
+              "filename": "BOL_ILLI_PORTERS_CHOLITAS_XPLORE_13.jpg",
+              "attribution": "",
+              "label": "121"
+            },
+            {
+              "caption": "We approach a small village on the way to Base Camp. Illimani in distance (<span class=\\\"height\\\">21,122', 6438 m</span>).",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "122"
+            },
+            {
+              "caption": "Above the little village.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "123"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "124"
+            }
+          ],
+          [
+            {
+              "caption": "We near Base Camp.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "125"
+            },
+            {
+              "caption": "On the summit.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "126"
+            },
+            {
+              "caption": "Our descent down the mountain.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "127"
+            },
+            {
+              "caption": "The view north to Mururata (18,490 feet). R. Villarreal Collection.",
+              "filename": "BOL_ILLI_LOOK_NORTH_MINE.jpeg",
+              "attribution": "",
+              "label": "128"
+            }
+          ],
+          [
+            {
+              "caption": "Our descent from high camp back to base. R. Villarreal Collection.",
+              "filename": "BOL_ILLI_RIDGE_ON_WAY_TO_BC.jpeg",
+              "attribution": "",
+              "label": "129"
+            },
+            {
+              "caption": "The Illimani climbing team. From the left: Alberto, Stan, Jennifer, John, me, and in front Jennifer's friend, Susan. R. Villarreal Collection.",
+              "filename": "BOL_ILLI_CLIMB_TEAM.jpeg",
+              "attribution": "",
+              "label": "130"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "The Expedition to Aconcagua in January, 1991.",
+        "shortname": "The Expedition to Aconcagua in January, 1991.",
+        "path": "A",
+        "filename": "../../../prelude/ikarus_data/galleries/argentina.yaml",
+        "label-prefix": "A",
+        "images_path": "images/climbing/galleries/A",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Looking west from Mendoza to the Andes some thirty-five miles away. Courtesy of TravelCo.",
+              "filename": "ACLAPRE_ARG_MENDOZA_CITY.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Downtown scene with trees lining the streets of the \\\"City of Trees.\\\" Courtesy of MendoCo.",
+              "filename": "aclapre_arg_mendoza_trees_wiki.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Some of the hundreds of thousands of acres of grapevines around the city. Mendoza is the wine capital of South America. Courtesy of MendoCo.",
+              "filename": "ACLAPRE_ARG_MENDOZA_WINE.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "This is the permission slip to climb Aconcagua that we received in Mendoza from the Parque Provincial Aconcagua. R. Villarreal Collection.",
+              "filename": "ACON_PERMISSION.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The Polvaredas abandoned train station of the Transandino Railway. Courtesy of Guerrero.",
+              "filename": "ACLAPRE_ARG_POLVA_STATION_GUERRERO.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Our hotel, the Puente del Inca Turismo y Aventura, in the ski resort of Los Penitentes. Courtesy of Aventura.",
+              "filename": "ACLAPRE_ARG_HOSTERIA_PENITENTES.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Cerro Penitentes. The ski resort of Los Penitentes is named after this peak, which lies two miles to the south. Courtesy of Wikiloc.",
+              "filename": "ARG_ACON_PENITENTES_WIKILOC.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "The Puente del Inca is a popular tourist attraction that goes back in time. Even Charles Darwin visited it in 1835, but wasn't impressed. Courtesy of Travel Argentina.",
+              "filename": "ACLAPRE_ARG_PUENTE_DEL_INCA.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "The abandoned train station at Puente del Inca. Courtesy of Tiracochi.",
+              "filename": "ACLAPRE_ARG_ANDINO_STATION_TIRABOCHI.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "This is the famous view of Aconcagua looking up the Horcones Valley from near Puente del Inca. Every tourist values it since most will never get closer to the peak than this. R. Villarreal Collection.",
+              "filename": "ARG_ACON_FROM_HORCON_MINE.jpeg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "The Casucha del Rey at Las Cuevas. Courtesy of G. Hernan.",
+              "filename": "ACLAPRE_ARG_CASUCHA_LAS_CUEVAS_G._HERNAN.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "The Cristo de Los Andes monument above Las Cuevas. Courtesy of Travel Argentina.",
+              "filename": "ACLAPRE_ARG_CRISTO_DE_LOS_ANDES.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "Original 1888 wood engraving of Aconcagua, artist unknown. The view is east. Aconcagua was first climbed in 1897 over the western walls by Matthias Zurbriggen, a member of the expedition led by E. A. Fitzgerald. Publisher: Harper & Brothers. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "An original 1913 half-tone print of Aconcagua. The view is east. Creator: G.P. Putnam's and Sons. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "The following Google Earth pictures depict the three day hike to the mountain and the route up the Polish Glacier, from there to the summit, and then the return to high camp. In this image, we leave RN 7 at Punta de Vacas (point of cows), begin the hike north up the Vacas Valley, and place the first camp at Pampas de las Le&ntilde;as (firewood).",
+              "filename": "ARG_VACAS_VALLEY_GOOG.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "On the second day, we reach the Casa de Piedra and make Camp 2. This is a look west up the Relinchos River Valley to Aconcagua. Google Earth.",
+              "filename": "ARG_RELINCHOS_VALLEY_GOOG.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "This shows base camp, the Plaza Argentine at 13,600 feet, and above it the site of our Camp I at 16,200 feet. Google Earth.",
+              "filename": "ARG_BASE_AND_CAMP_I_GOOG.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "This shows the location of our high camp at 19,000 feet at the foot of the Polish Glacier, the top of the Glacier, and the summit of Aconcagua. We descended down the Canaleta on the Normal Route to Plaza Independencia at 20,800 feet, and then traversed the eastern slopes down to our high camp at the foot of the Polish. Google Earth.",
+              "filename": "ARG_FOOT_OF_POLISH_TO_TOP_GOOG.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Bernardo, one of our arrieros, loads a mule at Punta de Vacas for the three day ride to the mountain. R. Villarreal Collection.",
+              "filename": "ARG_BERNARDO_AT_PUNTA.jpeg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "The mules at work up the Vacas Valley. R. Villarreal Collection.",
+              "filename": "ARG_ARRIEROS.jpeg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "At the trailhead of the Rio de las Vacas for the first day of the hike towards the peak.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "We cross the de las Vacas later the first day.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "This place, some seven miles up the Vacas Valley, is where we placed our first camp, Pampas de las Le&ntilde;as. R. Villarreal Collection.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "The barren landscape of the Vacas Valley. R. Villarreal Collection.",
+              "filename": "ACON_VACAS_1.jpeg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "The path up the Valley lies below mountain slabs on either side. R. Villarreal Collection.",
+              "filename": "ACON_VACAS_2.jpeg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "Nine miles up the Vacas Valley from Punta de Vacas we reach our camp at Las Le&ntilde;as. The stone hut is to the right. R. Villarreal Collection.",
+              "filename": "ACON_VACAS_3.jpeg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "A closer look at the Las Le&ntilde;as hut. Courtesy of Hobart.",
+              "filename": "ARG_ACON_LAS_LENAS_HOBART.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "In the afternoon of the second day, we reach Casa de Piedra for our second camp; Aconcagua is in the distance. The view is west.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "Our Camp at Casa de la Piedra. The first view of Aconcagua is from this point.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "A climber checks out the stone \\\"house.\\\" Courtesy of mza com ar.",
+              "filename": "image7.png",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "Hiking up the Relinchos Valley to Base Camp; Aconcagua on the left, Ameghino on the right. Notice that a puff of the Viento Blanco is blowing snow off the summit of Aconcagua. R. Villarreal Collection.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "More of the Relinchos Valley.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ],
+          [
+            {
+              "caption": "The Relinchos stream.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "Somewhere in the Relinchos Valley.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "caption": "Approaching Base Camp.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "caption": "Our Base Camp at <span class=\\\"height\\\">13,000' (4000 m)</span>.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "caption": "At the Plaza Argentine, Bernardo, one of our muleteers, in complete <i>arriero</i> garb, including the black cordovan hat.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "caption": "Our pack animals.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "caption": "A view of the Polish Glacier Direct from Base Camp above the Vacas River. The route goes straight up the Glacier and then follows the summit ridge to the summit. Courtesy of Grijalves.",
+              "filename": "ARG_ACON_PG_PIV_GRAJALES.jpg",
+              "attribution": "",
+              "label": "39"
+            },
+            {
+              "caption": "Above nieves penitentes on the way to Camp I.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "40"
+            }
+          ],
+          [
+            {
+              "caption": "Nieves penitentes are only found in the Andes between 23&deg; degrees 10' S and 33&deg; degrees 32' S. This penitentes field is on a slope to the west of Monte Pissis in Argentina. See Chapter 2 of \\\"Clawing for the Stars.\\\" R. Villarreal Collection.",
+              "filename": "ACON_PENITENT_1.jpg",
+              "attribution": "",
+              "label": "41"
+            },
+            {
+              "caption": "One of my clients on a climb of Tres Cruces in northern Chile stands below a nieves penitentes field. See Chapter 6 of \\\"Clawing for the Stars.\\\" R. Villarreal Collection.",
+              "filename": "ACON_PENITENT_2.jpg",
+              "attribution": "",
+              "label": "42"
+            },
+            {
+              "caption": "A client on Tres Cruces near another penitentes field. R. Villarreal Collection.",
+              "filename": "ACON_PENITENT_3.jpg",
+              "attribution": "",
+              "label": "43"
+            },
+            {
+              "caption": "A look down the Relinchos River Valley from just below Camp I.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "44"
+            }
+          ],
+          [
+            {
+              "caption": "Camp I.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "45"
+            },
+            {
+              "caption": "We hike up steep slopes above Camp 1 to our Camp 2 at the bottom of the Polish Glacier. R. Villarreal Collection.",
+              "filename": "ACON_2.jpeg",
+              "attribution": "",
+              "label": "46"
+            },
+            {
+              "caption": "The view up towards the Glacier and our Camp 2. R. Villarreal Collection.",
+              "filename": "ACON_3.jpeg",
+              "attribution": "",
+              "label": "47"
+            },
+            {
+              "caption": "A look down slope on the way to the Polish Glacier. R. Villarreal Collection.",
+              "filename": "ACON_4.jpeg",
+              "attribution": "",
+              "label": "48"
+            }
+          ],
+          [
+            {
+              "caption": "Looking up to the rock ridge at the bottom of the Glacier, which is behind it. R. Villarreal Collection.",
+              "filename": "ACON_5.jpeg",
+              "attribution": "",
+              "label": "49"
+            },
+            {
+              "caption": "The hike to Camp II at the foot of the Polish Glacier.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "50"
+            },
+            {
+              "caption": "Getting close.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "51"
+            },
+            {
+              "caption": "Camp II - taking a break.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "52"
+            }
+          ],
+          [
+            {
+              "caption": "More of Camp II.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "53"
+            },
+            {
+              "caption": "The view of Mercedario in the north.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "54"
+            },
+            {
+              "caption": "Another vista from Camp II.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "55"
+            },
+            {
+              "caption": "And another.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "56"
+            }
+          ],
+          [
+            {
+              "caption": "Looking up the impressive Polish Glacier; our route is in the ice and snow to the left.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "57"
+            },
+            {
+              "caption": "This is the left side of the Polish Glacier taken at its bottom on our rest day before going for the summit. R. Villarreal Collection.",
+              "filename": "ACON_POL_2.jpeg",
+              "attribution": "",
+              "label": "58"
+            },
+            {
+              "caption": "Another shot of the Polish Glacier. The next morning at 2 a.m. we left our camp for the ascent to the summit and had to climb over the ice ridge that appears above another ridge below it, a rather daunting task. R. Villarreal Collection.",
+              "filename": "ACON_POL_3.jpeg",
+              "attribution": "",
+              "label": "59"
+            },
+            {
+              "caption": "Storm clouds formed to the east at our Camp 2 at the bottom of the Polish Glacier at 9 p.m. R. Villarreal Collection.",
+              "filename": "ACON_STORM_1.jpeg",
+              "attribution": "",
+              "label": "60"
+            }
+          ],
+          [
+            {
+              "caption": "Although the storm seemed threatening, it dissipated during the night. R. Villarreal collection.",
+              "filename": "ACON_STORM_2.jpeg",
+              "attribution": "",
+              "label": "61"
+            },
+            {
+              "caption": "We left Camp II at 1 AM; here we are at the top of the Glacier looking down its expanse.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "62"
+            },
+            {
+              "caption": "The view east from the top of the Polish Glacier, a place called \\\"The Notch\\\", at 20,900 feet. Cerro Ameghino, at 19,500 feet, is the nearest peak. R. Villarreal Collection.",
+              "filename": "ACON_NOTCH_2.jpeg",
+              "attribution": "",
+              "label": "63"
+            },
+            {
+              "caption": "Another photo east from \\\"The Notch.\\\" R. Villarreal Collection.",
+              "filename": "ACON_NOTCH_3.jpeg",
+              "attribution": "",
+              "label": "64"
+            }
+          ],
+          [
+            {
+              "caption": "Matt enjoys the view at the top of the Polish Glacier. R. Villarreal Collection.",
+              "filename": "ACON_NOTCH_4.jpeg",
+              "attribution": "",
+              "label": "65"
+            },
+            {
+              "caption": "We leave our rest stop at the top of the Glacier and strike out for the summit; I'm the one behind the climber immediately in picture. Behind stretches the Relinchos Valley all the way to Casa de Piedra on the de las Vacas. This is one of the most highly sought-after photos of the route pioneered by the Poles in 1934 along their route up the eastern slopes of the great peak. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "66"
+            },
+            {
+              "caption": "Julie leads out from the \\\"Notch\\\" as we climb up the summit ridge. R. Villarreal Collection.",
+              "filename": "ARG_RIDGE_1.jpeg",
+              "attribution": "",
+              "label": "67"
+            },
+            {
+              "caption": "Our team heads upwards with me as the anchor. R. Villarreal Collection.",
+              "filename": "ARG_RIDGE_2.jpeg",
+              "attribution": "",
+              "label": "68"
+            }
+          ],
+          [
+            {
+              "caption": "Making steady progress.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "69"
+            },
+            {
+              "caption": "One of the team has an upset stomach.",
+              "filename": "image33.jpg",
+              "attribution": "",
+              "label": "70"
+            },
+            {
+              "caption": "We keep moving higher.",
+              "filename": "image34.jpg",
+              "attribution": "",
+              "label": "71"
+            },
+            {
+              "caption": "The view to the southwest.",
+              "filename": "image35.jpg",
+              "attribution": "",
+              "label": "72"
+            }
+          ],
+          [
+            {
+              "caption": "As we approach the summit, a look back down the ridge of our ascent. The rock pinnacles seen in <a href=\\\"#\\\" id=\\\"image26link\\\" onclick=\\\"setOverlayImageFromImage(gallery[66].cloneNode()); event.stopPropagation();\\\">A.67</a> are just to the left and below the end of the ice ridge. Farther to the left, the Relinchos Valley is in the near distance, with the de las Vacas river in the far distance.",
+              "filename": "image36.jpg",
+              "attribution": "",
+              "label": "73"
+            },
+            {
+              "caption": "A rest stop near the summit.",
+              "filename": "image37.jpg",
+              "attribution": "",
+              "label": "74"
+            },
+            {
+              "caption": "Cerro Mercedario (<span class=\\\"height\\\">22,047', 6720 m</span>), looking north, from high on Aconcagua.",
+              "filename": "image38.jpg",
+              "attribution": "",
+              "label": "75"
+            },
+            {
+              "caption": "We're there! I'm on the left.<br /><span class=\\\"height\\\">22,834' (6960 m)</span>",
+              "filename": "image39.jpg",
+              "attribution": "",
+              "label": "76"
+            }
+          ],
+          [
+            {
+              "caption": "Team photo on the summit.",
+              "filename": "image40.jpg",
+              "attribution": "",
+              "label": "77"
+            },
+            {
+              "caption": "The Aconcagua summit cross with the south summit ridge behind it. Courtesy of Tor Lundgren",
+              "filename": "ARG_ACON_CROSS.jpg",
+              "attribution": "",
+              "label": "78"
+            },
+            {
+              "caption": "We descend by way of the Canaleta on the western slopes. A thousand feet lower we traverse around the northern slopes to the eastern side for the return back to Base.",
+              "filename": "image41.jpg",
+              "attribution": "",
+              "label": "79"
+            },
+            {
+              "caption": "Another look down the Canaleta, the \\\"chute\\\" in Spanish. Eight hundred feet from top to bottom, it's difficult and dangerous going down as it is going up. Fortunately, there was no wind. R. Villarreal Collection.",
+              "filename": "ACLAPRE_ARG_CANA_DOWN_MINE.jpeg",
+              "attribution": "",
+              "label": "80"
+            }
+          ],
+          [
+            {
+              "caption": "Half-way down the Canaleta, a look back up to the summit. R. Villarreal Collection.",
+              "filename": "ACLAPRE_ARG_CANA_UP_MINE.jpeg",
+              "attribution": "",
+              "label": "81"
+            },
+            {
+              "caption": "This is the Gran Acarreo (the big haul) that links the Independencia hut with the Canaleta. Courtesy of MOUNTAIN TRAVEL.",
+              "filename": "ARG_ACON_GRAN_ACARREO.jpg",
+              "attribution": "",
+              "label": "82"
+            },
+            {
+              "caption": "This is the shattered hut of Independencia at just under 21,000 feet that lies at the bottom of the Gran Acarreo. Courtesy of MOUNTAINSOFT.",
+              "filename": "ARG_INDEPENDENCIA_MOUNTAINSOFT.jpg",
+              "attribution": "",
+              "label": "83"
+            },
+            {
+              "caption": "To prevent my frostbitten toes from becoming wet, my friends carry me across the Rio de las Vacas.",
+              "filename": "image42.jpg",
+              "attribution": "",
+              "label": "84"
+            }
+          ],
+          [
+            {
+              "caption": "A rest stop on the Vacas River on the way back to Punta de Vacas. R. Villarreal Collection.",
+              "filename": "image13.png",
+              "attribution": "",
+              "label": "85"
+            },
+            {
+              "caption": "Group shot back at Puente del Inca. Though my right toes and fingers were frostbitten, the climb was worth it.",
+              "filename": "image43.jpg",
+              "attribution": "",
+              "label": "86"
+            },
+            {
+              "caption": "Since we had climbed Aconcagua two days sooner than planned due to the favorable weather, and because I had to return home so a doctor could treat my frostbite, David, Ted, and I boarded the Mendoza to Santiago bus at Puente del Inca. Several miles west, the road dropped downwards in a series of twenty-nine switchbacks, called the Los Caracoles (The Snails), from 9,425 feet at Portillo, Chile to 7,340 feet at El Juncal, Chile. And the entire time there must have been at least twenty condors flying above us. What a ride!",
+              "filename": "ARG_CARACOLES.jpg",
+              "attribution": "",
+              "label": "87"
+            },
+            {
+              "caption": "This is the letter that the doctor on our team wrote about my condition. With it I was able to get an airline seat prior to my ticket date so I could get home and receive medical care for my frostbite. R. Villarreal Collection.",
+              "filename": "1FROSTBITE_LTR.jpeg",
+              "attribution": "",
+              "label": "88"
+            }
+          ],
+          [
+            {
+              "caption": "On our way to Santiago by bus so I can catch an early flight back home, we saw Santiago wrapped in smog similar to this picture. Santiago is one of the most smog shrouded cities in the world. And this picture was taken on one of the least polluted days! Courtesy of B. Berry.",
+              "filename": "SANTIAGO_SMOG_B_Berry.jpg",
+              "attribution": "",
+              "label": "89"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "volume": true
+  },
+  {
+    "name": "Clawing for the Stars",
+    "shortname": "prelude",
+    "galleries": [
+      {
+        "name": "Chapter 1 | Nevado Ojos del Salado, Chile: Ghosts of the <i>Conquistadors</i>",
+        "shortname": "Chapter 1 - Ojos del Salado",
+        "path": "1",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter1.yaml",
+        "label-prefix": "1",
+        "images_path": "images/climbing/galleries/1",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "General Orientation map showing peaks chronicled in Clawing for the Stars: A Solo Climber in the Highest Andes.",
+              "filename": "image1.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "This map shows many of the peaks and other places of interest mentioned in the chapters. Ojos del Salado is south of the Great Plateau on the border with Argentina.",
+              "filename": "image2.png",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Giancarlo at the rear of his truck with James on the roof.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "The scene from the Pass, with Laguna Santa Rosa below and Tres Cruces in the distance.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The Santa Rosa Refugio with Giancarlo's Land Cruiser alongside.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Giancarlo on the way into the old Carabinero Station, which has been relocated to the shores of Laguna Verde since this photo was taken in 1992.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Our Base Camp at <span class=\\\"height\\\">14,800' (4510 m)</span>; in the distance, El Muerto (<span class=\\\"height\\\">21,286', 6488 m</span>) is on the left and Ojos on the right.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "A storm buries Ojos. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            }
+          ],
+          [
+            {
+              "caption": "Early morning scene with the moon still visible.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "On the road to the Atacama Refugio.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Refugio Atacama (<span class=\\\"height\\\">16,730', 5100 m</span>). Although it looks quite spartan, it's actually quite comfortable.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "A stream fed by snowfields higher on the mountain flows by Atacama.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "The road leading to Refugio Tejos (<span class=\\\"height\\\">18,860', 5750 m</span>). It's hard to believe a road exists this high.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "Another shot of the road.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "On the way to the Tejos Refugio with the Atacama far below. A road this high is unheard of! <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "imageA2.jpg",
+              "label": "A2",
+              "attribution": ""
+            },
+            {
+              "caption": "The Refugio is right behind me. The imposing northern face of Ojos del Salado (<span class=\\\"height\\\">22,609', 6891 m</span>).",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            }
+          ],
+          [
+            {
+              "caption": "Another view from Tejos.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Another view. The sphinx-like paw of the First Step is partially in view. One may discern the other four steps above proceeding towards the summit. I placed my camp above Tejos on the First Step.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "caption": "My First Step camp.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Another shot; El Muerto in the distance.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "caption": "View of El Muerto from the Third Step.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Looking back down the Steps.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "Another view: the First Step quite a ways down.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "On top of the Fifth Step looking over at El Muerto (<span class=\\\"height\\\">21,247', 6476 m</span>). El Fraile (<span class=\\\"height\\\">19,614', 5978 m</span>) is in the mid-distance with Incahuasi (<span class=\\\"height\\\">21,651', 6599 m</span>) farther on. Summit is behind me and a little higher.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            }
+          ],
+          [
+            {
+              "caption": "View from the summit looking south/southwest. In the near distance on the right is Cazadero (aka Walter Penck). At <span class=\\\"height\\\">21,838' (6656 m)</span> it is the ninth highest peak. Farther on to the left is the darkened mass of Nacimiento (<span class=\\\"height\\\">21,126', 6439 m</span>). In the far distance is Pissis (<span class=\\\"height\\\">22,287', 6793 m</span>), the third highest peak.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "From the summit: Tres Cruces rises in the west, with Central on the left and Sur on the right.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "caption": "James signs the summit register. This wasn't exactly his best side!",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "Looking into the mouth of the summit crater.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            }
+          ],
+          [
+            {
+              "caption": "Self photo after James leaves.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "We descend by way of the massive north face; the Tejos refugio is barely visible far below.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "A magnificent sunset from our Base Camp.",
+              "filename": "image29.png",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "We depart the Ojos region on the return to Copiapo. Barrancas Blancas on the right, Ojos del Salado in the center, and El Muerto to the left. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 2 | Monte Pissis, Argentina: High Winds from Tartarus",
+        "shortname": "Chapter 2 - Pissis",
+        "path": "2",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter2.yaml",
+        "label-prefix": "2",
+        "images_path": "images/climbing/galleries/2",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Map showing location of Pissis. The Great Plateau is approximately twenty-five miles north from Laguna Negro Francisco.",
+              "filename": "image1.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "March 1994: My first visit to Pissis (Chap. 2). We spend the first night here, the Refugio at Laguna Negro Francisco.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "A <em>bofedal</em> near Refugio Negro Francisco.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Giancarlo's friends plot out how to get to the peak.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Looking north from Laguna Negro Francisco to Cerro Copiapo as a storm moves in from the west (from the left in the photo).",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The pyramid marking Valle Ancho Pass.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Somewhere on the way. Giancarlo on right.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "My Base Camp at <span class=\\\"height\\\">15,900' (4850 m)</span>. This is high for Base. It snowed the morning after Giancarlo and his friends left.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "This is the view north. What if it snows near to my pick up day?",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Self photo in nieves penitentes field on the way to Camp I.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Another penitentes field.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Camp I at <span class=\\\"height\\\">17,600' (5360 m)</span>.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "More penitentes on way to Camp II.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Camp II at <span class=\\\"height\\\">17,900' (5460 m)</span>. In the east is Pissis; the broad ice field prevents access.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Another view of the western walls of Pissis.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Bonete Chico (<span class=\\\"height\\\">22,169', 6757 m</span>) is in the distance.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of the scene; the subsidiary peak on the right is where I placed Camp.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "More of the ice field.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "And here it is at <span class=\\\"height\\\">18,900' (5760 m)</span>, looking north. Literally minutes after I took the picture, the wind storm struck.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "On top of the subsidiary peak, a look down on the ice field and a look over at Pissis.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "And more.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "The western walls once more.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Alpenglow brightens the western walls of Pissis. Taken from atop the subsidiary summit.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "After Giancarlo and his friends picked me up on the western side, they took me around to the eastern side. This is the site of my Base Camp, at <span class=\\\"height\\\">16,000' (4900 m)</span>. The normal route on Pissis follows the left side of the glacier.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "More of the eastern side.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "My Base Camp on the eastern slopes.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "Looking north on pick-up morning. There's no snow out there!",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "I see flashes in the distance.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "Giancarlo's truck appears at the bottom of the slope.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "Here he comes. Dr. Saavedra's truck is behind, but out of sight due to a slight dip in the incline.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "Back in Copiapo, Giancarlo unpacks.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 3 | Llullaillaco, Chile: A Case of Mistaken Identity",
+        "shortname": "Chapter 3 - Llullaillaco",
+        "path": "3",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter3.yaml",
+        "label-prefix": "3",
+        "images_path": "images/climbing/galleries/3",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is the map we used to find our way to Llullaillaco.",
+              "filename": "image1.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Maria Ester and Giancarlo in sunnier times.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Giancarlo and I plan at the La Casona bar.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "On the way to Llullaillaco for my first visit - November, 1994. Pan-American highway gas station 100 miles south of Antofagasta. I hope we have enough spare tires!",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Llullaillaco is in the distance. Because of the landmine threat, we dare not leave the road.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "A beautiful mountain.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Laguna Aguas Calientes. The abandoned borax mine is just visible on the left shoreline.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Giancarlo checks one of the rooms.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Veils of steam on Lastarria to the south.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "The author has examined this photogravure closely and is convinced that it is the abandoned mine on the shores of Laguna Aguas Calientes that Giancarlo, Patricio, and he stayed at their first nights out to Llullaillaco. The Laguna is to the right. The mine buildings are somewhat indistinct. Still, their outlines suggest it is the Calientes mine. The overwhelming proof is that the peak to the right is surely Lastarria in its appearance and the mountain on the left is assuredly Llullaillaco. 1916 Original Photogravure of a Chilean Desert Borax Field. Publisher: The Mentor. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Alpenglow on my \\\"Flaming Mountain.\\\"",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Base Camp. Baby Blue is on the left. A tarp covers my gear, food, and water.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "The lava flow, as I approach Camp I.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Looking back down the way from Camp.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Camp I.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Looking up the route to Camp II, somewhere up there.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Inside Blue.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "My shadow on an ice bank.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Camp II.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Camp III on the fringe of the ice plateau. The peak I thought the principal summit is behind me.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "The ice plateau lies far below.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The peak I thought the main one.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "On the top, with Argentina stretching out before me.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "The true summit.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "More Argentina.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "As I gaze upon it, I wonder what went wrong.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 4 | Closing the Circle on Llullaillaco, Chile",
+        "shortname": "Chapter 4 - Llullaillaco",
+        "path": "4",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter4.yaml",
+        "label-prefix": "4",
+        "images_path": "images/climbing/galleries/4",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Patricio catches some winks at the mine.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Flamingoes on Laguna Aguas Calientes. The borax mine is in the distance.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Patricio casts a long shadow.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Sunset, with Lastarria to the south.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A flat tire right at Base Camp!",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Next morning, Pat has left for the long ride back to Copiapo.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Another golden moment on this peak.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Base Camp at <span class=\\\"height\\\">14,600' (4450 m)</span>.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "So far, it's nice and pleasant on this trip.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "The view higher.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Camp I, or Camp \\\"Apricot\\\". Were there other climbers on the mountain?",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "I've been at this spot before. The lava flow in the distance.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "My Camp II.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "At the ice plateau's edge. Within minutes of taking this picture, I began to feel a \\\"presence\\\" nearby.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "My Camp III site, looking up the ravine.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "My Camp III. The top of Blue is just visible. The \\\"presence\\\" remained on the plateau and did not follow me here. Next morning, summit day, the high winds were such that I had to abandon my summit attempt.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Preparing for summit day.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "What was it I felt on the ice plateau?",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Patricio is almost here!",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 5 | Nevado Tres Cruces, Chile: The Cracking of the Will",
+        "shortname": "Chapter 5 - Tres Cruces",
+        "path": "5",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter5.yaml",
+        "label-prefix": "5",
+        "images_path": "images/climbing/galleries/5",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "November, 1996. Patricio prepares to return to Copiapo after we have off-loaded all my gear. The B&amp;W photos are of the Chapter 5 climb.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A view of the couloir on the way to Camp I.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Another scene on the way to Camp I.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Camp I. The couloir is snow-free.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Looking west from the top of the couloir.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "At the col, gazing upon the flanks of Central.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Sur, from the col.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Climbing on the flanks of Central. The view is to the south.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Another view of Sur.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "A view of Sur from below my Camp III.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "The retreat from Camp III and the return to the col. My legs had refused to take me higher.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "March, 1992. In Chapter 5, at Camp III on Central, I look across to Sur and reflect upon my first climb of Tres Cruces. The following are the pictures from that climb. Here Giancarlo, his friend, and I pack.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "My first close look at Tres Cruces. Central is on the left and Sur on the right.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Base Camp. It snowed during the first night.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "There is snow higher up also.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Camp I. Much of the snow has melted and evaporated from the storm two days ago.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "The day of the second carry to Camp II on the col at the top of the couloir.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "At the top of the gully, a look back down the route.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The moon right next to the Central summit.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "\\\"Greenie\\\". The green pond at the col where I captured several shrimp.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "Partial view of the blue pond.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Blue and I camp near another pond partially frozen over.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "A look up to the summit of Sur.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Another pond.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "On the way to the summit, I look down to the col.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "Underneath Sur's \\\"Crown of Thorns.\\\"",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "I do so again higher on the route.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "A view of Central from just over the \\\"Crown of Thorns\\\" on Sur. March 1995.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "From the top of Sur looking over at Central. The clouds are moving in. March 1992.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "I'm not sure which direction I'm facing. The clouds signal that I must leave this place quickly. Just as I reached Camp III, it began to snow.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "This shot is from my November, 1993 climb of Sur.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "Back at Base. A golden alpenglow on Sur.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 6 | Interlude: Clients",
+        "shortname": "Chapter 6 - Assorted",
+        "path": "6",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter6.yaml",
+        "label-prefix": "6",
+        "images_path": "images/climbing/galleries/6",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Alpenglow on the western walls of Tres Cruces. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            },
+            {
+              "caption": "Frank and Bill at Tres Base Camp.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "The author and Bill take a break in the couloir.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "I don't remember who the client was on this trip, but he was around there somewhere.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "Tres Base Camp with a client whose name I can't remember. I do not tell the story in Chapter 6, but this fellow could not acclimatize and we had to leave the mountain.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "Richard arranging things at the Refugio Santa Rosa.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Richard at Base Camp waiting for Patricio.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "And here he is!",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            }
+          ],
+          [
+            {
+              "caption": "The author, Sam, and Patricio at Santa Rosa.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Don at Camp I gazing upon the couloir and Central (see Chapter 5).",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Don near nieves penitentes outside Camp I.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Don leaves Camp I on our second carry to Camp II. Within three hours we were caught in the wind storm (told in Chapter 5).",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "A look back down the couloir. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "Another alpenglow moment. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Another golden moment from Laguna Santa Rosa. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 7 | Monte Pissis, Argentina: The Hand of God",
+        "shortname": "Chapter 7 - Pissis",
+        "path": "7",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter7.yaml",
+        "label-prefix": "7",
+        "images_path": "images/climbing/galleries/7",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Giancarlo's cross on Laguna Negro Francisco where his body was found.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "At La Casona, waiting for Patricio. Of course, I had no idea what was about to take place on Pissis. Maria Ester is behind the camera.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "March, 1997. Patricio stands by the Valle Ancho marker. Pissis is in the distance.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Of course, I have to stand next to it also.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A small stream from an ojo immediately below Ancho Pass.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The great peak rises in the south.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "A lone guanaco checks us out.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Another shot as we approach closer.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "There is a golden glow to the surrounding land.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "My Base Camp, at <span class=\\\"height\\\">15,500' (4720 m)</span>, on the northern slopes. The main summit is the one on the right. My route will proceed through the gully below the summit to a Camp I. Higher, I will traverse to the right, or west, to reach a Camp II.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Base Camp looking northeast.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Another ojo! This one is next to Base.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "A rest stop on the way to Camp I.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "This is the wonderful site of Camp II at <span class=\\\"height\\\">19,200' (5850 m)</span>.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Inside Blue at II.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "The whiteout has lifted as I seek a place for Camp III.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Camp III at <span class=\\\"height\\\">20,200' (6160 m)</span>. I'm looking up the gully that will take me higher. There is a steep dropoff right behind me.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Camp III. This is the site of the infamous stove \\\"incident.\\\"",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "On the way to the subsidiary summit. Early in the morning, the top of the main summit was cloaked in clouds, making it too risky to attempt.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Scenery along the way.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "Still climbing towards the subsidiary summit, as I look over at the main summit. The clouds have now lifted.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Still going.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "The view of the main summit as I approach the top of my peak.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "I'm finally on the top of Pissis West I, at <span class=\\\"height\\\">22,135' (6747 m)</span> (this peak was named several years after this climb). I'm positive this is a first solo ascent.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "West II , at <span class=\\\"height\\\">22,074' (6720 m)</span>, from West I. The view is south.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "More of West II.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "More views from the top of the sub summit.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "caption": "The \\\"Crater\\\" summit in the distance, looking south.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            }
+          ],
+          [
+            {
+              "caption": "Stunning views.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "More subsidiary summits to the east.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "It has been a satisfying climb.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "caption": "The southwestern shores of Laguna Negro Francisco. The Refugio is right behind me.",
+              "filename": "image32.jpg",
+              "attribution": "",
+              "label": "32"
+            }
+          ],
+          [
+            {
+              "caption": "The look north at Cerro Copiapo (<span class=\\\"height\\\">19,836', 6046 m</span>) from the shores of Laguna Negro Francisco.",
+              "filename": "image33.jpg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "Another look north to Cerro Copiapo.",
+              "filename": "image34.jpg",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "caption": "The look north to Cerro Copiapo with the cross in the upper foreground that marked where Giancarlo passed away in the water and sand.",
+              "filename": "image35.jpg",
+              "attribution": "",
+              "label": "35"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 8 | Llullaillaco, Chile: How Did Those Guys Do It, Anyway?",
+        "shortname": "Chapter 8 - Llullaillaco",
+        "path": "8",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter8.yaml",
+        "label-prefix": "8",
+        "images_path": "images/climbing/galleries/8",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "November 1999. Another trip to Llullaillaco. Will I finally see the Inca huts?",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Patricio checks everything before we leave.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Lastarria, looking south.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Laguna Aquas Calientes.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Base Camp.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "On the way to Camp I.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Camp I, Camp \\\"Apricot.\\\"",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "The way to Camp II.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "I'm almost off the ice plateau.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "I'll place Camp III at the top of the ravine. The lava flow is in the distance.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Camp III. The weather is holding.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Up the gully on summit day.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "The ice plateau, far below.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "A jutting promontory in the west.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "The subsidiary summit I climbed years before. About fifteen minutes after I took this picture, my camera slipped from my grasp and cracked open the back, exposing the film.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "And here they are, finally! <span class=\\\"attribution\\\">Chuck Huss Collection.</span>",
+              "filename": "image16.png",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Another view. <span class=\\\"attribution\\\">Johan Reinhard Collection.</span>",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "And another. <span class=\\\"attribution\\\">Johan Reinhard Collection.</span>",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Canned peaches back at Base. I finally saw the huts! What a thrill.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "It's pick-up day and here comes Patricio.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "I'm ready to get back home.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "Patricio packing for the trip back to Copiapo.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 9 | Tres Cruces, Chile: Climbing with Friends",
+        "shortname": "Chapter 9 - Tres Cruces",
+        "path": "9",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter9.yaml",
+        "label-prefix": "9",
+        "images_path": "images/climbing/galleries/9",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "March 2009. I'm towing Tristan so he can attempt a jump start. It didn't work.<br />All the photos in this section except one are courtesy of <span class=\\\"attribution\\\">Chuck Huss</span>.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Neither does a battery jump start.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "My truck, in front of the Santa Rosa Refugio, twenty minutes before it rolled towards the Laguna, without me.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "John has returned the next day with Tristan, Lucy, and a new battery. But it doesn't work. Lucy is at the driver's side door; Tristan is in the middle; John is in the green sweater; John's oldest son is on the right. <span class=\\\"attribution\\\">Dan Smith Collection.</span>",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "The author on the left, Chuck on the right.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Chuck on the balcony.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "A scruffy Andean fox.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Baby guanaco on the edge of the Laguna.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "Guanaco herd.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Flamingo take-off.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "Flamingo in flight.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "Another flamingo shot.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "View of the Refugio, with Tres Cruces in the distance.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Rio Lamas Falls, with guanaco.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Resting guanaco.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "A mother and baby.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Another scene at the Falls.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The author at Chuck and Dan's Base Camp. There is little snow on the peak. That changed during the night.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Where did Tres Cruces go?  This portends a rough time ahead, as we were soon to find out.  R. Villarreal Collection.",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            }
+          ],
+          [
+            {
+              "caption": "Dan at their Base Camp next morning.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "Another shot.",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "The Maricunga Customs Station. Over two separate stays here, I met Colonel Soto and Dr. de Silva.",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "Both peaks are covered in snow. It snowed every afternoon and evening of our days on the mountain.",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "caption": "A world of white.",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "caption": "More of the same.",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "More battery problems. I don't remember what I was doing under the hood. Whatever it was, it didn't work.",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "Dan Smith in the couloir.",
+              "filename": "image27.jpg",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "caption": "Another storm has plastered Central in snow.",
+              "filename": "image28.jpg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "Chuck near a penitentes field.",
+              "filename": "image29.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "Dan in the couloir.",
+              "filename": "image30.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "The climb's over.",
+              "filename": "image31.jpg",
+              "attribution": "",
+              "label": "31"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Chapter 10 | Tres Cruces, Chile: The Last Climb",
+        "shortname": "Chapter 10 - Tres Cruces",
+        "path": "10",
+        "filename": "../../../clawing/ikarus_data/galleries/chapter10.yaml",
+        "label-prefix": "10",
+        "images_path": "images/climbing/galleries/10",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "One of several oases on the Mina Marte road leading to the pass overlooking Laguna Santa Rosa.",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "November, 2009. At the pass, looking across to Tres Cruces.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Looking down upon Laguna Santa Rosa.",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "Another view.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "And another.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "The author on the shores of the Laguna.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "On Chile Highway 31, with Tres Cruces in the distance.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "My Base Camp, with the winds howling.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "A night at Advanced Base Camp.\tThe winds have yet to lessen in force.\tI slept inside the truck since it was impossible to set Blue up.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "I'm chased back down the mountain by the continual storms. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "imageA1.jpg",
+              "label": "A1",
+              "attribution": ""
+            },
+            {
+              "caption": "A last look back at Tres Cruces.",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "After retreating from the mountain, I stop to visit the Carabinero Station at Laguna Verde. The wind was so strong it almost tore the door from my hands.",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "I returned to Santa Rosa to spend the night at the Refugio.",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "This and the following pictures are views of the Laguna's shores as I traveled north almost twelve miles.",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "An hour after this photo of Tres Cruces, it was enveloped once more in clouds.",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "Santa Rosa.",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "The sun sets and ends another Andean day. It also heralds the close of my wonderful Andean climbing career.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ],
+          [
+            {
+              "caption": "Next day, a last goodbye before returning to Copiapo.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "A last goodbye from the pass. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "Appendix C | Apani the Indian",
+        "shortname": "Appendix C",
+        "path": "C",
+        "filename": "../../../chronicles/ikarus_data/galleries/3V.yaml",
+        "label-prefix": "3V",
+        "images_path": "images/climbing/galleries/C",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "De M&eacute;rida and Ancohualla met Apani in Atacama (today's San Pedro de Atacama) and heard his story of how the Indians built the huts on the summit of Llullaillaco.  A modern-day street scene in this charming town. <span class=\\\"attribution\\\">Courtesy of visitchile.com.</span>",
+              "filename": "image1.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "Angastu (Antofagasta) was the jump-off point for Llullaillaco. We can only infer from the information presented in the recording of the conversation with Apani that the effort to place huts on the summit of the peak began in late August 1494.",
+              "filename": "image2.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Today's Antofagasta is a bustling port city of 345,000 people. <span class=\\\"attribution\\\">Courtesy of misionlatinoamericana.</span>",
+              "filename": "image3.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "It really does snow in the Atacama Desert! <span class=\\\"attribution\\\">Courtesy aljazeera.com.</span> Also, see Chapter 6, <span id=\\\"alonetitle\\\">Clawing for the Stars</span>, for the author's experiences with Atacama snow storms.",
+              "filename": "image4.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A source of water on the way to Monturaqui.",
+              "filename": "image5.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "And another.",
+              "filename": "image6.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "This was the supply location for men, goods, and equipment on their way to Llullaillaco. The summit of the peak is just in view to the south.",
+              "filename": "image7.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "This is one of several building ruins next to Monturaqui. These no doubt go back to the time of Apani.",
+              "filename": "image8.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "A water source on the way from Monturaqui to the western side of the mountain.",
+              "filename": "image9.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "The northern end of Laguna Aguas Calientes, which sits below the western side of the peak. Vitahuati and his men had first planned to climb to the summit by way of the western walls. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image10.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "This area would have served well as a Base Camp on the western side for Vita and his men. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image11.jpg",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "caption": "This area would have made a good first camp site, at <span class=\\\"height\\\">16,500'</span>, for the <em>cunturs</em> as they labored up the western slopes. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image12.jpg",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "caption": "This spot, at <span class=\\\"height\\\">18,300'</span>, might have served the <em>cunturs</em> well as the next higher camp on the western side. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image13.jpg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "This is the plateau, at <span class=\\\"height\\\">19,300'</span>, where Apani said the <em>cunturs</em> realized the western side was too steep from here to the summit and chose to turn around and descend. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image14.jpg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "Vitahuati and his men decided to search for a suitable route to the summit somewhere else on the peak. No doubt they had a similar view of the northern slopes on their way around the mountain, as pictured here. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image15.jpg",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "caption": "Vitahuati and the <i>cunturs</i> led the traverse past these northwest walls in search of a route to the top. <span class=\\\"attribution\\\">R. Villarreal Collection.</span>",
+              "filename": "image16.jpg",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "caption": "Flowing water north of Llullaillaco. <span class=\\\"attribution\\\">Courtesy of Wikimedia.com.</span>",
+              "filename": "image17.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "The eastern side of Llullaillaco, with the ascent route of the Indians in the middle of the picture (see following Google Earth images for details). <span class=\\\"attribution\\\">Courtesy of Johan Reinhard.</span>",
+              "filename": "image18.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "Google Earth image showing the positions of the staging area and Main Camp.",
+              "filename": "image19.jpg",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "caption": "Image showing the location of First Camp and Second Camp.",
+              "filename": "image20.jpg",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "caption": "This structure, along with several others not in the picture, mark the location of Vitahuati's main camp area at <span class=\\\"height\\\">17,056'</span>. <span class=\\\"attribution\\\">Courtesy of Johan Reinhard.</span>",
+              "filename": "image21.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "At an elevation of <span class=\\\"height\\\">19,188'</span>, this was the location of first camp for the climbers and builders. <span class=\\\"attribution\\\">Courtesy of Johan Reinhard.</span>",
+              "filename": "image22.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "This area was the second camp for the men, at an elevation of <span class=\\\"height\\\">21,800'</span>, just below the summit. <span class=\\\"attribution\\\">Courtesy of Johan Reinhard.</span>",
+              "filename": "image23.jpg",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "caption": "Johan Reinhard and his team of archaeologists examine the huts and graves on the summit at <span class=\\\"height\\\">22,109'</span>. <span class=\\\"attribution\\\">Courtesy of Joan Reinhard.</span>",
+              "filename": "image24.jpg",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "caption": "A look down upon the huts. <span class=\\\"attribution\\\">Courtesy Chuck Huss Collection.</span>",
+              "filename": "image25.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "The Reinhard team surveys more of the summit ruins. <span class=\\\"attribution\\\">Courtesy of Johan Reinhard.</span>",
+              "filename": "image26.jpg",
+              "attribution": "",
+              "label": "26"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    ],
+    "content_type": "galleries",
+    "content_name": "Galleries",
+    "content_path": "galleries",
+    "page_title": "Galleries",
+    "volume": true
+  }
+]
