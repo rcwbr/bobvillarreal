@@ -59,3 +59,21 @@
   path: "chapter_10"
   filename: "chapter_10.yaml"
   label-prefix: "10"
+-
+  name: "Chapter 11"
+  shortname: "Chapter 11"
+  path: "chapter_11"
+  filename: "chapter_11.yaml"
+  label-prefix: "11"
+-
+  name: "Chapter 12"
+  shortname: "Chapter 12"
+  path: "chapter_12"
+  filename: "chapter_12.yaml"
+  label-prefix: "12"
+-
+  name: "Chapter 13"
+  shortname: "Chapter 13"
+  path: "chapter_13"
+  filename: "chapter_13.yaml"
+  label-prefix: "13"
