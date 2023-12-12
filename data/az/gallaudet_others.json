@@ -1349,6 +1349,12 @@
               "filename": "4_JUNGLE_FORESTENDEV.jpg",
               "attribution": "",
               "label": "5"
+            },
+            {
+              "caption": "Heron are common along certain parts of the Amazon. This is a white faced heron, just one of many different colors. Courtesy of birdbaron.",
+              "filename": "HERON_BIRDBARON.jpg",
+              "attribution": "",
+              "label": "6"
             }
           ]
         ],
@@ -2009,6 +2015,172 @@
               "filename": "13_CANNON_8.jpg",
               "attribution": "",
               "label": "8"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Chapter 14",
+    "name": "Chapter 14",
+    "path": "chapter_14",
+    "media": {
+      "ikarus_data": {
+        "name": "Chapter 14",
+        "shortname": "Chapter 14",
+        "path": "chapter_14",
+        "filename": "chapter_14.yaml",
+        "label-prefix": "14",
+        "images_path": "images/az/galleries/chapter_14",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is the Seville Cathedral today. Construction of the Cathedral began in 1402 and was completed in 1519. Courtesy of FANPOP.",
+              "filename": "SEVILLE_CATH_FANPOP.jpg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "One of Orellana's sailing ships on the way to Tenerife. Painting by Roy Mus Bruss.",
+              "filename": "GAlleon_FOR_ANDA_ROY_MUS_BRUSS.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "This is a picture of today's Teide National Park. Courtesy of dronepics.",
+              "filename": "TENERIFE_FOREST_TEIDE_NP_DRONEPICS.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "The eastern shore of Tenerife Island. Courtesy of Kamakdy.",
+              "filename": "TENERIFE_2_KAMAKDY.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "Tenerife forested area. Courtesy of P. Acevedo.",
+              "filename": "TENERIFE_JUNGLE_P._ACEVEDO.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "An image of a strange fata morgana. Courtesy of farmeralmanac.",
+              "filename": "FATA_MORGANA_FARMERALMANAC.png",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Here is another fata morgana photo. Courtesy of brocken.",
+              "filename": "FATA_MORGANA_BROCKEN.jpg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "And yet another one. Courtesy of freaked.",
+              "filename": "fata-morgana-freaked.jpg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "The Church in Cidade Velha, Santiago Island. Courtesy of Rosario Church.",
+              "filename": "Cidade_Velha-1495_Senhora_do_Rosario_CHURCH_.jpg",
+              "attribution": "",
+              "label": "9"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
+    "shortname": "Chapter 15",
+    "name": "Chapter 15",
+    "path": "chapter_15",
+    "media": {
+      "ikarus_data": {
+        "name": "Chapter 15",
+        "shortname": "Chapter 15",
+        "path": "chapter_15",
+        "filename": "chapter_15.yaml",
+        "label-prefix": "15",
+        "images_path": "images/az/galleries/chapter_15",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "The Orellana fleet was assaulted by a heavy storm on their way west across the Atlantic. Painting by Lima de Freitas.",
+              "filename": "STORM_DE_FREITAS.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "The storm was unrelenting for some time. Courtesy of HISTOSEASTORMS.",
+              "filename": "STORM_HISTOCEASTORMS.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "This is the northern tributary of the Amazon where it enters the sea between the two islands. Earth image.",
+              "filename": "ENTER_AMAZON_FROM_SEA.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "This is an Earth image as to where the Amazon tributaries begin.",
+              "filename": "TRIBS_BEGIN.jpg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "This is the probable route the men took to find the southern tributary. Earth image.",
+              "filename": "FROM_NORTH_TO_SOUTH_TRIB.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "An Earth image of Orellana's possible death site and the route downriver the men took to the sea.",
+              "filename": "POSSIBLE_DEATH_SITE.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "An image of one of the beach's on Cubagua Island. Courtesy of Britannica.",
+              "filename": "CUBAGUA_BRITANNICA.png",
+              "attribution": "",
+              "label": "7"
             }
           ]
         ],
