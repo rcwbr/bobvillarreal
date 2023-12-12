@@ -77,3 +77,15 @@
   path: "chapter_13"
   filename: "chapter_13.yaml"
   label-prefix: "13"
+-
+  name: "Chapter 14"
+  shortname: "Chapter 14"
+  path: "chapter_14"
+  filename: "chapter_14.yaml"
+  label-prefix: "14"
+-
+  name: "Chapter 15"
+  shortname: "Chapter 15"
+  path: "chapter_15"
+  filename: "chapter_15.yaml"
+  label-prefix: "15"
