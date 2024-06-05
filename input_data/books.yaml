@@ -301,7 +301,7 @@
   media_home: "historical"
 -
   shortname: "climbing"
-  title: ""
+  title: "A CHRONICLE OF AN ANDEAN CLIMBING CAREER, THE FIRST THREE EXPEDITIONS WITH A NOTABLE CLIMBING COMPANY, THE FOLLOWING TWENTY-SEVEN PRIMARILY ALONE AND SOLO, AS TOLD IN EXCERPTS FROM \"THE PRELUDE TO CLAWING FOR THE STARS\" AND \"CLAWING FOR THE STARS.\""
   home_title_text: "Climbing the Great Andes"
   subtitle: ""
   styles:
@@ -326,6 +326,21 @@
       menu_text: "PHOTOS"
       page_title: "Galleries"
       entry_page_title: "Gallery"
+    -
+      name: "vought"
+      content_type: "galleries"
+      processing_type: "galleries"
+      sectioned: "true"
+      input_data_path: "vought_data"
+      input_data_file: "sources.yaml"
+      input_data_entries_path: "sources"
+      output_filename: "vought_sources.json"
+      content_path: "historical"
+      content_name: "Historical"
+      content_longname: "Historical Sources and Miscellaneous"
+      menu_text: "HISTORICAL SOURCES AND MISCELLANEOUS"
+      page_title: "Historical"
+      entry_page_title: "Sources"
   other_book_menu_text: "All Books"
   other_book_location: "index.html"
   use_chapters: false

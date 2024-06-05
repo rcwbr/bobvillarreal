@@ -4,6 +4,89 @@
     "shortname": "prelude",
     "galleries": [
       {
+        "name": "Climbing in the Tetons",
+        "shortname": "Tetons",
+        "path": "tetons",
+        "filename": "../../../prelude/ikarus_data/galleries/tetons.yaml",
+        "label-prefix": "T",
+        "images_path": "images/climbing/galleries/tetons",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "I went on a 10 day climbing excursion in the Grand Tetons in 1987, guided by the Exum Mountain Guides. We climbed the Grand Teton (13,770 feet), Middle Teton (12,805 feet), and Mount Moran (12,605 feet). It turned out that this proved good preparation for my guided climbs in the Andes with the American Alpine Institute in 1989-1991. Google Earth image.",
+              "filename": "1.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A sundown scene looking west. Courtesy of Go GrandTetons.",
+              "filename": "2.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "A view of the South, Middle, and Grand Tetons.",
+              "filename": "3.jpeg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "On the top of the Grand with two members of the climbing team. Preparation and the climb lasted four days.",
+              "filename": "4.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A look over at Middle Teton as sunrise casts a golden glow.",
+              "filename": "5.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "On the top of Middle Teton with the Grand behind. This was a two day climb.",
+              "filename": "6.jpeg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Mt. Moran. The vertical Black Dike, as it's known, is a basalt intrusion. Courtesy of FLICKR.",
+              "filename": "7.jpeg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Another view of Mt. Moran. Our route was to the left of the Black Dike.",
+              "filename": "8.jpeg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "On the top of Moran. Our guide is on the right. This was a climb of three days.",
+              "filename": "9.jpeg",
+              "attribution": "",
+              "label": "9"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
         "name": "The Expedition to Ecuador in January, 1989.",
         "shortname": "The Expedition to Ecuador in January, 1989.",
         "path": "E",
@@ -1675,6 +1758,297 @@
               "filename": "BOL_ILLI_CLIMB_TEAM.jpeg",
               "attribution": "",
               "label": "130"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      },
+      {
+        "name": "A Visit to Machu Picchu",
+        "shortname": "A Visit to Machu Picchu",
+        "path": "machu_picchu",
+        "filename": "../../../prelude/ikarus_data/galleries/machu_picchu.yaml",
+        "label-prefix": "M",
+        "images_path": "images/climbing/galleries/machu_picchu",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Hiram Bingham discovered and excavated the site of Machu Picchu in 1909 and 1911. His work was presented in National Geographic in three issues, which the author acquired in the 1980's. For his story see, \\\"Lost City of the Incas.\\\" Courtesy of BoletoMP.",
+              "filename": "HIRAM_BOLETOMP.jpg",
+              "label": "0",
+              "attribution": ""
+            },
+            {
+              "caption": "An overhead view of the Machu Picchu ruins. Courtesy of PeruRail.",
+              "filename": "BOL_MAPI_MAP_OVERHEAD.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A look down upon the city with Huyana Picchu behind. Hiram Bingham, April, 1913 National Geographic Magazine.",
+              "filename": "BING_1.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "The lower northern part of the city with much clearing still to be done. Hiram Bingham, April, 1913, National Geographic. ",
+              "filename": "BING_2.jpg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "A typical house interior. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_3.jpg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "The Intihuatana. Hiram Bingham, April, 1913.",
+              "filename": "BING_4.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "A courtyard wall with an entry gate to the right. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_5.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Bingham tries to set up his camera stand for some photos. By the way, Kodak supplied all his camera equipment. April, 1913, National Geographic.",
+              "filename": "BING_6.jpg",
+              "attribution": "",
+              "label": "7"
+            }
+          ],
+          [
+            {
+              "caption": "The terraces here are still embedded in weeds and vegetation. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_7.JPG",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Excavating the Chief Temple. Lieutenant Sotomayor, at the right, is in charge. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_8.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Notable gables from two important houses in the city. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_9.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "The interior of these walls are ornamented by a series of symmetrical niches, between each one of which is a projecting stone roughly squared. Hiram Bingham, April, 1913 National Geographic.",
+              "filename": "BING_10.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "The Temple of the Three Windows, called by Bingham the most important in the city. Hiram Bingham, April, 1913 National Geographic.",
+              "filename": "THREE_WINDOWS_BING_11.jpeg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "This is a stylized map of the way to Machu Picchu from Cusco furnished by the Hotel Monasterio.",
+              "filename": "MACHU_PICCHU_COLOR_DRAWING_1.jpeg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "This train is pulled by a diesel locomotive. When my wife and I first visited Machu Picchu in 1975, PeruRail only had steam engines! Courtesy of PeruRail.",
+              "filename": "MA_PI_ON_THE_WAY_BY_TRAIN_PERURAIL_3.jpeg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "This is an 1839 map of the distribution of plants according to elevation in the Americas. It includes the heights of various mountains around the world and references to both terrestrial and subterranean plants. A beautiful chart drawn and engraved by George Aikman.",
+              "filename": "DIST_OF_PLANTS_IN_ANDES.jpg",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "caption": "The train station in Aguas Calientes 1200 feet below Machu Picchu. Courtesy of G Adventures.",
+              "filename": "MA_PI_TOWN_G_ADVENTURES_4.jpg",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "caption": "These terraces were for growing fruits and vegetables. Courtesy of FLICKR.",
+              "filename": "MA_PI_FLICKR_5.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "The city with the spiked Huayna Picchu behind. Courtesy of Indian Express.",
+              "filename": "MA_PI_INDIAN_EXPRESS_6.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "More structures and terraces. Courtesy of QUASAR.",
+              "filename": "MA_PI_QUASAR_7.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ],
+          [
+            {
+              "caption": "Buildings with Huayna Picchu behind. Courtesy of CACHI LIFE.",
+              "filename": "MA_PI_CACHI_LIFE_8.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "Another part of the city. Courtesy of EARTH TREKKERS.",
+              "filename": "MA_PI_EARTH_TREKKERS_9.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "This is the top of Huayna Picchu. On the Bolivia Expedition, our AAI guides hired a Peruvian guide for Machu Picchu and she led us to the top of Huayna Picchu. One can see the steep terracing where the Indians planted their crops. Amazing! Courtesy of Viator.",
+              "filename": "MA_PI_HUAYNA_VIATOR_10.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "Another view of Huayna Picchu. Courtesy of sungatetours.",
+              "filename": "SUNGATE_TOURS_2.jpg",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "caption": "One can only imagine the intelligence of the Inca engineers! Courtesy of ticketmachu.",
+              "filename": "LAST_STEPS_TICKETMACHU_3.jpg",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "caption": "It must have been dangerous to tend to the Huayna Picchu terrace crops. Courtesy of goway.",
+              "filename": "TOP_GOWAY_5.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "A look down upon Machu Picchu from the summit of Huayna Picchu. Courtesy of littlered.",
+              "filename": "MA_PI_FROM_HUA_PI_LITTLERED_3.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "The summit of Huayna Picchu with Machu Picchu out of sight below. Courtesy of TICKETMP.",
+              "filename": "HUAYNA_PICCHU_TICKET_MP.jpg",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "caption": "More structure foundations. Courtesy of ICUN.",
+              "filename": "MA_PI_IUCN_11.jpg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "More terraces, these located above the city. Courtesy of PERURAIL.",
+              "filename": "MA_PI_PERU_RAIL_12.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "More terraces and structures. Courtesy of Travel Leisure.",
+              "filename": "MA_PI_TRAVEL_LEISURE_13.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "A look down upon Machu Picchu. Courtesy of AGENCIA EFE.",
+              "filename": "MA_PI_AGENCIA_EFE_14.jpg",
+              "attribution": "",
+              "label": "31"
+            }
+          ],
+          [
+            {
+              "caption": "Stairs, terraces, and structure foundations. Courtesy of Britannica.",
+              "filename": "MA_PI_BRITANNICA_15.jpg",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "caption": "Strange structures. Courtesy of CLASSADVEN.",
+              "filename": "MA_PI_CLASS_ADVEN_16.jpg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "Another photo with Huayna Picchu in the distance. Courtesy of CONDE NAST.",
+              "filename": "MA_PI_CONDE_NAST_17.jpg",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "caption": "More terraces and structures. Courtesy of MACHU TRAVEL.",
+              "filename": "MA_PI_MACHU_TRAVEL_18.jpg",
+              "attribution": "",
+              "label": "35"
+            }
+          ],
+          [
+            {
+              "caption": "Sept 11, 2000. A camera crew filming a beer commercial has damaged the most important shrine at the Peruvian Inca citadel of Machu Picchu. A corner of the granite Intihuatana, or \\\"hitching post of the sun\\\", was smashed when a camera platform collapsed on top of it. The irregular carved pillar, one of several erected by the Incas at major sites, holds special significance as it was the only Intihuatana not to have been discovered and destroyed by the Spanish conquistadores. The structure is thought to have been an astronomical device, possibly used to predict the solstices of the sun, and is reputed to imbue with energy those who approach it. More than a dozen fragments of rock will be painstakingly reattached, but the changeable and intemperate climate means they could eventually fall off again. \\\"The damage can probably be repaired but [the Intihuatana] will never be quite the same again,\\\" said archaeologist Luis Barreda Murillo. Courtesy of MP TRAVEL.",
+              "filename": "MA_PI_INTIHUATANA_MPTRAVEL_19.jpg",
+              "attribution": "",
+              "label": "36"
+            },
+            {
+              "caption": "More remnants of this beautiful city. Courtesy of Princess Travel.",
+              "filename": "MA_PI_PRINCESS_TRAVEL_20.jpg",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "caption": "It is estimated that 700-800 people occupied Machu Picchu. Courtesy of Pura Adventura. Courtesy of Sacred Sites.",
+              "filename": "MA_PI_SACRED_SITES_22.jpg",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "caption": "Another display of the intricacies of Machu Picchu. Courtesy of afar media.",
+              "filename": "SANTUARIO_AFAR_MEDIA_1.jpg",
+              "attribution": "",
+              "label": "39"
+            }
+          ],
+          [
+            {
+              "caption": "A PeruRail train on the return to Cusco. Courtesy of Travel MP.",
+              "filename": "MA_PI_TRAIN_BACK_TO_CUSCO_TRAVEL_MP_25.jpg",
+              "attribution": "",
+              "label": "40"
             }
           ]
         ],
@@ -4271,10 +4645,10 @@
       {
         "name": "Appendix C | Apani the Indian",
         "shortname": "Appendix C",
-        "path": "C",
+        "path": "3V",
         "filename": "../../../chronicles/ikarus_data/galleries/3V.yaml",
         "label-prefix": "3V",
-        "images_path": "images/climbing/galleries/C",
+        "images_path": "images/climbing/galleries/3V",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",

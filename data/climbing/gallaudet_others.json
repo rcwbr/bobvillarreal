@@ -1,5 +1,95 @@
 [
   {
+    "shortname": "Tetons",
+    "name": "Climbing in the Tetons",
+    "path": "tetons",
+    "media": {
+      "ikarus_data": {
+        "name": "Climbing in the Tetons",
+        "shortname": "Tetons",
+        "path": "tetons",
+        "filename": "../../../prelude/ikarus_data/galleries/tetons.yaml",
+        "label-prefix": "T",
+        "images_path": "images/climbing/galleries/tetons",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "I went on a 10 day climbing excursion in the Grand Tetons in 1987, guided by the Exum Mountain Guides. We climbed the Grand Teton (13,770 feet), Middle Teton (12,805 feet), and Mount Moran (12,605 feet). It turned out that this proved good preparation for my guided climbs in the Andes with the American Alpine Institute in 1989-1991. Google Earth image.",
+              "filename": "1.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A sundown scene looking west. Courtesy of Go GrandTetons.",
+              "filename": "2.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "A view of the South, Middle, and Grand Tetons.",
+              "filename": "3.jpeg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "caption": "On the top of the Grand with two members of the climbing team. Preparation and the climb lasted four days.",
+              "filename": "4.jpeg",
+              "attribution": "",
+              "label": "4"
+            }
+          ],
+          [
+            {
+              "caption": "A look over at Middle Teton as sunrise casts a golden glow.",
+              "filename": "5.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "On the top of Middle Teton with the Grand behind. This was a two day climb.",
+              "filename": "6.jpeg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Mt. Moran. The vertical Black Dike, as it's known, is a basalt intrusion. Courtesy of FLICKR.",
+              "filename": "7.jpeg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Another view of Mt. Moran. Our route was to the left of the Black Dike.",
+              "filename": "8.jpeg",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "caption": "On the top of Moran. Our guide is on the right. This was a climb of three days.",
+              "filename": "9.jpeg",
+              "attribution": "",
+              "label": "9"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
     "shortname": "The Expedition to Ecuador in January, 1989.",
     "name": "The Expedition to Ecuador in January, 1989.",
     "path": "E",
@@ -1695,6 +1785,304 @@
     }
   },
   {
+    "shortname": "A Visit to Machu Picchu",
+    "name": "A Visit to Machu Picchu",
+    "path": "machu_picchu",
+    "media": {
+      "ikarus_data": {
+        "name": "A Visit to Machu Picchu",
+        "shortname": "A Visit to Machu Picchu",
+        "path": "machu_picchu",
+        "filename": "../../../prelude/ikarus_data/galleries/machu_picchu.yaml",
+        "label-prefix": "M",
+        "images_path": "images/climbing/galleries/machu_picchu",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "images_per_row": 4,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "Hiram Bingham discovered and excavated the site of Machu Picchu in 1909 and 1911. His work was presented in National Geographic in three issues, which the author acquired in the 1980's. For his story see, \\\"Lost City of the Incas.\\\" Courtesy of BoletoMP.",
+              "filename": "HIRAM_BOLETOMP.jpg",
+              "label": "0",
+              "attribution": ""
+            },
+            {
+              "caption": "An overhead view of the Machu Picchu ruins. Courtesy of PeruRail.",
+              "filename": "BOL_MAPI_MAP_OVERHEAD.png",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A look down upon the city with Huyana Picchu behind. Hiram Bingham, April, 1913 National Geographic Magazine.",
+              "filename": "BING_1.jpg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "The lower northern part of the city with much clearing still to be done. Hiram Bingham, April, 1913, National Geographic. ",
+              "filename": "BING_2.jpg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "A typical house interior. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_3.jpg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "The Intihuatana. Hiram Bingham, April, 1913.",
+              "filename": "BING_4.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "A courtyard wall with an entry gate to the right. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_5.jpg",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "caption": "Bingham tries to set up his camera stand for some photos. By the way, Kodak supplied all his camera equipment. April, 1913, National Geographic.",
+              "filename": "BING_6.jpg",
+              "attribution": "",
+              "label": "7"
+            }
+          ],
+          [
+            {
+              "caption": "The terraces here are still embedded in weeds and vegetation. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_7.JPG",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Excavating the Chief Temple. Lieutenant Sotomayor, at the right, is in charge. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_8.jpg",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "caption": "Notable gables from two important houses in the city. Hiram Bingham, April, 1913, National Geographic.",
+              "filename": "BING_9.jpg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "The interior of these walls are ornamented by a series of symmetrical niches, between each one of which is a projecting stone roughly squared. Hiram Bingham, April, 1913 National Geographic.",
+              "filename": "BING_10.jpg",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "caption": "The Temple of the Three Windows, called by Bingham the most important in the city. Hiram Bingham, April, 1913 National Geographic.",
+              "filename": "THREE_WINDOWS_BING_11.jpeg",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "caption": "This is a stylized map of the way to Machu Picchu from Cusco furnished by the Hotel Monasterio.",
+              "filename": "MACHU_PICCHU_COLOR_DRAWING_1.jpeg",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "caption": "This train is pulled by a diesel locomotive. When my wife and I first visited Machu Picchu in 1975, PeruRail only had steam engines! Courtesy of PeruRail.",
+              "filename": "MA_PI_ON_THE_WAY_BY_TRAIN_PERURAIL_3.jpeg",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "caption": "This is an 1839 map of the distribution of plants according to elevation in the Americas. It includes the heights of various mountains around the world and references to both terrestrial and subterranean plants. A beautiful chart drawn and engraved by George Aikman.",
+              "filename": "DIST_OF_PLANTS_IN_ANDES.jpg",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "caption": "The train station in Aguas Calientes 1200 feet below Machu Picchu. Courtesy of G Adventures.",
+              "filename": "MA_PI_TOWN_G_ADVENTURES_4.jpg",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "caption": "These terraces were for growing fruits and vegetables. Courtesy of FLICKR.",
+              "filename": "MA_PI_FLICKR_5.jpg",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "caption": "The city with the spiked Huayna Picchu behind. Courtesy of Indian Express.",
+              "filename": "MA_PI_INDIAN_EXPRESS_6.jpg",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "caption": "More structures and terraces. Courtesy of QUASAR.",
+              "filename": "MA_PI_QUASAR_7.jpg",
+              "attribution": "",
+              "label": "19"
+            }
+          ],
+          [
+            {
+              "caption": "Buildings with Huayna Picchu behind. Courtesy of CACHI LIFE.",
+              "filename": "MA_PI_CACHI_LIFE_8.jpg",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "caption": "Another part of the city. Courtesy of EARTH TREKKERS.",
+              "filename": "MA_PI_EARTH_TREKKERS_9.jpg",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "caption": "This is the top of Huayna Picchu. On the Bolivia Expedition, our AAI guides hired a Peruvian guide for Machu Picchu and she led us to the top of Huayna Picchu. One can see the steep terracing where the Indians planted their crops. Amazing! Courtesy of Viator.",
+              "filename": "MA_PI_HUAYNA_VIATOR_10.jpg",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "caption": "Another view of Huayna Picchu. Courtesy of sungatetours.",
+              "filename": "SUNGATE_TOURS_2.jpg",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "caption": "One can only imagine the intelligence of the Inca engineers! Courtesy of ticketmachu.",
+              "filename": "LAST_STEPS_TICKETMACHU_3.jpg",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "caption": "It must have been dangerous to tend to the Huayna Picchu terrace crops. Courtesy of goway.",
+              "filename": "TOP_GOWAY_5.jpg",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "caption": "A look down upon Machu Picchu from the summit of Huayna Picchu. Courtesy of littlered.",
+              "filename": "MA_PI_FROM_HUA_PI_LITTLERED_3.jpg",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "caption": "The summit of Huayna Picchu with Machu Picchu out of sight below. Courtesy of TICKETMP.",
+              "filename": "HUAYNA_PICCHU_TICKET_MP.jpg",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "caption": "More structure foundations. Courtesy of ICUN.",
+              "filename": "MA_PI_IUCN_11.jpg",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "caption": "More terraces, these located above the city. Courtesy of PERURAIL.",
+              "filename": "MA_PI_PERU_RAIL_12.jpg",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "caption": "More terraces and structures. Courtesy of Travel Leisure.",
+              "filename": "MA_PI_TRAVEL_LEISURE_13.jpg",
+              "attribution": "",
+              "label": "30"
+            },
+            {
+              "caption": "A look down upon Machu Picchu. Courtesy of AGENCIA EFE.",
+              "filename": "MA_PI_AGENCIA_EFE_14.jpg",
+              "attribution": "",
+              "label": "31"
+            }
+          ],
+          [
+            {
+              "caption": "Stairs, terraces, and structure foundations. Courtesy of Britannica.",
+              "filename": "MA_PI_BRITANNICA_15.jpg",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "caption": "Strange structures. Courtesy of CLASSADVEN.",
+              "filename": "MA_PI_CLASS_ADVEN_16.jpg",
+              "attribution": "",
+              "label": "33"
+            },
+            {
+              "caption": "Another photo with Huayna Picchu in the distance. Courtesy of CONDE NAST.",
+              "filename": "MA_PI_CONDE_NAST_17.jpg",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "caption": "More terraces and structures. Courtesy of MACHU TRAVEL.",
+              "filename": "MA_PI_MACHU_TRAVEL_18.jpg",
+              "attribution": "",
+              "label": "35"
+            }
+          ],
+          [
+            {
+              "caption": "Sept 11, 2000. A camera crew filming a beer commercial has damaged the most important shrine at the Peruvian Inca citadel of Machu Picchu. A corner of the granite Intihuatana, or \\\"hitching post of the sun\\\", was smashed when a camera platform collapsed on top of it. The irregular carved pillar, one of several erected by the Incas at major sites, holds special significance as it was the only Intihuatana not to have been discovered and destroyed by the Spanish conquistadores. The structure is thought to have been an astronomical device, possibly used to predict the solstices of the sun, and is reputed to imbue with energy those who approach it. More than a dozen fragments of rock will be painstakingly reattached, but the changeable and intemperate climate means they could eventually fall off again. \\\"The damage can probably be repaired but [the Intihuatana] will never be quite the same again,\\\" said archaeologist Luis Barreda Murillo. Courtesy of MP TRAVEL.",
+              "filename": "MA_PI_INTIHUATANA_MPTRAVEL_19.jpg",
+              "attribution": "",
+              "label": "36"
+            },
+            {
+              "caption": "More remnants of this beautiful city. Courtesy of Princess Travel.",
+              "filename": "MA_PI_PRINCESS_TRAVEL_20.jpg",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "caption": "It is estimated that 700-800 people occupied Machu Picchu. Courtesy of Pura Adventura. Courtesy of Sacred Sites.",
+              "filename": "MA_PI_SACRED_SITES_22.jpg",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "caption": "Another display of the intricacies of Machu Picchu. Courtesy of afar media.",
+              "filename": "SANTUARIO_AFAR_MEDIA_1.jpg",
+              "attribution": "",
+              "label": "39"
+            }
+          ],
+          [
+            {
+              "caption": "A PeruRail train on the return to Cusco. Courtesy of Travel MP.",
+              "filename": "MA_PI_TRAIN_BACK_TO_CUSCO_TRAVEL_MP_25.jpg",
+              "attribution": "",
+              "label": "40"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Galleries",
+        "content_path": "galleries",
+        "page_title": "Galleries",
+        "entry_page_title": "Gallery"
+      }
+    }
+  },
+  {
     "shortname": "The Expedition to Aconcagua in January, 1991.",
     "name": "The Expedition to Aconcagua in January, 1991.",
     "path": "A",
@@ -2313,6 +2701,89 @@
         "name": "The Prelude",
         "shortname": "prelude",
         "galleries": [
+          {
+            "name": "Climbing in the Tetons",
+            "shortname": "Tetons",
+            "path": "tetons",
+            "filename": "../../../prelude/ikarus_data/galleries/tetons.yaml",
+            "label-prefix": "T",
+            "images_path": "images/climbing/galleries/tetons",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 4,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              [
+                {
+                  "caption": "I went on a 10 day climbing excursion in the Grand Tetons in 1987, guided by the Exum Mountain Guides. We climbed the Grand Teton (13,770 feet), Middle Teton (12,805 feet), and Mount Moran (12,605 feet). It turned out that this proved good preparation for my guided climbs in the Andes with the American Alpine Institute in 1989-1991. Google Earth image.",
+                  "filename": "1.jpeg",
+                  "attribution": "",
+                  "label": "1"
+                },
+                {
+                  "caption": "A sundown scene looking west. Courtesy of Go GrandTetons.",
+                  "filename": "2.jpeg",
+                  "attribution": "",
+                  "label": "2"
+                },
+                {
+                  "caption": "A view of the South, Middle, and Grand Tetons.",
+                  "filename": "3.jpeg",
+                  "attribution": "",
+                  "label": "3"
+                },
+                {
+                  "caption": "On the top of the Grand with two members of the climbing team. Preparation and the climb lasted four days.",
+                  "filename": "4.jpeg",
+                  "attribution": "",
+                  "label": "4"
+                }
+              ],
+              [
+                {
+                  "caption": "A look over at Middle Teton as sunrise casts a golden glow.",
+                  "filename": "5.jpeg",
+                  "attribution": "",
+                  "label": "5"
+                },
+                {
+                  "caption": "On the top of Middle Teton with the Grand behind. This was a two day climb.",
+                  "filename": "6.jpeg",
+                  "attribution": "",
+                  "label": "6"
+                },
+                {
+                  "caption": "Mt. Moran. The vertical Black Dike, as it's known, is a basalt intrusion. Courtesy of FLICKR.",
+                  "filename": "7.jpeg",
+                  "attribution": "",
+                  "label": "7"
+                },
+                {
+                  "caption": "Another view of Mt. Moran. Our route was to the left of the Black Dike.",
+                  "filename": "8.jpeg",
+                  "attribution": "",
+                  "label": "8"
+                }
+              ],
+              [
+                {
+                  "caption": "On the top of Moran. Our guide is on the right. This was a climb of three days.",
+                  "filename": "9.jpeg",
+                  "attribution": "",
+                  "label": "9"
+                }
+              ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Galleries",
+            "content_path": "galleries",
+            "page_title": "Galleries",
+            "entry_page_title": "Gallery"
+          },
           {
             "name": "The Expedition to Ecuador in January, 1989.",
             "shortname": "The Expedition to Ecuador in January, 1989.",
@@ -3985,6 +4456,297 @@
                   "filename": "BOL_ILLI_CLIMB_TEAM.jpeg",
                   "attribution": "",
                   "label": "130"
+                }
+              ]
+            ],
+            "content_type": "galleries",
+            "content_name": "Galleries",
+            "content_path": "galleries",
+            "page_title": "Galleries",
+            "entry_page_title": "Gallery"
+          },
+          {
+            "name": "A Visit to Machu Picchu",
+            "shortname": "A Visit to Machu Picchu",
+            "path": "machu_picchu",
+            "filename": "../../../prelude/ikarus_data/galleries/machu_picchu.yaml",
+            "label-prefix": "M",
+            "images_path": "images/climbing/galleries/machu_picchu",
+            "galleries_path": "galleries",
+            "source_path": "../source",
+            "thumbs_folder_path": "thumbs",
+            "total_width": 960,
+            "images_per_row": 4,
+            "image_margins": 10,
+            "width_adjustment": 4,
+            "overlay_thumb_height": 100,
+            "image_matrix": [
+              [
+                {
+                  "caption": "Hiram Bingham discovered and excavated the site of Machu Picchu in 1909 and 1911. His work was presented in National Geographic in three issues, which the author acquired in the 1980's. For his story see, \\\"Lost City of the Incas.\\\" Courtesy of BoletoMP.",
+                  "filename": "HIRAM_BOLETOMP.jpg",
+                  "label": "0",
+                  "attribution": ""
+                },
+                {
+                  "caption": "An overhead view of the Machu Picchu ruins. Courtesy of PeruRail.",
+                  "filename": "BOL_MAPI_MAP_OVERHEAD.png",
+                  "attribution": "",
+                  "label": "1"
+                },
+                {
+                  "caption": "A look down upon the city with Huyana Picchu behind. Hiram Bingham, April, 1913 National Geographic Magazine.",
+                  "filename": "BING_1.jpg",
+                  "attribution": "",
+                  "label": "2"
+                },
+                {
+                  "caption": "The lower northern part of the city with much clearing still to be done. Hiram Bingham, April, 1913, National Geographic. ",
+                  "filename": "BING_2.jpg",
+                  "attribution": "",
+                  "label": "3"
+                }
+              ],
+              [
+                {
+                  "caption": "A typical house interior. Hiram Bingham, April, 1913, National Geographic.",
+                  "filename": "BING_3.jpg",
+                  "attribution": "",
+                  "label": "4"
+                },
+                {
+                  "caption": "The Intihuatana. Hiram Bingham, April, 1913.",
+                  "filename": "BING_4.jpg",
+                  "attribution": "",
+                  "label": "5"
+                },
+                {
+                  "caption": "A courtyard wall with an entry gate to the right. Hiram Bingham, April, 1913, National Geographic.",
+                  "filename": "BING_5.jpg",
+                  "attribution": "",
+                  "label": "6"
+                },
+                {
+                  "caption": "Bingham tries to set up his camera stand for some photos. By the way, Kodak supplied all his camera equipment. April, 1913, National Geographic.",
+                  "filename": "BING_6.jpg",
+                  "attribution": "",
+                  "label": "7"
+                }
+              ],
+              [
+                {
+                  "caption": "The terraces here are still embedded in weeds and vegetation. Hiram Bingham, April, 1913, National Geographic.",
+                  "filename": "BING_7.JPG",
+                  "attribution": "",
+                  "label": "8"
+                },
+                {
+                  "caption": "Excavating the Chief Temple. Lieutenant Sotomayor, at the right, is in charge. Hiram Bingham, April, 1913, National Geographic.",
+                  "filename": "BING_8.jpg",
+                  "attribution": "",
+                  "label": "9"
+                },
+                {
+                  "caption": "Notable gables from two important houses in the city. Hiram Bingham, April, 1913, National Geographic.",
+                  "filename": "BING_9.jpg",
+                  "attribution": "",
+                  "label": "10"
+                },
+                {
+                  "caption": "The interior of these walls are ornamented by a series of symmetrical niches, between each one of which is a projecting stone roughly squared. Hiram Bingham, April, 1913 National Geographic.",
+                  "filename": "BING_10.jpg",
+                  "attribution": "",
+                  "label": "11"
+                }
+              ],
+              [
+                {
+                  "caption": "The Temple of the Three Windows, called by Bingham the most important in the city. Hiram Bingham, April, 1913 National Geographic.",
+                  "filename": "THREE_WINDOWS_BING_11.jpeg",
+                  "attribution": "",
+                  "label": "12"
+                },
+                {
+                  "caption": "This is a stylized map of the way to Machu Picchu from Cusco furnished by the Hotel Monasterio.",
+                  "filename": "MACHU_PICCHU_COLOR_DRAWING_1.jpeg",
+                  "attribution": "",
+                  "label": "13"
+                },
+                {
+                  "caption": "This train is pulled by a diesel locomotive. When my wife and I first visited Machu Picchu in 1975, PeruRail only had steam engines! Courtesy of PeruRail.",
+                  "filename": "MA_PI_ON_THE_WAY_BY_TRAIN_PERURAIL_3.jpeg",
+                  "attribution": "",
+                  "label": "14"
+                },
+                {
+                  "caption": "This is an 1839 map of the distribution of plants according to elevation in the Americas. It includes the heights of various mountains around the world and references to both terrestrial and subterranean plants. A beautiful chart drawn and engraved by George Aikman.",
+                  "filename": "DIST_OF_PLANTS_IN_ANDES.jpg",
+                  "attribution": "",
+                  "label": "15"
+                }
+              ],
+              [
+                {
+                  "caption": "The train station in Aguas Calientes 1200 feet below Machu Picchu. Courtesy of G Adventures.",
+                  "filename": "MA_PI_TOWN_G_ADVENTURES_4.jpg",
+                  "attribution": "",
+                  "label": "16"
+                },
+                {
+                  "caption": "These terraces were for growing fruits and vegetables. Courtesy of FLICKR.",
+                  "filename": "MA_PI_FLICKR_5.jpg",
+                  "attribution": "",
+                  "label": "17"
+                },
+                {
+                  "caption": "The city with the spiked Huayna Picchu behind. Courtesy of Indian Express.",
+                  "filename": "MA_PI_INDIAN_EXPRESS_6.jpg",
+                  "attribution": "",
+                  "label": "18"
+                },
+                {
+                  "caption": "More structures and terraces. Courtesy of QUASAR.",
+                  "filename": "MA_PI_QUASAR_7.jpg",
+                  "attribution": "",
+                  "label": "19"
+                }
+              ],
+              [
+                {
+                  "caption": "Buildings with Huayna Picchu behind. Courtesy of CACHI LIFE.",
+                  "filename": "MA_PI_CACHI_LIFE_8.jpg",
+                  "attribution": "",
+                  "label": "20"
+                },
+                {
+                  "caption": "Another part of the city. Courtesy of EARTH TREKKERS.",
+                  "filename": "MA_PI_EARTH_TREKKERS_9.jpg",
+                  "attribution": "",
+                  "label": "21"
+                },
+                {
+                  "caption": "This is the top of Huayna Picchu. On the Bolivia Expedition, our AAI guides hired a Peruvian guide for Machu Picchu and she led us to the top of Huayna Picchu. One can see the steep terracing where the Indians planted their crops. Amazing! Courtesy of Viator.",
+                  "filename": "MA_PI_HUAYNA_VIATOR_10.jpg",
+                  "attribution": "",
+                  "label": "22"
+                },
+                {
+                  "caption": "Another view of Huayna Picchu. Courtesy of sungatetours.",
+                  "filename": "SUNGATE_TOURS_2.jpg",
+                  "attribution": "",
+                  "label": "23"
+                }
+              ],
+              [
+                {
+                  "caption": "One can only imagine the intelligence of the Inca engineers! Courtesy of ticketmachu.",
+                  "filename": "LAST_STEPS_TICKETMACHU_3.jpg",
+                  "attribution": "",
+                  "label": "24"
+                },
+                {
+                  "caption": "It must have been dangerous to tend to the Huayna Picchu terrace crops. Courtesy of goway.",
+                  "filename": "TOP_GOWAY_5.jpg",
+                  "attribution": "",
+                  "label": "25"
+                },
+                {
+                  "caption": "A look down upon Machu Picchu from the summit of Huayna Picchu. Courtesy of littlered.",
+                  "filename": "MA_PI_FROM_HUA_PI_LITTLERED_3.jpg",
+                  "attribution": "",
+                  "label": "26"
+                },
+                {
+                  "caption": "The summit of Huayna Picchu with Machu Picchu out of sight below. Courtesy of TICKETMP.",
+                  "filename": "HUAYNA_PICCHU_TICKET_MP.jpg",
+                  "attribution": "",
+                  "label": "27"
+                }
+              ],
+              [
+                {
+                  "caption": "More structure foundations. Courtesy of ICUN.",
+                  "filename": "MA_PI_IUCN_11.jpg",
+                  "attribution": "",
+                  "label": "28"
+                },
+                {
+                  "caption": "More terraces, these located above the city. Courtesy of PERURAIL.",
+                  "filename": "MA_PI_PERU_RAIL_12.jpg",
+                  "attribution": "",
+                  "label": "29"
+                },
+                {
+                  "caption": "More terraces and structures. Courtesy of Travel Leisure.",
+                  "filename": "MA_PI_TRAVEL_LEISURE_13.jpg",
+                  "attribution": "",
+                  "label": "30"
+                },
+                {
+                  "caption": "A look down upon Machu Picchu. Courtesy of AGENCIA EFE.",
+                  "filename": "MA_PI_AGENCIA_EFE_14.jpg",
+                  "attribution": "",
+                  "label": "31"
+                }
+              ],
+              [
+                {
+                  "caption": "Stairs, terraces, and structure foundations. Courtesy of Britannica.",
+                  "filename": "MA_PI_BRITANNICA_15.jpg",
+                  "attribution": "",
+                  "label": "32"
+                },
+                {
+                  "caption": "Strange structures. Courtesy of CLASSADVEN.",
+                  "filename": "MA_PI_CLASS_ADVEN_16.jpg",
+                  "attribution": "",
+                  "label": "33"
+                },
+                {
+                  "caption": "Another photo with Huayna Picchu in the distance. Courtesy of CONDE NAST.",
+                  "filename": "MA_PI_CONDE_NAST_17.jpg",
+                  "attribution": "",
+                  "label": "34"
+                },
+                {
+                  "caption": "More terraces and structures. Courtesy of MACHU TRAVEL.",
+                  "filename": "MA_PI_MACHU_TRAVEL_18.jpg",
+                  "attribution": "",
+                  "label": "35"
+                }
+              ],
+              [
+                {
+                  "caption": "Sept 11, 2000. A camera crew filming a beer commercial has damaged the most important shrine at the Peruvian Inca citadel of Machu Picchu. A corner of the granite Intihuatana, or \\\"hitching post of the sun\\\", was smashed when a camera platform collapsed on top of it. The irregular carved pillar, one of several erected by the Incas at major sites, holds special significance as it was the only Intihuatana not to have been discovered and destroyed by the Spanish conquistadores. The structure is thought to have been an astronomical device, possibly used to predict the solstices of the sun, and is reputed to imbue with energy those who approach it. More than a dozen fragments of rock will be painstakingly reattached, but the changeable and intemperate climate means they could eventually fall off again. \\\"The damage can probably be repaired but [the Intihuatana] will never be quite the same again,\\\" said archaeologist Luis Barreda Murillo. Courtesy of MP TRAVEL.",
+                  "filename": "MA_PI_INTIHUATANA_MPTRAVEL_19.jpg",
+                  "attribution": "",
+                  "label": "36"
+                },
+                {
+                  "caption": "More remnants of this beautiful city. Courtesy of Princess Travel.",
+                  "filename": "MA_PI_PRINCESS_TRAVEL_20.jpg",
+                  "attribution": "",
+                  "label": "37"
+                },
+                {
+                  "caption": "It is estimated that 700-800 people occupied Machu Picchu. Courtesy of Pura Adventura. Courtesy of Sacred Sites.",
+                  "filename": "MA_PI_SACRED_SITES_22.jpg",
+                  "attribution": "",
+                  "label": "38"
+                },
+                {
+                  "caption": "Another display of the intricacies of Machu Picchu. Courtesy of afar media.",
+                  "filename": "SANTUARIO_AFAR_MEDIA_1.jpg",
+                  "attribution": "",
+                  "label": "39"
+                }
+              ],
+              [
+                {
+                  "caption": "A PeruRail train on the return to Cusco. Courtesy of Travel MP.",
+                  "filename": "MA_PI_TRAIN_BACK_TO_CUSCO_TRAVEL_MP_25.jpg",
+                  "attribution": "",
+                  "label": "40"
                 }
               ]
             ],
@@ -6649,15 +7411,15 @@
   {
     "shortname": "Appendix C",
     "name": "Appendix C | Apani the Indian",
-    "path": "C",
+    "path": "3V",
     "media": {
       "ikarus_data": {
         "name": "Appendix C | Apani the Indian",
         "shortname": "Appendix C",
-        "path": "C",
+        "path": "3V",
         "filename": "../../../chronicles/ikarus_data/galleries/3V.yaml",
         "label-prefix": "3V",
-        "images_path": "images/climbing/galleries/C",
+        "images_path": "images/climbing/galleries/3V",
         "galleries_path": "galleries",
         "source_path": "../source",
         "thumbs_folder_path": "thumbs",
@@ -8828,10 +9590,10 @@
           {
             "name": "Appendix C | Apani the Indian",
             "shortname": "Appendix C",
-            "path": "C",
+            "path": "3V",
             "filename": "../../../chronicles/ikarus_data/galleries/3V.yaml",
             "label-prefix": "3V",
-            "images_path": "images/climbing/galleries/C",
+            "images_path": "images/climbing/galleries/3V",
             "galleries_path": "galleries",
             "source_path": "../source",
             "thumbs_folder_path": "thumbs",
@@ -9024,6 +9786,4646 @@
         "content_path": "galleries",
         "page_title": "Galleries",
         "volume": true
+      }
+    }
+  },
+  {
+    "shortname": "Quito",
+    "name": "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\"",
+    "path": "quito",
+    "media": {
+      "vought_data": {
+        "name": "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Quito",
+        "path": "quito",
+        "filename": "../../../prelude/vought_data/sources/quito.yaml",
+        "label-prefix": "Q",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/quito",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Tiwanaku",
+    "name": "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier",
+    "path": "tiwanaku",
+    "media": {
+      "vought_data": {
+        "name": "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier",
+        "shortname": "Tiwanaku",
+        "path": "tiwanaku",
+        "filename": "../../../prelude/vought_data/sources/tiwanaku.yaml",
+        "label-prefix": "T",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/tiwanaku",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "10_282.jpeg",
+              "label": "10 282",
+              "caption": "",
+              "attribution": ""
+            },
+            {
+              "filename": "10_283.jpeg",
+              "label": "10 283",
+              "caption": "",
+              "attribution": ""
+            }
+          ],
+          [
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            }
+          ],
+          [
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            }
+          ],
+          [
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            }
+          ],
+          [
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            }
+          ],
+          [
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            },
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Pichincha",
+    "name": "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\"",
+    "path": "pichincha",
+    "media": {
+      "vought_data": {
+        "name": "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Pichincha",
+        "path": "pichincha",
+        "filename": "../../../prelude/vought_data/sources/pichincha.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/pichincha",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Cayambe",
+    "name": "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\"",
+    "path": "cayambe",
+    "media": {
+      "vought_data": {
+        "name": "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Cayambe",
+        "path": "cayambe",
+        "filename": "../../../prelude/vought_data/sources/cayambe.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/cayambe",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Cotopaxi",
+    "name": "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\"",
+    "path": "cotopaxi",
+    "media": {
+      "vought_data": {
+        "name": "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\"",
+        "shortname": "Cotopaxi",
+        "path": "cotopaxi",
+        "filename": "../../../prelude/vought_data/sources/cotopaxi.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/cotopaxi",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Chimborazo",
+    "name": "Edward Whymper's description of the first ascent of Chimborazo.",
+    "path": "chimborazo",
+    "media": {
+      "vought_data": {
+        "name": "Edward Whymper's description of the first ascent of Chimborazo.",
+        "shortname": "Chimborazo",
+        "path": "chimborazo",
+        "filename": "../../../prelude/vought_data/sources/chimborazo.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/chimborazo",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "29.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "30.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "31.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Illimani",
+    "name": "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway.",
+    "path": "illimani",
+    "media": {
+      "vought_data": {
+        "name": "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway.",
+        "shortname": "Illimani",
+        "path": "illimani",
+        "filename": "../../../prelude/vought_data/sources/illimani.yaml",
+        "label-prefix": "I",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/illimani",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Aconcagua",
+    "name": "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald.",
+    "path": "aconcagua",
+    "media": {
+      "vought_data": {
+        "name": "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald.",
+        "shortname": "Aconcagua",
+        "path": "aconcagua",
+        "filename": "../../../prelude/vought_data/sources/aconcagua.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/aconcagua",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Handbook",
+    "name": "South American Handbook (1990) Description of Quito.",
+    "path": "handbook",
+    "media": {
+      "vought_data": {
+        "name": "South American Handbook (1990) Description of Quito.",
+        "shortname": "Handbook",
+        "path": "handbook",
+        "filename": "../../../prelude/vought_data/sources/handbook.yaml",
+        "label-prefix": "Q",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/handbook",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Pasto",
+    "name": "Harry A. Franck's description of Pasto, Colombia from \"Vagabonding Down the Andes.\"",
+    "path": "pasto",
+    "media": {
+      "vought_data": {
+        "name": "Harry A. Franck's description of Pasto, Colombia from \"Vagabonding Down the Andes.\"",
+        "shortname": "Pasto",
+        "path": "pasto",
+        "filename": "../../../prelude/vought_data/sources/pasto.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/pasto",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Llama",
+    "name": "Harry A. Franck's description of the llama from \"Vagabonding Down the Andes.\"",
+    "path": "llama",
+    "media": {
+      "vought_data": {
+        "name": "Harry A. Franck's description of the llama from \"Vagabonding Down the Andes.\"",
+        "shortname": "Llama",
+        "path": "llama",
+        "filename": "../../../prelude/vought_data/sources/llama.yaml",
+        "label-prefix": "L",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/llama",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Machu Picchu",
+    "name": "Machu Picchu Description by Harry A. Franck.",
+    "path": "machu",
+    "media": {
+      "vought_data": {
+        "name": "Machu Picchu Description by Harry A. Franck.",
+        "shortname": "Machu Picchu",
+        "path": "machu",
+        "filename": "../../../prelude/vought_data/sources/machu.yaml",
+        "label-prefix": "M",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/machu",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "La Paz",
+    "name": "Description of La Paz by Harry A, Franck.",
+    "path": "lapaz",
+    "media": {
+      "vought_data": {
+        "name": "Description of La Paz by Harry A, Franck.",
+        "shortname": "La Paz",
+        "path": "lapaz",
+        "filename": "../../../prelude/vought_data/sources/lapaz.yaml",
+        "label-prefix": "L",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/lapaz",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Cusco",
+    "name": "A Description of Cusco by Harry A. Franck.",
+    "path": "cusco_franck",
+    "media": {
+      "vought_data": {
+        "name": "A Description of Cusco by Harry A. Franck.",
+        "shortname": "Cusco",
+        "path": "cusco_franck",
+        "filename": "../../../prelude/vought_data/sources/cusco_franck.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/cusco_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "29.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "30.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "31.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "filename": "32.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "32"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Altitude",
+    "name": "Edward Whymper's Scientific Work to Determine Altitude.",
+    "path": "altitude",
+    "media": {
+      "vought_data": {
+        "name": "Edward Whymper's Scientific Work to Determine Altitude.",
+        "shortname": "Altitude",
+        "path": "altitude",
+        "filename": "../../../prelude/vought_data/sources/altitude.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/altitude",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Quito",
+    "name": "Description of Quito by Harry A, Franck.",
+    "path": "quito_franck",
+    "media": {
+      "vought_data": {
+        "name": "Description of Quito by Harry A, Franck.",
+        "shortname": "Quito",
+        "path": "quito_franck",
+        "filename": "../../../prelude/vought_data/sources/quito_franck.yaml",
+        "label-prefix": "Q",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/quito_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Cusco",
+    "name": "Cusco, the Sacred City Description by E. George Squier",
+    "path": "C",
+    "media": {
+      "vought_data": {
+        "name": "Cusco, the Sacred City Description by E. George Squier",
+        "shortname": "Cusco",
+        "path": "C",
+        "filename": "../../../prelude/vought_data/sources/cusco.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/C",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "448.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            },
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "29"
+            },
+            {
+              "filename": "29.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "30"
+            }
+          ],
+          [
+            {
+              "filename": "30.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "31"
+            },
+            {
+              "filename": "31.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "32"
+            },
+            {
+              "filename": "32.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "33"
+            }
+          ],
+          [
+            {
+              "filename": "33.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "34"
+            },
+            {
+              "filename": "34.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "35"
+            },
+            {
+              "filename": "35.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "36"
+            }
+          ],
+          [
+            {
+              "filename": "36.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "37"
+            },
+            {
+              "filename": "37.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "38"
+            },
+            {
+              "filename": "38.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "39"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Sacsayhuaman",
+    "name": "Fortress Sacsayhuaman by Victor W. Von Hagen",
+    "path": "S",
+    "media": {
+      "vought_data": {
+        "name": "Fortress Sacsayhuaman by Victor W. Von Hagen",
+        "shortname": "Sacsayhuaman",
+        "path": "S",
+        "filename": "../../../prelude/vought_data/sources/sacsayhuaman.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/S",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "caption": "This is an aerial view of the ruins of Fortress Sacsayhuaman. Cusco lies below to the west. From: \\\"Sacsayhuaman,\\\" by Victor W. Von Hagen.",
+              "filename": "MANCO_SACSAY_OVERHEAD.jpeg",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "caption": "A map by von Hagen of the Fortress layout.",
+              "filename": "MANCO_SACSAY_OVERHEAD_DRAWING.jpeg",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "caption": "Von Hagen's numbered guide to the Fortress particulars.",
+              "filename": "MANCO_SACSAY_OVERHEAD_GUIDE.jpeg",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "NEW_S_4.jpeg",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "NEW_S_5.jpeg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "S_4.jpeg",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_2.jpeg",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_3.jpeg",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_4.jpeg",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "S_8.jpeg",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "caption": "Description of Fortress Sacsayhuaman by Victor W. von Hagen.",
+              "filename": "MANCO_SACSAY_TEXT_6.jpeg",
+              "attribution": "",
+              "label": "11"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Ollantaytambo",
+    "name": "Citadel Ollantaytambo by E. George Squier",
+    "path": "O",
+    "media": {
+      "vought_data": {
+        "name": "Citadel Ollantaytambo by E. George Squier",
+        "shortname": "Ollantaytambo",
+        "path": "O",
+        "filename": "../../../prelude/vought_data/sources/ollantaytambo.yaml",
+        "label-prefix": "O",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/O",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "0.jpeg",
+              "label": "0",
+              "caption": "",
+              "attribution": ""
+            },
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            }
+          ],
+          [
+            {
+              "caption": "Earth image of Ollantaytambo ruins positions.",
+              "filename": "ACLA_OLLAN_EARTH.jpg",
+              "attribution": "",
+              "label": "3"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            }
+          ],
+          [
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            }
+          ],
+          [
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            }
+          ],
+          [
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            }
+          ],
+          [
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            }
+          ],
+          [
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            }
+          ],
+          [
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            }
+          ],
+          [
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            }
+          ],
+          [
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Beetles",
+    "name": "Whymper's Identification of 35 Beetles in Ecuador",
+    "path": "beetles",
+    "media": {
+      "vought_data": {
+        "name": "Whymper's Identification of 35 Beetles in Ecuador",
+        "shortname": "Beetles",
+        "path": "beetles",
+        "filename": "../../../prelude/vought_data/sources/beetles.yaml",
+        "label-prefix": "B",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/beetles",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "BEETLES.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Chimborazo",
+    "name": "Alexander von Humboldt's failed attempt to climb Chimborazo.",
+    "path": "humboldt_chimborazo",
+    "media": {
+      "vought_data": {
+        "name": "Alexander von Humboldt's failed attempt to climb Chimborazo.",
+        "shortname": "Chimborazo",
+        "path": "humboldt_chimborazo",
+        "filename": "../../../prelude/vought_data/sources/humboldt_chimborazo.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/humboldt_chimborazo",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "HUMBOLDT_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "HUMBOLDT_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "HUMBOLDT_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Condor",
+    "name": "Edward Whymper's description of the Andean condor.",
+    "path": "condor",
+    "media": {
+      "vought_data": {
+        "name": "Edward Whymper's description of the Andean condor.",
+        "shortname": "Condor",
+        "path": "condor",
+        "filename": "../../../prelude/vought_data/sources/condor.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/condor",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "CONDOR_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "CONDOR_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "CONDOR_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "CONDOR_4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "CONDOR_5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "CONDOR_6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "CONDOR_7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Heights",
+    "name": "Heights of the Great Andes Peaks by Edward Whymper.",
+    "path": "heights",
+    "media": {
+      "vought_data": {
+        "name": "Heights of the Great Andes Peaks by Edward Whymper.",
+        "shortname": "Heights",
+        "path": "heights",
+        "filename": "../../../prelude/vought_data/sources/heights.yaml",
+        "label-prefix": "H",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/heights",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "CHIMBO_HT_AND_OTHER_PEAKS_WHYMPER.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Height",
+    "name": "Edward Whymper's determination of the height of Chimborazo.",
+    "path": "height",
+    "media": {
+      "vought_data": {
+        "name": "Edward Whymper's determination of the height of Chimborazo.",
+        "shortname": "Height",
+        "path": "height",
+        "filename": "../../../prelude/vought_data/sources/height.yaml",
+        "label-prefix": "H",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/height",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "HT_1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "HT_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "HT_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "HT_4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "HT_5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "HT_6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "HT_7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "HT_8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "HT_9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "HT_10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Polish",
+    "name": "An account of the ascent of the Polish Glacier route, from \"A Polish Expedition to the High Andes\" (1934) by S. W. Daszynski.",
+    "path": "polish",
+    "media": {
+      "vought_data": {
+        "name": "An account of the ascent of the Polish Glacier route, from \"A Polish Expedition to the High Andes\" (1934) by S. W. Daszynski.",
+        "shortname": "Polish",
+        "path": "polish",
+        "filename": "../../../prelude/vought_data/sources/polish.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/polish",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "ARG_POLACA_1.gif",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "ACON_PAGE_2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "ACON_PAGE_3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Tiwanaku",
+    "name": "Tiwanaku, by Cieza de Leon.",
+    "path": "tiwanaku_leon",
+    "media": {
+      "vought_data": {
+        "name": "Tiwanaku, by Cieza de Leon.",
+        "shortname": "Tiwanaku",
+        "path": "tiwanaku_leon",
+        "filename": "../../../prelude/vought_data/sources/tiwanaku_leon.yaml",
+        "label-prefix": "T",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/tiwanaku_leon",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Cusco",
+    "name": "Cusco, the Sacred City by Cieza de Leon.",
+    "path": "cusco_leon",
+    "media": {
+      "vought_data": {
+        "name": "Cusco, the Sacred City by Cieza de Leon.",
+        "shortname": "Cusco",
+        "path": "cusco_leon",
+        "filename": "../../../prelude/vought_data/sources/cusco_leon.yaml",
+        "label-prefix": "C",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/cusco_leon",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Lima",
+    "name": "Lima, the City of Kings by E. George Squier",
+    "path": "lima",
+    "media": {
+      "vought_data": {
+        "name": "Lima, the City of Kings by E. George Squier",
+        "shortname": "Lima",
+        "path": "lima",
+        "filename": "../../../prelude/vought_data/sources/lima.yaml",
+        "label-prefix": "L",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/lima",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ],
+          [
+            {
+              "filename": "22.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "22"
+            },
+            {
+              "filename": "23.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "23"
+            },
+            {
+              "filename": "24.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "24"
+            }
+          ],
+          [
+            {
+              "filename": "25.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "25"
+            },
+            {
+              "filename": "26.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "26"
+            },
+            {
+              "filename": "27.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "27"
+            }
+          ],
+          [
+            {
+              "filename": "28.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "28"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "sacsayhuaman_squier",
+    "name": "Fortress Sacsayhuaman by E. George Squier",
+    "path": "sacsayhuaman_squier",
+    "media": {
+      "vought_data": {
+        "name": "Fortress Sacsayhuaman by E. George Squier",
+        "shortname": "sacsayhuaman_squier",
+        "path": "sacsayhuaman_squier",
+        "filename": "../../../prelude/vought_data/sources/sacsayhuaman_squier.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/sacsayhuaman_squier",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "ASACSQ1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "ASACSQ2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "ASACSQ3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "ASACSQ4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "ASACSQ5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "ASACSQ6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "ASACSQ7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "ASACSQ8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "ASACSQ9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "ASACSQ10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "ASACSQ11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "ASACSQ12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "ASACSQ13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "ASACSQ14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "ASACSQ15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "ASACSQ16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "ASACSQ17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "ASACSQ18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "ASACSQ19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "ASACSQ20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Assassination",
+    "name": "William H. Prescott's Description of the Assassination of Francisco Pizarro",
+    "path": "assassination",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Description of the Assassination of Francisco Pizarro",
+        "shortname": "Assassination",
+        "path": "assassination",
+        "filename": "../../../prelude/vought_data/sources/assassination.yaml",
+        "label-prefix": "A",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/assassination",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Francisco",
+    "name": "William H. Prescott's Portrait of Marquess Francisco Pizarro",
+    "path": "francisco_prescott",
+    "media": {
+      "vought_data": {
+        "name": "William H. Prescott's Portrait of Marquess Francisco Pizarro",
+        "shortname": "Francisco",
+        "path": "francisco_prescott",
+        "filename": "../../../prelude/vought_data/sources/francisco_prescott.yaml",
+        "label-prefix": "F",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/francisco_prescott",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Pachacamac",
+    "name": "Description of Pachacamac by E. George Squier",
+    "path": "pachacamac",
+    "media": {
+      "vought_data": {
+        "name": "Description of Pachacamac by E. George Squier",
+        "shortname": "Pachacamac",
+        "path": "pachacamac",
+        "filename": "../../../prelude/vought_data/sources/pachacamac.yaml",
+        "label-prefix": "P",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/pachacamac",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Reinhard Sites",
+    "name": "High Altitude Archaeological sites in the Andes, by Johan Reinhard in \"The Inca Maiden.\"",
+    "path": "reinhard_sites",
+    "media": {
+      "vought_data": {
+        "name": "High Altitude Archaeological sites in the Andes, by Johan Reinhard in \"The Inca Maiden.\"",
+        "shortname": "Reinhard Sites",
+        "path": "reinhard_sites",
+        "filename": "../../../prelude/vought_data/sources/reinhard_sites.yaml",
+        "label-prefix": "R",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/reinhard_sites",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "INCA_SITES.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Buenos Aires",
+    "name": "A Description of Buenos Aires by Harry A. Franck, from \"Working North From Patagonia.\"",
+    "path": "buenos_aires",
+    "media": {
+      "vought_data": {
+        "name": "A Description of Buenos Aires by Harry A. Franck, from \"Working North From Patagonia.\"",
+        "shortname": "Buenos Aires",
+        "path": "buenos_aires",
+        "filename": "../../../prelude/vought_data/sources/buenos_aires.yaml",
+        "label-prefix": "B",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/buenos_aires",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            },
+            {
+              "filename": "15.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "15"
+            }
+          ],
+          [
+            {
+              "filename": "16.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "16"
+            },
+            {
+              "filename": "17.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "17"
+            },
+            {
+              "filename": "18.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "18"
+            }
+          ],
+          [
+            {
+              "filename": "19.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "19"
+            },
+            {
+              "filename": "20.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "20"
+            },
+            {
+              "filename": "21.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "21"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Santiago",
+    "name": "A description of Santiago de Chile by Harry A. Franck, from \"Working North From Patagonia.\"",
+    "path": "santiago_franck",
+    "media": {
+      "vought_data": {
+        "name": "A description of Santiago de Chile by Harry A. Franck, from \"Working North From Patagonia.\"",
+        "shortname": "Santiago",
+        "path": "santiago_franck",
+        "filename": "../../../prelude/vought_data/sources/santiago_franck.yaml",
+        "label-prefix": "S",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/santiago_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ],
+          [
+            {
+              "filename": "7.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "7"
+            },
+            {
+              "filename": "8.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "8"
+            },
+            {
+              "filename": "9.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "9"
+            }
+          ],
+          [
+            {
+              "filename": "10.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "10"
+            },
+            {
+              "filename": "11.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "11"
+            },
+            {
+              "filename": "12.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "12"
+            }
+          ],
+          [
+            {
+              "filename": "13.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "13"
+            },
+            {
+              "filename": "14.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "14"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
+      }
+    }
+  },
+  {
+    "shortname": "Mendoza",
+    "name": "A description of Mendoza by Harry A. Franck, from \"Working North From Patagonia.\"",
+    "path": "mendoza_franck",
+    "media": {
+      "vought_data": {
+        "name": "A description of Mendoza by Harry A. Franck, from \"Working North From Patagonia.\"",
+        "shortname": "Mendoza",
+        "path": "mendoza_franck",
+        "filename": "../../../prelude/vought_data/sources/mendoza_franck.yaml",
+        "label-prefix": "M",
+        "images_per_row": 3,
+        "images_path": "images/climbing/galleries/mendoza_franck",
+        "galleries_path": "galleries",
+        "source_path": "../source",
+        "thumbs_folder_path": "thumbs",
+        "total_width": 960,
+        "image_margins": 10,
+        "width_adjustment": 4,
+        "overlay_thumb_height": 100,
+        "image_matrix": [
+          [
+            {
+              "filename": "1.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "1"
+            },
+            {
+              "filename": "2.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "2"
+            },
+            {
+              "filename": "3.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "3"
+            }
+          ],
+          [
+            {
+              "filename": "4.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "4"
+            },
+            {
+              "filename": "5.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "5"
+            },
+            {
+              "filename": "6.jpeg",
+              "caption": "",
+              "attribution": "",
+              "label": "6"
+            }
+          ]
+        ],
+        "content_type": "galleries",
+        "content_name": "Historical",
+        "content_path": "historical",
+        "page_title": "Historical",
+        "content_longname": "Historical Sources and Miscellaneous",
+        "entry_page_title": "Sources"
       }
     }
   }
