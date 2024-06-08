@@ -518,13 +518,13 @@
     }
   },
   {
-    "shortname": "Carvahal Medina",
-    "name": "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina.",
+    "shortname": "Carvajal Medina",
+    "name": "The Biography of Padre Gaspar de Carvajal, by Jos&eacute; Toribio Medina.",
     "path": "carvahal_medina",
     "media": {
       "vought_data": {
-        "name": "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina.",
-        "shortname": "Carvahal Medina",
+        "name": "The Biography of Padre Gaspar de Carvajal, by Jos&eacute; Toribio Medina.",
+        "shortname": "Carvajal Medina",
         "path": "carvahal_medina",
         "filename": "carvahal_medina.yaml",
         "label-prefix": "C",
@@ -2165,22 +2165,28 @@
           ],
           [
             {
+              "caption": "This is a painting of what a small brig may have looked like. Courtesy of arjeerksan.",
+              "filename": "15_BRIG.jpg",
+              "attribution": "",
+              "label": "5"
+            },
+            {
               "caption": "This is the probable route the men took to find the southern tributary. Earth image.",
               "filename": "FROM_NORTH_TO_SOUTH_TRIB.jpg",
               "attribution": "",
-              "label": "5"
+              "label": "6"
             },
             {
               "caption": "An Earth image of Orellana's possible death site and the route downriver the men took to the sea.",
               "filename": "POSSIBLE_DEATH_SITE.jpg",
               "attribution": "",
-              "label": "6"
+              "label": "7"
             },
             {
               "caption": "An image of one of the beach's on Cubagua Island. Courtesy of Britannica.",
               "filename": "CUBAGUA_BRITANNICA.png",
               "attribution": "",
-              "label": "7"
+              "label": "8"
             }
           ]
         ],

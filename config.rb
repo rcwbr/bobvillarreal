@@ -158,10 +158,11 @@ books.each do |book|
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/YgFXyDSNB8g"
 		proxy "/#{book_data_path}/historical/sacsay/index.html", "#{book_data_path}/sacsay.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
-	elsif book["shortname"] == "prelude"
+	elsif book["shortname"] == "prelude" || book["shortname"] == "climbing"
     media_entry = {"content_path" => "historical"}
-		proxy "/#{book_data_path}/historical/roping/index.html", "#{book_data_path}/roping.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
-		proxy "/#{book_data_path}/historical/apani/index.html", "#{book_data_path}/apani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		book_source_path = 'prelude'
+		proxy "/#{book_data_path}/historical/roping/index.html", "#{book_source_path}/roping.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/apani/index.html", "#{book_source_path}/apani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry_template = {
 			"content_path" => "historical",
 			"tours" => []
@@ -172,135 +173,135 @@ books.each do |book|
 		}
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
-		proxy "/#{book_data_path}/historical/mariscal/index.html", "#{book_data_path}/mariscal.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/mariscal/index.html", "#{book_source_path}/mariscal.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/cujOvLTeKT8"
-		proxy "/#{book_data_path}/historical/storms/index.html", "#{book_data_path}/storms.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/storms/index.html", "#{book_source_path}/storms.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/5ECzp3q3LCU"
-		proxy "/#{book_data_path}/historical/la_paz_takeoff/index.html", "#{book_data_path}/la_paz_takeoff.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/la_paz_takeoff/index.html", "#{book_source_path}/la_paz_takeoff.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/i22GUZgW0mo"
-		proxy "/#{book_data_path}/historical/la_paz_landing/index.html", "#{book_data_path}/la_paz_landing.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/la_paz_landing/index.html", "#{book_source_path}/la_paz_landing.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/NqBnw08LbU8"
-		proxy "/#{book_data_path}/historical/cusco_landing/index.html", "#{book_data_path}/cusco_landing.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/cusco_landing/index.html", "#{book_source_path}/cusco_landing.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/ER2Jge7Ac7w"
-		proxy "/#{book_data_path}/historical/cusco_train/index.html", "#{book_data_path}/cusco_train.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/cusco_train/index.html", "#{book_source_path}/cusco_train.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/9YAFpPXUPlM"
-		proxy "/#{book_data_path}/historical/eruption_pichincha/index.html", "#{book_data_path}/eruption_pichincha.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/eruption_pichincha/index.html", "#{book_source_path}/eruption_pichincha.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/Iy1p_uiIgtg"
-		proxy "/#{book_data_path}/historical/eruption_tungurahua/index.html", "#{book_data_path}/eruption_tungurahua.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/eruption_tungurahua/index.html", "#{book_source_path}/eruption_tungurahua.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/cnMa-Sm9H4k"
-		proxy "/#{book_data_path}/historical/tour_machu_picchu/index.html", "#{book_data_path}/tour_machu_picchu.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/tour_machu_picchu/index.html", "#{book_source_path}/tour_machu_picchu.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/YvjDH8ElY2g"
-		proxy "/#{book_data_path}/historical/expedia_quito/index.html", "#{book_data_path}/expedia_quito.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/expedia_quito/index.html", "#{book_source_path}/expedia_quito.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/be4-_NjhKZg"
-		proxy "/#{book_data_path}/historical/asa_chimborazo/index.html", "#{book_data_path}/asa_chimborazo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/asa_chimborazo/index.html", "#{book_source_path}/asa_chimborazo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/vP05-dT07D0"
-		proxy "/#{book_data_path}/historical/bmg_illimani/index.html", "#{book_data_path}/bmg_illimani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/bmg_illimani/index.html", "#{book_source_path}/bmg_illimani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = ""
-		proxy "/#{book_data_path}/historical/polish_below/index.html", "#{book_data_path}/polish_below.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/polish_below/index.html", "#{book_source_path}/polish_below.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/Tca2ewgsBKI"
-		proxy "/#{book_data_path}/historical/polish_notch/index.html", "#{book_data_path}/polish_notch.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/polish_notch/index.html", "#{book_source_path}/polish_notch.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/B7As2LMnd0U"
-		proxy "/#{book_data_path}/historical/polish_above/index.html", "#{book_data_path}/polish_above.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/polish_above/index.html", "#{book_source_path}/polish_above.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.dailymotion.com/embed/video/x2tuahn?autoplay=1"
-		proxy "/#{book_data_path}/historical/peru_la_paz/index.html", "#{book_data_path}/peru_la_paz.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/peru_la_paz/index.html", "#{book_source_path}/peru_la_paz.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/VUr14IfSPmI"
-		proxy "/#{book_data_path}/historical/ollantaytambo/index.html", "#{book_data_path}/ollantaytambo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/ollantaytambo/index.html", "#{book_source_path}/ollantaytambo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/DNn9AYC7Zig"
-		proxy "/#{book_data_path}/historical/ollantaytambo2/index.html", "#{book_data_path}/ollantaytambo2.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/ollantaytambo2/index.html", "#{book_source_path}/ollantaytambo2.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/VyWkjBUFiio"
-		proxy "/#{book_data_path}/historical/ollantaytambo3/index.html", "#{book_data_path}/ollantaytambo3.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/ollantaytambo3/index.html", "#{book_source_path}/ollantaytambo3.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/m-rn8kElz7U"
-		proxy "/#{book_data_path}/historical/huayna_picchu/index.html", "#{book_data_path}/huayna_picchu.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/huayna_picchu/index.html", "#{book_source_path}/huayna_picchu.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/68AAAs73su8"
-		proxy "/#{book_data_path}/historical/sacsay/index.html", "#{book_data_path}/sacsay.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/sacsay/index.html", "#{book_source_path}/sacsay.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/Y6vf-2A9Reg"
-		proxy "/#{book_data_path}/historical/mp_pueblo/index.html", "#{book_data_path}/mp_pueblo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/mp_pueblo/index.html", "#{book_source_path}/mp_pueblo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/WImT7lEij_M"
-		proxy "/#{book_data_path}/historical/bus_ride/index.html", "#{book_data_path}/bus_ride.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/bus_ride/index.html", "#{book_source_path}/bus_ride.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/cbL-K_9-YB8"
-		proxy "/#{book_data_path}/historical/flyover_illimani/index.html", "#{book_data_path}/flyover_illimani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/flyover_illimani/index.html", "#{book_source_path}/flyover_illimani.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/elfdy-kUz6I"
-		proxy "/#{book_data_path}/historical/flyover_tiwanaku/index.html", "#{book_data_path}/flyover_tiwanaku.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/flyover_tiwanaku/index.html", "#{book_source_path}/flyover_tiwanaku.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/dXqU_apjvXU"
-		proxy "/#{book_data_path}/historical/la_paz_tour/index.html", "#{book_data_path}/la_paz_tour.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/la_paz_tour/index.html", "#{book_source_path}/la_paz_tour.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/xMFf0DeSrAk"
-		proxy "/#{book_data_path}/historical/la_paz_cholitas/index.html", "#{book_data_path}/la_paz_cholitas.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/la_paz_cholitas/index.html", "#{book_source_path}/la_paz_cholitas.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/LJz1Qvh-Bbw"
-		proxy "/#{book_data_path}/historical/isla_del_sol/index.html", "#{book_data_path}/isla_del_sol.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/isla_del_sol/index.html", "#{book_source_path}/isla_del_sol.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/Gkl-ilU8cdg"
-		proxy "/#{book_data_path}/historical/alpamayo/index.html", "#{book_data_path}/alpamayo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/alpamayo/index.html", "#{book_source_path}/alpamayo.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/YsyNbvJoo74"
-		proxy "/#{book_data_path}/historical/polish_direct/index.html", "#{book_data_path}/polish_direct.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/polish_direct/index.html", "#{book_source_path}/polish_direct.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/4VrbAY8flWA"
-		proxy "/#{book_data_path}/historical/santiago_mendoza/index.html", "#{book_data_path}/santiago_mendoza.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/santiago_mendoza/index.html", "#{book_source_path}/santiago_mendoza.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/bKc9m7xfOyM"
-		proxy "/#{book_data_path}/historical/los_caracoles/index.html", "#{book_data_path}/los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/los_caracoles/index.html", "#{book_source_path}/los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 		media_entry = media_entry_template.clone
 		media_entry["tours"] = [ tour_template.clone ]
 		media_entry["tours"][0]["url"] = "https://www.youtube.com/embed/nW56kQ9SjJY"
-		proxy "/#{book_data_path}/historical/driving_los_caracoles/index.html", "#{book_data_path}/driving_los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
+		proxy "/#{book_data_path}/historical/driving_los_caracoles/index.html", "#{book_source_path}/driving_los_caracoles.html", :locals => { :book => book, :media_entry => media_entry }, :ignore => true
 	end
 	if book["shortname"] == "prelude" || book["shortname"] == "chronicles"
 		media_entry_template = {

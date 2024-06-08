@@ -1,0 +1,397 @@
+---
+-
+  name: "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "quito"
+  galleries:
+    -
+      name: "Edward Whymper's description of Quito from \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Quito"
+      path: "quito"
+      filename: "../../../prelude/vought_data/sources/quito.yaml"
+      label-prefix: "Q"
+      images_per_row: 3
+-
+  name: "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier"
+  shortname: "tiwanaku"
+  galleries:
+    -
+      name: "Tiwanaku: Remnant of an Ancient Civilization by E. George Squier"
+      shortname: "Tiwanaku"
+      path: "tiwanaku"
+      filename: "../../../prelude/vought_data/sources/tiwanaku.yaml"
+      label-prefix: "T"
+      images_per_row: 3
+-
+  name: "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "pichincha"
+  galleries:
+    -
+      name: "Pichincha Peak, as described by Edward Whymper in, \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Pichincha"
+      path: "pichincha"
+      filename: "../../../prelude/vought_data/sources/pichincha.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "cayambe"
+  galleries:
+    -
+      name: "Edward Whymper's first ascent of Cayambe in \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Cayambe"
+      path: "cayambe"
+      filename: "../../../prelude/vought_data/sources/cayambe.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\""
+  shortname: "cotopaxi"
+  galleries:
+    -
+      name: "The first ascent of Cotopaxi by Edward Whymper from, \"Travels Amongst the Great Andes of the Equator.\""
+      shortname: "Cotopaxi"
+      path: "cotopaxi"
+      filename: "../../../prelude/vought_data/sources/cotopaxi.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Edward Whymper's description of the first ascent of Chimborazo."
+  shortname: "chimborazo"
+  galleries:
+    -
+      name: "Edward Whymper's description of the first ascent of Chimborazo."
+      shortname: "Chimborazo"
+      path: "chimborazo"
+      filename: "../../../prelude/vought_data/sources/chimborazo.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway."
+  shortname: "illimani"
+  galleries:
+    -
+      name: "The first ascent of Illimani from \"Climbing and Exploration in the Bolivian Andes\" by Sir Martin Conway."
+      shortname: "Illimani"
+      path: "illimani"
+      filename: "../../../prelude/vought_data/sources/illimani.yaml"
+      label-prefix: "I"
+      images_per_row: 3
+-
+  name: "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald."
+  shortname: "aconcagua"
+  galleries:
+    -
+      name: "The first ascent of Aconcagua, from \"The Highest Andes\" by E. A. Fitz Gerald."
+      shortname: "Aconcagua"
+      path: "aconcagua"
+      filename: "../../../prelude/vought_data/sources/aconcagua.yaml"
+      label-prefix: "A"
+      images_per_row: 3
+-
+  name: "South American Handbook (1990) Description of Quito."
+  shortname: "handbook"
+  galleries:
+    -
+      name: "South American Handbook (1990) Description of Quito."
+      shortname: "Handbook"
+      path: "handbook"
+      filename: "../../../prelude/vought_data/sources/handbook.yaml"
+      label-prefix: "Q"
+      images_per_row: 3
+-
+  name: "Harry A. Franck's description of Pasto, Colombia from \"Vagabonding Down the Andes.\""
+  shortname: "pasto"
+  galleries:
+    -
+      name: "Harry A. Franck's description of Pasto, Colombia from \"Vagabonding Down the Andes.\""
+      shortname: "Pasto"
+      path: "pasto"
+      filename: "../../../prelude/vought_data/sources/pasto.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "Harry A. Franck's description of the llama from \"Vagabonding Down the Andes.\""
+  shortname: "llama"
+  galleries:
+    -
+      name: "Harry A. Franck's description of the llama from \"Vagabonding Down the Andes.\""
+      shortname: "Llama"
+      path: "llama"
+      filename: "../../../prelude/vought_data/sources/llama.yaml"
+      label-prefix: "L"
+      images_per_row: 3
+-
+  name: "Machu Picchu Description by Harry A. Franck."
+  shortname: "machu"
+  galleries:
+    -
+      name: "Machu Picchu Description by Harry A. Franck."
+      shortname: "Machu Picchu"
+      path: "machu"
+      filename: "../../../prelude/vought_data/sources/machu.yaml"
+      label-prefix: "M"
+      images_per_row: 3
+-
+  name: "Description of La Paz by Harry A, Franck."
+  shortname: "lapaz"
+  galleries:
+    -
+      name: "Description of La Paz by Harry A, Franck."
+      shortname: "La Paz"
+      path: "lapaz"
+      filename: "../../../prelude/vought_data/sources/lapaz.yaml"
+      label-prefix: "L"
+      images_per_row: 3
+-
+  name: "A Description of Cusco by Harry A. Franck."
+  shortname: "cusco_franck"
+  galleries:
+    -
+      name: "A Description of Cusco by Harry A. Franck."
+      shortname: "Cusco"
+      path: "cusco_franck"
+      filename: "../../../prelude/vought_data/sources/cusco_franck.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Edward Whymper's Scientific Work to Determine Altitude."
+  shortname: "altitude"
+  galleries:
+    -
+      name: "Edward Whymper's Scientific Work to Determine Altitude."
+      shortname: "Altitude"
+      path: "altitude"
+      filename: "../../../prelude/vought_data/sources/altitude.yaml"
+      label-prefix: "A"
+      images_per_row: 3
+-
+  name: "Description of Quito by Harry A, Franck."
+  shortname: "quito_franck"
+  galleries:
+    -
+      name: "Description of Quito by Harry A, Franck."
+      shortname: "Quito"
+      path: "quito_franck"
+      filename: "../../../prelude/vought_data/sources/quito_franck.yaml"
+      label-prefix: "Q"
+      images_per_row: 3
+-
+  name: "Cusco, the Sacred City Description by E. George Squier"
+  shortname: "cusco"
+  galleries:
+    -
+      name: "Cusco, the Sacred City Description by E. George Squier"
+      shortname: "Cusco"
+      path: "C"
+      filename: "../../../prelude/vought_data/sources/cusco.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Fortress Sacsayhuaman by Victor W. Von Hagen"
+  shortname: "sacsayhuaman"
+  galleries:
+    -
+      name: "Fortress Sacsayhuaman by Victor W. Von Hagen"
+      shortname: "Sacsayhuaman"
+      path: "S"
+      filename: "../../../prelude/vought_data/sources/sacsayhuaman.yaml"
+      label-prefix: "S"
+      images_per_row: 3
+-
+  name: "Citadel Ollantaytambo by E. George Squier"
+  shortname: "ollantaytambo"
+  galleries:
+    -
+      name: "Citadel Ollantaytambo by E. George Squier"
+      shortname: "Ollantaytambo"
+      path: "O"
+      filename: "../../../prelude/vought_data/sources/ollantaytambo.yaml"
+      label-prefix: "O"
+      images_per_row: 3
+-
+  name: "Whymper's Identification of 35 Beetles in Ecuador"
+  shortname: "beetles"
+  galleries:
+    -
+      name: "Whymper's Identification of 35 Beetles in Ecuador"
+      shortname: "Beetles"
+      path: "beetles"
+      filename: "../../../prelude/vought_data/sources/beetles.yaml"
+      label-prefix: "B"
+      images_per_row: 3
+-
+  name: "Alexander von Humboldt's failed attempt to climb Chimborazo."
+  shortname: "humboldt_chimborazo"
+  galleries:
+    -
+      name: "Alexander von Humboldt's failed attempt to climb Chimborazo."
+      shortname: "Chimborazo"
+      path: "humboldt_chimborazo"
+      filename: "../../../prelude/vought_data/sources/humboldt_chimborazo.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Edward Whymper's description of the Andean condor."
+  shortname: "Edward Whymper's description of the Andean condor."
+  galleries:
+    -
+      name: "Edward Whymper's description of the Andean condor."
+      shortname: "Condor"
+      path: "condor"
+      filename: "../../../prelude/vought_data/sources/condor.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Heights of the Great Andes Peaks by Edward Whymper."
+  shortname: "Heights of the Great Andes Peaks by Edward Whymper."
+  galleries:
+    -
+      name: "Heights of the Great Andes Peaks by Edward Whymper."
+      shortname: "Heights"
+      path: "heights"
+      filename: "../../../prelude/vought_data/sources/heights.yaml"
+      label-prefix: "H"
+      images_per_row: 3
+-
+  name: "Edward Whymper's determination of the height of Chimborazo."
+  shortname: "Edward Whymper's determination of the height of Chimborazo."
+  galleries:
+    -
+      name: "Edward Whymper's determination of the height of Chimborazo."
+      shortname: "Height"
+      path: "height"
+      filename: "../../../prelude/vought_data/sources/height.yaml"
+      label-prefix: "H"
+      images_per_row: 3
+-
+  name: "An account of the ascent of the Polish Glacier route, from \"A Polish Expedition to the High Andes\" (1934) by S. W. Daszynski."
+  shortname: "An account of the ascent of the Polish Glacier route, from \"A Polish Expedition to the High Andes\" (1934) by S. W. Daszynski."
+  galleries:
+    -
+      name: "An account of the ascent of the Polish Glacier route, from \"A Polish Expedition to the High Andes\" (1934) by S. W. Daszynski."
+      shortname: "Polish"
+      path: "polish"
+      filename: "../../../prelude/vought_data/sources/polish.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "Tiwanaku, by Cieza de Leon."
+  shortname: "Tiwanaku, by Cieza de Leon."
+  galleries:
+    -
+      name: "Tiwanaku, by Cieza de Leon."
+      shortname: "Tiwanaku"
+      path: "tiwanaku_leon"
+      filename: "../../../prelude/vought_data/sources/tiwanaku_leon.yaml"
+      label-prefix: "T"
+      images_per_row: 3
+-
+  name: "Cusco, the Sacred City by Cieza de Leon."
+  shortname: "Cusco, the Sacred City by Cieza de Leon."
+  galleries:
+    -
+      name: "Cusco, the Sacred City by Cieza de Leon."
+      shortname: "Cusco"
+      path: "cusco_leon"
+      filename: "../../../prelude/vought_data/sources/cusco_leon.yaml"
+      label-prefix: "C"
+      images_per_row: 3
+-
+  name: "Lima, the City of Kings by E. George Squier"
+  shortname: "lima"
+  galleries:
+    -
+      name: "Lima, the City of Kings by E. George Squier"
+      shortname: "Lima"
+      path: "lima"
+      filename: "../../../prelude/vought_data/sources/lima.yaml"
+      label-prefix: "L"
+      images_per_row: 3
+-
+  name: "Fortress Sacsayhuaman by E. George Squier"
+  shortname: "sacsayhuaman_squier"
+  galleries:
+    -
+      name: "Fortress Sacsayhuaman by E. George Squier"
+      shortname: "sacsayhuaman_squier"
+      path: "sacsayhuaman_squier"
+      filename: "../../../prelude/vought_data/sources/sacsayhuaman_squier.yaml"
+      label-prefix: "S"
+      images_per_row: 3
+-
+  name: "William H. Prescott's Description of the Assassination of Francisco Pizarro"
+  shortname: "assassination"
+  galleries:
+    -
+      name: "William H. Prescott's Description of the Assassination of Francisco Pizarro"
+      shortname: "Assassination"
+      path: "assassination"
+      filename: "../../../prelude/vought_data/sources/assassination.yaml"
+      label-prefix: "A"
+      images_per_row: 3
+-
+  name: "William H. Prescott's Portrait of Marquess Francisco Pizarro"
+  shortname: "francisco_prescott"
+  galleries:
+    -
+      name: "William H. Prescott's Portrait of Marquess Francisco Pizarro"
+      shortname: "Francisco"
+      path: "francisco_prescott"
+      filename: "../../../prelude/vought_data/sources/francisco_prescott.yaml"
+      label-prefix: "F"
+      images_per_row: 3
+-
+  name: "Description of Pachacamac by E. George Squier"
+  shortname: "pachacamac"
+  galleries:
+    -
+      name: "Description of Pachacamac by E. George Squier"
+      shortname: "Pachacamac"
+      path: "pachacamac"
+      filename: "../../../prelude/vought_data/sources/pachacamac.yaml"
+      label-prefix: "P"
+      images_per_row: 3
+-
+  name: "High Altitude Archaeological sites in the Andes, by Johan Reinhard in \"The Inca Maiden.\""
+  shortname: "reinhard_sites"
+  galleries:
+    -
+      name: "High Altitude Archaeological sites in the Andes, by Johan Reinhard in \"The Inca Maiden.\""
+      shortname: "Reinhard Sites"
+      path: "reinhard_sites"
+      filename: "../../../prelude/vought_data/sources/reinhard_sites.yaml"
+      label-prefix: "R"
+      images_per_row: 3
+-
+  name: "A Description of Buenos Aires by Harry A. Franck, from \"Working North From Patagonia.\""
+  shortname: "buenos_aires"
+  galleries:
+    -
+      name: "A Description of Buenos Aires by Harry A. Franck, from \"Working North From Patagonia.\""
+      shortname: "Buenos Aires"
+      path: "buenos_aires"
+      filename: "../../../prelude/vought_data/sources/buenos_aires.yaml"
+      label-prefix: "B"
+      images_per_row: 3
+-
+  name: "A description of Santiago de Chile by Harry A. Franck, from \"Working North From Patagonia.\""
+  shortname: "santiago_franck"
+  galleries:
+    -
+      name: "A description of Santiago de Chile by Harry A. Franck, from \"Working North From Patagonia.\""
+      shortname: "Santiago"
+      path: "santiago_franck"
+      filename: "../../../prelude/vought_data/sources/santiago_franck.yaml"
+      label-prefix: "S"
+      images_per_row: 3
+-
+  name: "A description of Mendoza by Harry A. Franck, from \"Working North From Patagonia.\""
+  shortname: "mendoza_franck"
+  galleries:
+    -
+      name: "A description of Mendoza by Harry A. Franck, from \"Working North From Patagonia.\""
+      shortname: "Mendoza"
+      path: "mendoza_franck"
+      filename: "../../../prelude/vought_data/sources/mendoza_franck.yaml"
+      label-prefix: "M"
+      images_per_row: 3

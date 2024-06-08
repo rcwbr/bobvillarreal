@@ -4,6 +4,12 @@
   shortname: "prelude"
   galleries:
     -
+      name: "Climbing in the Tetons"
+      shortname: "Tetons"
+      path: "tetons"
+      filename: "../../../prelude/ikarus_data/galleries/tetons.yaml"
+      label-prefix: "T"
+    -
       name: "The Expedition to Ecuador in January, 1989."
       shortname: "The Expedition to Ecuador in January, 1989."
       path: "E"
@@ -15,6 +21,12 @@
       path: "B"
       filename: "../../../prelude/ikarus_data/galleries/bolivia.yaml"
       label-prefix: "B"
+    -
+      name: "A Visit to Machu Picchu"
+      shortname: "A Visit to Machu Picchu"
+      path: "machu_picchu"
+      filename: "../../../prelude/ikarus_data/galleries/machu_picchu.yaml"
+      label-prefix: "M"
     -
       name: "The Expedition to Aconcagua in January, 1991."
       shortname: "The Expedition to Aconcagua in January, 1991."
@@ -88,7 +100,7 @@
     -
       name: "Appendix C | Apani the Indian"
       shortname: "Appendix C"
-      path: "C"
+      path: "3V"
       filename: "../../../chronicles/ikarus_data/galleries/3V.yaml"
       label-prefix: "3V"
 

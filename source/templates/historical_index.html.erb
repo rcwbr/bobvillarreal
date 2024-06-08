@@ -172,7 +172,7 @@ index_page: true
   <h1 class="media-header"><%= media_manager["content_longname"] || "Galleries" %></h1>
   <% if book["shortname"] == "chronicles"
     chronicles_index(book, media_manager, media)
-  elsif book["shortname"] == "prelude"
+  elsif book["shortname"] == "prelude" || book["shortname"] == "climbing"
     prelude_index(book, media_manager, media)
   elsif book["shortname"] == "az"
     az_index(book, media_manager, media)
