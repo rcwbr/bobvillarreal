@@ -66,12 +66,12 @@
       label-prefix: "C"
       images_per_row: 3
 -
-  name: "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina."
+  name: "The Biography of Padre Gaspar de Carvajal, by Jos&eacute; Toribio Medina."
   shortname: "carvahal_medina"
   galleries:
     -
-      name: "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina."
-      shortname: "Carvahal Medina"
+      name: "The Biography of Padre Gaspar de Carvajal, by Jos&eacute; Toribio Medina."
+      shortname: "Carvajal Medina"
       path: "carvahal_medina"
       filename: "carvahal_medina.yaml"
       label-prefix: "C"

@@ -386,5 +386,23 @@
     "other_book_location": "index.html",
     "use_chapters": false,
     "media_home": "galleries"
+  },
+  {
+    "shortname": "belalcazar",
+    "title": "THE LIFE AND TIMES OF SEBASTIÁN DE BELALCÁZAR (1490-1551), AS TOLD BY HIS FIRST COUSIN, BERNABÉ MOYANO DE CÓRDOBA",
+    "home_title_text": "THE LIFE AND TIMES OF SEBASTIÁN DE BELALCÁZAR (1490-1551), AS TOLD BY HIS FIRST COUSIN, BERNABÉ MOYANO DE CÓRDOBA",
+    "subtitle": "",
+    "styles": {
+      "background_color": "#612424",
+      "color_one": "white",
+      "color_two": "white",
+      "color_three": "white",
+      "header_font": "Playfair Display",
+      "header_text_decoration": "underline"
+    },
+    "other_book_menu_text": "All Books",
+    "other_book_location": "index.html",
+    "use_chapters": false,
+    "media_home": "galleries"
   }
 ]

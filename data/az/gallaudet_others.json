@@ -518,13 +518,13 @@
     }
   },
   {
-    "shortname": "Carvahal Medina",
-    "name": "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina.",
+    "shortname": "Carvajal Medina",
+    "name": "The Biography of Padre Gaspar de Carvajal, by Jos&eacute; Toribio Medina.",
     "path": "carvahal_medina",
     "media": {
       "vought_data": {
-        "name": "The Biography of Padre Gaspar de Carvahal, by Jos&eacute; Toribio Medina.",
-        "shortname": "Carvahal Medina",
+        "name": "The Biography of Padre Gaspar de Carvajal, by Jos&eacute; Toribio Medina.",
+        "shortname": "Carvajal Medina",
         "path": "carvahal_medina",
         "filename": "carvahal_medina.yaml",
         "label-prefix": "C",
