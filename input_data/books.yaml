@@ -302,7 +302,7 @@
 -
   shortname: "climbing"
   title: "A CHRONICLE OF AN ANDEAN CLIMBING CAREER, THE FIRST THREE EXPEDITIONS WITH A NOTABLE CLIMBING COMPANY, THE FOLLOWING TWENTY-SEVEN PRIMARILY ALONE AND SOLO, AS TOLD IN EXCERPTS FROM \"THE PRELUDE TO CLAWING FOR THE STARS\" AND \"CLAWING FOR THE STARS.\""
-  home_title_text: "Climbing the Great Andes"
+  home_title_text: "The Sacred Sanctuary of the Great Andes Mountains"
   subtitle: ""
   styles:
     background-image: "clawing/clawing-background-darkest.png"
@@ -347,8 +347,8 @@
   media_home: "galleries"
 -
   shortname: "belalcazar"
-  title: "THE LIFE AND TIMES OF SEBASTIÁN DE BELALCÁZAR (1490-1551), AS TOLD BY HIS FIRST COUSIN, BERNABÉ MOYANO DE CÓRDOBA"
-  home_title_text: "THE LIFE AND TIMES OF SEBASTIÁN DE BELALCÁZAR (1490-1551), AS TOLD BY HIS FIRST COUSIN, BERNABÉ MOYANO DE CÓRDOBA"
+  title: "THE LIFE AND TIMES OF SEBASTIÁN DE BELALCÁZAR (1490-1551), AS TOLD BY HIS NEPHEW, BERNABÉ MOYANO DE CÓRDOBA"
+  home_title_text: "THE LIFE AND TIMES OF SEBASTIÁN DE BELALCÁZAR (1490-1551), AS TOLD BY HIS NEPHEW, BERNABÉ MOYANO DE CÓRDOBA"
   subtitle: ""
   styles:
     background_color: "#612424"
